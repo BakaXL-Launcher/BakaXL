@@ -1,0 +1,141 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <sys:String x:Key="BakaPublicTitle">BakaXL - Minecraft Launcher</sys:String>
+    <sys:String x:Key="MainWelcome">Welcome</sys:String>
+    <sys:String x:Key="SetLanguage">Set your Language</sys:String>
+
+    <sys:String x:Key="Button_OK">Ok</sys:String>
+    <sys:String x:Key="Button_No">No</sys:String>
+    <sys:String x:Key="Button_Restart">Restart</sys:String>
+    <sys:String x:Key="Button_NextStep">Next</sys:String>
+    <sys:String x:Key="Button_Back">Back</sys:String>
+
+    <sys:String x:Key="Communication">Connecting to BakaXL Server</sys:String>
+
+    <sys:String x:Key="Lang_Title">Change BakaXL Display Language</sys:String>
+    <sys:String x:Key="Lang_JoinTranslate">Join the 'BakaXL Translate Project' today at http://Baka.PokeMMC.com/Language/</sys:String>
+    <sys:String x:Key="Lang_Watermark">Choose a Language</sys:String>
+    <sys:String x:Key="Lang_Tips">After selecting your language, BakaXL will change the display language automatically.</sys:String>
+
+    <sys:String x:Key="Home_Hello">Hi!</sys:String>
+    <sys:String x:Key="Home_Theme">Theme</sys:String>
+    <sys:String x:Key="Home_SelectCore">Core</sys:String>
+    <sys:String x:Key="Home_Website">Website</sys:String>
+    <sys:String x:Key="Home_MailBox">Mailbox</sys:String>
+    <sys:String x:Key="Home_NewFeature">New Feature</sys:String>
+    <sys:String x:Key="Home_EShop">E-Shop</sys:String>
+    <sys:String x:Key="Home_Settings">Settings</sys:String>
+    <sys:String x:Key="Home_AuthMode">Authentication Mode</sys:String>
+    <sys:String x:Key="Home_Launch">Launch Game</sys:String>
+    <sys:String x:Key="Home_ServerMotd">Server's Motd</sys:String>
+    <sys:String x:Key="Home_TapToSee">Tap to see</sys:String>
+    <sys:String x:Key="Home_CoreTools">ModPack Tools</sys:String>
+    <sys:String x:Key="Home_ThemePunlic">Personalization</sys:String>
+    <sys:String x:Key="Home_BakaPlaza">Baka Plaza</sys:String>
+    <sys:String x:Key="Home_Tips">BakaXL Tips!</sys:String>
+
+    <sys:String x:Key="AuthMode_Online">Online</sys:String>
+    <sys:String x:Key="AuthMode_Offline">Offline</sys:String>
+
+    <sys:String x:Key="BakaCrasher_MainTitle">Oops!BakaXL has something wrong!</sys:String>
+    <sys:String x:Key="BakaCrasher_Tips">Sorry, something caused BakaXL carsh and restart.We are sorry about that.</sys:String>
+    <sys:String x:Key="BakaCrasher_ErrInfo">Carsh Report</sys:String>
+    <sys:String x:Key="BakaCrasher_GenScTips">Report</sys:String>
+    <sys:String x:Key="BakaCrasher_GenScButton">Screenshot</sys:String>
+    <sys:String x:Key="BakaCrasher_BackTips">Back to Home</sys:String>
+    <sys:String x:Key="BakaCrasher_Report">Report</sys:String>
+    <sys:String x:Key="BakaCrasher_UnderTips">If you wish to help us fix the problem, click Report button.</sys:String>
+
+    <sys:String x:Key="FirstScreen_Loading">Prepareing...</sys:String>
+
+    <sys:String x:Key="SetUpGuide_Loading">Prepareing BakaXL...</sys:String>
+    <sys:String x:Key="SetUpGuide_Loading_1">Create Config File...</sys:String>
+    <sys:String x:Key="SetUpGuide_Loading_2">BakaXL Body Check...</sys:String>
+    <sys:String x:Key="SetUpGuide_Loading_3">Waiting...</sys:String>
+    <sys:String x:Key="SetUpGuide_Loading_4">Prepareing: BakaPlaza...</sys:String>
+    <sys:String x:Key="SetUpGuide_Loading_5">Prepareing: Resource Management System...</sys:String>
+    <sys:String x:Key="SetUpGuide_Loading_6">Prepareing: Settings...</sys:String>
+    <sys:String x:Key="SetUpGuide_Loading_7">Prepareing: Game Launch System...</sys:String>
+    <sys:String x:Key="SetUpGuide_Loading_8">Finished!</sys:String>
+
+    <sys:String x:Key="PlayerInfoFlyout_Title">Personal Information</sys:String>
+    <sys:String x:Key="PlayerInfoFlyout_Thx">Thank you for choosing BakaXL</sys:String>
+    <sys:String x:Key="PlayerInfoFlyout_Tucao">Report</sys:String>
+    <sys:String x:Key="PlayerInfoFlyout_Hi">Hi there!</sys:String>
+    <sys:String x:Key="PlayerInfoFlyout_Memory">Memory</sys:String>
+    <sys:String x:Key="PlayerInfoFlyout_AutoMemory">Auto memory</sys:String>
+    <sys:String x:Key="PlayerInfoFlyout_UseOnline">Online mode</sys:String>
+    <sys:String x:Key="PlayerInfoFlyout_UseOnlineTips">You need setup your Mojang Account&#x000A;at Setting Pannel</sys:String>
+    <sys:String x:Key="PlayerInfoFlyout_AutoJoin">Auto join server</sys:String>
+    <sys:String x:Key="PlayerInfoFlyout_AutoJoinTips">You need setup the Server IP Address&#x000A;at Setting Pannel</sys:String>
+    <sys:String x:Key="PlayerInfoFlyout_MoreSettings">Visit setting pannel for more settings</sys:String>
+
+    <sys:String x:Key="ErrorFlyout_Title">Oops!Something Error!</sys:String>
+
+    <sys:String x:Key="DownloadManagement_Title">BakaXL Download Management</sys:String>
+    <sys:String x:Key="DownloadManagement_NoFile">Nothing need to Download</sys:String>
+    <sys:String x:Key="DownloadManagement_NoFileTips">No Download</sys:String>
+    <sys:String x:Key="DownloadManagement_Tips_1">BakaXL will automatically start download when you need it.</sys:String>
+    <sys:String x:Key="DownloadManagement_Tips_2">Just keep your Internet communication and wait :)</sys:String>
+
+    <sys:String x:Key="Settings_Title">BakaXL Settings</sys:String>
+    <sys:String x:Key="Settings_Tips">Tab to set</sys:String>
+
+    <sys:String xml:space="preserve" x:Key="Settings_HelpTips">Tap the Tile to open the settings panel.&#xD;&#xA;BakaXL Configuration will save automatically.</sys:String>
+    <sys:String xml:space="preserve" x:Key="Settings_HelpTips_SideAni">· BakaXL Settings&#xA;&#xA;· Nyanyanyanyan</sys:String>
+
+    <sys:String x:Key="Settings_PlayerSettings">Player Information</sys:String>
+    <sys:String x:Key="Settings_PlayerSettings_Tab">Player Information</sys:String>
+    <sys:String xml:space="preserve" x:Key="Settings_PlayerSettings_Tips">· Change your GameID&#xD;&#xA;&#xD;&#xA;· Login your Mojang Account&#xD;&#xA;&#xD;&#xA;· Change the login mode</sys:String>
+    <sys:String x:Key="Settings_PlayerSettings_GameID">Game ID</sys:String>
+    <sys:String x:Key="Settings_PlayerSettings_MojangEmail">Mojang Email</sys:String>
+    <sys:String x:Key="Settings_PlayerSettings_MojangPassword">Password</sys:String>
+    <sys:String x:Key="Settings_PlayerSettings_Mode">Mojang Account</sys:String>
+    <sys:String x:Key="Settings_PlayerSettings_ModeST">Game launch mode</sys:String>
+    <sys:String x:Key="Settings_PlayerSettings_ModeTips">Use offline mode if you don't purchase Minecraft.</sys:String>
+    
+    <sys:String x:Key="Settings_SystemSettings">System Information</sys:String>
+    <sys:String x:Key="Settings_SystemSettings_Tab">System</sys:String>
+    <sys:String xml:space="preserve" x:Key="Settings_SystemSettings_Tips">· Background Music&#xD;&#xA;&#xD;&#xA;· Minecraft running Memory&#xD;&#xA;&#xD;&#xA;· Choose your Java path&#xD;&#xA;&#xD;&#xA;· Choose the way game start</sys:String>
+    <sys:String x:Key="Settings_SystemSettings_Memory">Memory</sys:String>
+    <sys:String x:Key="Settings_SystemSettings_AutoMemory">Auto Memory</sys:String>
+    <sys:String x:Key="Settings_SystemSettings_JavaPath">Java Path</sys:String>
+    <sys:String x:Key="Settings_SystemSettings_AutoJava">Auto</sys:String>
+    <sys:String x:Key="Settings_SystemSettings_ManualJava">Manual</sys:String>
+    <sys:String x:Key="Settings_SystemSettings_BGM">BakaXL Music</sys:String>
+    <sys:String x:Key="Settings_SystemSettings_CloseAfterLaunch">Exit when game launched(Not recommended)</sys:String>
+    <sys:String x:Key="Settings_SystemSettings_CloseAfterLaunch_Tip">Not recommended option,it will disable the Game Protection Function.</sys:String>
+    <sys:String x:Key="Settings_SystemSettings_BGMTip">Control the Background music of BakaXL</sys:String>
+    <sys:String x:Key="Settings_SystemSettings_StopBGMLF">Stop music when window lost focus</sys:String>
+    <sys:String x:Key="Settings_SystemSettings_StopBGMLF_Tips">Background music will automatically stop when you not using BakaXL.</sys:String>
+    
+    <sys:String x:Key="Settings_AdvanceSettings">Advanced Settings</sys:String>
+    <sys:String x:Key="Settings_AdvanceSettings_Tab">Advanced</sys:String>
+    <sys:String xml:space="preserve" x:Key="Settings_AdvanceSettings_Tips">· Auto join server&#xD;&#xA;&#xD;&#xA;· JVM Args&#xD;&#xA;&#xD;&#xA;· DEBUG Mode</sys:String>
+    <sys:String x:Key="Settings_AdvanceSettings_ForceExit">Force Exit</sys:String>
+    <sys:String x:Key="Settings_AdvanceSettings_AutoJoin">Auto join server</sys:String>
+    <sys:String x:Key="Settings_AdvanceSettings_GameTitle">Game Title</sys:String>
+    <sys:String x:Key="Settings_AdvanceSettings_AutoJoinIP">Server IP</sys:String>
+    <sys:String x:Key="Settings_AdvanceSettings_JvmArg">JVM Args</sys:String>
+    <sys:String x:Key="Settings_AdvanceSettings_JvmArgTips">Keep empty if you don't want to use this function.</sys:String>
+    <sys:String x:Key="Settings_AdvanceSettings_AutoFix">Automatically download missing Assets and Libraries.</sys:String>
+
+    <sys:String x:Key="Settings_PlazaSettings">Baka Plaza</sys:String>
+    <sys:String x:Key="Settings_PlazaSettings_Tab">BakaPlaza</sys:String>
+    <sys:String xml:space="preserve" x:Key="Settings_PlazaSettings_Tips">· Baka Plaza Notification&#xD;&#xA;&#xD;&#xA;· Auto Update Resources&#xD;&#xA;&#xD;&#xA;· Choose Baka Plaza Region</sys:String>
+    <sys:String x:Key="Settings_PlazaSettings_SaveData">Save Data Mode</sys:String>
+    <sys:String x:Key="Settings_PlazaSettings_SaveDataTips">Baka Plaza will disable video content</sys:String>
+    <sys:String x:Key="Settings_PlazaSettings_SaveDataBacText">Data</sys:String>
+    <sys:String x:Key="Settings_PlazaSettings_ChildrenProtect">Parental Controls</sys:String>
+    <sys:String x:Key="Settings_PlazaSettings_NoModUpdate">Don't check update for Mods</sys:String>
+
+    <sys:String x:Key="Settings_BakaInfo">About</sys:String>
+
+    <!--<sys:String xml:space="preserve" x:Key="CoreTools_HomeText">BakaXL ModPack&#xD;&#xA;Import/Export</sys:String>-->
+
+    <sys:String x:Key="PlazaAlaert_Title">BakaPlaza Request to show content in Simplified Chinese</sys:String>
+    <sys:String x:Key="PlazaAlaert_Content">Before we provide services in your language, BakaPlaza is only able to show content in "Simplified Chinese (China)"</sys:String>
+
+</ResourceDictionary>
