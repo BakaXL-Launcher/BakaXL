@@ -1,0 +1,141 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <sys:String x:Key="BakaPublicTitle">BakaXL - Minecraft启动器</sys:String>
+    <sys:String x:Key="MainWelcome">欢迎</sys:String>
+    <sys:String x:Key="SetLanguage">设置您的语言</sys:String>
+
+    <sys:String x:Key="Button_OK">好</sys:String>
+    <sys:String x:Key="Button_No">否</sys:String>
+    <sys:String x:Key="Button_Restart">重新启动</sys:String>
+    <sys:String x:Key="Button_NextStep">下一步</sys:String>
+    <sys:String x:Key="Button_Back">返回</sys:String>
+
+    <sys:String x:Key="Communication">BakaXL正在收取服务器通信数据</sys:String>
+
+    <sys:String x:Key="Lang_Title">设置BakaXL显示语言</sys:String>
+    <sys:String x:Key="Lang_JoinTranslate">您可以访问 http://Baka.PokeMMC.com/Language/ 参与BakaXL翻译工作</sys:String>
+    <sys:String x:Key="Lang_Watermark">选择您的语言</sys:String>
+    <sys:String x:Key="Lang_Tips">在选择您的语言后，BakaXL将会自动更改显示语言</sys:String>
+
+    <sys:String x:Key="Home_Hello">您好</sys:String>
+    <sys:String x:Key="Home_Theme">主题</sys:String>
+    <sys:String x:Key="Home_SelectCore">选择核心</sys:String>
+    <sys:String x:Key="Home_Website">访问官网</sys:String>
+    <sys:String x:Key="Home_MailBox">信箱</sys:String>
+    <sys:String x:Key="Home_NewFeature">新特性</sys:String>
+    <sys:String x:Key="Home_EShop">E-Shop</sys:String>
+    <sys:String x:Key="Home_Settings">本体设置</sys:String>
+    <sys:String x:Key="Home_AuthMode">验证模式</sys:String>
+    <sys:String x:Key="Home_Launch">启动游戏</sys:String>
+    <sys:String x:Key="Home_ServerMotd">服务器公告</sys:String>
+    <sys:String x:Key="Home_TapToSee">点击查看</sys:String>
+    <sys:String x:Key="Home_CoreTools">整合包工具</sys:String>
+    <sys:String x:Key="Home_ThemePunlic">BakaXL个性化设置</sys:String>
+    <sys:String x:Key="Home_BakaPlaza">笨蛋广场</sys:String>
+    <sys:String x:Key="Home_Tips">BakaXL贴士</sys:String>
+
+    <sys:String x:Key="AuthMode_Online">正版登录</sys:String>
+    <sys:String x:Key="AuthMode_Offline">离线模式</sys:String>
+
+    <sys:String x:Key="BakaCrasher_MainTitle">正如你所见，BakaXL发生了一个无法处理的异常</sys:String>
+    <sys:String x:Key="BakaCrasher_Tips">很抱歉，我们出现了一个傻逼的异常（是的，一个异常），我们对给您带来的不便深表歉意</sys:String>
+    <sys:String x:Key="BakaCrasher_ErrInfo">这是有关本次错误的详细信息</sys:String>
+    <sys:String x:Key="BakaCrasher_GenScTips">用崩坏的笨蛋罐头砸TT的头</sys:String>
+    <sys:String x:Key="BakaCrasher_GenScButton">生成错误报告截图</sys:String>
+    <sys:String x:Key="BakaCrasher_BackTips">返回BakaXL主界面</sys:String>
+    <sys:String x:Key="BakaCrasher_Report">向我们反馈此问题</sys:String>
+    <sys:String x:Key="BakaCrasher_UnderTips">您遇到的错误已被BakaXL笨蛋崩坏罐头收集并盖好盖子，若要封印该问题，您需要将本页面的截图发送给TT</sys:String>
+
+    <sys:String x:Key="FirstScreen_Loading">正在处理一些事情</sys:String>
+    
+    <sys:String x:Key="SetUpGuide_Loading">正在为第一次运行BakaXL做准备…</sys:String>
+    <sys:String x:Key="SetUpGuide_Loading_1">创建BakaXL配置文件…</sys:String>
+    <sys:String x:Key="SetUpGuide_Loading_2">BakaXL正在被怪蜀黍检查身体…</sys:String>
+    <sys:String x:Key="SetUpGuide_Loading_3">BakaXL与少女一起祈祷中…</sys:String>
+    <sys:String x:Key="SetUpGuide_Loading_4">BakaXL正在初始化：笨蛋广场</sys:String>
+    <sys:String x:Key="SetUpGuide_Loading_5">BakaXL正在初始化：游戏资源处理系统</sys:String>
+    <sys:String x:Key="SetUpGuide_Loading_6">BakaXL正在初始化：本体设置</sys:String>
+    <sys:String x:Key="SetUpGuide_Loading_7">BakaXL正在初始化：游戏启动</sys:String>
+    <sys:String x:Key="SetUpGuide_Loading_8">BakaXL初始化准备完成！</sys:String>
+
+    <sys:String x:Key="PlayerInfoFlyout_Title">您的个人信息</sys:String>
+    <sys:String x:Key="PlayerInfoFlyout_Thx">感谢您使用BakaXL启动器</sys:String>
+    <sys:String x:Key="PlayerInfoFlyout_Tucao">来一发吐槽</sys:String>
+    <sys:String x:Key="PlayerInfoFlyout_Hi">您好！</sys:String>
+    <sys:String x:Key="PlayerInfoFlyout_Memory">内存设置</sys:String>
+    <sys:String x:Key="PlayerInfoFlyout_AutoMemory">自动设置内存</sys:String>
+    <sys:String x:Key="PlayerInfoFlyout_UseOnline">使用正版验证</sys:String>
+    <sys:String x:Key="PlayerInfoFlyout_UseOnlineTips">您需要在本体设置 - 玩家个人信息内&#x000A;设置你的正版账号后才能使用本项</sys:String>
+    <sys:String x:Key="PlayerInfoFlyout_AutoJoin">自动加入服务器</sys:String>
+    <sys:String x:Key="PlayerInfoFlyout_AutoJoinTips">你需要在本体设置—高级设置内&#x000A;设置服务器地址才可以设置本项目</sys:String>
+    <sys:String x:Key="PlayerInfoFlyout_MoreSettings">更多设置请进入本体设置中更改</sys:String>
+
+    <sys:String x:Key="ErrorFlyout_Title">啊哦！出现了点错误！</sys:String>
+
+    <sys:String x:Key="DownloadManagement_Title">BakaXL文件下载管理器</sys:String>
+    <sys:String x:Key="DownloadManagement_NoFile">目前没有文件在下载</sys:String>
+    <sys:String x:Key="DownloadManagement_NoFileTips">目前暂无任何下载安排</sys:String>
+    <sys:String x:Key="DownloadManagement_Tips_1">BakaXL将会在您需要进行下载等操作时自动开始下载这些文件</sys:String>
+    <sys:String x:Key="DownloadManagement_Tips_2">我们建议您在BakaXL进行这些文件的下载时保持网络连接并且不要操作这些文件</sys:String>
+
+    <sys:String x:Key="Settings_Title">BakaXL本体设置</sys:String>
+    <sys:String x:Key="Settings_Tips">轻按左边的色块来进入设置</sys:String>
+
+    <sys:String xml:space="preserve" x:Key="Settings_HelpTips">您可以轻按磁贴色块来进入详细设定画面。&#xD;&#xA;设置将会在返回主界面后自动保存。</sys:String>
+    <sys:String xml:space="preserve" x:Key="Settings_HelpTips_SideAni">· BakaXL本体设置&#xA;&#xA;· Oh♂Yes♂Sir!</sys:String>
+
+    <sys:String x:Key="Settings_PlayerSettings">玩家信息设置</sys:String>
+    <sys:String x:Key="Settings_PlayerSettings_Tab">玩家个人信息</sys:String>
+    <sys:String xml:space="preserve" x:Key="Settings_PlayerSettings_Tips">· 设置运行Minecraft时使用的游戏ID&#xD;&#xA;&#xD;&#xA;· 登录您的Mojang正版账户&#xD;&#xA;&#xD;&#xA;· 设置登录验证模式</sys:String>
+    <sys:String x:Key="Settings_PlayerSettings_GameID">游戏ID</sys:String>
+    <sys:String x:Key="Settings_PlayerSettings_MojangEmail">正版账户邮箱</sys:String>
+    <sys:String x:Key="Settings_PlayerSettings_MojangPassword">正版账户登录密码</sys:String>
+    <sys:String x:Key="Settings_PlayerSettings_Mode">Mojang正版账户</sys:String>
+    <sys:String x:Key="Settings_PlayerSettings_ModeST">游戏启动模式</sys:String>
+    <sys:String x:Key="Settings_PlayerSettings_ModeTips">若您没有购买正版Minecraft，请使用离线模式进行游戏</sys:String>
+
+    <sys:String x:Key="Settings_SystemSettings">系统信息设置</sys:String>
+    <sys:String x:Key="Settings_SystemSettings_Tab">系统信息</sys:String>
+    <sys:String xml:space="preserve" x:Key="Settings_SystemSettings_Tips">· 打开或关闭BakaXL的背景音乐&#xD;&#xA;&#xD;&#xA;· 设置Minecraft的可用内存&#xD;&#xA;&#xD;&#xA;· 选择并设置您Java的位置&#xD;&#xA;&#xD;&#xA;· 设置您的游戏启动方式</sys:String>
+    <sys:String x:Key="Settings_SystemSettings_Memory">内存设置</sys:String>
+    <sys:String x:Key="Settings_SystemSettings_AutoMemory">自动智能配置内存</sys:String>
+    <sys:String x:Key="Settings_SystemSettings_JavaPath">Java路径</sys:String>
+    <sys:String x:Key="Settings_SystemSettings_AutoJava">自动定位</sys:String>
+    <sys:String x:Key="Settings_SystemSettings_ManualJava">手动定位</sys:String>
+    <sys:String x:Key="Settings_SystemSettings_BGM">BakaXL背景音乐</sys:String>
+    <sys:String x:Key="Settings_SystemSettings_CloseAfterLaunch">在启动游戏完成后自动退出BakaXL（不推荐）</sys:String>
+    <sys:String x:Key="Settings_SystemSettings_CloseAfterLaunch_Tip">我们不推荐您这么做，这样您会失去游戏内存保护以及自动诊断错误等功能！</sys:String>
+    <sys:String x:Key="Settings_SystemSettings_BGMTip">此开关将控制BakaXL主题所提供的程序背景音乐</sys:String>
+    <sys:String x:Key="Settings_SystemSettings_StopBGMLF">失去焦点时自动停止背景音乐</sys:String>
+    <sys:String x:Key="Settings_SystemSettings_StopBGMLF_Tips">当你目前活动的窗口不在BakaXL的时候，会自动停止播放音乐</sys:String>
+
+    <sys:String x:Key="Settings_AdvanceSettings">高级设置</sys:String>
+    <sys:String x:Key="Settings_AdvanceSettings_Tab">高级设置</sys:String>
+    <sys:String xml:space="preserve" x:Key="Settings_AdvanceSettings_Tips">· 配置BakaXL的高级功能&#xD;&#xA;&#xD;&#xA;· 设置附加游戏启动命令&#xD;&#xA;&#xD;&#xA;· 通过调试模式启动游戏</sys:String>
+    <sys:String x:Key="Settings_AdvanceSettings_ForceExit">退出时强制结束进程(避免在某些情况下导致BakaXL退出后依然驻留在进程内)</sys:String>
+    <sys:String x:Key="Settings_AdvanceSettings_AutoJoin">启动游戏后自动加入服务器</sys:String>
+    <sys:String x:Key="Settings_AdvanceSettings_GameTitle">游戏窗口标题</sys:String>
+    <sys:String x:Key="Settings_AdvanceSettings_AutoJoinIP">启动后自动连接IP</sys:String>
+    <sys:String x:Key="Settings_AdvanceSettings_JvmArg">高级启动参数</sys:String>
+    <sys:String x:Key="Settings_AdvanceSettings_JvmArgTips">仅在有特殊需要时才使用，需要正确填写参数，普通玩家无需使用此功能，建议留空</sys:String>
+    <sys:String x:Key="Settings_AdvanceSettings_AutoFix">开启智能文件修复提醒（将在你切换版本的时候并且没有后台下载的时候提醒你丢失文件）</sys:String>
+
+    <sys:String x:Key="Settings_PlazaSettings">笨蛋广场设置</sys:String>
+    <sys:String x:Key="Settings_PlazaSettings_Tab">笨蛋广场设置</sys:String>
+    <sys:String xml:space="preserve" x:Key="Settings_PlazaSettings_Tips">· 设置笨蛋广场的通知方式&#xD;&#xA;&#xD;&#xA;· 设置资源的自动更新&#xD;&#xA;&#xD;&#xA;· 调整笨蛋广场的地区</sys:String>
+    <sys:String x:Key="Settings_PlazaSettings_SaveData">省流量模式</sys:String>
+    <sys:String x:Key="Settings_PlazaSettings_SaveDataTips">在使用计费互联网连接时开启，笨蛋广场将不会加载视频等内容</sys:String>
+    <sys:String x:Key="Settings_PlazaSettings_SaveDataBacText">省流量</sys:String>
+    <sys:String x:Key="Settings_PlazaSettings_ChildrenProtect">限制笨蛋广场部分功能以保护未成年用户</sys:String>
+    <sys:String x:Key="Settings_PlazaSettings_NoModUpdate">禁止笨蛋广场收取模组更新</sys:String>
+
+    <sys:String x:Key="Settings_BakaInfo">本体信息</sys:String>
+
+    <!--<sys:String x:Key="CoreTools_HomeText">BakaXL整合包工具</sys:String>-->
+
+    <sys:String x:Key="PlazaAlaert_Title">笨蛋广场 内的部分内容要求强制使用默认显示语言</sys:String>
+    <sys:String x:Key="PlazaAlaert_Content">在我们开放针对您所使用语言的 笨蛋广场 服务之前，笨蛋广场 内的部分信息将会强制使用 简体中文（中国） 语言来显示。</sys:String>
+
+</ResourceDictionary>
