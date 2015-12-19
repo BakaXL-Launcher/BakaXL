@@ -46,7 +46,7 @@
     <sys:String x:Key="BakaCrasher_GenScButton">生成錯誤報告截圖</sys:String>
     <sys:String x:Key="BakaCrasher_BackTips">返回BakaXL主界面</sys:String>
     <sys:String x:Key="BakaCrasher_Report">向我們反饋此問題</sys:String>
-    <sys:String x:Key="BakaCrasher_UnderTips">您遇到的錯誤已被BakaXL笨蛋崩壞罐頭收集並蓋好蓋子，若要封印該問題，您需要將本頁面的截圖發送給TT</sys: String>
+    <sys:String x:Key="BakaCrasher_UnderTips">您遇到的錯誤已被BakaXL笨蛋崩壞罐頭收集並蓋好蓋子，若要封印該問題，您需要將本頁面的截圖發送給TT</sys:String>
 
     <sys:String x:Key="FirstScreen_Loading">正在處理一些事情</sys:String>
     
@@ -72,7 +72,7 @@
     <sys:String x:Key="PlayerInfoFlyout_AutoJoinTips">你需要在本體設置—高級設置內&#x000A;設置服務器地址才可以設置本項目</sys:String>
     <sys:String x:Key="PlayerInfoFlyout_MoreSettings">更多設置請進入本體設置中更改</sys:String>
 
-    <sys:String x:Key="ErrorFlyout_Title">啊哦！出現了點錯誤！ </sys:String>
+    <sys:String x:Key="ErrorFlyout_Title">啊哦！出現了點錯誤！</sys:String>
 
     <sys:String x:Key="DownloadManagement_Title">BakaXL文件下載管理器</sys:String>
     <sys:String x:Key="DownloadManagement_NoFile">目前沒有文件在下載</sys:String>
@@ -84,7 +84,7 @@
     <sys:String x:Key="Settings_Tips">輕按左邊的色塊來進入設置</sys:String>
 
     <sys:String xml:space="preserve" x:Key="Settings_HelpTips">您可以輕按磁貼色塊來進入詳細設定畫面。 &#xD;&#xA;設置將會在返回主界面後自動保存。 </sys:String>
-    <sys:String xml:space="preserve" x:Key="Settings_HelpTips_SideAni">· BakaXL本體設置&#xA;&#xA;· Oh♂Yes♂Sir!</sys:String>
+    <sys:String xml:space="preserve" x:Key="Settings_HelpTips_SideAni">· BakaXL本體設置&#xA;&#xA;· 图样图森破！</sys:String>
 
     <sys:String x:Key="Settings_PlayerSettings">玩家信息設置</sys:String>
     <sys:String x:Key="Settings_PlayerSettings_Tab">玩家個人信息</sys:String>
@@ -98,7 +98,7 @@
 
     <sys:String x:Key="Settings_SystemSettings">系統信息設置</sys:String>
     <sys:String x:Key="Settings_SystemSettings_Tab">系統信息</sys:String>
-    <sys:String xml:space="preserve" x:Key="Settings_SystemSettings_Tips">· 打開或關閉BakaXL的背景音樂&#xD;&#xA;&#xD;&#xA;· 設置Minecraft的可用內存& #xD;&#xA;&#xD;&#xA;· 選擇並設置您Java的位置&#xD;&#xA;&#xD;&#xA;· 設置您的遊戲啟動方式</sys: String>
+    <sys:String xml:space="preserve" x:Key="Settings_SystemSettings_Tips">· 打開或關閉BakaXL的背景音樂&#xD;&#xA;&#xD;&#xA;· 設置Minecraft的可用內存&#xD;&#xA;&#xD;&#xA;· 選擇並設置您Java的位置&#xD;&#xA;&#xD;&#xA;· 設置您的遊戲啟動方式</sys:String>
     <sys:String x:Key="Settings_SystemSettings_Memory">內存設置</sys:String>
     <sys:String x:Key="Settings_SystemSettings_AutoMemory">自動智能配置內存</sys:String>
     <sys:String x:Key="Settings_SystemSettings_JavaPath">Java路徑</sys:String>
@@ -113,7 +113,7 @@
 
     <sys:String x:Key="Settings_AdvanceSettings">高級設置</sys:String>
     <sys:String x:Key="Settings_AdvanceSettings_Tab">高級設置</sys:String>
-    <sys:String xml:space="preserve" x:Key="Settings_AdvanceSettings_Tips">· 配置BakaXL的高級功能&#xD;&#xA;&#xD;&#xA;· 設置附加遊戲啟動命令&#xD ;&#xA;&#xD;&#xA;· 通過調試模式啟動遊戲</sys:String>
+    <sys:String xml:space="preserve" x:Key="Settings_AdvanceSettings_Tips">· 配置BakaXL的高級功能&#xD;&#xA;&#xD;&#xA;· 設置附加遊戲啟動命令&#xD;&#xA;&#xD;&#xA;· 通過調試模式啟動遊戲</sys:String>
     <sys:String x:Key="Settings_AdvanceSettings_ForceExit">退出時強制結束進程(避免在某些情況下導致BakaXL退出後依然駐留在進程內)</sys:String>
     <sys:String x:Key="Settings_AdvanceSettings_AutoJoin">啟動遊戲後自動加入服務器</sys:String>
     <sys:String x:Key="Settings_AdvanceSettings_GameTitle">遊戲窗口標題</sys:String>
@@ -124,7 +124,7 @@
 
     <sys:String x:Key="Settings_PlazaSettings">笨蛋廣場設置</sys:String>
     <sys:String x:Key="Settings_PlazaSettings_Tab">笨蛋廣場設置</sys:String>
-    <sys:String xml:space="preserve" x:Key="Settings_PlazaSettings_Tips">· 設置笨蛋廣場的通知方式&#xD;&#xA;&#xD;&#xA;· 設置資源的自動更新&# xD;&#xA;&#xD;&#xA;· 調整笨蛋廣場的地區</sys:String>
+    <sys:String xml:space="preserve" x:Key="Settings_PlazaSettings_Tips">· 設置笨蛋廣場的通知方式&#xD;&#xA;&#xD;&#xA;· 設置資源的自動更新&#xD;&#xA;&#xD;&#xA;· 調整笨蛋廣場的地區</sys:String>
     <sys:String x:Key="Settings_PlazaSettings_SaveData">省流量模式</sys:String>
     <sys:String x:Key="Settings_PlazaSettings_SaveDataTips">在使用計費互聯網連接時開啟，笨蛋廣場將不會加載視頻等內容</sys:String>
     <sys:String x:Key="Settings_PlazaSettings_SaveDataBacText">省流量</sys:String>
