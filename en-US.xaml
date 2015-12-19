@@ -40,24 +40,24 @@
     <sys:String x:Key="AuthMode_Offline">Offline</sys:String>
 
     <sys:String x:Key="BakaCrasher_MainTitle">Oops!BakaXL has something wrong!</sys:String>
-    <sys:String x:Key="BakaCrasher_Tips">Sorry, something caused BakaXL carsh and restart.We are sorry about that.</sys:String>
-    <sys:String x:Key="BakaCrasher_ErrInfo">Carsh Report</sys:String>
+    <sys:String x:Key="BakaCrasher_Tips">Sorry, something caused BakaXL crash and restart.We are sorry about that.</sys:String>
+    <sys:String x:Key="BakaCrasher_ErrInfo">Crash Report</sys:String>
     <sys:String x:Key="BakaCrasher_GenScTips">Report</sys:String>
     <sys:String x:Key="BakaCrasher_GenScButton">Screenshot</sys:String>
     <sys:String x:Key="BakaCrasher_BackTips">Back to Home</sys:String>
     <sys:String x:Key="BakaCrasher_Report">Report</sys:String>
     <sys:String x:Key="BakaCrasher_UnderTips">If you wish to help us fix the problem, click Report button.</sys:String>
 
-    <sys:String x:Key="FirstScreen_Loading">Prepareing...</sys:String>
+    <sys:String x:Key="FirstScreen_Loading">Preparing...</sys:String>
 
-    <sys:String x:Key="SetUpGuide_Loading">Prepareing BakaXL...</sys:String>
-    <sys:String x:Key="SetUpGuide_Loading_1">Create Config File...</sys:String>
+    <sys:String x:Key="SetUpGuide_Loading">Preparing BakaXL...</sys:String>
+    <sys:String x:Key="SetUpGuide_Loading_1">Creating Config File...</sys:String>
     <sys:String x:Key="SetUpGuide_Loading_2">BakaXL Body Check...</sys:String>
     <sys:String x:Key="SetUpGuide_Loading_3">Waiting...</sys:String>
-    <sys:String x:Key="SetUpGuide_Loading_4">Prepareing: BakaPlaza...</sys:String>
-    <sys:String x:Key="SetUpGuide_Loading_5">Prepareing: Resource Management System...</sys:String>
-    <sys:String x:Key="SetUpGuide_Loading_6">Prepareing: Settings...</sys:String>
-    <sys:String x:Key="SetUpGuide_Loading_7">Prepareing: Game Launch System...</sys:String>
+    <sys:String x:Key="SetUpGuide_Loading_4">Preparing: BakaPlaza...</sys:String>
+    <sys:String x:Key="SetUpGuide_Loading_5">Preparing: Resource Management System...</sys:String>
+    <sys:String x:Key="SetUpGuide_Loading_6">Preparing: Settings...</sys:String>
+    <sys:String x:Key="SetUpGuide_Loading_7">Preparing: Game Launch System...</sys:String>
     <sys:String x:Key="SetUpGuide_Loading_8">Finished!</sys:String>
 
     <sys:String x:Key="PlayerInfoFlyout_Title">Personal Information</sys:String>
@@ -67,10 +67,10 @@
     <sys:String x:Key="PlayerInfoFlyout_Memory">Memory</sys:String>
     <sys:String x:Key="PlayerInfoFlyout_AutoMemory">Auto memory</sys:String>
     <sys:String x:Key="PlayerInfoFlyout_UseOnline">Online mode</sys:String>
-    <sys:String x:Key="PlayerInfoFlyout_UseOnlineTips">You need setup your Mojang Account&#x000A;at Setting Pannel</sys:String>
+    <sys:String x:Key="PlayerInfoFlyout_UseOnlineTips">You need setup your Mojang Account&#x000A;at Setting Panel</sys:String>
     <sys:String x:Key="PlayerInfoFlyout_AutoJoin">Auto join server</sys:String>
-    <sys:String x:Key="PlayerInfoFlyout_AutoJoinTips">You need setup the Server IP Address&#x000A;at Setting Pannel</sys:String>
-    <sys:String x:Key="PlayerInfoFlyout_MoreSettings">Visit setting pannel for more settings</sys:String>
+    <sys:String x:Key="PlayerInfoFlyout_AutoJoinTips">You need setup the Server IP Address&#x000A;at Setting Panel</sys:String>
+    <sys:String x:Key="PlayerInfoFlyout_MoreSettings">Visit setting panel for more settings</sys:String>
 
     <sys:String x:Key="ErrorFlyout_Title">Oops!Something Error!</sys:String>
 
