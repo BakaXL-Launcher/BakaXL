@@ -110,6 +110,8 @@
     <sys:String x:Key="Settings_SystemSettings_BGMTip">Control the Background music of BakaXL</sys:String>
     <sys:String x:Key="Settings_SystemSettings_StopBGMLF">Stop music when window lost focus</sys:String>
     <sys:String x:Key="Settings_SystemSettings_StopBGMLF_Tips">Background music will automatically stop when you not using BakaXL.</sys:String>
+    <sys:String x:Key="Settings_SystemSettings_Debug">游戏输出信息截取&amp;分析处理</sys:String>
+    <sys:String x:Key="Settings_SystemSettings_Debug_Tips">用来获取游戏输出信息。如果你出现游戏加载到一半就不动的情况，请取消勾选本功能。&#13; 注：取消该功能将无法使用游戏标题修改功能和崩溃诊断功能</sys:String>
     
     <sys:String x:Key="Settings_AdvanceSettings">Advanced Settings</sys:String>
     <sys:String x:Key="Settings_AdvanceSettings_Tab">Advanced</sys:String>
