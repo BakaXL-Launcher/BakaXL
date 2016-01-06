@@ -110,8 +110,8 @@
     <sys:String x:Key="Settings_SystemSettings_BGMTip">此開關將控制BakaXL主題所提供的程序背景音樂</sys:String>
     <sys:String x:Key="Settings_SystemSettings_StopBGMLF">失去焦點時自動停止背景音樂</sys:String>
     <sys:String x:Key="Settings_SystemSettings_StopBGMLF_Tips">當你目前活動的窗口不在BakaXL的時候，會自動停止播放音樂</sys:String>
-    <sys:String x:Key="Settings_SystemSettings_Debug">游戏输出信息截取&amp;分析处理</sys:String>
-    <sys:String x:Key="Settings_SystemSettings_Debug_Tips">用来获取游戏输出信息。如果你出现游戏加载到一半就不动的情况，请取消勾选本功能。&#13; 注：取消该功能将无法使用游戏标题修改功能和崩溃诊断功能</sys:String>
+    <sys:String x:Key="Settings_SystemSettings_Debug">遊戲輸出信息截取&amp;分析處理</sys:String>
+    <sys:String x:Key="Settings_SystemSettings_Debug_Tips">用來獲取遊戲輸出信息。如果你出現遊戲加載到一半就不動的情况，請取消勾選本功能。&#13; 注：取消該功能將無法使用遊戲標題修改功能和崩潰診斷功能</sys:String>
 
     <sys:String x:Key="Settings_AdvanceSettings">高級設置</sys:String>
     <sys:String x:Key="Settings_AdvanceSettings_Tab">高級設置</sys:String>
