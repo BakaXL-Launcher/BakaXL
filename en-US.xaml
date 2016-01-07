@@ -6,7 +6,7 @@
     <sys:String x:Key="MainWelcome">Welcome</sys:String>
     <sys:String x:Key="SetLanguage">Set your Language</sys:String>
 
-    <sys:String x:Key="Button_OK">Ok</sys:String>
+    <sys:String x:Key="Button_OK">OK</sys:String>
     <sys:String x:Key="Button_No">No</sys:String>
     <sys:String x:Key="Button_Restart">Restart</sys:String>
     <sys:String x:Key="Button_NextStep">Next</sys:String>
