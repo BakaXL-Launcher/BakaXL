@@ -33,7 +33,7 @@
     <sys:String x:Key="Home_TapToSee">撳呢到睇</sys:String>
     <sys:String x:Key="Home_CoreTools">整合包工具</sys:String>
     <sys:String x:Key="Home_ThemePunlic">BakaXL個性化設定置</sys:String>
-    <sys:String x:Key="Home_BakaPlaza">笨蛋廣場</sys:String>
+    <sys:String x:Key="Home_BakaPlaza">懶人廣場</sys:String>
     <sys:String x:Key="Home_BakaPlaza_Easter">港豬廣場</sys:String>
     <sys:String x:Key="Home_Tips">BakaXL貼士</sys:String>
 
@@ -53,12 +53,12 @@
     
     <sys:String x:Key="SetUpGuide_Loading">正在為第一次運行BakaXL做準備…</sys:String>
     <sys:String x:Key="SetUpGuide_Loading_1">創建BakaXL配置文件…</sys:String>
-    <sys:String x:Key="SetUpGuide_Loading_2">BakaXL喺到被怪蜀黍檢查身體…</sys:String>
+    <sys:String x:Key="SetUpGuide_Loading_2">BakaXL喺到被怪叔叔檢查身體…</sys:String>
     <sys:String x:Key="SetUpGuide_Loading_3">BakaXL同少女一齊祈禱緊…</sys:String>
-    <sys:String x:Key="SetUpGuide_Loading_4">BakaXL正在初始化：笨蛋廣場</sys:String>
-    <sys:String x:Key="SetUpGuide_Loading_5">BakaXL正在初始化：遊戲資源處理系統</sys:String>
-    <sys:String x:Key="SetUpGuide_Loading_6">BakaXL正在初始化：本體設定</sys:String>
-    <sys:String x:Key="SetUpGuide_Loading_7">BakaXL正在初始化：遊戲啟動</sys:String>
+    <sys:String x:Key="SetUpGuide_Loading_4">BakaXL初始化緊：懶人廣場</sys:String>
+    <sys:String x:Key="SetUpGuide_Loading_5">BakaXL初始化緊：遊戲資源處理系統</sys:String>
+    <sys:String x:Key="SetUpGuide_Loading_6">BakaXL初始化緊：本體設定</sys:String>
+    <sys:String x:Key="SetUpGuide_Loading_7">BakaXL初始化緊：遊戲啟動</sys:String>
     <sys:String x:Key="SetUpGuide_Loading_8">BakaXL初始化準備完成！ </sys:String>
 
     <sys:String x:Key="PlayerInfoFlyout_Title">您嘅個人信息</sys:String>
@@ -125,26 +125,26 @@
     <sys:String x:Key="Settings_AdvanceSettings_JvmArgTips">只有喺有特殊需要情況下先好用，需要正確填寫參數，普通玩家唔洗用呢個功能，建議留空</sys:String>
     <sys:String x:Key="Settings_AdvanceSettings_AutoFix">開啟智能文件修復提醒（將會喺你切換版本嘅時候並且無後台下載嘅時候提醒你丟失文件）</sys:String>
 
-    <sys:String x:Key="Settings_PlazaSettings">笨蛋廣場設定</sys:String>
-    <sys:String x:Key="Settings_PlazaSettings_Tab">笨蛋廣場設定</sys:String>
-    <sys:String x:Key="Settings_PlazaSettings_Easter">傻豬廣場設定</sys:String>
-    <sys:String x:Key="Settings_PlazaSettings_Tab_Esater">傻豬廣場設定</sys:String>
-    <sys:String xml:space="preserve" x:Key="Settings_PlazaSettings_Tips">· 設定笨蛋廣場嘅通知方式&#xD;&#xA;&#xD;&#xA;· 設定資源嘅自動更新&#xD;&#xA;&#xD;&#xA;· 調整笨蛋廣場的地區</sys:String>
-    <sys:String xml:space="preserve" x:Key="Settings_PlazaSettings_Tips_Easter">· 設定傻豬廣場嘅通知方式&#xD;&#xA;&#xD;&#xA;· 設定資源嘅自動更新&#xD;&#xA;&#xD;&#xA;· 調整傻豬廣場的地區</sys:String>
+    <sys:String x:Key="Settings_PlazaSettings">懶人廣場設定</sys:String>
+    <sys:String x:Key="Settings_PlazaSettings_Tab">懶人廣場設定</sys:String>
+    <sys:String x:Key="Settings_PlazaSettings_Easter">港豬廣場設定</sys:String>
+    <sys:String x:Key="Settings_PlazaSettings_Tab_Esater">港豬廣場設定</sys:String>
+    <sys:String xml:space="preserve" x:Key="Settings_PlazaSettings_Tips">· 設定懶人廣場嘅通知方式&#xD;&#xA;&#xD;&#xA;· 設定資源嘅自動更新&#xD;&#xA;&#xD;&#xA;· 調整懶人廣場的地區</sys:String>
+    <sys:String xml:space="preserve" x:Key="Settings_PlazaSettings_Tips_Easter">· 設定港豬廣場嘅通知方式&#xD;&#xA;&#xD;&#xA;· 設定資源嘅自動更新&#xD;&#xA;&#xD;&#xA;· 調整港豬廣場的地區</sys:String>
     <sys:String x:Key="Settings_PlazaSettings_SaveData">慳流量模式</sys:String>
-    <sys:String x:Key="Settings_PlazaSettings_SaveDataTips">嘅用收費互聯網連接時開啟，笨蛋廣場唔會加載視頻等內容</sys:String>
-    <sys:String x:Key="Settings_PlazaSettings_SaveDataTips_Easter">嘅用收費互聯網連接時開啟，傻豬廣場唔會加載視頻等內容</sys:String>
+    <sys:String x:Key="Settings_PlazaSettings_SaveDataTips">嘅用收費互聯網連接時開啟，懶人廣場唔會加載視頻等內容</sys:String>
+    <sys:String x:Key="Settings_PlazaSettings_SaveDataTips_Easter">嘅用收費互聯網連接時開啟，港豬廣場唔會加載視頻等內容</sys:String>
     <sys:String x:Key="Settings_PlazaSettings_SaveDataBacText">慳流量</sys:String>
-    <sys:String x:Key="Settings_PlazaSettings_ChildrenProtect">限制笨蛋廣場部分功能以保護未成年用戶</sys:String>
-    <sys:String x:Key="Settings_PlazaSettings_NoModUpdate">禁止笨蛋廣場收取模組更新</sys:String>
-    <sys:String x:Key="Settings_PlazaSettings_ChildrenProtect_Easter">限制傻豬廣場部分功能以保護未成年用戶</sys:String>
-    <sys:String x:Key="Settings_PlazaSettings_NoModUpdate_Easter">禁止傻豬廣場收取模組更新</sys:String>
+    <sys:String x:Key="Settings_PlazaSettings_ChildrenProtect">限制懶人廣場部分功能以保護未成年用戶</sys:String>
+    <sys:String x:Key="Settings_PlazaSettings_NoModUpdate">禁止懶人廣場收取模組更新</sys:String>
+    <sys:String x:Key="Settings_PlazaSettings_ChildrenProtect_Easter">限制港豬廣場部分功能以保護未成年用戶</sys:String>
+    <sys:String x:Key="Settings_PlazaSettings_NoModUpdate_Easter">禁止港豬廣場收取模組更新</sys:String>
 
     <sys:String x:Key="Settings_BakaInfo">本體信息</sys:String>
 
     <!--<sys:String x:Key="CoreTools_HomeText">BakaXL整合包工具</sys:String>-->
 
-    <sys:String x:Key="PlazaAlaert_Title">笨蛋廣場裏面嘅部分內容要求強制使用默認顯示語言</sys:String>
-    <sys:String x:Key="PlazaAlaert_Content">喺我們開放針對您用緊啲語言嘅笨蛋廣場服務之前，笨蛋廣場裏面嘅部分信息將會強制使用簡體中文（中國） 語言嚟顯示。 </sys:String>
+    <sys:String x:Key="PlazaAlaert_Title">懶人廣場裏面嘅部分內容要求強制使用默認顯示語言</sys:String>
+    <sys:String x:Key="PlazaAlaert_Content">喺我們開放針對您用緊啲語言嘅懶人廣場服務之前，懶人廣場裏面嘅部分信息將會強制使用簡體中文（中國） 語言嚟顯示。 </sys:String>
 
 </ResourceDictionary>
