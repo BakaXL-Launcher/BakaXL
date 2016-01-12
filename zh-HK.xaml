@@ -34,7 +34,7 @@
     <sys:String x:Key="Home_CoreTools">整合包工具</sys:String>
     <sys:String x:Key="Home_ThemePunlic">BakaXL個性化設定置</sys:String>
     <sys:String x:Key="Home_BakaPlaza">笨蛋廣場</sys:String>
-    <sys:String x:Key="Home_BakaPlaza_Easter">傻豬廣場</sys:String>
+    <sys:String x:Key="Home_BakaPlaza_Easter">港豬廣場</sys:String>
     <sys:String x:Key="Home_Tips">BakaXL貼士</sys:String>
 
     <sys:String x:Key="AuthMode_Online">正版登錄</sys:String>
