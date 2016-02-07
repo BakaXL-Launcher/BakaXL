@@ -35,6 +35,7 @@
     <sys:String x:Key="Home_ThemePunlic">Personalization</sys:String>
     <sys:String x:Key="Home_BakaPlaza">Baka Plaza</sys:String>
     <sys:String x:Key="Home_Tips">BakaXL Tips!</sys:String>
+    <sys:String x:Key="Home_PluginManagement">Plugins</sys:String>
 
     <sys:String x:Key="AuthMode_Online">Online</sys:String>
     <sys:String x:Key="AuthMode_Offline">Offline</sys:String>
@@ -95,7 +96,7 @@
     <sys:String x:Key="Settings_PlayerSettings_Mode">Mojang Account</sys:String>
     <sys:String x:Key="Settings_PlayerSettings_ModeST">Game launch mode</sys:String>
     <sys:String x:Key="Settings_PlayerSettings_ModeTips">Use offline mode if you don't purchase Minecraft.</sys:String>
-    
+
     <sys:String x:Key="Settings_SystemSettings">System Information</sys:String>
     <sys:String x:Key="Settings_SystemSettings_Tab">System</sys:String>
     <sys:String xml:space="preserve" x:Key="Settings_SystemSettings_Tips">· Background Music&#xD;&#xA;&#xD;&#xA;· Minecraft running Memory&#xD;&#xA;&#xD;&#xA;· Choose your Java path&#xD;&#xA;&#xD;&#xA;· Choose the way game start</sys:String>
@@ -110,9 +111,9 @@
     <sys:String x:Key="Settings_SystemSettings_BGMTip">Control the Background music of BakaXL</sys:String>
     <sys:String x:Key="Settings_SystemSettings_StopBGMLF">Stop music when window lost focus</sys:String>
     <sys:String x:Key="Settings_SystemSettings_StopBGMLF_Tips">Background music will automatically stop when you not using BakaXL.</sys:String>
-    <sys:String x:Key="Settings_SystemSettings_Debug">Capture Game Output Message&amp;Analyze</sys:String>
-    <sys:String x:Key="Settings_SystemSettings_Debug_Tips">Use to capture game output message.If the game not responding during loading, please disable this function.&#13; PS: disable this function will also disable Custom Game Title and Crash Analyze function</sys:String>
-    
+    <sys:String x:Key="Settings_SystemSettings_Debug">游戏输出信息截取&amp;分析处理</sys:String>
+    <sys:String x:Key="Settings_SystemSettings_Debug_Tips">用来获取游戏输出信息。如果你出现游戏加载到一半就不动的情况，请取消勾选本功能。&#13; 注：取消该功能将无法使用游戏标题修改功能和崩溃诊断功能</sys:String>
+
     <sys:String x:Key="Settings_AdvanceSettings">Advanced Settings</sys:String>
     <sys:String x:Key="Settings_AdvanceSettings_Tab">Advanced</sys:String>
     <sys:String xml:space="preserve" x:Key="Settings_AdvanceSettings_Tips">· Auto join server&#xD;&#xA;&#xD;&#xA;· JVM Args&#xD;&#xA;&#xD;&#xA;· DEBUG Mode</sys:String>
@@ -135,9 +136,78 @@
 
     <sys:String x:Key="Settings_BakaInfo">About</sys:String>
 
+    <sys:String x:Key="Tema_Title">Personalization</sys:String>
+    <sys:String x:Key="Tema_L_Title">Custom your BakaXL background and color</sys:String>
+    <sys:String x:Key="Tema_NightMode">Dark Mode</sys:String>
+    <sys:String x:Key="Tema_ChooseColor">Choose your color</sys:String>
+    <sys:String x:Key="Tema_CustomImage">Browse...</sys:String>
+    <sys:String x:Key="Tema_Default">Default</sys:String>
+    <sys:String x:Key="Tema_TemaAuthor_Title">Skin Author</sys:String>
+    <sys:String x:Key="Tema_TemaDescription_Title">Description</sys:String>
+    <sys:String x:Key="Tema_TemaDescription_Default">Oops!Nothing here!</sys:String>
+    <!--没有主题时的提示内容-->
+    <sys:String x:Key="Tema_TemaListTitle_NoTema">It's Empty Here!</sys:String>
+    <sys:String x:Key="Tema_TemaListTips_NoTema">Why not try BakaXL Skin System?</sys:String>
+    <sys:String x:Key="Tema_TemaListTips_Under_NoTema">Drag BakaXL Skin File to here or copy to 'BakaXL\Tema' folder.</sys:String>
+    <!--拖入主题时的提示内容-->
+    <sys:String x:Key="Tema_TemaListTitle_Drag">Drop to add</sys:String>
+    <sys:String x:Key="Tema_TemaListTips_Drag">Drop the BakaXL Skin File to use.</sys:String>
+    <sys:String x:Key="Tema_TemaListTips_Under_Drag">Your BakaXL Skin will add to 'BakaXL\\Tema' folder.</sys:String>
+    <!--处理主题时的提示内容-->
+    <sys:String x:Key="Tema_TemaListTitle_Unpack">That's Incredible!</sys:String>
+    <sys:String x:Key="Tema_TemaListTips_Unpack">BakaXL is loading your Skin File now.</sys:String>
+    <sys:String x:Key="Tema_TemaListTips_Under_Unpack">Your skin will be add soon.</sys:String>
+    <!--文件不合法时的提示内容-->
+    <sys:String x:Key="Tema_TemaListTitle_NotTemaFile">It's not funny.</sys:String>
+    <sys:String x:Key="Tema_TemaListTips_NotTemaFile">It looks like you drag the wrong file.</sys:String>
+    <sys:String x:Key="Tema_TemaListTips_Under_NotTemaFile">Drag BakaXL Skin File to here ONLY. Now refreshing the Skin list.</sys:String>
+    <!--BakaXL默认主题的名称与介绍-->
+    <sys:String x:Key="Tema_BakaXL_Default">BakaXL Default Skin</sys:String>
+    <sys:String x:Key="Tema_BakaXL_Default_Description">The Default Skin for BakaXL.</sys:String>
+    <!--背景图片选择-->
+    <sys:String x:Key="Tema_CustomImage_Title">Choose your Background Image</sys:String>
+    <sys:String x:Key="Tema_CustomImage_Filter">Image File</sys:String>
+    <!--主题读取失败-->
+    <sys:String x:Key="Tema_LoadTema_Error_Title">Skin Pack Infomation Error!</sys:String>
+    <sys:String x:Key="Tema_LoadTema_Error_Description">We cannot load this Skin Pack, maybe it's damaged. Try Refresh.</sys:String>
+    <!--主题右键列表-->
+    <sys:String x:Key="Tema_TemaBox_RightClick_1">Delete Skin</sys:String>
+    <sys:String x:Key="Tema_TemaBox_RightClick_2">Refresh List</sys:String>
+    <sys:String x:Key="Tema_TemaBox_RightClick_3">Open Skin Folder</sys:String>
+    <sys:String x:Key="Tema_TemaBox_RightClick_4">Get more Skin</sys:String>
+
+    <sys:String x:Key="Color_Red">Red</sys:String>
+    <sys:String x:Key="Color_Green">Green</sys:String>
+    <sys:String x:Key="Color_Blue">Blue</sys:String>
+    <sys:String x:Key="Color_Purple">Purple</sys:String>
+    <sys:String x:Key="Color_Orange">Orange</sys:String>
+    <sys:String x:Key="Color_Lime">Lime</sys:String>
+    <sys:String x:Key="Color_Emerald">Emerald</sys:String>
+    <sys:String x:Key="Color_Teal">Teal</sys:String>
+    <sys:String x:Key="Color_Cyan">Cyan</sys:String>
+    <sys:String x:Key="Color_Cobalt">Cobalt</sys:String>
+    <sys:String x:Key="Color_Indigo">Indigo</sys:String>
+    <sys:String x:Key="Color_Violet">Violet</sys:String>
+    <sys:String x:Key="Color_Pink">Pink</sys:String>
+    <sys:String x:Key="Color_Magenta">Magenta</sys:String>
+    <sys:String x:Key="Color_Crimson">Crimson</sys:String>
+    <sys:String x:Key="Color_Amber">Amber</sys:String>
+    <sys:String x:Key="Color_Yellow">Yellow</sys:String>
+    <sys:String x:Key="Color_Brown">Brown</sys:String>
+    <sys:String x:Key="Color_Olive">Olive</sys:String>
+    <sys:String x:Key="Color_Steel">Steel</sys:String>
+    <sys:String x:Key="Color_Mauve">Mauve</sys:String>
+    <sys:String x:Key="Color_Taupe">Taupe</sys:String>
+    <sys:String x:Key="Color_Sienna">Sienna</sys:String>
+
     <!--<sys:String xml:space="preserve" x:Key="CoreTools_HomeText">BakaXL ModPack&#xD;&#xA;Import/Export</sys:String>-->
 
     <sys:String x:Key="PlazaAlaert_Title">BakaPlaza Request to show content in Simplified Chinese</sys:String>
     <sys:String x:Key="PlazaAlaert_Content">Before we provide services in your language, BakaPlaza is only able to show content in "Simplified Chinese (China)"</sys:String>
+
+    <sys:String x:Key="PluginAlaert_Title">wants to open</sys:String>
+    <sys:String x:Key="PluginAlaert_Content">When BakaXL Plugin needs to access build-in app in BakaXL, you will receive this notification. BakaXL can't ensure that the third-party add-ons are safe.</sys:String>
+
+    <sys:String x:Key="BuildInAppAlaert_Content">You will receive this notification when BakaXL wants to use another build-in app. To continue, you might lost all the things you are working on.</sys:String>
 
 </ResourceDictionary>
