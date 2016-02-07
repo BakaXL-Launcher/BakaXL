@@ -35,7 +35,8 @@
     <sys:String x:Key="Home_ThemePunlic">BakaXL个性化设置</sys:String>
     <sys:String x:Key="Home_BakaPlaza">笨蛋广场</sys:String>
     <sys:String x:Key="Home_Tips">BakaXL贴士</sys:String>
-
+    <sys:String x:Key="Home_PluginManagement">插件管理</sys:String>
+    
     <sys:String x:Key="AuthMode_Online">正版登录</sys:String>
     <sys:String x:Key="AuthMode_Offline">离线模式</sys:String>
 
@@ -113,6 +114,7 @@
     <sys:String x:Key="Settings_SystemSettings_Debug">游戏输出信息截取&amp;分析处理</sys:String>
     <sys:String x:Key="Settings_SystemSettings_Debug_Tips">用来获取游戏输出信息。如果你出现游戏加载到一半就不动的情况，请取消勾选本功能。&#13; 注：取消该功能将无法使用游戏标题修改功能和崩溃诊断功能</sys:String>
 
+
     <sys:String x:Key="Settings_AdvanceSettings">高级设置</sys:String>
     <sys:String x:Key="Settings_AdvanceSettings_Tab">高级设置</sys:String>
     <sys:String xml:space="preserve" x:Key="Settings_AdvanceSettings_Tips">· 配置BakaXL的高级功能&#xD;&#xA;&#xD;&#xA;· 设置附加游戏启动命令&#xD;&#xA;&#xD;&#xA;· 通过调试模式启动游戏</sys:String>
@@ -132,12 +134,82 @@
     <sys:String x:Key="Settings_PlazaSettings_SaveDataBacText">省流量</sys:String>
     <sys:String x:Key="Settings_PlazaSettings_ChildrenProtect">限制笨蛋广场部分功能以保护未成年用户</sys:String>
     <sys:String x:Key="Settings_PlazaSettings_NoModUpdate">禁止笨蛋广场收取模组更新</sys:String>
+    <sys:String x:Key="Settings_PlazaSettings_DownloadSpeedUp">大陆地区使用第三方Minecraft下载源进行加速</sys:String>
 
     <sys:String x:Key="Settings_BakaInfo">本体信息</sys:String>
+
+    <sys:String x:Key="Tema_Title">个性化设置</sys:String>
+    <sys:String x:Key="Tema_L_Title">自定义您的BakaXL背景、主题等个性化设置</sys:String>
+    <sys:String x:Key="Tema_NightMode">反转显示文字颜色</sys:String>
+    <sys:String x:Key="Tema_ChooseColor">选择您的主题颜色</sys:String>
+    <sys:String x:Key="Tema_CustomImage">浏览自定义图片</sys:String>
+    <sys:String x:Key="Tema_Default">恢复默认</sys:String>
+    <sys:String x:Key="Tema_TemaAuthor_Title">主题作者</sys:String>
+    <sys:String x:Key="Tema_TemaDescription_Title">介绍与说明</sys:String>
+    <sys:String x:Key="Tema_TemaDescription_Default">天哪！这里居然没有留下任何内容！</sys:String>
+    <!--没有主题时的提示内容-->
+    <sys:String x:Key="Tema_TemaListTitle_NoTema">这真是令人感到不愉快</sys:String>
+    <sys:String x:Key="Tema_TemaListTips_NoTema">我发誓，这里干净的连个主题都没有，您为何不尝试来添加几个？</sys:String>
+    <sys:String x:Key="Tema_TemaListTips_Under_NoTema">将BakaXL主题文件拖入至此或放入 'BakaXL\Tema' 文件夹内</sys:String>
+    <!--拖入主题时的提示内容-->
+    <sys:String x:Key="Tema_TemaListTitle_Drag">导入这个该死的主题</sys:String>
+    <sys:String x:Key="Tema_TemaListTips_Drag">你要是再不松手，我发誓我会用靴子狠狠地踢你的屁股！</sys:String>
+    <sys:String x:Key="Tema_TemaListTips_Under_Drag">您的主题将会被自动导入至'BakaXL\\Tema' 文件夹内</sys:String>
+    <!--处理主题时的提示内容-->
+    <sys:String x:Key="Tema_TemaListTitle_Unpack">这真是令人难以置信</sys:String>
+    <sys:String x:Key="Tema_TemaListTips_Unpack">看在上帝的份上，BakaXL正在处理主题</sys:String>
+    <sys:String x:Key="Tema_TemaListTips_Under_Unpack">您的主题将会在处理完成后将自动更换</sys:String>
+    <!--文件不合法时的提示内容-->
+    <sys:String x:Key="Tema_TemaListTitle_NotTemaFile">我想你一定在跟我开玩笑</sys:String>
+    <sys:String x:Key="Tema_TemaListTips_NotTemaFile">这个文件看上去并不是一个合法的BakaXL主题文件（是的，这个文件）</sys:String>
+    <sys:String x:Key="Tema_TemaListTips_Under_NotTemaFile">请使用来源合法的BakaXL主题文件，不要拖入无关的文件，我们正在为您刷新主题</sys:String>
+    <!--BakaXL默认主题的名称与介绍-->
+    <sys:String x:Key="Tema_BakaXL_Default">BakaXL主题</sys:String>
+    <sys:String x:Key="Tema_BakaXL_Default_Description">这是BakaXL的默认主题哦！</sys:String>
+    <!--背景图片选择-->
+    <sys:String x:Key="Tema_CustomImage_Title">选择您的自定义背景图</sys:String>
+    <sys:String x:Key="Tema_CustomImage_Filter">图片格式</sys:String>
+    <!--主题读取失败-->
+    <sys:String x:Key="Tema_LoadTema_Error_Title">主题包信息错误</sys:String>
+    <sys:String x:Key="Tema_LoadTema_Error_Description">主题包读取失败！可能是该文件已经不存在！请尝试右键刷新主题列表。</sys:String>
+    <!--主题右键列表-->
+    <sys:String x:Key="Tema_TemaBox_RightClick_1">删除主题</sys:String>
+    <sys:String x:Key="Tema_TemaBox_RightClick_2">刷新列表</sys:String>
+    <sys:String x:Key="Tema_TemaBox_RightClick_3">打开目录</sys:String>
+    <sys:String x:Key="Tema_TemaBox_RightClick_4">获取更多主题</sys:String>
+
+    <sys:String x:Key="Color_Red">中国红</sys:String>
+    <sys:String x:Key="Color_Green">苦力怕绿</sys:String>
+    <sys:String x:Key="Color_Blue">天依蓝</sys:String>
+    <sys:String x:Key="Color_Purple">基佬紫</sys:String>
+    <sys:String x:Key="Color_Orange">烦人橙</sys:String>
+    <sys:String x:Key="Color_Lime">烂草绿</sys:String>
+    <sys:String x:Key="Color_Emerald">茶婊绿</sys:String>
+    <sys:String x:Key="Color_Teal">蓝翔蓝</sys:String>
+    <sys:String x:Key="Color_Cyan">天空蓝</sys:String>
+    <sys:String x:Key="Color_Cobalt">IE蓝</sys:String>
+    <sys:String x:Key="Color_Indigo">量子紫</sys:String>
+    <sys:String x:Key="Color_Violet">紫罗兰</sys:String>
+    <sys:String x:Key="Color_Pink">樱花色</sys:String>
+    <sys:String x:Key="Color_Magenta">迷の红</sys:String>
+    <sys:String x:Key="Color_Crimson">酒心红</sys:String>
+    <sys:String x:Key="Color_Amber">土狗黄</sys:String>
+    <sys:String x:Key="Color_Yellow">皮卡丘黄</sys:String>
+    <sys:String x:Key="Color_Brown">翔の色</sys:String>
+    <sys:String x:Key="Color_Olive">橄榄绿</sys:String>
+    <sys:String x:Key="Color_Steel">巨金怪</sys:String>
+    <sys:String x:Key="Color_Mauve">褪色紫</sys:String>
+    <sys:String x:Key="Color_Taupe">雾霾灰</sys:String>
+    <sys:String x:Key="Color_Sienna">木棕色</sys:String>
 
     <!--<sys:String x:Key="CoreTools_HomeText">BakaXL整合包工具</sys:String>-->
 
     <sys:String x:Key="PlazaAlaert_Title">笨蛋广场 内的部分内容要求强制使用默认显示语言</sys:String>
     <sys:String x:Key="PlazaAlaert_Content">在我们开放针对您所使用语言的 笨蛋广场 服务之前，笨蛋广场 内的部分信息将会强制使用 简体中文（中国） 语言来显示。</sys:String>
+
+    <sys:String x:Key="PluginAlaert_Title">请求打开</sys:String>
+    <sys:String x:Key="PluginAlaert_Content">当插件请求访问BakaXL本体的功能时，您将会收到此通知并决定是否授权插件进行访问。BakaXL不能确保第三方附加组件的安全性。</sys:String>
+
+    <sys:String x:Key="BuildInAppAlaert_Content">当BakaXL请求切换至其他内建应用时，您将会收到此通知并决定是否要跳转至新页面。若您跳转页面，则当前页面的进度可能会丢失。</sys:String>
 
 </ResourceDictionary>
