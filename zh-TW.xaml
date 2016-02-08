@@ -135,9 +135,78 @@
 
     <sys:String x:Key="Settings_BakaInfo">本體信息</sys:String>
 
+	<sys:String x:Key="Tema_Title">個性化設置</sys:String>
+    <sys:String x:Key="Tema_L_Title">自定義您的BakaXL背景、主題等個性化設置</sys:String>
+    <sys:String x:Key="Tema_NightMode">反轉顯示文字顏色</sys:String>
+    <sys:String x:Key="Tema_ChooseColor">選擇您的主題顏色</sys:String>
+    <sys:String x:Key="Tema_CustomImage">瀏覽自定義圖片</sys:String>
+    <sys:String x:Key="Tema_Default">恢復默認</sys:String>
+    <sys:String x:Key="Tema_TemaAuthor_Title">主題作者</sys:String>
+    <sys:String x:Key="Tema_TemaDescription_Title">介紹與說明</sys:String>
+    <sys:String x:Key="Tema_TemaDescription_Default">天哪！這里裏居然沒有留下任何內容！ </sys:String>
+    <!-​​-沒有主題時的提示內容-->
+    <sys:String x:Key="Tema_TemaListTitle_NoTema">這真是令人感到不愉快</sys:String>
+    <sys:String x:Key="Tema_TemaListTips_NoTema">我發誓，這里幹乾淨的連個主題都沒有，您為何不嘗試來添加幾個？ </sys:String>
+    <sys:String x:Key="Tema_TemaListTips_Under_NoTema">將BakaXL主題文件拖入至此或放入 'BakaXL\Tema' 文件夾內</sys:String>
+    <!-​​-拖入主題時的提示內容-->
+    <sys:String x:Key="Tema_TemaListTitle_Drag">導入這個該死的主題</sys:String>
+    <sys:String x:Key="Tema_TemaListTips_Drag">你要是再不鬆手，我發誓我會用靴子狠狠地踢你的屁股！ </sys:String>
+    <sys:String x:Key="Tema_TemaListTips_Under_Drag">您的主題將會被自動導入至'BakaXL\\Tema' 文件夾內</sys:String>
+    <!-​​-處理主題時的提示內容-->
+    <sys:String x:Key="Tema_TemaListTitle_Unpack">這真是令人難以置信</sys:String>
+    <sys:String x:Key="Tema_TemaListTips_Unpack">看在上帝的份上，BakaXL正在處理主題</sys:String>
+    <sys:String x:Key="Tema_TemaListTips_Under_Unpack">您的主題將會在處理完成後將自動更換</sys:String>
+    <!-​​-文件不合法時的提示內容-->
+    <sys:String x:Key="Tema_TemaListTitle_NotTemaFile">我想你一定在跟我開玩笑</sys:String>
+    <sys:String x:Key="Tema_TemaListTips_NotTemaFile">這個文件看上去並不是一個合法的BakaXL主題文件（是的，這個文件）</sys:String>
+    <sys:String x:Key="Tema_TemaListTips_Under_NotTemaFile">請使用來源合法的BakaXL主題文件，不要拖入無關的文件，我們正在為您刷新主題</sys:String>
+    <!-​​-BakaXL默認主題的名稱與介紹-->
+    <sys:String x:Key="Tema_BakaXL_Default">BakaXL主題</sys:String>
+    <sys:String x:Key="Tema_BakaXL_Default_Description">這是BakaXL的默認主題哦！ </sys:String>
+    <!-​​-背景圖片選擇-->
+    <sys:String x:Key="Tema_CustomImage_Title">選擇您的自定義背景圖</sys:String>
+    <sys:String x:Key="Tema_CustomImage_Filter">圖片格式</sys:String>
+    <!-​​-主題讀取失敗-->
+    <sys:String x:Key="Tema_LoadTema_Error_Title">主題包信息錯誤</sys:String>
+    <sys:String x:Key="Tema_LoadTema_Error_Description">主題包讀取失敗！可能是該文件已經不存在！請嘗試右鍵刷新主題列表。 </sys:String>
+    <!-​​-主題右鍵列表-->
+    <sys:String x:Key="Tema_TemaBox_RightClick_1">刪除主題</sys:String>
+    <sys:String x:Key="Tema_TemaBox_RightClick_2">刷新列表</sys:String>
+    <sys:String x:Key="Tema_TemaBox_RightClick_3">打開目錄</sys:String>
+    <sys:String x:Key="Tema_TemaBox_RightClick_4">獲取更多主題</sys:String>
+
+    <sys:String x:Key="Color_Red">中國紅</sys:String>
+    <sys:String x:Key="Color_Green">苦力怕綠</sys:String>
+    <sys:String x:Key="Color_Blue">天依藍</sys:String>
+    <sys:String x:Key="Color_Purple">基佬紫</sys:String>
+    <sys:String x:Key="Color_Orange">煩人橙</sys:String>
+    <sys:String x:Key="Color_Lime">爛草綠</sys:String>
+    <sys:String x:Key="Color_Emerald">茶婊綠</sys:String>
+    <sys:String x:Key="Color_Teal">藍翔藍</sys:String>
+    <sys:String x:Key="Color_Cyan">天空藍</sys:String>
+    <sys:String x:Key="Color_Cobalt">IE藍</sys:String>
+    <sys:String x:Key="Color_Indigo">量子紫</sys:String>
+    <sys:String x:Key="Color_Violet">紫羅蘭</sys:String>
+    <sys:String x:Key="Color_Pink">櫻花色</sys:String>
+    <sys:String x:Key="Color_Magenta">迷の紅</sys:String>
+    <sys:String x:Key="Color_Crimson">酒心紅</sys:String>
+    <sys:String x:Key="Color_Amber">土狗黃</sys:String>
+    <sys:String x:Key="Color_Yellow">皮卡丘黃</sys:String>
+    <sys:String x:Key="Color_Brown">翔の色</sys:String>
+    <sys:String x:Key="Color_Olive">橄欖綠</sys:String>
+    <sys:String x:Key="Color_Steel">巨金怪</sys:String>
+    <sys:String x:Key="Color_Mauve">褪色紫</sys:String>
+    <sys:String x:Key="Color_Taupe">霧霾灰</sys:String>
+    <sys:String x:Key="Color_Sienna">木棕色</sys:String>
+
     <!--<sys:String x:Key="CoreTools_HomeText">BakaXL整合包工具</sys:String>-->
 
     <sys:String x:Key="PlazaAlaert_Title">笨蛋廣場內的部分內容要求強制使用默認顯示語言</sys:String>
     <sys:String x:Key="PlazaAlaert_Content">在我們開放針對您所使用語言的笨蛋廣場服務之前，笨蛋廣場內的部分信息將會強制使用簡體中文（中國） 語言來顯示。 </sys:String>
+
+	<sys:String x:Key="PluginAlaert_Title">請求打開</sys:String>
+    <sys:String x:Key="PluginAlaert_Content">當插件請求訪問BakaXL本體的功能時，您將會收到此通知並決定是否授權插件進行訪問。 BakaXL不能確保第三方附加組件的安全性。 </sys:String>
+
+    <sys:String x:Key="BuildInAppAlaert_Content">當BakaXL請求切換至其他內建應用時，您將會收到此通知並決定是否要跳轉至新頁面。若您跳轉頁面，則當前頁面的進度可能會丟失。 </sys:String>
 
 </ResourceDictionary>
