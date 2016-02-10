@@ -15,9 +15,9 @@
     <sys:String x:Key="Communication">BakaXL喺到收取伺服器通信數據</sys:String>
 
     <sys:String x:Key="Lang_Title">設定BakaXL顯示語言</sys:String>
-    <sys:String x:Key="Lang_JoinTranslate">您可以訪問http://Baka.PokeMMC.com/Language/ 參與BakaXL翻譯工作</sys:String>
-    <sys:String x:Key="Lang_Watermark">選擇您嘅語言</sys:String>
-    <sys:String x:Key="Lang_Tips">喺選擇您嘅語言之後，BakaXL將會自動更改顯示語言</sys:String>
+    <sys:String x:Key="Lang_JoinTranslate">您可以去http://Baka.PokeMMC.com/Language/同我哋一齊翻譯BakaXL</sys:String>
+    <sys:String x:Key="Lang_Watermark">揀您用開嘅語言</sys:String>
+    <sys:String x:Key="Lang_Tips">喺揀咗您嘅語言之後，BakaXL將會自動更改顯示語言</sys:String>
 
     <sys:String x:Key="Home_Hello">您好</sys:String>
     <sys:String x:Key="Home_Theme">主題</sys:String>
