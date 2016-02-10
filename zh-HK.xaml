@@ -142,7 +142,7 @@
 
     <sys:String x:Key="Settings_BakaInfo">本體信息</sys:String>
 
-	<sys:String x:Key="Tema_Title">個人化設定</sys:String>
+    <sys:String x:Key="Tema_Title">個人化設定</sys:String>
     <sys:String x:Key="Tema_L_Title">自定您嘅BakaXL背景、主題等等嘅個人化設定</sys:String>
     <sys:String x:Key="Tema_NightMode">反轉顯示文字顏色</sys:String>
     <sys:String x:Key="Tema_ChooseColor">選擇您嘅主題顏色</sys:String>
