@@ -109,7 +109,7 @@
     <sys:String x:Key="Settings_SystemSettings_CloseAfterLaunch">喺啟動遊戲完成之後自動退出BakaXL（唔推薦）</sys:String>
     <sys:String x:Key="Settings_SystemSettings_CloseAfterLaunch_Tip">我哋唔推薦您咁做，咁樣您會失去遊戲記憶體保護同自動診斷錯誤等功能！ </sys:String>
     <sys:String x:Key="Settings_SystemSettings_BGMTip">呢個開關將控制BakaXL主題所提供嘅程序背景音樂</sys:String>
-    <sys:String x:Key="Settings_SystemSettings_StopBGMLF">失去焦點時自動停止背景音樂</sys:String>
+    <sys:String x:Key="Settings_SystemSettings_StopBGMLF">失焦時自動停止背景音樂</sys:String>
     <sys:String x:Key="Settings_SystemSettings_StopBGMLF_Tips">當你目前活動嘅窗口不喺BakaXL嘅時候，會自動停止播放音樂</sys:String>
     <sys:String x:Key="Settings_SystemSettings_Debug">遊戲輸出信息截取&amp;分析處理</sys:String>
     <sys:String x:Key="Settings_SystemSettings_Debug_Tips">用嚟獲取遊戲輸出信息。如果你出現遊戲加載到一半就不動的情况，請取消勾選呢個功能。&#13; 注：取消呢個功能將無法使用遊戲標題修改功能同埋崩潰診斷功能</sys:String>
@@ -142,8 +142,8 @@
 
     <sys:String x:Key="Settings_BakaInfo">本體信息</sys:String>
 
-	<sys:String x:Key="Tema_Title">個性化設定</sys:String>
-    <sys:String x:Key="Tema_L_Title">自定義您嘅BakaXL背景、主題等個性化設定</sys:String>
+	<sys:String x:Key="Tema_Title">個人化設定</sys:String>
+    <sys:String x:Key="Tema_L_Title">自定您嘅BakaXL背景、主題等等嘅個人化設定</sys:String>
     <sys:String x:Key="Tema_NightMode">反轉顯示文字顏色</sys:String>
     <sys:String x:Key="Tema_ChooseColor">選擇您嘅主題顏色</sys:String>
     <sys:String x:Key="Tema_CustomImage">瀏覽自定義圖片</sys:String>
@@ -169,7 +169,7 @@
     <sys:String x:Key="Tema_TemaListTips_Under_NotTemaFile">請用來源合法嘅BakaXL主題文件，唔好拖入無關嘅文件，我們喺到為您刷新主題</sys:String>
     <!-​​-BakaXL默認主題的名稱與介紹-->
     <sys:String x:Key="Tema_BakaXL_Default">BakaXL主題</sys:String>
-    <sys:String x:Key="Tema_BakaXL_Default_Description">呢個係BakaXL嘅默認主題哦！ </sys:String>
+    <sys:String x:Key="Tema_BakaXL_Default_Description">呢個係BakaXL嘅預設主題。 </sys:String>
     <!-​​-背景圖片選擇-->
     <sys:String x:Key="Tema_CustomImage_Title">選擇您嘅自定義背景圖</sys:String>
     <sys:String x:Key="Tema_CustomImage_Filter">圖片格式</sys:String>
