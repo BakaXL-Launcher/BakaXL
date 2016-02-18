@@ -112,7 +112,7 @@
     <sys:String x:Key="Settings_SystemSettings_StopBGMLF">失去焦点时自动停止背景音乐</sys:String>
     <sys:String x:Key="Settings_SystemSettings_StopBGMLF_Tips">当你目前活动的窗口不在BakaXL的时候，会自动停止播放音乐</sys:String>
     <sys:String x:Key="Settings_SystemSettings_Debug">游戏输出信息截取&amp;分析处理</sys:String>
-    <sys:String x:Key="Settings_SystemSettings_Debug_Tips">用来获取游戏输出信息。如果你出现游戏加载到一半就不动的情况，请取消勾选本功能。&#13; 注：取消该功能将无法使用游戏标题修改功能和崩溃诊断功能</sys:String>
+    <sys:String x:Key="Settings_SystemSettings_Debug_Tips">用来获取游戏输出信息。如果你出现游戏加载到一半就不动的情况，请取消勾选本功能。</sys:String>
 
 
     <sys:String x:Key="Settings_AdvanceSettings">高级设置</sys:String>
@@ -125,6 +125,7 @@
     <sys:String x:Key="Settings_AdvanceSettings_JvmArg">高级启动参数</sys:String>
     <sys:String x:Key="Settings_AdvanceSettings_JvmArgTips">仅在有特殊需要时才使用，需要正确填写参数，普通玩家无需使用此功能，建议留空</sys:String>
     <sys:String x:Key="Settings_AdvanceSettings_AutoFix">开启智能文件修复提醒（将在你切换版本的时候并且没有后台下载的时候提醒你丢失文件）</sys:String>
+    <sys:String x:Key="Settings_AdvanceSettings_ScrollValue">主界面滚动函数</sys:String>
 
     <sys:String x:Key="Settings_PlazaSettings">笨蛋广场设置</sys:String>
     <sys:String x:Key="Settings_PlazaSettings_Tab">笨蛋广场设置</sys:String>
@@ -137,6 +138,17 @@
     <sys:String x:Key="Settings_PlazaSettings_DownloadSpeedUp">大陆地区使用第三方Minecraft下载源进行加速</sys:String>
 
     <sys:String x:Key="Settings_BakaInfo">本体信息</sys:String>
+
+    <sys:String x:Key="Settings_HomeDispay_NoUsernameTitle">未设置游戏ID</sys:String>
+    <sys:String x:Key="Settings_HomeDispay_NoUsernameContent">前往“玩家信息设置”设置您的游戏ID。</sys:String>
+    <sys:String x:Key="Settings_HomeDispay_NoAuthModeTitle">未设置验证模式</sys:String>
+    <sys:String x:Key="Settings_HomeDispay_NoAuthModeContent">前往“玩家信息设置”设置启动验证模式。</sys:String>
+    <sys:String x:Key="Settings_HomeDispay_NoScrollTitle">自定义主界面滚动函数</sys:String>
+    <sys:String x:Key="Settings_HomeDispay_NoScrollContent">可前往“高级设置”进行调整。</sys:String>
+    <sys:String x:Key="Settings_HomeDispay_NoMemoryTitle">未设置游戏内存</sys:String>
+    <sys:String x:Key="Settings_HomeDispay_NoMemoryContent">前往“系统信息设置”设置游戏可用内存。</sys:String>
+    <sys:String x:Key="Settings_HomeDispay_NoJavaTitle">未设置Java路径</sys:String>
+    <sys:String x:Key="Settings_HomeDispay_NoJavaContent">前往“系统信息设置”设置Java路径。</sys:String>
 
     <sys:String x:Key="Tema_Title">个性化设置</sys:String>
     <sys:String x:Key="Tema_L_Title">自定义您的BakaXL背景、主题等个性化设置</sys:String>
