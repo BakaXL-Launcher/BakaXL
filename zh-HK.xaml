@@ -15,9 +15,9 @@
     <sys:String x:Key="Communication">BakaXL喺到收取伺服器通信數據</sys:String>
 
     <sys:String x:Key="Lang_Title">設定BakaXL顯示語言</sys:String>
-    <sys:String x:Key="Lang_JoinTranslate">您可以訪問http://Baka.PokeMMC.com/Language/ 參與BakaXL翻譯工作</sys:String>
-    <sys:String x:Key="Lang_Watermark">選擇您嘅語言</sys:String>
-    <sys:String x:Key="Lang_Tips">喺選擇您嘅語言之後，BakaXL將會自動更改顯示語言</sys:String>
+    <sys:String x:Key="Lang_JoinTranslate">您可以去http://Baka.PokeMMC.com/Language/同我哋一齊翻譯BakaXL</sys:String>
+    <sys:String x:Key="Lang_Watermark">揀您用開嘅語言</sys:String>
+    <sys:String x:Key="Lang_Tips">喺揀咗您嘅語言之後，BakaXL將會自動更改顯示語言</sys:String>
 
     <sys:String x:Key="Home_Hello">您好</sys:String>
     <sys:String x:Key="Home_Theme">主題</sys:String>
@@ -109,7 +109,7 @@
     <sys:String x:Key="Settings_SystemSettings_CloseAfterLaunch">喺啟動遊戲完成之後自動退出BakaXL（唔推薦）</sys:String>
     <sys:String x:Key="Settings_SystemSettings_CloseAfterLaunch_Tip">我哋唔推薦您咁做，咁樣您會失去遊戲記憶體保護同自動診斷錯誤等功能！ </sys:String>
     <sys:String x:Key="Settings_SystemSettings_BGMTip">呢個開關將控制BakaXL主題所提供嘅程序背景音樂</sys:String>
-    <sys:String x:Key="Settings_SystemSettings_StopBGMLF">失去焦點時自動停止背景音樂</sys:String>
+    <sys:String x:Key="Settings_SystemSettings_StopBGMLF">失焦時自動停止背景音樂</sys:String>
     <sys:String x:Key="Settings_SystemSettings_StopBGMLF_Tips">當你目前活動嘅窗口不喺BakaXL嘅時候，會自動停止播放音樂</sys:String>
     <sys:String x:Key="Settings_SystemSettings_Debug">遊戲輸出信息截取&amp;分析處理</sys:String>
     <sys:String x:Key="Settings_SystemSettings_Debug_Tips">用嚟獲取遊戲輸出信息。如果你出現遊戲加載到一半就不動的情况，請取消勾選呢個功能。&#13; 注：取消呢個功能將無法使用遊戲標題修改功能同埋崩潰診斷功能</sys:String>
@@ -142,8 +142,8 @@
 
     <sys:String x:Key="Settings_BakaInfo">本體信息</sys:String>
 
-	<sys:String x:Key="Tema_Title">個性化設定</sys:String>
-    <sys:String x:Key="Tema_L_Title">自定義您嘅BakaXL背景、主題等個性化設定</sys:String>
+    <sys:String x:Key="Tema_Title">個人化設定</sys:String>
+    <sys:String x:Key="Tema_L_Title">自定您嘅BakaXL背景、主題等等嘅個人化設定</sys:String>
     <sys:String x:Key="Tema_NightMode">反轉顯示文字顏色</sys:String>
     <sys:String x:Key="Tema_ChooseColor">選擇您嘅主題顏色</sys:String>
     <sys:String x:Key="Tema_CustomImage">瀏覽自定義圖片</sys:String>
@@ -169,7 +169,7 @@
     <sys:String x:Key="Tema_TemaListTips_Under_NotTemaFile">請用來源合法嘅BakaXL主題文件，唔好拖入無關嘅文件，我們喺到為您刷新主題</sys:String>
     <!-​​-BakaXL默認主題的名稱與介紹-->
     <sys:String x:Key="Tema_BakaXL_Default">BakaXL主題</sys:String>
-    <sys:String x:Key="Tema_BakaXL_Default_Description">呢個係BakaXL嘅默認主題哦！ </sys:String>
+    <sys:String x:Key="Tema_BakaXL_Default_Description">呢個係BakaXL嘅預設主題。 </sys:String>
     <!-​​-背景圖片選擇-->
     <sys:String x:Key="Tema_CustomImage_Title">選擇您嘅自定義背景圖</sys:String>
     <sys:String x:Key="Tema_CustomImage_Filter">圖片格式</sys:String>
@@ -211,7 +211,7 @@
     <sys:String x:Key="PlazaAlaert_Title">笨蛋廣場裏面嘅部分內容要求強制使用默認顯示語言</sys:String>
     <sys:String x:Key="PlazaAlaert_Content">喺我們開放針對您用緊啲語言嘅笨蛋廣場服務之前，笨蛋廣場裏面嘅部分信息將會強制使用簡體中文（中國） 語言嚟顯示。 </sys:String>
 
-	<sys:String x:Key="PluginAlaert_Title">請求打開</sys:String>
+    <sys:String x:Key="PluginAlaert_Title">請求打開</sys:String>
     <sys:String x:Key="PluginAlaert_Content">當插件請求訪問BakaXL本體嘅功能嗰時，您將會收到呢個通知並決定喺唔喺授權插件進行訪問。 BakaXL不能確保第三方附加組件嘅安全性。 </sys:String>
 
     <sys:String x:Key="BuildInAppAlaert_Content">當BakaXL請求切換至其他內建應用嗰時，您將會收到呢個通知並決定喺唔喺要跳轉至新頁面。若您跳轉頁面，則當前頁面嘅進度可能會丟失。 </sys:String>
