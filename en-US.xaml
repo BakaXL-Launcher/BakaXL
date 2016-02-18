@@ -112,8 +112,7 @@
     <sys:String x:Key="Settings_SystemSettings_StopBGMLF">Stop music when window lost focus</sys:String>
     <sys:String x:Key="Settings_SystemSettings_StopBGMLF_Tips">Background music will automatically stop when you not using BakaXL.</sys:String>
     <sys:String x:Key="Settings_SystemSettings_Debug">Capture Game Output Message&amp;Analyze</sys:String>
-    <sys:String x:Key="Settings_SystemSettings_Debug_Tips">Use to capture game output message.If the game not responding during loading, please disable this function.&#13; PS: disable this function will also disable Custom Game Title and Crash Analyze function</sys:String>
-
+    <sys:String x:Key="Settings_SystemSettings_Debug_Tips">Use to capture game output message.If the game not responding during loading, please disable this function.</sys:String>
 
     <sys:String x:Key="Settings_AdvanceSettings">Advanced Settings</sys:String>
     <sys:String x:Key="Settings_AdvanceSettings_Tab">Advanced</sys:String>
@@ -125,6 +124,7 @@
     <sys:String x:Key="Settings_AdvanceSettings_JvmArg">JVM Args</sys:String>
     <sys:String x:Key="Settings_AdvanceSettings_JvmArgTips">Keep empty if you don't want to use this function.</sys:String>
     <sys:String x:Key="Settings_AdvanceSettings_AutoFix">Automatically download missing Assets and Libraries.</sys:String>
+    <sys:String x:Key="Settings_AdvanceSettings_ScrollValue">Scroll Value</sys:String>
 
     <sys:String x:Key="Settings_PlazaSettings">Baka Plaza</sys:String>
     <sys:String x:Key="Settings_PlazaSettings_Tab">BakaPlaza</sys:String>
@@ -136,6 +136,17 @@
     <sys:String x:Key="Settings_PlazaSettings_NoModUpdate">Don't check update for Mods</sys:String>
 
     <sys:String x:Key="Settings_BakaInfo">About</sys:String>
+
+    <sys:String x:Key="Settings_HomeDispay_NoUsernameTitle">未设置游戏ID</sys:String>
+    <sys:String x:Key="Settings_HomeDispay_NoUsernameContent">前往“玩家信息设置”设置您的游戏ID。</sys:String>
+    <sys:String x:Key="Settings_HomeDispay_NoAuthModeTitle">未设置验证模式</sys:String>
+    <sys:String x:Key="Settings_HomeDispay_NoAuthModeContent">前往“玩家信息设置”设置启动验证模式。</sys:String>
+    <sys:String x:Key="Settings_HomeDispay_NoScrollTitle">自定义主界面滚动函数</sys:String>
+    <sys:String x:Key="Settings_HomeDispay_NoScrollContent">可前往“高级设置”进行调整。</sys:String>
+    <sys:String x:Key="Settings_HomeDispay_NoMemoryTitle">未设置游戏内存</sys:String>
+    <sys:String x:Key="Settings_HomeDispay_NoMemoryContent">前往“系统信息设置”设置游戏可用内存。</sys:String>
+    <sys:String x:Key="Settings_HomeDispay_NoJavaTitle">未设置Java路径</sys:String>
+    <sys:String x:Key="Settings_HomeDispay_NoJavaContent">前往“系统信息设置”设置Java路径。</sys:String>
 
     <sys:String x:Key="Tema_Title">Personalization</sys:String>
     <sys:String x:Key="Tema_L_Title">Custom your BakaXL background and color</sys:String>
