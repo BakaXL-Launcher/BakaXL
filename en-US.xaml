@@ -15,7 +15,7 @@
     <sys:String x:Key="Communication">Connecting to BakaXL Server</sys:String>
 
     <sys:String x:Key="Lang_Title">Change BakaXL Display Language</sys:String>
-    <sys:String x:Key="Lang_JoinTranslate">Join the 'BakaXL Translate Project' today at http://Baka.PokeMMC.com/Language/</sys:String>
+    <sys:String x:Key="Lang_JoinTranslate">Join the 'BakaXL Translate Project' today at http://www.BakaXL.com/Language/</sys:String>
     <sys:String x:Key="Lang_Watermark">Choose a Language</sys:String>
     <sys:String x:Key="Lang_Tips">After selecting your language, BakaXL will change the display language automatically.</sys:String>
 
