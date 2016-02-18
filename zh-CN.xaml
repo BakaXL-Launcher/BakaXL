@@ -15,7 +15,7 @@
     <sys:String x:Key="Communication">BakaXL正在收取服务器通信数据</sys:String>
 
     <sys:String x:Key="Lang_Title">设置BakaXL显示语言</sys:String>
-    <sys:String x:Key="Lang_JoinTranslate">您可以访问 http://Baka.PokeMMC.com/Language/ 参与BakaXL翻译工作</sys:String>
+    <sys:String x:Key="Lang_JoinTranslate">您可以访问 http://www.BakaXL.com/Language/ 参与BakaXL翻译工作</sys:String>
     <sys:String x:Key="Lang_Watermark">选择您的语言</sys:String>
     <sys:String x:Key="Lang_Tips">在选择您的语言后，BakaXL将会自动更改显示语言</sys:String>
 
