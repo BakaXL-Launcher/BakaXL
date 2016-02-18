@@ -143,16 +143,16 @@
 
     <sys:String x:Key="Settings_BakaInfo">本體信息</sys:String>
 
-    <sys:String x:Key="Settings_HomeDispay_NoUsernameTitle">未设置游戏ID</sys:String>
-    <sys:String x:Key="Settings_HomeDispay_NoUsernameContent">前往“玩家信息设置”设置您的游戏ID。</sys:String>
-    <sys:String x:Key="Settings_HomeDispay_NoAuthModeTitle">未设置验证模式</sys:String>
-    <sys:String x:Key="Settings_HomeDispay_NoAuthModeContent">前往“玩家信息设置”设置启动验证模式。</sys:String>
-    <sys:String x:Key="Settings_HomeDispay_NoScrollTitle">自定义主界面滚动函数</sys:String>
-    <sys:String x:Key="Settings_HomeDispay_NoScrollContent">可前往“高级设置”进行调整。</sys:String>
-    <sys:String x:Key="Settings_HomeDispay_NoMemoryTitle">未设置游戏内存</sys:String>
-    <sys:String x:Key="Settings_HomeDispay_NoMemoryContent">前往“系统信息设置”设置游戏可用内存。</sys:String>
-    <sys:String x:Key="Settings_HomeDispay_NoJavaTitle">未设置Java路径</sys:String>
-    <sys:String x:Key="Settings_HomeDispay_NoJavaContent">前往“系统信息设置”设置Java路径。</sys:String>
+    <sys:String x:Key="Settings_HomeDispay_NoUsernameTitle">未設定遊戲ID</sys:String>
+    <sys:String x:Key="Settings_HomeDispay_NoUsernameContent">去“玩家信息設定”設定您嘅遊戲ID。</sys:String>
+    <sys:String x:Key="Settings_HomeDispay_NoAuthModeTitle">未設驗證模式</sys:String>
+    <sys:String x:Key="Settings_HomeDispay_NoAuthModeContent">去“玩家信息設定”設定遊戲驗證模式。</sys:String>
+    <sys:String x:Key="Settings_HomeDispay_NoScrollTitle">自定義主界面滾動數</sys:String>
+    <sys:String x:Key="Settings_HomeDispay_NoScrollContent">可去“高級設定”進行調整。</sys:String>
+    <sys:String x:Key="Settings_HomeDispay_NoMemoryTitle">未設定遊戲記憶體</sys:String>
+    <sys:String x:Key="Settings_HomeDispay_NoMemoryContent"去“系統信息設定”設定遊戲可用記憶體。</sys:String>
+    <sys:String x:Key="Settings_HomeDispay_NoJavaTitle">未設定Java路徑</sys:String>
+    <sys:String x:Key="Settings_HomeDispay_NoJavaContent">去“系统信息設定”設定Java路徑。</sys:String>
 
     <sys:String x:Key="Tema_Title">個人化設定</sys:String>
     <sys:String x:Key="Tema_L_Title">自定您嘅BakaXL背景、主題等等嘅個人化設定</sys:String>
