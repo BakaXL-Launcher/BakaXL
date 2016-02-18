@@ -150,7 +150,7 @@
     <sys:String x:Key="Settings_HomeDispay_NoScrollTitle">自定義主界面滾動數</sys:String>
     <sys:String x:Key="Settings_HomeDispay_NoScrollContent">可去“高級設定”進行調整。</sys:String>
     <sys:String x:Key="Settings_HomeDispay_NoMemoryTitle">未設定遊戲記憶體</sys:String>
-    <sys:String x:Key="Settings_HomeDispay_NoMemoryContent"去“系統信息設定”設定遊戲可用記憶體。</sys:String>
+    <sys:String x:Key="Settings_HomeDispay_NoMemoryContent">去“系統信息設定”設定遊戲可用記憶體。</sys:String>
     <sys:String x:Key="Settings_HomeDispay_NoJavaTitle">未設定Java路徑</sys:String>
     <sys:String x:Key="Settings_HomeDispay_NoJavaContent">去“系统信息設定”設定Java路徑。</sys:String>
 
