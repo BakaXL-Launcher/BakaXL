@@ -12,10 +12,10 @@
     <sys:String x:Key="Button_NextStep">下一步</sys:String>
     <sys:String x:Key="Button_Back">返回</sys:String>
 
-    <sys:String x:Key="Communication">BakaXL正在收取服務器通信數據</sys:String>
+    <sys:String x:Key="Communication">BakaXL正在收取伺服器通信數據</sys:String>
 
     <sys:String x:Key="Lang_Title">設置BakaXL顯示語言</sys:String>
-    <sys:String x:Key="Lang_JoinTranslate">您可以訪問http://Baka.PokeMMC.com/Language/ 參與BakaXL翻譯工作</sys:String>
+    <sys:String x:Key="Lang_JoinTranslate">您可以訪問http://www.BakaXL.com/Language/ 參與BakaXL翻譯工作</sys:String>
     <sys:String x:Key="Lang_Watermark">選擇您的語言</sys:String>
     <sys:String x:Key="Lang_Tips">在選擇您的語言後，BakaXL將會自動更改顯示語言</sys:String>
 
@@ -29,12 +29,13 @@
     <sys:String x:Key="Home_Settings">本體設置</sys:String>
     <sys:String x:Key="Home_AuthMode">驗證模式</sys:String>
     <sys:String x:Key="Home_Launch">啟動遊戲</sys:String>
-    <sys:String x:Key="Home_ServerMotd">服務器公告</sys:String>
+    <sys:String x:Key="Home_ServerMotd">伺服器公告</sys:String>
     <sys:String x:Key="Home_TapToSee">點擊查看</sys:String>
     <sys:String x:Key="Home_CoreTools">整合包工具</sys:String>
     <sys:String x:Key="Home_ThemePunlic">BakaXL個性化設置</sys:String>
     <sys:String x:Key="Home_BakaPlaza">笨蛋廣場</sys:String>
     <sys:String x:Key="Home_Tips">BakaXL貼士</sys:String>
+    <sys:String x:Key="Home_PluginManagement">插件管理</sys:String>
 
     <sys:String x:Key="AuthMode_Online">正版登錄</sys:String>
     <sys:String x:Key="AuthMode_Offline">離線模式</sys:String>
@@ -49,7 +50,7 @@
     <sys:String x:Key="BakaCrasher_UnderTips">您遇到的錯誤已被BakaXL笨蛋崩壞罐頭收集並蓋好蓋子，若要封印該問題，您需要將本頁面的截圖發送給TT</sys:String>
 
     <sys:String x:Key="FirstScreen_Loading">正在處理一些事情</sys:String>
-    
+
     <sys:String x:Key="SetUpGuide_Loading">正在為第一次運行BakaXL做準備…</sys:String>
     <sys:String x:Key="SetUpGuide_Loading_1">創建BakaXL配置文件…</sys:String>
     <sys:String x:Key="SetUpGuide_Loading_2">BakaXL正在被怪蜀黍檢查身體…</sys:String>
@@ -58,18 +59,18 @@
     <sys:String x:Key="SetUpGuide_Loading_5">BakaXL正在初始化：遊戲資源處理系統</sys:String>
     <sys:String x:Key="SetUpGuide_Loading_6">BakaXL正在初始化：本體設置</sys:String>
     <sys:String x:Key="SetUpGuide_Loading_7">BakaXL正在初始化：遊戲啟動</sys:String>
-    <sys:String x:Key="SetUpGuide_Loading_8">BakaXL初始化準備完成！ </sys:String>
+    <sys:String x:Key="SetUpGuide_Loading_8">BakaXL初始化準備完成！</sys:String>
 
     <sys:String x:Key="PlayerInfoFlyout_Title">您的個人信息</sys:String>
     <sys:String x:Key="PlayerInfoFlyout_Thx">感謝您使用BakaXL啟動器</sys:String>
     <sys:String x:Key="PlayerInfoFlyout_Tucao">來一發吐槽</sys:String>
-    <sys:String x:Key="PlayerInfoFlyout_Hi">您好！ </sys:String>
+    <sys:String x:Key="PlayerInfoFlyout_Hi">您好！</sys:String>
     <sys:String x:Key="PlayerInfoFlyout_Memory">內存設置</sys:String>
     <sys:String x:Key="PlayerInfoFlyout_AutoMemory">自動設置內存</sys:String>
     <sys:String x:Key="PlayerInfoFlyout_UseOnline">使用正版驗證</sys:String>
     <sys:String x:Key="PlayerInfoFlyout_UseOnlineTips">您需要在本體設置- 玩家個人信息內&#x000A;設置你的正版賬號後才能使用本項</sys:String>
-    <sys:String x:Key="PlayerInfoFlyout_AutoJoin">自動加入服務器</sys:String>
-    <sys:String x:Key="PlayerInfoFlyout_AutoJoinTips">你需要在本體設置—高級設置內&#x000A;設置服務器地址才可以設置本項目</sys:String>
+    <sys:String x:Key="PlayerInfoFlyout_AutoJoin">自動加入伺服器</sys:String>
+    <sys:String x:Key="PlayerInfoFlyout_AutoJoinTips">你需要在本體設置—高級設置內&#x000A;設置伺服器地址才可以設置本項目</sys:String>
     <sys:String x:Key="PlayerInfoFlyout_MoreSettings">更多設置請進入本體設置中更改</sys:String>
 
     <sys:String x:Key="ErrorFlyout_Title">啊哦！出現了點錯誤！</sys:String>
@@ -106,23 +107,24 @@
     <sys:String x:Key="Settings_SystemSettings_ManualJava">手動定位</sys:String>
     <sys:String x:Key="Settings_SystemSettings_BGM">BakaXL背景音樂</sys:String>
     <sys:String x:Key="Settings_SystemSettings_CloseAfterLaunch">在啟動遊戲完成後自動退出BakaXL（不推薦）</sys:String>
-    <sys:String x:Key="Settings_SystemSettings_CloseAfterLaunch_Tip">我們不推薦您這麼做，這樣您會失去遊戲內存保護以及自動診斷錯誤等功能！ </sys:String>
+    <sys:String x:Key="Settings_SystemSettings_CloseAfterLaunch_Tip">我們不推薦您這麼做，這樣您會失去遊戲內存保護以及自動診斷錯誤等功能！</sys:String>
     <sys:String x:Key="Settings_SystemSettings_BGMTip">此開關將控制BakaXL主題所提供的程序背景音樂</sys:String>
     <sys:String x:Key="Settings_SystemSettings_StopBGMLF">失去焦點時自動停止背景音樂</sys:String>
     <sys:String x:Key="Settings_SystemSettings_StopBGMLF_Tips">當你目前活動的窗口不在BakaXL的時候，會自動停止播放音樂</sys:String>
-    <sys:String x:Key="Settings_SystemSettings_Debug">遊戲輸出信息截取&amp;分析處理</sys:String>
-    <sys:String x:Key="Settings_SystemSettings_Debug_Tips">用來獲取遊戲輸出信息。如果你出現遊戲加載到一半就不動的情况，請取消勾選本功能。&#13; 注：取消該功能將無法使用遊戲標題修改功能和崩潰診斷功能</sys:String>
+    <sys:String x:Key="Settings_SystemSettings_Debug">遊戲輸出資訊截取&amp;分析處理</sys:String>
+    <sys:String x:Key="Settings_SystemSettings_Debug_Tips">用來獲取遊戲輸出資訊。如果你出現遊戲載入到一半就不動的情況，請取消勾選本功能。</sys:String>
 
     <sys:String x:Key="Settings_AdvanceSettings">高級設置</sys:String>
     <sys:String x:Key="Settings_AdvanceSettings_Tab">高級設置</sys:String>
     <sys:String xml:space="preserve" x:Key="Settings_AdvanceSettings_Tips">· 配置BakaXL的高級功能&#xD;&#xA;&#xD;&#xA;· 設置附加遊戲啟動命令&#xD;&#xA;&#xD;&#xA;· 通過調試模式啟動遊戲</sys:String>
     <sys:String x:Key="Settings_AdvanceSettings_ForceExit">退出時強制結束進程(避免在某些情況下導致BakaXL退出後依然駐留在進程內)</sys:String>
-    <sys:String x:Key="Settings_AdvanceSettings_AutoJoin">啟動遊戲後自動加入服務器</sys:String>
+    <sys:String x:Key="Settings_AdvanceSettings_AutoJoin">啟動遊戲後自動加入伺服器</sys:String>
     <sys:String x:Key="Settings_AdvanceSettings_GameTitle">遊戲窗口標題</sys:String>
     <sys:String x:Key="Settings_AdvanceSettings_AutoJoinIP">啟動後自動連接IP</sys:String>
     <sys:String x:Key="Settings_AdvanceSettings_JvmArg">高級啟動參數</sys:String>
     <sys:String x:Key="Settings_AdvanceSettings_JvmArgTips">僅在有特殊需要時才使用，需要正確填寫參數，普通玩家無需使用此功能，建議留空</sys:String>
     <sys:String x:Key="Settings_AdvanceSettings_AutoFix">開啟智能文件修復提醒（將在你切換版本的時候並且沒有後台下載的時候提醒你丟失文件）</sys:String>
+    <sys:String x:Key="Settings_AdvanceSettings_ScrollValue">主界面滾動函數</sys:String>
 
     <sys:String x:Key="Settings_PlazaSettings">笨蛋廣場設置</sys:String>
     <sys:String x:Key="Settings_PlazaSettings_Tab">笨蛋廣場設置</sys:String>
@@ -135,78 +137,89 @@
 
     <sys:String x:Key="Settings_BakaInfo">本體信息</sys:String>
 
-	<sys:String x:Key="Tema_Title">個性化設置</sys:String>
-    <sys:String x:Key="Tema_L_Title">自定義您的BakaXL背景、主題等個性化設置</sys:String>
-    <sys:String x:Key="Tema_NightMode">反轉顯示文字顏色</sys:String>
-    <sys:String x:Key="Tema_ChooseColor">選擇您的主題顏色</sys:String>
-    <sys:String x:Key="Tema_CustomImage">瀏覽自定義圖片</sys:String>
-    <sys:String x:Key="Tema_Default">恢復默認</sys:String>
-    <sys:String x:Key="Tema_TemaAuthor_Title">主題作者</sys:String>
-    <sys:String x:Key="Tema_TemaDescription_Title">介紹與說明</sys:String>
-    <sys:String x:Key="Tema_TemaDescription_Default">天哪！這里裏居然沒有留下任何內容！ </sys:String>
-    <!-​​-沒有主題時的提示內容-->
-    <sys:String x:Key="Tema_TemaListTitle_NoTema">這真是令人感到不愉快</sys:String>
-    <sys:String x:Key="Tema_TemaListTips_NoTema">我發誓，這里幹乾淨的連個主題都沒有，您為何不嘗試來添加幾個？ </sys:String>
-    <sys:String x:Key="Tema_TemaListTips_Under_NoTema">將BakaXL主題文件拖入至此或放入 'BakaXL\Tema' 文件夾內</sys:String>
-    <!-​​-拖入主題時的提示內容-->
-    <sys:String x:Key="Tema_TemaListTitle_Drag">導入這個該死的主題</sys:String>
-    <sys:String x:Key="Tema_TemaListTips_Drag">你要是再不鬆手，我發誓我會用靴子狠狠地踢你的屁股！ </sys:String>
-    <sys:String x:Key="Tema_TemaListTips_Under_Drag">您的主題將會被自動導入至'BakaXL\\Tema' 文件夾內</sys:String>
-    <!-​​-處理主題時的提示內容-->
-    <sys:String x:Key="Tema_TemaListTitle_Unpack">這真是令人難以置信</sys:String>
-    <sys:String x:Key="Tema_TemaListTips_Unpack">看在上帝的份上，BakaXL正在處理主題</sys:String>
-    <sys:String x:Key="Tema_TemaListTips_Under_Unpack">您的主題將會在處理完成後將自動更換</sys:String>
-    <!-​​-文件不合法時的提示內容-->
-    <sys:String x:Key="Tema_TemaListTitle_NotTemaFile">我想你一定在跟我開玩笑</sys:String>
-    <sys:String x:Key="Tema_TemaListTips_NotTemaFile">這個文件看上去並不是一個合法的BakaXL主題文件（是的，這個文件）</sys:String>
-    <sys:String x:Key="Tema_TemaListTips_Under_NotTemaFile">請使用來源合法的BakaXL主題文件，不要拖入無關的文件，我們正在為您刷新主題</sys:String>
-    <!-​​-BakaXL默認主題的名稱與介紹-->
-    <sys:String x:Key="Tema_BakaXL_Default">BakaXL主題</sys:String>
-    <sys:String x:Key="Tema_BakaXL_Default_Description">這是BakaXL的默認主題哦！ </sys:String>
-    <!-​​-背景圖片選擇-->
-    <sys:String x:Key="Tema_CustomImage_Title">選擇您的自定義背景圖</sys:String>
-    <sys:String x:Key="Tema_CustomImage_Filter">圖片格式</sys:String>
-    <!-​​-主題讀取失敗-->
-    <sys:String x:Key="Tema_LoadTema_Error_Title">主題包信息錯誤</sys:String>
-    <sys:String x:Key="Tema_LoadTema_Error_Description">主題包讀取失敗！可能是該文件已經不存在！請嘗試右鍵刷新主題列表。 </sys:String>
-    <!-​​-主題右鍵列表-->
-    <sys:String x:Key="Tema_TemaBox_RightClick_1">刪除主題</sys:String>
-    <sys:String x:Key="Tema_TemaBox_RightClick_2">刷新列表</sys:String>
-    <sys:String x:Key="Tema_TemaBox_RightClick_3">打開目錄</sys:String>
-    <sys:String x:Key="Tema_TemaBox_RightClick_4">獲取更多主題</sys:String>
+    <sys:String x:Key="Settings_HomeDispay_NoUsernameTitle">未设置游戏ID</sys:String>
+    <sys:String x:Key="Settings_HomeDispay_NoUsernameContent">前往“玩家信息设置”设置您的游戏ID。</sys:String>
+    <sys:String x:Key="Settings_HomeDispay_NoAuthModeTitle">未设置验证模式</sys:String>
+    <sys:String x:Key="Settings_HomeDispay_NoAuthModeContent">前往“玩家信息设置”设置启动验证模式。</sys:String>
+    <sys:String x:Key="Settings_HomeDispay_NoScrollTitle">自定义主界面滚动函数</sys:String>
+    <sys:String x:Key="Settings_HomeDispay_NoScrollContent">可前往“高级设置”进行调整。</sys:String>
+    <sys:String x:Key="Settings_HomeDispay_NoMemoryTitle">未设置游戏内存</sys:String>
+    <sys:String x:Key="Settings_HomeDispay_NoMemoryContent">前往“系统信息设置”设置游戏可用内存。</sys:String>
+    <sys:String x:Key="Settings_HomeDispay_NoJavaTitle">未设置Java路径</sys:String>
+    <sys:String x:Key="Settings_HomeDispay_NoJavaContent">前往“系统信息设置”设置Java路径。</sys:String>
 
-    <sys:String x:Key="Color_Red">中國紅</sys:String>
-    <sys:String x:Key="Color_Green">苦力怕綠</sys:String>
-    <sys:String x:Key="Color_Blue">天依藍</sys:String>
-    <sys:String x:Key="Color_Purple">基佬紫</sys:String>
-    <sys:String x:Key="Color_Orange">煩人橙</sys:String>
-    <sys:String x:Key="Color_Lime">爛草綠</sys:String>
-    <sys:String x:Key="Color_Emerald">茶婊綠</sys:String>
-    <sys:String x:Key="Color_Teal">藍翔藍</sys:String>
-    <sys:String x:Key="Color_Cyan">天空藍</sys:String>
-    <sys:String x:Key="Color_Cobalt">IE藍</sys:String>
-    <sys:String x:Key="Color_Indigo">量子紫</sys:String>
-    <sys:String x:Key="Color_Violet">紫羅蘭</sys:String>
-    <sys:String x:Key="Color_Pink">櫻花色</sys:String>
-    <sys:String x:Key="Color_Magenta">迷の紅</sys:String>
-    <sys:String x:Key="Color_Crimson">酒心紅</sys:String>
-    <sys:String x:Key="Color_Amber">土狗黃</sys:String>
-    <sys:String x:Key="Color_Yellow">皮卡丘黃</sys:String>
-    <sys:String x:Key="Color_Brown">翔の色</sys:String>
-    <sys:String x:Key="Color_Olive">橄欖綠</sys:String>
-    <sys:String x:Key="Color_Steel">巨金怪</sys:String>
-    <sys:String x:Key="Color_Mauve">褪色紫</sys:String>
-    <sys:String x:Key="Color_Taupe">霧霾灰</sys:String>
-    <sys:String x:Key="Color_Sienna">木棕色</sys:String>
+    <sys:String x:Key="Tema_Title">BakaXL個性化設定</sys:String>
+    <sys:String x:Key="Tema_L_Title">自訂您的BakaXL背景、主題等個性化設定</sys:String>
+    <sys:String x:Key="Tema_NightMode">反轉顯示文字顏色</sys:String>
+    <sys:String x:Key="Tema_ChooseColor">選擇您的主題顏色</sys:String>
+    <sys:String x:Key="Tema_CustomImage">流覽自訂圖片</sys:String>
+    <sys:String x:Key="Tema_Default">恢復預設</sys:String>
+    <sys:String x:Key="Tema_TemaAuthor_Title">主題作者</sys:String>
+    <sys:String x:Key="Tema_TemaDescription_Title">介紹與說明</sys:String>
+    <sys:String x:Key="Tema_TemaDescription_Default">天哪！這裡居然沒有留下任何內容！</sys:String>
+    <!--沒有主題時的提示內容-->
+    <sys:String x:Key="Tema_TemaListTitle_NoTema">這真是令人感到不愉快</sys:String>
+    <sys:String x:Key="Tema_TemaListTips_NoTema">我發誓，這裡乾淨的連個主題都沒有，您為何不嘗試來添加幾個？</sys:String>
+    <sys:String x:Key="Tema_TemaListTips_Under_NoTema">將BakaXL主題檔拖入至此或放入 'BakaXL\Tema' 資料夾內</sys:String>
+    <!--拖入主題時的提示內容-->
+    <sys:String x:Key="Tema_TemaListTitle_Drag">導入這個該死的主題</sys:String>
+    <sys:String x:Key="Tema_TemaListTips_Drag">你要是再不鬆手，我發誓我會用靴子狠狠地踢你的屁股！</sys:String>
+    <sys:String x:Key="Tema_TemaListTips_Under_Drag">您的主題將會被自動導入至 'BakaXL\\Tema' 資料夾內</sys:String>
+    <!--處理主題時的提示內容-->
+    <sys:String x:Key="Tema_TemaListTitle_Unpack">這真是令人難以置信</sys:String>
+    <sys:String x:Key="Tema_TemaListTips_Unpack">看在上帝的份上，BakaXL正在處理主題</sys:String>
+    <sys:String x:Key="Tema_TemaListTips_Under_Unpack">您的主題將會在處理完成後將自動更換</sys:String>
+    <!--檔不合法時的提示內容-->
+    <sys:String x:Key="Tema_TemaListTitle_NotTemaFile">我想你一定在跟我開玩笑</sys:String>
+    <sys:String x:Key="Tema_TemaListTips_NotTemaFile">這個檔看上去並不是一個合法的BakaXL主題檔（是的，這個檔）</sys:String>
+    <sys:String x:Key="Tema_TemaListTips_Under_NotTemaFile">請使用來源合法的BakaXL主題檔，不要拖入無關的檔，我們正在為您刷新主題</sys:String>
+    <!--BakaXL預設主題的名稱與介紹-->
+    <sys:String x:Key="Tema_BakaXL_Default">BakaXL主題</sys:String>
+    <sys:String x:Key="Tema_BakaXL_Default_Description">這是BakaXL的預設主題哦！</sys:String>
+    <!--背景圖片選擇-->
+    <sys:String x:Key="Tema_CustomImage_Title">選擇您的自訂背景圖</sys:String>
+    <sys:String x:Key="Tema_CustomImage_Filter">圖片格式</sys:String>
+    <!--主題讀取失敗-->
+    <sys:String x:Key="Tema_LoadTema_Error_Title">主題包資訊錯誤</sys:String>
+    <sys:String x:Key="Tema_LoadTema_Error_Description">主題包讀取失敗！可能是該檔已經不存在！請嘗試右鍵刷新主題清單。</sys:String>
+    <!--主題右鍵清單-->
+    <sys:String x:Key="Tema_TemaBox_RightClick_1">刪除主題</sys:String>
+    <sys:String x:Key="Tema_TemaBox_RightClick_2">刷新清單</sys:String>
+    <sys:String x:Key="Tema_TemaBox_RightClick_3">打開目錄</sys:String>
+    <sys:String x:Key="Tema_TemaBox_RightClick_4">獲取更多主題</sys:String>
+
+    <sys:String x:Key="Color_Red">中國紅</sys:String>
+    <sys:String x:Key="Color_Green">苦力怕綠</sys:String>
+    <sys:String x:Key="Color_Blue">天依藍</sys:String>
+    <sys:String x:Key="Color_Purple">基佬紫</sys:String>
+    <sys:String x:Key="Color_Orange">煩人橙</sys:String>
+    <sys:String x:Key="Color_Lime">爛草綠</sys:String>
+    <sys:String x:Key="Color_Emerald">茶婊綠</sys:String>
+    <sys:String x:Key="Color_Teal">藍翔藍</sys:String>
+    <sys:String x:Key="Color_Cyan">天空藍</sys:String>
+    <sys:String x:Key="Color_Cobalt">IE藍</sys:String>
+    <sys:String x:Key="Color_Indigo">量子紫</sys:String>
+    <sys:String x:Key="Color_Violet">紫羅蘭</sys:String>
+    <sys:String x:Key="Color_Pink">櫻花色</sys:String>
+    <sys:String x:Key="Color_Magenta">迷の紅</sys:String>
+    <sys:String x:Key="Color_Crimson">酒心紅</sys:String>
+    <sys:String x:Key="Color_Amber">土狗黃</sys:String>
+    <sys:String x:Key="Color_Yellow">皮卡丘黃</sys:String>
+    <sys:String x:Key="Color_Brown">翔の色</sys:String>
+    <sys:String x:Key="Color_Olive">橄欖綠</sys:String>
+    <sys:String x:Key="Color_Steel">巨金怪</sys:String>
+    <sys:String x:Key="Color_Mauve">褪色紫</sys:String>
+    <sys:String x:Key="Color_Taupe">霧霾灰</sys:String>
+    <sys:String x:Key="Color_Sienna">木棕色</sys:String>
 
     <!--<sys:String x:Key="CoreTools_HomeText">BakaXL整合包工具</sys:String>-->
 
     <sys:String x:Key="PlazaAlaert_Title">笨蛋廣場內的部分內容要求強制使用默認顯示語言</sys:String>
-    <sys:String x:Key="PlazaAlaert_Content">在我們開放針對您所使用語言的笨蛋廣場服務之前，笨蛋廣場內的部分信息將會強制使用簡體中文（中國） 語言來顯示。 </sys:String>
+    <sys:String x:Key="PlazaAlaert_Content">在我們開放針對您所使用語言的笨蛋廣場服務之前，笨蛋廣場內的部分信息將會強制使用 簡體中文（中國） 語言來顯示。</sys:String>
 
-	<sys:String x:Key="PluginAlaert_Title">請求打開</sys:String>
-    <sys:String x:Key="PluginAlaert_Content">當插件請求訪問BakaXL本體的功能時，您將會收到此通知並決定是否授權插件進行訪問。 BakaXL不能確保第三方附加組件的安全性。 </sys:String>
+    <sys:String x:Key="PluginAlaert_Title">請求啟動</sys:String>
+    <sys:String x:Key="PluginAlaert_Content">當插件請求訪問BakaXL本體的功能時，您將會收到此通知并決定是否授權插件進行訪問。BakaXL不能確保第三方組件的安全性。</sys:String>
 
-    <sys:String x:Key="BuildInAppAlaert_Content">當BakaXL請求切換至其他內建應用時，您將會收到此通知並決定是否要跳轉至新頁面。若您跳轉頁面，則當前頁面的進度可能會丟失。 </sys:String>
+    <sys:String x:Key="BuildInAppAlaert_Content">當BakaXL請求切換至其他內建應用時，您將會收到此通知並決定是否要跳轉至新頁面。若您跳越頁面，則當前頁面的進度可能會丟失。</sys:String>
 
 </ResourceDictionary>
