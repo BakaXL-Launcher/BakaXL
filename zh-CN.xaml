@@ -94,7 +94,7 @@
     <sys:String x:Key="SetUpGuide_QuickSet_Username_1">使用您的游戏ID：</sys:String>
     <sys:String x:Key="SetUpGuide_QuickSet_Username_Online">并通过正版验证模式启动。</sys:String>
     <sys:String x:Key="SetUpGuide_QuickSet_Username_Offline">并通过离线模式启动。</sys:String>
-    <sys:String xml:space="preserve" x:Key="SetUpGuide_QuickSet_Settings">自动设置游戏所需内存以及Java路径。并开启BakaXL背景音乐以获得更好的&#xD;&#xA;使用体验。在游戏启动完成后最小化BakaXL来帮助您游戏时进行内存优化。&#xD;&#xA;&#xD;&#xA;开启'智能文件修复提醒'以及时通知您游戏可能缺少的资源。并将使用'大陆地区&#xD;&#xA;第三方下载源'来确保您的游戏资源下载速度。&#xD;&#xA;&#xD;&#xA;自动加载所有已安装的BakaXL插件。并非所有的第三方插件都是安全的。&#xD;&#xA;允许笨蛋广场请求您的位置信息（所在城市）已获得地区化的服务。&#xD;&#xA;&#xD;&#xA;向BakaXL发送崩溃和启动诊断信息。</sys:String>
+    <sys:String xml:space="preserve" x:Key="SetUpGuide_QuickSet_Settings">自动设置游戏所需内存以及Java路径。并开启BakaXL背景音乐以获得更好的&#xD;&#xA;使用体验。在游戏启动完成后最小化BakaXL来帮助您游戏时进行内存优化。&#xD;&#xA;&#xD;&#xA;开启'智能文件修复提醒'以及时通知您游戏可能缺少的资源。并将使用'大陆地区&#xD;&#xA;第三方下载源'来确保您的游戏资源下载速度。&#xD;&#xA;&#xD;&#xA;自动加载所有已安装的BakaXL插件。并非所有的第三方插件都是安全的。&#xD;&#xA;允许笨蛋广场请求您的位置信息（所在城市）以获得地区化的服务。&#xD;&#xA;&#xD;&#xA;向BakaXL发送崩溃和启动诊断信息。</sys:String>
     <sys:String x:Key="SetUpGuide_QuickSet_MoreInfo">了解有关BakaXL会收集的内容</sys:String>
     <sys:String x:Key="SetUpGuide_QuickSet_Button_QuickSet">使用快速设置</sys:String>
     <sys:String x:Key="SetUpGuide_QuickSet_Button_Manual">自定义设置</sys:String>
