@@ -13,3 +13,4 @@ zh-CL.xaml 文言文（呜呼哀哉，参谋者皆脑有穴，群疯人！）
 en-US.xaml English  
 en-ES.xaml español  
 ja-JP.xaml 日本語
+ko-KR.xaml 한국어
