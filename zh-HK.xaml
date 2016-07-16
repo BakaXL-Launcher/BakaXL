@@ -11,6 +11,8 @@
     <sys:String x:Key="Button_Restart">重新啟動</sys:String>
     <sys:String x:Key="Button_NextStep">下一步</sys:String>
     <sys:String x:Key="Button_Back">返去</sys:String>
+    <sys:String x:Key="Button_Checking">正在驗證</sys:String>
+    <sys:String x:Key="Button_Finish">完成</sys:String>
 
     <sys:String x:Key="Communication">BakaXL喺到收取伺服器通信數據</sys:String>
 
@@ -37,6 +39,8 @@
     <sys:String x:Key="Home_BakaPlaza_Easter">傻豬廣場</sys:String>
     <sys:String x:Key="Home_Tips">BakaXL貼士</sys:String>
 
+    <sys:String xml:space="preserve" x:Key="BakaPlaza_Under_Easter">傻豬廣場 バカひろば</sys:String>
+
     <sys:String x:Key="AuthMode_Online">正版登錄</sys:String>
     <sys:String x:Key="AuthMode_Offline">離線模式</sys:String>
 
@@ -61,6 +65,57 @@
     <sys:String x:Key="SetUpGuide_Loading_7">BakaXL初始化緊：遊戲啟動</sys:String>
     <sys:String x:Key="SetUpGuide_Loading_8">BakaXL初始化準備完成！</sys:String>
 
+    <sys:String x:Key="SetUpGuide_MainSetup_Title">接下來，我們來設置一些東西！</sys:String>
+    <sys:String x:Key="SetUpGuide_MainSetup_Tips">我們需要一些信息以確保遊戲正常運行，這不會花費很長時間，坐和放寬</sys:String>
+
+    <sys:String x:Key="SetUpGuide_Region_Title">您所使用的語言</sys:String>
+    <sys:String x:Key="SetUpGuide_Region_DisplayLang">BakaXL顯示語言</sys:String>
+    <sys:String x:Key="SetUpGuide_Region_Tips">您的語言設置將會修改BakaXL的顯示語言，請選擇一個符合您語言習慣的語種</sys:String>
+
+    <sys:String x:Key="SetUpGuide_Welcome_Title">歡迎使用BakaXL</sys:String>
+    <sys:String x:Key="SetUpGuide_Welcome_NotCurrentUser">我不是</sys:String>
+
+    <sys:String x:Key="SetUpGuide_Welcome_Whoareyou">那麼，你是誰？</sys:String>
+
+    <sys:String x:Key="SetUpGuide_Username_Title">設置啟動Minecraft的用戶名</sys:String>
+    <sys:String x:Key="SetUpGuide_Username_Tips">只能使用英文、數字和下劃線，不建議使用中文和特殊符號。</sys:String>
+    <sys:String x:Key="SetUpGuide_Username_Call">您想在遊戲內叫什麼？</sys:String>
+    <sys:String x:Key="SetUpGuide_Username_MojangAccount">我購買了正版Minecraft</sys:String>
+    <sys:String x:Key="SetUpGuide_Username_UnderTips">請您注意，用戶名是您在各大服務器服務器內游玩的唯一憑證。</sys:String>
+
+    <sys:String x:Key="SetUpGuide_Mojang_Title">登錄Mojang正版賬戶</sys:String>
+    <sys:String x:Key="SetUpGuide_Mojang_Tip">輸入您的Minecraft正版賬戶信息，BakaXL將加密保存這些信息。</sys:String>
+    <sys:String x:Key="SetUpGuide_Mojang_Watermark_Email">正版郵箱</sys:String>
+    <sys:String x:Key="SetUpGuide_Mojang_Watermark_Password">密碼</sys:String>
+    <sys:String x:Key="SetUpGuide_Mojang_ForgetPassword">忘記密碼？</sys:String>
+    <sys:String x:Key="SetUpGuide_Mojang_BuyMinecraft">在Minecraft官網購買正版賬戶</sys:String>
+    <sys:String x:Key="SetUpGuide_Mojang_NoAccount">我沒有購買正版Minecraft</sys:String>
+
+    <sys:String x:Key="SetUpGuide_QuickSet_Title">使用快速設置</sys:String>
+    <sys:String x:Key="SetUpGuide_QuickSet_Tips">您隨時可以在'本體設置'中修改這些設置。使用'快速設置'將會：</sys:String>
+    <sys:String x:Key="SetUpGuide_QuickSet_Username_1">使用您的遊戲ID：</sys:String>
+    <sys:String x:Key="SetUpGuide_QuickSet_Username_Online">並通過正版驗證模式啟動。</sys:String>
+    <sys:String x:Key="SetUpGuide_QuickSet_Username_Offline">並通過離線模式啟動。</sys:String>
+    <sys:String xml:space="preserve" x:Key="SetUpGuide_QuickSet_Settings">自動設置遊戲所需內存以及Java路徑。並開啟BakaXL背景音樂以獲得更好的&#xD;&#xA;使用體驗。在遊戲啟動完成後最小化BakaXL來幫助您遊戲時進行內存優化。 &#xD;&#xA;&#xD;&#xA;開啟'智能文件修復提醒'以及時通知您遊戲可能缺少的資源。並將使用'大陸地區&#xD;&#xA;第三方下載源'來確保您的遊戲資源下載速度。 &#xD;&#xA;&#xD;&#xA;自動加載所有已安裝的BakaXL插件。並非所有的第三方插件都是安全的。 &#xD;&#xA;允許笨蛋廣場請求您的位置信息（所在城市）已獲得地區化的服務。 &#xD;&#xA;&#xD;&#xA;向BakaXL發送崩潰和啟動診斷信息。</sys:String>
+    <sys:String x:Key="SetUpGuide_QuickSet_MoreInfo">了解有關BakaXL會收集的內容</sys:String>
+    <sys:String x:Key="SetUpGuide_QuickSet_Button_QuickSet">使用快速設置</sys:String>
+    <sys:String x:Key="SetUpGuide_QuickSet_Button_Manual">自定義設置</sys:String>
+
+    <sys:String x:Key="SetUpGuide_Tema_Title">定制您專屬的BakaXL</sys:String>
+    <sys:String x:Key="SetUpGuide_Tema_Tips">BakaXL允許您自定義背景圖片和配色，若您需要，您可以在這裡設置您所喜愛的背景圖片</sys:String>
+    <sys:String x:Key="SetUpGuide_Tema_Tips_Under">雖然您設置的壁紙不會以任何方式上傳或公佈，但BakaXL建議您不要使用含有工口內容的圖片</sys:String>
+
+    <sys:String x:Key="SetUpGuide_SystemInfo_Title">自定義遊戲啟動</sys:String>
+    <sys:String x:Key="SetUpGuide_SystemInfo_Tips">已為您獲取了部分啟動遊戲所需的系統信息。通常情況下我們不建議您修改正常設置。</sys:String>
+    <sys:String x:Key="SetUpGuide_SystemInfo_Java">啟動遊戲的Java</sys:String>
+    <sys:String x:Key="SetUpGuide_SystemInfo_Memory">遊戲所使用的內存</sys:String>
+    <sys:String x:Key="SetUpGuide_SystemInfo_JavaTips">您可以訪問http://www.Java.com下載最新版的Java。 BakaXL已不再對Java6提供支持。</sys:String>
+
+    <sys:String x:Key="SetUpGuide_Finish_Title">設置嚮導現已完成！</sys:String>
+    <sys:String x:Key="SetUpGuide_Finish_Tips">您的設置將會被保存，您可以隨時輕按這些磁貼來變更您的設置。</sys:String>
+    <sys:String x:Key="SetUpGuide_Finish_UpderTips">感謝您選擇Ba​​kaXL啟動器，您的支持對我們非常重要</sys:String>
+    <sys:String x:Key="SetUpGuide_Finish_ButtonTips">請您按下 '完成' 按鈕來返回至BakaXL主菜單</sys:String>
+
     <sys:String x:Key="PlayerInfoFlyout_Title">您嘅個人信息</sys:String>
     <sys:String x:Key="PlayerInfoFlyout_Thx">多謝您用BakaXL啟動器</sys:String>
     <sys:String x:Key="PlayerInfoFlyout_Tucao">嚟一發吐槽</sys:String>
@@ -76,10 +131,104 @@
     <sys:String x:Key="ErrorFlyout_Title">啊哦！出現咗啲錯誤！</sys:String>
 
     <sys:String x:Key="DownloadManagement_Title">BakaXL文件下載管理器</sys:String>
-    <sys:String x:Key="DownloadManagement_NoFile">依家無文件喺到下載緊</sys:String>
+    <sys:String x:Key="DownloadManagement_NoFile">家陣無文件喺到下載緊</sys:String>
     <sys:String x:Key="DownloadManagement_NoFileTips">目前暫無任何下載安排</sys:String>
     <sys:String x:Key="DownloadManagement_Tips_1">BakaXL將會喺您需要做下載等操作嘅時侯自動開始下載呢啲文件</sys:String>
     <sys:String x:Key="DownloadManagement_Tips_2">我哋建議您喺BakaXL進行呢啲文件嘅下載時保持網絡連接並且唔好操作呢啲文件</sys:String>
+    <sys:String x:Key="DownloadManagement_HaveFile_1">現時隊列中有</sys:String>
+    <sys:String x:Key="DownloadManagement_HaveFile_2">個檔案</sys:String>
+    <sys:String x:Key="DownloadManagement_Downloading">正在下載</sys:String>
+    <sys:String x:Key="DownloadManagement_Finish">下載已完成</sys:String>
+    <sys:String x:Key="DownloadManagement_Failed">下載失敗</sys:String>
+    
+    <sys:String x:Key="DownloadHelper_Failed">下載失敗-</sys:String>
+    <sys:String x:Key="DownloadHelper_UnPack">正在解壓檔案</sys:String>
+    <sys:String x:Key="DownloadHelper_Finish">完成</sys:String>
+    <sys:String x:Key="DownloadHelper_UnPackFailed">解壓失敗：</sys:String>
+    <sys:String x:Key="DownloadHelper_UnPackFailed_1">解壓失敗：無法釋放解壓程式</sys:String>
+    <sys:String x:Key="DownloadHelper_UnPackFailed_2">解壓失敗：無法運行解壓程式，請設定Java路徑</sys:String>
+    <sys:String x:Key="DownloadHelper_Downloading">正在下載</sys:String>
+    <sys:String x:Key="DownloadHelper_Waiting">等待下載</sys:String>
+    <sys:String x:Key="DownloadHelper_Download_Err">部分文件下載失敗，呢啲檔案將在您下一次啟動BakaXL時自動下載</sys:String>
+    <sys:String x:Key="DownloadHelper_Download_Fin">所需的資源下載完成！請您點擊“返回”撳鈕回到BakaXL主頁！</sys:String>
+    
+    <sys:String x:Key="UpdateAlaert_Title">BakaXL驚現新版本</sys:String>
+    <sys:String x:Key="UpdateAlaert_Title_Back">！</sys:String>
+    <sys:String x:Key="UpdateAlaert_Content">新功能同穩定性修復將會跟隨本體更新一齊推出，請您更新到最新版本！呢個過程不洗耗費太長時間。下載本體更新需要使用互聯網連接，你在使用計費互聯網連接時可能需要支付網路資料費用。</sys:String>
+    <sys:String x:Key="UpdateAlaert_Button_Update">立即更新</sys:String>
+    <sys:String x:Key="UpdateAlaert_Button_OrUpdate">或者更新</sys:String>
+    
+    <sys:String x:Key="Update_Type_BakaXLUpdate">BakaXL本體更新檔案</sys:String>
+    <sys:String x:Key="Update_Type_Assets">Minecraft資源檔</sys:String>
+    <sys:String x:Key="Update_Type_Assets_Tips">Minecraft遊戲資源檔，包括遊戲語言同音效資源</sys:String>
+    <sys:String x:Key="Update_Type_Libraries">Minecraft運行庫檔案</sys:String>
+    <sys:String x:Key="Update_Type_Libraries_Tips">Minecraft Libraries運行庫檔案，若沒有呢啲檔案遊戲將無法啟動</sys:String>
+    
+    <sys:String x:Key="Update_Title">BakaXL本體更新系統</sys:String>
+    <sys:String x:Key="Update_Tips_Internet">請不要斷開互聯網連接</sys:String>
+    <sys:String x:Key="Update_Tips_ConnFailed">連接失敗</sys:String>
+    <sys:String x:Key="Update_Tips_NoClose">請不要關閉BakaXL</sys:String>
+    <sys:String x:Key="Update_Tips_Finish">家陣可以重新啟動BakaXL</sys:String>
+    <sys:String x:Key="Update_Tips_UpdateFailed">更新失敗</sys:String>
+    
+    <sys:String x:Key="Update_Download_Err">下載遇到錯誤！請檢查網絡連接後重試！</sys:String>
+    <sys:String x:Key="Update_Download_Fin">更新下載完成！BakaXL將會自動重啟以安裝更新！</sys:String>
+    
+    <sys:String x:Key="Update_Connecting">BakaXL正在連接至更新服務器</sys:String>
+    
+    <sys:String x:Key="Update_CannotUpdate">BakaXL現時無法進行更新</sys:String>
+    <sys:String x:Key="Update_CannotUpdate_Tips_1">出現異常問題，導致BakaXL無法與更新資源服務器建立連接，請您稍候再試</sys:String>
+    <sys:String x:Key="Update_CannotUpdate_Tips_2">請您確認網絡連接或留意BakaXL官網的服務公告</sys:String>
+    
+    <sys:String x:Key="Update_FileSize">文件規格</sys:String>
+    <sys:String x:Key="Update_DownloadingTips">BakaXL正在下載所需檔案</sys:String>
+    <sys:String x:Key="Update_NoShutdownTips">請您不要關閉BakaXL或對BakaXL檔案進行操作</sys:String>
+    <sys:String x:Key="Update_BMCL">已開啟BMCLAPI下載服務</sys:String>
+    <sys:String x:Key="Update_BMCLTips">BMCLAPI是bangbang93提供的國內Minecraft資源下載服務，點擊進入bangbang93微博</sys:String>
+    <sys:String x:Key="Update_Detail">詳細下載資訊</sys:String>
+    <sys:String x:Key="Update_Detail_UnderTips">BakaXL將會在這些文件下載完成時通知您</sys:String>
+    
+    <sys:String x:Key="Updating_Installing">BakaXL正在安裝更新</sys:String>
+    <sys:String x:Key="Updating_Installing_Tips">正在進行更新的最後步驟，這將不會需要很長的時間，請您坐低休息下</sys:String>
+    <sys:String x:Key="Updating_Finish">BakaXL更新完成</sys:String>
+    <sys:String x:Key="Updating_Finish_Tips">恭喜！你嘅BakaXL現已更新完成！在您進行下一步操作前，BakaXL需要重新啟動</sys:String>
+    <sys:String x:Key="Updating_UnderTips_Restart">請你撳落“重新啟動”撳鈕來重新啟動BakaXL</sys:String>
+    <sys:String x:Key="Updating_Failed">BakaXL更新失敗</sys:String>
+    <sys:String x:Key="Updating_Failed_Tips">出現異常問題，導致BakaXL無法繼續進行本體更新。</sys:String>
+    <sys:String x:Key="Updating_UnderTips_FailedRestart">請您確認網絡與殺毒軟體攔截後，再撳落重啓撳鈕</sys:String>
+    
+    <sys:String x:Key="Plugins_Title">BakaXL挿件管理</sys:String>
+    <sys:String x:Key="Plugins_Tips">查看當前BakaXL已安裝的附加組件</sys:String>
+    <sys:String x:Key="Plugins_NoPlugin">並沒有任何挿件被安裝</sys:String>
+    <sys:String x:Key="Plugins_AllView_Title">BakaXL附加挿件總覽</sys:String>
+    <sys:String x:Key="Plugins_AllView_Install_1">已安裝：</sys:String>
+    <sys:String x:Key="Plugins_AllView_Install_2">個</sys:String>
+    <sys:String x:Key="Plugins_AllView_Size">總規格：</sys:String>
+    
+    <sys:String x:Key="Core_Title">遊戲核心選擇</sys:String>
+    <sys:String x:Key="Core_Tips">選擇你要啟動的綜合包或者遊戲版本</sys:String>
+    <sys:String x:Key="Core_NoChoose">沒有選擇</sys:String>
+    <sys:String x:Key="Core_NoChoose_NoCore">請您確認.minecraft/versions資料夾存在遊戲核心！</sys:String>
+    <sys:String x:Key="Core_NoChoose_NeedCore">請您選擇一個讓BakaXL啟動的遊戲核心！</sys:String>
+    <sys:String x:Key="Core_RunningTime">累計運行</sys:String>
+    <sys:String x:Key="Core_RunningTime_Minute">分鐘</sys:String>
+    <sys:String x:Key="Core_RunningTime_Hour">小時</sys:String>
+    <sys:String x:Key="Core_Choosed">當前選擇</sys:String>
+    
+    <sys:String x:Key="Core_Button_Choose">選擇此核心</sys:String>
+    <sys:String x:Key="Core_Button_Choose_Tips">將當前核心設為BakaXL啟動的對象</sys:String>
+    <sys:String x:Key="Core_Button_AdvCore">核心進階管理</sys:String>
+    <sys:String x:Key="Core_Button_AdvCore_Tips">進入該核心的高級管理選單</sys:String>
+    <sys:String x:Key="Core_Button_Screenshot">遊戲截圖管理</sys:String>
+    <sys:String x:Key="Core_Button_Screenshot_Tips">查看同管理你在遊戲中的精彩截圖</sys:String>
+    
+    <sys:String x:Key="Plugins_PluginsBox_RightClick_1">删除挿件</sys:String>
+    <sys:String x:Key="Plugins_PluginsBox_RightClick_2">重繪</sys:String>
+    <sys:String x:Key="Plugins_PluginsBox_RightClick_3">打開挿件資料夾</sys:String>
+    <sys:String x:Key="Plugins_PluginsBox_RightClick_4">獲取更多挿件</sys:String>
+    
+    <sys:String x:Key="Tile_GameRunning">遊戲運行中…</sys:String>
+    <sys:String x:Key="Tile_NoID">未設定遊戲ID</sys:String>
 
     <sys:String x:Key="Settings_Title">BakaXL本體設定</sys:String>
     <sys:String x:Key="Settings_Tips">撳左邊嘅色塊來進入設定</sys:String>
@@ -136,9 +285,9 @@
     <sys:String x:Key="Settings_PlazaSettings_SaveDataTips">嘅用收費互聯網連接時開啟，笨蛋廣場唔會加載視頻等內容</sys:String>
     <sys:String x:Key="Settings_PlazaSettings_SaveDataTips_Easter">嘅用收費互聯網連接時開啟，傻豬廣場唔會加載視頻等內容</sys:String>
     <sys:String x:Key="Settings_PlazaSettings_SaveDataBacText">慳流量</sys:String>
-    <sys:String x:Key="Settings_PlazaSettings_ChildrenProtect">限制懶人廣場部分功能以保護未成年用戶</sys:String>
-    <sys:String x:Key="Settings_PlazaSettings_NoModUpdate">禁止笨蛋廣場收取模組更新</sys:String>
+    <sys:String x:Key="Settings_PlazaSettings_ChildrenProtect">限制笨蛋廣場部分功能以保護未成年用戶</sys:String>
     <sys:String x:Key="Settings_PlazaSettings_ChildrenProtect_Easter">限制傻豬廣場部分功能以保護未成年用戶</sys:String>
+    <sys:String x:Key="Settings_PlazaSettings_NoModUpdate">禁止笨蛋廣場收取模組更新</sys:String>
     <sys:String x:Key="Settings_PlazaSettings_NoModUpdate_Easter">禁止傻豬廣場收取模組更新</sys:String>
 
     <sys:String x:Key="Settings_BakaInfo">本體信息</sys:String>
@@ -153,6 +302,8 @@
     <sys:String x:Key="Settings_HomeDispay_NoMemoryContent">去“系統信息設定”設定遊戲可用記憶體。</sys:String>
     <sys:String x:Key="Settings_HomeDispay_NoJavaTitle">未設定Java路徑</sys:String>
     <sys:String x:Key="Settings_HomeDispay_NoJavaContent">去“系统信息設定”設定Java路徑。</sys:String>
+    <sys:String x:Key="Settings_HomeDispay_MusicErrorTitle">未成功調用音樂組件</sys:String>
+    <sys:String x:Key="Settings_HomeDispay_MusicErrorContent">您的系統可能精簡了Windows Media Player組件。</sys:String>
 
     <sys:String x:Key="Tema_Title">個人化設定</sys:String>
     <sys:String x:Key="Tema_L_Title">自定您嘅BakaXL背景、主題等等嘅個人化設定</sys:String>
@@ -180,7 +331,7 @@
     <sys:String x:Key="Tema_TemaListTips_NotTemaFile">呢個文件看上嚟並唔喺一個合法嘅BakaXL主題文件（喺，呢個文件）</sys:String>
     <sys:String x:Key="Tema_TemaListTips_Under_NotTemaFile">請用來源合法嘅BakaXL主題文件，唔好拖入無關嘅文件，我們喺到為您刷新主題</sys:String>
     <!--BakaXL默認主題的名稱與介紹-->
-    <sys:String x:Key="Tema_BakaXL_Default">BakaXL主題</sys:String>
+    <sys:String x:Key="Tema_BakaXL_Default">BakaXL 默認主題</sys:String>
     <sys:String x:Key="Tema_BakaXL_Default_Description">呢個係BakaXL嘅預設主題。</sys:String>
     <!--背景圖片選擇-->
     <sys:String x:Key="Tema_CustomImage_Title">選擇您嘅自定義背景圖</sys:String>
