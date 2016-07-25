@@ -65,8 +65,8 @@
     <sys:String x:Key="SetUpGuide_Loading_7">BakaXL初始化緊：遊戲啟動</sys:String>
     <sys:String x:Key="SetUpGuide_Loading_8">BakaXL初始化準備完成！</sys:String>
 
-    <sys:String x:Key="SetUpGuide_MainSetup_Title">接下來，我們來設置一些東西！</sys:String>
-    <sys:String x:Key="SetUpGuide_MainSetup_Tips">我們需要一些信息以確保遊戲正常運行，這不會花費很長時間，坐和放寬</sys:String>
+    <sys:String x:Key="SetUpGuide_MainSetup_Title">喺嚟緊嘅時間，我哋會設置一些嘢！</sys:String>
+    <sys:String x:Key="SetUpGuide_MainSetup_Tips">我哋需要一些資料嚟確保遊戲正常運作，我哋會好快搞掂，請稍等</sys:String>
 
     <sys:String x:Key="SetUpGuide_Region_Title">您所使用的語言</sys:String>
     <sys:String x:Key="SetUpGuide_Region_DisplayLang">BakaXL顯示語言</sys:String>
