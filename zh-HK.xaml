@@ -65,38 +65,38 @@
     <sys:String x:Key="SetUpGuide_Loading_7">BakaXL初始化緊：遊戲啟動</sys:String>
     <sys:String x:Key="SetUpGuide_Loading_8">BakaXL初始化準備完成！</sys:String>
 
-    <sys:String x:Key="SetUpGuide_MainSetup_Title">接下來，我們來設置一些東西！</sys:String>
-    <sys:String x:Key="SetUpGuide_MainSetup_Tips">我們需要一些信息以確保遊戲正常運行，這不會花費很長時間，坐和放寬</sys:String>
+    <sys:String x:Key="SetUpGuide_MainSetup_Title">喺嚟緊嘅時間，我哋會設定一些嘢！</sys:String>
+    <sys:String x:Key="SetUpGuide_MainSetup_Tips">我哋需要一些資料嚟確保遊戲正常運作，我哋會好快搞掂，請稍等</sys:String>
 
     <sys:String x:Key="SetUpGuide_Region_Title">您所使用的語言</sys:String>
     <sys:String x:Key="SetUpGuide_Region_DisplayLang">BakaXL顯示語言</sys:String>
-    <sys:String x:Key="SetUpGuide_Region_Tips">您的語言設置將會修改BakaXL的顯示語言，請選擇一個符合您語言習慣的語種</sys:String>
+    <sys:String x:Key="SetUpGuide_Region_Tips">您嘅語言設定會改變BakaXL嘅顯示語言，請揀一個符合您語言習慣嘅語種</sys:String>
 
     <sys:String x:Key="SetUpGuide_Welcome_Title">歡迎使用BakaXL</sys:String>
-    <sys:String x:Key="SetUpGuide_Welcome_NotCurrentUser">我不是</sys:String>
+    <sys:String x:Key="SetUpGuide_Welcome_NotCurrentUser">我唔係</sys:String>
 
-    <sys:String x:Key="SetUpGuide_Welcome_Whoareyou">那麼，你是誰？</sys:String>
+    <sys:String x:Key="SetUpGuide_Welcome_Whoareyou">咁你係邊個？</sys:String>
 
-    <sys:String x:Key="SetUpGuide_Username_Title">設置啟動Minecraft的用戶名</sys:String>
-    <sys:String x:Key="SetUpGuide_Username_Tips">只能使用英文、數字和下劃線，不建議使用中文和特殊符號。</sys:String>
-    <sys:String x:Key="SetUpGuide_Username_Call">您想在遊戲內叫什麼？</sys:String>
-    <sys:String x:Key="SetUpGuide_Username_MojangAccount">我購買了正版Minecraft</sys:String>
-    <sys:String x:Key="SetUpGuide_Username_UnderTips">請您注意，用戶名是您在各大服務器服務器內游玩的唯一憑證。</sys:String>
+    <sys:String x:Key="SetUpGuide_Username_Title">設定啟動Minecraft嘅用戶名</sys:String>
+    <sys:String x:Key="SetUpGuide_Username_Tips">只能使用英文、數字和底線，唔建議使用中文和其他符號。</sys:String>
+    <sys:String x:Key="SetUpGuide_Username_Call">您想喺遊戲入面叫咩名？</sys:String>
+    <sys:String x:Key="SetUpGuide_Username_MojangAccount">我買咗正版Minecraft</sys:String>
+    <sys:String x:Key="SetUpGuide_Username_UnderTips">請注意，用戶名係您喺所有伺服器嘅唯一憑證。</sys:String>
 
-    <sys:String x:Key="SetUpGuide_Mojang_Title">登錄Mojang正版賬戶</sys:String>
-    <sys:String x:Key="SetUpGuide_Mojang_Tip">輸入您的Minecraft正版賬戶信息，BakaXL將加密保存這些信息。</sys:String>
-    <sys:String x:Key="SetUpGuide_Mojang_Watermark_Email">正版郵箱</sys:String>
+    <sys:String x:Key="SetUpGuide_Mojang_Title">登入Mojang正版賬戶</sys:String>
+    <sys:String x:Key="SetUpGuide_Mojang_Tip">輸入您嘅Minecraft正版賬戶資料，BakaXL會加密保存呢啲資料。</sys:String>
+    <sys:String x:Key="SetUpGuide_Mojang_Watermark_Email">正版電郵</sys:String>
     <sys:String x:Key="SetUpGuide_Mojang_Watermark_Password">密碼</sys:String>
-    <sys:String x:Key="SetUpGuide_Mojang_ForgetPassword">忘記密碼？</sys:String>
-    <sys:String x:Key="SetUpGuide_Mojang_BuyMinecraft">在Minecraft官網購買正版賬戶</sys:String>
-    <sys:String x:Key="SetUpGuide_Mojang_NoAccount">我沒有購買正版Minecraft</sys:String>
+    <sys:String x:Key="SetUpGuide_Mojang_ForgetPassword">唔記得咗密碼？</sys:String>
+    <sys:String x:Key="SetUpGuide_Mojang_BuyMinecraft">去Minecraft官網買正版</sys:String>
+    <sys:String x:Key="SetUpGuide_Mojang_NoAccount">我冇買過正版Minecraft</sys:String>
 
-    <sys:String x:Key="SetUpGuide_QuickSet_Title">使用快速設置</sys:String>
-    <sys:String x:Key="SetUpGuide_QuickSet_Tips">您隨時可以在'本體設置'中修改這些設置。使用'快速設置'將會：</sys:String>
-    <sys:String x:Key="SetUpGuide_QuickSet_Username_1">使用您的遊戲ID：</sys:String>
-    <sys:String x:Key="SetUpGuide_QuickSet_Username_Online">並通過正版驗證模式啟動。</sys:String>
-    <sys:String x:Key="SetUpGuide_QuickSet_Username_Offline">並通過離線模式啟動。</sys:String>
-    <sys:String xml:space="preserve" x:Key="SetUpGuide_QuickSet_Settings">自動設置遊戲所需內存以及Java路徑。並開啟BakaXL背景音樂以獲得更好的&#xD;&#xA;使用體驗。在遊戲啟動完成後最小化BakaXL來幫助您遊戲時進行內存優化。 &#xD;&#xA;&#xD;&#xA;開啟'智能文件修復提醒'以及時通知您遊戲可能缺少的資源。並將使用'大陸地區&#xD;&#xA;第三方下載源'來確保您的遊戲資源下載速度。 &#xD;&#xA;&#xD;&#xA;自動加載所有已安裝的BakaXL插件。並非所有的第三方插件都是安全的。 &#xD;&#xA;允許笨蛋廣場請求您的位置信息（所在城市）以獲得地區化的服務。 &#xD;&#xA;&#xD;&#xA;向BakaXL發送崩潰和啟動診斷信息。</sys:String>
+    <sys:String x:Key="SetUpGuide_QuickSet_Title">用快速設定</sys:String>
+    <sys:String x:Key="SetUpGuide_QuickSet_Tips">您可以隨時喺「本體設置」入面改變呢啲設定。用「快速設置」會：</sys:String>
+    <sys:String x:Key="SetUpGuide_QuickSet_Username_1">用您嘅遊戲ID：</sys:String>
+    <sys:String x:Key="SetUpGuide_QuickSet_Username_Online">並透過正版驗證模式啟動。</sys:String>
+    <sys:String x:Key="SetUpGuide_QuickSet_Username_Offline">並透過離線模式啟動。</sys:String>
+    <sys:String xml:space="preserve" x:Key="SetUpGuide_QuickSet_Settings">自動設定遊戲所需記憶體同埋Java路徑。同開啟BakaXL背景音樂嚟得到更好嘅&#xD;&#xA;體驗。喺遊戲啟動完之後最小化BakaXL嚟幫您玩緊嗰陣時進行記憶體優化。 &#xD;&#xA;&#xD;&#xA;開啟「智能文件修復提醒」嚟喺第一時問通知您遊戲可能少咗嘅資源。同用「大陸地區&#xD;&#xA;第三方下載源」嚟確保您嘅遊戲資源下載速度。 &#xD;&#xA;&#xD;&#xA;自動加載所有已安裝的BakaXL插件。並非所有的第三方插件都是安全的。 &#xD;&#xA;允許笨蛋廣場請求您的位置信息（所在城市）以獲得地區化的服務。 &#xD;&#xA;&#xD;&#xA;向BakaXL發送崩潰和啟動診斷信息。</sys:String>
     <sys:String x:Key="SetUpGuide_QuickSet_MoreInfo">了解有關BakaXL會收集的內容</sys:String>
     <sys:String x:Key="SetUpGuide_QuickSet_Button_QuickSet">使用快速設置</sys:String>
     <sys:String x:Key="SetUpGuide_QuickSet_Button_Manual">自定義設置</sys:String>
