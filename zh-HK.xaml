@@ -34,7 +34,7 @@
     <sys:String x:Key="Home_ServerMotd">伺服器公告</sys:String>
     <sys:String x:Key="Home_TapToSee">撳呢到睇</sys:String>
     <sys:String x:Key="Home_CoreTools">整合包工具</sys:String>
-    <sys:String x:Key="Home_ThemePunlic">BakaXL個性化設定置</sys:String>
+    <sys:String x:Key="Home_ThemePunlic">BakaXL個性化設定</sys:String>
     <sys:String x:Key="Home_BakaPlaza">笨蛋廣場</sys:String>
     <sys:String x:Key="Home_BakaPlaza_Easter">傻豬廣場</sys:String>
     <sys:String x:Key="Home_Tips">BakaXL貼士</sys:String>
@@ -81,7 +81,7 @@
     <sys:String x:Key="SetUpGuide_Username_Tips">只能使用英文、數字和底線，唔建議使用中文和其他符號。</sys:String>
     <sys:String x:Key="SetUpGuide_Username_Call">您想喺遊戲入面叫咩名？</sys:String>
     <sys:String x:Key="SetUpGuide_Username_MojangAccount">我買咗正版Minecraft</sys:String>
-    <sys:String x:Key="SetUpGuide_Username_UnderTips">請注意，用戶名係您喺所有伺服器嘅唯一憑證。</sys:String>
+    <sys:String x:Key="SetUpGuide_Username_UnderTips">請注意，用戶名係您喺所有伺服器嘅憑證。</sys:String>
 
     <sys:String x:Key="SetUpGuide_Mojang_Title">登入Mojang正版賬戶</sys:String>
     <sys:String x:Key="SetUpGuide_Mojang_Tip">輸入您嘅Minecraft正版賬戶資料，BakaXL會加密保存呢啲資料。</sys:String>
@@ -140,7 +140,7 @@
     <sys:String x:Key="DownloadManagement_Downloading">正在下載</sys:String>
     <sys:String x:Key="DownloadManagement_Finish">下載已完成</sys:String>
     <sys:String x:Key="DownloadManagement_Failed">下載失敗</sys:String>
-    
+
     <sys:String x:Key="DownloadHelper_Failed">下載失敗-</sys:String>
     <sys:String x:Key="DownloadHelper_UnPack">正在解壓檔案</sys:String>
     <sys:String x:Key="DownloadHelper_Finish">完成</sys:String>
@@ -151,35 +151,35 @@
     <sys:String x:Key="DownloadHelper_Waiting">等待下載</sys:String>
     <sys:String x:Key="DownloadHelper_Download_Err">部分文件下載失敗，呢啲檔案將在您下一次啟動BakaXL時自動下載</sys:String>
     <sys:String x:Key="DownloadHelper_Download_Fin">所需的資源下載完成！請您點擊“返回”撳鈕回到BakaXL主頁！</sys:String>
-    
+
     <sys:String x:Key="UpdateAlaert_Title">BakaXL驚現新版本</sys:String>
     <sys:String x:Key="UpdateAlaert_Title_Back">！</sys:String>
     <sys:String x:Key="UpdateAlaert_Content">新功能同穩定性修復將會跟隨本體更新一齊推出，請您更新到最新版本！呢個過程不洗耗費太長時間。下載本體更新需要使用互聯網連接，你在使用計費互聯網連接時可能需要支付網路資料費用。</sys:String>
     <sys:String x:Key="UpdateAlaert_Button_Update">立即更新</sys:String>
     <sys:String x:Key="UpdateAlaert_Button_OrUpdate">或者更新</sys:String>
-    
+
     <sys:String x:Key="Update_Type_BakaXLUpdate">BakaXL本體更新檔案</sys:String>
     <sys:String x:Key="Update_Type_Assets">Minecraft資源檔</sys:String>
     <sys:String x:Key="Update_Type_Assets_Tips">Minecraft遊戲資源檔，包括遊戲語言同音效資源</sys:String>
     <sys:String x:Key="Update_Type_Libraries">Minecraft運行庫檔案</sys:String>
     <sys:String x:Key="Update_Type_Libraries_Tips">Minecraft Libraries運行庫檔案，若沒有呢啲檔案遊戲將無法啟動</sys:String>
-    
+
     <sys:String x:Key="Update_Title">BakaXL本體更新系統</sys:String>
     <sys:String x:Key="Update_Tips_Internet">請不要斷開互聯網連接</sys:String>
     <sys:String x:Key="Update_Tips_ConnFailed">連接失敗</sys:String>
     <sys:String x:Key="Update_Tips_NoClose">請不要關閉BakaXL</sys:String>
     <sys:String x:Key="Update_Tips_Finish">家陣可以重新啟動BakaXL</sys:String>
     <sys:String x:Key="Update_Tips_UpdateFailed">更新失敗</sys:String>
-    
+
     <sys:String x:Key="Update_Download_Err">下載遇到錯誤！請檢查網絡連接後重試！</sys:String>
     <sys:String x:Key="Update_Download_Fin">更新下載完成！BakaXL將會自動重啟以安裝更新！</sys:String>
-    
+
     <sys:String x:Key="Update_Connecting">BakaXL正在連接至更新服務器</sys:String>
-    
+
     <sys:String x:Key="Update_CannotUpdate">BakaXL現時無法進行更新</sys:String>
     <sys:String x:Key="Update_CannotUpdate_Tips_1">出現異常問題，導致BakaXL無法與更新資源服務器建立連接，請您稍候再試</sys:String>
     <sys:String x:Key="Update_CannotUpdate_Tips_2">請您確認網絡連接或留意BakaXL官網的服務公告</sys:String>
-    
+
     <sys:String x:Key="Update_FileSize">文件規格</sys:String>
     <sys:String x:Key="Update_DownloadingTips">BakaXL正在下載所需檔案</sys:String>
     <sys:String x:Key="Update_NoShutdownTips">請您不要關閉BakaXL或對BakaXL檔案進行操作</sys:String>
@@ -187,7 +187,7 @@
     <sys:String x:Key="Update_BMCLTips">BMCLAPI是bangbang93提供的國內Minecraft資源下載服務，點擊進入bangbang93微博</sys:String>
     <sys:String x:Key="Update_Detail">詳細下載資訊</sys:String>
     <sys:String x:Key="Update_Detail_UnderTips">BakaXL將會在這些文件下載完成時通知您</sys:String>
-    
+
     <sys:String x:Key="Updating_Installing">BakaXL正在安裝更新</sys:String>
     <sys:String x:Key="Updating_Installing_Tips">正在進行更新的最後步驟，這將不會需要很長的時間，請您坐低休息下</sys:String>
     <sys:String x:Key="Updating_Finish">BakaXL更新完成</sys:String>
@@ -196,7 +196,7 @@
     <sys:String x:Key="Updating_Failed">BakaXL更新失敗</sys:String>
     <sys:String x:Key="Updating_Failed_Tips">出現異常問題，導致BakaXL無法繼續進行本體更新。</sys:String>
     <sys:String x:Key="Updating_UnderTips_FailedRestart">請您確認網絡與殺毒軟體攔截後，再撳落重啓撳鈕</sys:String>
-    
+
     <sys:String x:Key="Plugins_Title">BakaXL挿件管理</sys:String>
     <sys:String x:Key="Plugins_Tips">查看當前BakaXL已安裝的附加組件</sys:String>
     <sys:String x:Key="Plugins_NoPlugin">並沒有任何挿件被安裝</sys:String>
@@ -204,7 +204,7 @@
     <sys:String x:Key="Plugins_AllView_Install_1">已安裝：</sys:String>
     <sys:String x:Key="Plugins_AllView_Install_2">個</sys:String>
     <sys:String x:Key="Plugins_AllView_Size">總規格：</sys:String>
-    
+
     <sys:String x:Key="Core_Title">遊戲核心選擇</sys:String>
     <sys:String x:Key="Core_Tips">選擇你要啟動的綜合包或者遊戲版本</sys:String>
     <sys:String x:Key="Core_NoChoose">沒有選擇</sys:String>
@@ -214,19 +214,19 @@
     <sys:String x:Key="Core_RunningTime_Minute">分鐘</sys:String>
     <sys:String x:Key="Core_RunningTime_Hour">小時</sys:String>
     <sys:String x:Key="Core_Choosed">當前選擇</sys:String>
-    
+
     <sys:String x:Key="Core_Button_Choose">選擇此核心</sys:String>
     <sys:String x:Key="Core_Button_Choose_Tips">將當前核心設為BakaXL啟動的對象</sys:String>
     <sys:String x:Key="Core_Button_AdvCore">核心進階管理</sys:String>
     <sys:String x:Key="Core_Button_AdvCore_Tips">進入該核心的高級管理選單</sys:String>
     <sys:String x:Key="Core_Button_Screenshot">遊戲截圖管理</sys:String>
     <sys:String x:Key="Core_Button_Screenshot_Tips">查看同管理你在遊戲中的精彩截圖</sys:String>
-    
+
     <sys:String x:Key="Plugins_PluginsBox_RightClick_1">删除挿件</sys:String>
     <sys:String x:Key="Plugins_PluginsBox_RightClick_2">重繪</sys:String>
     <sys:String x:Key="Plugins_PluginsBox_RightClick_3">打開挿件資料夾</sys:String>
     <sys:String x:Key="Plugins_PluginsBox_RightClick_4">獲取更多挿件</sys:String>
-    
+
     <sys:String x:Key="Tile_GameRunning">遊戲運行中…</sys:String>
     <sys:String x:Key="Tile_NoID">未設定遊戲ID</sys:String>
 
