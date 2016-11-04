@@ -2,43 +2,45 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     xmlns:sys="clr-namespace:System;assembly=mscorlib">
 
-    <sys:String x:Key="BakaPublicTitle">BakaXL - Minecraft启动装置</sys:String>
-    <sys:String x:Key="MainWelcome">欢迎</sys:String>
-    <sys:String x:Key="SetLanguage">设置您的语言</sys:String>
-    
-    <sys:String x:Key="Button_OK">好</sys:String>
-    <sys:String x:Key="Button_No">否</sys:String>
-    <sys:String x:Key="Button_Restart">重启</sys:String>
-    <sys:String x:Key="Button_NextStep">下一步</sys:String>
-    <sys:String x:Key="Button_Back">返</sys:String>
-    
-    <sys:String x:Key="Communication">BakaXL正与服务器共通讯息</sys:String>
-    
-    <sys:String x:Key="Lang_Title">配置BakaXL外显语</sys:String>
-    <sys:String x:Key="Lang_JoinTranslate">君可访 http://www.BakaXL.com/Language/ 以参与BakaXL译化行为</sys:String>
-    <sys:String x:Key="Lang_Watermark">择语言</sys:String>
-    <sys:String x:Key="Lang_Tips">待君择语言后，BakaXL将自改外显讯息</sys:String>
-    
-    <sys:String x:Key="Home_Hello">久仰</sys:String>
-    <sys:String x:Key="Home_Theme">主题</sys:String>
-    <sys:String x:Key="Home_SelectCore">选择核心</sys:String>
-    <sys:String x:Key="Home_Website">访问官网</sys:String>
-    <sys:String x:Key="Home_MailBox">信箱</sys:String>
-    <sys:String x:Key="Home_NewFeature">新特性</sys:String>
+    <sys:String x:Key="BakaPublicTitle">BakaXL - Minecraft启动器</sys:String>
+    <sys:String x:Key="MainWelcome">恭君来</sys:String>
+    <sys:String x:Key="SetLanguage">君设之言喜之好</sys:String>
+
+    <sys:String x:Key="Button_OK">确之</sys:String>
+    <sys:String x:Key="Button_No">否之</sys:String>
+    <sys:String x:Key="Button_Restart">怡情重启之</sys:String>
+    <sys:String x:Key="Button_NextStep">君行下步</sys:String>
+    <sys:String x:Key="Button_Back">折回</sys:String>
+    <sys:String x:Key="Button_Checking">君稍片刻验行之</sys:String>
+    <sys:String x:Key="Button_Finish">以成</sys:String>
+
+    <sys:String x:Key="Communication">BakaXL正在收取服务器通信数据</sys:String>
+
+    <sys:String x:Key="Lang_Title">君可设BakaXL显现之言</sys:String>
+    <sys:String x:Key="Lang_JoinTranslate">君无事不妨点页 http://www.BakaXL.com/Language/ 参之BakaXL域译行</sys:String>
+    <sys:String x:Key="Lang_Watermark">君择之言喜之好</sys:String>
+    <sys:String x:Key="Lang_Tips">君择后，BakaXL将自改显现之言</sys:String>
+
+    <sys:String x:Key="Home_Hello">君之有礼</sys:String>
+    <sys:String x:Key="Home_Theme">君择喜之行题</sys:String>
+    <sys:String x:Key="Home_SelectCore">君择启之核</sys:String>
+    <sys:String x:Key="Home_Website">移半步看源青</sys:String>
+    <sys:String x:Key="Home_MailBox">千里鸽聚于此</sys:String>
+    <sys:String x:Key="Home_NewFeature">未世新显</sys:String>
     <sys:String x:Key="Home_EShop">E-Shop</sys:String>
-    <sys:String x:Key="Home_Settings">本体设置</sys:String>
-    <sys:String x:Key="Home_AuthMode">验证模式</sys:String>
-    <sys:String x:Key="Home_Launch">启动游戏</sys:String>
+    <sys:String x:Key="Home_Settings">吾体身待</sys:String>
+    <sys:String x:Key="Home_AuthMode">验检身待</sys:String>
+    <sys:String x:Key="Home_Launch">触此进</sys:String>
     <sys:String x:Key="Home_ServerMotd">服务器公告</sys:String>
-    <sys:String x:Key="Home_TapToSee">点击查看</sys:String>
-    <sys:String x:Key="Home_CoreTools">整合包工具</sys:String>
-    <sys:String x:Key="Home_ThemePunlic">BakaXL自我化设置</sys:String>
-    <sys:String x:Key="Home_BakaPlaza">笨蛋广场</sys:String>
-    <sys:String x:Key="Home_Tips">BakaXL贴士</sys:String>
-    <sys:String x:Key="Home_PluginManagement">插件管理</sys:String>
+    <sys:String x:Key="Home_TapToSee">触之可视</sys:String>
+    <sys:String x:Key="Home_CoreTools">整包利器</sys:String>
+    <sys:String x:Key="Home_ThemePunlic">BakaXL君之喜好择选</sys:String>
+    <sys:String x:Key="Home_BakaPlaza">愚市</sys:String>
+    <sys:String x:Key="Home_Tips">BakaXL一曲贴告</sys:String>
+    <sys:String x:Key="Home_PluginManagement">插件择选</sys:String>
     
-    <sys:String x:Key="AuthMode_Online">正式登录</sys:String>
-    <sys:String x:Key="AuthMode_Offline">离线方案</sys:String>
+    <sys:String x:Key="AuthMode_Online">顶正君子以择</sys:String>
+    <sys:String x:Key="AuthMode_Offline">物世君子以选</sys:String>
     
     <sys:String x:Key="BakaCrasher_MainTitle">如君所见，BakaXL遇一无可理喻问题而无能解决</sys:String>
     <sys:String x:Key="BakaCrasher_Tips">深歉，只因一傻逼异常，吾等深为对君之不变而歉</sys:String>
