@@ -79,7 +79,7 @@
     <sys:String x:Key="SetUpGuide_Username_Tips">只能使用英文、數字和下劃線，不建議使用中文和特殊符號。</sys:String>
     <sys:String x:Key="SetUpGuide_Username_Call">您想在遊戲內叫什麼？</sys:String>
     <sys:String x:Key="SetUpGuide_Username_MojangAccount">我購買了正版Minecraft</sys:String>
-    <sys:String x:Key="SetUpGuide_Username_UnderTips">請您注意，用戶名是您在各大服務器服務器內游玩的唯一憑證。</sys:String>
+    <sys:String x:Key="SetUpGuide_Username_UnderTips">請您注意，用戶名是您在各大服務器內游玩的憑證。</sys:String>
 
     <sys:String x:Key="SetUpGuide_Mojang_Title">登錄Mojang正版賬戶</sys:String>
     <sys:String x:Key="SetUpGuide_Mojang_Tip">輸入您的Minecraft正版賬戶信息，BakaXL將加密保存這些信息。</sys:String>
@@ -94,7 +94,7 @@
     <sys:String x:Key="SetUpGuide_QuickSet_Username_1">使用您的遊戲ID：</sys:String>
     <sys:String x:Key="SetUpGuide_QuickSet_Username_Online">並通過正版驗證模式啟動。</sys:String>
     <sys:String x:Key="SetUpGuide_QuickSet_Username_Offline">並通過離線模式啟動。</sys:String>
-    <sys:String xml:space="preserve" x:Key="SetUpGuide_QuickSet_Settings">自動設置遊戲所需內存以及Java路徑。並開啟BakaXL背景音樂以獲得更好的&#xD;&#xA;使用體驗。在遊戲啟動完成後最小化BakaXL來幫助您遊戲時進行內存優化。 &#xD;&#xA;&#xD;&#xA;開啟'智能文件修復提醒'以及時通知您遊戲可能缺少的資源。並將使用'大陸地區&#xD;&#xA;第三方下載源'來確保您的遊戲資源下載速度。 &#xD;&#xA;&#xD;&#xA;自動加載所有已安裝的BakaXL插件。並非所有的第三方插件都是安全的。 &#xD;&#xA;允許笨蛋廣場請求您的位置信息（所在城市）以獲得地區化的服務。 &#xD;&#xA;&#xD;&#xA;向BakaXL發送崩潰和啟動診斷信息。</sys:String>
+    <sys:String xml:space="preserve" x:Key="SetUpGuide_QuickSet_Settings">自動設置遊戲所需內存以及Java路徑。並開啟BakaXL背景音樂以獲得更好的&#xD;&#xA;使用體驗。在遊戲啟動完成後最小化BakaXL來幫助您遊戲時進行內存優化。 &#xD;&#xA;&#xD;&#xA;開啟'智能文件修復提醒'以及時通知您遊戲可能缺少的資源。並將使用'大陸地區&#xD;&#xA;第三方下載源'來確保您的遊戲資源下載速度。 &#xD;&#xA;&#xD;&#xA;自動加載所有已安裝的BakaXL插件。並非所有的第三方插件都是安全的。 &#xD;&#xA;允許笨蛋廣場請求您的位置信息（所在城市）已獲得地區化的服務。 &#xD;&#xA;&#xD;&#xA;向BakaXL發送崩潰和啟動診斷信息。</sys:String>
     <sys:String x:Key="SetUpGuide_QuickSet_MoreInfo">了解有關BakaXL會收集的內容</sys:String>
     <sys:String x:Key="SetUpGuide_QuickSet_Button_QuickSet">使用快速設置</sys:String>
     <sys:String x:Key="SetUpGuide_QuickSet_Button_Manual">自定義設置</sys:String>
@@ -111,7 +111,7 @@
 
     <sys:String x:Key="SetUpGuide_Finish_Title">設置嚮導現已完成！</sys:String>
     <sys:String x:Key="SetUpGuide_Finish_Tips">您的設置將會被保存，您可以隨時輕按這些磁貼來變更您的設置。</sys:String>
-    <sys:String x:Key="SetUpGuide_Finish_UpderTips">感謝您選擇BakaXL啟動器，您的支持對我們非常重要</sys:String>
+    <sys:String x:Key="SetUpGuide_Finish_UpderTips">感謝您選擇Ba​​kaXL啟動器，您的支持對我們非常重要</sys:String>
     <sys:String x:Key="SetUpGuide_Finish_ButtonTips">請您按下 '完成' 按鈕來返回至BakaXL主菜單</sys:String>
 
     <sys:String x:Key="PlayerInfoFlyout_Title">您的個人信息</sys:String>
