@@ -21,7 +21,7 @@
     <sys:String x:Key="Lang_Watermark">Choose a Language</sys:String>
     <sys:String x:Key="Lang_Tips">After selecting your language, BakaXL will change the display language automatically.</sys:String>
 
-    <sys:String x:Key="Home_Hello">Hi!</sys:String>
+    <sys:String x:Key="Home_Hello">Hi</sys:String>
     <sys:String x:Key="Home_Theme">Theme</sys:String>
     <sys:String x:Key="Home_SelectCore">Core</sys:String>
     <sys:String x:Key="Home_Website">Website</sys:String>
@@ -78,7 +78,7 @@
     <sys:String x:Key="SetUpGuide_Username_Title">Minecraft Username</sys:String>
     <sys:String x:Key="SetUpGuide_Username_Tips">English and numbers only</sys:String>
     <sys:String x:Key="SetUpGuide_Username_Call">Username</sys:String>
-    <sys:String x:Key="SetUpGuide_Username_MojangAccount">I have Mojang Account</sys:String>
+    <sys:String x:Key="SetUpGuide_Username_MojangAccount">I have a Mojang Account</sys:String>
     <sys:String x:Key="SetUpGuide_Username_UnderTips">You can change your Username in settings any time.</sys:String>
 
     <sys:String x:Key="SetUpGuide_Mojang_Title">Login to Mojang Account</sys:String>
@@ -87,32 +87,32 @@
     <sys:String x:Key="SetUpGuide_Mojang_Watermark_Password">Password</sys:String>
     <sys:String x:Key="SetUpGuide_Mojang_ForgetPassword">Forget password?</sys:String>
     <sys:String x:Key="SetUpGuide_Mojang_BuyMinecraft">Buy Minecraft</sys:String>
-    <sys:String x:Key="SetUpGuide_Mojang_NoAccount">I don't have Mojang Account</sys:String>
+    <sys:String x:Key="SetUpGuide_Mojang_NoAccount">I don't have a Mojang Account</sys:String>
 
     <sys:String x:Key="SetUpGuide_QuickSet_Title">Quick Setting</sys:String>
     <sys:String x:Key="SetUpGuide_QuickSet_Tips">You can change your setting atanytime.Using quick setting will:</sys:String>
     <sys:String x:Key="SetUpGuide_QuickSet_Username_1">Use your Username:</sys:String>
     <sys:String xml:space="preserve" x:Key="SetUpGuide_QuickSet_Username_Online">and launch online.</sys:String>
     <sys:String xml:space="preserve" x:Key="SetUpGuide_QuickSet_Username_Offline">and launch offline.</sys:String>
-    <sys:String xml:space="preserve" x:Key="SetUpGuide_QuickSet_Settings">Find java path and set the memory that suits your device.&#xD;&#xA;Turn on the background music for better experiance.&#xD;&#xA;Minimize BakaXL when minecraft launched.&#xD;&#xA;&#xD;&#xA;Automatically download missing Assets and Libraries.&#xD;&#xA;Speed up Chinese users'download speed by using third-party servers.&#xD;&#xA;&#xD;&#xA;Automatically load all instaled plugins (not all third-party plugins are safe)&#xD;&#xA;Allow BakaPlaza to access your location (Like City)&#xD;&#xA;&#xD;&#xA;Send crash report to help us make it better.</sys:String>
+    <sys:String xml:space="preserve" x:Key="SetUpGuide_QuickSet_Settings">Find java path and set the memory that suits your device.&#xD;&#xA;Turn on the background music for better experiance.&#xD;&#xA;Minimize BakaXL when minecraft is launched.&#xD;&#xA;&#xD;&#xA;Automatically download missing Assets and Libraries.&#xD;&#xA;Speed up Chinese users'download speed by using third-party servers.&#xD;&#xA;&#xD;&#xA;Automatically load all installed plugins (not all third-party plugins are safe)&#xD;&#xA;Allow BakaPlaza to access your location (Like City)&#xD;&#xA;&#xD;&#xA;Send crash report to help us make it better.</sys:String>
     <sys:String x:Key="SetUpGuide_QuickSet_MoreInfo">Learn more</sys:String>
     <sys:String x:Key="SetUpGuide_QuickSet_Button_QuickSet">Quick Setting</sys:String>
     <sys:String x:Key="SetUpGuide_QuickSet_Button_Manual">Customize</sys:String>
 
     <sys:String x:Key="SetUpGuide_Tema_Title">Customize BakaXL</sys:String>
     <sys:String x:Key="SetUpGuide_Tema_Tips">Custom your BakaXL background and color</sys:String>
-    <sys:String x:Key="SetUpGuide_Tema_Tips_Under">Your wallpaper does not upload or publish in any way.</sys:String>
+    <sys:String x:Key="SetUpGuide_Tema_Tips_Under">Your wallpapers will not be uploaded or published in any way.</sys:String>
 
     <sys:String x:Key="SetUpGuide_SystemInfo_Title">System Settings</sys:String>
-    <sys:String x:Key="SetUpGuide_SystemInfo_Tips">Here are some system information that required to start the Minecraft.</sys:String>
+    <sys:String x:Key="SetUpGuide_SystemInfo_Tips">Here are some system settings that are required to start the Minecraft.</sys:String>
     <sys:String x:Key="SetUpGuide_SystemInfo_Java">Java Path</sys:String>
     <sys:String x:Key="SetUpGuide_SystemInfo_Memory">Memory</sys:String>
-    <sys:String x:Key="SetUpGuide_SystemInfo_JavaTips">Visit http://www.Java.com Download Java, BakaXL not support Java6.</sys:String>
+    <sys:String x:Key="SetUpGuide_SystemInfo_JavaTips">Visit http://www.Java.com Download Java, BakaXL does not support Java6.</sys:String>
 
     <sys:String x:Key="SetUpGuide_Finish_Title">Everything is ready</sys:String>
     <sys:String x:Key="SetUpGuide_Finish_Tips">Your settings have been saved now, but you can come back and change it anytime.</sys:String>
     <sys:String x:Key="SetUpGuide_Finish_UpderTips">Thank you for choosing BakaXL Launcher, your support is very important to us</sys:String>
-    <sys:String x:Key="SetUpGuide_Finish_ButtonTips">Press the 'Finish' button to return to main menu</sys:String>
+    <sys:String x:Key="SetUpGuide_Finish_ButtonTips">Press the 'Finish' button to return to the main menu</sys:String>
 
     <sys:String x:Key="PlayerInfoFlyout_Title">Personal Information</sys:String>
     <sys:String x:Key="PlayerInfoFlyout_Thx">Thank you for choosing BakaXL</sys:String>
