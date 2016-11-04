@@ -13,6 +13,8 @@
     <sys:String x:Key="Button_Restart">리스타트!</sys:String>
     <sys:String x:Key="Button_NextStep">다음</sys:String>
     <sys:String x:Key="Button_Back">뒤로</sys:String>
+    <sys:String x:Key="Button_Checking">인증중</sys:String>
+    <sys:String x:Key="Button_Finish">완성</sys:String>
 
     <sys:String x:Key="Communication">BakaXL는 지금 서버에서 데이터를 가져오고 있습니다.</sys:String>
 
@@ -63,6 +65,57 @@
     <sys:String x:Key="SetUpGuide_Loading_7">BakaXL지금 초기화하고 있습니다：게임스타팅</sys:String>
     <sys:String x:Key="SetUpGuide_Loading_8">BakaXL의 초기화가 완료되였습니다.</sys:String>
 
+    <sys:String x:Key="SetUpGuide_MainSetup_Title">몇가지만 설정해봅시다.</sys:String>
+    <sys:String x:Key="SetUpGuide_MainSetup_Tips">게임을 시작하기 위해서 일부 정보를 수집해야 합니다.시간이 얼마 안됩니다.</sys:String>
+
+    <sys:String x:Key="SetUpGuide_Region_Title">당신의 언어</sys:String>
+    <sys:String x:Key="SetUpGuide_Region_DisplayLang">BakaXL의 표시언어</sys:String>
+    <sys:String x:Key="SetUpGuide_Region_Tips">당신의 설정으로 BakaXL의 표시언어가 바뀜니다. 당신의 언어습관에 맞게 어종을 설정해주세요.</sys:String>
+
+    <sys:String x:Key="SetUpGuide_Welcome_Title">BakaXL를 사용하는것을 환영합니다.</sys:String>
+    <sys:String x:Key="SetUpGuide_Welcome_NotCurrentUser">우측 표시된 계정이 이닙니다.---</sys:String>
+
+    <sys:String x:Key="SetUpGuide_Welcome_Whoareyou">그럼, 당신은 누구신가요?</sys:String>
+
+    <sys:String x:Key="SetUpGuide_Username_Title">Minecraft 의 Game ID를 설정하기</sys:String>
+    <sys:String x:Key="SetUpGuide_Username_Tips">영어,숫자 및 언더라인 이외에 다른 문자를 사용하는것을 권장하지 않습니다.</sys:String>
+    <sys:String x:Key="SetUpGuide_Username_Call">게임 안에서 무엇이라고 부른가요?</sys:String>
+    <sys:String x:Key="SetUpGuide_Username_MojangAccount">Minecraft를 구입하였습니다.</sys:String>
+    <sys:String x:Key="SetUpGuide_Username_UnderTips">Game ID는 각 서버의 "신분증"이므로 주의하시기 바랍니다.</sys:String>
+
+    <sys:String x:Key="SetUpGuide_Mojang_Title">보장 계정을 들록하기</sys:String>
+    <sys:String x:Key="SetUpGuide_Mojang_Tip">BakaXL는 당신이 입력된 모장 계정을 암호화로 저장합니다.</sys:String>
+    <sys:String x:Key="SetUpGuide_Mojang_Watermark_Email">모장 계정</sys:String>
+    <sys:String x:Key="SetUpGuide_Mojang_Watermark_Password">비밀번호</sys:String>
+    <sys:String x:Key="SetUpGuide_Mojang_ForgetPassword">비밀번호 찾기</sys:String>
+    <sys:String x:Key="SetUpGuide_Mojang_BuyMinecraft">minecraft.net 에서 구입하기</sys:String>
+    <sys:String x:Key="SetUpGuide_Mojang_NoAccount">Minecraft를 구입하지 못하였습니다.</sys:String>
+
+    <sys:String x:Key="SetUpGuide_QuickSet_Title">퀵 설정을 사용하기</sys:String>
+    <sys:String x:Key="SetUpGuide_QuickSet_Tips">본체설정에서 수시로 변경 가능합니다, 설정시</sys:String>
+    <sys:String x:Key="SetUpGuide_QuickSet_Username_1">우측 표시된 GameID를 사용합니다.</sys:String>
+    <sys:String x:Key="SetUpGuide_QuickSet_Username_Online">온라인 모드로 시작합니다.</sys:String>
+    <sys:String x:Key="SetUpGuide_QuickSet_Username_Offline">오프라인 모드로 시작합니다.</sys:String>
+    <sys:String xml:space="preserve" x:Key="SetUpGuide_QuickSet_Settings">더 좋은 사용환경을 확보하기 위해 자동으로 메모리,Java위치를 설정하고&#xD;&#xA;BakaXL의메경음악을 켜며 게임 시작시 BakaXL를 최소화및 자동 메모리 정리,&#xD;&#xA;오토 문서 수리를 켜 자동으로 빠진 파일를 보충,&#xD;&#xA;BMCLAPI를 사용하여 중국 대륙지구의 다운로드를 가속,&#xD;&#xA;자동으로 내장된 BakaXL의 플러그인을 사용(모든플러그인이 다 안전하다고 볼순 없습니다.),&#xD;&#xA;지역화하기 위하여 바보 플라자가 위치정보를 업로드하는것을 허용,&#xD;&#xA;BakaXL한테 에러 정보를 발송합니다.</sys:String>
+    <sys:String x:Key="SetUpGuide_QuickSet_MoreInfo">BakaXL가 수집될수 있는 정보들을 확인하기</sys:String>
+    <sys:String x:Key="SetUpGuide_QuickSet_Button_QuickSet">퀵 설정을 사용하기</sys:String>
+    <sys:String x:Key="SetUpGuide_QuickSet_Button_Manual">설정을 지정하기</sys:String>
+
+    <sys:String x:Key="SetUpGuide_Tema_Title">당신만의BakaXL를 꾸미세요!</sys:String>
+    <sys:String x:Key="SetUpGuide_Tema_Tips">BakaXL는 테마 색갈 및 베경사진을 사용자가 지정하는것을 허용합니다.</sys:String>
+    <sys:String x:Key="SetUpGuide_Tema_Tips_Under">어떤 방식으로도 베경사진을 업로드할순 없지만 BakaXL는 19금 사진을 사용하는것을 권장하지 않습니다.</sys:String>
+
+    <sys:String x:Key="SetUpGuide_SystemInfo_Title">게임시작방식을 설정</sys:String>
+    <sys:String x:Key="SetUpGuide_SystemInfo_Tips">게임 시작을 위한 컴퓨터 정보의 일부분를 획득 하나 설정을 변경하는것을 일반적 권장하지 않습니다.</sys:String>
+    <sys:String x:Key="SetUpGuide_SystemInfo_Java">게임 시작할 Java</sys:String>
+    <sys:String x:Key="SetUpGuide_SystemInfo_Memory">메모리</sys:String>
+    <sys:String x:Key="SetUpGuide_SystemInfo_JavaTips">http://www.java.com/에서 Java를 다운받기 가능. BakaXL는 Java6을 지원 불가능</sys:String>
+
+    <sys:String x:Key="SetUpGuide_Finish_Title">설정 마법사가 완성되였습니다.</sys:String>
+    <sys:String x:Key="SetUpGuide_Finish_Tips">설정이 저장되였으며 아래의 타일로 재설정하실수 있습니다.</sys:String>
+    <sys:String x:Key="SetUpGuide_Finish_UpderTips">BakaXL를 사용해주신 당신은 우리에게 아주 큰 지원입니다. 감사함니다.</sys:String>
+    <sys:String x:Key="SetUpGuide_Finish_ButtonTips">'완성'을 눌러 BakaXL의 메뉴로 돌아가십시오</sys:String>
+
     <sys:String x:Key="PlayerInfoFlyout_Title">당신의 개인정보를 입력하기</sys:String>
     <sys:String x:Key="PlayerInfoFlyout_Thx">BakaXL를 이용해주셔서 감사합니다.</sys:String>
     <sys:String x:Key="PlayerInfoFlyout_Tucao">심심할때 여기를 클릭</sys:String>
@@ -82,6 +135,101 @@
     <sys:String x:Key="DownloadManagement_NoFileTips">현제 다운로드할 계획이 없습니다</sys:String>
     <sys:String x:Key="DownloadManagement_Tips_1">BakaXL는 당신이 파일을 다운로드해드립니다.</sys:String>
     <sys:String x:Key="DownloadManagement_Tips_2">될수록 다운로드가 만료되기전 파일을 건드리지(?)마세요</sys:String>
+    <sys:String x:Key="DownloadManagement_HaveFile_1">대렬 중 총</sys:String>
+    <sys:String x:Key="DownloadManagement_HaveFile_2">개의 문서가 있습니다.</sys:String>
+    <sys:String x:Key="DownloadManagement_Downloading">다운받는중</sys:String>
+    <sys:String x:Key="DownloadManagement_Finish">다운받기완성</sys:String>
+    <sys:String x:Key="DownloadManagement_Failed">다운받기실패</sys:String>
+
+    <sys:String x:Key="DownloadHelper_Failed">다운받기 싶패 -</sys:String>
+    <sys:String x:Key="DownloadHelper_UnPack">압축 해제중</sys:String>
+    <sys:String x:Key="DownloadHelper_Finish">완성</sys:String>
+    <sys:String x:Key="DownloadHelper_UnPackFailed">압축 해제 실패</sys:String>
+    <sys:String x:Key="DownloadHelper_UnPackFailed_1">압축 해제 실패: 압축 해제코드롤 석방하지 몼했습니다.</sys:String>
+    <sys:String x:Key="DownloadHelper_UnPackFailed_2">압축 해제 실패:Java의 위치를 정하여 압축 해제 프로그램을 운행되게 하세요.</sys:String>
+    <sys:String x:Key="DownloadHelper_Downloading">다운받는중</sys:String>
+    <sys:String x:Key="DownloadHelper_Waiting">기다리는둥</sys:String>
+
+    <sys:String x:Key="DownloadHelper_Download_Err">부분적인 파일을 다운받지 못했습니다. 다음 BakaXL가 시작될때 그 파일들을 다운합니다.</sys:String>
+    <sys:String x:Key="DownloadHelper_Download_Fin">핑료한 파일을 다운받았습니다. 돌아가기를 눌러 메인메뉴으로 돌아가세요.</sys:String>
+
+    <sys:String x:Key="UpdateAlaert_Title">BakaXL 뉴 버전</sys:String>
+    <sys:String x:Key="UpdateAlaert_Title_Back">！</sys:String>
+    <sys:String x:Key="UpdateAlaert_Content">뉴 버전은 버그의 수리와 새로운 기능을 동반 포합됩니다.다운로드 하는데 인터넷이 요구되며 시간이 얼마 안걸립니다. 데이터 이용시 통회료가 발생할수 있습니다.</sys:String>
+    <sys:String x:Key="UpdateAlaert_Button_Update">지금 업뎃</sys:String>
+    <sys:String x:Key="UpdateAlaert_Button_OrUpdate">나중에</sys:String>
+
+    <sys:String x:Key="Update_Type_BakaXLUpdate">BakaXL 본체 업데이처 파일</sys:String>
+    <sys:String x:Key="Update_Type_Assets">Minecraft 소리파일</sys:String>
+    <sys:String x:Key="Update_Type_Assets_Tips">Minecraft의 언어 및 소리가 포합됩니다.</sys:String>
+    <sys:String x:Key="Update_Type_Libraries">Minecraft Libraries</sys:String>
+    <sys:String x:Key="Update_Type_Libraries_Tips">Libraries가 없이 Minecraft가 시작 불가합니다.</sys:String>
+
+    <sys:String x:Key="Update_Title">BakaXL본체 업뎃파일</sys:String>
+    <sys:String x:Key="Update_Tips_Internet">인터넷을 끊지 마십시오</sys:String>
+    <sys:String x:Key="Update_Tips_ConnFailed">연결 싶태</sys:String>
+    <sys:String x:Key="Update_Tips_NoClose">BakaXL를 끄지 마십시요</sys:String>
+    <sys:String x:Key="Update_Tips_Finish">BakaXL를 재시작 할수 있습니다.</sys:String>
+    <sys:String x:Key="Update_Tips_UpdateFailed">업뎃 일패</sys:String>
+
+    <sys:String x:Key="Update_Download_Err">다운받는데 실패하셨습니다. 인터넷 연결 상황을 참고하십시오.</sys:String>
+    <sys:String x:Key="Update_Download_Fin">업뎃파일 다운받기 성공. BakaXL는 재시작하여 업뎃을 진행합니다.</sys:String>
+
+    <sys:String x:Key="Update_Connecting">BakaXL는 업뎃 서버를 연결하고 있습니다.</sys:String>
+
+    <sys:String x:Key="Update_CannotUpdate">BakaXL는 지금 업뎃을 할수 없습니다.</sys:String>
+    <sys:String x:Key="Update_CannotUpdate_Tips_1">이상이 생겨 BakaXL가 업뎃 서버를 연결할수 없습니다.잠시후 다시 시도해보세요.</sys:String>
+    <sys:String x:Key="Update_CannotUpdate_Tips_2">인터넷 연결상황을 확인하시고, BakaXL의 공식 사이트를 참조하세요.</sys:String>
+
+    <sys:String x:Key="Update_FileSize">파일 크기</sys:String>
+    <sys:String x:Key="Update_DownloadingTips">BakaXL 는 지금 필요한 파일를 다운받고 있습니다.</sys:String>
+    <sys:String x:Key="Update_NoShutdownTips">BakaXL를 끄거나 BakaXL의 파일을 편집하지 마세요.</sys:String>
+    <sys:String x:Key="Update_BMCL">BMCLAPI가속 활성화</sys:String>
+    <sys:String x:Key="Update_BMCLTips">BMCLAPI는 bangbang93이(가) 중국에게 제공한 Minecraft다운로드가속서비스입니다.클릭하여bangbang93의 Weibo(중국판 트위터)</sys:String>
+    <sys:String x:Key="Update_Detail">다운로드내용을 상세보기</sys:String>
+    <sys:String x:Key="Update_Detail_UnderTips">BakaXL는 파일을 다운받기 완료시 알립니다.</sys:String>
+
+    <sys:String x:Key="Updating_Installing">BakaXL는 지금 업뎃하고 있습니다.</sys:String>
+    <sys:String x:Key="Updating_Installing_Tips">업뎃을 위한 마지막 과정을 진행하고 있습니다.걸릴 시간은 적습니다.</sys:String>
+    <sys:String x:Key="Updating_Finish">BakaXL업뎃완료</sys:String>
+    <sys:String x:Key="Updating_Finish_Tips">축하합니다!BakaXL가 성공적으로 업뎃하였습니다. BakaXL는 지금 재시작해야 합니다.</sys:String>
+    <sys:String x:Key="Updating_UnderTips_Restart">"재시작"버튼으로 BakaXL를 재시작!</sys:String>
+    <sys:String x:Key="Updating_Failed">BakaXL업뎃실패</sys:String>
+    <sys:String x:Key="Updating_Failed_Tips">이상이 생겨 BakaXL는 업뎃을 할수 없습니다.</sys:String>
+    <sys:String x:Key="Updating_UnderTips_FailedRestart">네트워크를 확인하십시오.</sys:String>
+
+    <sys:String x:Key="Plugins_Title">BakaXL플러그인 관리</sys:String>
+    <sys:String x:Key="Plugins_Tips">BakaXL가 설치된 플러그인을 관리합니다.</sys:String>
+    <sys:String x:Key="Plugins_NoPlugin">설치된 플러그인이 없습니다.</sys:String>
+    <sys:String x:Key="Plugins_AllView_Title">BakaXL플러그인 통계</sys:String>
+    <sys:String x:Key="Plugins_AllView_Install_1">걸치수：</sys:String>
+    <sys:String x:Key="Plugins_AllView_Install_2">개</sys:String>
+    <sys:String x:Key="Plugins_AllView_Size">총 크기：</sys:String>
+
+    <sys:String x:Key="Core_Title">게임 코어 선택</sys:String>
+    <sys:String x:Key="Core_Tips">시작할 게임팩이나 코어를 선택해주십시오.</sys:String>
+    <sys:String x:Key="Core_NoChoose">선택항목이 없습니다.</sys:String>
+    <sys:String x:Key="Core_NoChoose_NoCore">.minecraft/versions에 코어 존재여부를 확인하세요.</sys:String>
+    <sys:String x:Key="Core_NoChoose_NeedCore">BakaXL가 시작할수 있는 코어를 선택해주세요</sys:String>
+    <sys:String x:Key="Core_RunningTime">운행시간 루계</sys:String>
+    <sys:String x:Key="Core_RunningTime_Minute">분</sys:String>
+    <sys:String x:Key="Core_RunningTime_Hour">시간</sys:String>
+    <sys:String x:Key="Core_Choosed">현재 선택된 코어</sys:String>
+
+    <sys:String x:Key="Core_Button_Choose">선택하기</sys:String>
+    <sys:String x:Key="Core_Button_Choose_Tips">BakaXL가 시작하는 코어로 설정합니다.</sys:String>
+    <sys:String x:Key="Core_Button_AdvCore">코어 고급설정</sys:String>
+    <sys:String x:Key="Core_Button_AdvCore_Tips">코어 고급설정메뉴</sys:String>
+    <sys:String x:Key="Core_Button_Screenshot">스크린샷 관리</sys:String>
+    <sys:String x:Key="Core_Button_Screenshot_Tips">게임에서의 스크린샷을 관리하세요.</sys:String>
+
+    <sys:String x:Key="Plugins_PluginsBox_RightClick_1">삭제</sys:String>
+    <sys:String x:Key="Plugins_PluginsBox_RightClick_2">리로드</sys:String>
+    <sys:String x:Key="Plugins_PluginsBox_RightClick_3">플러그인 폴더</sys:String>
+    <sys:String x:Key="Plugins_PluginsBox_RightClick_4">플러그인 가져오기</sys:String>
+
+    <sys:String x:Key="Tile_GameRunning">시작 중…</sys:String>
+    <sys:String x:Key="Tile_NoID">게임 ID 미설정</sys:String>
 
     <sys:String x:Key="Settings_Title">BakaXL기본설정</sys:String>
     <sys:String x:Key="Settings_Tips">좌측의 타일을 클릭하여 설정하기.</sys:String>
