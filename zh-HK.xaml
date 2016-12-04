@@ -68,7 +68,7 @@
     <sys:String x:Key="SetUpGuide_MainSetup_Title">喺嚟緊嘅時間，我哋會設定一些嘢！</sys:String>
     <sys:String x:Key="SetUpGuide_MainSetup_Tips">我哋需要一些資料嚟確保遊戲正常運作，我哋會好快搞掂，請稍等</sys:String>
 
-    <sys:String x:Key="SetUpGuide_Region_Title">您所使用的語言</sys:String>
+    <sys:String x:Key="SetUpGuide_Region_Title">您用嘅語言</sys:String>
     <sys:String x:Key="SetUpGuide_Region_DisplayLang">BakaXL顯示語言</sys:String>
     <sys:String x:Key="SetUpGuide_Region_Tips">您嘅語言設定會改變BakaXL嘅顯示語言，請揀一個符合您語言習慣嘅語種</sys:String>
 
@@ -91,7 +91,7 @@
     <sys:String x:Key="SetUpGuide_Mojang_BuyMinecraft">去Minecraft官網買正版</sys:String>
     <sys:String x:Key="SetUpGuide_Mojang_NoAccount">我冇買過正版Minecraft</sys:String>
 
-    <sys:String x:Key="SetUpGuide_QuickSet_Title">用快速設定</sys:String>
+    <sys:String x:Key="SetUpGuide_QuickSet_Title">快速安裝</sys:String>
     <sys:String x:Key="SetUpGuide_QuickSet_Tips">您可以隨時喺「本體設定」入面更改呢啲設定。用「快速設定」會：</sys:String>
     <sys:String x:Key="SetUpGuide_QuickSet_Username_1">用您嘅遊戲ID：</sys:String>
     <sys:String x:Key="SetUpGuide_QuickSet_Username_Online">並透過正版驗證模式啟動。</sys:String>
@@ -106,39 +106,39 @@
     <sys:String x:Key="SetUpGuide_Tema_Tips_Under">雖然您設定嘅背景唔會以任何嘅形式上載或者公開，但BakaXL建議您唔好用丁圖做背景</sys:String>
 
     <sys:String x:Key="SetUpGuide_SystemInfo_Title">自訂遊戲啟動</sys:String>
-    <sys:String x:Key="SetUpGuide_SystemInfo_Tips">已為您獲取了部分啟動遊戲所需的系統信息。通常情況下我們不建議您修改正常設置。</sys:String>
-    <sys:String x:Key="SetUpGuide_SystemInfo_Java">啟動遊戲的Java</sys:String>
-    <sys:String x:Key="SetUpGuide_SystemInfo_Memory">遊戲所使用的內存</sys:String>
-    <sys:String x:Key="SetUpGuide_SystemInfo_JavaTips">您可以訪問http://www.Java.com下載最新版的Java。 BakaXL已不再對Java6提供支持。</sys:String>
+    <sys:String x:Key="SetUpGuide_SystemInfo_Tips">已經幫您攞到部分啟動遊戲需要嘅系統資訊。正常情況下我哋唔建議您改呢啲設定。</sys:String>
+    <sys:String x:Key="SetUpGuide_SystemInfo_Java">啟動遊戲嘅Java</sys:String>
+    <sys:String x:Key="SetUpGuide_SystemInfo_Memory">遊戲所使用嘅記憶體</sys:String>
+    <sys:String x:Key="SetUpGuide_SystemInfo_JavaTips">您可以到http://www.Java.com下載最新嘅Java。 BakaXL已經唔再支援Java6。</sys:String>
 
-    <sys:String x:Key="SetUpGuide_Finish_Title">設置嚮導現已完成！</sys:String>
-    <sys:String x:Key="SetUpGuide_Finish_Tips">您的設置將會被保存，您可以隨時輕按這些磁貼來變更您的設置。</sys:String>
-    <sys:String x:Key="SetUpGuide_Finish_UpderTips">感謝您選擇BakaXL啟動器，您的支持對我們非常重要</sys:String>
-    <sys:String x:Key="SetUpGuide_Finish_ButtonTips">請您按下 '完成' 按鈕來返回至BakaXL主菜單</sys:String>
+    <sys:String x:Key="SetUpGuide_Finish_Title">安裝嚮導現已完成！</sys:String>
+    <sys:String x:Key="SetUpGuide_Finish_Tips">您的設定將會被保存，您可以隨時用呢塊磁貼嚟更改您嘅設定。</sys:String>
+    <sys:String x:Key="SetUpGuide_Finish_UpderTips">多謝您選擇BakaXL啟動器，您的支持對我們非常重要</sys:String>
+    <sys:String x:Key="SetUpGuide_Finish_ButtonTips">請您一下「完成」嚟返到BakaXL主選單</sys:String>
 
-    <sys:String x:Key="PlayerInfoFlyout_Title">您嘅個人信息</sys:String>
-    <sys:String x:Key="PlayerInfoFlyout_Thx">多謝您用BakaXL啟動器</sys:String>
-    <sys:String x:Key="PlayerInfoFlyout_Tucao">嚟一發吐槽</sys:String>
+    <sys:String x:Key="PlayerInfoFlyout_Title">您嘅個人資料</sys:String>
+    <sys:String x:Key="PlayerInfoFlyout_Thx">多謝您選擇BakaXL啟動器</sys:String>
+    <sys:String x:Key="PlayerInfoFlyout_Tucao">咁唔畀面？</sys:String>
     <sys:String x:Key="PlayerInfoFlyout_Hi">您好！</sys:String>
     <sys:String x:Key="PlayerInfoFlyout_Memory">記憶體設定</sys:String>
     <sys:String x:Key="PlayerInfoFlyout_AutoMemory">自動設定記憶體</sys:String>
-    <sys:String x:Key="PlayerInfoFlyout_UseOnline">使用正版驗證</sys:String>
-    <sys:String x:Key="PlayerInfoFlyout_UseOnlineTips">您需要喺本體設定- 玩家個人信息裏面&#x000A;設定你嘅正版賬號後先可以用呢項</sys:String>
+    <sys:String x:Key="PlayerInfoFlyout_UseOnline">用正版驗證</sys:String>
+    <sys:String x:Key="PlayerInfoFlyout_UseOnlineTips">您需要喺本體設定→玩家個人信息裏面&#x000A;設定你嘅正版賬號後先至用得</sys:String>
     <sys:String x:Key="PlayerInfoFlyout_AutoJoin">自動加入伺服器</sys:String>
-    <sys:String x:Key="PlayerInfoFlyout_AutoJoinTips">你需要喺本體設定—高級設定裏面&#x000A;設定伺服器地址先可以設定呢項</sys:String>
-    <sys:String x:Key="PlayerInfoFlyout_MoreSettings">更多設定請入去本體設定中更改</sys:String>
+    <sys:String x:Key="PlayerInfoFlyout_AutoJoinTips">你需要喺本體設定→高級設定裏面&#x000A;設定咗伺服器地址先至用得</sys:String>
+    <sys:String x:Key="PlayerInfoFlyout_MoreSettings">更多設定請入去本體設定入面更改</sys:String>
 
-    <sys:String x:Key="ErrorFlyout_Title">啊哦！出現咗啲錯誤！</sys:String>
+    <sys:String x:Key="ErrorFlyout_Title">哎吔！出現咗啲錯誤！</sys:String>
 
-    <sys:String x:Key="DownloadManagement_Title">BakaXL文件下載管理器</sys:String>
-    <sys:String x:Key="DownloadManagement_NoFile">家陣無文件喺到下載緊</sys:String>
-    <sys:String x:Key="DownloadManagement_NoFileTips">目前暫無任何下載安排</sys:String>
-    <sys:String x:Key="DownloadManagement_Tips_1">BakaXL將會喺您需要做下載等操作嘅時侯自動開始下載呢啲文件</sys:String>
-    <sys:String x:Key="DownloadManagement_Tips_2">我哋建議您喺BakaXL進行呢啲文件嘅下載時保持網絡連接並且唔好操作呢啲文件</sys:String>
-    <sys:String x:Key="DownloadManagement_HaveFile_1">現時隊列中有</sys:String>
+    <sys:String x:Key="DownloadManagement_Title">BakaXL檔案下載管理器</sys:String>
+    <sys:String x:Key="DownloadManagement_NoFile">而家無檔案喺到下載緊</sys:String>
+    <sys:String x:Key="DownloadManagement_NoFileTips">而家暫時無任何下載排程</sys:String>
+    <sys:String x:Key="DownloadManagement_Tips_1">BakaXL將會喺您需要做下載等操作嘅時侯自動開始下載呢啲檔案</sys:String>
+    <sys:String x:Key="DownloadManagement_Tips_2">我哋建議您喺BakaXL進行呢啲檔案下載嗰陣時保持網絡暢通並且唔好搞呢啲檔案</sys:String>
+    <sys:String x:Key="DownloadManagement_HaveFile_1">而家排程入面有</sys:String>
     <sys:String x:Key="DownloadManagement_HaveFile_2">個檔案</sys:String>
-    <sys:String x:Key="DownloadManagement_Downloading">正在下載</sys:String>
-    <sys:String x:Key="DownloadManagement_Finish">下載已完成</sys:String>
+    <sys:String x:Key="DownloadManagement_Downloading">下載緊</sys:String>
+    <sys:String x:Key="DownloadManagement_Finish">下載完</sys:String>
     <sys:String x:Key="DownloadManagement_Failed">下載失敗</sys:String>
 
     <sys:String x:Key="DownloadHelper_Failed">下載失敗-</sys:String>
