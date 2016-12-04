@@ -94,7 +94,7 @@
     <sys:String x:Key="SetUpGuide_QuickSet_Username_1">使用您的遊戲ID：</sys:String>
     <sys:String x:Key="SetUpGuide_QuickSet_Username_Online">並通過正版驗證模式啟動。</sys:String>
     <sys:String x:Key="SetUpGuide_QuickSet_Username_Offline">並通過離線模式啟動。</sys:String>
-    <sys:String xml:space="preserve" x:Key="SetUpGuide_QuickSet_Settings">自動設置遊戲所需內存以及Java路徑。並開啟BakaXL背景音樂以獲得更好的&#xD;&#xA;使用體驗。在遊戲啟動完成後最小化BakaXL來幫助您遊戲時進行內存優化。 &#xD;&#xA;&#xD;&#xA;開啟'智能文件修復提醒'以及時通知您遊戲可能缺少的資源。並將使用'大陸地區&#xD;&#xA;第三方下載源'來確保您的遊戲資源下載速度。 &#xD;&#xA;&#xD;&#xA;自動加載所有已安裝的BakaXL插件。並非所有的第三方插件都是安全的。 &#xD;&#xA;允許笨蛋廣場請求您的位置信息（所在城市）已獲得地區化的服務。 &#xD;&#xA;&#xD;&#xA;向BakaXL發送崩潰和啟動診斷信息。</sys:String>
+    <sys:String xml:space="preserve" x:Key="SetUpGuide_QuickSet_Settings">自動設置遊戲所需記憶體以及Java路徑。並開啟BakaXL背景音樂以獲得更好的&#xD;&#xA;使用體驗。在遊戲啟動完成後最小化BakaXL來幫助您遊戲時進行記憶體優化。 &#xD;&#xA;&#xD;&#xA;開啟'智能文件修復提醒'以及時通知您遊戲可能缺少的資源。並將使用'大陸地區&#xD;&#xA;第三方下載源'來確保您的遊戲資源下載速度。 &#xD;&#xA;&#xD;&#xA;自動加載所有已安裝的BakaXL插件。並非所有的第三方插件都是安全的。 &#xD;&#xA;允許笨蛋廣場請求您的位置信息（所在城市）已獲得地區化的服務。 &#xD;&#xA;&#xD;&#xA;向BakaXL發送崩潰和啟動診斷信息。</sys:String>
     <sys:String x:Key="SetUpGuide_QuickSet_MoreInfo">了解有關BakaXL會收集的內容</sys:String>
     <sys:String x:Key="SetUpGuide_QuickSet_Button_QuickSet">使用快速設置</sys:String>
     <sys:String x:Key="SetUpGuide_QuickSet_Button_Manual">自定義設置</sys:String>
@@ -106,7 +106,7 @@
     <sys:String x:Key="SetUpGuide_SystemInfo_Title">自定義遊戲啟動</sys:String>
     <sys:String x:Key="SetUpGuide_SystemInfo_Tips">已為您獲取了部分啟動遊戲所需的系統信息。通常情況下我們不建議您修改正常設置。</sys:String>
     <sys:String x:Key="SetUpGuide_SystemInfo_Java">啟動遊戲的Java</sys:String>
-    <sys:String x:Key="SetUpGuide_SystemInfo_Memory">遊戲所使用的內存</sys:String>
+    <sys:String x:Key="SetUpGuide_SystemInfo_Memory">遊戲所使用的記憶體</sys:String>
     <sys:String x:Key="SetUpGuide_SystemInfo_JavaTips">您可以訪問http://www.Java.com下載最新版的Java。 BakaXL已不再對Java6提供支持。</sys:String>
 
     <sys:String x:Key="SetUpGuide_Finish_Title">設置嚮導現已完成！</sys:String>
@@ -118,8 +118,8 @@
     <sys:String x:Key="PlayerInfoFlyout_Thx">感謝您使用BakaXL啟動器</sys:String>
     <sys:String x:Key="PlayerInfoFlyout_Tucao">來一發吐槽</sys:String>
     <sys:String x:Key="PlayerInfoFlyout_Hi">您好！</sys:String>
-    <sys:String x:Key="PlayerInfoFlyout_Memory">內存設置</sys:String>
-    <sys:String x:Key="PlayerInfoFlyout_AutoMemory">自動設置內存</sys:String>
+    <sys:String x:Key="PlayerInfoFlyout_Memory">記憶體設置</sys:String>
+    <sys:String x:Key="PlayerInfoFlyout_AutoMemory">自動設置記憶體</sys:String>
     <sys:String x:Key="PlayerInfoFlyout_UseOnline">使用正版驗證</sys:String>
     <sys:String x:Key="PlayerInfoFlyout_UseOnlineTips">您需要在本體設置- 玩家個人信息內&#x000A;設置你的正版賬號後才能使用本項</sys:String>
     <sys:String x:Key="PlayerInfoFlyout_AutoJoin">自動加入伺服器</sys:String>
@@ -246,15 +246,15 @@
 
     <sys:String x:Key="Settings_SystemSettings">系統信息設置</sys:String>
     <sys:String x:Key="Settings_SystemSettings_Tab">系統信息</sys:String>
-    <sys:String xml:space="preserve" x:Key="Settings_SystemSettings_Tips">· 打開或關閉BakaXL的背景音樂&#xD;&#xA;&#xD;&#xA;· 設置Minecraft的可用內存&#xD;&#xA;&#xD;&#xA;· 選擇並設置您Java的位置&#xD;&#xA;&#xD;&#xA;· 設置您的遊戲啟動方式</sys:String>
-    <sys:String x:Key="Settings_SystemSettings_Memory">內存設置</sys:String>
-    <sys:String x:Key="Settings_SystemSettings_AutoMemory">自動智能配置內存</sys:String>
+    <sys:String xml:space="preserve" x:Key="Settings_SystemSettings_Tips">· 打開或關閉BakaXL的背景音樂&#xD;&#xA;&#xD;&#xA;· 設置Minecraft的可用記憶體&#xD;&#xA;&#xD;&#xA;· 選擇並設置您Java的位置&#xD;&#xA;&#xD;&#xA;· 設置您的遊戲啟動方式</sys:String>
+    <sys:String x:Key="Settings_SystemSettings_Memory">記憶體設置</sys:String>
+    <sys:String x:Key="Settings_SystemSettings_AutoMemory">自動智能配置記憶體</sys:String>
     <sys:String x:Key="Settings_SystemSettings_JavaPath">Java路徑</sys:String>
     <sys:String x:Key="Settings_SystemSettings_AutoJava">自動定位</sys:String>
     <sys:String x:Key="Settings_SystemSettings_ManualJava">手動定位</sys:String>
     <sys:String x:Key="Settings_SystemSettings_BGM">BakaXL背景音樂</sys:String>
     <sys:String x:Key="Settings_SystemSettings_CloseAfterLaunch">在啟動遊戲完成後自動退出BakaXL（不推薦）</sys:String>
-    <sys:String x:Key="Settings_SystemSettings_CloseAfterLaunch_Tip">我們不推薦您這麼做，這樣您會失去遊戲內存保護以及自動診斷錯誤等功能！</sys:String>
+    <sys:String x:Key="Settings_SystemSettings_CloseAfterLaunch_Tip">我們不推薦您這麼做，這樣您會失去遊戲記憶體保護以及自動診斷錯誤等功能！</sys:String>
     <sys:String x:Key="Settings_SystemSettings_BGMTip">此開關將控制BakaXL主題所提供的程序背景音樂</sys:String>
     <sys:String x:Key="Settings_SystemSettings_StopBGMLF">失去焦點時自動停止背景音樂</sys:String>
     <sys:String x:Key="Settings_SystemSettings_StopBGMLF_Tips">當你目前活動的窗口不在BakaXL的時候，會自動停止播放音樂</sys:String>
@@ -290,8 +290,8 @@
     <sys:String x:Key="Settings_HomeDispay_NoAuthModeContent">前往“玩家信息設置”設置啟動驗證模式。</sys:String>
     <sys:String x:Key="Settings_HomeDispay_NoScrollTitle">自定義主界面滾動函數</sys:String>
     <sys:String x:Key="Settings_HomeDispay_NoScrollContent">可前往“高級設置”進行調整。</sys:String>
-    <sys:String x:Key="Settings_HomeDispay_NoMemoryTitle">未設置遊戲內存</sys:String>
-    <sys:String x:Key="Settings_HomeDispay_NoMemoryContent">前往“系統信息設置”設置遊戲可用內存。</sys:String>
+    <sys:String x:Key="Settings_HomeDispay_NoMemoryTitle">未設置遊戲記憶體</sys:String>
+    <sys:String x:Key="Settings_HomeDispay_NoMemoryContent">前往“系統信息設置”設置遊戲可用記憶體。</sys:String>
     <sys:String x:Key="Settings_HomeDispay_NoJavaTitle">未設置Java路徑</sys:String>
     <sys:String x:Key="Settings_HomeDispay_NoJavaContent">前往“系統信息設置”設置Java路徑。</sys:String>
     <sys:String x:Key="Settings_HomeDispay_MusicErrorTitle">未成功調用音樂組件</sys:String>
