@@ -1,7 +1,7 @@
 <ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     xmlns:sys="clr-namespace:System;assembly=mscorlib">
-					
+
     <sys:String x:Key="BakaPublicTitle">BakaXL - Minecraft런처</sys:String>
     <sys:String x:Key="MainWelcome">웰컴!</sys:String>
     <sys:String x:Key="SetLanguage">당신의 언어를 설정하세요.</sys:String>
@@ -22,6 +22,7 @@
     <sys:String x:Key="Lang_Tips">언어를 설정후,BakaXL가 자동으로 언어를 설정합니다.</sys:String>
 
     <sys:String x:Key="Home_Hello">안녕하세요!</sys:String>
+    <sys:String x:Key="Home_MainMenu">BakaXL Main Menu</sys:String>
     <sys:String x:Key="Home_Theme">테마</sys:String>
     <sys:String x:Key="Home_SelectCore">코어</sys:String>
     <sys:String x:Key="Home_Website">홈페이지</sys:String>
@@ -38,7 +39,8 @@
     <sys:String x:Key="Home_BakaPlaza">바보플라자</sys:String>
     <sys:String x:Key="Home_Tips">BakaXL팁</sys:String>
     <sys:String x:Key="Home_PluginManagement">플러그인</sys:String>
-    
+    <sys:String x:Key="Home_Achievement">Achievement</sys:String>
+
     <sys:String x:Key="AuthMode_Online">온라인</sys:String>
     <sys:String x:Key="AuthMode_Offline">오프라인</sys:String>
 
@@ -52,7 +54,7 @@
     <sys:String x:Key="BakaCrasher_UnderTips">BakaXL는 이 에러를 기록하였습니다. 더 이상 에러를 보고싶지 않는다면 스크린샸을 TT에게 보내세요.</sys:String>
 
     <sys:String x:Key="FirstScreen_Loading">잠시만 기다려주세요.</sys:String>
-    
+
     <sys:String x:Key="SetUpGuide_Loading">첫 실행을 위한 BakaXL의 초기화를 준비하고 있습니다.</sys:String>
     <sys:String x:Key="SetUpGuide_Loading_1">BakaXL의 설정 파일을 생성하고 있습니다.</sys:String>
     <sys:String x:Key="SetUpGuide_Loading_2">BakaXL는 지금 본체를 검사하고 있습니다.</sys:String>
@@ -89,6 +91,13 @@
     <sys:String x:Key="SetUpGuide_Mojang_BuyMinecraft">minecraft.net 에서 구입하기</sys:String>
     <sys:String x:Key="SetUpGuide_Mojang_NoAccount">Minecraft를 구입하지 못하였습니다.</sys:String>
 
+    <sys:String x:Key="SetUpGuide_Protocol_Title">BakaXL Protocol</sys:String>
+    <sys:String x:Key="SetUpGuide_Protocol_Desc">BakaXL protocol can let you launch BakaXL via browser.</sys:String>
+    <sys:String x:Key="SetUpGuide_Protocol_Switch">Open Protocol (Recommend,UAC required.)</sys:String>
+    <sys:String xml:space="preserve" x:Key="SetUpGuide_Protocol_Switch_Tips">Use BakaXL Protocol can let you open the launcher via web page.&#x000A;Need Administrator user permission, notice your anti-virus software.</sys:String>
+    <sys:String x:Key="SetUpGuide_Protocol_Ani_Web_Button">Open BakaXL</sys:String>
+    <sys:String x:Key="SetUpGuide_Protocol_Ani_BakaXL_Tips">Browse in BakaPlaza, or Launch the Minecraft.</sys:String>	
+	
     <sys:String x:Key="SetUpGuide_QuickSet_Title">빠른 설정을 사용하기</sys:String>
     <sys:String x:Key="SetUpGuide_QuickSet_Tips">본체설정에서 수시로 변경 가능합니다, 설정시</sys:String>
     <sys:String x:Key="SetUpGuide_QuickSet_Username_1">우측 표시된 GameID를 사용합니다.</sys:String>
@@ -262,7 +271,6 @@
     <sys:String x:Key="Settings_SystemSettings_Debug">게임 리턴내용을 캐치&amp;분석처리</sys:String>
     <sys:String x:Key="Settings_SystemSettings_Debug_Tips">게임 리턴내용을 가져오는 기늠입니다.게임이 절반까지 로딩후 움직임이 없으면 이 기능을 비활성화하세요.</sys:String>
 
-
     <sys:String x:Key="Settings_AdvanceSettings">고급설정</sys:String>
     <sys:String x:Key="Settings_AdvanceSettings_Tab">고급설정</sys:String>
     <sys:String xml:space="preserve" x:Key="Settings_AdvanceSettings_Tips">· BakaXL의 고급기능을 설정합니다.&#xD;&#xA;&#xD;&#xA;· 부가 게임 로딩명령을 입력&#xD;&#xA;&#xD;&#xA;· java.exe로 게임 시작</sys:String>
@@ -297,7 +305,9 @@
     <sys:String x:Key="Settings_HomeDispay_NoMemoryContent">"시스템 정보 설정"에서 설정할수 있습니다.</sys:String>
     <sys:String x:Key="Settings_HomeDispay_NoJavaTitle">Java의 위치를 설정하지 못하였습니다.</sys:String>
     <sys:String x:Key="Settings_HomeDispay_NoJavaContent">"시스템 정보 설정"에서 Java의 위치를 설정할수 있습니다.</sys:String>
-
+    <sys:String x:Key="Settings_HomeDispay_MusicErrorTitle">Music System</sys:String>
+    <sys:String x:Key="Settings_HomeDispay_MusicErrorContent">Your system don't have Windows Media Player!</sys:String>
+	
     <sys:String x:Key="Tema_Title">개성회 설정</sys:String>
     <sys:String x:Key="Tema_L_Title">당신만의 BakaXL를 꾸미세요!</sys:String>
     <sys:String x:Key="Tema_NightMode">나이트 모드</sys:String>
@@ -361,7 +371,21 @@
     <sys:String x:Key="Color_Mauve">페이드 퍼풀</sys:String>
     <sys:String x:Key="Color_Taupe">미세먼지 회색</sys:String>
     <sys:String x:Key="Color_Sienna">나무 갈색</sys:String>
+    
     <!--<sys:String x:Key="CoreTools_HomeText">BakaXL整合包工具</sys:String>-->
+    <sys:String x:Key="HomeMenu_Title">BakaXL / Home Menu</sys:String>
+    <sys:String x:Key="HomeMenu_PauseTitle">Suspended Software</sys:String>
+    <sys:String x:Key="HomeMenu_PauseTips">Press the HOME Button to continue</sys:String>
+    <sys:String x:Key="HomeMenu_Btn_Close">Close and return to Main Menu</sys:String>
+    <sys:String x:Key="HomeMenu_PauseCheckTitle_Front">Now Closing:</sys:String>
+    <sys:String x:Key="HomeMenu_PauseCheckTips">Confirm?</sys:String>
+    <sys:String x:Key="HomeMenu_CloseTips">Any unsaved progress will be losing</sys:String>
+    <sys:String x:Key="HomeMenu_Btn_Confirm">Confirm</sys:String>
+    <sys:String x:Key="HomeMenu_Btn_Closed">Closed</sys:String>
+
+    <sys:String x:Key="UpdateSettings_UpdateFinsih">Update Finished</sys:String>
+    <sys:String x:Key="UpdateSettings_SubTitle">BakaXL has been successfully update</sys:String>
+    <sys:String x:Key="UpdateSettings_Tips">Need to set up some new feature before you use</sys:String>
 
     <sys:String x:Key="PlazaAlaert_Title">바보 플라자는 강제로 디풀트 언어를 사용합니다.</sys:String>
     <sys:String x:Key="PlazaAlaert_Content">한국어 바보 플라자 서비스가 개통되기 전 강제로 중국어 (간체)로 사용됩니다.</sys:String>
