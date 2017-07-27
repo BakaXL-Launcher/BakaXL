@@ -11,6 +11,6 @@ zh-HK.xaml 粤语（繁体中文）
 zh-TW.xaml 正體中文  
 zh-CL.xaml 文言文（呜呼哀哉，参谋者皆脑有穴，群疯人！）  
 en-US.xaml English  
-en-ES.xaml español  
-ja-JP.xaml 日本語
-<br />ko-KR.xaml 한국어
+en-ES.xaml español  ##2017.7.28 需要补全词条
+ja-JP.xaml 日本語  ##2017.7.28 需要翻译新增词条
+ko-KR.xaml 한국어  ##2017.7.28 需要翻译新增词条
