@@ -1,16 +1,14 @@
 <ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     xmlns:sys="clr-namespace:System;assembly=mscorlib">
-
-<!--BakaXL韩文语言文件 作者：jinyigeng-->
 					
-    <sys:String x:Key="BakaPublicTitle">BakaXL - Minecraft스타터</sys:String>
+    <sys:String x:Key="BakaPublicTitle">BakaXL - Minecraft런처</sys:String>
     <sys:String x:Key="MainWelcome">웰컴!</sys:String>
     <sys:String x:Key="SetLanguage">당신의 언어를 설정하세요.</sys:String>
 
-    <sys:String x:Key="Button_OK">오케이!</sys:String>
+    <sys:String x:Key="Button_OK">OK</sys:String>
     <sys:String x:Key="Button_No">아니오</sys:String>
-    <sys:String x:Key="Button_Restart">리스타트!</sys:String>
+    <sys:String x:Key="Button_Restart">Restart</sys:String>
     <sys:String x:Key="Button_NextStep">다음</sys:String>
     <sys:String x:Key="Button_Back">뒤로</sys:String>
     <sys:String x:Key="Button_Checking">인증중</sys:String>
@@ -46,7 +44,7 @@
 
     <sys:String x:Key="BakaCrasher_MainTitle">보시다시피 지금 BakaXL가 처리할수 없는 에러가 발생하였습니다.</sys:String>
     <sys:String x:Key="BakaCrasher_Tips">처리할수없는 에러에 우리는 고개숙여 죄송의 마음을 전해드릴수밖에 없습니다.</sys:String>
-    <sys:String x:Key="BakaCrasher_ErrInfo">아래는 이번 에러에 대한 내역입니다.</sys:String>
+    <sys:String x:Key="BakaCrasher_ErrInfo">아래는 에러내역입니다.</sys:String>
     <sys:String x:Key="BakaCrasher_GenScTips">TT의 머리를 빡세게 맞기</sys:String>
     <sys:String x:Key="BakaCrasher_GenScButton">스크린샷 생성</sys:String>
     <sys:String x:Key="BakaCrasher_BackTips">BakaXL 메인메뉴로 돌아가기</sys:String>
@@ -59,10 +57,10 @@
     <sys:String x:Key="SetUpGuide_Loading_1">BakaXL의 설정 파일을 생성하고 있습니다.</sys:String>
     <sys:String x:Key="SetUpGuide_Loading_2">BakaXL는 지금 본체를 검사하고 있습니다.</sys:String>
     <sys:String x:Key="SetUpGuide_Loading_3">잠시만 기다려주세요.</sys:String>
-    <sys:String x:Key="SetUpGuide_Loading_4">BakaXL지금 초기화하고 있습니다：바보플라자</sys:String>
-    <sys:String x:Key="SetUpGuide_Loading_5">BakaXL지금 초기화하고 있습니다：게임자원처리시스템</sys:String>
-    <sys:String x:Key="SetUpGuide_Loading_6">BakaXL지금 초기화하고 있습니다：기본설정</sys:String>
-    <sys:String x:Key="SetUpGuide_Loading_7">BakaXL지금 초기화하고 있습니다：게임스타팅</sys:String>
+    <sys:String x:Key="SetUpGuide_Loading_4">BakaXL는 지금 초기화하고 있습니다：바보플라자</sys:String>
+    <sys:String x:Key="SetUpGuide_Loading_5">BakaXL는 지금 초기화하고 있습니다：게임자원처리시스템</sys:String>
+    <sys:String x:Key="SetUpGuide_Loading_6">BakaXL는 지금 초기화하고 있습니다：기본설정</sys:String>
+    <sys:String x:Key="SetUpGuide_Loading_7">BakaXL는 지금 초기화하고 있습니다：게임런칭</sys:String>
     <sys:String x:Key="SetUpGuide_Loading_8">BakaXL의 초기화가 완료되였습니다.</sys:String>
 
     <sys:String x:Key="SetUpGuide_MainSetup_Title">몇가지만 설정해봅시다.</sys:String>
@@ -91,7 +89,7 @@
     <sys:String x:Key="SetUpGuide_Mojang_BuyMinecraft">minecraft.net 에서 구입하기</sys:String>
     <sys:String x:Key="SetUpGuide_Mojang_NoAccount">Minecraft를 구입하지 못하였습니다.</sys:String>
 
-    <sys:String x:Key="SetUpGuide_QuickSet_Title">퀵 설정을 사용하기</sys:String>
+    <sys:String x:Key="SetUpGuide_QuickSet_Title">빠른 설정을 사용하기</sys:String>
     <sys:String x:Key="SetUpGuide_QuickSet_Tips">본체설정에서 수시로 변경 가능합니다, 설정시</sys:String>
     <sys:String x:Key="SetUpGuide_QuickSet_Username_1">우측 표시된 GameID를 사용합니다.</sys:String>
     <sys:String x:Key="SetUpGuide_QuickSet_Username_Online">온라인 모드로 시작합니다.</sys:String>
@@ -101,7 +99,7 @@
     <sys:String x:Key="SetUpGuide_QuickSet_Button_QuickSet">퀵 설정을 사용하기</sys:String>
     <sys:String x:Key="SetUpGuide_QuickSet_Button_Manual">설정을 지정하기</sys:String>
 
-    <sys:String x:Key="SetUpGuide_Tema_Title">당신만의BakaXL를 꾸미세요!</sys:String>
+    <sys:String x:Key="SetUpGuide_Tema_Title">당신만의 BakaXL를 꾸미세요!</sys:String>
     <sys:String x:Key="SetUpGuide_Tema_Tips">BakaXL는 테마 색갈 및 베경사진을 사용자가 지정하는것을 허용합니다.</sys:String>
     <sys:String x:Key="SetUpGuide_Tema_Tips_Under">어떤 방식으로도 베경사진을 업로드할순 없지만 BakaXL는 19금 사진을 사용하는것을 권장하지 않습니다.</sys:String>
 
@@ -156,7 +154,7 @@
     <sys:String x:Key="UpdateAlaert_Title">BakaXL 뉴 버전</sys:String>
     <sys:String x:Key="UpdateAlaert_Title_Back">！</sys:String>
     <sys:String x:Key="UpdateAlaert_Content">뉴 버전은 버그의 수리와 새로운 기능을 동반 포합됩니다.다운로드 하는데 인터넷이 요구되며 시간이 얼마 안걸립니다. 데이터 이용시 통회료가 발생할수 있습니다.</sys:String>
-    <sys:String x:Key="UpdateAlaert_Button_Update">지금 업뎃</sys:String>
+    <sys:String x:Key="UpdateAlaert_Button_Update">지금 업데이트</sys:String>
     <sys:String x:Key="UpdateAlaert_Button_OrUpdate">나중에</sys:String>
 
     <sys:String x:Key="Update_Type_BakaXLUpdate">BakaXL 본체 업데이처 파일</sys:String>
@@ -165,20 +163,20 @@
     <sys:String x:Key="Update_Type_Libraries">Minecraft Libraries</sys:String>
     <sys:String x:Key="Update_Type_Libraries_Tips">Libraries가 없이 Minecraft가 시작 불가합니다.</sys:String>
 
-    <sys:String x:Key="Update_Title">BakaXL본체 업뎃파일</sys:String>
+    <sys:String x:Key="Update_Title">BakaXL본체 업데이트파일</sys:String>
     <sys:String x:Key="Update_Tips_Internet">인터넷을 끊지 마십시오</sys:String>
     <sys:String x:Key="Update_Tips_ConnFailed">연결 싶태</sys:String>
     <sys:String x:Key="Update_Tips_NoClose">BakaXL를 끄지 마십시요</sys:String>
     <sys:String x:Key="Update_Tips_Finish">BakaXL를 재시작 할수 있습니다.</sys:String>
-    <sys:String x:Key="Update_Tips_UpdateFailed">업뎃 일패</sys:String>
+    <sys:String x:Key="Update_Tips_UpdateFailed">업데이트 일패</sys:String>
 
-    <sys:String x:Key="Update_Download_Err">다운받는데 실패하셨습니다. 인터넷 연결 상황을 참고하십시오.</sys:String>
-    <sys:String x:Key="Update_Download_Fin">업뎃파일 다운받기 성공. BakaXL는 재시작하여 업뎃을 진행합니다.</sys:String>
+    <sys:String x:Key="Update_Download_Err">다운받는데 실패하였습니다. 인터넷 연결 상황을 확인하십시오.</sys:String>
+    <sys:String x:Key="Update_Download_Fin">업데이트파일를 다운받는데 성공하였습니다.. BakaXL는 재시작하여 업데이트을 진행합니다.</sys:String>
 
-    <sys:String x:Key="Update_Connecting">BakaXL는 업뎃 서버를 연결하고 있습니다.</sys:String>
+    <sys:String x:Key="Update_Connecting">BakaXL는 업데이트 서버를 연결하고 있습니다.</sys:String>
 
-    <sys:String x:Key="Update_CannotUpdate">BakaXL는 지금 업뎃을 할수 없습니다.</sys:String>
-    <sys:String x:Key="Update_CannotUpdate_Tips_1">이상이 생겨 BakaXL가 업뎃 서버를 연결할수 없습니다.잠시후 다시 시도해보세요.</sys:String>
+    <sys:String x:Key="Update_CannotUpdate">BakaXL는 지금 업데이트을 할수 없습니다.</sys:String>
+    <sys:String x:Key="Update_CannotUpdate_Tips_1">이상이 생겨 BakaXL가 업데이트 서버를 연결할수 없습니다.잠시후 다시 시도해보세요.</sys:String>
     <sys:String x:Key="Update_CannotUpdate_Tips_2">인터넷 연결상황을 확인하시고, BakaXL의 공식 사이트를 참조하세요.</sys:String>
 
     <sys:String x:Key="Update_FileSize">파일 크기</sys:String>
@@ -189,13 +187,13 @@
     <sys:String x:Key="Update_Detail">다운로드내용을 상세보기</sys:String>
     <sys:String x:Key="Update_Detail_UnderTips">BakaXL는 파일을 다운받기 완료시 알립니다.</sys:String>
 
-    <sys:String x:Key="Updating_Installing">BakaXL는 지금 업뎃하고 있습니다.</sys:String>
-    <sys:String x:Key="Updating_Installing_Tips">업뎃을 위한 마지막 과정을 진행하고 있습니다.걸릴 시간은 적습니다.</sys:String>
-    <sys:String x:Key="Updating_Finish">BakaXL업뎃완료</sys:String>
-    <sys:String x:Key="Updating_Finish_Tips">축하합니다!BakaXL가 성공적으로 업뎃하였습니다. BakaXL는 지금 재시작해야 합니다.</sys:String>
+    <sys:String x:Key="Updating_Installing">BakaXL는 지금 업데이트하고 있습니다.</sys:String>
+    <sys:String x:Key="Updating_Installing_Tips">업데이트을 위한 마지막 과정을 진행하고 있습니다.걸릴 시간은 적습니다.</sys:String>
+    <sys:String x:Key="Updating_Finish">BakaXL업데이트완료</sys:String>
+    <sys:String x:Key="Updating_Finish_Tips">축하합니다!BakaXL가 성공적으로 업데이트하였습니다. BakaXL는 지금 재시작해야 합니다.</sys:String>
     <sys:String x:Key="Updating_UnderTips_Restart">"재시작"버튼으로 BakaXL를 재시작!</sys:String>
-    <sys:String x:Key="Updating_Failed">BakaXL업뎃실패</sys:String>
-    <sys:String x:Key="Updating_Failed_Tips">이상이 생겨 BakaXL는 업뎃을 할수 없습니다.</sys:String>
+    <sys:String x:Key="Updating_Failed">BakaXL업데이트실패</sys:String>
+    <sys:String x:Key="Updating_Failed_Tips">이상이 생겨 BakaXL는 업데이트을 할수 없습니다.</sys:String>
     <sys:String x:Key="Updating_UnderTips_FailedRestart">네트워크를 확인하십시오.</sys:String>
 
     <sys:String x:Key="Plugins_Title">BakaXL플러그인 관리</sys:String>
@@ -308,19 +306,19 @@
     <sys:String x:Key="Tema_Default">초기화</sys:String>
     <sys:String x:Key="Tema_TemaAuthor_Title">테마 작자</sys:String>
     <sys:String x:Key="Tema_TemaDescription_Title">소개 및 설명</sys:String>
-    <sys:String x:Key="Tema_TemaDescription_Default">헐!여기에 아모것도 없네요!</sys:String>
+    <sys:String x:Key="Tema_TemaDescription_Default">비여있습니다.</sys:String>
     <!--没有主题时的提示内容-->
     <sys:String x:Key="Tema_TemaListTitle_NoTema">테마가 없습니다.</sys:String>
     <sys:String x:Key="Tema_TemaListTips_NoTema">당신의 BakaXL 테마를 추가하세요!</sys:String>
     <sys:String x:Key="Tema_TemaListTips_Under_NoTema">BakaXL의 테마파일을 여기 혹은 'BakaXL\Tema'에 이동하세요.</sys:String>
     <!--拖入主题时的提示内容-->
     <sys:String x:Key="Tema_TemaListTitle_Drag">이 테마를 추가하기</sys:String>
-    <sys:String x:Key="Tema_TemaListTips_Drag">마우스를 놓이시면테마가 자동으로 추가됩니다.</sys:String>
+    <sys:String x:Key="Tema_TemaListTips_Drag">마우스를 놓으면 테마가 자동으로 추가됩니다.</sys:String>
     <sys:String x:Key="Tema_TemaListTips_Under_Drag">당신의 테마파일은 자동으로 'BakaXL\Tema' 폴더로 저장됩니다.</sys:String>
     <!--处理主题时的提示内容-->
-    <sys:String x:Key="Tema_TemaListTitle_Unpack">테마를 처리중입니다.</sys:String>
-    <sys:String x:Key="Tema_TemaListTips_Unpack">BakaXL는 지금 테마를 처리하고 있습니다.</sys:String>
-    <sys:String x:Key="Tema_TemaListTips_Under_Unpack">처리후 당신의 테마로 자동으로 교체됩니다.</sys:String>
+    <sys:String x:Key="Tema_TemaListTitle_Unpack">테마파일을 처리중입니다.</sys:String>
+    <sys:String x:Key="Tema_TemaListTips_Unpack">BakaXL는 지금 테마파일을 처리하고 있습니다.</sys:String>
+    <sys:String x:Key="Tema_TemaListTips_Under_Unpack">처리후 지장된 테마로 자동으로 교체됩니다.</sys:String>
     <!--文件不合法时的提示内容-->
     <sys:String x:Key="Tema_TemaListTitle_NotTemaFile">합법적인 BakaXL 테마파일이 아닙니다.</sys:String>
     <sys:String x:Key="Tema_TemaListTips_NotTemaFile">이 파일은 합법적인 BakaXL 테마파일이 아닙니다.</sys:String>
