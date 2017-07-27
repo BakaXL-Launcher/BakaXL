@@ -22,6 +22,7 @@
     <sys:String x:Key="Lang_Tips">在選擇您的語言後，BakaXL將會自動更改顯示語言</sys:String>
 
     <sys:String x:Key="Home_Hello">您好</sys:String>
+    <sys:String x:Key="Home_MainMenu">BakaXL主界面</sys:String>
     <sys:String x:Key="Home_Theme">主題</sys:String>
     <sys:String x:Key="Home_SelectCore">選擇核心</sys:String>
     <sys:String x:Key="Home_Website">訪問官網</sys:String>
@@ -38,6 +39,7 @@
     <sys:String x:Key="Home_BakaPlaza">笨蛋廣場</sys:String>
     <sys:String x:Key="Home_Tips">BakaXL貼士</sys:String>
     <sys:String x:Key="Home_PluginManagement">插件管理</sys:String>
+    <sys:String x:Key="Home_Achievement">成就中心</sys:String>
 
     <sys:String x:Key="AuthMode_Online">正版登錄</sys:String>
     <sys:String x:Key="AuthMode_Offline">離線模式</sys:String>
@@ -88,6 +90,13 @@
     <sys:String x:Key="SetUpGuide_Mojang_ForgetPassword">忘記密碼？</sys:String>
     <sys:String x:Key="SetUpGuide_Mojang_BuyMinecraft">在Minecraft官網購買正版賬戶</sys:String>
     <sys:String x:Key="SetUpGuide_Mojang_NoAccount">我沒有購買正版Minecraft</sys:String>
+
+    <sys:String x:Key="SetUpGuide_Protocol_Title">使用BakaXL協議</sys:String>
+    <sys:String x:Key="SetUpGuide_Protocol_Desc">BakaXL協議是一個方便快捷的小功能，允許您在網頁瀏覽器中啟動BakaXL瀏覽資源或啟動Minecraft。</sys:String>
+    <sys:String x:Key="SetUpGuide_Protocol_Switch">開啟BakaXL協議（建議開啟，需要管理員權限）</sys:String>
+    <sys:String xml:space="preserve" x:Key="SetUpGuide_Protocol_Switch_Tips">可以使用URL協議，在與BakaXL合作的網站上直接打開啟動器&#x000A;或者下載指定資源。 &#x000A;需要使用管理員權限激活，可能會受到殺毒軟件的攔截</sys:String>
+    <sys:String x:Key="SetUpGuide_Protocol_Ani_Web_Button">在BakaXL內瀏覽</sys:String>
+    <sys:String x:Key="SetUpGuide_Protocol_Ani_BakaXL_Tips">在笨蛋廣場中查看和下載資源，或啟動Minecraft。</sys:String>
 
     <sys:String x:Key="SetUpGuide_QuickSet_Title">使用快速設置</sys:String>
     <sys:String x:Key="SetUpGuide_QuickSet_Tips">您隨時可以在'本體設置'中修改這些設置。使用'快速設置'將會：</sys:String>
@@ -147,6 +156,7 @@
     <sys:String x:Key="DownloadHelper_UnPackFailed_2">解壓失敗：無法運行解壓程式，請設定Java路徑</sys:String>
     <sys:String x:Key="DownloadHelper_Downloading">正在下載</sys:String>
     <sys:String x:Key="DownloadHelper_Waiting">等待下載</sys:String>
+	
     <sys:String x:Key="DownloadHelper_Download_Err">部分文件下載失敗，這些檔案將在您下一次啟動BakaXL時自動下載</sys:String>
     <sys:String x:Key="DownloadHelper_Download_Fin">所需的資源下載完成！請您點擊“返回”按鈕回到BakaXL主頁！</sys:String>
     
@@ -277,11 +287,12 @@
     <sys:String x:Key="Settings_PlazaSettings_Tab">笨蛋廣場設置</sys:String>
     <sys:String xml:space="preserve" x:Key="Settings_PlazaSettings_Tips">· 設置笨蛋廣場的通知方式&#xD;&#xA;&#xD;&#xA;· 設置資源的自動更新&#xD;&#xA;&#xD;&#xA;· 調整笨蛋廣場的地區</sys:String>
     <sys:String x:Key="Settings_PlazaSettings_SaveData">省流量模式</sys:String>
-    <sys:String x:Key="Settings_PlazaSettings_SaveDataTips">在使用計費互聯網連接時開啟，笨蛋廣場將不會加載視頻等內容</sys:String>
+    <sys:String x:Key="Settings_PlazaSettings_SaveDataTips">在使用計費互聯網連接時開啟，笨蛋廣場將會降低視頻清晰度</sys:String>
     <sys:String x:Key="Settings_PlazaSettings_SaveDataBacText">省流量</sys:String>
     <sys:String x:Key="Settings_PlazaSettings_ChildrenProtect">限制笨蛋廣場部分功能以保護未成年用戶</sys:String>
     <sys:String x:Key="Settings_PlazaSettings_NoModUpdate">禁止笨蛋廣場收取模組更新</sys:String>
-
+    <sys:String x:Key="Settings_PlazaSettings_DownloadSpeedUp">大陸地區使用第三方Minecraft下載源進行加速</sys:String>
+	
     <sys:String x:Key="Settings_BakaInfo">本體信息</sys:String>
 
     <sys:String x:Key="Settings_HomeDispay_NoUsernameTitle">未設置遊戲ID</sys:String>
@@ -362,6 +373,19 @@
     <sys:String x:Key="Color_Sienna">木棕色</sys:String>
 
     <!--<sys:String x:Key="CoreTools_HomeText">BakaXL整合包工具</sys:String>-->
+    <sys:String x:Key="HomeMenu_Title">BakaXL / Home選單</sys:String>
+    <sys:String x:Key="HomeMenu_PauseTitle">當前中斷中的內容</sys:String>
+    <sys:String x:Key="HomeMenu_PauseTips">您可以點擊下方或按下HOME鍵繼續當前之內容</sys:String>
+    <sys:String x:Key="HomeMenu_Btn_Close">結束并返回BakaXL主界面</sys:String>
+    <sys:String x:Key="HomeMenu_PauseCheckTitle_Front">將結束：</sys:String>
+    <sys:String x:Key="HomeMenu_PauseCheckTips">確定要結束嗎？</sys:String>
+    <sys:String x:Key="HomeMenu_CloseTips">強制中斷現有之內容可能會導致內容丟失，並且此過程不可逆。</sys:String>
+    <sys:String x:Key="HomeMenu_Btn_Confirm">確認結束</sys:String>
+    <sys:String x:Key="HomeMenu_Btn_Closed">已結束</sys:String>
+    
+    <sys:String x:Key="UpdateSettings_UpdateFinsih">BakaXL已完成更新</sys:String>
+    <sys:String x:Key="UpdateSettings_SubTitle">已成功更新您的BakaXL啟動器。</sys:String>
+    <sys:String x:Key="UpdateSettings_Tips">還需進行幾項新功能之設定，便可繼續使用</sys:String>
 
     <sys:String x:Key="PlazaAlaert_Title">笨蛋廣場內的部分內容要求強制使用默認顯示語言</sys:String>
     <sys:String x:Key="PlazaAlaert_Content">在我們開放針對您所使用語言的笨蛋廣場服務之前，笨蛋廣場內的部分信息將會強制使用 簡體中文（中國） 語言來顯示。</sys:String>
