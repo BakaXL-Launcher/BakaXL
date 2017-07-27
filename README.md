@@ -9,7 +9,7 @@ BakaXL启动器是一款全新的Minecraft崩坏启动器，若要了解更多�
 zh-CN.xaml 简体中文  
 zh-HK.xaml 粤语（繁体中文）  
 zh-TW.xaml 正體中文  
-zh-CL.xaml 文言文（呜呼哀哉，参谋者皆脑有穴，群疯人！）    ##2017.7.28 需要翻译新增词条<br />
+zh-CL.xaml 文言文（文辭雅正，博學淵深）<br />
 en-US.xaml English  
 en-ES.xaml español  ##2017.7.28 需要补全词条<br />
 ja-JP.xaml 日本語  ##2017.7.28 需要翻译新增词条<br />
