@@ -89,6 +89,13 @@
     <sys:String x:Key="SetUpGuide_Mojang_ForgetPassword">亡子符節？</sys:String>
     <sys:String x:Key="SetUpGuide_Mojang_BuyMinecraft">購經緯天地<sys:String>
     <sys:String x:Key="SetUpGuide_Mojang_NoAccount">吾未購經緯天地</sys:String>
+    
+    <sys:String x:Key="SetUpGuide_Protocol_Title">使用BakaXL协议</sys:String>
+    <sys:String x:Key="SetUpGuide_Protocol_Desc">BakaXL协议是一个方便快捷的小功能，允许您在网页浏览器中启动BakaXL浏览资源或启动Minecraft。</sys:String>
+    <sys:String x:Key="SetUpGuide_Protocol_Switch">开启BakaXL协议（建议开启，需要管理员权限）</sys:String>
+    <sys:String xml:space="preserve" x:Key="SetUpGuide_Protocol_Switch_Tips">可以使用URL协议，在与BakaXL合作的网站上直接打开启动器&#x000A;或者下载指定资源。&#x000A;需要使用管理员权限激活，可能会受到杀毒软件的拦截</sys:String>
+    <sys:String x:Key="SetUpGuide_Protocol_Ani_Web_Button">在BakaXL内浏览</sys:String>
+    <sys:String x:Key="SetUpGuide_Protocol_Ani_BakaXL_Tips">在笨蛋广场中查看和下载资源，或启动Minecraft。</sys:String>
 	
     <sys:String x:Key="SetUpGuide_QuickSet_Title">默無異言</sys:String>
     <sys:String x:Key="SetUpGuide_QuickSet_Tips">BakaXL之詳細更定</sys:String>
