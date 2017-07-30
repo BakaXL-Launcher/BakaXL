@@ -12,5 +12,5 @@ zh-TW.xaml 正體中文
 zh-CL.xaml 文言文（文辭雅正，博學淵深）<br />
 en-US.xaml English  
 en-ES.xaml español  ##2017.7.28 需要补全词条<br />
-ja-JP.xaml 日本語  ##2017.7.28 需要翻译新增词条<br />
-ko-KR.xaml 한국어  ##2017.7.28 需要翻译新增词条
+ja-JP.xaml 日本語<br />
+ko-KR.xaml 한국어  ##2017.7.30 需要翻译新增词条
