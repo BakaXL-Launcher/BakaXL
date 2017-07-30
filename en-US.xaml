@@ -383,7 +383,7 @@
     <sys:String x:Key="HomeMenu_Btn_Confirm">Confirm</sys:String>
     <sys:String x:Key="HomeMenu_Btn_Closed">Closed</sys:String>
 
-    <sys:String x:Key="UpdateSettings_UpdateFinsih">Update Finished</sys:String>
+    <sys:String x:Key="UpdateSettings_UpdateFinish">Update Finished</sys:String>
     <sys:String x:Key="UpdateSettings_SubTitle">BakaXL has been successfully update</sys:String>
     <sys:String x:Key="UpdateSettings_Tips">Need to set up some new feature before you use</sys:String>
 
