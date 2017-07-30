@@ -77,7 +77,7 @@
     <sys:String x:Key="SetUpGuide_Welcome_Whoareyou">だから、あなたは誰ですか？</sys:String>
 
     <sys:String x:Key="SetUpGuide_Username_Title">起動Minecraftのユーザー名を設定します。</sys:String>
-    <sys:String x:Key="SetUpGuide_Username_Tips">英語のみで、数字、アンダースコアが推奨されていない中国、および特殊記号を使用してください。</sys:String>
+    <sys:String x:Key="SetUpGuide_Username_Tips">英語、数字、アンダースコアが推奨されていない中国、および特殊記号を使用してください。</sys:String>
     <sys:String x:Key="SetUpGuide_Username_Call">あなたはこのゲームで何をしたいですか？</sys:String>
     <sys:String x:Key="SetUpGuide_Username_MojangAccount">私は本物のMinecraftを購入しました</sys:String>
     <sys:String x:Key="SetUpGuide_Username_UnderTips">ユーザー名は、主要なサーバサーバで再生するためのユニークな資格情報であることに注意してください。</sys:String>
@@ -370,18 +370,18 @@
 
     <!--<sys:String x:Key="CoreTools_HomeText">BakaXL統合のキットツール</sys:String>-->
     <sys:String x:Key="HomeMenu_Title">BakaXL / Home Menu</sys:String>
-    <sys:String x:Key="HomeMenu_PauseTitle">Suspended Software</sys:String>
+    <sys:String x:Key="HomeMenu_PauseTitle">ソフトウェア中止</sys:String>
     <sys:String x:Key="HomeMenu_PauseTips">Press the HOME Button to continue</sys:String>
-    <sys:String x:Key="HomeMenu_Btn_Close">Close and return to Main Menu</sys:String>
+    <sys:String x:Key="HomeMenu_Btn_Close">閉めると戻るMain Menu</sys:String>
     <sys:String x:Key="HomeMenu_PauseCheckTitle_Front">Now Closing:</sys:String>
     <sys:String x:Key="HomeMenu_PauseCheckTips">Confirm?</sys:String>
     <sys:String x:Key="HomeMenu_CloseTips">Any unsaved progress will be losing</sys:String>
     <sys:String x:Key="HomeMenu_Btn_Confirm">Confirm</sys:String>
     <sys:String x:Key="HomeMenu_Btn_Closed">Closed</sys:String>
 
-    <sys:String x:Key="UpdateSettings_UpdateFinsih">Update Finished</sys:String>
-    <sys:String x:Key="UpdateSettings_SubTitle">BakaXL has been successfully update</sys:String>
-    <sys:String x:Key="UpdateSettings_Tips">Need to set up some new feature before you use</sys:String>
+    <sys:String x:Key="UpdateSettings_UpdateFinish">Update 完了</sys:String>
+    <sys:String x:Key="UpdateSettings_SubTitle">BakaXL Update成功</sys:String>
+    <sys:String x:Key="UpdateSettings_Tips">設定新しいものは必要だから</sys:String>
 
     <sys:String x:Key="PlazaAlaert_Title">バカひろば内の構成要件の一部は、デフォルトの表示言語を強制します</sys:String>
     <sys:String x:Key="PlazaAlaert_Content">私たちは、あなたがサービス使用している言語に開く前に、言語で表示される簡体字中国語（中国）を使用するように強制バカひろば内の情報の一部をだまします</sys:String>
