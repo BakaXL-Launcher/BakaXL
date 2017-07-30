@@ -383,7 +383,7 @@
     <sys:String x:Key="HomeMenu_Btn_Confirm">确认结束</sys:String>
     <sys:String x:Key="HomeMenu_Btn_Closed">已结束</sys:String>
 
-    <sys:String x:Key="UpdateSettings_UpdateFinsih">BakaXL已完成更新</sys:String>
+    <sys:String x:Key="UpdateSettings_UpdateFinish">BakaXL已完成更新</sys:String>
     <sys:String x:Key="UpdateSettings_SubTitle">已成功更新您的BakaXL启动器。</sys:String>
     <sys:String x:Key="UpdateSettings_Tips">还需进行几项新功能的设置，即可开始使用！</sys:String>
 
