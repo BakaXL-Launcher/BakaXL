@@ -96,8 +96,8 @@
     <sys:String x:Key="SetUpGuide_Protocol_Switch">Protocol 를 열기(추천,UAC 필요)</sys:String>
     <sys:String xml:space="preserve" x:Key="SetUpGuide_Protocol_Switch_Tips">BakaXL Protocol 는 웹 브라우저에서 직접 BakaXL를 실행할수 있도록 해줍니다.&#x000A;관라자 유저 승인 필요, 안티 바이러스 앱을 유의해주시기 바람.</sys:String>
     <sys:String x:Key="SetUpGuide_Protocol_Ani_Web_Button">BakaXL를 열기</sys:String>
-    <sys:String x:Key="SetUpGuide_Protocol_Ani_BakaXL_Tips">바보플라자를 관람하거나,Minecraft를 런치합니다.</sys:String>	
-	
+    <sys:String x:Key="SetUpGuide_Protocol_Ani_BakaXL_Tips">바보플라자를 관람하거나,Minecraft를 런치합니다.</sys:String>
+
     <sys:String x:Key="SetUpGuide_QuickSet_Title">빠른 설정을 사용하기</sys:String>
     <sys:String x:Key="SetUpGuide_QuickSet_Tips">본체설정에서 수시로 변경 가능합니다, 설정시</sys:String>
     <sys:String x:Key="SetUpGuide_QuickSet_Username_1">우측 표시된 GameID를 사용합니다.</sys:String>
@@ -307,7 +307,7 @@
     <sys:String x:Key="Settings_HomeDispay_NoJavaContent">"시스템 정보 설정"에서 Java의 위치를 설정할수 있습니다.</sys:String>
     <sys:String x:Key="Settings_HomeDispay_MusicErrorTitle">Music System</sys:String>
     <sys:String x:Key="Settings_HomeDispay_MusicErrorContent">Your system don't have Windows Media Player!</sys:String>
-	
+
     <sys:String x:Key="Tema_Title">개성회 설정</sys:String>
     <sys:String x:Key="Tema_L_Title">당신만의 BakaXL를 꾸미세요!</sys:String>
     <sys:String x:Key="Tema_NightMode">나이트 모드</sys:String>
@@ -371,7 +371,7 @@
     <sys:String x:Key="Color_Mauve">페이드 퍼풀</sys:String>
     <sys:String x:Key="Color_Taupe">미세먼지 회색</sys:String>
     <sys:String x:Key="Color_Sienna">나무 갈색</sys:String>
-    
+
     <!--<sys:String x:Key="CoreTools_HomeText">BakaXL整合包工具</sys:String>-->
     <sys:String x:Key="HomeMenu_Title">BakaXL / Home Menu</sys:String>
     <sys:String x:Key="HomeMenu_PauseTitle">Suspended Software</sys:String>
@@ -383,7 +383,7 @@
     <sys:String x:Key="HomeMenu_Btn_Confirm">Confirm</sys:String>
     <sys:String x:Key="HomeMenu_Btn_Closed">Closed</sys:String>
 
-    <sys:String x:Key="UpdateSettings_UpdateFinsih">Update Finished</sys:String>
+    <sys:String x:Key="UpdateSettings_UpdateFinish">Update Finished</sys:String>
     <sys:String x:Key="UpdateSettings_SubTitle">BakaXL has been successfully update</sys:String>
     <sys:String x:Key="UpdateSettings_Tips">Need to set up some new feature before you use</sys:String>
 
