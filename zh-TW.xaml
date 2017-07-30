@@ -147,7 +147,7 @@
     <sys:String x:Key="DownloadManagement_Downloading">正在下載</sys:String>
     <sys:String x:Key="DownloadManagement_Finish">下載已完成</sys:String>
     <sys:String x:Key="DownloadManagement_Failed">下載失敗</sys:String>
-    
+
     <sys:String x:Key="DownloadHelper_Failed">下載失敗-</sys:String>
     <sys:String x:Key="DownloadHelper_UnPack">正在解壓檔案</sys:String>
     <sys:String x:Key="DownloadHelper_Finish">完成</sys:String>
@@ -156,38 +156,38 @@
     <sys:String x:Key="DownloadHelper_UnPackFailed_2">解壓失敗：無法運行解壓程式，請設定Java路徑</sys:String>
     <sys:String x:Key="DownloadHelper_Downloading">正在下載</sys:String>
     <sys:String x:Key="DownloadHelper_Waiting">等待下載</sys:String>
-	
+
     <sys:String x:Key="DownloadHelper_Download_Err">部分文件下載失敗，這些檔案將在您下一次啟動BakaXL時自動下載</sys:String>
     <sys:String x:Key="DownloadHelper_Download_Fin">所需的資源下載完成！請您點擊“返回”按鈕回到BakaXL主頁！</sys:String>
-    
+
     <sys:String x:Key="UpdateAlaert_Title">BakaXL驚現新版本</sys:String>
     <sys:String x:Key="UpdateAlaert_Title_Back">！</sys:String>
     <sys:String x:Key="UpdateAlaert_Content">新功能和穩定性修復將會跟隨本體更新一同推出，請您更新到最新版本！這個過程將不會耗費太長時間。下載本體更新需要使用互聯網連接，在您使用計費互聯網連接時可能需要支付網路資料費用。</sys:String>
     <sys:String x:Key="UpdateAlaert_Button_Update">立即更新</sys:String>
     <sys:String x:Key="UpdateAlaert_Button_OrUpdate">或者更新</sys:String>
-    
+
     <sys:String x:Key="Update_Type_BakaXLUpdate">BakaXL本體更新檔案</sys:String>
     <sys:String x:Key="Update_Type_Assets">Minecraft資源檔</sys:String>
     <sys:String x:Key="Update_Type_Assets_Tips">Minecraft遊戲資源檔，包括遊戲語言和音效資源</sys:String>
     <sys:String x:Key="Update_Type_Libraries">Minecraft運行庫檔案</sys:String>
     <sys:String x:Key="Update_Type_Libraries_Tips">Minecraft Libraries運行庫檔案，若沒有這些檔案遊戲將無法啟動</sys:String>
-    
+
     <sys:String x:Key="Update_Title">BakaXL本體更新系統</sys:String>
     <sys:String x:Key="Update_Tips_Internet">請不要斷開互聯網連接</sys:String>
     <sys:String x:Key="Update_Tips_ConnFailed">連接失敗</sys:String>
     <sys:String x:Key="Update_Tips_NoClose">請不要關閉BakaXL</sys:String>
     <sys:String x:Key="Update_Tips_Finish">現在可以重新啟動BakaXL</sys:String>
     <sys:String x:Key="Update_Tips_UpdateFailed">更新失敗</sys:String>
-    
+
     <sys:String x:Key="Update_Download_Err">下載遇到錯誤！請檢查網絡連接後重試！</sys:String>
     <sys:String x:Key="Update_Download_Fin">更新下載完成！BakaXL將會自動重啟以安裝更新！</sys:String>
-    
+
     <sys:String x:Key="Update_Connecting">BakaXL正在連接至更新服務器</sys:String>
-    
+
     <sys:String x:Key="Update_CannotUpdate">BakaXL現時無法進行更新</sys:String>
     <sys:String x:Key="Update_CannotUpdate_Tips_1">出現異常問題，導致BakaXL無法與更新資源服務器建立連接，請您稍候再試</sys:String>
     <sys:String x:Key="Update_CannotUpdate_Tips_2">請您確認網絡連接或留意BakaXL官網的服務公告</sys:String>
-    
+
     <sys:String x:Key="Update_FileSize">文件大小</sys:String>
     <sys:String x:Key="Update_DownloadingTips">BakaXL正在下載所需檔案</sys:String>
     <sys:String x:Key="Update_NoShutdownTips">請您不要關閉BakaXL或對BakaXL檔案進行操作</sys:String>
@@ -195,7 +195,7 @@
     <sys:String x:Key="Update_BMCLTips">BMCLAPI是bangbang93提供的國內Minecraft資源下載服務，點擊進入bangbang93微博</sys:String>
     <sys:String x:Key="Update_Detail">詳細下載資訊</sys:String>
     <sys:String x:Key="Update_Detail_UnderTips">BakaXL將會在這些文件下載完成時通知您</sys:String>
-    
+
     <sys:String x:Key="Updating_Installing">BakaXL正在安裝更新</sys:String>
     <sys:String x:Key="Updating_Installing_Tips">正在進行更新的最後步驟，這將不會需要很長的時間，請您坐和放寬</sys:String>
     <sys:String x:Key="Updating_Finish">BakaXL更新完成</sys:String>
@@ -204,7 +204,7 @@
     <sys:String x:Key="Updating_Failed">BakaXL更新失敗</sys:String>
     <sys:String x:Key="Updating_Failed_Tips">出現異常問題，導致BakaXL無法繼續進行本體更新。</sys:String>
     <sys:String x:Key="Updating_UnderTips_FailedRestart">請您確認網絡與殺毒軟體攔截後，按下重啓按鈕</sys:String>
-    
+
     <sys:String x:Key="Plugins_Title">BakaXL挿件管理</sys:String>
     <sys:String x:Key="Plugins_Tips">查看當前BakaXL已安裝的附加組件</sys:String>
     <sys:String x:Key="Plugins_NoPlugin">並沒有任何挿件被安裝</sys:String>
@@ -212,7 +212,7 @@
     <sys:String x:Key="Plugins_AllView_Install_1">已安裝：</sys:String>
     <sys:String x:Key="Plugins_AllView_Install_2">個</sys:String>
     <sys:String x:Key="Plugins_AllView_Size">總大小：</sys:String>
-    
+
     <sys:String x:Key="Core_Title">遊戲核心選擇</sys:String>
     <sys:String x:Key="Core_Tips">選擇你要啟動的綜合包或者遊戲版本</sys:String>
     <sys:String x:Key="Core_NoChoose">沒有選擇</sys:String>
@@ -222,19 +222,19 @@
     <sys:String x:Key="Core_RunningTime_Minute">分鐘</sys:String>
     <sys:String x:Key="Core_RunningTime_Hour">小時</sys:String>
     <sys:String x:Key="Core_Choosed">當前選擇</sys:String>
-    
+
     <sys:String x:Key="Core_Button_Choose">選擇此核心</sys:String>
     <sys:String x:Key="Core_Button_Choose_Tips">將當前核心設為BakaXL啟動的對象</sys:String>
     <sys:String x:Key="Core_Button_AdvCore">核心進階管理</sys:String>
     <sys:String x:Key="Core_Button_AdvCore_Tips">進入該核心的高級管理選單</sys:String>
     <sys:String x:Key="Core_Button_Screenshot">遊戲截圖管理</sys:String>
     <sys:String x:Key="Core_Button_Screenshot_Tips">查看並管理您在遊戲中的精彩截圖</sys:String>
-    
+
     <sys:String x:Key="Plugins_PluginsBox_RightClick_1">删除挿件</sys:String>
     <sys:String x:Key="Plugins_PluginsBox_RightClick_2">重繪</sys:String>
     <sys:String x:Key="Plugins_PluginsBox_RightClick_3">打開挿件資料夾</sys:String>
     <sys:String x:Key="Plugins_PluginsBox_RightClick_4">獲取更多挿件</sys:String>
-    
+
     <sys:String x:Key="Tile_GameRunning">遊戲運行中…</sys:String>
     <sys:String x:Key="Tile_NoID">未設定遊戲ID</sys:String>
 
@@ -292,7 +292,7 @@
     <sys:String x:Key="Settings_PlazaSettings_ChildrenProtect">限制笨蛋廣場部分功能以保護未成年用戶</sys:String>
     <sys:String x:Key="Settings_PlazaSettings_NoModUpdate">禁止笨蛋廣場收取模組更新</sys:String>
     <sys:String x:Key="Settings_PlazaSettings_DownloadSpeedUp">大陸地區使用第三方Minecraft下載源進行加速</sys:String>
-	
+
     <sys:String x:Key="Settings_BakaInfo">本體信息</sys:String>
 
     <sys:String x:Key="Settings_HomeDispay_NoUsernameTitle">未設置遊戲ID</sys:String>
@@ -382,8 +382,8 @@
     <sys:String x:Key="HomeMenu_CloseTips">強制中斷現有之內容可能會導致內容丟失，並且此過程不可逆。</sys:String>
     <sys:String x:Key="HomeMenu_Btn_Confirm">確認結束</sys:String>
     <sys:String x:Key="HomeMenu_Btn_Closed">已結束</sys:String>
-    
-    <sys:String x:Key="UpdateSettings_UpdateFinsih">BakaXL已完成更新</sys:String>
+
+    <sys:String x:Key="UpdateSettings_UpdateFinish">BakaXL已完成更新</sys:String>
     <sys:String x:Key="UpdateSettings_SubTitle">已成功更新您的BakaXL啟動器。</sys:String>
     <sys:String x:Key="UpdateSettings_Tips">還需進行幾項新功能之設定，便可繼續使用</sys:String>
 
