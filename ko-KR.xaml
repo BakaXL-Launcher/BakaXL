@@ -92,11 +92,11 @@
     <sys:String x:Key="SetUpGuide_Mojang_NoAccount">Minecraft를 구입하지 못하였습니다.</sys:String>
 
     <sys:String x:Key="SetUpGuide_Protocol_Title">BakaXL Protocol</sys:String>
-    <sys:String x:Key="SetUpGuide_Protocol_Desc">BakaXL protocol can let you launch BakaXL via browser.</sys:String>
-    <sys:String x:Key="SetUpGuide_Protocol_Switch">Open Protocol (Recommend,UAC required.)</sys:String>
-    <sys:String xml:space="preserve" x:Key="SetUpGuide_Protocol_Switch_Tips">Use BakaXL Protocol can let you open the launcher via web page.&#x000A;Need Administrator user permission, notice your anti-virus software.</sys:String>
-    <sys:String x:Key="SetUpGuide_Protocol_Ani_Web_Button">Open BakaXL</sys:String>
-    <sys:String x:Key="SetUpGuide_Protocol_Ani_BakaXL_Tips">Browse in BakaPlaza, or Launch the Minecraft.</sys:String>	
+    <sys:String x:Key="SetUpGuide_Protocol_Desc">BakaXL protocol 는 지금 브라우저에서 BakaXl 바로가기를 실행할수 없습니다.</sys:String>
+    <sys:String x:Key="SetUpGuide_Protocol_Switch">Protocol 를 열기(추천,UAC 필요)</sys:String>
+    <sys:String xml:space="preserve" x:Key="SetUpGuide_Protocol_Switch_Tips">BakaXL Protocol 는 웹 브라우저에서 직접 BakaXL를 실행할수 있도록 해줍니다.&#x000A;관라자 유저 승인 필요, 안티 바이러스 앱을 유의해주시기 바람.</sys:String>
+    <sys:String x:Key="SetUpGuide_Protocol_Ani_Web_Button">BakaXL를 열기</sys:String>
+    <sys:String x:Key="SetUpGuide_Protocol_Ani_BakaXL_Tips">바보플라자를 관람하거나,Minecraft를 런치합니다.</sys:String>	
 	
     <sys:String x:Key="SetUpGuide_QuickSet_Title">빠른 설정을 사용하기</sys:String>
     <sys:String x:Key="SetUpGuide_QuickSet_Tips">본체설정에서 수시로 변경 가능합니다, 설정시</sys:String>
@@ -348,10 +348,10 @@
     <sys:String x:Key="Tema_TemaBox_RightClick_3">폴더를 열기</sys:String>
     <sys:String x:Key="Tema_TemaBox_RightClick_4">테마를 얻어오기</sys:String>
 
-    <sys:String x:Key="Color_Red">중국뻘강</sys:String>
-    <sys:String x:Key="Color_Green">크리퍼초록</sys:String>
+    <sys:String x:Key="Color_Red">빨강</sys:String>
+    <sys:String x:Key="Color_Green">초록</sys:String>
     <sys:String x:Key="Color_Blue">파랑</sys:String>
-    <sys:String x:Key="Color_Purple">Gay퍼풀</sys:String>
+    <sys:String x:Key="Color_Purple">퍼풀</sys:String>
     <sys:String x:Key="Color_Orange">오렌지</sys:String>
     <sys:String x:Key="Color_Lime">잡초초록</sys:String>
     <sys:String x:Key="Color_Emerald">에멜라드</sys:String>
