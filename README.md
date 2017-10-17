@@ -17,16 +17,16 @@ ja-JP.xaml 日本語<br />
 ko-KR.xaml 한국어  ##2017.7.30 需要翻译新增词条
 
 
-特别感谢以下翻译官对BakaXL异域计划的支持：
+特别感谢以下翻译官对BakaXL异域计划的支持：<br />
 Special Thanks to all BakaXL Translators!
 
 =#排名不分先后#=
 
-粤语（繁体中文）: kaho0w0、JasonHK、cvrunmin
-正體中文：JasonHK、cvrunmin
-文言：muckis、zam、tdiant
-English：YOLO_O3O、cvrunmin
-español：大明
-français：Xwdit
-日本語： MRTangwin8
+粤语（繁体中文）: kaho0w0、JasonHK、<br />
+正體中文：JasonHK、cvrunmin<br />
+文言：muckis、zam、tdiant<br />
+English：YOLO_O3O、cvrunmin<br />
+español：大明<br />
+français：Xwdit<br />
+日本語： MRTangwin8<br />
 한국어：jinyigeng、赤理
