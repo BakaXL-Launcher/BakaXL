@@ -103,7 +103,7 @@
     <sys:String x:Key="SetUpGuide_QuickSet_Username_1">子之簿名為：</sys:String>
     <sys:String x:Key="SetUpGuide_QuickSet_Username_Online">及登簿啟之</sys:String>
     <sys:String x:Key="SetUpGuide_QuickSet_Username_Offline">及離線啟之</sys:String>
-    <sys:String xml:space="preserve" x:Key="SetUpGuide_QuickSet_Settings">自發更定遊戲內存及“咤屲”程序，亦有BakaXL後臺音樂伴之。&#xD;&#xA;遊戲既始，BakaXL置之後臺以優化經緯天地也。&#xD;&#xA;&#xD;&#xA;啟'智慧檔案修復提撕'以迫時告之所缺檔案也。亦有'大陸地區&#xD;&#xA;第三造源'以益力下載之速率也。&#xD;&#xA;&#xD;&#xA;自發加載凡安裝之BakaXL插件。然非第三造插件皆為安固。&#xD;&#xA;允肯笨蛋方場涉獵子之所在（所在州縣）。&#xD;&#xA;&#xD;&#xA;寄送崩潰和啟動信息。</sys:String>
+    <sys:String xml:space="preserve" x:Key="SetUpGuide_QuickSet_Settings">自發更定遊戲內存及“吒話”程序，亦有BakaXL後臺音樂伴之。&#xD;&#xA;遊戲既始，BakaXL置之後臺以優化經緯天地也。&#xD;&#xA;&#xD;&#xA;啟'智慧檔案修復提撕'以迫時告之所缺檔案也。亦有'大陸地區&#xD;&#xA;第三造源'以益力下載之速率也。&#xD;&#xA;&#xD;&#xA;自發加載凡安裝之BakaXL插件。然非第三造插件皆為安固。&#xD;&#xA;允肯笨蛋方場涉獵子之所在（所在州縣）。&#xD;&#xA;&#xD;&#xA;寄送崩潰和啟動信息。</sys:String>
     <sys:String x:Key="SetUpGuide_QuickSet_MoreInfo">知之BakaXL欲涉獵子之私密也</sys:String>
     <sys:String x:Key="SetUpGuide_QuickSet_Button_QuickSet">默無異言</sys:String>
     <sys:String x:Key="SetUpGuide_QuickSet_Button_Manual">擇吾所好</sys:String>
@@ -114,9 +114,9 @@
 
     <sys:String x:Key="SetUpGuide_SystemInfo_Title">擇子所好以更定啟動</sys:String>
     <sys:String x:Key="SetUpGuide_SystemInfo_Tips">BakaXL自發更定啟動內蘊矣。</sys:String>
-    <sys:String x:Key="SetUpGuide_SystemInfo_Java">“咤屲”程序</sys:String>
+    <sys:String x:Key="SetUpGuide_SystemInfo_Java">“吒話”程序</sys:String>
     <sys:String x:Key="SetUpGuide_SystemInfo_Memory">內存</sys:String>
-    <sys:String x:Key="SetUpGuide_SystemInfo_JavaTips">訪 http://www.Java.com 以獲最高“咤屲”程序也。BakaXL不支援咤屲六代久矣。</sys:String>
+    <sys:String x:Key="SetUpGuide_SystemInfo_JavaTips">訪 http://www.Java.com 以獲最高“吒話”程序也。BakaXL不支援吒話六代久矣。</sys:String>
 
     <sys:String x:Key="SetUpGuide_Finish_Title">更定畢矣！</sys:String>
     <sys:String x:Key="SetUpGuide_Finish_Tips">子可尋磁貼以更定設置。</sys:String>
@@ -256,10 +256,10 @@
 
     <sys:String x:Key="Settings_SystemSettings">統系更定</sys:String>
     <sys:String x:Key="Settings_SystemSettings_Tab">統系資訊</sys:String>
-    <sys:String xml:space="preserve" x:Key="Settings_SystemSettings_Tips">· 開關BakaXL後臺音樂&#xD;&#xA;&#xD;&#xA;· 更定經緯天地之內存&#xD;&#xA;&#xD;&#xA;· 更定“咤屲”程序&#xD;&#xA;&#xD;&#xA;· 更定遊戲啟動</sys:String>
+    <sys:String xml:space="preserve" x:Key="Settings_SystemSettings_Tips">· 開關BakaXL後臺音樂&#xD;&#xA;&#xD;&#xA;· 更定經緯天地之內存&#xD;&#xA;&#xD;&#xA;· 更定“吒話”程序&#xD;&#xA;&#xD;&#xA;· 更定遊戲啟動</sys:String>
     <sys:String x:Key="Settings_SystemSettings_Memory">內存更定</sys:String>
     <sys:String x:Key="Settings_SystemSettings_AutoMemory">自發更定內存</sys:String>
-    <sys:String x:Key="Settings_SystemSettings_JavaPath">咤屲程序位址</sys:String>
+    <sys:String x:Key="Settings_SystemSettings_JavaPath">吒話程序位址</sys:String>
     <sys:String x:Key="Settings_SystemSettings_AutoJava">自發搜尋</sys:String>
     <sys:String x:Key="Settings_SystemSettings_ManualJava">自我搜尋</sys:String>
     <sys:String x:Key="Settings_SystemSettings_BGM">BakaXL後臺音樂</sys:String>
@@ -303,8 +303,8 @@
     <sys:String x:Key="Settings_HomeDispay_NoScrollContent">至“高階更定”以更定速率。</sys:String>
     <sys:String x:Key="Settings_HomeDispay_NoMemoryTitle">尚未設置內存</sys:String>
     <sys:String x:Key="Settings_HomeDispay_NoMemoryContent">至“統系資訊更定”以更定內存。</sys:String>
-    <sys:String x:Key="Settings_HomeDispay_NoJavaTitle">未尋得“咤屲”程序位址</sys:String>
-    <sys:String x:Key="Settings_HomeDispay_NoJavaContent">至“統系資訊更定”更定“咤屲”程序位址。</sys:String>
+    <sys:String x:Key="Settings_HomeDispay_NoJavaTitle">未尋得“吒話”程序位址</sys:String>
+    <sys:String x:Key="Settings_HomeDispay_NoJavaContent">至“統系資訊更定”更定“吒話”程序位址。</sys:String>
     <sys:String x:Key="Settings_HomeDispay_MusicErrorTitle">後臺音樂程序僨轍！</sys:String>
     <sys:String x:Key="Settings_HomeDispay_MusicErrorContent">子之視窗統系缺少Windows Media Player組件！</sys:String>
 
