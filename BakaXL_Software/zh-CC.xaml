@@ -7,7 +7,7 @@
     <sys:String x:Key="MainWelcome">久仰</sys:String>
     <sys:String x:Key="SetLanguage">擇子之辭</sys:String>
 
-    <sys:String x:Key="Button_OK">俞</sys:String>
+    <sys:String x:Key="Button_OK">諾</sys:String>
     <sys:String x:Key="Button_No">否</sys:String>
     <sys:String x:Key="Button_Restart">更啟</sys:String>
     <sys:String x:Key="Button_NextStep">繼賡</sys:String>
@@ -18,7 +18,7 @@
     <sys:String x:Key="Communication">BakaXL方取伺服器之信</sys:String>
 
     <sys:String x:Key="Lang_Title">擇子所好之辭</sys:String>
-    <sys:String x:Key="Lang_JoinTranslate">登 http://www.BakaXL.com/Language/ 以竣BakaXL之異域計劃</sys:String>
+    <sys:String x:Key="Lang_JoinTranslate">入 http://www.BakaXL.com/Language/ 以竣之</sys:String>
     <sys:String x:Key="Lang_Watermark">擇子之辭</sys:String>
     <sys:String x:Key="Lang_Tips">擇畢，BakaXL變之界面之辭</sys:String>
 
