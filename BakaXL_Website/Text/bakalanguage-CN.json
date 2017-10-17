@@ -1,0 +1,60 @@
+{
+    "title": "BakaXL - 新一代Minecraft崩坏启动器",
+	"News_Title" : "近期动态",
+	"Footer_Mobile": "您当前正在使用移动设备访问BakaXL官方网站，部分功能将不可用。",
+	"MobileImage_1_Img": {
+        "src": "./assets/img/zh-cn/top/bnr-tinge.png",
+		"alt": "BakaTinge 外设灯光系统"
+    },
+	"MobileImage_1_Link": {
+        "href": "javascript:void(0)"
+    },
+	"MobileImage_2_Img": {
+        "src": "./assets/img/zh-cn/top/bnr-plaza.png",
+		"alt": "BakaXL 笨蛋广场"
+    },
+	"MobileImage_2_Link": {
+        "src": "javascript:void(0)"
+    },
+	"Download_Bac": {
+        "src": "./assets/img/zh-cn/top/img_main.png"
+    },
+    "Download_Now": {
+        "src": "./assets/img/zh-cn/top/text_catch01_6.png",
+		"alt": "立即下载"
+    },
+	"News_Title_Img": {
+        "src": "./assets/img/zh-cn/top/title_topics.png"
+    },
+	"News1_Img": {
+        "src": "./assets/img/common/img_noimage.jpg"
+    },
+    "News_1_Title": "BakaXL 2.2.7现已推出！",
+    "News_1_Date": "2017年9月9日",
+    "News_1_Desc": "BakaXL 公众版 2.2.7现已正式发布，您可通过本体更新功能升级！",
+    "News_1_Link": {
+        "href": "javascript:void(0)"
+    },
+	"News2_Img": {
+        "src": "./assets/img/common/img_noimage.jpg"
+    },
+    "News_2_Title": "BakaTinge 外设灯光系统现已推出！",
+    "News_2_Date": "2017年9月9日",
+    "News_2_Desc": "将BakaXL主题带入您的游戏外设灯光系统！",
+    "News_2_Link": {
+        "href": "javascript:void(0)"
+    },
+	"News3_Img": {
+        "src": "./assets/img/common/img_noimage.jpg"
+    },
+    "News_3_Title": "BakaXL笨蛋广场 夏季番剧主题征集活动",
+    "News_3_Date": "2016年10月1日",
+    "News_3_Desc": "还在为2016年夏季番剧的完结感到伤心吗？使用BakaXL主题将它们留在大家的心中吧！",
+    "News_3_Link": {
+        "href": "https://bbs.bakaxl.com/forum.php?mod=viewthread&tid=39"
+    },
+	"Protocol_Title_Unavaliable": "此时无法使用BakaXL协议。",
+	"Protocol_Content_Unavaliable": "此操作目前无法通过BakaXL协议完成，以下是可能存在的问题。<br /><br />1、此资源可能还未在BakaXL笨蛋广场内提供。<br />2、BakaXL协议服务目前不可用。",
+	"Protocol_Title": "BakaXL将会处理您的请求…",
+	"Protocol_Content": "您的请求将会自动跳转至BakaXL内进行处理。<br /><br />若您已开启“BakaXL协议”功能，则BakaXL将会自动启动并执行您的请求。<br />若您没有使用过BakaXL或未开启本功能，请手动进入笨蛋广场查看此资源。"
+}

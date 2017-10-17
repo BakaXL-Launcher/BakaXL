@@ -1,0 +1,60 @@
+{
+    "title": "BakaXL - A new way to launch your Minecraft",
+	"News_Title" : "News!",
+	"Footer_Mobile": "You are now using Smart Device to visit BakaXL website, some feature will disable.",
+	"MobileImage_1_Img": {
+        "src": "./assets/img/en/top/bnr-switchToChinese.png",
+		"alt": "Switch To Chinese"
+    },
+	"MobileImage_1_Link": {
+        "href": "http://www.BakaXL.com/?lang=zh-CN"
+    },
+	"MobileImage_2_Img": {
+        "src": "./assets/img/en/top/bnr-translator.png",
+		"alt": "BakaXL Translator Project"
+    },
+	"MobileImage_2_Link": {
+        "src": "javascript:void(0)"
+    },
+    "Download_Bac": {
+        "src": "./assets/img/en/top/img_main.png"
+    },
+    "Download_Now": {
+        "src": "./assets/img/en/top/text_catch01_6.png",
+		"alt": "Download Now"
+    },
+	"News_Title_Img": {
+        "src": "./assets/img/en/top/title_topics.png"
+    },
+	"News1_Img": {
+        "src": "./assets/img/common/img_noimage.jpg"
+    },
+    "News_1_Title": "New BakaXL Website is here!",
+    "News_1_Date": "9/9/2017",
+    "News_1_Desc": "Welcome to the BakaXL offical website!",
+    "News_1_Link": {
+        "href": "javascript:void(0)"
+    },
+	"News2_Img": {
+        "src": "./assets/img/common/img_noimage.jpg"
+    },
+    "News_2_Title": "Try BakaXL Ver.2.2.7",
+    "News_2_Date": "9/9/2017",
+    "News_2_Desc": "The new version of BakaXL(2.2.7) is now available! Try it now!",
+    "News_2_Link": {
+        "href": "javascript:void(0)"
+    },
+	"News3_Img": {
+        "src": "./assets/img/common/img_noimage.jpg"
+    },
+    "News_3_Title": "Try BakaTinge RGB System",
+    "News_3_Date": "9/9/2017",
+    "News_3_Desc": "BakaTinge System can let BakaXL control your gaming RGB system such as Razer Keyboard, Mouse or Logitech Mouse..",
+    "News_3_Link": {
+        "href": "javascript:void(0)"
+    },
+	"Protocol_Title_Unavaliable": "BakaXL Protocol is Unavailable",
+	"Protocol_Content_Unavaliable": "BakaXL Protocol is currently unavailable now, the reason may be<br /><br />1. This resource is unavailable in BakaPlaza<br />2. BakaXL Protocol has been disabled",
+	"Protocol_Title": "BakaXL will handle your request",
+	"Protocol_Content": "BakaXL will open and handle your request.<br /><br />BakaXL will automatically open if you enable 'BakaXL Protocol' feature.<br />If 'BakaXL Protocol' is disabled, you need to open BakaXL manually."
+}

@@ -1,0 +1,60 @@
+{
+    "title": "BakaXL - 新一代Minecraft崩壞啟動器",
+	"News_Title" : "最新情報",
+	"Footer_Mobile": "您當前正在使用智慧型手機訪問BakaXL官網，部分功能將不可用。",
+	"MobileImage_1_Img": {
+        "src": "./assets/img/zh-tw/top/bnr-switchToChinese.png",
+		"alt": "切換至簡體中文"
+    },
+	"MobileImage_1_Link": {
+        "href": "http://www.BakaXL.com/?lang=zh-CN"
+    },
+	"MobileImage_2_Img": {
+        "src": "./assets/img/zh-tw/top/bnr-translater.png",
+		"alt": "BakaXL異域計劃"
+    },
+	"MobileImage_2_Link": {
+        "src": "javascript:void(0)"
+    },
+    "Download_Bac": {
+        "src": "./assets/img/zh-tw/top/img_main.png"
+    },
+    "Download_Now": {
+        "src": "./assets/img/zh-tw/top/text_catch01_6.png",
+		"alt": "立即下載"
+    },
+	"News_Title_Img": {
+        "src": "./assets/img/zh-tw/top/title_topics.png"
+    },
+	"News1_Img": {
+        "src": "./assets/img/common/img_noimage.jpg"
+    },
+    "News_1_Title": "感謝閣下光臨BakaXL全新官網",
+    "News_1_Date": "2017.9.29",
+    "News_1_Desc": "BakaXL 官網現已支援繁體(正體)中文！",
+    "News_1_Link": {
+        "href": "javascript:void(0)"
+    },
+	"News2_Img": {
+        "src": "./assets/img/common/img_noimage.jpg"
+    },
+    "News_2_Title": "BakaXL 2.2.7 登場囖！",
+    "News_2_Date": "2017.9.29",
+    "News_2_Desc": "BakaXL之軟體更新2.2.7現正提供中！",
+    "News_2_Link": {
+        "href": "javascript:void(0)"
+    },
+	"News3_Img": {
+        "src": "./assets/img/common/img_noimage.jpg"
+    },
+    "News_3_Title": "來嘗試BakaTinge燈光系統",
+    "News_3_Date": "2017.9.29",
+    "News_3_Desc": "BakaTinge燈光系統可使BakaXL接管閣下外設設備之燈光，并使其跟隨BakaXL之主題顏色變換",
+    "News_3_Link": {
+        "href": "javascript:void(0)"
+    },
+	"Protocol_Title_Unavaliable": "目前無法使用BakaXL協議",
+	"Protocol_Content_Unavaliable": "此操作目前無法透過BakaXL協議完成，以下是可能出現的問題<br /><br />1、BakaXL笨蛋廣場尚未提供此資源之訊息<br />2、BakaXL協議服務目前不可用",
+	"Protocol_Title": "BakaXL將會處理您的請求",
+	"Protocol_Content": "您的請求會被BakaXL利用以跳轉至笨蛋廣場<br /><br />閣下需開啟'BakaXL協議'功能才可使用此功能。<br />若您未曾使用過BakaXL或已停用此功能，您則需要手動查看此資源。"
+}

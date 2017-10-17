@@ -1,0 +1,60 @@
+{
+    "title": "BakaXL - Une nouvelle façon de lancer votre Minecraft",
+	"News_Title" : "Nouvelles!",
+	"Footer_Mobile": "Vous utilisez maintenant Smart Device pour visiter le site de BakaXL, certaines fonctionnalités seront désactivées.",
+	"MobileImage_1_Img": {
+        "src": "./assets/img/en/top/bnr-switchToChinese.png",
+		"alt": "Basculer en chinois"
+    },
+	"MobileImage_1_Link": {
+        "href": "http://www.BakaXL.com/?lang=zh-CN"
+    },
+	"MobileImage_2_Img": {
+        "src": "./assets/img/en/top/bnr-translater.png",
+		"alt": "Le projet traduction de Baka XL"
+    },
+	"MobileImage_2_Link": {
+        "src": "javascript:void(0)"
+    },
+    "Download_Bac": {
+        "src": "./assets/img/en/top/img_main.png"
+    },
+    "Download_Now": {
+        "src": "./assets/img/en/top/text_catch01_6.png",
+		"alt": "Télécharger maintenant"
+    },
+	"News_Title_Img": {
+        "src": "./assets/img/en/top/title_topics.png"
+    },
+	"News1_Img": {
+        "src": "./assets/img/common/img_noimage.jpg"
+    },
+    "News_1_Title": "Le nouveau site de BakaXL est là!",
+    "News_1_Date": "9/9/2017",
+    "News_1_Desc": "Bienvenue sur le site officiel de BakaXL!",
+    "News_1_Link": {
+        "href": "javascript:void(0)"
+    },
+	"News2_Img": {
+        "src": "./assets/img/common/img_noimage.jpg"
+    },
+    "News_2_Title": "Essayez BakaXL Ver.2.2.7",
+    "News_2_Date": "9/9/2017",
+    "News_2_Desc": "La nouvelle version de BakaXL (2.2.7) est maintenant disponible! Essayez-le maintenant!",
+    "News_2_Link": {
+        "href": "javascript:void(0)"
+    },
+	"News3_Img": {
+        "src": "./assets/img/common/img_noimage.jpg"
+    },
+    "News_3_Title": "Essayez BakaTinge RGB système",
+    "News_3_Date": "9/9/2017",
+    "News_3_Desc": "Le système BakaTinge permet à BakaXL de contrôler votre système RGB de jeu tel que Razer Keyboard, Mouse ou Logitech Mouse...",
+    "News_3_Link": {
+        "href": "javascript:void(0)"
+    },
+	"Protocol_Title_Unavaliable": "Le protocole de BakaXL n'est pas disponible",
+	"Protocol_Content_Unavaliable": "Le protocole de BakaXL n'est pas disponible actuellement, la raison peut être <br /><br />1. Cette ressource est indisponible sur place <br />2. Le protocole de BakaXL été désactivé",
+	"Protocol_Title": "BakaXL traitera votre demande",
+	"Protocol_Content": "BakaXL ouvrira et traitera votre demande. <br /><br /> BakaXL s'ouvrira automatiquement si vous activez la fonction 'Protocole de BakaXL'.<br /> Si 'Protocole de BakaXL' est désactivé, vous devez ouvrir manuellement BakaXL."
+}
