@@ -10,6 +10,8 @@ BakaXL启动器是一款全新的Minecraft崩坏启动器，若要了解更多�
 <h4>目录结构</h4>
 根目录<br />
 &nbsp;&nbsp;&nbsp;&nbsp;|- BakaXL_Software （BakaXL本体语言文件）<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|- 2.0（BakaXL LTS 2.X 版本所使用的的语言词条）<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|- 3.0（BakaXL 3.0 所使用的的语言词条)<br />
 &nbsp;&nbsp;&nbsp;&nbsp;|- BakaXL_Website （BakaXL官网语言文件）<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|- Image （BakaXL官网图片所使用的语言文本）<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|- Text （BakaXL官网所使用的语言文本)<br />
