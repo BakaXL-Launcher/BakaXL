@@ -1,0 +1,398 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <sys:String x:Key="BakaPublicTitle">BakaXL - Minecraft Launcher</sys:String>
+    <sys:String x:Key="MainWelcome">Welcome</sys:String>
+    <sys:String x:Key="SetLanguage">Set your Language</sys:String>
+
+    <sys:String x:Key="Button_OK">OK</sys:String>
+    <sys:String x:Key="Button_No">No</sys:String>
+    <sys:String x:Key="Button_Restart">Restart</sys:String>
+    <sys:String x:Key="Button_NextStep">Next</sys:String>
+    <sys:String x:Key="Button_Back">Back</sys:String>
+    <sys:String x:Key="Button_Checking">Checking...</sys:String>
+    <sys:String x:Key="Button_Finish">Finish</sys:String>
+
+    <sys:String x:Key="Communication">Connecting to BakaXL Server</sys:String>
+
+    <sys:String x:Key="Lang_Title">Change BakaXL Display Language</sys:String>
+    <sys:String x:Key="Lang_JoinTranslate">Join the 'BakaXL Translate Project' today at http://www.BakaXL.com/Language/</sys:String>
+    <sys:String x:Key="Lang_Watermark">Choose a Language</sys:String>
+    <sys:String x:Key="Lang_Tips">After selecting your language, BakaXL will change the display language automatically.</sys:String>
+
+    <sys:String x:Key="Home_Hello">Hi</sys:String>
+    <sys:String x:Key="Home_MainMenu">BakaXL Main Menu</sys:String>
+    <sys:String x:Key="Home_Theme">Theme</sys:String>
+    <sys:String x:Key="Home_SelectCore">Core</sys:String>
+    <sys:String x:Key="Home_Website">Website</sys:String>
+    <sys:String x:Key="Home_MailBox">Mailbox</sys:String>
+    <sys:String x:Key="Home_NewFeature">New Feature</sys:String>
+    <sys:String x:Key="Home_EShop">E-Shop</sys:String>
+    <sys:String x:Key="Home_Settings">Settings</sys:String>
+    <sys:String x:Key="Home_AuthMode">Authentication Mode</sys:String>
+    <sys:String x:Key="Home_Launch">Launch Game</sys:String>
+    <sys:String x:Key="Home_ServerMotd">Server's Motd</sys:String>
+    <sys:String x:Key="Home_TapToSee">Tap to see</sys:String>
+    <sys:String x:Key="Home_CoreTools">ModPack Tools</sys:String>
+    <sys:String x:Key="Home_ThemePunlic">Personalization</sys:String>
+    <sys:String x:Key="Home_BakaPlaza">Baka Plaza</sys:String>
+    <sys:String x:Key="Home_Tips">BakaXL Tips!</sys:String>
+    <sys:String x:Key="Home_PluginManagement">Plugins</sys:String>
+    <sys:String x:Key="Home_Achievement">Achievement</sys:String>
+
+    <sys:String x:Key="AuthMode_Online">Online</sys:String>
+    <sys:String x:Key="AuthMode_Offline">Offline</sys:String>
+
+    <sys:String x:Key="BakaCrasher_MainTitle">Oops!BakaXL has something wrong!</sys:String>
+    <sys:String x:Key="BakaCrasher_Tips">Sorry, something caused BakaXL crash and restart.We are sorry about that.</sys:String>
+    <sys:String x:Key="BakaCrasher_ErrInfo">Crash Report</sys:String>
+    <sys:String x:Key="BakaCrasher_GenScTips">Report</sys:String>
+    <sys:String x:Key="BakaCrasher_GenScButton">Screenshot</sys:String>
+    <sys:String x:Key="BakaCrasher_BackTips">Back to Home</sys:String>
+    <sys:String x:Key="BakaCrasher_Report">Report</sys:String>
+    <sys:String x:Key="BakaCrasher_UnderTips">If you wish to help us fix the problem, click Report button.</sys:String>
+
+    <sys:String x:Key="FirstScreen_Loading">Preparing...</sys:String>
+
+    <sys:String x:Key="SetUpGuide_Loading">Preparing BakaXL...</sys:String>
+    <sys:String x:Key="SetUpGuide_Loading_1">Creating Config File...</sys:String>
+    <sys:String x:Key="SetUpGuide_Loading_2">BakaXL Body Check...</sys:String>
+    <sys:String x:Key="SetUpGuide_Loading_3">Waiting...</sys:String>
+    <sys:String x:Key="SetUpGuide_Loading_4">Preparing: BakaPlaza...</sys:String>
+    <sys:String x:Key="SetUpGuide_Loading_5">Preparing: Resource Management System...</sys:String>
+    <sys:String x:Key="SetUpGuide_Loading_6">Preparing: Settings...</sys:String>
+    <sys:String x:Key="SetUpGuide_Loading_7">Preparing: Game Launch System...</sys:String>
+    <sys:String x:Key="SetUpGuide_Loading_8">Finished!</sys:String>
+
+    <sys:String x:Key="SetUpGuide_MainSetup_Title">Hi there!</sys:String>
+    <sys:String x:Key="SetUpGuide_MainSetup_Tips">We need some information to launch Minecraft.</sys:String>
+
+    <sys:String x:Key="SetUpGuide_Region_Title">Display Language</sys:String>
+    <sys:String x:Key="SetUpGuide_Region_DisplayLang">Language</sys:String>
+    <sys:String x:Key="SetUpGuide_Region_Tips">BakaXL will change the display language automatically.</sys:String>
+
+    <sys:String x:Key="SetUpGuide_Welcome_Title">Welcome to BakaXL!</sys:String>
+    <sys:String x:Key="SetUpGuide_Welcome_NotCurrentUser">I'm not</sys:String>
+
+    <sys:String x:Key="SetUpGuide_Welcome_Whoareyou">So, who are you?</sys:String>
+
+    <sys:String x:Key="SetUpGuide_Username_Title">Minecraft Username</sys:String>
+    <sys:String x:Key="SetUpGuide_Username_Tips">English and numbers only</sys:String>
+    <sys:String x:Key="SetUpGuide_Username_Call">Username</sys:String>
+    <sys:String x:Key="SetUpGuide_Username_MojangAccount">I have a Mojang Account</sys:String>
+    <sys:String x:Key="SetUpGuide_Username_UnderTips">You can change your Username in settings any time.</sys:String>
+
+    <sys:String x:Key="SetUpGuide_Mojang_Title">Login to Mojang Account</sys:String>
+    <sys:String x:Key="SetUpGuide_Mojang_Tip">Enter your Mojang Account, BakaXL will encrypt these information.</sys:String>
+    <sys:String x:Key="SetUpGuide_Mojang_Watermark_Email">E-mail</sys:String>
+    <sys:String x:Key="SetUpGuide_Mojang_Watermark_Password">Password</sys:String>
+    <sys:String x:Key="SetUpGuide_Mojang_ForgetPassword">Forget password?</sys:String>
+    <sys:String x:Key="SetUpGuide_Mojang_BuyMinecraft">Buy Minecraft</sys:String>
+    <sys:String x:Key="SetUpGuide_Mojang_NoAccount">I don't have a Mojang Account</sys:String>
+
+    <sys:String x:Key="SetUpGuide_Protocol_Title">BakaXL Protocol</sys:String>
+    <sys:String x:Key="SetUpGuide_Protocol_Desc">BakaXL protocol can let you launch BakaXL via browser.</sys:String>
+    <sys:String x:Key="SetUpGuide_Protocol_Switch">Open Protocol (Recommend,UAC required.)</sys:String>
+    <sys:String xml:space="preserve" x:Key="SetUpGuide_Protocol_Switch_Tips">Use BakaXL Protocol can let you open the launcher via web page.&#x000A;Need Administrator user permission, notice your anti-virus software.</sys:String>
+    <sys:String x:Key="SetUpGuide_Protocol_Ani_Web_Button">Open BakaXL</sys:String>
+    <sys:String x:Key="SetUpGuide_Protocol_Ani_BakaXL_Tips">Browse in BakaPlaza, or Launch the Minecraft.</sys:String>
+
+    <sys:String x:Key="SetUpGuide_QuickSet_Title">Quick Setting</sys:String>
+    <sys:String x:Key="SetUpGuide_QuickSet_Tips">You can change your setting atanytime.Using quick setting will:</sys:String>
+    <sys:String x:Key="SetUpGuide_QuickSet_Username_1">Use your Username:</sys:String>
+    <sys:String xml:space="preserve" x:Key="SetUpGuide_QuickSet_Username_Online">and launch online.</sys:String>
+    <sys:String xml:space="preserve" x:Key="SetUpGuide_QuickSet_Username_Offline">and launch offline.</sys:String>
+    <sys:String xml:space="preserve" x:Key="SetUpGuide_QuickSet_Settings">Find java path and set the memory that suits your device.&#xD;&#xA;Turn on the background music for better experiance.&#xD;&#xA;Minimize BakaXL when minecraft is launched.&#xD;&#xA;&#xD;&#xA;Automatically download missing Assets and Libraries.&#xD;&#xA;Speed up Chinese users'download speed by using third-party servers.&#xD;&#xA;&#xD;&#xA;Automatically load all installed plugins (not all third-party plugins are safe)&#xD;&#xA;Allow BakaPlaza to access your location (Like City)&#xD;&#xA;&#xD;&#xA;Send crash report to help us make it better.</sys:String>
+    <sys:String x:Key="SetUpGuide_QuickSet_MoreInfo">Learn more</sys:String>
+    <sys:String x:Key="SetUpGuide_QuickSet_Button_QuickSet">Quick Setting</sys:String>
+    <sys:String x:Key="SetUpGuide_QuickSet_Button_Manual">Customize</sys:String>
+
+    <sys:String x:Key="SetUpGuide_Tema_Title">Customize BakaXL</sys:String>
+    <sys:String x:Key="SetUpGuide_Tema_Tips">Custom your BakaXL background and color</sys:String>
+    <sys:String x:Key="SetUpGuide_Tema_Tips_Under">Your wallpapers will not be uploaded or published in any way.</sys:String>
+
+    <sys:String x:Key="SetUpGuide_SystemInfo_Title">System Settings</sys:String>
+    <sys:String x:Key="SetUpGuide_SystemInfo_Tips">Here are some system settings that are required to start the Minecraft.</sys:String>
+    <sys:String x:Key="SetUpGuide_SystemInfo_Java">Java Path</sys:String>
+    <sys:String x:Key="SetUpGuide_SystemInfo_Memory">Memory</sys:String>
+    <sys:String x:Key="SetUpGuide_SystemInfo_JavaTips">Visit http://www.Java.com Download Java, BakaXL does not support Java6.</sys:String>
+
+    <sys:String x:Key="SetUpGuide_Finish_Title">Everything is ready</sys:String>
+    <sys:String x:Key="SetUpGuide_Finish_Tips">Your settings have been saved now, but you can come back and change it anytime.</sys:String>
+    <sys:String x:Key="SetUpGuide_Finish_UpderTips">Thank you for choosing BakaXL Launcher, your support is very important to us</sys:String>
+    <sys:String x:Key="SetUpGuide_Finish_ButtonTips">Press the 'Finish' button to return to the main menu</sys:String>
+
+    <sys:String x:Key="PlayerInfoFlyout_Title">Personal Information</sys:String>
+    <sys:String x:Key="PlayerInfoFlyout_Thx">Thank you for choosing BakaXL</sys:String>
+    <sys:String x:Key="PlayerInfoFlyout_Tucao">Report</sys:String>
+    <sys:String x:Key="PlayerInfoFlyout_Hi">Hi!</sys:String>
+    <sys:String x:Key="PlayerInfoFlyout_Memory">Memory</sys:String>
+    <sys:String x:Key="PlayerInfoFlyout_AutoMemory">Auto memory</sys:String>
+    <sys:String x:Key="PlayerInfoFlyout_UseOnline">Online mode</sys:String>
+    <sys:String x:Key="PlayerInfoFlyout_UseOnlineTips">You need setup your Mojang Account&#x000A;at Setting Panel</sys:String>
+    <sys:String x:Key="PlayerInfoFlyout_AutoJoin">Auto join server</sys:String>
+    <sys:String x:Key="PlayerInfoFlyout_AutoJoinTips">You need setup the Server IP Address&#x000A;at Setting Panel</sys:String>
+    <sys:String x:Key="PlayerInfoFlyout_MoreSettings">Visit setting panel for more settings</sys:String>
+
+    <sys:String x:Key="ErrorFlyout_Title">Oops!Something Error!</sys:String>
+
+    <sys:String x:Key="DownloadManagement_Title">BakaXL Download Management</sys:String>
+    <sys:String x:Key="DownloadManagement_NoFile">Nothing need to Download</sys:String>
+    <sys:String x:Key="DownloadManagement_NoFileTips">No Download</sys:String>
+    <sys:String x:Key="DownloadManagement_Tips_1">BakaXL will automatically start download when you need it.</sys:String>
+    <sys:String x:Key="DownloadManagement_Tips_2">Just keep your Internet communication and wait :)</sys:String>
+    <sys:String x:Key="DownloadManagement_HaveFile_1">Have</sys:String>
+    <sys:String x:Key="DownloadManagement_HaveFile_2">Files in the list</sys:String>
+    <sys:String x:Key="DownloadManagement_Downloading">Downloading</sys:String>
+    <sys:String x:Key="DownloadManagement_Finish">Finished</sys:String>
+    <sys:String x:Key="DownloadManagement_Failed">Failed</sys:String>
+
+    <sys:String x:Key="DownloadHelper_Failed">Failed -</sys:String>
+    <sys:String x:Key="DownloadHelper_UnPack">Extracting Files</sys:String>
+    <sys:String x:Key="DownloadHelper_Finish">Done</sys:String>
+    <sys:String x:Key="DownloadHelper_UnPackFailed">Extract Failed:</sys:String>
+    <sys:String x:Key="DownloadHelper_UnPackFailed_1">Extract Failed:Can't release file.</sys:String>
+    <sys:String x:Key="DownloadHelper_UnPackFailed_2">Extract Failed:Can't release file, Check your Java settings.</sys:String>
+    <sys:String x:Key="DownloadHelper_Downloading">Downloading</sys:String>
+    <sys:String x:Key="DownloadHelper_Waiting">Waiting</sys:String>
+
+    <sys:String x:Key="DownloadHelper_Download_Err">Some files were not been downloaded, BakaXL will try again in next start</sys:String>
+    <sys:String x:Key="DownloadHelper_Download_Fin">Download Complete! Click 'Back' to Home</sys:String>
+
+    <sys:String x:Key="UpdateAlaert_Title">BakaXL have new version</sys:String>
+    <sys:String x:Key="UpdateAlaert_Title_Back">for download!</sys:String>
+    <sys:String x:Key="UpdateAlaert_Content">Features and stability fixes will coming up in the update, Please update BakaXL to the latest version. Update process will not take too long. Need Internet access or cellular network, additional fees and terms may apply.</sys:String>
+    <sys:String x:Key="UpdateAlaert_Button_Update">Update</sys:String>
+    <sys:String x:Key="UpdateAlaert_Button_OrUpdate">Or Update</sys:String>
+
+    <sys:String x:Key="Update_Type_BakaXLUpdate">BakaXL Update</sys:String>
+    <sys:String x:Key="Update_Type_Assets">Minecraft Assets</sys:String>
+    <sys:String x:Key="Update_Type_Assets_Tips">Minecraft Assets, including Languages and Sound files.</sys:String>
+    <sys:String x:Key="Update_Type_Libraries">Minecraft Libraries</sys:String>
+    <sys:String x:Key="Update_Type_Libraries_Tips">Minecraft Libraries, Game cannot launch with out these files.</sys:String>
+
+    <sys:String x:Key="Update_Title">BakaXL Update System</sys:String>
+    <sys:String x:Key="Update_Tips_Internet">Keep Internet Connection</sys:String>
+    <sys:String x:Key="Update_Tips_ConnFailed">Connect Failed</sys:String>
+    <sys:String x:Key="Update_Tips_NoClose">Don't Close BakaXL</sys:String>
+    <sys:String x:Key="Update_Tips_Finish">Restart BakaXL Now</sys:String>
+    <sys:String x:Key="Update_Tips_UpdateFailed">Update Failed</sys:String>
+
+    <sys:String x:Key="Update_Download_Err">Download Failed! Check your Internet connection.</sys:String>
+    <sys:String x:Key="Update_Download_Fin">Download Successful, BakaXL will restart automatically.</sys:String>
+
+    <sys:String x:Key="Update_Connecting">Connecting to BakaXL Update Server</sys:String>
+
+    <sys:String x:Key="Update_CannotUpdate">BakaXL Can't Update Now</sys:String>
+    <sys:String x:Key="Update_CannotUpdate_Tips_1">Error: Cannot connect to BakaXL Server, Try Again.</sys:String>
+    <sys:String x:Key="Update_CannotUpdate_Tips_2">Check Internet connection or Visit our website for more details.</sys:String>
+
+    <sys:String x:Key="Update_FileSize">Size</sys:String>
+    <sys:String x:Key="Update_DownloadingTips">Downloading the files</sys:String>
+    <sys:String x:Key="Update_NoShutdownTips">Do not close BakaXL or move any files from BakaXL</sys:String>
+    <sys:String x:Key="Update_BMCL">Using BMCLAPI Download Service</sys:String>
+    <sys:String x:Key="Update_BMCLTips">BMCLAPI can speed up the user in China's download speeds.Click here to open author bangbang93's Weibo.</sys:String>
+    <sys:String x:Key="Update_Detail">Details</sys:String>
+    <sys:String x:Key="Update_Detail_UnderTips">BakaXL will notice you when finished.</sys:String>
+
+    <sys:String x:Key="Updating_Installing">Installing the Update</sys:String>
+    <sys:String x:Key="Updating_Installing_Tips">Please sit back and relax</sys:String>
+    <sys:String x:Key="Updating_Finish">Update Finished</sys:String>
+    <sys:String x:Key="Updating_Finish_Tips">Update is finished, please restart the BakaXL.</sys:String>
+    <sys:String x:Key="Updating_UnderTips_Restart">Click 'Restart' button to restart</sys:String>
+    <sys:String x:Key="Updating_Failed">Update Failed</sys:String>
+    <sys:String x:Key="Updating_Failed_Tips">Unexpected error cause BakaXL fail to update.</sys:String>
+    <sys:String x:Key="Updating_UnderTips_FailedRestart">Check your Anti-Virus Software and try again.</sys:String>
+
+    <sys:String x:Key="Plugins_Title">BakaXL Plugins</sys:String>
+    <sys:String x:Key="Plugins_Tips">Manage the plugin that install in BakaXL</sys:String>
+    <sys:String x:Key="Plugins_NoPlugin">No Plugins</sys:String>
+    <sys:String x:Key="Plugins_AllView_Title">All Plugins Detail</sys:String>
+    <sys:String x:Key="Plugins_AllView_Install_1">Installed:</sys:String>
+    <sys:String xml:space="preserve" x:Key="Plugins_AllView_Install_2"> Plugins</sys:String>
+    <sys:String x:Key="Plugins_AllView_Size">Size:</sys:String>
+
+    <sys:String x:Key="Core_Title">Core</sys:String>
+    <sys:String x:Key="Core_Tips">Choose the core that you need to launch</sys:String>
+    <sys:String x:Key="Core_NoChoose">No Choose</sys:String>
+    <sys:String x:Key="Core_NoChoose_NoCore">There're not any core in '.minecraft/versions' Folder!</sys:String>
+    <sys:String x:Key="Core_NoChoose_NeedCore">Choose a core you want to launch!</sys:String>
+    <sys:String x:Key="Core_RunningTime">You've Played</sys:String>
+    <sys:String x:Key="Core_RunningTime_Minute">Min</sys:String>
+    <sys:String x:Key="Core_RunningTime_Hour">Hr</sys:String>
+    <sys:String x:Key="Core_Choosed">Now</sys:String>
+
+    <sys:String x:Key="Core_Button_Choose">Choose</sys:String>
+    <sys:String x:Key="Core_Button_Choose_Tips">Use this core to launch game</sys:String>
+    <sys:String x:Key="Core_Button_AdvCore">Core Settings</sys:String>
+    <sys:String x:Key="Core_Button_AdvCore_Tips">Core detail management</sys:String>
+    <sys:String x:Key="Core_Button_Screenshot">Screenshots</sys:String>
+    <sys:String x:Key="Core_Button_Screenshot_Tips">View your screenshots</sys:String>
+
+    <sys:String x:Key="Plugins_PluginsBox_RightClick_1">Delete</sys:String>
+    <sys:String x:Key="Plugins_PluginsBox_RightClick_2">Refresh</sys:String>
+    <sys:String x:Key="Plugins_PluginsBox_RightClick_3">Open folder</sys:String>
+    <sys:String x:Key="Plugins_PluginsBox_RightClick_4">Get more Plugins</sys:String>
+
+    <sys:String x:Key="Tile_GameRunning">Running...</sys:String>
+    <sys:String x:Key="Tile_NoID">No Game ID</sys:String>
+
+    <sys:String x:Key="Settings_Title">BakaXL Settings</sys:String>
+    <sys:String x:Key="Settings_Tips">Tab to set</sys:String>
+
+    <sys:String xml:space="preserve" x:Key="Settings_HelpTips">Tap the Tile to open the settings panel.&#xD;&#xA;BakaXL Configuration will save automatically.</sys:String>
+    <sys:String xml:space="preserve" x:Key="Settings_HelpTips_SideAni">· BakaXL Settings&#xA;&#xA;· Nyanyanyanyan</sys:String>
+
+    <sys:String x:Key="Settings_PlayerSettings">Player Information</sys:String>
+    <sys:String x:Key="Settings_PlayerSettings_Tab">Player Information</sys:String>
+    <sys:String xml:space="preserve" x:Key="Settings_PlayerSettings_Tips">· Change your GameID&#xD;&#xA;&#xD;&#xA;· Login your Mojang Account&#xD;&#xA;&#xD;&#xA;· Change the login mode</sys:String>
+    <sys:String x:Key="Settings_PlayerSettings_GameID">Game ID</sys:String>
+    <sys:String x:Key="Settings_PlayerSettings_MojangEmail">Mojang Email</sys:String>
+    <sys:String x:Key="Settings_PlayerSettings_MojangPassword">Password</sys:String>
+    <sys:String x:Key="Settings_PlayerSettings_Mode">Mojang Account</sys:String>
+    <sys:String x:Key="Settings_PlayerSettings_ModeST">Game launch mode</sys:String>
+    <sys:String x:Key="Settings_PlayerSettings_ModeTips">Use offline mode if you don't purchase Minecraft.</sys:String>
+
+    <sys:String x:Key="Settings_SystemSettings">System Information</sys:String>
+    <sys:String x:Key="Settings_SystemSettings_Tab">System</sys:String>
+    <sys:String xml:space="preserve" x:Key="Settings_SystemSettings_Tips">· Background Music&#xD;&#xA;&#xD;&#xA;· Minecraft running Memory&#xD;&#xA;&#xD;&#xA;· Choose your Java path&#xD;&#xA;&#xD;&#xA;· Choose the way game start</sys:String>
+    <sys:String x:Key="Settings_SystemSettings_Memory">Memory</sys:String>
+    <sys:String x:Key="Settings_SystemSettings_AutoMemory">Auto Memory</sys:String>
+    <sys:String x:Key="Settings_SystemSettings_JavaPath">Java Path</sys:String>
+    <sys:String x:Key="Settings_SystemSettings_AutoJava">Auto</sys:String>
+    <sys:String x:Key="Settings_SystemSettings_ManualJava">Manual</sys:String>
+    <sys:String x:Key="Settings_SystemSettings_BGM">BakaXL Music</sys:String>
+    <sys:String x:Key="Settings_SystemSettings_CloseAfterLaunch">Exit when game launched(Not recommended)</sys:String>
+    <sys:String x:Key="Settings_SystemSettings_CloseAfterLaunch_Tip">Not recommended option,it will disable the Game Protection Function.</sys:String>
+    <sys:String x:Key="Settings_SystemSettings_BGMTip">Control the Background music of BakaXL</sys:String>
+    <sys:String x:Key="Settings_SystemSettings_StopBGMLF">Stop music when window lost focus</sys:String>
+    <sys:String x:Key="Settings_SystemSettings_StopBGMLF_Tips">Background music will automatically stop when you not using BakaXL.</sys:String>
+    <sys:String x:Key="Settings_SystemSettings_Debug">Capture Game Output Message&amp;Analyze</sys:String>
+    <sys:String x:Key="Settings_SystemSettings_Debug_Tips">Use to capture game output message.If the game not responding during loading, please disable this function.</sys:String>
+
+    <sys:String x:Key="Settings_AdvanceSettings">Advanced Settings</sys:String>
+    <sys:String x:Key="Settings_AdvanceSettings_Tab">Advanced</sys:String>
+    <sys:String xml:space="preserve" x:Key="Settings_AdvanceSettings_Tips">· Auto join server&#xD;&#xA;&#xD;&#xA;· JVM Args&#xD;&#xA;&#xD;&#xA;· DEBUG Mode</sys:String>
+    <sys:String x:Key="Settings_AdvanceSettings_ForceExit">Force Exit</sys:String>
+    <sys:String x:Key="Settings_AdvanceSettings_AutoJoin">Auto join server</sys:String>
+    <sys:String x:Key="Settings_AdvanceSettings_GameTitle">Game Title</sys:String>
+    <sys:String x:Key="Settings_AdvanceSettings_AutoJoinIP">Server IP</sys:String>
+    <sys:String x:Key="Settings_AdvanceSettings_JvmArg">JVM Args</sys:String>
+    <sys:String x:Key="Settings_AdvanceSettings_JvmArgTips">Keep empty if you don't want to use this function.</sys:String>
+    <sys:String x:Key="Settings_AdvanceSettings_AutoFix">Automatically download missing Assets and Libraries.</sys:String>
+    <sys:String x:Key="Settings_AdvanceSettings_ScrollValue">Scroll Value</sys:String>
+
+    <sys:String x:Key="Settings_PlazaSettings">Baka Plaza</sys:String>
+    <sys:String x:Key="Settings_PlazaSettings_Tab">BakaPlaza</sys:String>
+    <sys:String xml:space="preserve" x:Key="Settings_PlazaSettings_Tips">· Baka Plaza Notification&#xD;&#xA;&#xD;&#xA;· Auto Update Resources&#xD;&#xA;&#xD;&#xA;· Choose Baka Plaza Region</sys:String>
+    <sys:String x:Key="Settings_PlazaSettings_SaveData">Save Data Mode</sys:String>
+    <sys:String x:Key="Settings_PlazaSettings_SaveDataTips">Baka Plaza will reduce video quality</sys:String>
+    <sys:String x:Key="Settings_PlazaSettings_SaveDataBacText">Data</sys:String>
+    <sys:String x:Key="Settings_PlazaSettings_ChildrenProtect">Parental Controls</sys:String>
+    <sys:String x:Key="Settings_PlazaSettings_NoModUpdate">Don't check update for Mods</sys:String>
+    <sys:String x:Key="Settings_PlazaSettings_DownloadSpeedUp">Speed up Mainland China download speed</sys:String>
+
+    <sys:String x:Key="Settings_BakaInfo">About</sys:String>
+
+    <sys:String x:Key="Settings_HomeDispay_NoUsernameTitle">Username</sys:String>
+    <sys:String x:Key="Settings_HomeDispay_NoUsernameContent">Please setting your Username.</sys:String>
+    <sys:String x:Key="Settings_HomeDispay_NoAuthModeTitle">Authentication Mode</sys:String>
+    <sys:String x:Key="Settings_HomeDispay_NoAuthModeContent">Please setting your Authentication Mode</sys:String>
+    <sys:String x:Key="Settings_HomeDispay_NoScrollTitle">Scroll Value</sys:String>
+    <sys:String x:Key="Settings_HomeDispay_NoScrollContent">You can change the Scroll Value now.</sys:String>
+    <sys:String x:Key="Settings_HomeDispay_NoMemoryTitle">Memory</sys:String>
+    <sys:String x:Key="Settings_HomeDispay_NoMemoryContent">Setting your memory in 'System Infomation'.</sys:String>
+    <sys:String x:Key="Settings_HomeDispay_NoJavaTitle">Java Path</sys:String>
+    <sys:String x:Key="Settings_HomeDispay_NoJavaContent">Setting your Java Path in 'System Infomation'.</sys:String>
+    <sys:String x:Key="Settings_HomeDispay_MusicErrorTitle">Music System</sys:String>
+    <sys:String x:Key="Settings_HomeDispay_MusicErrorContent">Your system don't have Windows Media Player!</sys:String>
+
+    <sys:String x:Key="Tema_Title">Personalization</sys:String>
+    <sys:String x:Key="Tema_L_Title">Custom your BakaXL background and color</sys:String>
+    <sys:String x:Key="Tema_NightMode">Dark Mode</sys:String>
+    <sys:String x:Key="Tema_ChooseColor">Choose your color</sys:String>
+    <sys:String x:Key="Tema_CustomImage">Browse...</sys:String>
+    <sys:String x:Key="Tema_Default">Default</sys:String>
+    <sys:String x:Key="Tema_TemaAuthor_Title">Skin Author</sys:String>
+    <sys:String x:Key="Tema_TemaDescription_Title">Description</sys:String>
+    <sys:String x:Key="Tema_TemaDescription_Default">Oops!Nothing here!</sys:String>
+    <!--没有主题时的提示内容-->
+    <sys:String x:Key="Tema_TemaListTitle_NoTema">It's Empty Here!</sys:String>
+    <sys:String x:Key="Tema_TemaListTips_NoTema">Why not try BakaXL Skin System?</sys:String>
+    <sys:String x:Key="Tema_TemaListTips_Under_NoTema">Drag BakaXL Skin File to here or copy to 'BakaXL\Tema' folder.</sys:String>
+    <!--拖入主题时的提示内容-->
+    <sys:String x:Key="Tema_TemaListTitle_Drag">Drop to add</sys:String>
+    <sys:String x:Key="Tema_TemaListTips_Drag">Drop the BakaXL Skin File to use.</sys:String>
+    <sys:String x:Key="Tema_TemaListTips_Under_Drag">Your BakaXL Skin will add to 'BakaXL\\Tema' folder.</sys:String>
+    <!--处理主题时的提示内容-->
+    <sys:String x:Key="Tema_TemaListTitle_Unpack">That's Incredible!</sys:String>
+    <sys:String x:Key="Tema_TemaListTips_Unpack">BakaXL is loading your Skin File now.</sys:String>
+    <sys:String x:Key="Tema_TemaListTips_Under_Unpack">Your skin will be add soon.</sys:String>
+    <!--文件不合法时的提示内容-->
+    <sys:String x:Key="Tema_TemaListTitle_NotTemaFile">It's not funny.</sys:String>
+    <sys:String x:Key="Tema_TemaListTips_NotTemaFile">It looks like you drag the wrong file.</sys:String>
+    <sys:String x:Key="Tema_TemaListTips_Under_NotTemaFile">Drag BakaXL Skin File to here ONLY. Now refreshing the Skin list.</sys:String>
+    <!--BakaXL默认主题的名称与介绍-->
+    <sys:String x:Key="Tema_BakaXL_Default">BakaXL Default</sys:String>
+    <sys:String x:Key="Tema_BakaXL_Default_Description">The Default Theme for BakaXL.</sys:String>
+    <!--背景图片选择-->
+    <sys:String x:Key="Tema_CustomImage_Title">Choose your Background Image</sys:String>
+    <sys:String x:Key="Tema_CustomImage_Filter">Image File</sys:String>
+    <!--主题读取失败-->
+    <sys:String x:Key="Tema_LoadTema_Error_Title">Skin Pack Infomation Error!</sys:String>
+    <sys:String x:Key="Tema_LoadTema_Error_Description">We cannot load this Skin Pack, maybe it's damaged. Try Refresh.</sys:String>
+    <!--主题右键列表-->
+    <sys:String x:Key="Tema_TemaBox_RightClick_1">Delete Skin</sys:String>
+    <sys:String x:Key="Tema_TemaBox_RightClick_2">Refresh List</sys:String>
+    <sys:String x:Key="Tema_TemaBox_RightClick_3">Open Skin Folder</sys:String>
+    <sys:String x:Key="Tema_TemaBox_RightClick_4">Get more Skin</sys:String>
+
+    <sys:String x:Key="Color_Red">Red</sys:String>
+    <sys:String x:Key="Color_Green">Green</sys:String>
+    <sys:String x:Key="Color_Blue">Blue</sys:String>
+    <sys:String x:Key="Color_Purple">Purple</sys:String>
+    <sys:String x:Key="Color_Orange">Orange</sys:String>
+    <sys:String x:Key="Color_Lime">Lime</sys:String>
+    <sys:String x:Key="Color_Emerald">Emerald</sys:String>
+    <sys:String x:Key="Color_Teal">Teal</sys:String>
+    <sys:String x:Key="Color_Cyan">Cyan</sys:String>
+    <sys:String x:Key="Color_Cobalt">Cobalt</sys:String>
+    <sys:String x:Key="Color_Indigo">Indigo</sys:String>
+    <sys:String x:Key="Color_Violet">Violet</sys:String>
+    <sys:String x:Key="Color_Pink">Pink</sys:String>
+    <sys:String x:Key="Color_Magenta">Magenta</sys:String>
+    <sys:String x:Key="Color_Crimson">Crimson</sys:String>
+    <sys:String x:Key="Color_Amber">Amber</sys:String>
+    <sys:String x:Key="Color_Yellow">Yellow</sys:String>
+    <sys:String x:Key="Color_Brown">Brown</sys:String>
+    <sys:String x:Key="Color_Olive">Olive</sys:String>
+    <sys:String x:Key="Color_Steel">Steel</sys:String>
+    <sys:String x:Key="Color_Mauve">Mauve</sys:String>
+    <sys:String x:Key="Color_Taupe">Taupe</sys:String>
+    <sys:String x:Key="Color_Sienna">Sienna</sys:String>
+
+    <!--<sys:String xml:space="preserve" x:Key="CoreTools_HomeText">BakaXL ModPack&#xD;&#xA;Import/Export</sys:String>-->
+    <sys:String x:Key="HomeMenu_Title">BakaXL / Home Menu</sys:String>
+    <sys:String x:Key="HomeMenu_PauseTitle">Suspended Software</sys:String>
+    <sys:String x:Key="HomeMenu_PauseTips">Press the HOME Button to continue</sys:String>
+    <sys:String x:Key="HomeMenu_Btn_Close">Close and return to Main Menu</sys:String>
+    <sys:String x:Key="HomeMenu_PauseCheckTitle_Front">Now Closing:</sys:String>
+    <sys:String x:Key="HomeMenu_PauseCheckTips">Confirm?</sys:String>
+    <sys:String x:Key="HomeMenu_CloseTips">Any unsaved progress will be losing</sys:String>
+    <sys:String x:Key="HomeMenu_Btn_Confirm">Confirm</sys:String>
+    <sys:String x:Key="HomeMenu_Btn_Closed">Closed</sys:String>
+
+    <sys:String x:Key="UpdateSettings_UpdateFinish">Update Finished</sys:String>
+    <sys:String x:Key="UpdateSettings_SubTitle">BakaXL has been successfully update</sys:String>
+    <sys:String x:Key="UpdateSettings_Tips">Need to set up some new feature before you use</sys:String>
+
+    <sys:String x:Key="PlazaAlaert_Title">BakaPlaza Request to show content in Simplified Chinese</sys:String>
+    <sys:String x:Key="PlazaAlaert_Content">Before we provide services in your language, BakaPlaza is only able to show content in "Simplified Chinese (China)"</sys:String>
+
+    <sys:String x:Key="PluginAlaert_Title">wants to open</sys:String>
+    <sys:String x:Key="PluginAlaert_Content">When BakaXL Plugin needs to access build-in app in BakaXL, you will receive this notification. BakaXL can't ensure that the third-party add-ons are safe.</sys:String>
+
+    <sys:String x:Key="BuildInAppAlaert_Content">You will receive this notification when BakaXL wants to use another build-in app. To continue, you might lost all the things you are working on.</sys:String>
+
+</ResourceDictionary>
