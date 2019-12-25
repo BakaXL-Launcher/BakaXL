@@ -2,9 +2,9 @@
 <Languages>
 	<Type>
 		<Key>zh_HK</Key>
-		<Name>粵語 (中國香港、澳門、廣東地區)</Name>
+		<Name>粵語 (中國廣東、香港、澳門)</Name>
 	</Type>
-	<Language Key="zh_CN">
+	<Language Key="zh_HK">
 		<Items>
 			<Item Key="BakaXLTitle">BakaXL - Minecraft 启动器</Item>
 			
