@@ -2,9 +2,9 @@
 <Languages>
 	<Type>
 		<Key>zh_TW</Key>
-		<Name>繁体中文 (中国台湾)</Name>
+		<Name>正體中文 (中國台灣)</Name>
 	</Type>
-	<Language Key="zh_CN">
+	<Language Key="zh_TW">
 		<Items>
 			<Item Key="BakaXLTitle">BakaXL - Minecraft 启动器</Item>
 			
