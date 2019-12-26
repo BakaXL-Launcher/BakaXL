@@ -1,4 +1,4 @@
-#BakaXL异域计划
+<h2>BakaXL异域计划</h2>
 
 <h4>介绍</h4>
 为BakaXL带来多国语言吧！
@@ -18,15 +18,16 @@ BakaXL启动器是一款全新的Minecraft崩坏启动器，若要了解更多�
 
 
 <h4>目前提供的语言条目文件</h4> 
-zh-CN.xaml 简体中文  
-zh-HK.xaml 粤语（繁体中文）  
-zh-TW.xaml 正體中文  
+zh-CN.xaml 简体中文<br />
+zh-HK.xaml 粤语（繁体中文）<br />
+zh-TW.xaml 正體中文<br />
 zh-CC.xaml 文言（文辭雅正，博學淵深）<br />
-en-US.xaml English  
+zh-MC.xaml 焱暒妏 (荢宙)<br />
+en-US.xaml English<br />
 en-ES.xaml español  ##2017.7.28 需要补全词条<br />
 fr-FR.xaml français<br />
 ja-JP.xaml 日本語<br />
-ko-KR.xaml 한국어  ##2017.7.30 需要翻译新增词条
+ko-KR.xaml 한국어  ##2017.7.30 需要翻译新增词条<br />
 
 
 <h4>特别感谢以下翻译官对BakaXL异域计划的支持：</h4>
