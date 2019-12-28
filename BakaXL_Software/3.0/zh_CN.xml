@@ -3,6 +3,7 @@
 	<Type>
 		<Key>zh_CN</Key>
 		<Name>简体中文 (中国)</Name>
+		<Author>BakaXL</Author>
 	</Type>
 	<Language Key="zh_CN">
 		<Items>
@@ -77,7 +78,7 @@
 			<Item Key="LearnMore">了解更多</Item>
 			
 			<Item Key="BakaXL_Update_Title">BakaXL 惊现新版本 {0}</Item>
-			<Item Key="BakaXL_Update_Info">针对此BakaXL预览体验版本的全新更新现已推出，请您更新到最新版本！这个过程将不会耗费太长时间。下载本体更新需要使用互联网连接，在您使用计费互联网连接时可能需要支付网络数据费用。</Item>
+			<Item Key="BakaXL_Update_Info">新版本的BakaXL现已推出，您需要进行本体更新才可以继续使用BakaXL！这个过程将不会耗费太长时间。下载本体更新需要使用互联网连接，在您使用计费互联网连接时可能需要支付网络数据费用。</Item>
 			<Item Key="BakaXL_Update_Btn_Yes">立即更新</Item>
 			<Item Key="BakaXL_Update_Btn_OrYes">或者更新</Item>
 
@@ -122,6 +123,7 @@
 			<Item Key="Setting_Account_Title">账户与档案</Item>
 			<Item Key="Setting_Java_Title">Java虚拟机与内存</Item>
 			<Item Key="Setting_Advance_Title">高级</Item>
+			<Item Key="Setting_Language_Title">语言 / Language</Item>
 			<Item Key="Setting_Network_Title">网络</Item>
 			<Item Key="Setting_Personalize_Title">个性化</Item>
 			<Item Key="Setting_Audio_Title">音频</Item>
@@ -131,7 +133,7 @@
 			<Item Key="Setting_Insider_Title">BakaXL预览体验计划</Item>
 			<Item Key="Setting_About_Title">关于</Item>
 			
-			<Item Key="Setting_Support_Tips">欢迎来到BakaXL 3.0的本体设置评估界面，我们正在努力为BakaXL&#xD;&#xA;添加更多精彩的功能！部分不可用的选项是BakaXL 3.0的新增功能。&#xA;我们正在根据各位的希望调整此界面中的功能。希望您能喜欢！</Item>
+			<Item Key="Setting_Support_Tips">欢迎来到BakaXL本体设置！我们正在努力为BakaXL添加更多精彩的功&#xD;&#xA;能！部分不可用的选项是BakaXL 3.0尚未开发完善的功能。目前，我们正在&#xA;根据各位的需求调整此界面中的功能。希望您能喜欢！</Item>
 			<Item Key="Setting_Support_Website">BakaXL帮助与支持网站</Item>
 			<Item Key="Setting_Support_WebsiteTips">若要了解如何更好的使用BakaXL及其功能，或取得帮助，您可以通过您的&#xD;&#xA;电脑或者智能设备访问BakaXL帮助与支持网站。</Item>
 			<Item Key="Setting_Support_SafeUse">安全使用指引</Item>
@@ -218,7 +220,7 @@
 			<Item Key="Setting_Java_JVM_Title">Java虚拟机</Item>
 			<Item Key="Setting_Java_JVM_Selector">请选择Java版本</Item>
 			<Item Key="Setting_Java_JVM_Tips">为了确保您的游戏体验，请始终选择最佳适配版本的Java。</Item>
-      <Item Key="Settings_SystemSettings_ManualJava">自定义Java</Item>
+			<Item Key="Settings_SystemSettings_ManualJava">自定义Java</Item>
 			
 			<Item Key="Setting_Java_JVM_Advance">Java高级设置</Item>
 			<Item Key="Setting_Java_JVM_Advance_AutoJava">自动寻找Java位置</Item>
@@ -246,6 +248,22 @@
 			<Item Key="Setting_Java_Memory_AdvanceMemory_ManualMemory_AutoMode_Tips">若要手动指定内存大小，则需要关闭“自动内存设置”功能。</Item>
 			<Item Key="Setting_Java_Memory_AdvanceMemory_ManualMemory_Tips">手动分配您希望Minecraft所使用的内存大小。</Item>
 
+			<Item Key="Setting_Language_DisplayLanguage">显示语言 / Display Language</Item>
+			<Item Key="Setting_Language_Translator">翻译官 / Translator</Item>
+			<Item Key="Setting_Language_TranslateProject">BakaXL 异域计划 / BakaXL Localization Project</Item>
+			<Item Key="Setting_Language_TranslationTools">本地化实用工具 / Localization Utilities</Item>
+
+			<Item Key="Setting_Language_Selector_Watermark">选择您所在区域的使用语言</Item>
+			<Item Key="Setting_Language_Selector_Tips">BakaXL可以支持全球多个国家和地区所偏好使用的语言。&#xD;&#xA;而这全都要归功于来自全球各地的BakaXL用户。&#xD;&#xA;在翻译文本经过测试前，无法使用。</Item>
+
+			<Item Key="Setting_Language_JoinLocalization">访问本地化项目主页</Item>
+			<Item Key="Setting_Language_JoinLocalization_Tips">前往BakaXL 异域计划主页，获取最新文本词条，参与翻译官工作。</Item>
+
+			<Item Key="Setting_Language_Utilities_Debugger_Title">临时挂载本地化文本</Item>
+			<Item Key="Setting_Language_Utilities_Debugger_Tips">在本次运行期间将显示语言替换为外部文件所指定的本地化文本。&#xD;&#xA;这将有助于翻译官对翻译文本进行调试。&#xD;&#xA;&#xD;&#xA;若您不知道此选项的作用，请不要使用。</Item>
+			<Item Key="Setting_Language_Utilities_Debugger_Browser_Title">选择一个BakaXL语言文件</Item>
+			<Item Key="Setting_Language_Utilities_Debugger_Browser_Filter">BakaXL语言文件</Item>
+			
 			<Item Key="Setting_Network_Connected">已连接</Item>
 			<Item Key="Setting_Network_Error">连接错误</Item>
 			<Item Key="Setting_Network_MojangError">服务中断</Item>
@@ -283,6 +301,7 @@
 			<Item Key="Setting_Network_Troubleshooting_Tips">若您无法正常连接到Mojang正版验证服务器，&#xD;&#xA;尝试更换一个稳定且不易受污染的DNS服务器通常能解决此问题。&#xA;&#xD;&#xA;若此问题持续出现，请联系您的互联网服务提供商(ISP)，&#xD;&#xA;并确保您的互联网并未遭到劫持。</Item>
 
 			<Item Key="Setting_Advance_AdvLaunch_Title">高级启动</Item>
+			<Item Key="Setting_Advance_AdvLaunch_Warn_1">如果您不确定这些选项的作用，请不要改动这些设置。</Item>
 			<Item Key="Setting_Advance_AdvLaunch_MinecraftTitle">Minecraft窗口标题</Item>
 			<Item Key="Setting_Advance_AdvLaunch_MinecraftTitle_Tips">设置由BakaXL启动的Minecraft窗体标题。&#xD;&#xA;可在标题中使用参数来显示动态内容。&#xD;&#xA;{time}: 显示当前系统时间。</Item>
 			<Item Key="Setting_Advance_AdvLaunch_Args">高级启动参数</Item>
@@ -290,10 +309,16 @@
 			<Item Key="Setting_Advance_AdvLaunch_AutoJoin">启动游戏后自动加入服务器</Item>
 			<Item Key="Setting_Advance_AdvLaunch_AutoJoin_IPBox">输入服务器地址</Item>
 			<Item Key="Setting_Advance_AdvLaunch_AutoJoin_Tips">在Minecraft启动并加载完成后自动加入服务器。</Item>
+			<Item Key="Setting_Advance_AdvLaunch_CheckVersionFolder">预检查游戏核心目录是否存在</Item>
+			<Item Key="Setting_Advance_AdvLaunch_CheckVersionFolder_Tips">在启动游戏前对 .minecraft/versions/&lt;游戏核心&gt; 目录&#xD;&#xA;进行检查，并在无法确认此文件夹存在时取消启动。&#xD;&#xA;&#xD;&#xA;若核心目录存在也无法检测到的极端情况出现时，请关闭此功能。&#xD;&#xA;关闭后，BakaXL将会在无法确认文件夹存在时尝试继续启动，&#xD;&#xA;直至下一次确认核心文件夹的存在。&#xD;&#xA;&#xD;&#xA;可能导致BakaXL在启动游戏时出现异常，甚至是崩溃。&#xD;&#xA;此设置并不会全局同步至计算机中其他BakaXL。</Item>
 			
 			<Item Key="Setting_Advance_AutoFix_Title">自动补全</Item>
 			<Item Key="Setting_Advance_AutoFix_Btn_Title">自动补全资源文件</Item>
 			<Item Key="Setting_Advance_AutoFix_Btn_Tips">在你切换至一个未补全Assets文件的Minecraft版本时提醒你。</Item>
+
+			<Item Key="Setting_Advance_Reset_Title">重置</Item>
+			<Item Key="Setting_Advance_Reset_Btn_Title">恢复默认设置</Item>
+			<Item Key="Setting_Advance_Reset_Btn_Tips">如果您觉得您搞砸了，可恢复所有高级选项至默认值。</Item>
 
 			<Item Key="Setting_Personalize_Background_Title">BakaXL背景</Item>
 			<Item Key="Setting_Personalize_Background_Browse_Btn">设置背景图片</Item>
@@ -357,17 +382,17 @@
 
 			<Item Key="Setting_Insider_Desc">简介</Item>
 			<Item Key="Setting_Insider_Info">BakaXL现已迈向全新的版本！这得感谢于所有参与了 BakaXL 预览体验计划   &#xD;&#xA;(BakaXL Insider Preview) 的成员们的付出和努力，没有了他们的帮助，我&#xD;&#xA;们就无法打造出如此出色的BakaXL。&#xD;&#xA;&#xD;&#xA;现在，你也可以加入我们让BakaXL变得更好。&#xD;&#xA;&#xD;&#xA;现在就加入 BakaXL 预览体验计划吧！抢先体验，给予反馈。</Item>
-			<Item Key="Setting_Insider_Warn_1">BakaXL Insider Preview中包含的功能，仅供预览体验，且在未来可&#xA;能会在未经提示的情况下被移除或修改。&#xA;预览版本中您将无法使用完整的BakaXL功能（笨蛋广场、核心管理、&#xA;插件等）。</Item>
+			<Item Key="Setting_Insider_Warn_1">BakaXL Insider Preview中包含的功能，仅供预览体验，且在未来可&#xA;能会在未经提示的情况下被移除或修改。</Item>
 			<Item Key="Setting_Insider_Warn_2">预览版本的BakaXL因缺少必备功能，请勿加入整合包内进行分享。</Item>
 			<Item Key="Setting_Insider_Desc">简介</Item>
 			<Item Key="Setting_Insider_TunnelTitle">修改更新通道</Item>
 			<Item Key="Setting_Insider_CurrentTunnel">当前通道</Item>
-			<Item Key="Setting_Insider_TunnelDescription">我们为BakaXL引入了全新的更新通道机制，这意味着您可以更加频繁&#xD;&#xA;的获得更新！&#xA;&#xD;&#xA;目前，我们为 BakaXL Insider Preview 提供两种通道：&#xD;&#xA;Pigeon 鸽子通道（主要评估版本，提供近期最稳定功能更新）&#xD;&#xA;Parrot 鹦鹉通道（每日即时更新，提供BakaXL代码仓库最新的更新）&#xD;&#xA;&#xD;&#xA;请注意：Parrot 鹦鹉通道 包含大量早期未开发完善和清理的功能且会随&#xD;&#xA;时作出修改，请勿依赖于此版本。</Item>
+			<Item Key="Setting_Insider_TunnelDescription">我们为BakaXL引入了全新的更新通道机制，这意味着您可以更加频繁&#xD;&#xA;的获得更新！&#xA;&#xD;&#xA;目前，我们为 BakaXL 预览体验计划 提供两种通道：&#xD;&#xA;Pigeon 鸽子通道（主要评估版本，提供近期最稳定功能更新）&#xD;&#xA;Parrot 鹦鹉通道（每日即时更新，提供BakaXL代码仓库最新的更新）&#xD;&#xA;&#xD;&#xA;请注意：Parrot 鹦鹉通道 包含大量早期未开发完善和清理的功能且会随&#xD;&#xA;时作出修改，请勿依赖于此版本。</Item>
 			<Item Key="Setting_Insider_TunnelSelection">选择一个预览通道</Item>
 			<Item Key="Setting_Insider_ChangeTunnel_Btn">变更</Item>
 			<Item Key="Setting_Insider_StartBtn_Title">开始</Item>
 			<Item Key="Setting_Insider_LatestVersion">（当前分支上的预览体验版本：{0}）</Item>
-			<Item Key="Setting_Insider_Requirement">您的计算机需要安装.Net Framework 4.6才可以运行BakaXL 3.0。&#xA;使用BakaXL 3.0的预览体验版本需要您使用Windows 7或更高级操作系统。&#xA;推荐您使用Windows 10操作系统以体验BakaXL 3.0的全部功能。&#xA;&#xA;BakaXL 3.0已不再支持Windows XP操作系统。</Item>
+			<Item Key="Setting_Insider_Requirement">您的计算机需要安装.Net Framework 4.5才可以运行BakaXL 3.0。&#xA;使用BakaXL 3.0的预览体验版本需要您使用Windows 7或更高级操作系统。&#xA;推荐您使用Windows 10操作系统以体验BakaXL 3.0的全部功能。&#xA;&#xA;BakaXL 3.0已不再支持Windows XP操作系统。</Item>
 			
 			<Item Key="Setting_About_Info">BakaXL开发团队全体成员在这里诚挚的感谢您使用BakaXL！</Item>
 			<Item Key="Setting_About_Version">内部版本</Item>
