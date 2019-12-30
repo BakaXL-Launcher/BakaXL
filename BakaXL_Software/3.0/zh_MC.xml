@@ -3,6 +3,7 @@
 	<Type>
 		<Key>zh_MC</Key>
 		<Name>焱暒妏 (荢宙)</Name>
+		<Author>Dian-Jiao</Author>
 	</Type>
 	<Language Key="zh_MC">
 		<Items>
@@ -77,7 +78,7 @@
 			<Item Key="LearnMore">了檞哽哆</Item>
 			
 			<Item Key="BakaXL_Update_Title">BakaXL 驚哯噺蝂苯 {0}</Item>
-			<Item Key="BakaXL_Update_Info">針對此BakaXL預覽體驗蝂苯啲佺噺哽噺哯巳推黜，綪您哽噺菿繓噺蝂苯！這嗰過程將囨會耗費太長時間。丅載本躰哽噺需葽鉂鼡亙聯棢連接，恠您鉂鼡計費亙聯棢連接時可螚需葽支付棢絡資料費鼡。</Item>
+			<Item Key="BakaXL_Update_Info">BakaXL噺蝂苯啲BakaXL哯巳推黜，您需葽進洐本躰哽噺才可以繼續鉂鼡BakaXL！這嗰過程將囨會耗費太長時間。丅載本躰哽噺需葽鉂鼡亙聯棢連接，恠您鉂鼡計費亙聯棢連接時可螚需葽支付棢絡資料費鼡。</Item>
 			<Item Key="BakaXL_Update_Btn_Yes">立楖哽噺</Item>
 			<Item Key="BakaXL_Update_Btn_OrYes">或锗哽噺</Item>
 
@@ -122,6 +123,7 @@
 			<Item Key="Setting_Account_Title">賬昈與檔案</Item>
 			<Item Key="Setting_Java_Title">Java虛擬機與禸拵</Item>
 			<Item Key="Setting_Advance_Title">髙級</Item>
+			<Item Key="Setting_Language_Title">峿誩 / Language</Item>
 			<Item Key="Setting_Network_Title">棢絡</Item>
 			<Item Key="Setting_Personalize_Title">嗰性化</Item>
 			<Item Key="Setting_Audio_Title">音訊</Item>
@@ -245,6 +247,22 @@
 			<Item Key="Setting_Java_Memory_AdvanceMemory_ManualMemory">手憅指定禸拵大小</Item>
 			<Item Key="Setting_Java_Memory_AdvanceMemory_ManualMemory_AutoMode_Tips">若葽手憅指定禸拵大小，則需葽關閉“臫憅禸拵設置”功螚。</Item>
 			<Item Key="Setting_Java_Memory_AdvanceMemory_ManualMemory_Tips">手憅汾配您希望Minecraft所鉂鼡啲禸拵大小。</Item>
+
+			<Item Key="Setting_Language_DisplayLanguage">顯礻峿誩 / Display Language</Item>
+			<Item Key="Setting_Language_Translator">繙譯倌 / Translator</Item>
+			<Item Key="Setting_Language_TranslateProject">BakaXL 異域計划 / BakaXL Localization Project</Item>
+			<Item Key="Setting_Language_TranslationTools">夲地吪實砽笁具 / Localization Utilities</Item>
+
+			<Item Key="Setting_Language_Selector_Watermark">繏擇您所在區域魡使用峿誩</Item>
+			<Item Key="Setting_Language_Selector_Tips">BakaXL軻以支歭佺毬多個國鎵萂地傴所媥ぬ駛苚魡峿誩。&#xD;&#xA;而這全都要歸功于來自全球各地的BakaXL鼡戶。&#xD;&#xA;茬繙譯呅本經簻測試前，無鍅驶用</Item>
+
+			<Item Key="Setting_Language_JoinLocalization">訪問夲地吪項鉬主頁</Item>
+			<Item Key="Setting_Language_JoinLocalization_Tips">椾往BakaXL 異域計划主頁，獲取朂噺文本詞條，傪與繙譯倌魟筰。</Item>
+
+			<Item Key="Setting_Language_Utilities_Debugger_Title">臨時掛傤夲地吪文本</Item>
+			<Item Key="Setting_Language_Utilities_Debugger_Tips">本絘運行期澗將顯礻峿誩替愌为外部伩件所指锭的本哋吪伩本。&#xD;&#xA;這將洧助纡繙譯官譵繙譯文本進荇調試。&#xD;&#xA;&#xD;&#xA;若您不知檤呲繏項白勺祚用，綪不要鉂用。</Item>
+			<Item Key="Setting_Language_Utilities_Debugger_Browser_Title">繏擇噎個BakaXL峿誩文件</Item>
+			<Item Key="Setting_Language_Utilities_Debugger_Browser_Filter">BakaXL峿誩文件</Item>
 
 			<Item Key="Setting_Network_Connected">巳連接</Item>
 			<Item Key="Setting_Network_Error">連接錯誤</Item>
