@@ -356,7 +356,6 @@
 			<Item Key="Setting_Plaza_Setting_CellularNetwork">モバイル通信料を節約</Item>
 			<Item Key="Setting_Plaza_Setting_CellularNetwork_Tips">モバイル通信の環境でオン、&#xD;&#xA;オンすると、バカ広場ビデオを放送する前に訪ねてビデオの解像度を下げる。&#xD;&#xA;一部のバカ広場でのビデオは解像度を下がることはできない。</Item>
 
-			<Item Key="Setting_Protocol_Title">議定書</Item>
 			<Item Key="Setting_Protocol_Btn_Title">BakaXL議定書</Item>
 			<Item Key="Setting_Protocol_Btn_Tips">BakaXL議定書はウェブサイトによるボタンでBakaXLを快速起動することができる。&#xD;&#xA;ウェブサイトによるボタンの関数によって、直接にBakaXLの特定機能を起動することができる。&#xD;&#xA;BakaXL開発中心をご閲覧の上で、BakaXL議定書にアクセス（接続）することができる。</Item>
 
