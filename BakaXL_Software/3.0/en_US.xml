@@ -376,24 +376,24 @@
 			<Item Key="Setting_JavaCheck_SuggestUpdate_Java8">可升级到64位Java 8</Item>
 			<Item Key="Setting_JavaCheck_NotSupport">不兼容</Item>
 
-			<Item Key="Setting_Title">BakaXL本体设置</Item>
+			<Item Key="Setting_Title">BakaXL Settings</Item>
 
-			<Item Key="Setting_BakaPublic">公众版</Item>
-			<Item Key="Setting_CurrentVersion">当前版本</Item>
+			<Item Key="Setting_BakaPublic">Public</Item>
+			<Item Key="Setting_CurrentVersion">Current Version</Item>
 
-			<Item Key="Setting_Support_Title">帮助与支持 &amp; 安全</Item>
-			<Item Key="Setting_Account_Title">账户与档案</Item>
-			<Item Key="Setting_Java_Title">Java虚拟机与内存</Item>
-			<Item Key="Setting_Advance_Title">高级</Item>
+			<Item Key="Setting_Support_Title">Support/Health &amp; Safety</Item>
+			<Item Key="Setting_Account_Title">Profiles</Item>
+			<Item Key="Setting_Java_Title">Java VM &amp; Memory</Item>
+			<Item Key="Setting_Advance_Title">Advance</Item>
 			<Item Key="Setting_Language_Title">语言 / Language</Item>
-			<Item Key="Setting_Network_Title">网络</Item>
-			<Item Key="Setting_Personalize_Title">个性化</Item>
-			<Item Key="Setting_Audio_Title">音频</Item>
-			<Item Key="Setting_Download_Title">下载</Item>
-			<Item Key="Setting_Protocol_Title">BakaXL协议</Item>
-			<Item Key="Setting_Plaza_Title">BakaXL笨蛋广场</Item>
-			<Item Key="Setting_Insider_Title">BakaXL预览体验计划</Item>
-			<Item Key="Setting_About_Title">关于</Item>
+			<Item Key="Setting_Network_Title">Network</Item>
+			<Item Key="Setting_Personalize_Title">Personalize</Item>
+			<Item Key="Setting_Audio_Title">Audio</Item>
+			<Item Key="Setting_Download_Title">Download</Item>
+			<Item Key="Setting_Protocol_Title">BakaXL Protocol</Item>
+			<Item Key="Setting_Plaza_Title">BakaPlaza</Item>
+			<Item Key="Setting_Insider_Title">Insider Preview</Item>
+			<Item Key="Setting_About_Title">About</Item>
 
 			<Item Key="Setting_Support_Tips">欢迎来到BakaXL本体设置！我们正在努力为BakaXL添加更多精彩的功&#xD;&#xA;能！部分不可用的选项是BakaXL 3.0尚未开发完善的功能。目前，我们正在&#xA;根据各位的需求调整此界面中的功能。希望您能喜欢！</Item>
 			<Item Key="Setting_Support_Website">BakaXL帮助与支持网站</Item>
@@ -688,8 +688,9 @@
 			<Item Key="Setting_Personalize_Color_Tips">设置BakaXL窗体和控件所使用的配色方案。</Item>
 
 			<Item Key="Setting_Personalize_Tema_Title">BakaXL主题</Item>
-			<Item Key="Setting_Personalize_Tema_List">该功能目前暂不可用</Item>
-
+      <Item Key="Setting_Personalize_Tema_List">浏览主题列表</Item>
+      <Item Key="Setting_Personalize_Tema_Folder">主题文件夹</Item>
+      
 			<Item Key="Setting_Audio_BGM_Title">背景音乐</Item>
 			<Item Key="Setting_Audio_BGM_Btn_Title">BakaXL背景音乐</Item>
 			<Item Key="Setting_Audio_BGM_LostFocusBehaviorBtn">失去焦点时自动停止背景音乐</Item>
@@ -720,7 +721,6 @@
 			<Item Key="Setting_Plaza_Setting_CellularNetwork">节省数据流量</Item>
 			<Item Key="Setting_Plaza_Setting_CellularNetwork_Tips">在使用计费互联网连接时开启，&#xD;&#xA;开启后，笨蛋广场将在播放前询问您并降低视频播放的清晰度。&#xD;&#xA;并不是所有在笨蛋广场提供的视频都支持降低清晰度播放。</Item>
 
-			<Item Key="Setting_Protocol_Title">协议</Item>
 			<Item Key="Setting_Protocol_Btn_Title">BakaXL协议</Item>
 			<Item Key="Setting_Protocol_Btn_Tips">BakaXL协议可以让您通过网站提供的按钮快速启动BakaXL。&#xD;&#xA;根据网站按钮提供的参数，可使BakaXL直接启动特定内建功能。&#xD;&#xA;参阅BakaXL开发人员中心了解如何将您的网站接入BakaXL协议。</Item>
 
