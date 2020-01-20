@@ -211,14 +211,14 @@
 			<Item Key="Setting_Account_Detail_Tips_AuthFailed">獲取正版遊戲ID失敗，請重試！</Item>
 			<Item Key="Setting_Account_Detail_Tips_Authenticating">正在獲取…</Item>
 			<Item Key="Setting_Account_Detail_Tips_AuthFailed_Username">獲取失敗</Item>
-            <Item Key="Setting_Account_Detail_Tips_NeedAuth">在您返回前，您需要完成一次正版驗證</Item>
+           		<Item Key="Setting_Account_Detail_Tips_NeedAuth">在您返回前，您需要完成一次正版驗證</Item>
 			<Item Key="Setting_Account_Detail_Tips_NeedUsername">您必須設定一個遊戲ID</Item>
 			<Item Key="Setting_Account_Detail_Tips_NeedReload">您修改了遊戲ID，部分內容需要重載。</Item>
 			
 			<Item Key="Setting_Java_JVM_Title">Java VM</Item>
 			<Item Key="Setting_Java_JVM_Selector">請選擇Java版本</Item>
 			<Item Key="Setting_Java_JVM_Tips">爲了確保您的遊戲體驗，請始終選擇最佳適配版本的Java。</Item>
-            <Item Key="Settings_SystemSettings_ManualJava">手動調整Java</Item>
+            		<Item Key="Settings_SystemSettings_ManualJava">手動調整Java</Item>
 			
 			<Item Key="Setting_Java_JVM_Advance">Java進階設定</Item>
 			<Item Key="Setting_Java_JVM_Advance_AutoJava">自動尋找Java位置</Item>
@@ -350,13 +350,12 @@
 			<Item Key="Setting_Plaza_Setting_Title">笨蛋廣場設定</Item>
 			<Item Key="Setting_Plaza_Setting_CellularNetwork">節省資料用量</Item>
 			<Item Key="Setting_Plaza_Setting_CellularNetwork_Tips">在使用計費網際網路連線時開啓，&#xD;&#xA;開啓後，笨蛋廣場將在播放前詢問您並降低影片播放的解析度。&#xD;&#xA;並不是所有在笨蛋廣場提供的影片都支持降低解析度播放。</Item>
-			
-			<Item Key="Setting_Protocol_Title">協議</Item>
+
 			<Item Key="Setting_Protocol_Btn_Title">BakaXL協議</Item>
 			<Item Key="Setting_Protocol_Btn_Tips">BakaXL協議可以讓您透過網站提供的按鈕快速啟動BakaXL。&#xD;&#xA;依據網站按鈕提供的參數，可使BakaXL直接啟動特定內建功能。&#xD;&#xA;參閱BakaXL開發人員中心以瞭解如何將您的網站接入BakaXL協議。</Item>
 
 			<Item Key="Setting_Insider_Desc">簡介</Item>
-            <Item Key="Setting_Insider_Info">BakaXL現已邁向全新的版本！這得感謝於所有參與了 BakaXL 預先體驗計劃   &#xD;&#xA;(BakaXL Insider Preview) 的成員們的付出及努力，沒有了他們的幫助，我&#xD;&#xA;们就無法打造出如此出色的BakaXL。&#xD;&#xA;&#xD;&#xA;現在，你也可以加入我們讓BakaXL變得更好。&#xD;&#xA;&#xD;&#xA;現在就加入 BakaXL 預先體驗計劃吧！搶先體驗，予以反饋。</Item>
+            		<Item Key="Setting_Insider_Info">BakaXL現已邁向全新的版本！這得感謝於所有參與了 BakaXL 預先體驗計劃   &#xD;&#xA;(BakaXL Insider Preview) 的成員們的付出及努力，沒有了他們的幫助，我&#xD;&#xA;们就無法打造出如此出色的BakaXL。&#xD;&#xA;&#xD;&#xA;現在，你也可以加入我們讓BakaXL變得更好。&#xD;&#xA;&#xD;&#xA;現在就加入 BakaXL 預先體驗計劃吧！搶先體驗，予以反饋。</Item>
 			<Item Key="Setting_Insider_Warn_1">BakaXL Insider Preview中包含之功能，僅供預先體驗，且未來&#xA;能會在未經提示的情況下遭移除或修改。&#xA;預先體驗版本中您將無法使用完整的BakaXL功能（笨蛋廣場、核心管理、&#xA;拓展等）。</Item>
 			<Item Key="Setting_Insider_Warn_2">預先體驗版本的BakaXL因缺少必備功能，請勿加入整合包內進行分享。</Item>
 			<Item Key="Setting_Insider_Desc">簡介</Item>
