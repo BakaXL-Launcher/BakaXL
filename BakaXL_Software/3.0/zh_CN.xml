@@ -63,6 +63,7 @@
 			<Item Key="LaunchBar_Title_AuthError_Unknown">验证时出现错误：未知错误。</Item>
 
 			<Item Key="UserSelector_Launch_Title">哪个用户将用于启动Minecraft？</Item>
+			<Item Key="UserSelector_Authlib_SelectProfile">该账户拥有的多个角色，选择一个角色</Item>
 			<Item Key="UserSelector_Default_Title">选择一个账户</Item>
 
 			<Item Key="HomeIdentifier_Screen_Home">主页</Item>
@@ -142,7 +143,7 @@
 
 			<Item Key="Minecraft_AuthMode_Offline">离线模式</Item>
 			<Item Key="Minecraft_AuthMode_Online">正版验证</Item>
-			<Item Key="Minecraft_AuthMode_ThirdParty">第三方验证服务</Item>
+			<Item Key="Minecraft_AuthMode_ThirdParty">外置登录(authlib-injector)</Item>
 
 			<Item Key="ProfileBtn_Offline">尚未进行正版验证</Item>
 			<Item Key="ProfileBtn_Online">已进行正版验证</Item>
@@ -160,6 +161,13 @@
 			<Item Key="Unavailable">不可用</Item>
 			<Item Key="Login">登录</Item>
 			<Item Key="LearnMore">了解更多</Item>
+
+			<Item Key="FullScreen">全屏</Item>
+			<Item Key="Big">大</Item>
+			<Item Key="Middle">中</Item>
+			<Item Key="Small">小</Item>
+			<Item Key="Default">默认</Item>
+			<Item Key="Custom">自定义</Item>
 
 			<Item Key="Error_CodeIs">错误代码是 {0}， 可在有需要时使用。</Item>
 			
@@ -477,6 +485,9 @@
 			<Item Key="Setting_Support_ErrorHistory_Config_CellularNetwork">省流量模式</Item>
 			
 			<Item Key="Setting_Support_ErrorHistory_BakaVer">BakaXL版本</Item>
+			
+			<Item Key="Setting_Support_ErrorHistory_ReportCan">提交笨蛋罐头</Item>
+			<Item Key="Setting_Support_ErrorHistory_OpenFilePath">在资源管理器中显示此文件</Item>
 
 			<Item Key="Setting_Support_ErrorHistory_Solution_ContactUs">请及时联系BakaXL开发团队以获得此问题的解决方案。</Item>
 
@@ -519,10 +530,10 @@
 			
 			<Item Key="Setting_Account_Detail_Type">账户类型</Item>
 			<Item Key="Setting_Account_Detail_AuthMode">游戏启动模式</Item>
-			<Item Key="Setting_Account_Detail_AuthMode_Tips_Default">选择启动Minecraft时的验证模式。&#xD;&#xA;正版验证：使用您的Mojang账户登录。&#xD;&#xA;离线模式：仅使用游戏ID进行验证。&#xD;&#xA;&#xD;&#xA;根据相关法律及法规，离线验证模式在部分地区不可用。&#xD;&#xA;第三方验证服务 (基于authlib-injector) 的支持即将加入。</Item>
+			<Item Key="Setting_Account_Detail_AuthMode_Tips_Default">选择启动Minecraft时的验证模式。&#xD;&#xA;正版验证：使用您的Mojang账户登录。&#xD;&#xA;离线模式：仅使用游戏ID进行验证。&#xD;&#xA;外置登录(authlib-injector)：使用第三方验证服务器登录。&#xD;&#xA;&#xD;&#xA;根据相关法律及法规，离线验证模式在部分地区不可用。</Item>
 			<Item Key="Setting_Account_Detail_AuthMode_Tips_Online">选择启动Minecraft时的验证模式。&#xA;使用您的Mojang账户进行正版登录启动游戏。</Item>
 			<Item Key="Setting_Account_Detail_AuthMode_Tips_Offline">选择启动Minecraft时的验证模式。&#xA;仅使用自定游戏ID进行离线验证登录启动游戏。&#xA;&#xA;根据相关法律及法规，离线验证模式在部分地区不可用。</Item>
-			<Item Key="Setting_Account_Detail_AuthMode_Tips_ThirdParty">选择启动Minecraft时的验证模式。&#xA;使用第三方验证服务所要求的账户信息进行验证。&#xA;&#xA;为了您的账户安全，我们不建议您在第三方验证服务&#xA;中使用与您的Mojang账户相同的密码。</Item>
+			<Item Key="Setting_Account_Detail_AuthMode_Tips_ThirdParty">选择启动Minecraft时的验证模式。&#xA;使用外置登录(authlib-injector)所要求的账户信息进行验证。&#xA;&#xA;为了您的账户安全，我们不建议您在第三方验证服务&#xA;中使用与您的Mojang账户相同的密码。</Item>
 			
 			<Item Key="Setting_Account_Detail_AccInfo">账户信息</Item>
 
@@ -537,10 +548,22 @@
 			<Item Key="Setting_Account_Detail_Online_OnlineFunction_Title">Mojang正版账户功能</Item>
 			<Item Key="Setting_Account_Detail_Online_OnlineFunction_Tips">这些功能即将提供，敬请期待。</Item>
 
+			<Item Key="Setting_Account_Detail_ThirdParty_APIRoot">验证服务器地址(API Root)</Item>
+			<Item Key="Setting_Account_Detail_ThirdParty_APIRoot_Tips">验证服务器（即 Yggdrasil 服务器）是整个验证系统的核心。&#xD;&#xA;在设置后，使用此档案进行的请求都将被发往此地址。&#xD;&#xA;您可以将包含了验证服务器信息的配置拖拽至BakaXL进行快速配置。&#xD;&#xA;&#xD;&#xA;请谨慎使用非HTTPS的验证服务器，这将导致您的密码被明文传输。</Item>
+
 			<Item Key="Setting_Account_Detail_ThirdParty_Email">注册此服务时的邮箱</Item>
 			<Item Key="Setting_Account_Detail_ThirdParty_Email_Tips">您在注册第三方验证服务时所使用的邮箱</Item>
 			<Item Key="Setting_Account_Detail_ThirdParty_Password">输入您的密码</Item>
-			<Item Key="Setting_Account_Detail_ThirdParty_Password_Tips">您在注册第三方验证服务时所使用的密码</Item>
+			<Item Key="Setting_Account_Detail_ThirdParty_Password_Tips">您在注册第三方验证服务时所使用的密码。&#xD;&#xA;BakaXL会加密保存这些信息。</Item>
+
+			<Item Key="Setting_Account_Detail_ThirdParty_ServerInfo_Title">服务器身份信息</Item>
+			<Item Key="Setting_Account_Detail_ThirdParty_ServerInfo_ServerName_Title">服务器名称：{0}</Item>
+			<Item Key="Setting_Account_Detail_ThirdParty_ServerInfo_ServerImplementationName_Title">服务端实现：{0}</Item>
+			<Item Key="Setting_Account_Detail_ThirdParty_ServerInfo_ServerImplementationVersion_Title">实现版本：{0}</Item>
+			<Item Key="Setting_Account_Detail_ThirdParty_ServerInfo_Tips">若服务端包含了受支持的响应元数据，则将会被显示在这里。&#xD;&#xA;实现版本并非Minecraft服务器版本。&#xD;&#xA;请使用这些数据核对验证服务器地址和服务器信息。</Item>
+
+			<Item Key="Setting_Account_Detail_ThirdParty_OnlineFunction_Title">第三方账户功能</Item>
+			<Item Key="Setting_Account_Detail_ThirdParty_OnlineFunction_Tips">这些功能即将提供，敬请期待。</Item>
 
 			<Item Key="Setting_Account_Detail_ProfileProtection">账号保护及安全</Item>
 			<Item Key="Setting_Account_Detail_ProfileProtection_Btn_Title">不保存正版信息</Item>
@@ -557,7 +580,7 @@
 			<Item Key="Setting_Account_Detail_Tips_AuthFailed">获取正版游戏ID失败，请重试！</Item>
 			<Item Key="Setting_Account_Detail_Tips_Authenticating">正在获取…</Item>
 			<Item Key="Setting_Account_Detail_Tips_AuthFailed_Username">获取失败</Item>
-			<Item Key="Setting_Account_Detail_Tips_NeedAuth">在您返回前，您需要完成一次正版验证</Item>
+			<Item Key="Setting_Account_Detail_Tips_NeedAuth">在您返回前，您需要完成一次账户验证</Item>
 			<Item Key="Setting_Account_Detail_Tips_NeedUsername">您必须设置一个游戏ID</Item>
 			<Item Key="Setting_Account_Detail_Tips_NeedReload">您更改了游戏ID，部分内容需要重载。</Item>
 			
@@ -655,7 +678,13 @@
 			<Item Key="Setting_Advance_AdvLaunch_AutoJoin_Tips">在Minecraft启动并加载完成后自动加入服务器。</Item>
 			<Item Key="Setting_Advance_AdvLaunch_CheckVersionFolder">预检查游戏核心目录是否存在</Item>
 			<Item Key="Setting_Advance_AdvLaunch_CheckVersionFolder_Tips">在启动游戏前对 .minecraft/versions/&lt;游戏核心&gt; 目录&#xD;&#xA;进行检查，并在无法确认此文件夹存在时取消启动。&#xD;&#xA;&#xD;&#xA;若核心目录存在也无法检测到的极端情况出现时，请关闭此功能。&#xD;&#xA;关闭后，BakaXL将会在无法确认文件夹存在时尝试继续启动，&#xD;&#xA;直至下一次确认核心文件夹的存在。&#xD;&#xA;&#xD;&#xA;可能导致BakaXL在启动游戏时出现异常，甚至是崩溃。&#xD;&#xA;此设置并不会全局同步至计算机中其他BakaXL。</Item>
-			
+
+			<Item Key="Setting_Advance_GameResolution_Title">Minecraft窗体大小</Item>
+			<Item Key="Setting_Advance_GameResolution_SelectWindowSize">选择窗体大小</Item>
+			<Item Key="Setting_Advance_GameResolution_Wdith">窗体宽度</Item>
+			<Item Key="Setting_Advance_GameResolution_Height">窗体高度</Item>
+			<Item Key="Setting_Advance_GameResolution_Tips">设置Minecraft在启动后窗体的大小。&#xD;&#xA;BakaXL已为您列出部分常用的窗体大小。&#xD;&#xA;选择“自定义”可以手动设置窗体大小。</Item>
+
 			<Item Key="Setting_Advance_AutoFix_Title">自动补全</Item>
 			<Item Key="Setting_Advance_AutoFix_Btn_Title">自动补全资源文件</Item>
 			<Item Key="Setting_Advance_AutoFix_Btn_Tips">在你切换至一个未补全Assets文件的Minecraft版本时提醒你。</Item>
@@ -688,8 +717,10 @@
 			<Item Key="Setting_Personalize_Color_Tips">设置BakaXL窗体和控件所使用的配色方案。</Item>
 			
 			<Item Key="Setting_Personalize_Tema_Title">BakaXL主题</Item>
-			<Item Key="Setting_Personalize_Tema_List">该功能目前暂不可用</Item>
-			
+			<Item Key="Setting_Personalize_Tema_List">浏览主题列表</Item>
+      <Item Key="Setting_Personalize_Tema_Folder">主题文件夹</Item>
+
+      
 			<Item Key="Setting_Audio_BGM_Title">背景音乐</Item>
 			<Item Key="Setting_Audio_BGM_Btn_Title">BakaXL背景音乐</Item>
 			<Item Key="Setting_Audio_BGM_LostFocusBehaviorBtn">失去焦点时自动停止背景音乐</Item>
@@ -720,7 +751,6 @@
 			<Item Key="Setting_Plaza_Setting_CellularNetwork">节省数据流量</Item>
 			<Item Key="Setting_Plaza_Setting_CellularNetwork_Tips">在使用计费互联网连接时开启，&#xD;&#xA;开启后，笨蛋广场将在播放前询问您并降低视频播放的清晰度。&#xD;&#xA;并不是所有在笨蛋广场提供的视频都支持降低清晰度播放。</Item>
 			
-			<Item Key="Setting_Protocol_Title">协议</Item>
 			<Item Key="Setting_Protocol_Btn_Title">BakaXL协议</Item>
 			<Item Key="Setting_Protocol_Btn_Tips">BakaXL协议可以让您通过网站提供的按钮快速启动BakaXL。&#xD;&#xA;根据网站按钮提供的参数，可使BakaXL直接启动特定内建功能。&#xD;&#xA;参阅BakaXL开发人员中心了解如何将您的网站接入BakaXL协议。</Item>
 
@@ -775,6 +805,18 @@
 			<Item Key="HomeMenu_Btn_Closed">已结束</Item>
 
 			<Item Key="MessageBox_Launch_CheckOnline">正在检查用户是否可以运行Minecraft……</Item>
+			<Item Key="MessageBox_Launch_CheckThirdParty">请等待我们连接到第三方验证服务器……</Item>
+
+			<Item Key="MessageBox_Auth_ThirdParty_ProtocolFix_Title">已经自动补全通信协议</Item>
+			<Item Key="MessageBox_Auth_ThirdParty_ProtocolFix_Content">BakaXL检测到您未设置验证服务器通信协议。&#xD;&#xA;将自动使用HTTPS安全协议连接至此验证服务器。</Item>
+
+			<Item Key="MessageBox_Auth_ThirdParty_ServerUnsafe_Title">请谨慎连接至此验证服务器</Item>
+			<Item Key="MessageBox_Auth_ThirdParty_ServerUnsafe_Content">此验证服务器并未使用HTTPS安全协议。&#xD;&#xA;继续使用此验证服务器将导致您的密码被明文传输。</Item>
+			<Item Key="MessageBox_Auth_ThirdParty_ServerUnsafe_Tips">使用了安全协议的服务器地址始终会以 https:// 开头</Item>
+
+			<Item Key="MessageBox_Auth_ThirdParty_ConnectFailed_Title">无法连接至此验证服务器</Item>
+			<Item Key="MessageBox_Auth_ThirdParty_ConnectFailed_Content">BakaXL无法连接至此验证服务器。&#xD;&#xA;请检查此服务地址是否正确，并再试一次。</Item>
+			<Item Key="MessageBox_Auth_ThirdParty_ConnectFailed_Tips">也请留意此验证服务器提供商的相关通知</Item>
 
 			<Item Key="MessageBox_BakaPlaza_Installer_Title">准备安装Minecraft...</Item>
 			<Item Key="MessageBox_BakaPlaza_Installer_Content">BakaXL将要开始安装您所选定的游戏核心。&#xD;&#xA;请稍等片刻，并在此期间不要断开互联网连接或关闭BakaXL。</Item>
@@ -787,7 +829,7 @@
 			<Item Key="MessageBox_LaunchError_ExitException_Content">BakaXL检测到上一次成功启动Minecraft后，游戏只运行了 {0} 秒。</Item>
 			<Item Key="MessageBox_LaunchError_ExitException_Tips">这可能是由于Libraries文件缺失造成的</Item>
 
-			<Item Key="MessageBox_LaunchError_Base_Title">无法启动 {}</Item>
+			<Item Key="MessageBox_LaunchError_Base_Title">无法启动 {0}</Item>
 			
 			<Item Key="MessageBox_PlazaError_WhenLaunch_Content">出现了异常情况，导致我们无法连接至BakaXL笨蛋广场服务器。&#xD;&#xA;请稍后再试。若问题持续存在，请参阅BakaXL官网。</Item>
 			<Item Key="MessageBox_PlazaError_WhenLaunch_Tips">我们可能会在未经通知的情况下对服务器进行维护</Item>
@@ -808,7 +850,7 @@
 			<Item Key="MessageBox_MojangAccount_FogotPassword_Tips">请确保域名为 account.mojang.com 且连接已通过SSL加密</Item>
 
 			<Item Key="MessageBox_Bakaverse_Login_Error_Title">登录失败</Item>
-			<Item Key="MessageBox_Bakaverse_Login_ConnectError_Content">无法连接至BakaXL Network服务器。&#xD;&#xA;请检查您的互联网连接，或者留意BakaXL官方的维护公告。</Item>
+			<Item Key="MessageBox_Bakaverse_Login_ConnectError_Content">无法连接至BakaXL Network服务器。&#xD;&#xA;请检查您的互联网连接，或者留意BakaXL官方的维护公告。&#xD;&#xA;这也有可能是由于用户名或密码错误。</Item>
 			<Item Key="MessageBox_Bakaverse_Login_VersionError_Content">BakaXL Network服务器拒绝了您的连接。&#xD;&#xA;由于服务器要求使用最新版本的BakaXL，连接被终止。</Item>
 			<Item Key="MessageBox_Bakaverse_Login_AuthError_Content">无法登录至此BakaXL账户。&#xD;&#xA;此账户不存在或密码错误，请检查您输入的内容然后再试一次。</Item>
 			<Item Key="MessageBox_Bakaverse_Login_EAPermissionError_Content">无法登录至此BakaXL账户。&#xD;&#xA;您的BakaXL账户没有参与早期体验测试。请耐心等待此服务正式上线。</Item>
