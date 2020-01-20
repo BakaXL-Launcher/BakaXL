@@ -718,8 +718,7 @@
 			
 			<Item Key="Setting_Personalize_Tema_Title">BakaXL主题</Item>
 			<Item Key="Setting_Personalize_Tema_List">浏览主题列表</Item>
-      <Item Key="Setting_Personalize_Tema_Folder">主题文件夹</Item>
-
+			<Item Key="Setting_Personalize_Tema_Folder">主题文件夹</Item>
       
 			<Item Key="Setting_Audio_BGM_Title">背景音乐</Item>
 			<Item Key="Setting_Audio_BGM_Btn_Title">BakaXL背景音乐</Item>
