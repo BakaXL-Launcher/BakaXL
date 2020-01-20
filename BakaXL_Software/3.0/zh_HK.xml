@@ -350,8 +350,7 @@
 			<Item Key="Setting_Plaza_Setting_Title">笨蛋廣場設置</Item>
 			<Item Key="Setting_Plaza_Setting_CellularNetwork">節省數據流量</Item>
 			<Item Key="Setting_Plaza_Setting_CellularNetwork_Tips">在使用計費互聯網連接時開啟，&#xD;&#xA;開啟後，笨蛋廣場將在播放前詢問您並降低視頻播放的清晰度。&#xD;&#xA;並不是所有在笨蛋廣場提供的視頻都支持降低清晰度播放。</Item>
-			
-			<Item Key="Setting_Protocol_Title">協議</Item>
+
 			<Item Key="Setting_Protocol_Btn_Title">BakaXL協議</Item>
 			<Item Key="Setting_Protocol_Btn_Tips">BakaXL協議可以讓您通過網站提供的按鈕快速啟動BakaXL。&#xD;&#xA;根據網站按鈕提供的參數，可使BakaXL直接啟動特定內建功能。&#xD;&#xA;參閱BakaXL開發人員中心了解如何將您的網站接入BakaXL協議。</Item>
 
