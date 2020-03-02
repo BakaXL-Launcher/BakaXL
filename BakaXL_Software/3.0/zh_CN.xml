@@ -16,7 +16,7 @@
 			<Item Key="LoadingPlugins">插件</Item>
 
 			<Item Key="Window_ReportIssue_Title">反馈问题</Item>
-			<Item Key="Window_ReportIssue_Tips">立即进入BakaXL官方论坛反馈意见或问题</Item>
+			<Item Key="Window_ReportIssue_Tips">来BakaXL官方吐个槽社区反馈你所遇到的问题吧！</Item>
 			
 			<Item Key="Window_GetHelp_Title">获取帮助</Item>
 			<Item Key="Window_GetHelp_Tips">遇到问题？不会使用？访问我们的帮助页面</Item>
@@ -58,13 +58,22 @@
 			<Item Key="LaunchBar_LaunchBtn_Launched_Title">游戏运行中</Item>
 			<Item Key="LaunchBar_LaunchBtn_Launched_Tips">&lt;当前正在运行中&gt;</Item>
 
+			<Item Key="LaunchBar_ToolTip_DownloadLib">正在下载Minecraft支持库&#xD;&#xA;文件名：{0}&#xD;&#xA;路径：{1}</Item>
+
 			<Item Key="LaunchBar_Title_Launched">已使用 {0} 的身份运行游戏</Item>
 			<Item Key="LaunchBar_Title_AuthError">验证时出现错误：用户名或密码错误。</Item>
 			<Item Key="LaunchBar_Title_AuthError_Unknown">验证时出现错误：未知错误。</Item>
+			<Item Key="LaunchBar_Title_AuthError_MojangTokenExpired">验证时出现错误：会话验证信息过期，请在本体设置重新登录此用户档案。</Item>
+			<Item Key="LaunchBar_Title_AuthError_AuthlibTokenExpired">验证时出现错误：档案验证信息失效，请重新设置此用户档案。</Item>
 
 			<Item Key="UserSelector_Launch_Title">哪个用户将用于启动Minecraft？</Item>
 			<Item Key="UserSelector_Authlib_SelectProfile">该账户拥有的多个角色，选择一个角色</Item>
 			<Item Key="UserSelector_Default_Title">选择一个账户</Item>
+
+			<Item Key="UserProfile_ToolTip_Offline">用户名：{0} &#xD;&#xA;此用户档案将使用离线验证</Item>
+			<Item Key="UserProfile_ToolTip_Online">用户名：{0} &#xD;&#xA;此用户档案将使用Mojang正版验证</Item>
+			<Item Key="UserProfile_ToolTip_ThirParty_WithoutName">用户名：{0} &#xD;&#xA;此用户档案将使用第三方账户验证服务器&#xD;&#xA;验证服务器地址：{1}</Item>
+			<Item Key="UserProfile_ToolTip_ThirParty_WithName">用户名：{0} &#xD;&#xA;此用户档案将使用 {1} 提供的账户验证服务器&#xD;&#xA;验证服务器地址：{2}</Item>
 
 			<Item Key="HomeIdentifier_Screen_Home">主页</Item>
 			<Item Key="HomeIdentifier_Screen_Menu">开始</Item>
@@ -369,6 +378,8 @@
 			<Item Key="BakaPlaza_MinecraftInstaller_Steps_WriteJson">写入Json信息</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Steps_GenBakaCoreConfig">生成配置文件</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Steps_CopyForgeFile">复制Forge文件</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Steps_PrepareProcessor">初始化Forge文件处理器</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Steps_GenerateForgeFile">生成Forge文件</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Steps_PrepareVanilla">准备原版Minecraft</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Steps_CopyVanilla">复制原版Minecraft核心</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Steps_InstallSuccessful">安装成功</Item>
@@ -409,6 +420,7 @@
 			<Item Key="Setting_Support_SafeUse">安全使用指引</Item>
 			<Item Key="Setting_Support_ErrorHistory">笨蛋罐头历史</Item>
 			<Item Key="Setting_Support_Troubleshooting">疑难解答向导</Item>
+			<Item Key="Setting_Support_PrivacyPolicy">隐私政策</Item>
 
 			<Item Key="Setting_Support_ErrorHistory_RightPannel_Title">查看遇到的错误</Item>
 			<Item Key="Setting_Support_ErrorHistory_RightPannel_Tips1">BakaXL会自动记录在运行时遇到的错误，您可以点击某个错误以查看所有被记录的信息。</Item>
@@ -582,6 +594,7 @@
 			<Item Key="Setting_Account_Detail_Tips_AuthFailed_Username">获取失败</Item>
 			<Item Key="Setting_Account_Detail_Tips_NeedAuth">在您返回前，您需要完成一次账户验证</Item>
 			<Item Key="Setting_Account_Detail_Tips_NeedUsername">您必须设置一个游戏ID</Item>
+			<Item Key="Setting_Account_Detail_Tips_ThirdPartAPIRoot">您必须设置一个第三方验证服务器</Item>
 			<Item Key="Setting_Account_Detail_Tips_NeedReload">您更改了游戏ID，部分内容需要重载。</Item>
 			
 			<Item Key="Setting_Java_JVM_Title">Java虚拟机</Item>
@@ -745,6 +758,18 @@
 			<Item Key="Setting_Download_Source_Title">下载源</Item>
 			<Item Key="Setting_Download_Source_BMCLAPI_Btn_Title">中国大陆地区使用第三方下载源加速</Item>
 			<Item Key="Setting_Download_Source_BMCLAPI_Tips">使用来自bangbang93的BMCLAPI来为BakaXL的资源下载加速。&#xD;&#xA;若要了解更多有关BMCLAPI的详情，请参阅：&#xD;&#xA;https://bmclapidoc.bangbang93.com/</Item>
+
+			<Item Key="Setting_Download_Worker_Title">同步下载线程</Item>
+			<Item Key="Setting_Download_Worker_Selector_Watermark">选择一个你偏好的下载方案</Item>
+			<Item Key="Setting_Download_Worker_Selector_Type_Slow">普通 (10 个线程 / 每次失败重试 3 次)</Item>
+			<Item Key="Setting_Download_Worker_Selector_Type_Normal">稍快 (50 个线程 / 每次失败重试 3 次)</Item>
+			<Item Key="Setting_Download_Worker_Selector_Type_Fast">快速 (128 个线程 / 每次失败重试 2 次)</Item>
+			<Item Key="Setting_Download_Worker_Selector_Type_FastPlus">极快 (1280 个线程 / 每次失败重试 1 次)</Item>
+			<Item Key="Setting_Download_Worker_Selector_Type_Extreme">极快 Plus (2048 个线程 / 每次失败重试 1 次)</Item>
+			<Item Key="Setting_Download_Worker_Tips">可以修改BakaXL在下载文件时协调的线程数量，以及其在&#xD;&#xA;下载失败后重试的次数。&#xD;&#xA;使用越多的线程下载可以使下载耗时进一步缩短，&#xD;&#xA;这可能会导致计算机出现卡顿。&#xD;&#xA;重试次数越多下载的耗时越长。&#xD;&#xA;&#xD;&#xA;并不是在所有情况下都能达到理论速度。(说不定会更慢)&#xD;&#xA;请根据网络与计算机配置酌情选择。</Item>
+
+			<Item Key="Setting_Download_Service_Providor">服务提供者</Item>
+			<Item Key="Setting_Download_Service_Providor_MCBBS_Tips">BakaXL的部分文件使用了来自 Minecraft(我的世界)中文论坛&#xD;&#xA;所提供文件下载服务。&#xD;&#xA;请参阅：https://www.mcbbs.net/</Item>
 			
 			<Item Key="Setting_Plaza_Setting_Title">笨蛋广场设置</Item>
 			<Item Key="Setting_Plaza_Setting_CellularNetwork">节省数据流量</Item>
