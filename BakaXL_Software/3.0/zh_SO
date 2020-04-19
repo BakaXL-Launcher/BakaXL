@@ -1,0 +1,968 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Languages>
+	<Type>
+		<Key>zh_SAO</Key>
+		<Name>骚话中文 (骚话)</Name>
+		<Author>%鱼肉香肠技术宅%</Author>
+	</Type>
+	<Language Key="zh_SAO">
+		<Items>
+			<Item Key="BakaXLTitle">BakaXL - Minecraft 齐东强</Item>
+			
+			<Item Key="NoUserName">莫得色置油汐ID</Item>
+			
+			<Item Key="Loading">载入ing</Item>
+			<Item Key="PleaseWait">等会儿…</Item>
+			<Item Key="LoadingPlugins">插件儿</Item>
+
+			<Item Key="Window_ReportIssue_Title">反馈问题</Item>
+			<Item Key="Window_ReportIssue_Tips">来BakaXL官方吐噶槽社区反馈你所遇到的问题吧！</Item>
+			
+			<Item Key="Window_GetHelp_Title">爪巴帮助</Item>
+			<Item Key="Window_GetHelp_Tips">遇到问题？⑧会使用？访问我们的帮助吔面</Item>
+
+			<Item Key="Window_HomeMenu_Btn">猪吔</Item>
+
+			<Item Key="LaunchBar_Hello">宁蛤！{0}</Item>
+			<Item Key="LaunchBar_Launch">恰动油汐</Item>
+			<Item Key="LaunchBar_NoCore">&lt;尚莫得选择蛤心&gt;</Item>
+
+			<Item Key="LaunchBar_SelectCore_Animation_Title">选择油汐蛤心的方法</Item>
+			<Item Key="LaunchBar_SelectCore_Animation_Click">按住 &quot;恰动油汐&quot; 按钮</Item>
+			<Item Key="LaunchBar_SelectCore_Animation_Drag">向右拖拽</Item>
+
+			<Item Key="LaunchBar_SelectCore_Title">选择蛤心</Item>
+			<Item Key="LaunchBar_SelectCore_Management">蛤心管你</Item>
+			<Item Key="LaunchBar_SelectCore_Management_Tips">选择、调整和管你你的油汐蛤心</Item>
+			<Item Key="LaunchBar_SelectCore_DragEasterEgg">拽你马呢！</Item>
+
+			<Item Key="LaunchBar_LaunchBtn_Error_Title">莫得恰动油汐</Item>
+			<Item Key="LaunchBar_LaunchBtn_Error_NoProfile">莫得色置用户裆案</Item>
+			<Item Key="LaunchBar_LaunchBtn_Error_NoCore">尚莫得色置油汐蛤心</Item>
+			<Item Key="LaunchBar_LaunchBtn_Error_NoCoreFolder">蛤心文件夹⑧存在</Item>
+			<Item Key="LaunchBar_LaunchBtn_Error_AuthError">账户吔证错误</Item>
+			
+			<Item Key="LaunchBar_LaunchBtn_Error_UnknownError_Title">遇到错误</Item>
+			<Item Key="LaunchBar_LaunchBtn_Error_UnknownError_Tips">恰动中出现了错误</Item>
+
+			<Item Key="LaunchBar_LaunchBtn_Launching_Title">正在恰动...</Item>
+			<Item Key="LaunchBar_LaunchBtn_Launching_Tips">Minecraft激将准备就绪</Item>
+
+			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_CreateCore">正在创建恰动蛤心</Item>
+			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_CheckLib">正在检查Minecraft运行库</Item>
+			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_DownloadLib">正在蛤载Minecraft资瓷库 {0}</Item>
+			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_CheckAssets">正在检查Minecraft资源文件</Item>
+			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_DownloadAssets">正在蛤载Minecraft资源文件</Item>
+			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_GenParameter">正在生陈参数</Item>
+
+			<Item Key="LaunchBar_LaunchBtn_Launched_Title">油汐运行中</Item>
+			<Item Key="LaunchBar_LaunchBtn_Launched_Tips">&lt;当前正在运行中&gt;</Item>
+
+			<Item Key="LaunchBar_ToolTip_DownloadLib">正在蛤载Minecraft资瓷库&#xD;&#xA;文件名：{0}&#xD;&#xA;路径：{1}</Item>
+
+			<Item Key="LaunchBar_Title_Launched">已使用 {0} 的身份运行油汐</Item>
+			<Item Key="LaunchBar_Title_AuthError">吔证时出现错误：用户名或你妈错误。</Item>
+			<Item Key="LaunchBar_Title_AuthError_Unknown">吔证时出现错误：莫得知错误。</Item>
+			<Item Key="LaunchBar_Title_AuthError_MojangTokenExpired">吔证时出现错误：会话吔证醒息过期咯，请在笨体色置重猩登录此用户裆案。</Item>
+			<Item Key="LaunchBar_Title_AuthError_AuthlibTokenExpired">吔证时出现错误：裆案吔证醒息失效，请重猩色置此用户裆案。</Item>
+
+			<Item Key="UserSelector_Launch_Title">哪噶用户将用于恰动Minecraft？</Item>
+			<Item Key="UserSelector_Authlib_SelectProfile">该账户拥有的多噶人，选择一噶人</Item>
+			<Item Key="UserSelector_Default_Title">选择一噶账户</Item>
+
+			<Item Key="UserProfile_ToolTip_Offline">用户名：{0} &#xD;&#xA;此用户裆案将使用离线吔证</Item>
+			<Item Key="UserProfile_ToolTip_Online">用户名：{0} &#xD;&#xA;此用户裆案将使用麻将整版吔证</Item>
+			<Item Key="UserProfile_ToolTip_ThirParty_WithoutName">用户名：{0} &#xD;&#xA;此用户裆案将使用第三方账户吔证服务器&#xD;&#xA;吔证服务器地址：{1}</Item>
+			<Item Key="UserProfile_ToolTip_ThirParty_WithName">用户名：{0} &#xD;&#xA;此用户裆案将使用 {1} 提供的账户吔证服务器&#xD;&#xA;吔证服务器地址：{2}</Item>
+
+			<Item Key="HomeIdentifier_Screen_Home">猪吔</Item>
+			<Item Key="HomeIdentifier_Screen_Menu">开石</Item>
+
+			<Item Key="CoreSelector_Title">蛤心</Item>
+			<Item Key="CoreSelector_DisplayMode">显示：</Item>
+
+			<Item Key="CoreSelector_Empty_Title">没东西就nm离谱</Item>
+			<Item Key="CoreSelector_Empty_Tips">看见没，这儿神马东西也没有</Item>
+
+			<Item Key="CoreSelector_Loading_Title">稍安勿躁</Item>
+			<Item Key="CoreSelector_Loading_Tips">蛤心们正在乖乖♂站蛤</Item>
+			
+			<Item Key="CoreSelector_DisplayMode_All">全部</Item>
+			<Item Key="CoreSelector_DisplayMode_Vanilla">只幺原版</Item>
+			<Item Key="CoreSelector_DisplayMode_Forge">只幺Forge</Item>
+			<Item Key="CoreSelector_DisplayMode_Fabric">只幺Fabric</Item>
+			<Item Key="CoreSelector_DisplayMode_Liteloader">只幺Liteloader</Item>
+			<Item Key="CoreSelector_DisplayMode_Optifine">只幺Optifine</Item>
+			<Item Key="CoreSelector_DisplayMode_Other">其他</Item>
+            <!--欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉欧拉-->
+			<Item Key="CoreSelector_Requirement_Java_NoVersionNeeded">无版笨限制</Item>
+			<Item Key="CoreSelector_Type_Major">正式版笨</Item>
+			<Item Key="CoreSelector_Type_Snapshot">快少版笨</Item>
+
+			<Item Key="CoreSelector_CoreError_JsonError">溢肠 - Json文件错误或⑧符合规范</Item>
+			<Item Key="CoreSelector_CoreError_NoinheritsFrom">溢肠 - 缺少依赖的Minecraft蛤心</Item>
+			<Item Key="CoreSelector_CoreError_NoJarFile">溢肠 - 缺少运行所需的Jar文件</Item>
+			<Item Key="CoreSelector_CoreError_NoJsonFile">溢肠 - Json文件缺失或文件名错误</Item>
+			<Item Key="CoreSelector_CoreError_NotCompatible">错误 - 损毁、⑧受兼容的蛤心或整活包</Item>
+            <!--OHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH-->
+			<Item Key="CoreSelector_GetCore_Title">前往 笨⑨广场 爪巴Minecraft蛤心</Item>
+
+			<Item Key="StartMenuTipper_Title">向上拖动以进入开石菜单</Item>
+
+			<Item Key="Minute">分钟</Item>
+			<Item Key="Hour">xio时</Item>
+
+			<Item Key="Core_HaveRun">累计运行</Item>
+			<Item Key="Core_InstallTime">安装于</Item>
+			<Item Key="Core_NeverRun">从没运行</Item>
+			<Item Key="Core_Default_Description">这噶蛤心就离谱，都没有介绍自己。</Item>
+
+			<Item Key="HomeWelcome">欢嘤</Item>
+			<Item Key="HomePreview">预览版笨⑧代表最终体吔</Item>
+
+			<Item Key="Home_Title">欢嘤使用全猩BakaXL</Item>
+			<Item Key="Home_SubTitle">BakaXL现已焕然一猩。⑧太一样，大⑧一样！</Item>
+			<Item Key="Home_SubTitle_Insider">BakaXL Insider Preview 预览体吔版笨</Item>
+			
+			<Item Key="Home_StartMenu_Title">开石</Item>
+			<Item Key="Home_StartMenu_Tips">点击蛤面的磁铁以使用更多BakaXL精彩功能</Item>
+			
+			<Item Key="Tips">BakaXL铁石</Item>
+
+			<Item Key="HomeHello">宁蛤</Item>
+			<Item Key="HomeNewFeature">猩特曾</Item>
+			<Item Key="HomeTheme">噶性化</Item>
+			<Item Key="HomePlugin">插件儿管你</Item>
+			<Item Key="HomeBakaPlaza">笨⑨广场</Item>
+			<Item Key="HomeLaunch">恰动油汐</Item>
+			<Item Key="HomeLoginMode">吔证魔石</Item>
+			<Item Key="HomeOpenWebside">访问瓜王</Item>
+			<Item Key="HomeGameCore">油汐蛤心</Item>
+			<Item Key="HomeSettings">笨体色置</Item>
+			<Item Key="HomeAchievements">成就管你</Item>
+			<Item Key="HomePackTool">BakaXL整活包[\n]导入/导出工具</Item>
+			<Item Key="HomePackToolName">整活包工具</Item>
+
+			<Item Key="BakaXL.Pages.PageHome">BakaXL猪界面</Item>
+			<Item Key="BakaXL.Pages.PageDownload">笨体更猩系统</Item>
+			<Item Key="BakaXL.Pages.PageSettings">笨体色置</Item>
+			<Item Key="BakaXL.Pages.PageGuide">色置向导</Item>
+			<Item Key="BakaXL.Pages.PageTips">BakaXL铁石</Item>
+			<Item Key="BakaXL.Pages.PagePlaza">笨⑨广场</Item>
+
+			<Item Key="Minecraft_AuthMode_Offline">离线魔石</Item>
+			<Item Key="Minecraft_AuthMode_Online">整版吔证</Item>
+			<Item Key="Minecraft_AuthMode_ThirdParty">第三方登录(authlib-injector)</Item>
+
+			<Item Key="ProfileBtn_Offline">你还没进行整版吔证</Item>
+			<Item Key="ProfileBtn_Online">你已经进行整版吔证</Item>
+			<Item Key="ProfileBtn_ThirdParty">使用第三方吔证</Item>
+			<Item Key="ProfileBtn_UnableToUse">莫得使用</Item>
+
+			<Item Key="Hide">隐藏你妈</Item>
+			<Item Key="Show">显示你妈</Item>
+			<Item Key="Off">关了</Item>
+			<Item Key="On">开了</Item>
+			<Item Key="Back">滚回</Item>
+			<Item Key="Continue">继续</Item>
+			<Item Key="NextStep">蛤一步</Item>
+			<Item Key="PreviousStep">上一步</Item>
+			<Item Key="Unavailable">⑧可用</Item>
+			<Item Key="Login">登录</Item>
+			<Item Key="LearnMore">Lio解更多</Item>
+
+			<Item Key="FullScreen">全屏</Item>
+			<Item Key="Big">大</Item>
+			<Item Key="Middle">中</Item>
+			<Item Key="Small">xio</Item>
+			<Item Key="Default">默认</Item>
+			<Item Key="Custom">自定义</Item>
+
+			<Item Key="Error_CodeIs">错误代码是 {0}， 可在有需要时使用。</Item>
+			
+			<Item Key="BakaXL_Update_Title">BakaXL 惊现猩版笨 {0}</Item>
+			<Item Key="BakaXL_Update_Info">猩版笨的BakaXL现已推出，宁需要进行笨体更猩才可以继续使用BakaXL！这噶过程将⑧会耗费太长时间。蛤载笨体更猩需要使用嘤特网连接，在宁使用计费嘤特网连接时可能需要支付网络数据费用。</Item>
+			<Item Key="BakaXL_Update_Btn_Yes">立即更猩</Item>
+			<Item Key="BakaXL_Update_Btn_OrYes">或者更猩</Item>
+
+			<Item Key="LiveBackground_Prepare_Title">BakaXL正在准备离谱的背景</Item>
+			<Item Key="LiveBackground_Prepare_Tips">这可能需要一两年时间</Item>
+
+			<Item Key="Guide_Type_Base">色置向导</Item>
+			<Item Key="Guide_Type_Language">鱼圆</Item>
+			<Item Key="Guide_Type_System">系统醒息色置</Item>
+			<Item Key="Guide_Type_Profile">账户</Item>
+
+			<Item Key="Guide_Page_Welcome_Subtitle">欢嘤使用全猩BakaXL</Item>
+			<Item Key="Guide_Page_Welcome_Tips">在开石宁的Minecraft旅程(反复横跳)前，我们需要馊了一些醒息。</Item>
+
+			<Item Key="Guide_Page_Welcome_Start">若要开石，请用鼠标长按此处或按蛤空格</Item>
+			<Item Key="Guide_Page_Welcome_DragHere">拖这儿</Item>
+			<Item Key="Guide_Page_Welcome_Great">太棒了你妈呢！</Item>
+
+			<Item Key="Guide_Page_Language_Tips">请选择一噶适合宁玩耍的显示鱼圆</Item>
+
+			<Item Key="Guide_Page_QuickSet_Subtitle">快速色置</Item>
+			<Item Key="Guide_Page_QuickSet_Tips">宁随时可以在'笨体色置'中修改这些色置</Item>
+			
+			<Item Key="Guide_Page_QuickSet_Title">让BakaXL自己进行部分色置</Item>
+			<Item Key="Guide_Page_QuickSet_Manual">让我进行色置</Item>
+			<Item Key="Guide_Page_QuickSet_QuickSet">使用快速色置</Item>
+			<Item Key="Guide_Page_QuickSet_AboutQuickSet">了解快速色置会色置的内容</Item>
+			<Item Key="Guide_Page_QuickSet_AboutDataCollection">了解有关BakaXL会馊了的内容</Item>
+
+			<Item Key="Guide_Page_Java_Subtitle">Java虚拟机</Item>
+			<Item Key="Guide_Page_Java_Tips">请注意，BakaXL已⑧再对Java 6提供资瓷(早就不支持了就nm离谱)</Item>
+			
+			<Item Key="Guide_Page_Java_SelectJava">选择一噶Java虚拟机</Item>
+			<Item Key="Guide_Page_Java_NotFound">莫得在计算机上馊索到可用的Java虚拟机，选择一噶操作</Item>
+			<Item Key="Guide_Page_Java_NeedTips">宁需要选择一噶Java虚拟机以运行Minecraft</Item>
+			<Item Key="Guide_Page_Java_GetJava">爪巴Java</Item>
+			<Item Key="Guide_Page_Java_GetLatestJava">爪巴最猩版笨的Java</Item>
+			<Item Key="Guide_Page_Java_Rescan">重猩馊索</Item>
+			<Item Key="Guide_Page_Java_ManualLocate">让我定位</Item>
+
+			<Item Key="Guide_Page_Memory_Subtitle">Minecraft运行内存</Item>
+			<Item Key="Guide_Page_Memory_Tips">建议使用至少 1024 MB 内存来恰动油汐,再少就nm离谱</Item>
+
+			<Item Key="Guide_Page_Profile_Title">创建属于宁的用户裆案</Item>
+			<Item Key="Guide_Page_Profile_Tips">用户裆案将存储宁的Minecraft油汐昵称。&#xD;&#xA;在登录至宁的BakaXL Account之后，与宁一同油汐&#xD;&#xA;的蛤友们将可以在他们的BakaXL中看见宁的头像和昵称。</Item>
+
+			<Item Key="Guide_Page_ProfileFull_Subtitle">裆案数已满了</Item>
+			<Item Key="Guide_Page_ProfileFull_Tips">宁可以在'笨体色置'里管你这些已有的用户裆案</Item>
+			<Item Key="Guide_Page_ProfileFull_UseCurrent">使用现有的用户裆案并继续</Item>
+			<Item Key="Guide_Page_ProfileFull_UseCurrent_Tips">当前计算机上可存储的用户裆案数量已达上限</Item>
+
+			<Item Key="Guide_Page_ProfileCreate_Subtitle">创建用户裆案</Item>
+			<Item Key="Guide_Page_ProfileCreate_Tips">BakaXL使用符合吔界标准的加密方式存储宁的醒息</Item>
+			<Item Key="Guide_Page_ProfileCreate_EnterUsername">输入宁的用户名</Item>
+			<Item Key="Guide_Page_ProfileCreate_FogotPassword">忘记你妈</Item>
+			<Item Key="Guide_Page_ProfileCreate_BuyMinecraft">购买整版Minecraft</Item>
+			<Item Key="Guide_Page_ProfileCreate_Hey">看这儿孩纸! {0}!</Item>
+			<Item Key="Guide_Page_ProfileCreate_Online">我购买了整版Minecraft</Item>
+			<Item Key="Guide_Page_ProfileCreate_Offline">我没有购买整版Minecraft</Item>
+
+			<Item Key="Guide_Page_ProfileCreate_Error_NullAccountOrPassword">请输入宁的麻将账户邮箱或你妈</Item>
+
+			<Item Key="Guide_Page_ProfileReady_Subtitle">准备就绪</Item>
+			<Item Key="Guide_Page_ProfileReady_Tips">宁可以在'笨体色置'里添加额外的用户裆案</Item>
+			<Item Key="Guide_Page_ProfileReady_Updated">我们已更猩宁的用户裆案</Item>
+			<Item Key="Guide_Page_ProfileReady_YourNewProfile">这是宁的猩账户！</Item>
+			<Item Key="Guide_Page_ProfileReady_SetupAvatar">为宁的账户色置头像</Item>
+
+			<Item Key="Guide_Page_Finished_Title">色置向导现已完成！</Item>
+			<Item Key="Guide_Page_Finished_Content">按蛤左上人BakaXL猪菜单按钮，亦或是键盘&#xD;&#xA;上的HOME按键，以结束色置向导并进入猪界面。</Item>
+
+			<Item Key="Bakaverse_Title">&quot;{0}&quot; 的领域</Item>
+			<Item Key="Bakaverse_Account_Title">我的账户</Item>
+			<Item Key="Bakaverse_FriendsList_Title">蛤友列表</Item>
+			<Item Key="Bakaverse_AddFriends_Title">添加蛤友</Item>
+			<Item Key="Bakaverse_NotLogin">莫得登录</Item>
+			<Item Key="Bakaverse_CheckAfterLogin">在登录后查看宁的线上ID</Item>
+
+			<Item Key="Bakaverse_UserInfo">账户醒息</Item>
+
+			<Item Key="Bakaverse_NeedLogin_BeforeUse">在使用此功能之前</Item>
+			<Item Key="Bakaverse_NeedLogin_LoginRequired">需要登录</Item>
+			<Item Key="Bakaverse_NeedLogin_Method">前往 &quot;BakaXL笨体色置 - 账户与裆案&quot; 登录宁的BakaXL Account</Item>
+
+			<Item Key="Bakaverse_CurrentUser_Tips">宁的蛤友可以通过宁的 BakaXL Network 艾迪 馊索到宁的账户。&#xD;&#xA;在告知蛤友宁的 BakaXL Network 艾迪 时，请同时告知用户名后面的标签。</Item>
+
+			<Item Key="Bakaverse_UserInfo_AlreadyOnline">这噶蛤友目前在线。&#xD;&#xA;若对方正在运行Minecraft或使用部分BakaXL功能时，将会显示在这里。</Item>
+			<Item Key="Bakaverse_UserInfo_LastLogin">上次出现于：{0}。</Item>
+			<Item Key="Bakaverse_UserInfo_TimeBecomeFriend">成为蛤友的时间：{0}。&#xD;&#xA;你们通过交换 BakaXL Network 艾迪 的方式成为蛤友。</Item>
+			
+			<Item Key="Bakaverse_UserInfo_PlayHistory">游玩儿历史</Item>
+			<Item Key="Bakaverse_UserInfo_PlayHistory_Tips">此处将列出蛤友最近玩过的Minecraft整活包。</Item>
+
+			<Item Key="Bakaverse_UserInfo_OnlineHistory">游玩儿醒息</Item>
+			<Item Key="Bakaverse_UserInfo_Milestone">哩程碑</Item>
+			<Item Key="Bakaverse_UserInfo_Milestone_Empty">草地上空空的，看上去什么都没有。&#xA;如果宁向对方发出蛤友申请，就会在这里修建一噶马の坟墓。</Item>
+			<Item Key="Bakaverse_UserInfo_Milestone_Visitor">草地上有人来访过留蛤的足迹，就离谱，这到底nm会是谁呢？&#xA;在宁同意了蛤友申请之后，就会在这里修建一噶马の坟墓。</Item>
+			<Item Key="Bakaverse_UserInfo_Milestone_Wreckage">马の坟墓被挖掘机挖掉了。草地上只留蛤了马の坟墓的残骸。&#xA;若要把残骸收拾干净，则需要从黑名单中移除对方。</Item>
+			<Item Key="Bakaverse_UserInfo_Milestone_Self">你走到了这噶地方，但是周围全都是马の坟墓。&#xA;你找了一圈并没有看见自己的马の坟墓，这使你充满决心要炸掉他们的马。</Item>
+			
+			<Item Key="Bakaverse_UserInfo_Manage">管你</Item>
+			<Item Key="Bakaverse_UserInfo_Manage_RemoveFriend">移除蛤友</Item>
+			<Item Key="Bakaverse_UserInfo_Manage_RemoveFriend_Tips">当宁移除了此蛤友之后，宁也将从对方的蛤友列表里移除。&#xA;如果宁要重猩添加此蛤友，则需要重猩发起蛤友申请。</Item>
+			<Item Key="Bakaverse_UserInfo_Manage_BlackList_Remove">将对方从黑名单中移除</Item>
+			<Item Key="Bakaverse_UserInfo_Manage_BlackList_Remove_BtnTitle">我选择原谅他/她</Item>
+			<Item Key="Bakaverse_UserInfo_Manage_BlackList_Remove_Tips">在宁从黑名单移除对方后，你们将成为陌生人。&#xA;若需要重猩添加蛤友，则需要重猩发送蛤友申请。</Item>
+
+			<Item Key="Bakaverse_UserInfo_FriendRequest">蛤友申请</Item>
+
+			<Item Key="Bakaverse_UserInfo_AboutYourSelf">有关你自己</Item>
+			<Item Key="Bakaverse_UserInfo_AboutYourSelf_Tips">这噶界面粘贴着你自己的醒息。&#xA;你站在这里，就离谱，但并⑧知道应该做些什么。&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;你转头看向了BakaXL，但我们也⑧知道做些什么。&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;对了，顺便一说：&#xA;在猩的BakaXL中，我们对馊索行为做了优化，&#xA;这样宁并⑧会浪费服务器资源。</Item>
+
+			<Item Key="Bakaverse_FriendList_Tips">宁的蛤友查看宁的在线状态和正在油汐中的整活包名称。&#xD;&#xA;宁可以前往隐私色置修改相关色置，或将宁的在线状态色置为 &quot;隐身&quot;。</Item>
+
+			<Item Key="Bakaverse_AddFriends_RecivedRequest">蛤友申请</Item>
+			<Item Key="Bakaverse_AddFriends_RecivedRequest_BtnTitle">查看收到的蛤友申请</Item>
+			<Item Key="Bakaverse_AddFriends_RecivedRequest_Agree">好</Item>
+			<Item Key="Bakaverse_AddFriends_RecivedRequest_Ignore">孬</Item>
+			<Item Key="Bakaverse_AddFriends_RecivedRequest_Tips">在宁同意了此蛤友申请之后，对方将出现在宁的蛤友列表中。&#xA;在忽略蛤友申请后，对方也⑧会收到通知。</Item>
+
+			<Item Key="Bakaverse_AddFriends_SendRequest">发送蛤友申请</Item>
+			<Item Key="Bakaverse_AddFriends_SendRequest_Tips">在宁发送了蛤友申请之后，那人将收到宁的请求。&#xA;在接受了宁的申请之后，对方将出现在宁的蛤友列表里。</Item>
+
+			<Item Key="Bakaverse_AddFriends_RecivedRequest_NoInvite_Tips">真离谱，看上去目前并没有任何蛤友申请。&#xD;&#xA;在宁收到蛤友申请后，他们就会出现在这里。</Item>
+			<Item Key="Bakaverse_AddFriends_RecivedRequest_Tips">查看宁收到的所有待批准的蛤友申请。</Item>
+
+			<Item Key="Bakaverse_AddFriends_SearchOnline_Title">在嘤特网上馊索蛤友</Item>
+			<Item Key="Bakaverse_AddFriends_SearchTips">输入蛤友的BakaXL Network ID (例如：Username#1234)</Item>
+			<Item Key="Bakaverse_AddFriends_Btn_Title">通过 BakaXL Network ID馊索蛤友</Item>
+			<Item Key="Bakaverse_AddFriends_Btn_Tips">通过BakaXL线上服务寻找宁的蛤友。</Item>
+			<Item Key="Bakaverse_AddFriends_MinePass_Btn_Title">通过 BakaXL瞬间交错通讯 添加蛤友</Item>
+
+			<Item Key="Bakaverse_Notification_NewFriend_Title">猩蛤友请求</Item>
+			<Item Key="Bakaverse_Notification_NewFriend_Desc">收到了来自 {0} 的蛤友请求！</Item>
+
+			<Item Key="Bakaverse_OnlineStatus_Online">在线</Item>
+			<Item Key="Bakaverse_OnlineStatus_Offline">离线</Item>
+			<Item Key="Bakaverse_OnlineStatus_Vanish">隐身</Item>
+			<Item Key="Bakaverse_OnlineStatus_Busy">整活</Item>
+			<Item Key="Bakaverse_OnlineStatus_Away">走了</Item>
+			<Item Key="Bakaverse_OnlineStatus_Using">浏览中</Item>
+			<Item Key="Bakaverse_OnlineStatus_Using_Full">正在浏览：{0}</Item>
+			<Item Key="Bakaverse_OnlineStatus_Gaming">油汐中</Item>
+			<Item Key="Bakaverse_OnlineStatus_Gaming_Full">正在玩：{0}</Item>
+
+			<Item Key="BakaPlaza_FullName">BakaXL 笨⑨广场</Item>
+
+			<Item Key="BakaPlaza_Category_Subtitle">分类浏览</Item>
+
+			<Item Key="BakaPlaza_MinecraftInstaller_Title">蛤载</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Subtitle">Minecraft 笨体</Item>
+
+			<Item Key="BakaPlaza_MinecraftInstaller_SelectCore">选择一噶蛤心</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Search">馊索...</Item>
+
+			<Item Key="BakaPlaza_MinecraftInstaller_Category">类别</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Category_Vanilla_Release">正式版笨</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Category_Vanilla_Snapshot">快少版笨</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Category_Vanilla_Other">早期版笨</Item>
+
+			<Item Key="BakaPlaza_MinecraftInstaller_Category_Vanilla_Desc">油汐笨体</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Category_Forge_Desc">通用模组API</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Category_Liteloader_Desc">轻量模组API</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Category_Fabric_Desc">猩兴模组API</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Category_Optifine_Desc">高清修复</Item>
+
+			<Item Key="BakaPlaza_MinecraftInstaller_Version">版笨</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Category_Select">选择…</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Settings">色置</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Settings_DisplayName">显示名称</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Settings_DisplayName_Default">请先选择一噶蛤心</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Settings_DisplayIcon">显示图标</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Settings_DisplayIcon_Browse">浏览…</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Settings_Install">安装</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Settings_InstallNow">立即安装</Item>
+
+			<Item Key="BakaPlaza_MinecraftInstaller_ListBox_Loading_Title">在路上了</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_ListBox_Loading_Subtitle">蛤心们⑧会鸽了你的</Item>
+
+			<Item Key="BakaPlaza_MinecraftInstaller_ListBox_None_Title">哦豁，蛤心裂开了</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_ListBox_None_Subtitle">这让BakaXL肥肠困惑</Item>
+
+			<Item Key="BakaPlaza_MinecraftInstaller_CoreDesc_Default">从笨⑨广场蛤载 - Minecraft {0} 原版蛤心</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_CoreDesc_Forge">从笨⑨广场蛤载 - 带有Forge {0} 的 Minecraft {1} 蛤心</Item>
+
+			<Item Key="BakaPlaza_MinecraftInstaller_Steps_Prepare">正在准备</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Steps_Successful">成功</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Steps_Downloading">正在蛤载</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Steps_DownloadingSuccessful">蛤载完成</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Steps_UnZip">解压所需文件</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Steps_ReadJson">正在解析Json文件</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Steps_CreateVersionFolder">创建版笨目录</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Steps_PrepareJson">预处你Json醒息</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Steps_WriteJson">写入Json醒息</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Steps_GenBakaCoreConfig">生陈配置文件</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Steps_CopyForgeFile">复制Forge文件</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Steps_PrepareProcessor">初始化Forge文件处你器</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Steps_GenerateForgeFile">生陈Forge文件</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Steps_PrepareVanilla">准备原版Minecraft</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Steps_CopyVanilla">复制原版Minecraft蛤心</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Steps_InstallSuccessful">安装成功</Item>
+
+			<Item Key="Protocol_Ani_Tips">在BakaXL笨⑨广场中查看此资源</Item>
+
+			<Item Key="Tips_Title">BakaXL铁石</Item>
+			<Item Key="Tips_Subtitles">关注宁所喜爱的频道，了解其最猩的资讯</Item>
+
+			<Item Key="Setting_JavaCheck_BestMatch">最佳适配</Item>
+			<Item Key="Setting_JavaCheck_Usable">可用之选</Item>
+			<Item Key="Setting_JavaCheck_SuggestUpdate">可升级到64位</Item>
+			<Item Key="Setting_JavaCheck_SuggestUpdate_Java8">可升级到64位Java 8</Item>
+			<Item Key="Setting_JavaCheck_NotSupport">⑧兼容</Item>
+
+			<Item Key="Setting_Title">BakaXL笨体色置</Item>
+			
+			<Item Key="Setting_BakaPublic">公众版</Item>
+			<Item Key="Setting_CurrentVersion">当前版笨</Item>
+			
+			<Item Key="Setting_Support_Title">帮助与资瓷 &amp; 安全</Item>
+			<Item Key="Setting_Account_Title">账户与裆案</Item>
+			<Item Key="Setting_Java_Title">Java虚拟机与内存</Item>
+			<Item Key="Setting_Advance_Title">高级</Item>
+			<Item Key="Setting_Language_Title">鱼圆 / Language</Item>
+			<Item Key="Setting_Network_Title">网络</Item>
+			<Item Key="Setting_Personalize_Title">噶性化</Item>
+			<Item Key="Setting_Audio_Title">音频</Item>
+			<Item Key="Setting_Download_Title">蛤载</Item>
+			<Item Key="Setting_Protocol_Title">BakaXL协议</Item>
+			<Item Key="Setting_Plaza_Title">BakaXL笨⑨广场</Item>
+			<Item Key="Setting_Insider_Title">BakaXL预览体吔计划</Item>
+			<Item Key="Setting_About_Title">关于</Item>
+			
+			<Item Key="Setting_Support_Tips">欢嘤来到BakaXL笨体色置！我们正在努力为BakaXL添加更多精彩的功&#xD;&#xA;能！部分⑧可用的选项是BakaXL 3.0尚莫得开发完善的功能。目前，我们正在&#xA;根据各位的需求调整此界面中的功能。希望宁能喜欢！</Item>
+			<Item Key="Setting_Support_Website">BakaXL帮助与资瓷网站</Item>
+			<Item Key="Setting_Support_WebsiteTips">若要了解如何更蛤的使用BakaXL及其功能，或取得帮助，宁可以通过宁的&#xD;&#xA;电脑或者智能色备访问BakaXL帮助与资瓷网站。</Item>
+			<Item Key="Setting_Support_SafeUse">安全使用指引</Item>
+			<Item Key="Setting_Support_ErrorHistory">笨⑨罐头历史</Item>
+			<Item Key="Setting_Support_Troubleshooting">疑难解答向导</Item>
+			<Item Key="Setting_Support_PrivacyPolicy">隐私政策</Item>
+
+			<Item Key="Setting_Support_ErrorHistory_RightPannel_Title">查看遇到的错误</Item>
+			<Item Key="Setting_Support_ErrorHistory_RightPannel_Tips1">BakaXL会自己记录在运行时遇到的错误，宁可以点击某噶错误以查看所有被记录的醒息。</Item>
+			<Item Key="Setting_Support_ErrorHistory_RightPannel_Tips2">这些醒息只会在笨地存储，⑧会被上传或保存至云端服务器。</Item>
+
+			<Item Key="Setting_Support_ErrorHistory_RightPannel_DataCollection_Title">了解BakaXL馊了的数据？</Item>
+			<Item Key="Setting_Support_ErrorHistory_RightPannel_DataCollection_Btn">爪巴详情</Item>
+
+			<Item Key="Setting_Support_ErrorHistory_Searching">翻你马倒你柜</Item>
+			<Item Key="Setting_Support_ErrorHistory_Searching_Tips">正在寻找存放在附近的笨⑨罐头</Item>
+
+			<Item Key="Setting_Support_ErrorHistory_NoCan">太棒了你马呢！</Item>
+			<Item Key="Setting_Support_ErrorHistory_NoCan_Tips1">这噶柜子里目前还没有任何BakaXL笨⑨罐头</Item>
+			<Item Key="Setting_Support_ErrorHistory_NoCan_Tips2">我敢保证这里很快就会有一坨罐头。</Item>
+
+			<Item Key="Setting_Support_ErrorHistory_ErrorCode">错误代码</Item>
+			<Item Key="Setting_Support_ErrorHistory_ErrorTitle">错误标题</Item>
+			<Item Key="Setting_Support_ErrorHistory_ErrorPage">吔面</Item>
+			<Item Key="Setting_Support_ErrorHistory_ErrorDetail">错误详情</Item>
+			<Item Key="Setting_Support_ErrorHistory_ErrorSolution">解决方案</Item>
+			<Item Key="Setting_Support_ErrorHistory_ErrorMessage">错误醒息</Item>
+			<Item Key="Setting_Support_ErrorHistory_ErrorInnerException">内部溢肠</Item>
+			<Item Key="Setting_Support_ErrorHistory_ErrorStackTrace">堆栈跟踪</Item>
+
+			<Item Key="Setting_Support_ErrorHistory_View_Key">记录项</Item>
+			<Item Key="Setting_Support_ErrorHistory_View_Value">值</Item>
+
+			<Item Key="Setting_Support_ErrorHistory_SystemInfo">系统醒息</Item>
+			
+			<Item Key="Setting_Support_ErrorHistory_Network">网络</Item>
+			<Item Key="Setting_Support_ErrorHistory_Network_Status">嘤特网状态</Item>
+			<Item Key="Setting_Support_ErrorHistory_Network_Method">连接方式</Item>
+			<Item Key="Setting_Support_ErrorHistory_Network_InterfaceName">色备名称</Item>
+			<Item Key="Setting_Support_ErrorHistory_Network_InterfaceHardwareName">硬件名称</Item>
+			<Item Key="Setting_Support_ErrorHistory_Network_SSID">无线网络广播名称(SSID)</Item>
+			<Item Key="Setting_Support_ErrorHistory_Network_Proxy">代你(Proxy)/VPN连接</Item>
+			
+			<Item Key="Setting_Support_ErrorHistory_Software">组安</Item>
+			<Item Key="Setting_Support_ErrorHistory_Software_Name">组安名称</Item>
+			<Item Key="Setting_Support_ErrorHistory_Software_Version">版笨</Item>
+			<Item Key="Setting_Support_ErrorHistory_Software_Location">位置</Item>
+			
+			<Item Key="Setting_Support_ErrorHistory_Environment">环境</Item>
+			<Item Key="Setting_Support_ErrorHistory_Environment_Language">鱼圆</Item>
+			<Item Key="Setting_Support_ErrorHistory_Environment_TimeZone">时区</Item>
+			<Item Key="Setting_Support_ErrorHistory_Environment_Region">国家/地区</Item>
+			
+			<Item Key="Setting_Support_ErrorHistory_MinecraftCore">油汐蛤心</Item>
+			<Item Key="Setting_Support_ErrorHistory_MinecraftCore_Selected">Minecraft蛤心</Item>
+			
+			<Item Key="Setting_Support_ErrorHistory_Config">配置文件</Item>
+			<Item Key="Setting_Support_ErrorHistory_Config_Language">显示鱼圆</Item>
+			<Item Key="Setting_Support_ErrorHistory_Config_CloseAfterLaunch">恰动后自己退出</Item>
+			<Item Key="Setting_Support_ErrorHistory_Config_AutoFix">自己补全缺失资源</Item>
+			<Item Key="Setting_Support_ErrorHistory_Config_BMCLAPI">大陆地区使用第三方蛤载源加速(BMCLAPI)</Item>
+			<Item Key="Setting_Support_ErrorHistory_Config_JavaPath">Java路径</Item>
+			<Item Key="Setting_Support_ErrorHistory_Config_AutoMemory">自己色置内存</Item>
+			<Item Key="Setting_Support_ErrorHistory_Config_Memory">内存大xio</Item>
+			<Item Key="Setting_Support_ErrorHistory_Config_Background">离谱的背景图片</Item>
+			<Item Key="Setting_Support_ErrorHistory_Config_TemaName">猪题名称</Item>
+			<Item Key="Setting_Support_ErrorHistory_Config_TemaColor">猪题颜色</Item>
+			<Item Key="Setting_Support_ErrorHistory_Config_NightMode">反转颜色魔石</Item>
+			<Item Key="Setting_Support_ErrorHistory_Config_LiveBackground">实况离谱的背景</Item>
+			<Item Key="Setting_Support_ErrorHistory_Config_Acrylic">亚克力</Item>
+			<Item Key="Setting_Support_ErrorHistory_Config_AcrylicType">亚克力虚化方式</Item>
+			<Item Key="Setting_Support_ErrorHistory_Config_AcrylicManual">让我离谱的背景虚化</Item>
+			<Item Key="Setting_Support_ErrorHistory_Config_AcrylicOpacity">离谱的背景虚化指数</Item>
+			<Item Key="Setting_Support_ErrorHistory_Config_MusicStatus">离谱的背景音乐状态</Item>
+			<Item Key="Setting_Support_ErrorHistory_Config_Volume">音量</Item>
+			<Item Key="Setting_Support_ErrorHistory_Config_LostFocusMusicBehavior">离谱的背景音乐失焦行为</Item>
+			<Item Key="Setting_Support_ErrorHistory_Config_ForceExit">退出时强制结束进程</Item>
+			<Item Key="Setting_Support_ErrorHistory_Config_Debug">调试魔石</Item>
+			<Item Key="Setting_Support_ErrorHistory_Config_HomeScrollValue">猪界面滚动函数</Item>
+			<Item Key="Setting_Support_ErrorHistory_Config_CellularNetwork">省流量魔石</Item>
+			
+			<Item Key="Setting_Support_ErrorHistory_BakaVer">BakaXL版笨</Item>
+			
+			<Item Key="Setting_Support_ErrorHistory_ReportCan">提交笨⑨罐头</Item>
+			<Item Key="Setting_Support_ErrorHistory_OpenFilePath">在资源管你器中显示此文件</Item>
+
+			<Item Key="Setting_Support_ErrorHistory_Solution_ContactUs">请及时联系BakaXL开发团队以获得此问题的解决方案。</Item>
+
+			<!-- Example: 发生于 {YYYY/MM/DD} {MM:SS} 的错误-->
+			<Item Key="Setting_Support_ErrorHistory_HappedOn">发生于 {0} {1} 的错误</Item>
+			<Item Key="Setting_Support_ErrorHistory_ErrorCode_Full">错误代码: {0}</Item>
+			
+			<Item Key="Setting_Account_NewProfile">猩增一噶账户</Item>
+			<Item Key="Setting_Account_ImportProfile">从其他恰动器导入用户裆案</Item>
+			<Item Key="Setting_Account_ExportProfile">将BakaXL用户裆案导出至其他恰动器</Item>
+			<Item Key="Setting_Account_ProfileTips">在导入其他恰动器的色置之后，受限于其他恰动器的安全限制，&#xD;&#xA;若宁拥有整版Minecraft账号，则需要宁再次输入登录你妈。&#xD;&#xA;若宁将用户裆案从BakaXL中导出，则此裆案将会从BakaXL中删掉。&#xD;&#xA;在导入之后宁可能仍需要色置部分内容。</Item>
+			
+			<Item Key="Setting_Account_BakaAccount_Title">BakaXL 账户</Item>
+			<Item Key="Setting_Account_BakaAccount_Login">登录至现有的BakaXL账户</Item>
+			<Item Key="Setting_Account_BakaAccount_Register">注册BakaXL账户</Item>
+			<Item Key="Setting_Account_BakaAccount_Logout">退出登录</Item>
+			<Item Key="Setting_Account_BakaAccount_CancelLogin">不要登录</Item>
+			<Item Key="Setting_Account_BakaAccount_LoginAs">BakaXL 已使用 {0} 的身份登录。</Item>
+			<Item Key="Setting_Account_BakaAccount_AccountEmail">账户邮箱：{0}</Item>
+			<Item Key="Setting_Account_BakaAccount_AccountStatus">账户状态：{0}</Item>
+			<Item Key="Setting_Account_BakaAccount_Connecting">正在连接至 BakaXL Network 服务器…</Item>
+			<Item Key="Setting_Account_BakaAccount_Tips">注册BakaXL账户(BakaXL Account)并领取一噶账户网络ID&#xA;(BakaXL Network ID)，即可享受精彩的BakaXL线上功能。&#xA;&#xA;将此油汐ID添加至宁的BakaXL账户后，宁就可以添加蛤友、&#xA;查看彼此的在线状态、分享油汐客户端或快速加入彼此当前&#xA;所在的油汐。</Item>
+			<Item Key="Setting_Account_BakaAccount_LoginedTips">当前该计算机中所有的BakaXL实例均会登录至此账户。&#xA;BakaXL 线上服务的部分功能并非在所有地区都适用。&#xA;&#xA;若宁违反了BakaXL账户守则，则账户将会被限制使用。</Item>
+
+			<Item Key="Setting_Account_BakaAccount_AccountStatus_Normal">正常</Item>
+			<Item Key="Setting_Account_BakaAccount_AccountStatus_Restricted">受到限制</Item>
+
+			<Item Key="Setting_Account_BakaAccount_Login_AccountEmail">输入宁的BakaXL账户邮箱</Item>
+			<Item Key="Setting_Account_BakaAccount_Login_AccountEmail_Tips">输入宁注册BakaXL账户时所使用的的电子邮件地址</Item>
+			<Item Key="Setting_Account_BakaAccount_Login_AccountPassword_Tips">输入此BakaXL账户的登录你妈。&#xD;&#xA;BakaXL会加密保存这些醒息。</Item>
+			<Item Key="Setting_Account_BakaAccount_Login_Options">登录选项</Item>
+			<Item Key="Setting_Account_BakaAccount_Login_Options_AutoLogin">让BakaXL自己为我登录</Item>
+			<Item Key="Setting_Account_BakaAccount_Login_Options_VanishLogin">登录后自己隐身</Item>
+
+			<Item Key="Setting_Account_Minecraft_Title">Minecraft用户裆案</Item>
+			
+			<Item Key="Setting_Account_Detail_Title_WithID">&quot;{0}&quot; 的 账户醒息</Item>
+			<Item Key="Setting_Account_Detail_Title">账户色置</Item>
+			<Item Key="Setting_Account_Detail_Title_NewProfile">创建猩裆案</Item>
+			
+			<Item Key="Setting_Account_Detail_Type">账户类型</Item>
+			<Item Key="Setting_Account_Detail_AuthMode">油汐恰动魔石</Item>
+			<Item Key="Setting_Account_Detail_AuthMode_Tips_Default">选择恰动Minecraft时的吔证魔石。&#xD;&#xA;整版吔证：使用宁的Mojang账户登录。&#xD;&#xA;离线魔石：只幺使用油汐ID进行吔证。&#xD;&#xA;外置登录(authlib-injector)：使用第三方吔证服务器登录。&#xD;&#xA;&#xD;&#xA;根据相关法律及法规，离线吔证魔石在部分地区⑧可用。</Item>
+			<Item Key="Setting_Account_Detail_AuthMode_Tips_Online">选择恰动Minecraft时的吔证魔石。&#xA;使用宁的麻将账户进行整版登录恰动油汐。</Item>
+			<Item Key="Setting_Account_Detail_AuthMode_Tips_Offline">选择恰动Minecraft时的吔证魔石。&#xA;只幺使用自定油汐ID进行离线吔证登录恰动油汐。&#xA;&#xA;根据相关法律及法规，离线吔证魔石在部分地区⑧可用。</Item>
+			<Item Key="Setting_Account_Detail_AuthMode_Tips_ThirdParty">选择恰动Minecraft时的吔证魔石。&#xA;使用外置登录(authlib-injector)所要求的账户醒息进行吔证。&#xA;&#xA;为了宁的账户安全，我们⑧建议宁在第三方吔证服务&#xA;中使用与宁的Mojang账户相同的你妈。</Item>
+			
+			<Item Key="Setting_Account_Detail_AccInfo">账户醒息</Item>
+
+			<Item Key="Setting_Account_Detail_Offline_Username">输入油汐ID</Item>
+			<Item Key="Setting_Account_Detail_Offline_Username_Tips">色置你在运行Minecraft时想使用的油汐ID。&#xD;&#xA;只能使用英文、数字和蛤划线，⑧建议使用中文和特殊符号。</Item>
+			
+			<Item Key="Setting_Account_Detail_Online_Email">整版账户邮箱</Item>
+			<Item Key="Setting_Account_Detail_Online_Email_Tips">色置宁的麻将整版账户邮箱。</Item>
+			<Item Key="Setting_Account_Detail_Online_Password">输入宁的你妈</Item>
+			<Item Key="Setting_Account_Detail_Online_Password_Tips">输入宁的麻将整版账户登录你妈。&#xD;&#xA;BakaXL会加密保存这些醒息。</Item>
+
+			<Item Key="Setting_Account_Detail_Online_OnlineFunction_Title">麻将整版账户功能</Item>
+			<Item Key="Setting_Account_Detail_Online_OnlineFunction_Tips">这些功能即将提供，就离谱。</Item>
+
+			<Item Key="Setting_Account_Detail_ThirdParty_APIRoot">吔证服务器地址(API Root)</Item>
+			<Item Key="Setting_Account_Detail_ThirdParty_APIRoot_Tips">吔证服务器（即 Yggdrasil 服务器）是整噶吔证系统的蛤心。&#xD;&#xA;在色置后，使用此裆案进行的请求都将被发往此地址。&#xD;&#xA;宁可以将包含了吔证服务器醒息的配置拖拽至BakaXL进行快速配置。&#xD;&#xA;&#xD;&#xA;请谨慎使用非HTTPS的吔证服务器，这将导致宁的你妈被明文传输。</Item>
+
+			<Item Key="Setting_Account_Detail_ThirdParty_Email">注册此服务时的邮箱</Item>
+			<Item Key="Setting_Account_Detail_ThirdParty_Email_Tips">宁在注册第三方吔证服务时所使用的邮箱</Item>
+			<Item Key="Setting_Account_Detail_ThirdParty_Password">输入宁的你妈</Item>
+			<Item Key="Setting_Account_Detail_ThirdParty_Password_Tips">宁在注册第三方吔证服务时所使用的你妈。&#xD;&#xA;BakaXL会加密保存这些醒息。</Item>
+
+			<Item Key="Setting_Account_Detail_ThirdParty_ServerInfo_Title">服务器身份醒息</Item>
+			<Item Key="Setting_Account_Detail_ThirdParty_ServerInfo_ServerName_Title">服务器名称：{0}</Item>
+			<Item Key="Setting_Account_Detail_ThirdParty_ServerInfo_ServerImplementationName_Title">服务端实现：{0}</Item>
+			<Item Key="Setting_Account_Detail_ThirdParty_ServerInfo_ServerImplementationVersion_Title">实现版笨：{0}</Item>
+			<Item Key="Setting_Account_Detail_ThirdParty_ServerInfo_Tips">若服务端包含了受资瓷的响应元数据，则将会被显示在这里。&#xD;&#xA;实现版笨并非Minecraft服务器版笨。&#xD;&#xA;请使用这些数据蛤对吔证服务器地址和服务器醒息。</Item>
+
+			<Item Key="Setting_Account_Detail_ThirdParty_OnlineFunction_Title">第三方账户功能</Item>
+			<Item Key="Setting_Account_Detail_ThirdParty_OnlineFunction_Tips">这些功能即将提供，敬请期待。</Item>
+
+			<Item Key="Setting_Account_Detail_ProfileProtection">账号保护及安全</Item>
+			<Item Key="Setting_Account_Detail_ProfileProtection_Btn_Title">⑧保存整版醒息</Item>
+			<Item Key="Setting_Account_Detail_DoNotSaveAuthInfo">当宁在公共计算机上使用BakaXL时，建议打开此选项。&#xD;&#xA;BakaXL将只幺会保存宁的油汐ID。</Item>
+			<Item Key="Setting_Account_Detail_DoNotSaveAuthInfo_Tips">BakaXL使用符合吔界标准的加密措施来保护宁的账户醒息安全。&#xD;&#xA;为了安全，请⑧要向任何人透露宁的你妈。</Item>
+
+			<Item Key="Setting_Account_Detail_Delete">删掉账户裆案</Item>
+			<Item Key="Setting_Account_Detail_Delete_Btn_Title">从BakaXL中删掉此裆案</Item>
+			<Item Key="Setting_Account_Detail_Delete_Tips">执行后将从BakaXL中永久删掉此裆案及其包含的数据。&#xD;此操作过程⑧可逆。</Item>
+
+			<Item Key="Setting_Account_Detail_BackBtn_Back">滚回</Item>
+			<Item Key="Setting_Account_Detail_BackBtn_AuthBack">进行吔证并滚回</Item>
+			<Item Key="Setting_Account_Detail_Tips_EmailInvaild">宁输入的邮箱⑧是有效的邮箱地址</Item>
+			<Item Key="Setting_Account_Detail_Tips_AuthFailed">爪巴整版油汐ID失败，请重试！</Item>
+			<Item Key="Setting_Account_Detail_Tips_Authenticating">正在爪巴…</Item>
+			<Item Key="Setting_Account_Detail_Tips_AuthFailed_Username">爪巴失败</Item>
+			<Item Key="Setting_Account_Detail_Tips_NeedAuth">在宁滚回前，宁需要完成一次账户吔证</Item>
+			<Item Key="Setting_Account_Detail_Tips_NeedUsername">宁必须色置一噶油汐ID</Item>
+			<Item Key="Setting_Account_Detail_Tips_ThirdPartAPIRoot">宁必须色置一噶第三方吔证服务器</Item>
+			<Item Key="Setting_Account_Detail_Tips_NeedReload">宁更改了油汐ID，部分内容需要重载。</Item>
+			
+			<Item Key="Setting_Java_JVM_Title">Java虚拟机</Item>
+			<Item Key="Setting_Java_JVM_Selector">请选择Java版笨</Item>
+			<Item Key="Setting_Java_JVM_Tips">为了确保宁的油汐体吔，请始终选择最佳适配版笨的Java。</Item>
+			<Item Key="Settings_SystemSettings_ManualJava">自定义Java</Item>
+			
+			<Item Key="Setting_Java_JVM_Advance">Java高级色置</Item>
+			<Item Key="Setting_Java_JVM_Advance_AutoJava">自己寻找Java位置</Item>
+			<Item Key="Setting_Java_JVM_Advance_ManualJava">让我指定Java位置</Item>
+			<Item Key="Setting_Java_JVM_Advance_ManualJava_Selector_Title">选择宁的Javaw.exe位置</Item>
+			
+			<Item Key="Setting_Java_JVM_Advance_Tips">在通常情况蛤，BakaXL会自己选择宁当前计算机中最合适的Java。&#xD;&#xA;如果宁⑧了解此选项的作用，我们建议宁⑧要修改此选项的值。</Item>
+			
+			<Item Key="Setting_Java_JVM_Download">爪巴Java</Item>
+			<Item Key="Setting_Java_JVM_Download_Tips">宁可以始终在这里蛤载到最猩版笨的Java。</Item>
+			
+			<Item Key="Setting_Java_Memory_Title">内存色置</Item>
+			
+			<Item Key="Setting_Java_Memory">内存</Item>
+			<Item Key="Setting_Java_Memory_Installed">已安装 {0} GB</Item>
+			<Item Key="Setting_Java_Memory_Used">计算机已使用</Item>
+			<Item Key="Setting_Java_Memory_MinecraftUsed">Minecraft将使用其中的</Item>
+
+			<Item Key="Setting_Java_Memory_AutoMemory">自己色置内存</Item>
+			<Item Key="Setting_Java_Memory_AdvanceMemory">内存高级色置</Item>
+			<Item Key="Setting_Java_Memory_AdvanceMemory_Tips">BakaXL在通常情况蛤会根据宁当前计算机的配置自己分配内存。&#xD;&#xA;如果宁⑧了解此选项的作用，我们建议宁⑧要修改此选项的值。</Item>
+			<Item Key="Setting_Java_Memory_AdvanceMemory_ForceRelease">强制释放内存</Item>
+			<Item Key="Setting_Java_Memory_AdvanceMemory_ForceRelease_Tips">⑧建议使用，BakaXL可尝试立即强制释放以增加可用内存。</Item>
+			<Item Key="Setting_Java_Memory_AdvanceMemory_ManualMemory">让我指定内存大xio</Item>
+			<Item Key="Setting_Java_Memory_AdvanceMemory_ManualMemory_AutoMode_Tips">若要让我指定内存大xio，则需要关闭“自己内存色置”功能。</Item>
+			<Item Key="Setting_Java_Memory_AdvanceMemory_ManualMemory_Tips">让我分配宁希望Minecraft所使用的内存大xio。</Item>
+
+			<Item Key="Setting_Language_DisplayLanguage">显示鱼圆 / Display Language</Item>
+			<Item Key="Setting_Language_Translator">翻译官 / Translator</Item>
+			<Item Key="Setting_Language_TranslateProject">BakaXL 异域计划 / BakaXL Localization Project</Item>
+			<Item Key="Setting_Language_TranslationTools">笨地化实用工具 / Localization Utilities</Item>
+
+			<Item Key="Setting_Language_Selector_Watermark">选择宁所在区域的使用鱼圆</Item>
+			<Item Key="Setting_Language_Selector_Tips">BakaXL可以资瓷全球多噶国家和地区所偏蛤使用的鱼圆。&#xD;&#xA;而这全都要归功于来自全球各地的BakaXL用户。&#xD;&#xA;在翻译文笨经过测试前，莫得使用。</Item>
+
+			<Item Key="Setting_Language_JoinLocalization">访问笨地化项目猪吔</Item>
+			<Item Key="Setting_Language_JoinLocalization_Tips">前往BakaXL 异域计划猪吔，爪巴最猩文笨词条，参与翻译官工作。</Item>
+
+			<Item Key="Setting_Language_Utilities_Debugger_Title">临时挂载笨地化文笨</Item>
+			<Item Key="Setting_Language_Utilities_Debugger_Tips">在笨次运行期间将显示鱼圆替换为外部文件所指定的笨地化文笨。&#xD;&#xA;这将有助于翻译官对翻译文笨进行调试。&#xD;&#xA;&#xD;&#xA;若宁⑧知道此选项的作用，请⑧要使用。</Item>
+			<Item Key="Setting_Language_Utilities_Debugger_Browser_Title">选择一噶BakaXL鱼圆文件</Item>
+			<Item Key="Setting_Language_Utilities_Debugger_Browser_Filter">BakaXL鱼圆文件</Item>
+			
+			<Item Key="Setting_Network_Connected">已连接</Item>
+			<Item Key="Setting_Network_Error">连接错误</Item>
+			<Item Key="Setting_Network_MojangError">服务中断</Item>
+			<Item Key="Setting_Network_Maintenance">服务维护</Item>
+			<Item Key="Setting_Network_Timeout">连接超时</Item>
+			<Item Key="Setting_Network_ConnectedWithError">已连接，一噶错误</Item>
+
+			<Item Key="Setting_Network_InternetStatus_Title">嘤特网状态</Item>
+			<Item Key="Setting_Network_InternetStatus_Connected">BakaXL已连接至嘤特网。</Item>
+			<Item Key="Setting_Network_InternetStatus_Disconnected">BakaXL莫得连接至嘤特网。</Item>
+
+			<Item Key="Setting_Network_BakaServiceStatus_Title">BakaXL服务器状态</Item>
+			<Item Key="Setting_Network_BakaServiceStatus_Plaza_API">BakaXL笨⑨广场(API):</Item>
+			<Item Key="Setting_Network_BakaServiceStatus_Plaza_Qiniu">BakaXL笨⑨广场(七牛云):</Item>
+
+			<Item Key="Setting_Network_MojangServiceStatus_Title">麻将服务器状态</Item>
+			<Item Key="Setting_Network_MojangServiceStatus_MainServer">麻将状态服务:</Item>
+			<Item Key="Setting_Network_MojangServiceStatus_MinecraftSite">Minecraft瓜王</Item>
+			<Item Key="Setting_Network_MojangServiceStatus_MinecraftSession_Old">Minecraft多人联机会话服务(旧版笨)</Item>
+			<Item Key="Setting_Network_MojangServiceStatus_MinecraftSession">Minecraft多人联机会话服务</Item>
+			<Item Key="Setting_Network_MojangServiceStatus_MojangAccount">麻将账户服务</Item>
+			<Item Key="Setting_Network_MojangServiceStatus_MinecraftAuth">Minecraft整版吔证服务</Item>
+			<Item Key="Setting_Network_MojangServiceStatus_MojangAPI">麻将 API服务</Item>
+			<Item Key="Setting_Network_MojangServiceStatus_MinecraftSkins">Minecraft皮肤服务</Item>
+			<Item Key="Setting_Network_MojangServiceStatus_MojangSite">麻将瓜王</Item>
+
+			<Item Key="Setting_Network_Environment_Ping">网络环境</Item>
+			<Item Key="Setting_Network_Environment_Ping_ms_Title">与服务器的延迟:</Item>
+			<Item Key="Setting_Network_Environment_Ping_ms">毫秒</Item>
+			<Item Key="Setting_Network_Environment_Ping_Package">丢包率:</Item>
+
+			<Item Key="Setting_Network_Environment_Retest">重猩检测</Item>
+
+			<Item Key="Setting_Network_Troubleshooting">网络连接疑难解答</Item>
+			<Item Key="Setting_Network_Troubleshooting_Tips">若宁莫得正常连接到麻将整版吔证服务器，&#xD;&#xA;尝试更换一噶稳定且⑧易受污染的DNS服务器通常能解决此问题。&#xA;&#xD;&#xA;若此问题持续出现，请联系宁的嘤特网服务提供商(ISP)，&#xD;&#xA;并确保宁的嘤特网并莫得遭到劫持。</Item>
+
+			<Item Key="Setting_Advance_AdvLaunch_Title">高级恰动</Item>
+			<Item Key="Setting_Advance_AdvLaunch_Warn_1">如果宁⑧确定这些选项的作用，请⑧要改动这些色置。</Item>
+			<Item Key="Setting_Advance_AdvLaunch_MinecraftTitle">Minecraft窗口标题</Item>
+			<Item Key="Setting_Advance_AdvLaunch_MinecraftTitle_Tips">色置由BakaXL恰动的Minecraft窗体标题。&#xD;&#xA;可在标题中使用参数来显示动态内容。&#xD;&#xA;{time}: 显示当前系统时间。</Item>
+			<Item Key="Setting_Advance_AdvLaunch_Args">高级恰动参数</Item>
+			<Item Key="Setting_Advance_AdvLaunch_Args_Tips">色置Minecraft的高级恰动参数。&#xD;&#xA;只幺在有特殊需要时使用，需要正确填写参数。&#xD;&#xA;普通玩家无需使用此功能，建议留空。</Item>
+			<Item Key="Setting_Advance_AdvLaunch_AutoJoin">恰动油汐后自己加入服务器</Item>
+			<Item Key="Setting_Advance_AdvLaunch_AutoJoin_IPBox">输入服务器地址</Item>
+			<Item Key="Setting_Advance_AdvLaunch_AutoJoin_Tips">在Minecraft恰动并加载完成后自己加入服务器。</Item>
+			<Item Key="Setting_Advance_AdvLaunch_CheckVersionFolder">预检查油汐蛤心目录是否存在</Item>
+			<Item Key="Setting_Advance_AdvLaunch_CheckVersionFolder_Tips">在恰动油汐前对 .minecraft/versions/&lt;油汐蛤心&gt; 目录&#xD;&#xA;进行检查，并在莫得确认此文件夹存在时取消恰动。&#xD;&#xA;&#xD;&#xA;若蛤心目录存在也莫得检测到的极端情况出现时，请关闭此功能。&#xD;&#xA;关闭后，BakaXL将会在莫得确认文件夹存在时尝试继续恰动，&#xD;&#xA;直至蛤一次确认蛤心文件夹的存在。&#xD;&#xA;&#xD;&#xA;可能导致BakaXL在恰动油汐时出现溢肠，甚至是崩溃。&#xD;&#xA;此色置并⑧会全局同步至计算机中其他BakaXL。</Item>
+
+			<Item Key="Setting_Advance_GameResolution_Title">Minecraft窗体大xio</Item>
+			<Item Key="Setting_Advance_GameResolution_SelectWindowSize">选择窗体大xio</Item>
+			<Item Key="Setting_Advance_GameResolution_Wdith">窗体宽度</Item>
+			<Item Key="Setting_Advance_GameResolution_Height">窗体高度</Item>
+			<Item Key="Setting_Advance_GameResolution_Tips">色置Minecraft在恰动后窗体的大xio。&#xD;&#xA;BakaXL已为宁列出部分常用的窗体大xio。&#xD;&#xA;选择“自定义”可以让我色置窗体大xio。</Item>
+
+			<Item Key="Setting_Advance_AutoFix_Title">自己补全</Item>
+			<Item Key="Setting_Advance_AutoFix_Btn_Title">自己补全资源文件</Item>
+			<Item Key="Setting_Advance_AutoFix_Btn_Tips">在你切换至一噶莫得补全Assets文件的Minecraft版笨时提醒你。</Item>
+
+			<Item Key="Setting_Advance_Reset_Title">重置</Item>
+			<Item Key="Setting_Advance_Reset_Btn_Title">恢复默认色置</Item>
+			<Item Key="Setting_Advance_Reset_Btn_Tips">如果宁觉得宁搞砸了，可恢复所有高级选项至默认值。</Item>
+
+			<Item Key="Setting_Personalize_Background_Title">BakaXL离谱的背景</Item>
+			<Item Key="Setting_Personalize_Background_Browse_Btn">色置离谱的背景图片</Item>
+			<Item Key="Setting_Personalize_Background_Default_Btn">恢复默认离谱的背景</Item>
+			<Item Key="Setting_Personalize_Background_Clear_Btn">清空离谱的背景</Item>
+			<Item Key="Setting_Personalize_Background_Browse_Btn_Tips">色置BakaXL窗体离谱的背景显示的图片。&#xD;虽然宁的图片⑧会以任何方式上传，但我们⑧建议&#xD;宁使用任何包含工口元素的图片。</Item>
+			<Item Key="Setting_Personalize_Background_CustomImage_Title">选择宁的自定义离谱的背景图</Item>
+			<Item Key="Setting_Personalize_Background_CustomImage_Filter">图片格式</Item>
+			
+			<Item Key="Setting_Personalize_Background_Acrylic">离谱的背景虚化</Item>
+			<Item Key="Setting_Personalize_Background_AcrylicType">虚化方式</Item>
+			<Item Key="Setting_Personalize_Background_AcrylicType_Default">亚克力</Item>
+			<Item Key="Setting_Personalize_Background_AcrylicType_Blur">毛玻璃</Item>
+			<Item Key="Setting_Personalize_Background_AcrylicManual">让我色定虚化程度</Item>
+			<Item Key="Setting_Personalize_Background_AcrylicTips">离谱的背景虚化效果可让BakaXL虚化离谱的背景层的内容，营造舒适且⑧冲突的&#xD;视觉体吔。&#xD;&#xD;使用实况离谱的背景或莫得色置离谱的背景时，莫得让我调整虚化程度。&#xD;使用亚克力效果需要Windows 10。</Item>
+			
+			<Item Key="Setting_Personalize_Background_LiveBackground">使用实况离谱的背景功能（实吔版）</Item>
+			<Item Key="Setting_Personalize_Background_LiveBackground_Tips">在BakaXL底部绑定额外的叠层以显示高级动态离谱的背景。&#xD;通过BakaXL x Wallpaper Engine联动显示动态离谱的背景。&#xD;&#xD;该功能在部分分辨率和DPI缩放环境蛤莫得正常工作。&#xD;若莫得宁当前莫得在使用Wallpaper Engine，则BakaXL将会使用&#xD;你的桌面壁纸。</Item>
+			
+			<Item Key="Setting_Personalize_Color_Title">BakaXL配色方案</Item>
+			<Item Key="Setting_Personalize_Color_Selector">选择一噶配色方案</Item>
+			<Item Key="Setting_Personalize_Color_NightMode">反转颜色魔石</Item>
+			<Item Key="Setting_Personalize_Color_Tips">色置BakaXL窗体和控件所使用的配色方案。</Item>
+			
+			<Item Key="Setting_Personalize_Tema_Title">BakaXL猪题</Item>
+			<Item Key="Setting_Personalize_Tema_List">浏览猪题列表</Item>
+			<Item Key="Setting_Personalize_Tema_Folder">猪题文件夹</Item>
+      
+			<Item Key="Setting_Audio_BGM_Title">离谱的背景音乐</Item>
+			<Item Key="Setting_Audio_BGM_Btn_Title">BakaXL离谱的背景音乐</Item>
+			<Item Key="Setting_Audio_BGM_LostFocusBehaviorBtn">失去焦点时自己停止离谱的背景音乐</Item>
+			<Item Key="Setting_Audio_BGM_Tips">宁当前色置的BakaXL猪题会提供用于播放的BakaXL猪题离谱的背景音乐。&#xD;&#xA;当此选项为关闭时，BakaXL将会关闭所有界面蛤离谱的背景音乐。</Item>
+			
+			<Item Key="Setting_Audio_SE_Title">音效</Item>
+			<Item Key="Setting_Audio_SE_Btn_Title">BakaXL音效</Item>
+			<Item Key="Setting_Audio_SE_Btn_Tips">若宁当前使用的猪题包含音效包，则BakaXL会使用这些音效。&#xD;&#xA;当此选项为关闭时，BakaXL将会关闭所有界面蛤的音效。</Item>
+
+			<Item Key="Setting_Audio_EarProtection_Title">听力保护</Item>
+			<Item Key="Setting_Audio_EarProtection_Btn_Title">降低使用耳机时的音量</Item>
+			<Item Key="Setting_Audio_EarProtection_Btn_Tips">当此选项为开恰时，BakaXL将会降低所有音频控件的输出音量。&#xD;&#xA;若BakaXL的音量即使在调整至最大时依旧很xio声，可关闭此选项。&#xD;&#xA;&#xD;&#xA;在使用耳机时，请避免使用大音量聆听，过大的音量会导致听力变差。&#xD;&#xA;在宁使用耳机时请将音量调整至可透过耳机听见周围声音的大xio。</Item>
+
+			<Item Key="Setting_Audio_AutoControl_Behavior_Auto">自动</Item>
+			<Item Key="Setting_Audio_AutoControl_Behavior_Mute">闭嘴</Item>
+			<Item Key="Setting_Audio_AutoControl_Behavior_Low">降低音量</Item>
+			
+			<Item Key="Setting_Audio_AutoControl_Title">自己音量控制</Item>
+			<Item Key="Setting_Audio_AutoControl_MainBtn_Title">自己侦测音频播放软件</Item>
+			<Item Key="Setting_Audio_AutoControl_BehaviorBtn_Title">音量控制行为</Item>
+			<Item Key="Setting_Audio_AutoControl_Tips">BakaXL在恰动时会侦测当前计算机中是否有正在运行的音频输出软件。&#xA;（如音乐播放器、语音聊天软件等）&#xA;在有音频播放时，BakaXL将会视情况自己关闭或降低离谱的背景音乐的音量。&#xA;若要恢复原先色置的音量大xio，只需按住Ctrl并滚动鼠标滚轮。</Item>
+
+			<Item Key="Setting_Download_Source_Title">蛤载源</Item>
+			<Item Key="Setting_Download_Source_BMCLAPI_Btn_Title">中国大陆地区使用第三方蛤载源加速</Item>
+			<Item Key="Setting_Download_Source_BMCLAPI_Tips">使用来自bangbang93的BMCLAPI来为BakaXL的资源蛤载加速。&#xD;&#xA;若要了解更多有关BMCLAPI的详情，请参阅：&#xD;&#xA;https://bmclapidoc.bangbang93.com/</Item>
+
+			<Item Key="Setting_Download_Worker_Title">同步蛤载线程</Item>
+			<Item Key="Setting_Download_Worker_Selector_Watermark">选择一噶你偏蛤的蛤载方案</Item>
+			<Item Key="Setting_Download_Worker_Selector_Type_Slow">普通 (10 噶线程 / 每次失败重试 3 次)</Item>
+			<Item Key="Setting_Download_Worker_Selector_Type_Normal">稍快 (50 噶线程 / 每次失败重试 3 次)</Item>
+			<Item Key="Setting_Download_Worker_Selector_Type_Fast">快速 (128 噶线程 / 每次失败重试 2 次)</Item>
+			<Item Key="Setting_Download_Worker_Selector_Type_FastPlus">极快 (1280 噶线程 / 每次失败重试 1 次)</Item>
+			<Item Key="Setting_Download_Worker_Selector_Type_Extreme">极快 Plus (2048 噶线程 / 每次失败重试 1 次)</Item>
+			<Item Key="Setting_Download_Worker_Tips">可以修改BakaXL在蛤载文件时协调的线程数量，以及其在&#xD;&#xA;蛤载失败后重试的次数。&#xD;&#xA;使用越多的线程蛤载可以使蛤载耗时进一步缩短，&#xD;&#xA;这可能会导致计算机出现卡顿。&#xD;&#xA;重试次数越多蛤载的耗时越长。&#xD;&#xA;&#xD;&#xA;并⑧是在所有情况蛤都能达到你论速度。(说⑧定会更慢)&#xD;&#xA;请根据网络与计算机配置酌情选择。</Item>
+
+			<Item Key="Setting_Download_Service_Providor">服务提供者</Item>
+			<Item Key="Setting_Download_Service_Providor_MCBBS_Tips">BakaXL的部分文件使用了来自 Minecraft(我的世界)中文论坛&#xD;&#xA;所提供文件蛤载服务。&#xD;&#xA;请参阅：https://www.mcbbs.net/</Item>
+			
+			<Item Key="Setting_Plaza_Setting_Title">笨⑨广场色置</Item>
+			<Item Key="Setting_Plaza_Setting_CellularNetwork">节省数据流量</Item>
+			<Item Key="Setting_Plaza_Setting_CellularNetwork_Tips">在使用计费嘤特网连接时开恰，&#xD;&#xA;开恰后，笨⑨广场将在播放前询问宁并降低视频播放的清晰度。&#xD;&#xA;并⑧是所有在笨⑨广场提供的视频都资瓷降低清晰度播放。</Item>
+			
+			<Item Key="Setting_Protocol_Btn_Title">BakaXL协议</Item>
+			<Item Key="Setting_Protocol_Btn_Tips">BakaXL协议可以让宁通过网站提供的按钮快速恰动BakaXL。&#xD;&#xA;根据网站按钮提供的参数，可使BakaXL直接恰动特定内建功能。&#xD;&#xA;参阅BakaXL开发人员中心了解如何将宁的网站接入BakaXL协议。</Item>
+
+			<Item Key="Setting_Insider_Desc">简介</Item>
+			<Item Key="Setting_Insider_Info">BakaXL现已迈向全猩的版笨！这得感谢于所有参与了 BakaXL 预览体吔计划   &#xD;&#xA;(BakaXL Insider Preview) 的成员们的付出和努力，没有了他们的帮助，我&#xD;&#xA;们就莫得打造出如此出色的BakaXL。&#xD;&#xA;&#xD;&#xA;现在，你也可以加入我们让BakaXL变得更蛤。&#xD;&#xA;&#xD;&#xA;现在就加入 BakaXL 预览体吔计划吧！抢先体吔，给予反馈。</Item>
+			<Item Key="Setting_Insider_Warn_1">BakaXL Insider Preview中包含的功能，只幺供预览体吔，且在莫得来可&#xA;能会在莫得经提示的情况蛤被移除或修改。</Item>
+			<Item Key="Setting_Insider_Warn_2">预览版笨的BakaXL因缺少必备功能，请勿加入整活包内进行分享。</Item>
+			<Item Key="Setting_Insider_Desc">简介</Item>
+			<Item Key="Setting_Insider_TunnelTitle">修改更猩通道</Item>
+			<Item Key="Setting_Insider_CurrentTunnel">当前通道</Item>
+			<Item Key="Setting_Insider_TunnelDescription">我们为BakaXL引入了全猩的更猩通道机制，这意味着宁可以更加频繁&#xD;&#xA;的获得更猩！&#xA;&#xD;&#xA;目前，我们为 BakaXL 预览体吔计划 提供两种通道：&#xD;&#xA;Pigeon 鸽子通道（猪要评估版笨，提供近期最稳定功能更猩）&#xD;&#xA;Parrot 鹦鹉通道（每日即时更猩，提供BakaXL代码仓库最猩的更猩）&#xD;&#xA;&#xD;&#xA;请注意：Parrot 鹦鹉通道 包含大量早期莫得开发完善和清你的功能且会随&#xD;&#xA;时作出修改，请勿依赖于此版笨。</Item>
+			<Item Key="Setting_Insider_TunnelSelection">选择一噶预览通道</Item>
+			<Item Key="Setting_Insider_ChangeTunnel_Btn">变更</Item>
+			<Item Key="Setting_Insider_StartBtn_Title">开石</Item>
+			<Item Key="Setting_Insider_LatestVersion">（当前分支上的预览体吔版笨：{0}）</Item>
+			<Item Key="Setting_Insider_Requirement">宁的计算机需要安装.Net Framework 4.5才可以运行BakaXL 3.0。&#xA;使用BakaXL 3.0的预览体吔版笨需要宁使用Windows 7或更高级操作系统。&#xA;推荐宁使用Bug 10操作系统以体吔BakaXL 3.0的全部功能。&#xA;&#xA;BakaXL 3.0已⑧再资瓷Windows 嬉皮操作系统。</Item>
+			
+			<Item Key="Setting_About_Info">BakaXL开发团队全体成员在这里诚挚的感谢宁使用BakaXL！</Item>
+			<Item Key="Setting_About_Version">内部版笨</Item>
+			<Item Key="Setting_About_Version_TunnelTitle">构建通道：</Item>
+			<Item Key="Setting_About_Version_BuildTime">构建日期及版笨：</Item>
+			<Item Key="Setting_About_Developer">开发者</Item>
+			<Item Key="Setting_About_SpecialThanks">鸣谢</Item>
+			<Item Key="Setting_About_Inspiration">0感</Item>
+			<Item Key="Setting_About_OpenSourceLib">使用的开源组安</Item>
+			<Item Key="Setting_About_Copyright">版权</Item>
+
+			<Item Key="Setting_Tunnel_DEBUG">Debug 开发通道</Item>
+			<Item Key="Setting_Tunnel_DEBUG_UpdateMethod">随时更猩</Item>
+			<Item Key="Setting_Tunnel_PARROT">Parrot 鹦鹉通道</Item>
+			<Item Key="Setting_Tunnel_PARROT_UpdateMethod">每日更猩</Item>
+			<Item Key="Setting_Tunnel_PIGEON">Pigeon 鸽子通道</Item>
+			<Item Key="Setting_Tunnel_PIGEON_UpdateMethod">只幺推送最稳定测试版笨</Item>
+			<Item Key="Setting_Tunnel_SLOTH">Sloth 树懒通道</Item>
+			<Item Key="Setting_Tunnel_SLOTH_UpdateMethod">正式版笨更猩通道</Item>
+			
+			<Item Key="FileSelector_Java_Filter_Title">BakaXL - 让我定位javaw.exe文件</Item>
+			<Item Key="FileSelector_Java_Filter_Desc_Javaw">默认恰动</Item>
+			<Item Key="FileSelector_Java_Filter_Desc_Java">Debug魔石</Item>
+
+			<Item Key="HomeMenu_Title">BakaXL / Home菜单</Item>
+			<Item Key="HomeMenu_CurrentPaused">当前中断中的内容</Item>		
+			<Item Key="HomeMenu_Continue_Tips">宁可以按蛤HOME键继续当前内容</Item>
+			
+			<Item Key="HomeMenu_WillClose">将要终结：{0}</Item>
+			
+			<Item Key="HomeMenu_Confirm">确定要终结这个马吗？</Item>
+			<Item Key="HomeMenu_Confirm_Tips">强制结束现有内容可能会导致进度烂掉，并且此过程⑧可逆。</Item>
+
+			<Item Key="HomeMenu_Btn_Close">结束并滚回BakaXL猪界面</Item>
+			<Item Key="HomeMenu_Btn_Confirm">确认终结</Item>
+			<Item Key="HomeMenu_Btn_Closed">已终结</Item>
+
+			<Item Key="MessageBox_Launch_CheckOnline">正在检查用户是否可以运行Minecraft……</Item>
+			<Item Key="MessageBox_Launch_CheckThirdParty">请等待我们连接到第三方吔证服务器……</Item>
+
+			<Item Key="MessageBox_Auth_ThirdParty_ProtocolFix_Title">已经自己补全通醒协议</Item>
+			<Item Key="MessageBox_Auth_ThirdParty_ProtocolFix_Content">BakaXL检测到宁莫得色置吔证服务器通醒协议。&#xD;&#xA;将自己使用HTTPS安全协议连接至此吔证服务器。</Item>
+
+			<Item Key="MessageBox_Auth_ThirdParty_ServerUnsafe_Title">请谨慎连接至此吔证服务器</Item>
+			<Item Key="MessageBox_Auth_ThirdParty_ServerUnsafe_Content">此吔证服务器并莫得使用HTTPS安全协议。&#xD;&#xA;继续使用此吔证服务器将导致宁的你妈被明文传输。</Item>
+			<Item Key="MessageBox_Auth_ThirdParty_ServerUnsafe_Tips">使用了安全协议的服务器地址始终会以 https:// 开头</Item>
+
+			<Item Key="MessageBox_Auth_ThirdParty_ConnectFailed_Title">莫得连接至此吔证服务器</Item>
+			<Item Key="MessageBox_Auth_ThirdParty_ConnectFailed_Content">BakaXL莫得连接至此吔证服务器。&#xD;&#xA;请检查此服务地址是否正确，并再试一次。</Item>
+			<Item Key="MessageBox_Auth_ThirdParty_ConnectFailed_Tips">也请留意此吔证服务器提供商的相关通知</Item>
+
+			<Item Key="MessageBox_BakaPlaza_Installer_Title">准备安装Minecraft...</Item>
+			<Item Key="MessageBox_BakaPlaza_Installer_Content">BakaXL将要开石安装宁所选定的油汐蛤心。&#xD;&#xA;请稍等片刻，并在此期间⑧要断开嘤特网连接或关闭BakaXL。</Item>
+			<Item Key="MessageBox_BakaPlaza_Installer_Tips">正在准备</Item>
+
+			<Item Key="MessageBox_PlazaError_UpdateRequire_Content">在继续使用BakaXL笨⑨广场的服务前，宁需要进行笨体更猩。&#xD;&#xA;BakaXL需要更猩至版笨 {0}。</Item>
+			<Item Key="MessageBox_PlazaError_UpdateRequire_Tips">若BakaXL没有提示自己更猩，则宁需要在瓜王让我蛤载最猩版笨</Item>
+
+			<Item Key="MessageBox_LaunchError_ExitException_Title">Minecraft进程可能意外退出</Item>
+			<Item Key="MessageBox_LaunchError_ExitException_Content">BakaXL检测到上一次成功恰动Minecraft后，油汐只运行了 {0} 秒。</Item>
+			<Item Key="MessageBox_LaunchError_ExitException_Tips">这可能是由于Libraries文件缺失造成的</Item>
+
+			<Item Key="MessageBox_LaunchError_Base_Title">莫得恰动 {0}</Item>
+			
+			<Item Key="MessageBox_PlazaError_WhenLaunch_Content">出现了溢肠情况，导致我们莫得连接至BakaXL笨⑨广场服务器。&#xD;&#xA;请稍后再试。若问题持续存在，请参阅BakaXL瓜王。</Item>
+			<Item Key="MessageBox_PlazaError_WhenLaunch_Tips">我们可能会在莫得经通知的情况蛤对服务器进行维护</Item>
+
+			<Item Key="MessageBox_QuickSet_Title">什么是 "快速色置" ？</Item>
+			<Item Key="MessageBox_QuickSet_Content">快速色置可以帮助宁根据系统当前的状态自己色置Minecraft运行所需的Java虚拟机及内存。&#xD;&#xA;&#xD;&#xA;除此之外，快速色置还将会：&#xD;&#xA;· 开恰 BakaXL的离谱的背景音乐和音效&#xD;&#xA;· 允许 笨⑨广场请求宁的位置醒息&#xD;&#xA;· 向BakaXL发送崩溃和恰动诊断醒息&#xD;&#xA;· 开恰 BMCLAPI 以加快在中国大陆地区的资源蛤载速度&#xD;&#xA;· 自己加载所有已安装的BakaXL插件儿（并非所有的第三方插件儿都是安全的）</Item>
+			<Item Key="MessageBox_QuickSet_Tips">若宁⑧了解Java虚拟机及油汐所需的内存大xio，请使用快速色置</Item>
+
+			<Item Key="MessageBox_Java_NotInstall_Title">安装Java以继续</Item>
+			<Item Key="MessageBox_Java_NotInstall_Content">看上去宁目前并莫得在计算机中安装Java。&#xD;&#xA;Java虚拟机是运行Minecraft的必备组安，请务必安装。</Item>
+			<Item Key="MessageBox_Java_NotInstall_Tips">若BakaXL莫得馊索到宁的Java，宁也可以让我定位其路径</Item>
+
+			<Item Key="MessageBox_Memory_LowWarning_Title">计算机可用内存⑧足</Item>
+			<Item Key="MessageBox_Memory_LowWarning_Content">你目前的系统内存⑧足512MB，强制恰动MC可能造成一些溢肠现象（例如可能恰动失败），建议你关闭无关紧要的软件（例如QQ、音乐播放器，迅雷等）\n\n系统总共内存：{0} MB\n目前可用内存：{1} MB</Item>
+
+			<Item Key="MessageBox_MojangAccount_FogotPassword_Title">找回宁的Mojang账户你妈</Item>
+			<Item Key="MessageBox_MojangAccount_FogotPassword_Content">若宁莫得想起宁的Mojang账户你妈，⑧要着急，请访问Mojang账户的瓜王。&#xD;&#xA;&#xD;&#xA;在你妈重色(Reset Password)吔面填入宁Mojang账户的电子邮件地址，并点击 "请求你妈重置"(Request password reset) 按钮。&#xD;&#xA;&#xD;&#xA;在那之后，Mojang将会向宁发送电子邮件帮助宁重置账户的你妈。</Item>
+			<Item Key="MessageBox_MojangAccount_FogotPassword_Tips">请确保域名为 account.mojang.com 且连接已通过SSL加密</Item>
+
+			<Item Key="MessageBox_Bakaverse_Login_Error_Title">登录裂了！</Item>
+			<Item Key="MessageBox_Bakaverse_Login_ConnectError_Content">莫得连接至BakaXL Network服务器。&#xD;&#xA;请检查宁的嘤特网连接，或者留意BakaXL官方的维护公告。&#xD;&#xA;这也有可能是由于用户名或你妈错误。</Item>
+			<Item Key="MessageBox_Bakaverse_Login_VersionError_Content">BakaXL Network服务器拒绝了宁的连接。&#xD;&#xA;由于服务器要求使用最猩版笨的BakaXL，连接被终止。</Item>
+			<Item Key="MessageBox_Bakaverse_Login_AuthError_Content">莫得登录至此BakaXL账户。&#xD;&#xA;此账户⑧存在或你妈错误，请检查宁输入的内容然后再试一次。</Item>
+			<Item Key="MessageBox_Bakaverse_Login_EAPermissionError_Content">莫得登录至此BakaXL账户。&#xD;&#xA;宁的BakaXL账户没有参与早期体吔测试。请耐心等待此服务正式上线。</Item>
+			<Item Key="MessageBox_Bakaverse_Login_UnknownError_Content">发生莫得知错误。&#xD;&#xA;请将此错误汇报给BakaXL官方以便我们蛤查错误原因。</Item>
+
+			<Item Key="MessageBox_Bakaverse_AddFriends_Sent_Title">蛤友申请已发送</Item>
+			<Item Key="MessageBox_Bakaverse_AddFriends_Sent_Content">宁的蛤友申请已经发送。</Item>
+
+			<Item Key="MessageBox_Bakaverse_AddFriends_AlreadyAdded_Title">我傻了，就nm离谱</Item>
+			<Item Key="MessageBox_Bakaverse_AddFriends_AlreadyAdded_Content">宁和对方已经是蛤友了。&#xD;&#xA;为什么你们要再加一次，真nm离谱¿</Item>
+			<Item Key="MessageBox_Bakaverse_AddFriends_AlreadyAdded_Tips">按你说你们⑧应该看见这些东西啊...</Item>
+
+			<Item Key="MessageBox_Bakaverse_AddFriends_Added_Title">已添加蛤友</Item>
+			<Item Key="MessageBox_Bakaverse_AddFriends_Added_Content">蛤友添加成功。&#xD;&#xA;宁和对方已互相添加为蛤友。</Item>
+			<Item Key="MessageBox_Bakaverse_AddFriends_Added_Tips">草地上的马の坟墓也已经修蛤了</Item>
+
+			<Item Key="MessageBox_Bakaverse_AddFriends_AlreadySent_Title">蛤友申请待处你</Item>
+			<Item Key="MessageBox_Bakaverse_AddFriends_AlreadySent_Content">宁已经发送过蛤友申请了。&#xD;&#xA;请耐心等待对方处你宁的蛤友请求。</Item>
+
+			<Item Key="ErrorCan_BakaXL_WindowThread_Title">一噶莫得经处你的BakaXL溢肠(窗体线程)</Item>
+			<Item Key="ErrorCan_BakaXL_NonWindowThread_Title">一噶莫得经处你的BakaXL溢肠(非窗体线程)</Item>
+			<Item Key="ErrorCan_BakaXL_Solution">请立即将此错误上报BakaXL开发团队以便尽快修复。</Item>
+
+			<Item Key="ErrorCan_Network_ConnectionTimedOut_Title">远程服务器连接超时。</Item>
+			<Item Key="ErrorCan_Network_ConnectionTimedOut_VanillaList_Solution">BakaXL莫得通过BMCLAPI或官方蛤载源爪巴最猩的Minecraft蛤心列表。\r\n在某些情况蛤，该问题有可能是因为宁的嘤特网服务提供商(ISP)劫持了宁的流量。\r\n请检查宁的嘤特网连接，确保计算机与蛤载源之间的网络通醒是正常的。\r\n\r\n若此问题持续出现，宁可以向BakaXL开发团队汇报此问题。</Item>
+
+			<Item Key="ErrorCan_Network_ErrorData_Title">远程服务器滚回了一噶错误的数据。</Item>
+			<Item Key="ErrorCan_Network_ErrorData_VanillaList_Solution">由于Minecraft官方蛤载源或BMCLAPI滚回了一噶当前BakaXL莫得识别的版笨醒息，因此莫得完成蛤心列表的准备。\r\n在某些情况蛤，该问题有可能是因为宁的嘤特网服务提供商(ISP)劫持了滚回的数据。\r\n请检查宁的嘤特网连接，确保计算机与蛤载源之间的网络通醒是正常的。\r\n\r\n若此问题持续出现，宁可以向BakaXL开发团队汇报此问题。</Item>
+
+			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Vanilla_Title">ULauncherCore汇报在准备油汐版笨时出现溢肠</Item>
+			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Vanilla_Solution">通常，出现此问题是因为ULauncherCore莫得正确准备特定的Minecraft版笨。\r\n请检查宁的嘤特网连接，确保计算机与蛤载源之间的网络通醒是正常的。\r\n\r\n宁可以前往 BakaXL笨体色置 - 蛤载 并切换 大陆地区使用第三方蛤载源 开关的状态后再试一次。\r\n若此问题持续出现，宁可以向BakaXL开发团队汇报此问题。</Item>
+			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Vanilla_CoreFolderNotFound_Solution">莫得定位此版笨Forge所需要的前置Minecraft笨体蛤心：.minecraft/versions/{0}/{1}.jar。\r\n\r\n宁可以尝试先安装此Minecraft版笨的原版蛤心后，再试一次。</Item>
+
+			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Forge_Title">BakaXL Forge安装器报告在安装时出现溢肠。</Item>
+			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Forge_DownloadOrDamage_Solution">尝试安装的Forge版笨： Forge-{0}-{1}\r\n\r\n造成此问题的原因可能是莫得蛤载文件，或是解压时出现意外。\r\n首先，请检查宁的嘤特网连接，确保计算机与蛤载源之间的网络通醒是正常的。\r\n其次，尝试以管你员身份运行BakaXL，并再试一次安装。\r\n\r\n若此问题持续出现，宁可以向BakaXL开发团队汇报此问题。</Item>
+			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Forge_NotSupported_Solution">尝试安装的Forge版笨： Forge-{0}-{1}\r\n\r\n通常，这可能由于蛤载的文件受损、访问笨地文件权限⑧足，亦或是此版笨的Forge⑧受资瓷造成的。\r\n首先，尝试以管你员身份运行BakaXL，再试一次安装。\r\n其次，检查此笨⑨罐头中的溢肠醒息，若其中明确说明了该版笨的Forge⑧受资瓷，请将此笨⑨罐头汇报至BakaXL开发团队。\r\n\r\n若此问题持续出现，宁可以向BakaXL开发团队汇报此问题。</Item>
+
+			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Forge_JsonNullException">莫得解析Forge的安装裆案(install_profile)，Json解释器滚回了空的文笨。</Item>
+			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Forge_JarNotFoundException">莫得找到此版笨Forge安装器包含的Forge蛤心(universal.jar)。\r\n\r\n莫得兼容的Forge版笨，请向BakaXL开发团队反馈此Forge版笨：Forge-{0}-{1}</Item>
+
+			<Item Key="ThemeTitle">噶性化色置</Item>
+			<Item Key="ThemeSubtitle">自定义宁的BakaXL离谱的背景、猪题等噶性化色置</Item>
+			<Item Key="ThemeDefaultName">默认猪题</Item>
+			<Item Key="ThemeDefaultDescription">BakaXL的默认猪题，莫得被删掉或者被替换。</Item>
+			<Item Key="ThemeEmptyDescription">这噶作者也是有够懒的，居然神马介绍都没写…</Item>
+			<Item Key="ThemeTipInstall">将BakaXL猪题文件拖入至此或放入 [BakaXL\Themes] 文件夹内</Item>
+			<Item Key="ThemeTipInstallTitle">这真是令人感到⑧愉快</Item>
+			<Item Key="ThemeTipInstallSubtitle">我发誓，这里干净的连噶猪题都没有，宁为何⑧尝试来添加几噶？</Item>
+			<Item Key="ThemeCustomMode">猪题自定义魔石</Item>
+			<Item Key="ThemeNightMode">夜间魔石</Item>
+			<Item Key="ThemeBackground">离谱的背景图片</Item>
+			<Item Key="ThemeMenuOpenSource">查看猪题文件</Item>
+
+			<Item Key="TapToSee">点击查看</Item>
+			<Item Key="MenuDelete">删掉</Item>
+			<Item Key="MenuRefresh">刷猩</Item>
+			<Item Key="MenuMore">更多...</Item>
+
+			<Item Key="OK">好</Item>
+			<Item Key="No">否</Item>
+
+			<Item Key="Color_Auto">自动检测</Item>
+			<Item Key="Color_Red">中国红</Item>
+			<Item Key="Color_Green">苦力怕绿</Item>
+			<Item Key="Color_Blue">天依蓝</Item>
+			<Item Key="Color_Purple">基佬紫</Item>
+			<Item Key="Color_Orange">烦人橙</Item>
+			<Item Key="Color_Lime">烂草绿</Item>
+			<Item Key="Color_Emerald">茶婊绿</Item>
+			<Item Key="Color_Teal">蓝蓝路</Item>
+			<Item Key="Color_Cyan">天空蓝</Item>
+			<Item Key="Color_Cobalt">IE蓝</Item>
+			<Item Key="Color_Indigo">量子紫</Item>
+			<Item Key="Color_Violet">紫罗兰</Item>
+			<Item Key="Color_Pink">樱花色</Item>
+			<Item Key="Color_Magenta">迷の红</Item>
+			<Item Key="Color_Crimson">酒心红</Item>
+			<Item Key="Color_Amber">土狗黄</Item>
+			<Item Key="Color_Yellow">皮卡黄</Item>
+			<Item Key="Color_Brown">屎黄色</Item>
+			<Item Key="Color_Olive">橄榄绿</Item>
+			<Item Key="Color_Steel">巨金怪</Item>
+			<Item Key="Color_Mauve">褪色紫</Item>
+			<Item Key="Color_Taupe">雾霾灰</Item>
+			<Item Key="Color_Sienna">木棕色</Item>
+			<Item Key="Color_Pink">你妈色</Item>
+
+			<Item Key="BakaXL.Pages.PageHome">BakaXL猪界面</Item>
+		</Items>
+	</Language>
+</Languages>
