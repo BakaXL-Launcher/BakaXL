@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Languages>
 	<Type>
-		<Key>zh_CC</Key>
-		<Name>文言 (華夏)</Name>
+		<Key>zh_CN</Key>
+		<Name>简体中文 (中国)</Name>
 		<Author>BakaXL</Author>
 	</Type>
 	<Language Key="zh_CN">
@@ -55,16 +55,27 @@
 			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_DownloadAssets">正在下载Minecraft资源文件</Item>
 			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_GenParameter">正在生成参数</Item>
 
+			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_CheckEnvironment">发射模式: 检查和补全Minecraft环境</Item>
+
 			<Item Key="LaunchBar_LaunchBtn_Launched_Title">游戏运行中</Item>
 			<Item Key="LaunchBar_LaunchBtn_Launched_Tips">&lt;当前正在运行中&gt;</Item>
+
+			<Item Key="LaunchBar_ToolTip_DownloadLib">正在下载Minecraft支持库&#xD;&#xA;文件名：{0}&#xD;&#xA;路径：{1}</Item>
 
 			<Item Key="LaunchBar_Title_Launched">已使用 {0} 的身份运行游戏</Item>
 			<Item Key="LaunchBar_Title_AuthError">验证时出现错误：用户名或密码错误。</Item>
 			<Item Key="LaunchBar_Title_AuthError_Unknown">验证时出现错误：未知错误。</Item>
+			<Item Key="LaunchBar_Title_AuthError_MojangTokenExpired">验证时出现错误：会话验证信息过期，请在本体设置重新登录此用户档案。</Item>
+			<Item Key="LaunchBar_Title_AuthError_AuthlibTokenExpired">验证时出现错误：档案验证信息失效，请重新设置此用户档案。</Item>
 
 			<Item Key="UserSelector_Launch_Title">哪个用户将用于启动Minecraft？</Item>
 			<Item Key="UserSelector_Authlib_SelectProfile">该账户拥有的多个角色，选择一个角色</Item>
 			<Item Key="UserSelector_Default_Title">选择一个账户</Item>
+
+			<Item Key="UserProfile_ToolTip_Offline">用户名：{0} &#xD;&#xA;此用户档案将使用离线验证</Item>
+			<Item Key="UserProfile_ToolTip_Online">用户名：{0} &#xD;&#xA;此用户档案将使用Mojang正版验证</Item>
+			<Item Key="UserProfile_ToolTip_ThirParty_WithoutName">用户名：{0} &#xD;&#xA;此用户档案将使用第三方账户验证服务器&#xD;&#xA;验证服务器地址：{1}</Item>
+			<Item Key="UserProfile_ToolTip_ThirParty_WithName">用户名：{0} &#xD;&#xA;此用户档案将使用 {1} 提供的账户验证服务器&#xD;&#xA;验证服务器地址：{2}</Item>
 
 			<Item Key="HomeIdentifier_Screen_Home">主页</Item>
 			<Item Key="HomeIdentifier_Screen_Menu">开始</Item>
@@ -319,6 +330,9 @@
 			<Item Key="Bakaverse_OnlineStatus_Gaming_Full">正在玩：{0}</Item>
 
 			<Item Key="BakaPlaza_FullName">BakaXL 笨蛋广场</Item>
+			<Item Key="BakaPlaza_Update">更新</Item>
+
+			<Item Key="BakaPlaza_SearchBar_Watermark">搜索一些内容…</Item>
 
 			<Item Key="BakaPlaza_Category_Subtitle">分类浏览</Item>
 
@@ -369,11 +383,17 @@
 			<Item Key="BakaPlaza_MinecraftInstaller_Steps_WriteJson">写入Json信息</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Steps_GenBakaCoreConfig">生成配置文件</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Steps_CopyForgeFile">复制Forge文件</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Steps_PrepareProcessor">初始化Forge文件处理器</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Steps_GenerateForgeFile">生成Forge文件</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Steps_PrepareVanilla">准备原版Minecraft</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Steps_CopyVanilla">复制原版Minecraft核心</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Steps_InstallSuccessful">安装成功</Item>
 
 			<Item Key="Protocol_Ani_Tips">在BakaXL笨蛋广场中查看此资源</Item>
+
+			<Item Key="MusicInfo_UnknownName">未知歌曲名</Item>
+			<Item Key="MusicInfo_UnknownAblum">未知专辑</Item>
+			<Item Key="MusicInfo_UnknownArtist">未知歌手</Item>
 
 			<Item Key="Tips_Title">BakaXL贴士</Item>
 			<Item Key="Tips_Subtitles">关注您所喜爱的频道，了解其最新的资讯</Item>
@@ -583,6 +603,7 @@
 			<Item Key="Setting_Account_Detail_Tips_AuthFailed_Username">获取失败</Item>
 			<Item Key="Setting_Account_Detail_Tips_NeedAuth">在您返回前，您需要完成一次账户验证</Item>
 			<Item Key="Setting_Account_Detail_Tips_NeedUsername">您必须设置一个游戏ID</Item>
+			<Item Key="Setting_Account_Detail_Tips_ThirdPartAPIRoot">您必须设置一个第三方验证服务器</Item>
 			<Item Key="Setting_Account_Detail_Tips_NeedReload">您更改了游戏ID，部分内容需要重载。</Item>
 			
 			<Item Key="Setting_Java_JVM_Title">Java虚拟机</Item>
@@ -679,7 +700,10 @@
 			<Item Key="Setting_Advance_AdvLaunch_AutoJoin_Tips">在Minecraft启动并加载完成后自动加入服务器。</Item>
 			<Item Key="Setting_Advance_AdvLaunch_CheckVersionFolder">预检查游戏核心目录是否存在</Item>
 			<Item Key="Setting_Advance_AdvLaunch_CheckVersionFolder_Tips">在启动游戏前对 .minecraft/versions/&lt;游戏核心&gt; 目录&#xD;&#xA;进行检查，并在无法确认此文件夹存在时取消启动。&#xD;&#xA;&#xD;&#xA;若核心目录存在也无法检测到的极端情况出现时，请关闭此功能。&#xD;&#xA;关闭后，BakaXL将会在无法确认文件夹存在时尝试继续启动，&#xD;&#xA;直至下一次确认核心文件夹的存在。&#xD;&#xA;&#xD;&#xA;可能导致BakaXL在启动游戏时出现异常，甚至是崩溃。&#xD;&#xA;此设置并不会全局同步至计算机中其他BakaXL。</Item>
-
+			
+			<Item Key="Setting_Advance_AdvLaunch_GCMethod">自定义Java回收器</Item>
+			<Item Key="Setting_Advance_AdvLaunch_GCMethod_Tips">设置在使用Java 9或更高级版本Java时使用的垃圾回收器(GC)。&#xD;&#xA;如果你的Java版本低于Java 9，则此选项不起作用。&#xD;&#xA;&#xD;&#xA;&quot;Z回收器(ZGC)&quot;仅可以Java 11或更高级版本使用，在错误的&#xD;&#xA;Java版本中使用此回收器将导致无法启动游戏。&#xD;&#xA;&#xD;&#xA;如果你不知道这是做什么的，请选择 &quot;默认&quot;。</Item>
+			
 			<Item Key="Setting_Advance_GameResolution_Title">Minecraft窗体大小</Item>
 			<Item Key="Setting_Advance_GameResolution_SelectWindowSize">选择窗体大小</Item>
 			<Item Key="Setting_Advance_GameResolution_Wdith">窗体宽度</Item>
@@ -746,6 +770,16 @@
 			<Item Key="Setting_Download_Source_Title">下载源</Item>
 			<Item Key="Setting_Download_Source_BMCLAPI_Btn_Title">中国大陆地区使用第三方下载源加速</Item>
 			<Item Key="Setting_Download_Source_BMCLAPI_Tips">使用来自bangbang93的BMCLAPI来为BakaXL的资源下载加速。&#xD;&#xA;若要了解更多有关BMCLAPI的详情，请参阅：&#xD;&#xA;https://bmclapidoc.bangbang93.com/</Item>
+
+			<Item Key="Setting_Download_Advance">高级下载选项</Item>
+
+			<Item Key="Setting_Download_Worker_Selector_Title">线程数</Item>
+			<Item Key="Setting_Download_Worker_Type_Normal">普通 (10 个线程 / 重试 2 次)</Item>
+			<Item Key="Setting_Download_Worker_Type_SemiFast">稍快 (50 个线程 / 重试 2 次)</Item>
+			<Item Key="Setting_Download_Worker_Type_Fast">快速 (128 个线程 / 重试 1 次)</Item>
+			<Item Key="Setting_Download_Worker_Type_Extreme">极快 (512 个线程 / 不重试)</Item>
+			<Item Key="Setting_Download_Worker_Type_LaunchMode">发射模式 (2048 个线程 / 不重试)</Item>
+			<Item Key="Setting_Download_Worker_Tips">长时间等待BakaXL对Minecraft资源进行补全时，&#xD;&#xA;按照网络和计算机配置修改此选项。&#xD;&#xA;试图在下载失败时重新下载则会消耗更多时间，可尝&#xD;&#xA;试调整BakaXL重新下载的次数。&#xD;&#xA;&#xD;&#xA;使用&quot;发射模式&quot;时，会停止更新下载的状态（例如百分比）。&#xD;&#xA;&#xD;&#xA;并不是在所有情况下都能达到理论速度。(说不定会更慢)&#xD;&#xA;请根据网络与计算机配置酌情选择。</Item>
 
 			<Item Key="Setting_Download_Service_Providor">服务提供者</Item>
 			<Item Key="Setting_Download_Service_Providor_MCBBS_Tips">BakaXL的部分文件使用了来自 Minecraft(我的世界)中文论坛&#xD;&#xA;所提供文件下载服务。&#xD;&#xA;请参阅：https://www.mcbbs.net/</Item>
@@ -848,6 +882,12 @@
 			<Item Key="MessageBox_Memory_LowWarning_Title">计算机可用内存不足</Item>
 			<Item Key="MessageBox_Memory_LowWarning_Content">你目前的系统内存不足512MB，强制启动MC可能造成一些异常现象（例如可能启动失败），建议你关闭无关紧要的软件（例如QQ、音乐播放器，迅雷等）\n\n系统总共内存：{0} MB\n目前可用内存：{1} MB</Item>
 
+			<Item Key="MessageBox_Download_LaunchMode_Title">发射模式</Item>
+			<Item Key="MessageBox_Download_LaunchMode_Content">您确定要挑战极限吗？这将使BakaXL在下载Minecraft及其资源时调动计算机所有可以使用的资源进行下载。</Item>
+			<Item Key="MessageBox_Download_LaunchMode_Tips">启用发射模式会自动修改BakaXL的部分设置，并停用下载状态显示。</Item>
+			<Item Key="MessageBox_Download_LaunchMode_Btn_Yes">冲鸭！</Item>
+			<Item Key="MessageBox_Download_LaunchMode_Btn_No">唔，我想当个乖孩子</Item>
+			
 			<Item Key="MessageBox_MojangAccount_FogotPassword_Title">找回您的Mojang账户密码</Item>
 			<Item Key="MessageBox_MojangAccount_FogotPassword_Content">若您无法想起您的Mojang账户密码，不要着急，请访问Mojang账户的官网。&#xD;&#xA;&#xD;&#xA;在密码重设(Reset Password)页面填入您Mojang账户的电子邮件地址，并点击 "请求密码重置"(Request password reset) 按钮。&#xD;&#xA;&#xD;&#xA;在那之后，Mojang将会向您发送电子邮件帮助您重置账户的密码。</Item>
 			<Item Key="MessageBox_MojangAccount_FogotPassword_Tips">请确保域名为 account.mojang.com 且连接已通过SSL加密</Item>
@@ -939,6 +979,7 @@
 			<Item Key="Color_Mauve">褪色紫</Item>
 			<Item Key="Color_Taupe">雾霾灰</Item>
 			<Item Key="Color_Sienna">木棕色</Item>
+			<Item Key="Color_Gray">沉默灰</Item>
 
 			<Item Key="BakaXL.Pages.PageHome">BakaXL主界面</Item>
 		</Items>
