@@ -398,6 +398,40 @@
 			<Item Key="Tips_Title">BakaXL贴士</Item>
 			<Item Key="Tips_Subtitles">关注您所喜爱的频道，了解其最新的资讯</Item>
 
+			<Item Key="Tips_Subscribe">订阅此频道</Item>
+			<Item Key="Tips_Subscribed">已订阅</Item>
+			<Item Key="Tips_Official">官方贴士频道</Item>
+			<Item Key="Tips_New">新开通</Item>
+			<Item Key="Tips_Locked">锁定</Item>
+			<Item Key="Tips_Refresh">刷新</Item>
+			<Item Key="Tips_Search">搜索频道</Item>
+			<Item Key="Tips_ChannelList">贴士频道列表</Item>
+			<Item Key="Tips_VisitInPlaza">在笨蛋广场中查看</Item>
+			<Item Key="Tips_Publisher">发行方</Item>
+			<Item Key="Tips_Publisher_WithName">发行方: {0}</Item>
+
+			<Item Key="Tips_Home_Loading">集合啦！贴士们！</Item>
+			<Item Key="Tips_Home_Loading_Tips">一二一，一二一，列队！</Item>
+
+			<Item Key="Tips_Home_NoTips">小贴士们放学回家了</Item>
+			<Item Key="Tips_Home_NoTips_Tips">目前这里一条贴士都没有呢，请检查您的互联网连接。</Item>
+			<Item Key="Tips_Home_NoTips_Bottom">我们可能会在未经事先通知的情况下对贴士系统服务器进行维护。</Item>
+
+			<Item Key="Tips_ChannelList_Loading">正在获取频道列表</Item>
+			<Item Key="Tips_ChannelList_Loading_Tips">来自第三方的非官方BakaXL贴士频道将不会在此显示</Item>
+			
+			<Item Key="Tips_ChannelList_NoChannels">怪了，频道都躲起来了</Item>
+			<Item Key="Tips_ChannelList_NoChannels_Tips">请检查您的互联网连接。这也有可能是因为BakaXL贴士服务器正在维护。</Item>
+			<Item Key="Tips_ChannelList_NoChannels_Tips_Bottom">请稍后再试。</Item>
+
+			<Item Key="Tips_ChannelList_SubscribeTips">若要在您的BakaXL贴士首页显示来自某个频道的贴士，则需要订阅该频道。</Item>
+
+			<Item Key="Tips_ChannelDetail_Loading">正在获取贴士列表</Item>
+
+			<Item Key="Tips_ChannelDetail_LoadFailed">咦？无法读取此频道的贴士</Item>
+			<Item Key="Tips_ChannelDetail_LoadFailed_Tips_ThirdParty">请与您的第三方贴士服务提供者联系，或者再试一次。</Item>
+			<Item Key="Tips_ChannelDetail_LoadFailed_Tips">请检查您的互联网连接，然后再试一次。</Item>
+
 			<Item Key="Setting_JavaCheck_BestMatch">最佳适配</Item>
 			<Item Key="Setting_JavaCheck_Usable">可用之选</Item>
 			<Item Key="Setting_JavaCheck_SuggestUpdate">可升级到64位</Item>
@@ -912,6 +946,10 @@
 
 			<Item Key="MessageBox_Bakaverse_AddFriends_AlreadySent_Title">好友申请待处理</Item>
 			<Item Key="MessageBox_Bakaverse_AddFriends_AlreadySent_Content">您已经发送过好友申请了。&#xD;&#xA;请耐心等待对方处理您的好友请求。</Item>
+
+			<Item Key="MessageBox_Tips_Channel_Locked_Title">此贴士频道被锁定</Item>
+			<Item Key="MessageBox_Tips_Channel_Locked_Content">此贴士频道当前暂停对外开放，这可能是由于：&#xD;&#xA;· 受到来自发行方要求暂停访问的请求。&#xD;&#xA;· 遭到过多用户举报而自动冻结。&#xD;&#xA;· 违反BakaXL贴士系统使用条款</Item>
+			<Item Key="MessageBox_Tips_Channel_Locked_Tips">请尝试过段时间再来访问此频道</Item>
 
 			<Item Key="ErrorCan_BakaXL_WindowThread_Title">一个未经处理的BakaXL异常(窗体线程)</Item>
 			<Item Key="ErrorCan_BakaXL_NonWindowThread_Title">一个未经处理的BakaXL异常(非窗体线程)</Item>
