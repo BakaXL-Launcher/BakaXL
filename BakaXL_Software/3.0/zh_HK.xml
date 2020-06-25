@@ -768,7 +768,7 @@
 			<Item Key="Setting_Personalize_Background_AcrylicTips">背景虛化效果可讓BakaXL虛化背景層嘅內容，營造舒適且唔沖突嘅&#xD;視覺體驗。&#xD;&#xD;使用實況背景或未設定背景時，無法手動調較虛化程度。&#xD;使用阿加力膠效果需要Windows 10。</Item>
 			
 			<Item Key="Setting_Personalize_Background_LiveBackground">使用實況背景功能（實驗版）</Item>
-			<Item Key="Setting_Personalize_Background_LiveBackground_Tips">喺BakaXL底部綁定額外嘅疊層以顯示高級動態背景。&#xD;通過BakaXL x Wallpaper Engine聯動顯示動態背景。&#xD;&#xD;該功能喺部分解像度和DPI縮放環境下無法正常工作。&#xD;若未您當前未喺使用Wallpaper Engine，則BakaXL將會使用&#xD;你嘅桌面壁紙。</Item>
+			<Item Key="Setting_Personalize_Background_LiveBackground_Tips">喺BakaXL底部綁定額外嘅疊層以顯示高級動態背景。&#xD;通過BakaXL x Wallpaper Engine聯動顯示動態背景。&#xD;&#xD;該功能喺部分解像度和DPI縮放環境下無法正常工作。&#xD;若您當前仲未使用Wallpaper Engine，則BakaXL將會使用&#xD;你嘅桌面壁紙。</Item>
 			
 			<Item Key="Setting_Personalize_Color_Title">BakaXL配色方案</Item>
 			<Item Key="Setting_Personalize_Color_Selector">揀一個配色方案</Item>
