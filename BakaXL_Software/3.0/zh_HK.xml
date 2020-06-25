@@ -119,7 +119,7 @@
 			<Item Key="Core_NeverRun">仲未運行</Item>
 			<Item Key="Core_Default_Description">呢條粉腸核心乜嘢介紹都冇</Item>
 
-		    <Item Key="HomeWelcome">歡迎</Item>
+		        <Item Key="HomeWelcome">歡迎</Item>
 			<Item Key="HomePreview">預覽版本唔代表最終體驗</Item>
 
 			<Item Key="Home_Title">歡迎使用全新BakaXL</Item>
