@@ -371,6 +371,7 @@
 
 			<Item Key="BakaPlaza_MinecraftInstaller_CoreDesc_Default">从笨蛋广场下载 - Minecraft {0} 原版核心</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_CoreDesc_Forge">从笨蛋广场下载 - 带有Forge {0} 的 Minecraft {1} 核心</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_CoreDesc_Fabric">从笨蛋广场下载 - 带有Fabric {0} 的 Minecraft {1} 核心</Item>
 
 			<Item Key="BakaPlaza_MinecraftInstaller_Steps_Prepare">正在准备</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Steps_Successful">成功</Item>
@@ -387,6 +388,7 @@
 			<Item Key="BakaPlaza_MinecraftInstaller_Steps_GenerateForgeFile">生成Forge文件</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Steps_PrepareVanilla">准备原版Minecraft</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Steps_CopyVanilla">复制原版Minecraft核心</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Steps_CleanUp">准备结束安装</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Steps_InstallSuccessful">安装成功</Item>
 
 			<Item Key="Protocol_Ani_Tips">在BakaXL笨蛋广场中查看此资源</Item>
@@ -428,9 +430,14 @@
 
 			<Item Key="Tips_ChannelDetail_Loading">正在获取贴士列表</Item>
 
-			<Item Key="Tips_ChannelDetail_LoadFailed">咦？无法读取此频道的贴士</Item>
-			<Item Key="Tips_ChannelDetail_LoadFailed_Tips_ThirdParty">请与您的第三方贴士服务提供者联系，或者再试一次。</Item>
-			<Item Key="Tips_ChannelDetail_LoadFailed_Tips">请检查您的互联网连接，然后再试一次。</Item>
+			<Item Key="Tips_ChannelDetail_LoadFailed">这个频道空空的</Item>
+			<Item Key="Tips_ChannelDetail_LoadFailed_Tips">请检查您的互联网连接。这也有可能是因为该频道尚未发布任何贴士。</Item>
+			
+			<Item Key="Tips_Detail_Loading">正在搞个大新闻</Item>
+			<Item Key="Tips_Detail_Loading_Tips">正在加载贴士详情，请稍后…</Item>
+
+			<Item Key="Tips_Detail_LoadFailed">贴士宝宝去哪了？</Item>
+			<Item Key="Tips_Detail_LoadFailed_Tips">BakaXL目前无法加载此贴士的详情，请稍后再试。</Item>
 
 			<Item Key="Setting_JavaCheck_BestMatch">最佳适配</Item>
 			<Item Key="Setting_JavaCheck_Usable">可用之选</Item>
@@ -803,7 +810,12 @@
 
 			<Item Key="Setting_Download_Source_Title">下载源</Item>
 			<Item Key="Setting_Download_Source_BMCLAPI_Btn_Title">中国大陆地区使用第三方下载源加速</Item>
-			<Item Key="Setting_Download_Source_BMCLAPI_Tips">使用来自bangbang93的BMCLAPI来为BakaXL的资源下载加速。&#xD;&#xA;若要了解更多有关BMCLAPI的详情，请参阅：&#xD;&#xA;https://bmclapidoc.bangbang93.com/</Item>
+			
+			<Item Key="Setting_Download_Source_BMCLAPIMirror_Btn_Title">BMCLAPI镜像服务器</Item>
+			<Item Key="Setting_Download_Source_BMCLAPIMirror_Mirror_Source">传统</Item>
+			<Item Key="Setting_Download_Source_BMCLAPIMirror_Mirror_MCBBS">MCBBS源</Item>
+			
+			<Item Key="Setting_Download_Source_BMCLAPI_Tips">使用来自bangbang93的BMCLAPI来为BakaXL的资源下载加速。&#xD;&#xA;&#xD;&#xA;关：使用文件的原始下载地址进行下载 (速度较慢)&#xD;&#xA;传统：使用BMCLAPI传统服务器进行下载 (更新快，速度较快)&#xD;&#xA;MCBBS源：BMCLAPI的MCBBS镜像源进行下载 (更新较慢，速度最快)&#xD;&#xA;&#xD;&#xA;若要了解更多有关BMCLAPI的详情，请参阅：&#xD;&#xA;https://bmclapidoc.bangbang93.com/</Item>
 
 			<Item Key="Setting_Download_Advance">高级下载选项</Item>
 
@@ -956,21 +968,28 @@
 			<Item Key="ErrorCan_BakaXL_Solution">请立即将此错误上报BakaXL开发团队以便尽快修复。</Item>
 
 			<Item Key="ErrorCan_Network_ConnectionTimedOut_Title">远程服务器连接超时。</Item>
-			<Item Key="ErrorCan_Network_ConnectionTimedOut_VanillaList_Solution">BakaXL无法通过BMCLAPI或官方下载源获取最新的Minecraft核心列表。\r\n在某些情况下，该问题有可能是因为您的互联网服务提供商(ISP)劫持了您的流量。\r\n请检查您的互联网连接，确保计算机与下载源之间的网络通信是正常的。\r\n\r\n若此问题持续出现，您可以向BakaXL开发团队汇报此问题。</Item>
+			<Item Key="ErrorCan_Network_ConnectionTimedOut_VanillaList_Solution">BakaXL无法通过BMCLAPI或官方下载源获取最新的Minecraft核心列表。&#xD;&#xA;在某些情况下，该问题有可能是因为您的互联网服务提供商(ISP)劫持了您的流量。&#xD;&#xA;请检查您的互联网连接，确保计算机与下载源之间的网络通信是正常的。\r\n\r\n若此问题持续出现，您可以向BakaXL开发团队汇报此问题。</Item>
 
 			<Item Key="ErrorCan_Network_ErrorData_Title">远程服务器返回了一个错误的数据。</Item>
-			<Item Key="ErrorCan_Network_ErrorData_VanillaList_Solution">由于Minecraft官方下载源或BMCLAPI返回了一个当前BakaXL无法识别的版本信息，因此无法完成核心列表的准备。\r\n在某些情况下，该问题有可能是因为您的互联网服务提供商(ISP)劫持了返回的数据。\r\n请检查您的互联网连接，确保计算机与下载源之间的网络通信是正常的。\r\n\r\n若此问题持续出现，您可以向BakaXL开发团队汇报此问题。</Item>
+			<Item Key="ErrorCan_Network_ErrorData_VanillaList_Solution">由于Minecraft官方下载源或BMCLAPI返回了一个当前BakaXL无法识别的版本信息，因此无法完成核心列表的准备。&#xD;&#xA;在某些情况下，该问题有可能是因为您的互联网服务提供商(ISP)劫持了返回的数据。&#xD;&#xA;请检查您的互联网连接，确保计算机与下载源之间的网络通信是正常的。&#xD;&#xA;&#xD;&#xA;若此问题持续出现，您可以向BakaXL开发团队汇报此问题。</Item>
 
 			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Vanilla_Title">ULauncherCore汇报在准备游戏版本时出现异常</Item>
-			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Vanilla_Solution">通常，出现此问题是因为ULauncherCore无法正确准备特定的Minecraft版本。\r\n请检查您的互联网连接，确保计算机与下载源之间的网络通信是正常的。\r\n\r\n您可以前往 BakaXL本体设置 - 下载 并切换 大陆地区使用第三方下载源 开关的状态后再试一次。\r\n若此问题持续出现，您可以向BakaXL开发团队汇报此问题。</Item>
-			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Vanilla_CoreFolderNotFound_Solution">无法定位此版本Forge所需要的前置Minecraft本体核心：.minecraft/versions/{0}/{1}.jar。\r\n\r\n您可以尝试先安装此Minecraft版本的原版核心后，再试一次。</Item>
+			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Vanilla_Solution">通常，出现此问题是因为ULauncherCore无法正确准备特定的Minecraft版本。&#xD;&#xA;请检查您的互联网连接，确保计算机与下载源之间的网络通信是正常的。&#xD;&#xA;&#xD;&#xA;您可以前往 BakaXL本体设置 - 下载 并切换 大陆地区使用第三方下载源 开关的状态后再试一次。&#xD;&#xA;若此问题持续出现，您可以向BakaXL开发团队汇报此问题。</Item>
+			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Vanilla_CoreFolderNotFound_Solution">无法定位此版本Forge所需要的前置Minecraft本体核心：.minecraft/versions/{0}/{1}.jar。&#xD;&#xA;&#xD;&#xA;您可以尝试先安装此Minecraft版本的原版核心后，再试一次。</Item>
 
 			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Forge_Title">BakaXL Forge安装器报告在安装时出现异常。</Item>
-			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Forge_DownloadOrDamage_Solution">尝试安装的Forge版本： Forge-{0}-{1}\r\n\r\n造成此问题的原因可能是无法下载文件，或是解压时出现意外。\r\n首先，请检查您的互联网连接，确保计算机与下载源之间的网络通信是正常的。\r\n其次，尝试以管理员身份运行BakaXL，并再试一次安装。\r\n\r\n若此问题持续出现，您可以向BakaXL开发团队汇报此问题。</Item>
-			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Forge_NotSupported_Solution">尝试安装的Forge版本： Forge-{0}-{1}\r\n\r\n通常，这可能由于下载的文件受损、访问本地文件权限不足，亦或是此版本的Forge不受支持造成的。\r\n首先，尝试以管理员身份运行BakaXL，再试一次安装。\r\n其次，检查此笨蛋罐头中的异常信息，若其中明确说明了该版本的Forge不受支持，请将此笨蛋罐头汇报至BakaXL开发团队。\r\n\r\n若此问题持续出现，您可以向BakaXL开发团队汇报此问题。</Item>
+			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Forge_DownloadOrDamage_Solution">尝试安装的Forge版本： Forge-{0}-{1}&#xD;&#xA;&#xD;&#xA;造成此问题的原因可能是无法下载文件，或是解压时出现意外。&#xD;&#xA;首先，请检查您的互联网连接，确保计算机与下载源之间的网络通信是正常的。&#xD;&#xA;其次，尝试以管理员身份运行BakaXL，并再试一次安装。&#xD;&#xA;&#xD;&#xA;若此问题持续出现，您可以向BakaXL开发团队汇报此问题。</Item>
+			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Forge_NotSupported_Solution">尝试安装的Forge版本： Forge-{0}-{1}&#xD;&#xA;&#xD;&#xA;通常，这可能由于下载的文件受损、访问本地文件权限不足，亦或是此版本的Forge不受支持造成的。&#xD;&#xA;首先，尝试以管理员身份运行BakaXL，再试一次安装。&#xD;&#xA;其次，检查此笨蛋罐头中的异常信息，若其中明确说明了该版本的Forge不受支持，请将此笨蛋罐头汇报至BakaXL开发团队。&#xD;&#xA;&#xD;&#xA;若此问题持续出现，您可以向BakaXL开发团队汇报此问题。</Item>
 
 			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Forge_JsonNullException">无法解析Forge的安装档案(install_profile)，Json解释器返回了空的文本。</Item>
-			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Forge_JarNotFoundException">无法找到此版本Forge安装器包含的Forge核心(universal.jar)。\r\n\r\n无法兼容的Forge版本，请向BakaXL开发团队反馈此Forge版本：Forge-{0}-{1}</Item>
+			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Forge_JarNotFoundException">无法找到此版本Forge安装器包含的Forge核心(universal.jar)。&#xD;&#xA;&#xD;&#xA;无法兼容的Forge版本，请向BakaXL开发团队反馈此Forge版本：Forge-{0}-{1}</Item>
+
+			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Fabric_Title">BakaXL Fabric安装器报告在安装时出现异常。</Item>
+			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Fabric_DownloadOrDamage_Solution">尝试安装的Fabric版本： Fabric-{0}-{1}&#xD;&#xA;&#xD;&#xA;造成此问题的原因可能是无法下载文件，或是解压时出现意外。&#xD;&#xA;首先，请检查您的互联网连接，确保计算机与下载源之间的网络通信是正常的。&#xD;&#xA;其次，尝试以管理员身份运行BakaXL，并再试一次安装。&#xD;&#xA;&#xD;&#xA;若此问题持续出现，您可以向BakaXL开发团队汇报此问题。</Item>
+			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Fabric_NotSupported_Solution">尝试安装的Fabric版本： Fabric-{0}-{1}&#xD;&#xA;&#xD;&#xA;通常，这可能由于下载的文件受损、访问本地文件权限不足，亦或是此版本的Fabric不受支持造成的。&#xD;&#xA;首先，尝试以管理员身份运行BakaXL，再试一次安装。&#xD;&#xA;其次，检查此笨蛋罐头中的异常信息，若其中明确说明了该版本的Fabric不受支持，请将此笨蛋罐头汇报至BakaXL开发团队。&#xD;&#xA;&#xD;&#xA;若此问题持续出现，您可以向BakaXL开发团队汇报此问题。</Item>
+
+			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Fabric_JsonNullException">无法解析Fabric的安装档案(json)，Json解释器返回了空的文本。</Item>
+			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Fabric_CopyVanilla">无法拷贝原版Minecraft的json文件。</Item>
 
 			<Item Key="ThemeTitle">个性化设置</Item>
 			<Item Key="ThemeSubtitle">自定义您的BakaXL背景、主题等个性化设置</Item>
