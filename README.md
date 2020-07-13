@@ -25,23 +25,23 @@ BakaXL启动器是一款全新的Minecraft崩坏启动器，若要了解更多�
 
 
 <h4>目前提供的语言条目文件</h4> 
-zh-CN.xaml 简体中文<br />
-zh-HK.xaml 粤语（繁体中文）<br />
-zh-TW.xaml 正體中文<br />
-zh-CC.xaml 文言（文辭雅正，博學淵深）<br />
-zh-MC.xaml 焱暒妏 (荢宙)<br />
-en-US.xaml English<br />
-en-ES.xaml español  ##2017.7.28 需要补全词条<br />
-fr-FR.xaml français<br />
-ja-JP.xaml 日本語<br />
-ko-KR.xaml 한국어  ##2017.7.30 需要翻译新增词条<br />
+zh-CN.xaml / zh-CN.xml 简体中文 [2.0/3.0]<br />
+zh-HK.xaml / zh-HK.xml 粤语（繁体中文）[2.0/3.0]<br />
+zh-TW.xaml / zh-TW.xml 正體中文 [2.0/3.0]<br />
+zh-CC.xaml / zh-CC.xml 文言（文辭雅正，博學淵深） [2.0/3.0]<br />
+zh-MC.xaml / zh-MC.xml 焱暒妏 (荢宙) [2.0/3.0]<br />
+en-US.xaml / en-US.xml English [2.0/3.0]<br />
+en-ES.xaml español [2.0] ##2017.7.28 需要补全词条<br />
+fr-FR.xaml français [2.0]<br />
+ja-JP.xaml / ja-JP.xml 日本語 [2.0/3.0]<br />
+ko-KR.xaml 한국어 [2.0] ##2017.7.30 需要翻译新增词条<br />
 
 
 <h4>特别感谢以下翻译官对BakaXL异域计划的支持：</h4>
 
 =#排名不分先后#=
 
-粤语（繁体中文）: kaho0w0、JasonHK、cvrunmin、悠静萝莉<br />
+粤语（繁体中文）: kaho0w0、JasonHK、cvrunmin、悠静萝莉、Jinzero<br />
 正體中文：JasonHK、cvrunmin<br />
 文言：muckis、zam、tdiant<br />
 焱暒妏 (荢宙)：Dian-Jiao<br />
