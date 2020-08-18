@@ -16,7 +16,7 @@
 			<Item Key="LoadingPlugins">插件</Item>
 
 			<Item Key="Window_ReportIssue_Title">反馈问题</Item>
-			<Item Key="Window_ReportIssue_Tips">来BakaXL官方吐个槽社区反馈你所遇到的问题吧！</Item>
+			<Item Key="Window_ReportIssue_Tips">前往BakaXL官方Github仓库提交Issues</Item>
 			
 			<Item Key="Window_GetHelp_Title">获取帮助</Item>
 			<Item Key="Window_GetHelp_Tips">遇到问题？不会使用？访问我们的帮助页面</Item>
@@ -54,7 +54,14 @@
 			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_CheckAssets">正在检查Minecraft资源文件</Item>
 			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_DownloadAssets">正在下载Minecraft资源文件</Item>
 			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_GenParameter">正在生成参数</Item>
+			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_CheckAuthlib">正在检查Authlib-Injector</Item>
+			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_CheckAuthlib_GetInfo">正在获取Authlib-Injector下载信息</Item>
+			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_CheckAuthlib_Download">正在下载Authlib-Injector</Item>
+			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_CheckPlugin">正在执行BakaXL插件定义的操作</Item>
 
+			<Item Key="LaunchBar_LaunchBtn_Launching_Environment_JavaNotExist">Java路径已变动，正在重新定位</Item>
+			<Item Key="LaunchBar_LaunchBtn_Launching_Environment_NewJavaFound">BakaXL将使用新的Java路径启动Minecraft</Item>
+			
 			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_CheckEnvironment">发射模式: 检查和补全Minecraft环境</Item>
 
 			<Item Key="LaunchBar_LaunchBtn_Launched_Title">游戏运行中</Item>
@@ -63,10 +70,14 @@
 			<Item Key="LaunchBar_ToolTip_DownloadLib">正在下载Minecraft支持库&#xD;&#xA;文件名：{0}&#xD;&#xA;路径：{1}</Item>
 
 			<Item Key="LaunchBar_Title_Launched">已使用 {0} 的身份运行游戏</Item>
-			<Item Key="LaunchBar_Title_AuthError">验证时出现错误：用户名或密码错误。</Item>
-			<Item Key="LaunchBar_Title_AuthError_Unknown">验证时出现错误：未知错误。</Item>
-			<Item Key="LaunchBar_Title_AuthError_MojangTokenExpired">验证时出现错误：会话验证信息过期，请在本体设置重新登录此用户档案。</Item>
-			<Item Key="LaunchBar_Title_AuthError_AuthlibTokenExpired">验证时出现错误：档案验证信息失效，请重新设置此用户档案。</Item>
+			<Item Key="LaunchBar_Title_AuthError">验证时出现错误：用户名或密码错误</Item>
+			<Item Key="LaunchBar_Title_AuthError_Unknown">验证时出现错误：未知错误</Item>
+			<Item Key="LaunchBar_Title_AuthError_MojangTokenExpired">验证时出现错误：会话验证信息过期，请在本体设置重新登录此用户档案</Item>
+			<Item Key="LaunchBar_Title_AuthError_AuthlibTokenExpired">验证时出现错误：档案验证信息失效，请重新设置此用户档案</Item>
+			<Item Key="LaunchBar_Title_EnvironmentError_JavaNotFound">环境检查错误：无法定位Java路径</Item>
+			<Item Key="LaunchBar_Title_GameError_GetAssetsListFailed">资源补全错误：无法从下载源获取Minecraft资源文件列表</Item>
+			<Item Key="LaunchBar_Title_GameError_GetAuthlibFailed">资源补全错误：无法下载Authlib-Injector本体</Item>
+			<Item Key="LaunchBar_Title_LaunchModeError_CheckGameFailed">发射模式错误：检查Minecraft环境出错</Item>
 
 			<Item Key="UserSelector_Launch_Title">哪个用户将用于启动Minecraft？</Item>
 			<Item Key="UserSelector_Authlib_SelectProfile">该账户拥有的多个角色，选择一个角色</Item>
@@ -90,6 +101,7 @@
 			<Item Key="CoreSelector_Loading_Tips">核心们正在排队站好</Item>
 			
 			<Item Key="CoreSelector_DisplayMode_All">全部</Item>
+			<Item Key="CoreSelector_DisplayMode_Favorite">我的收藏</Item>
 			<Item Key="CoreSelector_DisplayMode_Vanilla">仅原版</Item>
 			<Item Key="CoreSelector_DisplayMode_Forge">仅Forge</Item>
 			<Item Key="CoreSelector_DisplayMode_Fabric">仅Fabric</Item>
@@ -108,6 +120,44 @@
 			<Item Key="CoreSelector_CoreError_NotCompatible">错误 - 损毁、不受兼容的核心或整合包</Item>
 
 			<Item Key="CoreSelector_GetCore_Title">前往 笨蛋广场 获取Minecraft核心</Item>
+			
+			<Item Key="CoreManagement_Title">高级核心管理</Item>
+			<Item Key="CoreManagement_Publisher">发行者: {0}</Item>
+			<Item Key="CoreManagement_Publisher_None">尚无发行者</Item>
+			<Item Key="CoreManagement_LastPlayed">最近游玩于 {0}</Item>
+			<Item Key="CoreManagement_LastPlayed_None">尚未运行过</Item>
+			
+			<Item Key="CoreManagement_Tips_Locked_MCVersion">某些选项不可用，因为Minecraft版本过低。</Item>
+			<Item Key="CoreManagement_Tips_Locked_ModPack">某些选项不可用，因为它们由您的整合包提供者管理。</Item>
+			<Item Key="CoreManagement_Tips_Locked_Server">某些选项不可用，因为它们由此整合包对应的服务器管理。</Item>
+			
+			<Item Key="CoreManagement_Tips_Error_Json">此核心所使用的Json文件不是规范的Minecraft游戏核心标识文件。</Item>
+			<Item Key="CoreManagement_Tips_Error_Json_Broken">此核心的Json文件损坏，BakaXL无法读取。</Item>
+			<Item Key="CoreManagement_Tips_Error_Unsupported">此核心使用了其他启动器特有的标识格式，BakaXL无法读取。</Item>
+			<Item Key="CoreManagement_Tips_Error_Jar_Missing">此核心所需的Jar文件不存在。</Item>
+			<Item Key="CoreManagement_Tips_Error_Inherits_Missing">此核心所依赖的Minecraft核心不存在。</Item>
+			
+			<Item Key="CoreManagement_Tips_Suggest_Reset">此核心需要重置才可以正常使用，前往 &quot;恢复 > 重置此核心&quot;。</Item>
+			<Item Key="CoreManagement_Tips_Suggest_AutoRepare">BakaXL可尝试修复此核心，前往 &quot;恢复 > 自动修复&quot;。</Item>
+			<Item Key="CoreManagement_Tips_Suggest_Shader">若要加载Minecraft光影文件，则可能需要安装 &quot;Optifine&quot;。</Item>
+			
+			<Item Key="CoreManagement_Tips_Warn_Mod_Unsupported">此核心不支持安装模组(Mods)。</Item>
+			
+			<Item Key="CoreManagement_Page_Info">信息</Item>
+			<Item Key="CoreManagement_Page_Mod">模组(Mods)</Item>
+			<Item Key="CoreManagement_Page_ResourcePack">资源包</Item>
+			<Item Key="CoreManagement_Page_ShaderPack">光影包</Item>
+			<Item Key="CoreManagement_Page_Config">游戏/模组配置</Item>
+			<Item Key="CoreManagement_Page_Advance">高级启动</Item>
+			<Item Key="CoreManagement_Page_Update">更新</Item>
+			<Item Key="CoreManagement_Page_Restore">恢复</Item>
+			
+			<Item Key="CoreManagement_Info_Description">简介</Item>
+			<Item Key="CoreManagement_Info_Description_None">这里空空的，啥介绍都没有。</Item>
+			<Item Key="CoreManagement_Info_PlayTime">游玩时间</Item>
+			<Item Key="CoreManagement_Info_PlayTime_Text">自 {0} 最后一次运行以来，此核心已累计运行 {1} 。</Item>
+			<Item Key="CoreManagement_Info_PlayTime_NeverPlayed_Text">此核心自安装日以来就从来没有运行过，真难过。</Item>
+			<Item Key="CoreManagement_Info_Version">版本</Item>
 
 			<Item Key="StartMenuTipper_Title">向上拖动以进入开始菜单</Item>
 
@@ -125,6 +175,9 @@
 			<Item Key="Home_Title">欢迎使用全新BakaXL</Item>
 			<Item Key="Home_SubTitle">BakaXL现已焕然一新。不太一样，大不一样！</Item>
 			<Item Key="Home_SubTitle_Insider">BakaXL Insider Preview 预览体验版本</Item>
+
+			<Item Key="Home_Task_NoTask">BakaXL任务队列 >> 当前无任何任务和通知</Item>
+			<Item Key="Home_Task_HasTask">BakaXL任务队列 >> {0} 项任务, {1} 项通知</Item>
 			
 			<Item Key="Home_StartMenu_Title">开始</Item>
 			<Item Key="Home_StartMenu_Tips">点击下面的磁贴以使用更多BakaXL精彩功能</Item>
@@ -172,6 +225,11 @@
 			<Item Key="Unavailable">不可用</Item>
 			<Item Key="Login">登录</Item>
 			<Item Key="LearnMore">了解更多</Item>
+			<Item Key="Edit">编辑</Item>
+			<Item Key="UnableEdit">无法编辑</Item>
+			<Item Key="Clear">清空</Item>
+			<Item Key="Favorite">收藏</Item>
+			<Item Key="UnFavorite">取消收藏</Item>
 
 			<Item Key="FullScreen">全屏</Item>
 			<Item Key="Big">大</Item>
@@ -525,7 +583,10 @@
 			<Item Key="Setting_Support_ErrorHistory_Config_Language">显示语言</Item>
 			<Item Key="Setting_Support_ErrorHistory_Config_CloseAfterLaunch">启动后自动退出</Item>
 			<Item Key="Setting_Support_ErrorHistory_Config_AutoFix">自动补全缺失资源</Item>
-			<Item Key="Setting_Support_ErrorHistory_Config_BMCLAPI">大陆地区使用第三方下载源加速(BMCLAPI)</Item>
+			<Item Key="Setting_Support_ErrorHistory_Config_BMCLAPI">大陆地区使用第三方下载源加速</Item>
+			<Item Key="Setting_Support_ErrorHistory_Config_BMCLAPI_Mirror">下载源模式</Item>
+			<Item Key="Setting_Support_ErrorHistory_Config_ThreadMode">下载线程模式</Item>
+			<Item Key="Setting_Support_ErrorHistory_Config_JavaGCMode">Java GC回收器模式</Item>
 			<Item Key="Setting_Support_ErrorHistory_Config_JavaPath">Java路径</Item>
 			<Item Key="Setting_Support_ErrorHistory_Config_AutoMemory">自动设置内存</Item>
 			<Item Key="Setting_Support_ErrorHistory_Config_Memory">内存大小</Item>
@@ -777,6 +838,9 @@
 			<Item Key="Setting_Personalize_Background_LiveBackground">使用实况背景功能（实验版）</Item>
 			<Item Key="Setting_Personalize_Background_LiveBackground_Tips">在BakaXL底部绑定额外的叠层以显示高级动态背景。&#xD;通过BakaXL x Wallpaper Engine联动显示动态背景。&#xD;&#xD;该功能在部分分辨率和DPI缩放环境下无法正常工作。&#xD;若未您当前未在使用Wallpaper Engine，则BakaXL将会使用&#xD;你的桌面壁纸。</Item>
 			
+			<Item Key="Setting_Personalize_Background_Parallax">背景图片视差</Item>
+			<Item Key="Setting_Personalize_Background_Parallax_Tips">让背景图片跟随鼠标移动，营造视差效果。&#xD;打开此功能时，BakaXL将会稍许放大当前背景图片。&#xD;&#xD;使用实况背景或者默认背景时，无法使用此功能。</Item>
+
 			<Item Key="Setting_Personalize_Color_Title">BakaXL配色方案</Item>
 			<Item Key="Setting_Personalize_Color_Selector">选择一个配色方案</Item>
 			<Item Key="Setting_Personalize_Color_NightMode">反转颜色模式</Item>
@@ -990,6 +1054,10 @@
 
 			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Fabric_JsonNullException">无法解析Fabric的安装档案(json)，Json解释器返回了空的文本。</Item>
 			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Fabric_CopyVanilla">无法拷贝原版Minecraft的json文件。</Item>
+
+			<Item Key="DangerOperation_Title">注意</Item>
+			<Item Key="DangerOperation_ConfirmBtn_Default">确认进行此操作</Item>
+			<Item Key="DangerOperation_CancelBtn_Default">取消此操作并返回</Item>
 
 			<Item Key="ThemeTitle">个性化设置</Item>
 			<Item Key="ThemeSubtitle">自定义您的BakaXL背景、主题等个性化设置</Item>
