@@ -150,7 +150,7 @@
 			<Item Key="CoreManagement_Page_Config">游戏/模组配置</Item>
 			<Item Key="CoreManagement_Page_Advance">高级启动</Item>
 			<Item Key="CoreManagement_Page_Update">更新</Item>
-			<Item Key="CoreManagement_Page_Restore">恢复</Item>
+			<Item Key="CoreManagement_Page_Restore">恢复 / 删除</Item>
 			
 			<Item Key="CoreManagement_Info_Description">简介</Item>
 			<Item Key="CoreManagement_Info_Description_None">这里空空的，啥介绍都没有。</Item>
@@ -158,6 +158,24 @@
 			<Item Key="CoreManagement_Info_PlayTime_Text">自 {0} 最后一次运行以来，此核心已累计运行 {1} 。</Item>
 			<Item Key="CoreManagement_Info_PlayTime_NeverPlayed_Text">此核心自安装日以来就从来没有运行过，真难过。</Item>
 			<Item Key="CoreManagement_Info_Version">版本</Item>
+
+			<Item Key="CoreManagement_Mods_Title">模组(Mods)</Item>
+			<Item Key="CoreManagement_Mods_Supported">此核心或整合包安装了支持的模组API。</Item>
+			<Item Key="CoreManagement_Mods_Unsupported">此核心或整合包好像并未使用支持加载模组的模组API。&#xD;&#xA;若您要使用模组，则应当先安装Forge、Farbic或其他模组API。&#xD;&#xA;&#xD;&#xA;若您认为BakaXL错误的认为该核心或整合包没有安装模组API，请联系我们。</Item>
+			<Item Key="CoreManagement_Mods_ModList_Title">位于Mods文件夹</Item>
+			<Item Key="CoreManagement_Mods_ModList_DargTips">将模组拖入至此区域快速安装模组。</Item>
+			<Item Key="CoreManagement_Mods_ModList_Desc">BakaXL将会扫描此核心的Mods文件夹，并将所有受支持的模组文件显示在此列表中。</Item>
+			<Item Key="CoreManagement_Mods_ModList_NoMods">BakaXL未在此核心或整合包中找到任何模组文件。</Item>
+
+			<Item Key="CoreManagement_Restore_Title">恢复</Item>
+			<Item Key="CoreManagement_Restore_Button">重置此核心</Item>
+			<Item Key="CoreManagement_Restore_Desc">如果Minecraft没有正常运行，重置核心可能会解决问题。重置时，BakaXL将会删除Libraries和核心的Json文件，然后尝试重新从笨蛋广场获取此版本。</Item>
+			<Item Key="CoreManagement_Restore_Delete_Title">删除此核心</Item>
+			<Item Key="CoreManagement_Restore_Delete_Button">从游戏目录中删除此Minecraft核心</Item>
+			<Item Key="CoreManagement_Restore_Delete_Desc">执行后将从当前游戏目录中永久删除此Minecraft游戏核心，其所包含的Mods、地图、截图等数据将会被同时删除。&#xD;&#xA;&#xD;&#xA;此操作过程不可逆。请谨慎操作。</Item>
+			<Item Key="CoreManagement_Restore_ClearCache_Title">清理垃圾文件</Item>
+			<Item Key="CoreManagement_Restore_ClearCache_Button">从该游戏核心中清理垃圾文件</Item>
+			<Item Key="CoreManagement_Restore_ClearCache_Desc">执行后将会清理掉无用的垃圾文件、日志文件等；通常情况下，这些文件清理后不会对您的游戏造成影响。</Item>
 
 			<Item Key="StartMenuTipper_Title">向上拖动以进入开始菜单</Item>
 
@@ -793,6 +811,7 @@
 
 			<Item Key="Setting_Advance_AdvLaunch_Title">高级启动</Item>
 			<Item Key="Setting_Advance_AdvLaunch_Warn_1">如果您不确定这些选项的作用，请不要改动这些设置。</Item>
+			<Item Key="Setting_Advance_AdvLaunch_Warn_SettingMoved">部分设置已经移动至高级核心设置内，点击此处前往。</Item>
 			<Item Key="Setting_Advance_AdvLaunch_MinecraftTitle">Minecraft窗口标题</Item>
 			<Item Key="Setting_Advance_AdvLaunch_MinecraftTitle_Tips">设置由BakaXL启动的Minecraft窗体标题。&#xD;&#xA;可在标题中使用参数来显示动态内容。&#xD;&#xA;{time}: 显示当前系统时间。</Item>
 			<Item Key="Setting_Advance_AdvLaunch_Args">高级启动参数</Item>
@@ -950,6 +969,19 @@
 			<Item Key="HomeMenu_Btn_Close">结束并返回BakaXL主界面</Item>
 			<Item Key="HomeMenu_Btn_Confirm">确认结束</Item>
 			<Item Key="HomeMenu_Btn_Closed">已结束</Item>
+
+			<Item Key="IconSelector_DefaultTitle">选择一个图标</Item>
+			<Item Key="IconSelector_BrowseIcon">浏览自定义图标</Item>
+			<Item Key="IconSelector_Default">使用默认图标</Item>
+
+			<Item Key="IconSelector_Core_SetIcon_Title">为此核心选择一个图标</Item>
+
+			<Item Key="TextInputer_DefaultTitle">输入内容</Item>
+			<Item Key="TextInputer_Watermark">在这里输入您的内容...</Item>
+
+			<Item Key="TextInputer_Core_SetName_Title">更改此核心的显示名称</Item>
+			<Item Key="TextInputer_Core_SetPublisher_Title">更改此核心的发行者</Item>
+			<Item Key="TextInputer_Core_SetDesc_Title">更改此核心的简介</Item>
 
 			<Item Key="MessageBox_Launch_CheckOnline">正在检查用户是否可以运行Minecraft……</Item>
 			<Item Key="MessageBox_Launch_CheckThirdParty">请等待我们连接到第三方验证服务器……</Item>
