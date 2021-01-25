@@ -31,6 +31,8 @@
 			<Item Key="LaunchBar_SelectCore_Animation_Click">撳住 &quot;啟動遊戲&quot; 按鈕</Item>
 			<Item Key="LaunchBar_SelectCore_Animation_Drag">向右拉動</Item>
 
+			<Item Key="LaunchBar_SelectCore_BtnTitle">更換 Minecraft 遊戲核心</Item>
+
 			<Item Key="LaunchBar_SelectCore_Title">揀核心</Item>
 			<Item Key="LaunchBar_SelectCore_Management">核心管理</Item>
 			<Item Key="LaunchBar_SelectCore_Management_Tips">揀定、調整同管理你嘅遊戲核心</Item>
@@ -74,6 +76,7 @@
 			<Item Key="LaunchBar_Title_AuthError_Unknown">驗證時出現錯誤：未知錯誤</Item>
 			<Item Key="LaunchBar_Title_AuthError_MojangTokenExpired">驗證時出現錯誤：會話驗證信息過期，請喺本體設定重新登入此用戶檔案</Item>
 			<Item Key="LaunchBar_Title_AuthError_AuthlibTokenExpired">驗證時出現錯誤：檔案驗證信息失效，請重新設定此用戶檔案</Item>
+      <Item Key="LaunchBar_Title_AuthError_MicrosoftLoginCanceled">驗證時出現錯誤：微軟賬戶登錄被用戶取消</Item>
 			<Item Key="LaunchBar_Title_EnvironmentError_JavaNotFound">環境檢查錯誤：沒法定位Java路徑</Item>
 			<Item Key="LaunchBar_Title_GameError_GetAssetsListFailed">資源補全錯誤：沒法從下載源獲取Minecraft資源文件列表</Item>
 			<Item Key="LaunchBar_Title_GameError_GetAuthlibFailed">資源補全錯誤：沒法下載Authlib-Injector本體</Item>
@@ -85,6 +88,7 @@
 
 			<Item Key="UserProfile_ToolTip_Offline">用戶名：{0} &#xD;&#xA;此用戶檔案將使用離線驗證</Item>
 			<Item Key="UserProfile_ToolTip_Online">用戶名：{0} &#xD;&#xA;此用戶檔案將使用Mojang正版驗證</Item>
+      <Item Key="UserProfile_ToolTip_Online_Microsoft">用户名：{0} &#xD;&#xA;此用戶檔案將使用微軟賬戶正版驗證</Item>
 			<Item Key="UserProfile_ToolTip_ThirParty_WithoutName">用戶名：{0} &#xD;&#xA;此用戶檔案將使用第三方賬戶驗證伺服器&#xD;&#xA;驗證伺服器地址：{1}</Item>
 			<Item Key="UserProfile_ToolTip_ThirParty_WithName">用戶名：{0} &#xD;&#xA;此用戶檔案將使用 {1} 提供嘅賬戶驗證伺服器&#xD;&#xA;驗證伺服器地址：{2}</Item>
 
@@ -222,13 +226,16 @@
 			<Item Key="BakaXL.Pages.PageGuide">設定向導</Item>
 			<Item Key="BakaXL.Pages.PageTips">BakaXL貼士</Item>
 			<Item Key="BakaXL.Pages.PagePlaza">笨蛋廣場</Item>
+      <Item Key="BakaXL.Pages.PageAddGameCore">添加核心向導</Item>
 
 			<Item Key="Minecraft_AuthMode_Offline">離線模式</Item>
 			<Item Key="Minecraft_AuthMode_Online">正版驗證</Item>
+      <Item Key="Minecraft_AuthMode_Online_Microsoft">正版验证(微軟賬戶)</Item>
 			<Item Key="Minecraft_AuthMode_ThirdParty">外置登入(authlib-injector)</Item>
 
 			<Item Key="ProfileBtn_Offline">仲未進行正版驗證</Item>
 			<Item Key="ProfileBtn_Online">已進行正版驗證</Item>
+      <Item Key="ProfileBtn_Microsoft">微軟賬戶正版</Item>
 			<Item Key="ProfileBtn_ThirdParty">使用外置登入</Item>
 			<Item Key="ProfileBtn_UnableToUse">唔用得</Item>
 
@@ -248,6 +255,9 @@
 			<Item Key="Clear">清空</Item>
 			<Item Key="Favorite">收藏</Item>
 			<Item Key="UnFavorite">取消收藏</Item>
+      <Item Key="Standard">標準</Item>
+      <Item Key="Traditional">舊款</Item>
+      <Item Key="Preparing">正在準備</Item>
 
 			<Item Key="FullScreen">全屏</Item>
 			<Item Key="Big">大</Item>
@@ -270,6 +280,9 @@
 			<Item Key="Guide_Type_Language">語言</Item>
 			<Item Key="Guide_Type_System">系統信息設定</Item>
 			<Item Key="Guide_Type_Profile">賬戶</Item>
+      <Item Key="Guide_Type_Other">其他</Item>
+      <Item Key="Guide_Type_Personalize">個性化</Item>
+      <Item Key="Guide_Type_Accessibility">輔助使用</Item>
 
 			<Item Key="Guide_Page_Welcome_Subtitle">歡迎使用全新BakaXL</Item>
 			<Item Key="Guide_Page_Welcome_Tips">喺開始您嘅Minecraft旅程前，我哋需要收集一啲信息。</Item>
@@ -280,7 +293,10 @@
 
 			<Item Key="Guide_Page_Language_Tips">請揀一個適合您閱讀嘅顯示語言</Item>
 
-			<Item Key="Guide_Page_QuickSet_Subtitle">快速設定</Item>
+      <Item Key="Guide_Page_DisplayMode_Subtitle">主熒幕顯示模式</Item>
+      <Item Key="Guide_Page_DisplayMode_Tips">您隨時可以在您随时可以喺'本體設定 - 輔助使用'中修改呢啲設定</Item>
+
+      <Item Key="Guide_Page_QuickSet_Subtitle">快速設定</Item>
 			<Item Key="Guide_Page_QuickSet_Tips">您隨時可以喺'本體設定'中修改呢啲設定</Item>
 			
 			<Item Key="Guide_Page_QuickSet_Title">讓BakaXL自動進行部分設定</Item>
@@ -533,6 +549,7 @@
 			<Item Key="Setting_Language_Title">語言 / Language</Item>
 			<Item Key="Setting_Network_Title">網絡</Item>
 			<Item Key="Setting_Personalize_Title">個性化</Item>
+      <Item Key="Setting_Accessibility_Title">輔助使用</Item>
 			<Item Key="Setting_Audio_Title">音頻</Item>
 			<Item Key="Setting_Download_Title">下載</Item>
 			<Item Key="Setting_Protocol_Title">BakaXL協議</Item>
@@ -673,7 +690,8 @@
 			<Item Key="Setting_Account_Detail_AuthMode">遊戲啟動模式</Item>
 			<Item Key="Setting_Account_Detail_AuthMode_Tips_Default">揀定啟動Minecraft時嘅驗證模式。&#xD;&#xA;正版驗證：使用您嘅Mojang賬戶登入。&#xD;&#xA;離線模式：僅使用遊戲ID進行驗證。&#xD;&#xA;外置登入(authlib-injector)：使用第三方驗證伺服器登入。&#xD;&#xA;&#xD;&#xA;根據相關法律及法規，離線驗證模式喺部分地區唔可用。</Item>
 			<Item Key="Setting_Account_Detail_AuthMode_Tips_Online">揀定啟動Minecraft時嘅驗證模式。&#xA;使用您嘅Mojang賬戶進行正版登入啟動遊戲。</Item>
-			<Item Key="Setting_Account_Detail_AuthMode_Tips_Offline">揀定啟動Minecraft時嘅驗證模式。&#xA;僅使用自定遊戲ID進行離線驗證登入啟動遊戲。&#xA;&#xA;根據相關法律及法規，離線驗證模式喺部分地區唔可用。</Item>
+      <Item Key="Setting_Account_Detail_AuthMode_Tips_Online_Microsoft">揀定啟動Minecraft時嘅驗證模式。&#xA;使用您嘅微軟賬戶(Microsoft Account)授權進行正版登入。</Item>
+      <Item Key="Setting_Account_Detail_AuthMode_Tips_Offline">揀定啟動Minecraft時嘅驗證模式。&#xA;僅使用自定遊戲ID進行離線驗證登入啟動遊戲。&#xA;&#xA;根據相關法律及法規，離線驗證模式喺部分地區唔可用。</Item>
 			<Item Key="Setting_Account_Detail_AuthMode_Tips_ThirdParty">揀定啟動Minecraft時嘅驗證模式。&#xA;使用外置登入(authlib-injector)所要求嘅賬戶信息進行驗證。&#xA;&#xA;為咗您嘅賬戶安全，我哋唔建議您喺第三方驗證服務&#xA;中使用與您嘅Mojang賬戶相同嘅密碼。</Item>
 			
 			<Item Key="Setting_Account_Detail_AccInfo">賬戶信息</Item>
@@ -686,7 +704,16 @@
 			<Item Key="Setting_Account_Detail_Online_Password">輸入您嘅密碼</Item>
 			<Item Key="Setting_Account_Detail_Online_Password_Tips">輸入您嘅Mojang正版賬戶登入密碼。&#xD;&#xA;BakaXL會加密保存呢啲信息。</Item>
 
-			<Item Key="Setting_Account_Detail_Online_OnlineFunction_Title">Mojang正版賬戶功能</Item>
+      <Item Key="Setting_Account_Detail_Online_Microsoft_LoginBtn">透過微軟賬戶登入</Item>
+      <Item Key="Setting_Account_Detail_Online_Microsoft_LoginBtn_Relogin">更換至其他微軟賬戶</Item>
+      <Item Key="Setting_Account_Detail_Online_Microsoft_LoginBtn_Tips">在打開的新頁面中輸入您的微軟賬戶和密碼進行登入授權。&#xD;&#xA;BakaXL不會記下您的微軟賬戶和密碼。&#xD;&#xA;BakaXL與微軟服務器的連接都用了安全套接字層(SSL)技術。</Item>
+      <Item Key="Setting_Account_Detail_Online_Microsoft_Logined_WithUsername">已使用 {0} 嘅身份登入</Item>
+      <Item Key="Setting_Account_Detail_Online_Microsoft_NotLogin">您還未登入至微軟賬戶。</Item>
+      <Item Key="Setting_Account_Detail_Online_Microsoft_Logined">此用戶檔案已通過微軟賬戶授權。</Item>
+      <Item Key="Setting_Account_Detail_Online_Microsoft_Logined_Time_Issued">授權生效時間: {0}</Item>
+      <Item Key="Setting_Account_Detail_Online_Microsoft_Logined_Time_Expired">授權失效時間: {0}</Item>
+
+      <Item Key="Setting_Account_Detail_Online_OnlineFunction_Title">Mojang正版賬戶功能</Item>
 			<Item Key="Setting_Account_Detail_Online_OnlineFunction_Tips">呢啲功能即將提供，敬請期待。</Item>
 
 			<Item Key="Setting_Account_Detail_ThirdParty_APIRoot">驗證伺服器地址(API Root)</Item>
@@ -788,6 +815,11 @@
 			<Item Key="Setting_Network_BakaServiceStatus_Plaza_API">BakaXL笨蛋廣場(API):</Item>
 			<Item Key="Setting_Network_BakaServiceStatus_Plaza_Qiniu">BakaXL笨蛋廣場(七牛雲):</Item>
 
+			<Item Key="Setting_Network_BakaServiceStatus_Third_Party_Title">第三方服務供應商</Item>
+			<Item Key="Setting_Network_BakaServiceStatus_Third_Party_CurseForgeApi">CurseForge第三方API:</Item>
+			<Item Key="Setting_Network_BakaServiceStatus_Third_Party_CurseForgeCDN">CurseForge CDN:</Item>
+			<Item Key="Setting_Network_BakaServiceStatus_Third_Party_MCBBS">MCBBS下載源:</Item>
+      
 			<Item Key="Setting_Network_MojangServiceStatus_Title">Mojang伺服器狀態</Item>
 			<Item Key="Setting_Network_MojangServiceStatus_MainServer">Mojang狀態服務:</Item>
 			<Item Key="Setting_Network_MojangServiceStatus_MinecraftSite">Minecraft官網</Item>
@@ -798,6 +830,8 @@
 			<Item Key="Setting_Network_MojangServiceStatus_MojangAPI">Mojang API服務</Item>
 			<Item Key="Setting_Network_MojangServiceStatus_MinecraftSkins">Minecraft外觀服務</Item>
 			<Item Key="Setting_Network_MojangServiceStatus_MojangSite">Mojang官網</Item>
+      <Item Key="Setting_Network_MojangServiceStatus_MicrosoftLive">微軟登入服務</Item>
+      <Item Key="Setting_Network_MojangServiceStatus_MicrosoftXBOXLive">XBOX登入服務</Item>
 
 			<Item Key="Setting_Network_Environment_Ping">網絡環境</Item>
 			<Item Key="Setting_Network_Environment_Ping_ms_Title">同伺服器嘅延遲:</Item>
@@ -868,7 +902,18 @@
 			<Item Key="Setting_Personalize_Tema_Title">BakaXL主題</Item>
 			<Item Key="Setting_Personalize_Tema_List">瀏覽主題列表</Item>
 			<Item Key="Setting_Personalize_Tema_Folder">主題文件夾</Item>
-      
+
+			<Item Key="Setting_Accessibility_Info">&quot;輔助使用&quot; 可以讓您根據自己的需求自定義BakaXL的功能，&#xD;來滿足不同的使用條件。</Item>
+			<Item Key="Setting_Accessibility_Vision_Title">視覺</Item>
+			<Item Key="Setting_Accessibility_Home_DisplayMode_Btn">主熒幕顯示模式</Item>
+			<Item Key="Setting_Accessibility_Home_DisplayMode_Tips">&quot;主熒幕顯示模式&quot; 將決定BakaXL的主界面是否展示所有的磁貼和功能。&#xD; · 標準: 主熒幕默認不顯示開始菜單和功能磁貼 &#xD; · 舊款: 主熒幕默認一直顯示開始菜單和功能磁貼&#xD;&#xD;使用標準模式時，需要按下空格或鼠標點擊主熒幕空白位置向上&#xD;拖拽進入開始菜單。</Item>
+			<Item Key="Setting_Accessibility_Home_SelectCore_Btn">更換核心磁貼</Item>
+			<Item Key="Setting_Accessibility_Home_SelectCore_Tips">&quot;更換核心磁貼&quot; 將決定BakaXL的開始菜單中是否顯示更換核心磁貼&#xD;&#xD;您始終可以通過啟動條的快捷交互來更換核心。&#xD;參見 &quot;快捷更換核心&quot;。</Item>
+
+			<Item Key="Setting_Accessibility_Interaction_Title">交互</Item>
+			<Item Key="Setting_Accessibility_SwitchCore_InteractMode_Btn">快捷更換核心</Item>
+			<Item Key="Setting_Accessibility_SwitchCore_InteractMode_Tips">&quot;快捷更換核心&quot; 可提供在啟動條上快捷更換Minecraft核心的操作&#xD; · 標準: 在啟動條上不顯示額外的更換核心按鈕 &#xD; · 舊款: 在啟動條上單獨顯示更換核心的按鈕 &#xD;&#xD;使用標準模式時，需要通過拖拽&quot;啟動遊戲&quot;按鈕更換核心。</Item>
+
 			<Item Key="Setting_Audio_BGM_Title">背景音樂</Item>
 			<Item Key="Setting_Audio_BGM_Btn_Title">BakaXL背景音樂</Item>
 			<Item Key="Setting_Audio_BGM_LostFocusBehaviorBtn">失去焦點時自動停止背景音樂</Item>
@@ -1086,6 +1131,63 @@
 
 			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Fabric_JsonNullException">沒法解析Fabric嘅安裝檔案(json)，Json解釋器返回咗空嘅文本。</Item>
 			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Fabric_CopyVanilla">沒法複製原版Minecraft嘅json文件。</Item>
+
+			<Item Key="AddGameCore_Title">添加新的 Minecraft 本體 或 整合包</Item>
+			<Item Key="AddGameCore_Tips">如果您不了解如何導入或安裝整合包，推薦您直接安裝 Minecraft 核心</Item>
+			<Item Key="AddGameCore_Btn_PlazaInstall">通過笨蛋廣場直接安裝 Minecraft 核心</Item>
+			<Item Key="AddGameCore_Btn_ImportExist">導入其他目錄下的 Minecraft</Item>
+			<Item Key="AddGameCore_Btn_InstallModPack">安裝 MCBBS 或 Curse 整合包</Item>
+
+			<Item Key="AddGameCore_DnD_Default_Title">將包含整合包的壓縮包 (.zip) 拖放到這裡</Item>
+			<Item Key="AddGameCore_DnD_Default_Tips">BakaXL將在識別整合包內容後自動開始安裝</Item>
+			<Item Key="AddGameCore_DnD_DragEnter_Title">鬆開鼠標後 BakaXL將嘗試讀取此文件</Item>
+			<Item Key="AddGameCore_DnD_DragEnter_Tips">如果這是一個合適的整合包文件，BakaXL將允許您進行安裝</Item>
+			<Item Key="AddGameCore_DnD_DropUnknownFile_Title">發生咩事？</Item>
+			<Item Key="AddGameCore_DnD_DropUnknownFile_Tips">您看來拖入了一個怪嘢</Item>
+			<Item Key="AddGameCore_DnD_DropChecking_Title">請等等</Item>
+			<Item Key="AddGameCore_DnD_DropChecking_Tips">BakaXL當前正在檢查此壓縮包...</Item>
+			<Item Key="AddGameCore_DnD_DropNotZip_Title">這看落不似一個 (.zip) 壓縮包</Item>
+			<Item Key="AddGameCore_DnD_DropNotZip_Tips">請確保此文件是 .zip 格式，並且為 MCBBS 或 Curse 整合包格式</Item>
+			<Item Key="AddGameCore_DnD_DropInstall_Title">整合包信息已讀取</Item>
+			<Item Key="AddGameCore_DnD_DropInstall_Tips">您即將安裝 {0} 到 BakaXL 裡</Item>
+
+			<Item Key="AddGameCore_DnD_Browse">或點擊此區域瀏覽壓縮包</Item>
+
+			<Item Key="Installer_InstallTaskStatus_PrepareInstaller">準備安裝 {0} ...</Item>
+
+			<Item Key="Installer_InstallTaskStatus_DownloadMinecraft">正在下載 Minecraft...</Item>
+			<Item Key="Installer_InstallTaskStatus_DownloadForge">正在下載 Forge...</Item>
+			<Item Key="Installer_InstallTaskStatus_InstallingForge">正在安裝 Forge...</Item>
+			<Item Key="Installer_InstallTaskStatus_DownloadFabric">正在获取 Fabric 安裝檔案...</Item>
+			<Item Key="Installer_InstallTaskStatus_InstallingFabric">正在安裝 Fabric...</Item>
+			<Item Key="Installer_InstallTaskStatus_DownloadAssets">正在補全 Assets...</Item>
+			<Item Key="Installer_InstallTaskStatus_UnzipFile">正在解壓縮文件...</Item>
+
+			<Item Key="Installer_InstallTaskStatus_DownloadLibs">正在補全 Libraries...</Item>
+
+			<Item Key="Installer_InstallTaskStatus_Failed">安裝失敗</Item>
+			<Item Key="Installer_InstallTaskStatus_Successful">安裝成功</Item>
+
+			<Item Key="Installer_InstallTaskStatus_PrepareInstaller_Tips">BakaXL將要開始安裝您所選定的遊戲核心。&#xD;&#xA;請等一陣，並且在這段時間中不要斷開網絡連接或關閉BakaXL。</Item>
+
+			<Item Key="Installer_InstallTaskStatus_DownloadMinecraft_Tips">BakaXL正在將 {0} 下載到本地。&#xD;&#xA;請等一陣，並且在這段時間中不要斷開網絡連接或關閉BakaXL。</Item>
+			<Item Key="Installer_InstallTaskStatus_DownloadForge_Tips">BakaXL正在將 Forge-{0} 下載到本地。&#xD;&#xA;請等一陣，並且在這段時間中不要斷開網絡連接或關閉BakaXL。</Item>
+			<Item Key="Installer_InstallTaskStatus_InstallingForge_Tips">BakaXL正在將 Forge {0}。&#xD;&#xA;請等一陣，並且在這段時間中不要斷開網絡連接或關閉BakaXL。</Item>
+			<Item Key="Installer_InstallTaskStatus_DownloadFabric_Tips">BakaXL正在將 Fabric-{0} 下載到本地。&#xD;&#xA;請等一陣，並且在這段時間中不要斷開網絡連接或關閉BakaXL。</Item>
+			<Item Key="Installer_InstallTaskStatus_InstallingFabric_Tips">BakaXL正在處理 Fabric-{0} 的安裝檔案。&#xD;&#xA;請等一陣，並且在這段時間中不要斷開網絡連接或關閉BakaXL。</Item>
+
+			<Item Key="Installer_InstallTaskStatus_DownloadMinecraft_Tips_ModPack">BakaXL正在將 {0} 所需的 Minecraft核心 下載到本地。&#xD;&#xA;請等一陣，並且在這段時間中不要斷開網絡連接或關閉BakaXL。</Item>
+			<Item Key="Installer_InstallTaskStatus_DownloadForge_Tips_ModPack">BakaXL正在將 {0} 所需的 Forge 下載到本地。&#xD;&#xA;請等一陣，並且在這段時間中不要斷開網絡連接或關閉BakaXL。</Item>
+			<Item Key="Installer_InstallTaskStatus_InstallingForge_Tips_ModPack">BakaXL正在為 {0} 安裝 Forge。&#xD;&#xA;請等一陣，並且在這段時間中不要斷開網絡連接或關閉BakaXL。</Item>
+			<Item Key="Installer_InstallTaskStatus_DownloadFabric_Tips_ModPack">BakaXL正在將 {0} 所需的 Fabric 安裝檔案 下載到本地。&#xD;&#xA;請等一陣，並且在這段時間中不要斷開網絡連接或關閉BakaXL。</Item>
+			<Item Key="Installer_InstallTaskStatus_InstallingFabric_Tips_ModPack">BakaXL正在為 {0} 處理 Fabric 安裝檔案。&#xD;&#xA;請等一陣，並且在這段時間中不要斷開網絡連接或關閉BakaXL。</Item>
+
+			<Item Key="Installer_InstallTaskStatus_DownloadLibs_Tips">BakaXL正在補齊該版本所需的 運行庫文件(Libraries)。&#xD;&#xA;請等一陣，並且在這段時間中不要斷開網絡連接或關閉BakaXL。</Item>
+			<Item Key="Installer_InstallTaskStatus_DownloadAssets_Tips">BakaXL正在補齊該版本所需的 資源文件(Assets)。&#xD;&#xA;請等一陣，並且在這段時間中不要斷開網絡連接或關閉BakaXL。</Item>
+			<Item Key="Installer_InstallTaskStatus_UnzipFile_Tips">BakaXL正在處理安裝時所需的壓縮文件。&#xD;&#xA;請等一陣，並且在這段時間中不要斷開網絡連接或關閉BakaXL。</Item>
+
+			<Item Key="Installer_InstallTaskStatus_Failed_Tips">請檢查您的網絡連接，然後再試。&#xD;&#xA;BakaXL已將此錯誤製成笨蛋罐頭，您可以前往本體設置查看。&#xD;&#xA;點擊任意位置即可返回。</Item>
+			<Item Key="Installer_InstallTaskStatus_Successful_Tips">{0} 已成功安裝到BakaXL。&#xD;&#xA;您可以在 BakaXL主界面 - 核心管理 中找到它。&#xD;&#xA;點擊任意位置即可返回。</Item>
 
 			<Item Key="DangerOperation_Title">注意</Item>
 			<Item Key="DangerOperation_ConfirmBtn_Default">確認進行此操作</Item>
