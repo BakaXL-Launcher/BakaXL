@@ -26,7 +26,7 @@ BakaXL启动器是一款全新的Minecraft崩坏启动器，若要了解更多�
 
 <h4>目前提供的语言条目文件</h4> 
 zh-CN.xaml / zh-CN.xml 简体中文 [2.0/3.0]<br />
-zh-HK.xaml / zh-HK.xml 粤语（繁体中文）[2.0/3.0] ##2020.11.19 更新<br />
+zh-HK.xaml / zh-HK.xml 粤语（繁体中文）[2.0/3.0] ##2021.01.25 更新<br />
 zh-TW.xaml / zh-TW.xml 正體中文 [2.0/3.0] ##2020.11.19 需要补全词条<br />
 zh-CC.xaml / zh-CC.xml 文言（文辭雅正，博學淵深） [2.0/3.0]##2020.11.19 需要补全词条<br />
 zh-MC.xaml / zh-MC.xml 焱暒妏 (荢宙) [2.0/3.0]##2020.11.19 需要补全词条<br />
@@ -41,7 +41,7 @@ ko-KR.xaml 한국어 [2.0] ##2017.7.30 需要翻译新增词条<br />
 
 =#排名不分先后#=
 
-粤语（繁体中文）: kaho0w0、JasonHK、cvrunmin、悠静萝莉、Jinzero<br />
+粤语（繁体中文）: Jinzero、悠静萝莉、kaho0w0、JasonHK、cvrunmin<br />
 正體中文：JasonHK、cvrunmin<br />
 文言：muckis、zam、tdiant<br />
 焱暒妏 (荢宙)：Dian-Jiao<br />
