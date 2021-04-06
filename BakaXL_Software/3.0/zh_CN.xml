@@ -1289,13 +1289,4 @@
 			<Item Key="BakaXL.Pages.PageHome">BakaXL主界面</Item>
 		</Items>
 	</Language>
-</Languages></Item>
-			<Item Key="Color_Mauve">褪色紫</Item>
-			<Item Key="Color_Taupe">雾霾灰</Item>
-			<Item Key="Color_Sienna">木棕色</Item>
-			<Item Key="Color_Gray">沉默灰</Item>
-
-			<Item Key="BakaXL.Pages.PageHome">BakaXL主界面</Item>
-		</Items>
-	</Language>
 </Languages>
