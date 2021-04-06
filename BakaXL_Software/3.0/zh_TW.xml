@@ -64,7 +64,7 @@
 			<Item Key="LaunchBar_LaunchBtn_Launching_Environment_JavaNotExist">Java路徑發射更變，正在尋找</Item>
 			<Item Key="LaunchBar_LaunchBtn_Launching_Environment_NewJavaFound">BakaXL將使用新的Java路徑啟動Minecraft</Item>
 			
-			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_CheckEnvironment">發射模式: 檢查和補全Minecraft環境/Item>
+			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_CheckEnvironment">發射模式: 檢查和補全Minecraft環境</Item>
 
 			<Item Key="LaunchBar_LaunchBtn_Launched_Title">正在遊戲中</Item>
 			<Item Key="LaunchBar_LaunchBtn_Launched_Tips">&lt;當前遊戲正在運行&gt;</Item>
