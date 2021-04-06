@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Languages>
 	<Type>
-		<Key>zh_CN</Key>
+		<Key>zh_TW</Key>
 		<Name>正體中文 (中國台灣)</Name>
-		<Author>BakaXL</Author>
+		<Author>XiaoMouz、JasonHK、cvrunmin</Author>
 	</Type>
-	<Language Key="zh_CN">
+	<Language Key="zh_TW">
 		<Items>
 			<Item Key="BakaXLTitle">BakaXL - Minecraft 啓動器</Item>
 			
