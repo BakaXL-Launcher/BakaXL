@@ -3,7 +3,7 @@
 	<Type>
 		<Key>zh_HK</Key>
 		<Name>粵語 (中國廣東、香港、澳門)</Name>
-		<Author>Jinzero、悠静萝莉</Author>
+		<Author>悠静萝莉、Jinzero</Author>
 	</Type>
 	<Language Key="zh_HK">
 		<Items>
@@ -76,7 +76,7 @@
 			<Item Key="LaunchBar_Title_AuthError_Unknown">驗證時出現錯誤：未知錯誤</Item>
 			<Item Key="LaunchBar_Title_AuthError_MojangTokenExpired">驗證時出現錯誤：會話驗證信息過期，請喺本體設定重新登入此用戶檔案</Item>
 			<Item Key="LaunchBar_Title_AuthError_AuthlibTokenExpired">驗證時出現錯誤：檔案驗證信息失效，請重新設定此用戶檔案</Item>
-      <Item Key="LaunchBar_Title_AuthError_MicrosoftLoginCanceled">驗證時出現錯誤：微軟賬戶登錄被用戶取消</Item>
+			<Item Key="LaunchBar_Title_AuthError_MicrosoftLoginCanceled">驗證時出現錯誤：微軟賬戶登錄被用戶取消</Item>
 			<Item Key="LaunchBar_Title_EnvironmentError_JavaNotFound">環境檢查錯誤：沒法定位Java路徑</Item>
 			<Item Key="LaunchBar_Title_GameError_GetAssetsListFailed">資源補全錯誤：沒法從下載源獲取Minecraft資源文件列表</Item>
 			<Item Key="LaunchBar_Title_GameError_GetAuthlibFailed">資源補全錯誤：沒法下載Authlib-Injector本體</Item>
@@ -88,7 +88,7 @@
 
 			<Item Key="UserProfile_ToolTip_Offline">用戶名：{0} &#xD;&#xA;此用戶檔案將使用離線驗證</Item>
 			<Item Key="UserProfile_ToolTip_Online">用戶名：{0} &#xD;&#xA;此用戶檔案將使用Mojang正版驗證</Item>
-      <Item Key="UserProfile_ToolTip_Online_Microsoft">用户名：{0} &#xD;&#xA;此用戶檔案將使用微軟賬戶正版驗證</Item>
+			<Item Key="UserProfile_ToolTip_Online_Microsoft">用户名：{0} &#xD;&#xA;此用戶檔案將使用微軟賬戶正版驗證</Item>
 			<Item Key="UserProfile_ToolTip_ThirParty_WithoutName">用戶名：{0} &#xD;&#xA;此用戶檔案將使用第三方賬戶驗證伺服器&#xD;&#xA;驗證伺服器地址：{1}</Item>
 			<Item Key="UserProfile_ToolTip_ThirParty_WithName">用戶名：{0} &#xD;&#xA;此用戶檔案將使用 {1} 提供嘅賬戶驗證伺服器&#xD;&#xA;驗證伺服器地址：{2}</Item>
 
@@ -164,11 +164,19 @@
 			<Item Key="CoreManagement_Info_Version">版本</Item>
 
 			<Item Key="CoreManagement_Mods_Title">模組(Mods)</Item>
+			
 			<Item Key="CoreManagement_Mods_Supported">此核心或懶人包安裝咗支援嘅模組API。</Item>
 			<Item Key="CoreManagement_Mods_Unsupported">此核心或懶人包好像并未使用支援加載模組嘅模組API。&#xD;&#xA;若您要使用模組，則應當先安裝Forge、Farbic或其他模組API。&#xD;&#xA;&#xD;&#xA;若您認為BakaXL錯誤嘅認為該核心或懶人包冇安裝模組API，請聯絡我哋。</Item>
+			
+			<Item Key="CoreManagement_Mods_ModLoader_Scanning">正在掃描核心嘅模組API...</Item>
+			<Item Key="CoreManagement_Mods_ModLoader_Forge">此核心安裝咗 Minecraft Forge，版本：{0}</Item>
+			<Item Key="CoreManagement_Mods_ModLoader_Fabric">此核心安裝咗 Fabric Loader/API。版本：{0}</Item>
+			<Item Key="CoreManagement_Mods_ModLoader_Liteloader">此核心安裝咗 Liteloader。版本：{0}</Item>
+			
 			<Item Key="CoreManagement_Mods_ModList_Title">位於Mods文件夾</Item>
 			<Item Key="CoreManagement_Mods_ModList_DargTips">將模組拖入此區域快速安裝模組。</Item>
 			<Item Key="CoreManagement_Mods_ModList_Desc">BakaXL將會掃描此核心嘅Mods文件夾，并將所有受支援嘅模組文件顯示喺此列表中。</Item>
+			<Item Key="CoreManagement_Mods_ModList_Scanning">正在掃描…</Item>
 			<Item Key="CoreManagement_Mods_ModList_NoMods">BakaXL未喺此核心或懶人包中搵到任何模組文件。</Item>
 
 			<Item Key="CoreManagement_Restore_Title">恢復</Item>
@@ -226,16 +234,16 @@
 			<Item Key="BakaXL.Pages.PageGuide">設定向導</Item>
 			<Item Key="BakaXL.Pages.PageTips">BakaXL貼士</Item>
 			<Item Key="BakaXL.Pages.PagePlaza">笨蛋廣場</Item>
-      <Item Key="BakaXL.Pages.PageAddGameCore">添加核心向導</Item>
+			<Item Key="BakaXL.Pages.PageAddGameCore">添加核心向導</Item>
 
 			<Item Key="Minecraft_AuthMode_Offline">離線模式</Item>
 			<Item Key="Minecraft_AuthMode_Online">正版驗證</Item>
-      <Item Key="Minecraft_AuthMode_Online_Microsoft">正版验证(微軟賬戶)</Item>
+			<Item Key="Minecraft_AuthMode_Online_Microsoft">正版验证(微軟賬戶)</Item>
 			<Item Key="Minecraft_AuthMode_ThirdParty">外置登入(authlib-injector)</Item>
 
 			<Item Key="ProfileBtn_Offline">仲未進行正版驗證</Item>
 			<Item Key="ProfileBtn_Online">已進行正版驗證</Item>
-      <Item Key="ProfileBtn_Microsoft">微軟賬戶正版</Item>
+			<Item Key="ProfileBtn_Microsoft">微軟賬戶正版</Item>
 			<Item Key="ProfileBtn_ThirdParty">使用外置登入</Item>
 			<Item Key="ProfileBtn_UnableToUse">唔用得</Item>
 
@@ -255,10 +263,14 @@
 			<Item Key="Clear">清空</Item>
 			<Item Key="Favorite">收藏</Item>
 			<Item Key="UnFavorite">取消收藏</Item>
-      <Item Key="Standard">標準</Item>
-      <Item Key="Traditional">舊款</Item>
-      <Item Key="Preparing">正在準備</Item>
+			<Item Key="Standard">標準</Item>
+			<Item Key="Traditional">舊款</Item>
+			<Item Key="Preparing">正在準備</Item>
+			<Item Key="Refresh">刷新</Item>
 
+			<Item Key="Standard">標準</Item>
+			<Item Key="Traditional">傳統</Item>
+			
 			<Item Key="FullScreen">全屏</Item>
 			<Item Key="Big">大</Item>
 			<Item Key="Middle">中</Item>
@@ -280,9 +292,9 @@
 			<Item Key="Guide_Type_Language">語言</Item>
 			<Item Key="Guide_Type_System">系統信息設定</Item>
 			<Item Key="Guide_Type_Profile">賬戶</Item>
-      <Item Key="Guide_Type_Other">其他</Item>
-      <Item Key="Guide_Type_Personalize">個性化</Item>
-      <Item Key="Guide_Type_Accessibility">輔助使用</Item>
+			<Item Key="Guide_Type_Other">其他</Item>
+			<Item Key="Guide_Type_Personalize">個性化</Item>
+			<Item Key="Guide_Type_Accessibility">輔助使用</Item>
 
 			<Item Key="Guide_Page_Welcome_Subtitle">歡迎使用全新BakaXL</Item>
 			<Item Key="Guide_Page_Welcome_Tips">喺開始您嘅Minecraft旅程前，我哋需要收集一啲信息。</Item>
@@ -293,10 +305,21 @@
 
 			<Item Key="Guide_Page_Language_Tips">請揀一個適合您閱讀嘅顯示語言</Item>
 
-      <Item Key="Guide_Page_DisplayMode_Subtitle">主熒幕顯示模式</Item>
-      <Item Key="Guide_Page_DisplayMode_Tips">您隨時可以在您随时可以喺'本體設定 - 輔助使用'中修改呢啲設定</Item>
+			<Item Key="Guide_Page_DisplayMode_Subtitle">主熒幕顯示模式</Item>
+			<Item Key="Guide_Page_DisplayMode_Tips">您隨時可以在您随时可以喺'本體設定 - 輔助使用'中修改呢啲設定</Item>
 
-      <Item Key="Guide_Page_QuickSet_Subtitle">快速設定</Item>
+			<Item Key="Guide_Page_DisplayMode_Standard_Tips">主熒幕上默認不顯示開始菜單與磁貼</Item>
+			<Item Key="Guide_Page_DisplayMode_Traditional_Tips">主熒幕上將始終顯示開始菜單與磁貼</Item>		
+
+			<Item Key="Guide_Page_Audio_Subtitle">音樂與音效</Item>
+			<Item Key="Guide_Page_Audio_Tips">在使用部分功能或主題時，BakaXL可播放音樂與音效</Item>
+
+			<Item Key="Guide_Page_Audio_Off_Tips">BakaXL關閉所有聲音輸出</Item>
+			<Item Key="Guide_Page_Audio_On_Tips">BakaXL將根據主題和功能播放背景音樂同音效</Item>
+
+			<Item Key="Guide_Page_Audio_Subtitle">音樂與音效</Item>
+			
+			<Item Key="Guide_Page_QuickSet_Subtitle">快速設定</Item>
 			<Item Key="Guide_Page_QuickSet_Tips">您隨時可以喺'本體設定'中修改呢啲設定</Item>
 			
 			<Item Key="Guide_Page_QuickSet_Title">讓BakaXL自動進行部分設定</Item>
@@ -336,7 +359,7 @@
 			<Item Key="Guide_Page_ProfileCreate_Online">我購買咗正版Minecraft</Item>
 			<Item Key="Guide_Page_ProfileCreate_Offline">我冇購買正版Minecraft</Item>
 
-			<Item Key="Guide_Page_ProfileCreate_Error_NullAccountOrPassword">請輸入您嘅Mojang賬戶電郵或密碼</Item>
+			<Item Key="Guide_Page_ProfileCreate_Error_NullAccountOrPassword">請輸入您嘅Mojang賬戶信息，亦或者通過微軟賬戶登入</Item>
 
 			<Item Key="Guide_Page_ProfileReady_Subtitle">準備就緒</Item>
 			<Item Key="Guide_Page_ProfileReady_Tips">您可以喺'本體設定'入面添加額外嘅用戶檔案</Item>
@@ -362,6 +385,14 @@
 
 			<Item Key="Bakaverse_CurrentUser_Tips">您嘅好友可以通過您嘅 BakaXL Network ID 搜尋到您嘅賬戶。&#xD;&#xA;喺話畀好友您嘅 BakaXL Network ID 時，請同時告知用戶名後面嘅標簽。</Item>
 
+			<Item Key="Bakaverse_UserInfo_VerificationAndPlan">認證與計劃</Item>
+			<Item Key="Bakaverse_UserInfo_VerificationAndPlan_Tips">若果您參加了某項BakaXL嘅計劃或者經過了BakaXL嘅認證，它們將顯示在此處。</Item>
+
+			<Item Key="Bakaverse_UserInfo_Verification">BakaXL認證: {0}</Item>
+			<Item Key="Bakaverse_UserInfo_VerificationButNoInfo">該賬戶經過BakaXL認證</Item>
+			<Item Key="Bakaverse_UserInfo_IsInsider">BakaXL 預覽體驗計劃成員</Item>
+			<Item Key="Bakaverse_UserInfo_SupporterPlan">BakaXL 贊助者計劃: {0}</Item>
+			
 			<Item Key="Bakaverse_UserInfo_AlreadyOnline">呢個好友依家在線。&#xD;&#xA;若對方正在運行Minecraft或使用部分BakaXL功能時，將會顯示喺呢到。</Item>
 			<Item Key="Bakaverse_UserInfo_LastLogin">上次出現於：{0}。</Item>
 			<Item Key="Bakaverse_UserInfo_TimeBecomeFriend">成為好友嘅時間：{0}。&#xD;&#xA;你哋通過交換 BakaXL Network ID 嘅方式成為好友。</Item>
@@ -549,7 +580,7 @@
 			<Item Key="Setting_Language_Title">語言 / Language</Item>
 			<Item Key="Setting_Network_Title">網絡</Item>
 			<Item Key="Setting_Personalize_Title">個性化</Item>
-      <Item Key="Setting_Accessibility_Title">輔助使用</Item>
+			<Item Key="Setting_Accessibility_Title">輔助使用</Item>
 			<Item Key="Setting_Audio_Title">音頻</Item>
 			<Item Key="Setting_Download_Title">下載</Item>
 			<Item Key="Setting_Protocol_Title">BakaXL協議</Item>
@@ -690,8 +721,8 @@
 			<Item Key="Setting_Account_Detail_AuthMode">遊戲啟動模式</Item>
 			<Item Key="Setting_Account_Detail_AuthMode_Tips_Default">揀定啟動Minecraft時嘅驗證模式。&#xD;&#xA;正版驗證：使用您嘅Mojang賬戶登入。&#xD;&#xA;離線模式：僅使用遊戲ID進行驗證。&#xD;&#xA;外置登入(authlib-injector)：使用第三方驗證伺服器登入。&#xD;&#xA;&#xD;&#xA;根據相關法律及法規，離線驗證模式喺部分地區唔可用。</Item>
 			<Item Key="Setting_Account_Detail_AuthMode_Tips_Online">揀定啟動Minecraft時嘅驗證模式。&#xA;使用您嘅Mojang賬戶進行正版登入啟動遊戲。</Item>
-      <Item Key="Setting_Account_Detail_AuthMode_Tips_Online_Microsoft">揀定啟動Minecraft時嘅驗證模式。&#xA;使用您嘅微軟賬戶(Microsoft Account)授權進行正版登入。</Item>
-      <Item Key="Setting_Account_Detail_AuthMode_Tips_Offline">揀定啟動Minecraft時嘅驗證模式。&#xA;僅使用自定遊戲ID進行離線驗證登入啟動遊戲。&#xA;&#xA;根據相關法律及法規，離線驗證模式喺部分地區唔可用。</Item>
+			<Item Key="Setting_Account_Detail_AuthMode_Tips_Online_Microsoft">揀定啟動Minecraft時嘅驗證模式。&#xA;使用您嘅微軟賬戶(Microsoft Account)授權進行正版登入。</Item>
+			<Item Key="Setting_Account_Detail_AuthMode_Tips_Offline">揀定啟動Minecraft時嘅驗證模式。&#xA;僅使用自定遊戲ID進行離線驗證登入啟動遊戲。&#xA;&#xA;根據相關法律及法規，離線驗證模式喺部分地區唔可用。</Item>
 			<Item Key="Setting_Account_Detail_AuthMode_Tips_ThirdParty">揀定啟動Minecraft時嘅驗證模式。&#xA;使用外置登入(authlib-injector)所要求嘅賬戶信息進行驗證。&#xA;&#xA;為咗您嘅賬戶安全，我哋唔建議您喺第三方驗證服務&#xA;中使用與您嘅Mojang賬戶相同嘅密碼。</Item>
 			
 			<Item Key="Setting_Account_Detail_AccInfo">賬戶信息</Item>
@@ -699,21 +730,21 @@
 			<Item Key="Setting_Account_Detail_Offline_Username">輸入遊戲ID</Item>
 			<Item Key="Setting_Account_Detail_Offline_Username_Tips">設定你喺運行Minecraft時想使用嘅遊戲ID。&#xD;&#xA;只能使用英文、數字同下劃線，唔建議使用中文同特殊符號。</Item>
 			
-			<Item Key="Setting_Account_Detail_Online_Email">正版賬戶電郵</Item>
+			<Item Key="Setting_Account_Detail_Online_Email">Mojang賬戶電郵</Item>
 			<Item Key="Setting_Account_Detail_Online_Email_Tips">設定您嘅Mojang正版賬戶電郵。</Item>
 			<Item Key="Setting_Account_Detail_Online_Password">輸入您嘅密碼</Item>
 			<Item Key="Setting_Account_Detail_Online_Password_Tips">輸入您嘅Mojang正版賬戶登入密碼。&#xD;&#xA;BakaXL會加密保存呢啲信息。</Item>
 
-      <Item Key="Setting_Account_Detail_Online_Microsoft_LoginBtn">透過微軟賬戶登入</Item>
-      <Item Key="Setting_Account_Detail_Online_Microsoft_LoginBtn_Relogin">更換至其他微軟賬戶</Item>
-      <Item Key="Setting_Account_Detail_Online_Microsoft_LoginBtn_Tips">在打開的新頁面中輸入您的微軟賬戶和密碼進行登入授權。&#xD;&#xA;BakaXL不會記下您的微軟賬戶和密碼。&#xD;&#xA;BakaXL與微軟服務器的連接都用了安全套接字層(SSL)技術。</Item>
-      <Item Key="Setting_Account_Detail_Online_Microsoft_Logined_WithUsername">已使用 {0} 嘅身份登入</Item>
-      <Item Key="Setting_Account_Detail_Online_Microsoft_NotLogin">您還未登入至微軟賬戶。</Item>
-      <Item Key="Setting_Account_Detail_Online_Microsoft_Logined">此用戶檔案已通過微軟賬戶授權。</Item>
-      <Item Key="Setting_Account_Detail_Online_Microsoft_Logined_Time_Issued">授權生效時間: {0}</Item>
-      <Item Key="Setting_Account_Detail_Online_Microsoft_Logined_Time_Expired">授權失效時間: {0}</Item>
+			<Item Key="Setting_Account_Detail_Online_Microsoft_LoginBtn">透過微軟賬戶登入</Item>
+			<Item Key="Setting_Account_Detail_Online_Microsoft_LoginBtn_Relogin">更換至其他微軟賬戶</Item>
+			<Item Key="Setting_Account_Detail_Online_Microsoft_LoginBtn_Tips">在打開的新頁面中輸入您的微軟賬戶和密碼進行登入授權。&#xD;&#xA;BakaXL不會記下您的微軟賬戶和密碼。&#xD;&#xA;BakaXL與微軟服務器的連接都用了安全套接字層(SSL)技術。</Item>
+			<Item Key="Setting_Account_Detail_Online_Microsoft_Logined_WithUsername">已使用 {0} 嘅身份登入</Item>
+			<Item Key="Setting_Account_Detail_Online_Microsoft_NotLogin">您還未登入至微軟賬戶。</Item>
+			<Item Key="Setting_Account_Detail_Online_Microsoft_Logined">此用戶檔案已通過微軟賬戶授權。</Item>
+			<Item Key="Setting_Account_Detail_Online_Microsoft_Logined_Time_Issued">授權生效時間: {0}</Item>
+			<Item Key="Setting_Account_Detail_Online_Microsoft_Logined_Time_Expired">授權失效時間: {0}</Item>
 
-      <Item Key="Setting_Account_Detail_Online_OnlineFunction_Title">Mojang正版賬戶功能</Item>
+			<Item Key="Setting_Account_Detail_Online_OnlineFunction_Title">Mojang正版賬戶功能</Item>
 			<Item Key="Setting_Account_Detail_Online_OnlineFunction_Tips">呢啲功能即將提供，敬請期待。</Item>
 
 			<Item Key="Setting_Account_Detail_ThirdParty_APIRoot">驗證伺服器地址(API Root)</Item>
@@ -819,7 +850,7 @@
 			<Item Key="Setting_Network_BakaServiceStatus_Third_Party_CurseForgeApi">CurseForge第三方API:</Item>
 			<Item Key="Setting_Network_BakaServiceStatus_Third_Party_CurseForgeCDN">CurseForge CDN:</Item>
 			<Item Key="Setting_Network_BakaServiceStatus_Third_Party_MCBBS">MCBBS下載源:</Item>
-      
+			
 			<Item Key="Setting_Network_MojangServiceStatus_Title">Mojang伺服器狀態</Item>
 			<Item Key="Setting_Network_MojangServiceStatus_MainServer">Mojang狀態服務:</Item>
 			<Item Key="Setting_Network_MojangServiceStatus_MinecraftSite">Minecraft官網</Item>
@@ -830,8 +861,8 @@
 			<Item Key="Setting_Network_MojangServiceStatus_MojangAPI">Mojang API服務</Item>
 			<Item Key="Setting_Network_MojangServiceStatus_MinecraftSkins">Minecraft外觀服務</Item>
 			<Item Key="Setting_Network_MojangServiceStatus_MojangSite">Mojang官網</Item>
-      <Item Key="Setting_Network_MojangServiceStatus_MicrosoftLive">微軟登入服務</Item>
-      <Item Key="Setting_Network_MojangServiceStatus_MicrosoftXBOXLive">XBOX登入服務</Item>
+			<Item Key="Setting_Network_MojangServiceStatus_MicrosoftLive">微軟登入服務</Item>
+			<Item Key="Setting_Network_MojangServiceStatus_MicrosoftXBOXLive">XBOX登入服務</Item>
 
 			<Item Key="Setting_Network_Environment_Ping">網絡環境</Item>
 			<Item Key="Setting_Network_Environment_Ping_ms_Title">同伺服器嘅延遲:</Item>
@@ -1042,6 +1073,14 @@
 			<Item Key="MessageBox_Auth_ThirdParty_ConnectFailed_Content">BakaXL沒法連接至此驗證伺服器。&#xD;&#xA;請檢查此服務地址係否正確，并再試一次。</Item>
 			<Item Key="MessageBox_Auth_ThirdParty_ConnectFailed_Tips">也請留意此驗證伺服器提供商嘅相關通知</Item>
 
+			<Item Key="MessageBox_Auth_ThirdParty_UnexpectedUUIDFormat_Title">無法解析該驗證服務器的用戶檔案</Item>
+			<Item Key="MessageBox_Auth_ThirdParty_UnexpectedUUIDFormat_Content">該驗證服務器返回了不符合規範嘅內容。&#xD;&#xA;BakaXL無法解析此內容。</Item>
+			<Item Key="MessageBox_Auth_ThirdParty_UnexpectedUUIDFormat_Tips">請聯絡該驗證服務器開發團體以了解更多資訊</Item>
+
+			<Item Key="MessageBox_Auth_ThirdParty_NoProfile_Title">該賬戶沒任何可用的角色</Item>
+			<Item Key="MessageBox_Auth_ThirdParty_NoProfile_Content">驗證服務器返回當前賬戶下沒任何可用的角色。&#xD;&#xA;請先在該賬戶下創建一個角色，然後再試一次。</Item>
+			<Item Key="MessageBox_Auth_ThirdParty_NoProfile_Tips">請前往此驗證服務器的賬戶平台了解更多資訊</Item>
+			
 			<Item Key="MessageBox_BakaPlaza_Installer_Title">準備安裝Minecraft...</Item>
 			<Item Key="MessageBox_BakaPlaza_Installer_Content">BakaXL將要開始安裝您所選定嘅遊戲核心。&#xD;&#xA;請稍等片刻，并喺此期間唔好斷開互聯網連接或關閉BakaXL。</Item>
 			<Item Key="MessageBox_BakaPlaza_Installer_Tips">正在準備</Item>
@@ -1153,6 +1192,10 @@
 
 			<Item Key="AddGameCore_DnD_Browse">或點擊此區域瀏覽壓縮包</Item>
 
+			<Item Key="Installer_InstallTimer">用時</Item>
+			<Item Key="Installer_InstallTimer_Pending">等待下載啟動</Item>
+			<Item Key="Installer_InstallTimer_Counting">正在計時...</Item>
+			
 			<Item Key="Installer_InstallTaskStatus_PrepareInstaller">準備安裝 {0} ...</Item>
 
 			<Item Key="Installer_InstallTaskStatus_DownloadMinecraft">正在下載 Minecraft...</Item>
@@ -1165,6 +1208,8 @@
 
 			<Item Key="Installer_InstallTaskStatus_DownloadLibs">正在補全 Libraries...</Item>
 
+			<Item Key="Installer_InstallTaskStatus_DownloadLibsAndAssets">正在補全 Assets 同 Libraries...</Item>
+			
 			<Item Key="Installer_InstallTaskStatus_Failed">安裝失敗</Item>
 			<Item Key="Installer_InstallTaskStatus_Successful">安裝成功</Item>
 
@@ -1184,6 +1229,7 @@
 
 			<Item Key="Installer_InstallTaskStatus_DownloadLibs_Tips">BakaXL正在補齊該版本所需的 運行庫文件(Libraries)。&#xD;&#xA;請等一陣，並且在這段時間中不要斷開網絡連接或關閉BakaXL。</Item>
 			<Item Key="Installer_InstallTaskStatus_DownloadAssets_Tips">BakaXL正在補齊該版本所需的 資源文件(Assets)。&#xD;&#xA;請等一陣，並且在這段時間中不要斷開網絡連接或關閉BakaXL。</Item>
+			<Item Key="Installer_InstallTaskStatus_DownloadLibsAndAssets_Tips">BakaXL正在補齊該版本所需的 運行庫文件(Libraries) 同 資源文件(Assets)。&#xD;&#xA;請等一陣，並且在這段時間中不要斷開網絡連接或關閉BakaXL。</Item>
 			<Item Key="Installer_InstallTaskStatus_UnzipFile_Tips">BakaXL正在處理安裝時所需的壓縮文件。&#xD;&#xA;請等一陣，並且在這段時間中不要斷開網絡連接或關閉BakaXL。</Item>
 
 			<Item Key="Installer_InstallTaskStatus_Failed_Tips">請檢查您的網絡連接，然後再試。&#xD;&#xA;BakaXL已將此錯誤製成笨蛋罐頭，您可以前往本體設置查看。&#xD;&#xA;點擊任意位置即可返回。</Item>

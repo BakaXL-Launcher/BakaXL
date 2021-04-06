@@ -268,6 +268,9 @@
 			<Item Key="Preparing">正在准备</Item>
 			<Item Key="Refresh">刷新</Item>
 
+			<Item Key="Standard">标准</Item>
+			<Item Key="Traditional">传统</Item>
+
 			<Item Key="FullScreen">全屏</Item>
 			<Item Key="Big">大</Item>
 			<Item Key="Middle">中</Item>
@@ -304,6 +307,17 @@
 			
 			<Item Key="Guide_Page_DisplayMode_Subtitle">主屏幕显示模式</Item>
 			<Item Key="Guide_Page_DisplayMode_Tips">您随时可以在 '本体设置 - 辅助功能' 中修改这些设置</Item>
+
+			<Item Key="Guide_Page_DisplayMode_Standard_Tips">主屏幕上默认不显示开始菜单与磁贴</Item>
+			<Item Key="Guide_Page_DisplayMode_Traditional_Tips">主屏幕上将始终显示开始菜单与磁贴</Item>		
+
+			<Item Key="Guide_Page_Audio_Subtitle">音乐与音效</Item>
+			<Item Key="Guide_Page_Audio_Tips">在使用部分功能或主题时，BakaXL可播放音乐或音效</Item>
+
+			<Item Key="Guide_Page_Audio_Off_Tips">BakaXL关闭所有声音输出</Item>
+			<Item Key="Guide_Page_Audio_On_Tips">BakaXL将根据主题和功能播放背景音乐和音效</Item>
+
+			<Item Key="Guide_Page_Audio_Subtitle">音乐与音效</Item>
 
 			<Item Key="Guide_Page_QuickSet_Subtitle">快速设置</Item>
 			<Item Key="Guide_Page_QuickSet_Tips">您随时可以在'本体设置'中修改这些设置</Item>
@@ -345,7 +359,7 @@
 			<Item Key="Guide_Page_ProfileCreate_Online">我购买了正版Minecraft</Item>
 			<Item Key="Guide_Page_ProfileCreate_Offline">我没有购买正版Minecraft</Item>
 
-			<Item Key="Guide_Page_ProfileCreate_Error_NullAccountOrPassword">请输入您的Mojang账户邮箱或密码</Item>
+			<Item Key="Guide_Page_ProfileCreate_Error_NullAccountOrPassword">请输入Mojang账户信息，亦或是通过微软账户登录</Item>
 
 			<Item Key="Guide_Page_ProfileReady_Subtitle">准备就绪</Item>
 			<Item Key="Guide_Page_ProfileReady_Tips">您可以在'本体设置'里添加额外的用户档案</Item>
