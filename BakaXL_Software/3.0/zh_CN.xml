@@ -164,12 +164,20 @@
 			<Item Key="CoreManagement_Info_Version">版本</Item>
 
 			<Item Key="CoreManagement_Mods_Title">模组(Mods)</Item>
+			
 			<Item Key="CoreManagement_Mods_Supported">此核心或整合包安装了支持的模组API。</Item>
 			<Item Key="CoreManagement_Mods_Unsupported">此核心或整合包好像并未使用支持加载模组的模组API。&#xD;&#xA;若您要使用模组，则应当先安装Forge、Farbic或其他模组API。&#xD;&#xA;&#xD;&#xA;若您认为BakaXL错误的认为该核心或整合包没有安装模组API，请联系我们。</Item>
+			
+			<Item Key="CoreManagement_Mods_ModLoader_Scanning">正在扫描核心的模组API...</Item>
+			<Item Key="CoreManagement_Mods_ModLoader_Forge">此核心安装了 Minecraft Forge，版本：{0}</Item>
+			<Item Key="CoreManagement_Mods_ModLoader_Fabric">此核心安装了 Fabric Loader/API。版本：{0}</Item>
+			<Item Key="CoreManagement_Mods_ModLoader_Liteloader">此核心安装了 Liteloader。版本：{0}</Item>
+
 			<Item Key="CoreManagement_Mods_ModList_Title">位于Mods文件夹</Item>
 			<Item Key="CoreManagement_Mods_ModList_DargTips">将模组拖入至此区域快速安装模组。</Item>
-			<Item Key="CoreManagement_Mods_ModList_Desc">BakaXL将会扫描此核心的Mods文件夹，并将所有受支持的模组文件显示在此列表中。</Item>
-			<Item Key="CoreManagement_Mods_ModList_NoMods">BakaXL未在此核心或整合包中找到任何模组文件。</Item>
+			<Item Key="CoreManagement_Mods_ModList_Desc">BakaXL 将会扫描此核心的Mods文件夹，并将所有受支持的模组文件显示在此列表中。</Item>
+			<Item Key="CoreManagement_Mods_ModList_Scanning">正在扫描…</Item>
+			<Item Key="CoreManagement_Mods_ModList_NoMods">BakaXL 未在此核心或整合包中找到任何模组文件。</Item>
 
 			<Item Key="CoreManagement_Restore_Title">恢复</Item>
 			<Item Key="CoreManagement_Restore_Button">重置此核心</Item>
@@ -258,6 +266,7 @@
 			<Item Key="Standard">标准</Item>
 			<Item Key="Traditional">传统</Item>
 			<Item Key="Preparing">正在准备</Item>
+			<Item Key="Refresh">刷新</Item>
 
 			<Item Key="FullScreen">全屏</Item>
 			<Item Key="Big">大</Item>
@@ -361,6 +370,14 @@
 			<Item Key="Bakaverse_NeedLogin_Method">前往 &quot;BakaXL本体设置 - 账户与档案&quot; 登录您的BakaXL Account</Item>
 
 			<Item Key="Bakaverse_CurrentUser_Tips">您的好友可以通过您的 BakaXL Network ID 搜索到您的账户。&#xD;&#xA;在告知好友您的 BakaXL Network ID 时，请同时告知用户名后面的标签。</Item>
+
+			<Item Key="Bakaverse_UserInfo_VerificationAndPlan">认证与计划</Item>
+			<Item Key="Bakaverse_UserInfo_VerificationAndPlan_Tips">若您加入了某项BakaXL计划或经过了BakaXL认证，他们将显示在此处。</Item>
+
+			<Item Key="Bakaverse_UserInfo_Verification">BakaXL认证: {0}</Item>
+			<Item Key="Bakaverse_UserInfo_VerificationButNoInfo">该账户经过BakaXL认证</Item>
+			<Item Key="Bakaverse_UserInfo_IsInsider">BakaXL 预览体验计划成员</Item>
+			<Item Key="Bakaverse_UserInfo_SupporterPlan">BakaXL 赞助者计划: {0}</Item>
 
 			<Item Key="Bakaverse_UserInfo_AlreadyOnline">这个好友目前在线。&#xD;&#xA;若对方正在运行Minecraft或使用部分BakaXL功能时，将会显示在这里。</Item>
 			<Item Key="Bakaverse_UserInfo_LastLogin">上次出现于：{0}。</Item>
@@ -699,7 +716,7 @@
 			<Item Key="Setting_Account_Detail_Offline_Username">输入游戏ID</Item>
 			<Item Key="Setting_Account_Detail_Offline_Username_Tips">设置你在运行Minecraft时想使用的游戏ID。&#xD;&#xA;只能使用英文、数字和下划线，不建议使用中文和特殊符号。</Item>
 			
-			<Item Key="Setting_Account_Detail_Online_Email">正版账户邮箱</Item>
+			<Item Key="Setting_Account_Detail_Online_Email">Mojang账户邮箱</Item>
 			<Item Key="Setting_Account_Detail_Online_Email_Tips">设置您的Mojang正版账户邮箱。</Item>
 			<Item Key="Setting_Account_Detail_Online_Password">输入您的密码</Item>
 			<Item Key="Setting_Account_Detail_Online_Password_Tips">输入您的Mojang正版账户登录密码。&#xD;&#xA;BakaXL会加密保存这些信息。</Item>
@@ -1042,6 +1059,14 @@
 			<Item Key="MessageBox_Auth_ThirdParty_ConnectFailed_Content">BakaXL无法连接至此验证服务器。&#xD;&#xA;请检查此服务地址是否正确，并再试一次。</Item>
 			<Item Key="MessageBox_Auth_ThirdParty_ConnectFailed_Tips">也请留意此验证服务器提供商的相关通知</Item>
 
+			<Item Key="MessageBox_Auth_ThirdParty_UnexpectedUUIDFormat_Title">无法解析该验证服务器的用户档案</Item>
+			<Item Key="MessageBox_Auth_ThirdParty_UnexpectedUUIDFormat_Content">该验证服务器返回了不符合规范的内容。&#xD;&#xA;BakaXL无法解析此内容。</Item>
+			<Item Key="MessageBox_Auth_ThirdParty_UnexpectedUUIDFormat_Tips">请联系该验证服务器开发者以了解更多信息</Item>
+
+			<Item Key="MessageBox_Auth_ThirdParty_NoProfile_Title">该账户没有任何可用的角色</Item>
+			<Item Key="MessageBox_Auth_ThirdParty_NoProfile_Content">验证服务器返回当前账户下并无可用的角色。&#xD;&#xA;请先在该账户下创建一个角色，然后再试一次。</Item>
+			<Item Key="MessageBox_Auth_ThirdParty_NoProfile_Tips">请前往此验证服务器的账户平台了解更多信息</Item>
+
 			<Item Key="MessageBox_BakaPlaza_Installer_Title">准备安装Minecraft...</Item>
 			<Item Key="MessageBox_BakaPlaza_Installer_Content">BakaXL将要开始安装您所选定的游戏核心。&#xD;&#xA;请稍等片刻，并在此期间不要断开互联网连接或关闭BakaXL。</Item>
 			<Item Key="MessageBox_BakaPlaza_Installer_Tips">正在准备</Item>
@@ -1153,6 +1178,10 @@
 
 			<Item Key="AddGameCore_DnD_Browse">或点击此区域浏览压缩包</Item>
 
+			<Item Key="Installer_InstallTimer">耗时</Item>
+			<Item Key="Installer_InstallTimer_Pending">等待下载启动</Item>
+			<Item Key="Installer_InstallTimer_Counting">正在计时...</Item>
+
 			<Item Key="Installer_InstallTaskStatus_PrepareInstaller">准备安装 {0} ...</Item>
 			
 			<Item Key="Installer_InstallTaskStatus_DownloadMinecraft">正在下载 Minecraft...</Item>
@@ -1164,6 +1193,8 @@
 			<Item Key="Installer_InstallTaskStatus_UnzipFile">正在解压缩文件...</Item>
 			
 			<Item Key="Installer_InstallTaskStatus_DownloadLibs">正在补全 Libraries...</Item>
+
+			<Item Key="Installer_InstallTaskStatus_DownloadLibsAndAssets">正在补全 Assets 与 Libraries...</Item>
 
 			<Item Key="Installer_InstallTaskStatus_Failed">安装失败</Item>
 			<Item Key="Installer_InstallTaskStatus_Successful">安装成功</Item>
@@ -1184,6 +1215,7 @@
 			
 			<Item Key="Installer_InstallTaskStatus_DownloadLibs_Tips">BakaXL正在补全该版本所需的 运行库文件(Libraries)。&#xD;&#xA;请稍等片刻，并在此期间不要断开互联网连接或关闭BakaXL。</Item>
 			<Item Key="Installer_InstallTaskStatus_DownloadAssets_Tips">BakaXL正在补全该版本所需的 资源文件(Assets)。&#xD;&#xA;请稍等片刻，并在此期间不要断开互联网连接或关闭BakaXL。</Item>
+			<Item Key="Installer_InstallTaskStatus_DownloadLibsAndAssets_Tips">BakaXL正在补全该版本所需的 运行库文件(Libraries) 和 资源文件(Assets)。&#xD;&#xA;请稍等片刻，并在此期间不要断开互联网连接或关闭BakaXL。</Item>
 			<Item Key="Installer_InstallTaskStatus_UnzipFile_Tips">BakaXL正在处理安装时所需的压缩文件。&#xD;&#xA;请稍等片刻，并在此期间不要操作游戏目录或关闭BakaXL。</Item>
 
 			<Item Key="Installer_InstallTaskStatus_Failed_Tips">请检查您的互联网连接，然后再试一次。&#xD;&#xA;BakaXL已将此错误制作成笨蛋罐头，您可以前往本体设置查看。&#xD;&#xA;点击任意位置即可返回。</Item>
