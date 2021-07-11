@@ -469,12 +469,21 @@
 			<Item Key="BakaPlaza_MinecraftInstaller_Category_Vanilla_Release">正式版本</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Category_Vanilla_Snapshot">快照版本</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Category_Vanilla_Other">早期版本</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Category_Vanilla_Special">特殊版本</Item>
 
 			<Item Key="BakaPlaza_MinecraftInstaller_Category_Vanilla_Desc">游戏本体</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Category_Forge_Desc">通用模组API</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Category_Liteloader_Desc">轻量模组API</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Category_Fabric_Desc">新兴模组API</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Category_Optifine_Desc">高清修复</Item>
+
+			<Item Key="BakaPlaza_MinecraftInstaller_Core_Status_Release">正式版</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Core_Status_Snapshot">快照版</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Core_Status_Special">特别版</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Core_Status_Stable">稳定版</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Core_Status_Unstable">不稳定</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Core_Status_Beta">测试版</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Core_Status_Recommend">推荐版</Item>
 
 			<Item Key="BakaPlaza_MinecraftInstaller_Version">版本</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Category_Select">选择…</Item>
@@ -796,8 +805,22 @@
 			
 			<Item Key="Setting_Java_JVM_Advance_Tips">在通常情况下，BakaXL会自动选择您当前计算机中最合适的Java。&#xD;&#xA;如果您不了解此选项的作用，我们建议您不要修改此选项的值。</Item>
 			
-			<Item Key="Setting_Java_JVM_Download">获取Java</Item>
-			<Item Key="Setting_Java_JVM_Download_Tips">您可以始终在这里下载到最新版本的Java。</Item>
+			<Item Key="Setting_Java_JVM_Download">获取Java 8</Item>
+			<Item Key="Setting_Java_JVM_Download_Tips">运行 Minecraft 1.16 及更低版本的 Minecraft 推荐使用 Java 8。&#xD;&#xA;BakaXL将会跳转至来自可信下载源提供的Java 8下载地址。&#xD;&#xA;</Item>
+
+			<Item Key="Setting_Java_JVM16_Download">获取Java 16</Item>
+			<Item Key="Setting_Java_JVM16_Download_Tips">运行 Minecraft 1.17 或更高级版本的 Minecraft 需要使用 Java 16。&#xD;&#xA;BakaXL会连接至互联网自动安装来自可信来源的Java 16。&#xD;&#xA;这个过程可能需要数分钟，在您使用计费互联网连接时可能&#xD;&#xA;需要支付网络数据费用。</Item>
+			
+			<Item Key="Setting_Java_JVM16_Installing_Pending">BakaXL 当前正在进行 Java 16 的安装…&#xD;&#xA;待安装进度更新后，它将会显示在这里。</Item>
+			<Item Key="Setting_Java_JVM16_Installing_ProgressChanged">BakaXL 当前正在进行 Java 16 的安装…&#xD;&#xA;状态: {0} </Item>
+
+			<Item Key="Setting_Java_JVM16_Installing_Successful">BakaXL 已成功安装了 Java 16。&#xD;&#xA;选择 &quot;Java高级设置 - 自动寻找Java位置&quot; 刷新Java列表。</Item>
+			<Item Key="Setting_Java_JVM16_Installing_Failed">BakaXL 无法自动安装 Java 16。&#xD;&#xA;这可能是由于下载源提供的文件受损或互联网连接中断。</Item>
+
+			<Item Key="Setting_Java_JVM16_InstallProgress_Preparing">准备安装 Java 16</Item>
+			<Item Key="Setting_Java_JVM16_InstallProgress_FetchingFileList">获取 Java 16 ({0} 位) 的文件列表</Item>
+			<Item Key="Setting_Java_JVM16_InstallProgress_Downloading">正在下载 Java 16 ({0} 位) </Item>
+			<Item Key="Setting_Java_JVM16_InstallProgress_Finalizing">即将完成安装…</Item>
 			
 			<Item Key="Setting_Java_Memory_Title">内存设置</Item>
 			
