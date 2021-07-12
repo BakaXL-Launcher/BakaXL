@@ -26,12 +26,13 @@ BakaXL启动器是一款全新的Minecraft崩坏启动器，若要了解更多�
 
 <h4>目前提供的语言条目文件</h4> 
 zh-CN.xaml / zh-CN.xml 简体中文 [2.0/3.0]<br />
-zh-HK.xaml / zh-HK.xml 粤语（繁体中文）[2.0/3.0] ##2021.04.06 更新<br />
-zh-TW.xaml / zh-TW.xml 正體中文 [2.0/3.0] ##2020.04.06 更新<br />
+zh-HK.xaml / zh-HK.xml 粤语（繁体中文）[2.0/3.0] ##2021.07.12 更新<br />
+zh-TW.xaml / zh-TW.xml 正體中文 [2.0/3.0] ##2021.04.17 更新<br />
 zh-CC.xaml / zh-CC.xml 文言（文辭雅正，博學淵深） [2.0/3.0] ##2020.11.19 需要补全词条<br />
+zh_MEME.xaml / zh_MEME.xml 梗体中文（天朝） [3.0] ##2021.04.07 更新<br />
 zh-BO.xaml / zh-BO.xml 藏语（ཁྱོད་བདེ་མོ།） [3.0] ##2021.04.06 更新<br />
 zh-MC.xaml / zh-MC.xml 焱暒妏 (荢宙) [2.0/3.0] ##2020.11.19 需要补全词条<br />
-en-US.xaml / en-US.xml English [2.0/3.0] ##2020.11.19 需要补全词条<br />
+en-US.xaml / en-US.xml English [2.0/3.0] ##2021.07.12 更新<br />
 en-ES.xaml español [2.0] ##2017.7.28 需要补全词条<br />
 fr-FR.xaml français [2.0] ##2020.11.19 需要补全词条<br />
 ja-JP.xaml / ja-JP.xml 日本語 [2.0/3.0] ##2020.11.19 需要补全词条<br />
@@ -43,8 +44,9 @@ ko-KR.xaml 한국어 [2.0] ##2017.7.30 需要翻译新增词条<br />
 =#排名不分先后#=
 
 粤语（繁体中文）: 悠静萝莉、Jinzero、kaho0w0、JasonHK、cvrunmin<br />
-正體中文：JasonHK、cvrunmin<br />
+正體中文：XiaoMouz、SiongSng、JasonHK、cvrunmin<br />
 文言：muckis、zam、tdiant<br />
+梗体中文：lakejason0<br />
 藏语：WS_Touty<br />
 焱暒妏 (荢宙)：Dian-Jiao<br />
 English：YOLO_O3O、cvrunmin<br />
