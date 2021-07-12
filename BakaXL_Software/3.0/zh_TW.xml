@@ -811,7 +811,7 @@
       <Item Key="Setting_Java_JVM16_Download">獲取Java 16</Item>
       <Item Key="Setting_Java_JVM16_Download_Tips">運行 Minecraft 1.17 或更高級版本的 Minecraft 需要使用 Java 16。&#xD;&#xA;BakaXL會連接至互聯網自動安裝來自可信來源的Java 16。&#xD;&#xA;這個過程可能需要數分鐘，在您使用計費互聯網連接時可能&#xD;&#xA;需要支付一定費用。</Item>
 
-      <Item Key="Setting_Java_JVM16_Installing_Pending">BakaXL 當前正在安裝 Java 16…&#xD;&#xA;待安裝進度更新後，它將會顯示在這裡。</Item>
+      <Item Key="Setting_Java_JVM16_Installing_Pending">BakaXL 自動化安裝 Java 16中…&#xD;&#xA;待安裝進度更新後，它將會顯示在這裡。</Item>
       <Item Key="Setting_Java_JVM16_Installing_ProgressChanged">BakaXL 當前正在進行 Java 16 的安装…&#xD;&#xA;狀態: {0} </Item>
 
       <Item Key="Setting_Java_JVM16_Installing_Successful">BakaXL 已安裝 Java 16 在您的電腦上。&#xD;&#xA;選擇 &quot;Java高級設定 - 自動尋找Java位置&quot; 重繪Java清單。</Item>
