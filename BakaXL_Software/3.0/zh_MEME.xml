@@ -2,14 +2,14 @@
 <Languages>
 	<Type>
 		<Key>zh_MEME</Key>
-		<Name>梗体中文 (中国)</Name>
+		<Name>梗体中文 (天朝)</Name>
 		<Author>BakaXL</Author>
 	</Type>
 	<Language Key="zh_CN">
 		<Items>
 			<Item Key="BakaXLTitle">BakaXL - Minecraft 启动器</Item>
 			
-			<Item Key="NoUserName">未设置游戏ID</Item>
+			<Item Key="NoUserName">您游戏ID没写</Item>
 			
 			<Item Key="Loading">载入中</Item>
 			<Item Key="PleaseWait">请稍等…</Item>
@@ -719,28 +719,28 @@
 			
 			<Item Key="Setting_Account_Detail_Type">账户类型</Item>
 			<Item Key="Setting_Account_Detail_AuthMode">游戏启动模式</Item>
-			<Item Key="Setting_Account_Detail_AuthMode_Tips_Default">选择启动Minecraft时的验证模式。&#xD;&#xA;正版验证：使用您的 Mojang账户 或 微软账户 进行登录。&#xD;&#xA;离线模式：仅使用游戏ID进行验证。&#xD;&#xA;外置登录(authlib-injector)：使用第三方验证服务器登录。&#xD;&#xA;&#xD;&#xA;根据相关法律及法规，离线验证模式在部分地区不可用。</Item>
-			<Item Key="Setting_Account_Detail_AuthMode_Tips_Online">选择启动Minecraft时的验证模式。&#xA;使用您的Mojang账户进行正版登录启动游戏。</Item>
-			<Item Key="Setting_Account_Detail_AuthMode_Tips_Online_Microsoft">选择启动Minecraft时的验证模式。&#xA;通过您的微软账户(Microsoft Account)授权进行正版登录。</Item>
+			<Item Key="Setting_Account_Detail_AuthMode_Tips_Default">选择启动Minecraft时的验证模式。&#xD;&#xA;正版验证：使用您的 Bugjump账户 或 巨硬账户 进行登录。&#xD;&#xA;离线模式：仅使用游戏ID进行验证。&#xD;&#xA;外置登录(authlib-injector)：使用第三方验证服务器登录。&#xD;&#xA;&#xD;&#xA;根据相关法律及法规，离线验证模式在部分地区不可用。</Item>
+			<Item Key="Setting_Account_Detail_AuthMode_Tips_Online">选择启动Minecraft时的验证模式。&#xA;使用您的Bugjump账户进行正版登录启动游戏。</Item>
+			<Item Key="Setting_Account_Detail_AuthMode_Tips_Online_Microsoft">选择启动Minecraft时的验证模式。&#xA;通过您的巨硬账户(Macrohard Account)授权进行正版登录。</Item>
 			<Item Key="Setting_Account_Detail_AuthMode_Tips_Offline">选择启动Minecraft时的验证模式。&#xA;仅使用自定游戏ID进行离线验证登录启动游戏。&#xA;&#xA;根据相关法律及法规，离线验证模式在部分地区不可用。</Item>
 			<Item Key="Setting_Account_Detail_AuthMode_Tips_ThirdParty">选择启动Minecraft时的验证模式。&#xA;使用外置登录(authlib-injector)所要求的账户信息进行验证。&#xA;&#xA;为了您的账户安全，我们不建议您在第三方验证服务&#xA;中使用与您的Mojang账户相同的密码。</Item>
 			
 			<Item Key="Setting_Account_Detail_AccInfo">账户信息</Item>
 
-			<Item Key="Setting_Account_Detail_Offline_Username">输入游戏ID</Item>
+			<Item Key="Setting_Account_Detail_Offline_Username">填个游戏ID</Item>
 			<Item Key="Setting_Account_Detail_Offline_Username_Tips">设置你在运行Minecraft时想使用的游戏ID。&#xD;&#xA;只能使用英文、数字和下划线，不建议使用中文和特殊符号。</Item>
 			
-			<Item Key="Setting_Account_Detail_Online_Email">Mojang账户邮箱</Item>
-			<Item Key="Setting_Account_Detail_Online_Email_Tips">设置您的Mojang正版账户邮箱。</Item>
+			<Item Key="Setting_Account_Detail_Online_Email">Bugjump账户邮箱</Item>
+			<Item Key="Setting_Account_Detail_Online_Email_Tips">设置您的Bugjump正版账户邮箱。</Item>
 			<Item Key="Setting_Account_Detail_Online_Password">输入您的密码</Item>
-			<Item Key="Setting_Account_Detail_Online_Password_Tips">输入您的Mojang正版账户登录密码。&#xD;&#xA;BakaXL会加密保存这些信息。</Item>
+			<Item Key="Setting_Account_Detail_Online_Password_Tips">输入您的Bugjump正版账户登录密码。&#xD;&#xA;BakaXL会加密保存这些信息。</Item>
 
-			<Item Key="Setting_Account_Detail_Online_Microsoft_LoginBtn">通过微软账户登录</Item>
-			<Item Key="Setting_Account_Detail_Online_Microsoft_LoginBtn_Relogin">切换至其他微软账户</Item>
-			<Item Key="Setting_Account_Detail_Online_Microsoft_LoginBtn_Tips">在打开的新页面中输入您的微软账户和密码进行登录授权。&#xD;&#xA;BakaXL不会记录您的微软账户和密码。&#xD;&#xA;BakaXL与微软服务器的连接均使用安全套接字层(SSL)技术。</Item>
+			<Item Key="Setting_Account_Detail_Online_Microsoft_LoginBtn">通过巨硬账户登录</Item>
+			<Item Key="Setting_Account_Detail_Online_Microsoft_LoginBtn_Relogin">切换至其他巨硬账户</Item>
+			<Item Key="Setting_Account_Detail_Online_Microsoft_LoginBtn_Tips">在打开的新页面中输入您的巨硬账户和密码进行登录授权。&#xD;&#xA;BakaXL不会记录您的微软账户和密码。&#xD;&#xA;BakaXL与微软服务器的连接均使用安全套接字层(SSL)技术。</Item>
 			<Item Key="Setting_Account_Detail_Online_Microsoft_Logined_WithUsername">已使用 {0} 的身份登录</Item>
-			<Item Key="Setting_Account_Detail_Online_Microsoft_NotLogin">您还尚未登录至微软账户。</Item>
-			<Item Key="Setting_Account_Detail_Online_Microsoft_Logined">此用户档案已通过微软账户授权。</Item>
+			<Item Key="Setting_Account_Detail_Online_Microsoft_NotLogin">您还尚未登录至巨硬账户。</Item>
+			<Item Key="Setting_Account_Detail_Online_Microsoft_Logined">此用户档案已通过巨硬账户授权。</Item>
 			<Item Key="Setting_Account_Detail_Online_Microsoft_Logined_Time_Issued">授权生效时间: {0}</Item>
 			<Item Key="Setting_Account_Detail_Online_Microsoft_Logined_Time_Expired">授权失效时间: {0}</Item>
 
@@ -1252,13 +1252,13 @@
 			<Item Key="ThemeBackground">背景图片</Item>
 			<Item Key="ThemeMenuOpenSource">查看主题文件</Item>
 
-			<Item Key="TapToSee">点击查看</Item>
-			<Item Key="MenuDelete">删除</Item>
+			<Item Key="TapToSee">点开查看</Item>
+			<Item Key="MenuDelete">删掉</Item>
 			<Item Key="MenuRefresh">刷新</Item>
 			<Item Key="MenuMore">更多...</Item>
 
-			<Item Key="OK">好</Item>
-			<Item Key="No">否</Item>
+			<Item Key="OK">好耶！</Item>
+			<Item Key="No">呐呐呐！</Item>
 
 			<Item Key="Color_Auto">自动检测</Item>
 			<Item Key="Color_Red">中国红</Item>
