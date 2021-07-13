@@ -49,7 +49,7 @@ ko-KR.xaml 한국어 [2.0] ##2017.7.30 需要翻译新增词条<br />
 梗体中文：lakejason0<br />
 藏语：WS_Touty<br />
 焱暒妏 (荢宙)：Dian-Jiao<br />
-English：YOLO_O3O、cvrunmin、bwtx2021<br />
+English：YOLO_O3O、cvrunmin、CNCloud_Casey<br />
 español：大明<br />
 français：Xwdit<br />
 日本語： MRTangwin8<br />
