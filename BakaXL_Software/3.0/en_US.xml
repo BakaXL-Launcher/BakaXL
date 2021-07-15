@@ -61,10 +61,10 @@
 			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_CheckAuthlib_Download">Downloading Authlib-Injector</Item>
 			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_CheckPlugin">Running BakaXL Plugin Custom Actions</Item>
 
-			<Item Key="LaunchBar_LaunchBtn_Launching_Environment_JavaNotExist">Java Path Changed，Repositioning</Item>
-			<Item Key="LaunchBar_LaunchBtn_Launching_Environment_NewJavaFound">BakaXL Will Start Minecraft With The New Java Path</Item>
+			<Item Key="LaunchBar_LaunchBtn_Launching_Environment_JavaNotExist">Java path changed，Repositioning</Item>
+			<Item Key="LaunchBar_LaunchBtn_Launching_Environment_NewJavaFound">BakaXL will start Minecraft with whe new Java path</Item>
 			
-			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_CheckEnvironment">Launch Mode: Checking&amp;Fixing Minecraft Environment</Item>
+			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_CheckEnvironment">Launch Mode: Checking&amp;Fixing Minecraft environment</Item>
 
 			<Item Key="LaunchBar_LaunchBtn_Launched_Title">Launched</Item>
 			<Item Key="LaunchBar_LaunchBtn_Launched_Tips">&lt;Running...&gt;</Item>
@@ -74,7 +74,7 @@
 			<Item Key="LaunchBar_Title_Launched">Minecraft Launched With Profile: {0}</Item>
 			<Item Key="LaunchBar_Title_AuthError">Authentication Error: Incorrect Username/Password</Item>
 			<Item Key="LaunchBar_Title_AuthError_Unknown">Authentication Error: Unknown</Item>
-      <Item Key="LaunchBar_Title_AuthError_MojangTokenExpired">Verification Error：Session Validation Information Expired，Please Check Your User Profile in Settings</Item>
+                        <Item Key="LaunchBar_Title_AuthError_MojangTokenExpired">Verification Error：Session Validation Information Expired，Please Check Your User Profile in Settings</Item>
 			<Item Key="LaunchBar_Title_AuthError_AuthlibTokenExpired">Verification Error：Failure of Profile Verification Information，Please Reset This User Profile</Item>
 			<Item Key="LaunchBar_Title_AuthError_MicrosoftLoginCanceled">Verification Error：Microsoft Account Login Cancelled By User</Item>
 			<Item Key="LaunchBar_Title_EnvironmentError_JavaNotFound">Environment Error：Not Found Java</Item>
@@ -83,10 +83,10 @@
 			<Item Key="LaunchBar_Title_LaunchModeError_CheckGameFailed">Launch Mode Error：Check Minecraft Environment Fail</Item>
 
 			<Item Key="UserSelector_Launch_Title">Select a Minecraft Profile</Item>
-			<Item Key="UserSelector_Authlib_SelectProfile">This Account Have Several Roles，Choose A Role</Item>
+			<Item Key="UserSelector_Authlib_SelectProfile">This Account Has Several Roles，Choose A Role</Item>
 			<Item Key="UserSelector_Default_Title">Select a User</Item>
 
-            <Item Key="UserProfile_ToolTip_Offline">Username：{0} &#xD;&#xA;This Profile Will Use Offline Verification</Item>
+                        <Item Key="UserProfile_ToolTip_Offline">Username：{0} &#xD;&#xA;This Profile Will Use Offline Verification</Item>
 			<Item Key="UserProfile_ToolTip_Online">Username：{0} &#xD;&#xA;This Profile Will Use Mojang Verification</Item>
 			<Item Key="UserProfile_ToolTip_Online_Microsoft">Username：{0} &#xD;&#xA;This Profile Will Use Microsoft Verification</Item>
 			<Item Key="UserProfile_ToolTip_ThirParty_WithoutName">Username：{0} &#xD;&#xA;This Profile Will Use Third Party Authentication Server&#xD;&#xA;Server：{1}</Item>
@@ -123,7 +123,7 @@
 			<Item Key="CoreSelector_CoreError_NoJsonFile">Warning - JSON File Not Exist</Item>
 			<Item Key="CoreSelector_CoreError_NotCompatible">Error - Format Not Compatible</Item>
 
-            <Item Key="CoreSelector_GetCore_Title">Add A New Minecraft Core Or Package</Item>
+                        <Item Key="CoreSelector_GetCore_Title">Add A New Minecraft Core Or Package</Item>
 			
 			<Item Key="CoreManagement_Title">Senior Core Management</Item>
 			<Item Key="CoreManagement_Publisher">Publisher: {0}</Item>
@@ -131,9 +131,9 @@
 			<Item Key="CoreManagement_LastPlayed">Recent Play Time: {0}</Item>
 			<Item Key="CoreManagement_LastPlayed_None">Never Played</Item>
 			
-			<Item Key="CoreManagement_Tips_Locked_MCVersion">Some Option Locked，Minecraft Version too low.</Item>
-			<Item Key="CoreManagement_Tips_Locked_ModPack">Some Option Locked，They are controlled by the Package Publisher.</Item>
-			<Item Key="CoreManagement_Tips_Locked_Server">Some Option Locked，They are controlled by the Package Server.</Item>
+			<Item Key="CoreManagement_Tips_Locked_MCVersion">Some Options Locked，Minecraft Version too low.</Item>
+			<Item Key="CoreManagement_Tips_Locked_ModPack">Some Options Locked，They are controlled by the Package Publisher.</Item>
+			<Item Key="CoreManagement_Tips_Locked_Server">Some Options Locked，They are controlled by the Package Server.</Item>
 			
 			<Item Key="CoreManagement_Tips_Error_Json">This core uses the Json not standard Minecraft core file.</Item>
 			<Item Key="CoreManagement_Tips_Error_Json_Broken">This core uses the Json damage，BakaXL cannot read.</Item>
@@ -141,16 +141,16 @@
 			<Item Key="CoreManagement_Tips_Error_Jar_Missing">The Jar file required by the core does not exist.</Item>
 			<Item Key="CoreManagement_Tips_Error_Inherits_Missing">The Minecraft core required by the core does not exist.</Item>
 			
-			<Item Key="CoreManagement_Tips_Suggest_Reset">This Core Need Restore，Go To &quot;Restore > Reset This Core&quot;.</Item>
-			<Item Key="CoreManagement_Tips_Suggest_AutoRepare">BakaXL Can Try Fix This Core，Go To &quot;Restore > Auto Fix&quot;.</Item>
-			<Item Key="CoreManagement_Tips_Suggest_Shader">Load Minecraft Shader File Need &quot;Optifine&quot;。</Item>
+			<Item Key="CoreManagement_Tips_Suggest_Reset">This core need to restore，Go To &quot;Restore > Reset This Core&quot;.</Item>
+			<Item Key="CoreManagement_Tips_Suggest_AutoRepare">BakaXL Can try fix this core，Go To &quot;Restore > Auto Fix&quot;.</Item>
+			<Item Key="CoreManagement_Tips_Suggest_Shader">Load Minecraft shader file need &quot;Optifine&quot;.</Item>
 			
-			<Item Key="CoreManagement_Tips_Warn_Mod_Unsupported">This core does not support install Mods.</Item>
+			<Item Key="CoreManagement_Tips_Warn_Mod_Unsupported">This core does not support installing Mods.</Item>
 			
 			<Item Key="CoreManagement_Page_Info">Info</Item>
 			<Item Key="CoreManagement_Page_Mod">Mods</Item>
 			<Item Key="CoreManagement_Page_ResourcePack">Resource Packs</Item>
-			<Item Key="CoreManagement_Page_ShaderPack">Shader packs</Item>
+			<Item Key="CoreManagement_Page_ShaderPack">Shader Packs</Item>
 			<Item Key="CoreManagement_Page_Config">Game/Mods Setting</Item>
 			<Item Key="CoreManagement_Page_Advance">Advanced</Item>
 			<Item Key="CoreManagement_Page_Update">Update</Item>
@@ -159,7 +159,7 @@
 			<Item Key="CoreManagement_Info_Description">Description</Item>
 			<Item Key="CoreManagement_Info_Description_None">Description Empty.</Item>
 			<Item Key="CoreManagement_Info_PlayTime">Play Time</Item>
-			<Item Key="CoreManagement_Info_PlayTime_Text">From {0} ，This core has been played {1} .</Item>
+			<Item Key="CoreManagement_Info_PlayTime_Text">From {0} ，this core has been played {1} .</Item>
 			<Item Key="CoreManagement_Info_PlayTime_NeverPlayed_Text">This core has never been played，sad :(</Item>
 			<Item Key="CoreManagement_Info_Version">Version</Item>
 
@@ -305,7 +305,7 @@
 
 			<Item Key="Guide_Page_Language_Tips">Please Select Your Language</Item>
 
-      <Item Key="Guide_Page_DisplayMode_Subtitle">Home Page Display Mode</Item>
+                        <Item Key="Guide_Page_DisplayMode_Subtitle">Home Page Display Mode</Item>
 			<Item Key="Guide_Page_DisplayMode_Tips">You Can Change Setting Any Time in 'Settings - Accessibility'</Item>
 
 			<Item Key="Guide_Page_DisplayMode_Standard_Tips">Home Page Hide Start Menu and Tiles</Item>
@@ -455,7 +455,7 @@
 			<Item Key="BakaPlaza_FullName">BakaXL BakaPlaza</Item>
 			<Item Key="BakaPlaza_Update">Update</Item>
 
-      <Item Key="BakaPlaza_SearchBar_Watermark">Search Something…</Item>
+                        <Item Key="BakaPlaza_SearchBar_Watermark">Search Something…</Item>
 
 			<Item Key="BakaPlaza_Category_Subtitle">Category</Item>
 
@@ -477,7 +477,7 @@
 			<Item Key="BakaPlaza_MinecraftInstaller_Category_Fabric_Desc">A new Mod API</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Category_Optifine_Desc">Optifine</Item>
 
-      <Item Key="BakaPlaza_MinecraftInstaller_Core_Status_Release">Release</Item>
+                        <Item Key="BakaPlaza_MinecraftInstaller_Core_Status_Release">Release</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Core_Status_Snapshot">Snapshot</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Core_Status_Special">Special</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Core_Status_Stable">Stable</Item>
@@ -756,7 +756,7 @@
 			<Item Key="Setting_Account_Detail_Online_OnlineFunction_Title">Minecraft正版账户功能</Item>
 			<Item Key="Setting_Account_Detail_Online_OnlineFunction_Tips">这些功能即将提供，敬请期待。</Item>
 
-            <Item Key="Setting_Account_Detail_ThirdParty_APIRoot">验证服务器地址(API Root)</Item>
+                        <Item Key="Setting_Account_Detail_ThirdParty_APIRoot">验证服务器地址(API Root)</Item>
 			<Item Key="Setting_Account_Detail_ThirdParty_APIRoot_Tips">验证服务器（即 Yggdrasil 服务器）是整个验证系统的核心。&#xD;&#xA;在设置后，使用此档案进行的请求都将被发往此地址。&#xD;&#xA;您可以将包含了验证服务器信息的配置拖拽至BakaXL进行快速配置。&#xD;&#xA;&#xD;&#xA;请谨慎使用非HTTPS的验证服务器，这将导致您的密码被明文传输。</Item>
 
 			<Item Key="Setting_Account_Detail_ThirdParty_Email">注册此服务时的邮箱</Item>
@@ -884,7 +884,7 @@
 			<Item Key="Setting_Network_MojangServiceStatus_MojangAPI">Mojang API服务</Item>
 			<Item Key="Setting_Network_MojangServiceStatus_MinecraftSkins">Minecraft皮肤服务</Item>
 			<Item Key="Setting_Network_MojangServiceStatus_MojangSite">Mojang官网</Item>
-            <Item Key="Setting_Network_MojangServiceStatus_MicrosoftLive">微软登录服务</Item>
+                        <Item Key="Setting_Network_MojangServiceStatus_MicrosoftLive">微软登录服务</Item>
 			<Item Key="Setting_Network_MojangServiceStatus_MicrosoftXBOXLive">XBOX登录服务</Item>
 
 			<Item Key="Setting_Network_Environment_Ping">网络环境</Item>
@@ -954,8 +954,8 @@
 			<Item Key="Setting_Personalize_Color_Tips">设置BakaXL窗体和控件所使用的配色方案。</Item>
 
 			<Item Key="Setting_Personalize_Tema_Title">BakaXL主题</Item>
-            <Item Key="Setting_Personalize_Tema_List">浏览主题列表</Item>
-            <Item Key="Setting_Personalize_Tema_Folder">主题文件夹</Item>
+                        <Item Key="Setting_Personalize_Tema_List">浏览主题列表</Item>
+                        <Item Key="Setting_Personalize_Tema_Folder">主题文件夹</Item>
 
 			<Item Key="Setting_Accessibility_Info">&quot;辅助功能&quot; 可让您让您根据个人需求自定义BakaXL的功能，&#xD;以满足不同的使用条件。</Item>
 			<Item Key="Setting_Accessibility_Vision_Title">视觉</Item>
@@ -1083,7 +1083,7 @@
 			<Item Key="TextInputer_Core_SetDesc_Title">更改此核心的简介</Item>
 
 			<Item Key="MessageBox_Launch_CheckOnline">正在检查用户是否可以运行Minecraft……</Item>
-            <Item Key="MessageBox_Launch_CheckThirdParty">请等待我们连接到第三方验证服务器……</Item>
+                        <Item Key="MessageBox_Launch_CheckThirdParty">请等待我们连接到第三方验证服务器……</Item>
 
 			<Item Key="MessageBox_Auth_ThirdParty_ProtocolFix_Title">已经自动补全通信协议</Item>
 			<Item Key="MessageBox_Auth_ThirdParty_ProtocolFix_Content">BakaXL检测到您未设置验证服务器通信协议。&#xD;&#xA;将自动使用HTTPS安全协议连接至此验证服务器。</Item>
