@@ -64,7 +64,7 @@
 			<Item Key="LaunchBar_LaunchBtn_Launching_Environment_JavaNotExist">Java Path Changed，Repositioning</Item>
 			<Item Key="LaunchBar_LaunchBtn_Launching_Environment_NewJavaFound">BakaXL Will Start Minecraft With The New Java Path</Item>
 			
-			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_CheckEnvironment">Laucnh Mode: Checking&amp;Fixing Minecraft Environment</Item>
+			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_CheckEnvironment">Launch Mode: Checking&amp;Fixing Minecraft Environment</Item>
 
 			<Item Key="LaunchBar_LaunchBtn_Launched_Title">Launched</Item>
 			<Item Key="LaunchBar_LaunchBtn_Launched_Tips">&lt;Running...&gt;</Item>
