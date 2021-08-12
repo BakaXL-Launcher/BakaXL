@@ -32,7 +32,7 @@ zh-CC.xaml / zh-CC.xml 文言（文辭雅正，博學淵深） [2.0/3.0] ##2020.
 zh_MEME.xaml / zh_MEME.xml 梗体中文（天朝） [3.0] ##2021.04.07 需要补全词条<br />
 zh-BO.xaml / zh-BO.xml 藏语（ཁྱོད་བདེ་མོ།） [3.0] ##2021.04.06 需要补全词条<br />
 zh-MC.xaml / zh-MC.xml 焱暒妏 (荢宙) [2.0/3.0] ##2020.11.19 需要补全词条<br />
-en-US.xaml / en-US.xml English [2.0/3.0] ##2021.07.12 更新<br />
+en-US.xaml / en-US.xml English [2.0/3.0] ##2021.08.14 更新<br />
 en-ES.xaml español [2.0] ##2017.7.28 需要补全词条<br />
 fr-FR.xaml français [2.0] ##2020.11.19 需要补全词条<br />
 ja-JP.xaml / ja-JP.xml 日本語 [2.0/3.0] ##2020.11.19 需要补全词条<br />
@@ -49,7 +49,7 @@ ko-KR.xaml 한국어 [2.0] ##2017.7.30 需要翻译新增词条<br />
 梗体中文：lakejason0<br />
 藏语：WS_Touty<br />
 焱暒妏 (荢宙)：Dian-Jiao<br />
-English：YOLO_O3O、cvrunmin、CNCloud_Casey<br />
+English：YOLO_O3O、cvrunmin、CNCloud_Casey、XiaoMouz<br />
 español：大明<br />
 français：Xwdit<br />
 日本語： MRTangwin8<br />
