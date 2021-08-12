@@ -923,7 +923,7 @@
 			<Item Key="Setting_Advance_AutoFix_Btn_Title">自动补全资源文件</Item>
 			<Item Key="Setting_Advance_AutoFix_Btn_Tips">在你切换至一个未补全Assets文件的Minecraft版本时提醒你。</Item>
 
-			<Item Key="Setting_Advance_Reset_Title">重置</Item>
+			<Item Key="Setting_Advance_Reset_Title">Reset</Item>
 			<Item Key="Setting_Advance_Reset_Btn_Title">恢复默认设置</Item>
 			<Item Key="Setting_Advance_Reset_Btn_Tips">如果您觉得您搞砸了，可恢复所有高级选项至默认值。</Item>
 
@@ -1012,7 +1012,7 @@
 			<Item Key="Setting_Download_Service_Providor">服务提供者</Item>
 			<Item Key="Setting_Download_Service_Providor_MCBBS_Tips">BakaXL的部分文件使用了来自 Minecraft(我的世界)中文论坛&#xD;&#xA;所提供文件下载服务。&#xD;&#xA;请参阅：https://www.mcbbs.net/</Item>
 
-			<Item Key="Setting_Plaza_Setting_Title">笨蛋广场设置</Item>
+			<Item Key="Setting_Plaza_Setting_Title">Plaze Settings</Item>
 			<Item Key="Setting_Plaza_Setting_CellularNetwork">节省数据流量</Item>
 			<Item Key="Setting_Plaza_Setting_CellularNetwork_Tips">在使用计费互联网连接时开启，&#xD;&#xA;开启后，笨蛋广场将在播放前询问您并降低视频播放的清晰度。&#xD;&#xA;并不是所有在笨蛋广场提供的视频都支持降低清晰度播放。</Item>
 
@@ -1020,8 +1020,8 @@
 			<Item Key="Setting_Protocol_Btn_Tips">BakaXL协议可以让您通过网站提供的按钮快速启动BakaXL。&#xD;&#xA;根据网站按钮提供的参数，可使BakaXL直接启动特定内建功能。&#xD;&#xA;参阅BakaXL开发人员中心了解如何将您的网站接入BakaXL协议。</Item>
 
 			<Item Key="Setting_Insider_Desc">Introduction</Item>
-			<Item Key="Setting_Insider_Info">BakaXL comes to a new version! This thanks to all the members joined &#xD;&#xA;BakaXL Insider Preview Program. Without their help, we &#xD;&#xA;can't build such an excellent BakaXL. &#xD;&#xA;&#xD;&#xA;现在，你也可以加入我们让BakaXL变得更好。&#xD;&#xA;&#xD;&#xA;现在就加入 BakaXL 预览体验计划吧！抢先体验，给予反馈。</Item>
-			<Item Key="Setting_Insider_Warn_1">BakaXL Insider Preview中包含的功能，仅供预览体验，且在未来可&#xA;能会在未经提示的情况下被移除或修改。</Item>
+			<Item Key="Setting_Insider_Info">BakaXL comes to a new version! This thanks to all the members joined &#xD;&#xA;BakaXL Insider Preview Program. Without their help, we &#xD;&#xA;can't build such an excellent BakaXL. &#xD;&#xA;&#xD;&#xA;Right now,you can also join Insider make us better.&#xD;&#xA;&#xD;&#xA;Join BakaXL Insider Preview Plan！experience &amp; feedbakc!</Item>
+			<Item Key="Setting_Insider_Warn_1">BakaXL Insider Preview Version's features maybe &#xA;removed or modified without prompting</Item>
 			<Item Key="Setting_Insider_Warn_2">预览版本的BakaXL因缺少必备功能，请勿加入整合包内进行分享。</Item>
 			<Item Key="Setting_Insider_Desc">Introduction</Item>
 			<Item Key="Setting_Insider_TunnelTitle">Change Update Channel</Item>
