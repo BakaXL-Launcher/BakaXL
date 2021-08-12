@@ -16,7 +16,7 @@
 			<Item Key="LoadingPlugins">Plugin</Item>
 
 			<Item Key="Window_ReportIssue_Title">Report</Item>
-			<Item Key="Window_ReportIssue_Tips">Join BakaXL Offical Fourm to Report Issues</Item>
+			<Item Key="Window_ReportIssue_Tips">Join BakaXL Official Fourm to Report Issues</Item>
 
 			<Item Key="Window_GetHelp_Title">Get Helped</Item>
 			<Item Key="Window_GetHelp_Tips">Check Our Support Website to Get Help!</Item>
@@ -234,7 +234,7 @@
 			<Item Key="BakaXL.Pages.PageGuide">Guide</Item>
 			<Item Key="BakaXL.Pages.PageTips">BakaXL Tips</Item>
 			<Item Key="BakaXL.Pages.PagePlaza">BakaPlaza</Item>
-			<Item Key="BakaXL.Pages.PageAddGameCore">添加核心向导</Item>
+			<Item Key="BakaXL.Pages.PageAddGameCore">Core Add Guide</Item>
 
 			<Item Key="Minecraft_AuthMode_Offline">Offline Mode</Item>
 			<Item Key="Minecraft_AuthMode_Online">Online Mode</Item>
@@ -746,174 +746,174 @@
 
 			<Item Key="Setting_Account_Detail_Online_Microsoft_LoginBtn">Microsoft Account</Item>
 			<Item Key="Setting_Account_Detail_Online_Microsoft_LoginBtn_Relogin">Change Other Microsoft Account</Item>
-			<Item Key="Setting_Account_Detail_Online_Microsoft_LoginBtn_Tips">在打开的新页面中输入您的微软账户和密码进行登录授权。&#xD;&#xA;BakaXL不会记录您的微软账户和密码。&#xD;&#xA;BakaXL与微软服务器的连接均使用安全套接字层(SSL)技术。</Item>
-			<Item Key="Setting_Account_Detail_Online_Microsoft_Logined_WithUsername">已使用 {0} 的身份登录</Item>
-			<Item Key="Setting_Account_Detail_Online_Microsoft_NotLogin">您还尚未登录至微软账户。</Item>
-			<Item Key="Setting_Account_Detail_Online_Microsoft_Logined">此用户档案已通过微软账户授权。</Item>
-			<Item Key="Setting_Account_Detail_Online_Microsoft_Logined_Time_Issued">授权生效时间: {0}</Item>
-			<Item Key="Setting_Account_Detail_Online_Microsoft_Logined_Time_Expired">授权失效时间: {0}</Item>
+			<Item Key="Setting_Account_Detail_Online_Microsoft_LoginBtn_Tips">Please in new tab login your Microsoft Account &#xD;&#xA;BakaXL will not record your Account or Password&#xD;&#xA;BakaXL Connect to Microsoft Server will use Secure Sockets Layer.</Item>
+			<Item Key="Setting_Account_Detail_Online_Microsoft_Logined_WithUsername"> {0} Logged</Item>
+			<Item Key="Setting_Account_Detail_Online_Microsoft_NotLogin">Your not Login Microsoft Account</Item>
+			<Item Key="Setting_Account_Detail_Online_Microsoft_Logined">This user profile will used Microsoft Account authorization</Item>
+			<Item Key="Setting_Account_Detail_Online_Microsoft_Logined_Time_Issued">Authorization verification time: {0}</Item>
+			<Item Key="Setting_Account_Detail_Online_Microsoft_Logined_Time_Expired">Authorization invalid time: {0}</Item>
 
-			<Item Key="Setting_Account_Detail_Online_OnlineFunction_Title">Minecraft正版账户功能</Item>
-			<Item Key="Setting_Account_Detail_Online_OnlineFunction_Tips">这些功能即将提供，敬请期待。</Item>
+			<Item Key="Setting_Account_Detail_Online_OnlineFunction_Title">Minecraft Online Account Feature</Item>
+			<Item Key="Setting_Account_Detail_Online_OnlineFunction_Tips">Under development.</Item>
 
-                        <Item Key="Setting_Account_Detail_ThirdParty_APIRoot">验证服务器地址(API Root)</Item>
-			<Item Key="Setting_Account_Detail_ThirdParty_APIRoot_Tips">验证服务器（即 Yggdrasil 服务器）是整个验证系统的核心。&#xD;&#xA;在设置后，使用此档案进行的请求都将被发往此地址。&#xD;&#xA;您可以将包含了验证服务器信息的配置拖拽至BakaXL进行快速配置。&#xD;&#xA;&#xD;&#xA;请谨慎使用非HTTPS的验证服务器，这将导致您的密码被明文传输。</Item>
+                        <Item Key="Setting_Account_Detail_ThirdParty_APIRoot">Verification Server URL(API Root)</Item>
+			<Item Key="Setting_Account_Detail_ThirdParty_APIRoot_Tips">Verification Server（Yggdrasil Server）is this verification system core. &#xD;&#xA;when your completed this page we will send your user profile to verification server. &#xD;&#xA;if verification creater give you config,you can drag to BakaXL to import. &#xD;&#xA;&#xD;&#xA;Warning:if you use http url,BakaXL will use plaintext transmission your infomation.</Item>
 
-			<Item Key="Setting_Account_Detail_ThirdParty_Email">注册此服务时的邮箱</Item>
-			<Item Key="Setting_Account_Detail_ThirdParty_Email_Tips">您在注册第三方验证服务时所使用的邮箱</Item>
-			<Item Key="Setting_Account_Detail_ThirdParty_Password">输入您的密码</Item>
-			<Item Key="Setting_Account_Detail_ThirdParty_Password_Tips">您在注册第三方验证服务时所使用的密码</Item>
+			<Item Key="Setting_Account_Detail_ThirdParty_Email">Register Email</Item>
+			<Item Key="Setting_Account_Detail_ThirdParty_Email_Tips">Your register email to login.</Item>
+			<Item Key="Setting_Account_Detail_ThirdParty_Password">Password</Item>
+			<Item Key="Setting_Account_Detail_ThirdParty_Password_Tips">Your register password to login.</Item>
 
-			<Item Key="Setting_Account_Detail_ThirdParty_ServerInfo_Title">服务器身份信息</Item>
-			<Item Key="Setting_Account_Detail_ThirdParty_ServerInfo_ServerName_Title">服务器名称：{0}</Item>
-			<Item Key="Setting_Account_Detail_ThirdParty_ServerInfo_ServerImplementationName_Title">服务端实现：{0}</Item>
-			<Item Key="Setting_Account_Detail_ThirdParty_ServerInfo_ServerImplementationVersion_Title">实现版本：{0}</Item>
-			<Item Key="Setting_Account_Detail_ThirdParty_ServerInfo_Tips">若服务端包含了受支持的响应元数据，则将会被显示在这里。&#xD;&#xA;实现版本并非Minecraft服务器版本。&#xD;&#xA;请使用这些数据核对验证服务器地址和服务器信息。</Item>
+			<Item Key="Setting_Account_Detail_ThirdParty_ServerInfo_Title">Server infomation</Item>
+			<Item Key="Setting_Account_Detail_ThirdParty_ServerInfo_ServerName_Title">Server Name：{0}</Item>
+			<Item Key="Setting_Account_Detail_ThirdParty_ServerInfo_ServerImplementationName_Title">Server implementation：{0}</Item>
+			<Item Key="Setting_Account_Detail_ThirdParty_ServerInfo_ServerImplementationVersion_Title">Implementation version：{0}</Item>
+			<Item Key="Setting_Account_Detail_ThirdParty_ServerInfo_Tips">If sever return we can parse metadata,we will show in there &#xD;&#xA;Implementation version not Minecraft Version.&#xD;&#xA;Please use this infomation ensure is your want connect server.</Item>
 
-			<Item Key="Setting_Account_Detail_ThirdParty_OnlineFunction_Title">第三方账户功能</Item>
-			<Item Key="Setting_Account_Detail_ThirdParty_OnlineFunction_Tips">这些功能即将提供，敬请期待。</Item>
+			<Item Key="Setting_Account_Detail_ThirdParty_OnlineFunction_Title">Third Party Account</Item>
+			<Item Key="Setting_Account_Detail_ThirdParty_OnlineFunction_Tips">Under development.</Item>
 
-			<Item Key="Setting_Account_Detail_ProfileProtection">账号保护及安全</Item>
-			<Item Key="Setting_Account_Detail_ProfileProtection_Btn_Title">不保存正版信息</Item>
-			<Item Key="Setting_Account_Detail_DoNotSaveAuthInfo">当您在公共计算机上使用BakaXL时，建议打开此选项。&#xD;&#xA;BakaXL将仅会保存您的游戏ID。</Item>
-			<Item Key="Setting_Account_Detail_DoNotSaveAuthInfo_Tips">BakaXL使用符合业界标准的加密措施来保护您的账户信息安全。&#xD;&#xA;为了安全，请不要向任何人透露您的密码。</Item>
+			<Item Key="Setting_Account_Detail_ProfileProtection">Account security</Item>
+			<Item Key="Setting_Account_Detail_ProfileProtection_Btn_Title">Not save Online Account data.</Item>
+			<Item Key="Setting_Account_Detail_DoNotSaveAuthInfo">When you in public computer we suggest enable this features. &#xD;&#xA;BakaXL will only save you account ID</Item>
+			<Item Key="Setting_Account_Detail_DoNotSaveAuthInfo_Tips">BakaXL will use industrial-strength encryption method save your data. &#xD;&#xA;Please don't tell anyone your Account Password.</Item>
 
-			<Item Key="Setting_Account_Detail_Delete">删除账户档案</Item>
-			<Item Key="Setting_Account_Detail_Delete_Btn_Title">从BakaXL中删除此档案</Item>
-			<Item Key="Setting_Account_Detail_Delete_Tips">执行后将从BakaXL中永久删除此档案及其包含的数据。&#xD;此操作过程不可逆。</Item>
+			<Item Key="Setting_Account_Detail_Delete">Delet User Profile</Item>
+			<Item Key="Setting_Account_Detail_Delete_Btn_Title">Delete this profile in BakaXL.</Item>
+			<Item Key="Setting_Account_Detail_Delete_Tips">BakaXL will permanently delete this user profile and data. &#xD;This operation irreversible.</Item>
 
-			<Item Key="Setting_Account_Detail_BackBtn_Back">返回</Item>
-			<Item Key="Setting_Account_Detail_BackBtn_AuthBack">进行验证并返回</Item>
-			<Item Key="Setting_Account_Detail_Tips_EmailInvaild">您输入的邮箱不是有效的邮箱地址</Item>
-			<Item Key="Setting_Account_Detail_Tips_AuthFailed">获取正版游戏ID失败，请重试！</Item>
-			<Item Key="Setting_Account_Detail_Tips_Authenticating">正在获取…</Item>
-			<Item Key="Setting_Account_Detail_Tips_AuthFailed_Username">获取失败</Item>
-			<Item Key="Setting_Account_Detail_Tips_NeedAuth">在您返回前，您需要完成一次正版验证</Item>
-			<Item Key="Setting_Account_Detail_Tips_NeedUsername">您必须设置一个游戏ID</Item>
-			<Item Key="Setting_Account_Detail_Tips_ThirdPartAPIRoot">您必须设置一个第三方验证服务器</Item>
-			<Item Key="Setting_Account_Detail_Tips_NeedReload">您更改了游戏ID，部分内容需要重载。</Item>
+			<Item Key="Setting_Account_Detail_BackBtn_Back">Back</Item>
+			<Item Key="Setting_Account_Detail_BackBtn_AuthBack">Verification &amp; Back</Item>
+			<Item Key="Setting_Account_Detail_Tips_EmailInvaild">Email address look like wrong</Item>
+			<Item Key="Setting_Account_Detail_Tips_AuthFailed">We can't get Game ID,please retry.</Item>
+			<Item Key="Setting_Account_Detail_Tips_Authenticating">Authenticating…</Item>
+			<Item Key="Setting_Account_Detail_Tips_AuthFailed_Username">Authentication Failed</Item>
+			<Item Key="Setting_Account_Detail_Tips_NeedAuth">Before return we must authentication account effectiveness</Item>
+			<Item Key="Setting_Account_Detail_Tips_NeedUsername">You must set a Game ID</Item>
+			<Item Key="Setting_Account_Detail_Tips_ThirdPartAPIRoot">You must set verification server</Item>
+			<Item Key="Setting_Account_Detail_Tips_NeedReload">You changed Game ID,something need reload.</Item>
 
-			<Item Key="Setting_Java_JVM_Title">Java虚拟机</Item>
-			<Item Key="Setting_Java_JVM_Selector">请选择Java版本</Item>
-			<Item Key="Setting_Java_JVM_Tips">为了确保您的游戏体验，请始终选择最佳适配版本的Java。</Item>
-			<Item Key="Settings_SystemSettings_ManualJava">自定义Java</Item>
+			<Item Key="Setting_Java_JVM_Title">Java VM</Item>
+			<Item Key="Setting_Java_JVM_Selector">Choose a Java Version</Item>
+			<Item Key="Setting_Java_JVM_Tips">For the best game experience,please choose Java version best fit for game.</Item>
+			<Item Key="Settings_SystemSettings_ManualJava">Custom Java</Item>
 
-			<Item Key="Setting_Java_JVM_Advance">Java高级设置</Item>
-			<Item Key="Setting_Java_JVM_Advance_AutoJava">自动寻找Java位置</Item>
-			<Item Key="Setting_Java_JVM_Advance_ManualJava">手动指定Java位置</Item>
-			<Item Key="Setting_Java_JVM_Advance_ManualJava_Selector_Title">选择您的Javaw.exe位置</Item>
+			<Item Key="Setting_Java_JVM_Advance">Java Advance Setting</Item>
+			<Item Key="Setting_Java_JVM_Advance_AutoJava">Auto search Java path</Item>
+			<Item Key="Setting_Java_JVM_Advance_ManualJava">Manual appoint Java path</Item>
+			<Item Key="Setting_Java_JVM_Advance_ManualJava_Selector_Title">Selector your Javaw.exe path</Item>
 
-			<Item Key="Setting_Java_JVM_Advance_Tips">在通常情况下，BakaXL会自动选择您当前计算机中最合适的Java。&#xD;&#xA;如果您不了解此选项的作用，我们建议您不要修改此选项的值。</Item>
+			<Item Key="Setting_Java_JVM_Advance_Tips">Usually BakaXL auto select Java version best fit for game.&#xD;&#xA;If you don't what are you doing,please don't touch anything.</Item>
 
-			<Item Key="Setting_Java_JVM_Download">获取Java 8</Item>
-			<Item Key="Setting_Java_JVM_Download_Tips">运行 Minecraft 1.16 及更低版本的 Minecraft 推荐使用 Java 8。&#xD;&#xA;BakaXL将会跳转至来自可信下载源提供的Java 8下载地址。&#xD;&#xA;</Item>
+			<Item Key="Setting_Java_JVM_Download">Get Java 8</Item>
+			<Item Key="Setting_Java_JVM_Download_Tips">Play 1.16&amp;lower version Minecraft we suggest use Java8.&#xD;&#xA;BakaXL will open trusted download site on your browse.&#xD;&#xA;</Item>
 
-			<Item Key="Setting_Java_JVM16_Download">获取Java 16</Item>
-			<Item Key="Setting_Java_JVM16_Download_Tips">运行 Minecraft 1.17 或更高级版本的 Minecraft 需要使用 Java 16。&#xD;&#xA;BakaXL会连接至互联网自动安装来自可信来源的Java 16。&#xD;&#xA;这个过程可能需要数分钟，在您使用计费互联网连接时可能&#xD;&#xA;需要支付网络数据费用。</Item>
+			<Item Key="Setting_Java_JVM16_Download">Get Java 16</Item>
+			<Item Key="Setting_Java_JVM16_Download_Tips">Play 1.17&amp;higher version Minecraft must use Java 16.&#xD;&#xA;BakaXL will connect to Internet for download Java16 and auto Install&#xD;&#xA;This process takes several minutes.&#xD;&#xA;When you use toll network maybe need pay network costs.</Item>
 			
-			<Item Key="Setting_Java_JVM16_Installing_Pending">BakaXL 当前正在进行 Java 16 的安装…&#xD;&#xA;待安装进度更新后，它将会显示在这里。</Item>
-			<Item Key="Setting_Java_JVM16_Installing_ProgressChanged">BakaXL 当前正在进行 Java 16 的安装…&#xD;&#xA;状态: {0} </Item>
+			<Item Key="Setting_Java_JVM16_Installing_Pending">BakaXL auto installing Java 16...&#xD;&#xA;Here show install status.</Item>
+			<Item Key="Setting_Java_JVM16_Installing_ProgressChanged">ava 16 installing...&#xD;&#xA;Status: {0} </Item>
 
-			<Item Key="Setting_Java_JVM16_Installing_Successful">BakaXL 已成功安装了 Java 16。&#xD;&#xA;选择 &quot;Java高级设置 - 自动寻找Java位置&quot; 刷新Java列表。</Item>
-			<Item Key="Setting_Java_JVM16_Installing_Failed">BakaXL 无法自动安装 Java 16。&#xD;&#xA;这可能是由于下载源提供的文件受损或互联网连接中断。</Item>
+			<Item Key="Setting_Java_JVM16_Installing_Successful">BakaXL successful install Java 16.&#xD;&#xA;Choose &quot;Java Advance Setting - Auto search Java path&quot; Refresh Java list.</Item>
+			<Item Key="Setting_Java_JVM16_Installing_Failed">BakaXL failed install Java 16.&#xD;&#xA;Maybe Download source network error or Internet disconnected.</Item>
 
-			<Item Key="Setting_Java_JVM16_InstallProgress_Preparing">准备安装 Java 16</Item>
-			<Item Key="Setting_Java_JVM16_InstallProgress_FetchingFileList">获取 Java 16 ({0} 位) 的文件列表</Item>
-			<Item Key="Setting_Java_JVM16_InstallProgress_Downloading">正在下载 Java 16 ({0} 位) </Item>
-			<Item Key="Setting_Java_JVM16_InstallProgress_Finalizing">即将完成安装…</Item>
+			<Item Key="Setting_Java_JVM16_InstallProgress_Preparing">Ready install Java 16</Item>
+			<Item Key="Setting_Java_JVM16_InstallProgress_FetchingFileList">Fetching Java 16 ({0} bit) file list</Item>
+			<Item Key="Setting_Java_JVM16_InstallProgress_Downloading">Downloading Java 16 ({0} bit) </Item>
+			<Item Key="Setting_Java_JVM16_InstallProgress_Finalizing">Finalizing...</Item>
 
-			<Item Key="Setting_Java_Memory_Title">内存设置</Item>
+			<Item Key="Setting_Java_Memory_Title">Java Memory Setting</Item>
 
-			<Item Key="Setting_Java_Memory">内存</Item>
-			<Item Key="Setting_Java_Memory_Installed">已安装 {0} GB</Item>
-			<Item Key="Setting_Java_Memory_Used">计算机已使用</Item>
-			<Item Key="Setting_Java_Memory_MinecraftUsed">Minecraft将使用其中的</Item>
+			<Item Key="Setting_Java_Memory">Memory</Item>
+			<Item Key="Setting_Java_Memory_Installed">Installed {0} GB</Item>
+			<Item Key="Setting_Java_Memory_Used">Memory used</Item>
+			<Item Key="Setting_Java_Memory_MinecraftUsed">Minecraft will used</Item>
 
-			<Item Key="Setting_Java_Memory_AutoMemory">自动设置内存</Item>
-			<Item Key="Setting_Java_Memory_AdvanceMemory">内存高级设置</Item>
-			<Item Key="Setting_Java_Memory_AdvanceMemory_Tips">BakaXL在通常情况下会根据您当前计算机的配置自动分配内存。&#xD;&#xA;如果您不了解此选项的作用，我们建议您不要修改此选项的值。</Item>
-			<Item Key="Setting_Java_Memory_AdvanceMemory_ForceRelease">强制释放内存</Item>
-			<Item Key="Setting_Java_Memory_AdvanceMemory_ForceRelease_Tips">不建议使用，BakaXL可尝试立即强制释放以增加可用内存。</Item>
-			<Item Key="Setting_Java_Memory_AdvanceMemory_ManualMemory">手动指定内存大小</Item>
-			<Item Key="Setting_Java_Memory_AdvanceMemory_ManualMemory_AutoMode_Tips">若要手动指定内存大小，则需要关闭“自动内存设置”功能。</Item>
-			<Item Key="Setting_Java_Memory_AdvanceMemory_ManualMemory_Tips">手动分配您希望Minecraft所使用的内存大小。</Item>
+			<Item Key="Setting_Java_Memory_AutoMemory">Auto set memory</Item>
+			<Item Key="Setting_Java_Memory_AdvanceMemory">Memory advance setting</Item>
+			<Item Key="Setting_Java_Memory_AdvanceMemory_Tips">BakaXL usually according to computer status set game memory.&#xD;&#xA;If you don't what are you doing,please don't touch anything.</Item>
+			<Item Key="Setting_Java_Memory_AdvanceMemory_ForceRelease">Force release memory</Item>
+			<Item Key="Setting_Java_Memory_AdvanceMemory_ForceRelease_Tips">Deprecated,BakaXL will try release idle memory.</Item>
+			<Item Key="Setting_Java_Memory_AdvanceMemory_ManualMemory">Manual set memory.</Item>
+			<Item Key="Setting_Java_Memory_AdvanceMemory_ManualMemory_AutoMode_Tips">If you want use "Manual set memory",you must shutdown Auto set memory features.</Item>
+			<Item Key="Setting_Java_Memory_AdvanceMemory_ManualMemory_Tips">Manual set Minecraft use memory.</Item>
 
 			<Item Key="Setting_Language_DisplayLanguage">显示语言 / Display Language</Item>
 			<Item Key="Setting_Language_Translator">翻译官 / Translator</Item>
 			<Item Key="Setting_Language_TranslateProject">BakaXL 异域计划 / BakaXL Localization Project</Item>
 			<Item Key="Setting_Language_TranslationTools">本地化实用工具 / Localization Utilities</Item>
 
-			<Item Key="Setting_Language_Selector_Watermark">选择您所在区域的使用语言</Item>
-			<Item Key="Setting_Language_Selector_Tips">BakaXL可以支持全球多个国家和地区所偏好使用的语言。&#xD;&#xA;而这全都要归功于来自全球各地的BakaXL用户。&#xD;&#xA;在翻译文本经过测试前，无法使用。</Item>
+			<Item Key="Setting_Language_Selector_Watermark">Select your language</Item>
+			<Item Key="Setting_Language_Selector_Tips">BakaXL support many country/area user language.&#xD;&#xA;Thanks to BakaXL users from all over the world&#xD;&#xA;The translator language must tested can use.</Item>
 
-			<Item Key="Setting_Language_JoinLocalization">访问本地化项目主页</Item>
-			<Item Key="Setting_Language_JoinLocalization_Tips">前往BakaXL 异域计划主页，获取最新文本词条，参与翻译官工作。</Item>
+			<Item Key="Setting_Language_JoinLocalization">Join Localization Project,become BakaXL translator.</Item>
+			<Item Key="Setting_Language_JoinLocalization_Tips">View BakaXL Localization Project homepage,get latest entry,become translator.</Item>
 
-			<Item Key="Setting_Language_Utilities_Debugger_Title">临时挂载本地化文本</Item>
-			<Item Key="Setting_Language_Utilities_Debugger_Tips">在本次运行期间将显示语言替换为外部文件所指定的本地化文本。&#xD;&#xA;这将有助于翻译官对翻译文本进行调试。&#xD;&#xA;&#xD;&#xA;若您不知道此选项的作用，请不要使用。</Item>
-			<Item Key="Setting_Language_Utilities_Debugger_Browser_Title">选择一个BakaXL语言文件</Item>
-			<Item Key="Setting_Language_Utilities_Debugger_Browser_Filter">BakaXL语言文件</Item>
+			<Item Key="Setting_Language_Utilities_Debugger_Title">Mount debug localization file</Item>
+			<Item Key="Setting_Language_Utilities_Debugger_Tips">Temporarily use external files to change languages.&#xD;&#xA;This features is help translator debug XML&#xD;&#xA;&#xD;&#xA;If you don't what are you doing,please don't touch anything.</Item>
+			<Item Key="Setting_Language_Utilities_Debugger_Browser_Title">Choose a BakaXL language file.</Item>
+			<Item Key="Setting_Language_Utilities_Debugger_Browser_Filter">BakaXL language file</Item>
 
-			<Item Key="Setting_Network_Connected">已连接</Item>
-			<Item Key="Setting_Network_Error">连接错误</Item>
-			<Item Key="Setting_Network_MojangError">服务中断</Item>
-			<Item Key="Setting_Network_Maintenance">服务维护</Item>
-			<Item Key="Setting_Network_Timeout">连接超时</Item>
-			<Item Key="Setting_Network_ConnectedWithError">已连接，一个错误</Item>
+			<Item Key="Setting_Network_Connected">Connected</Item>
+			<Item Key="Setting_Network_Error">Connect Error</Item>
+			<Item Key="Setting_Network_MojangError">Service Error</Item>
+			<Item Key="Setting_Network_Maintenance">Service Maintenance</Item>
+			<Item Key="Setting_Network_Timeout">Connect Timeout</Item>
+			<Item Key="Setting_Network_ConnectedWithError">Connected,have a error</Item>
 
-			<Item Key="Setting_Network_InternetStatus_Title">互联网状态</Item>
-			<Item Key="Setting_Network_InternetStatus_Connected">BakaXL已连接至互联网。</Item>
-			<Item Key="Setting_Network_InternetStatus_Disconnected">BakaXL未连接至互联网。</Item>
+			<Item Key="Setting_Network_InternetStatus_Title">Internet Status</Item>
+			<Item Key="Setting_Network_InternetStatus_Connected">BakaXL Connect to Internet</Item>
+			<Item Key="Setting_Network_InternetStatus_Disconnected">BakaXL Offline</Item>
 
-			<Item Key="Setting_Network_BakaServiceStatus_Title">BakaXL服务器状态</Item>
-			<Item Key="Setting_Network_BakaServiceStatus_Plaza_API">BakaXL笨蛋广场(API):</Item>
-			<Item Key="Setting_Network_BakaServiceStatus_Plaza_Qiniu">BakaXL笨蛋广场(七牛云):</Item>
+			<Item Key="Setting_Network_BakaServiceStatus_Title">BakaXL Service Status</Item>
+			<Item Key="Setting_Network_BakaServiceStatus_Plaza_API">BakaXL Plaze(API):</Item>
+			<Item Key="Setting_Network_BakaServiceStatus_Plaza_Qiniu">BakaXL Plaze(CDN):</Item>
 
-			<Item Key="Setting_Network_BakaServiceStatus_Third_Party_Title">第三方服务提供商</Item>
-			<Item Key="Setting_Network_BakaServiceStatus_Third_Party_CurseForgeApi">CurseForge第三方API:</Item>
+			<Item Key="Setting_Network_BakaServiceStatus_Third_Party_Title">Third Party Service</Item>
+			<Item Key="Setting_Network_BakaServiceStatus_Third_Party_CurseForgeApi">CurseForge API:</Item>
 			<Item Key="Setting_Network_BakaServiceStatus_Third_Party_CurseForgeCDN">CurseForge CDN:</Item>
-			<Item Key="Setting_Network_BakaServiceStatus_Third_Party_MCBBS">MCBBS下载源:</Item>
+			<Item Key="Setting_Network_BakaServiceStatus_Third_Party_MCBBS">MCBBS CDN:</Item>
 
-			<Item Key="Setting_Network_MojangServiceStatus_Title">Mojang服务器状态</Item>
-			<Item Key="Setting_Network_MojangServiceStatus_MainServer">Mojang状态服务:</Item>
-			<Item Key="Setting_Network_MojangServiceStatus_MinecraftSite">Minecraft官网</Item>
-			<Item Key="Setting_Network_MojangServiceStatus_MinecraftSession_Old">Minecraft多人联机会话服务(旧版本)</Item>
-			<Item Key="Setting_Network_MojangServiceStatus_MinecraftSession">Minecraft多人联机会话服务</Item>
-			<Item Key="Setting_Network_MojangServiceStatus_MojangAccount">Mojang账户服务</Item>
-			<Item Key="Setting_Network_MojangServiceStatus_MinecraftAuth">Minecraft正版验证服务</Item>
-			<Item Key="Setting_Network_MojangServiceStatus_MojangAPI">Mojang API服务</Item>
-			<Item Key="Setting_Network_MojangServiceStatus_MinecraftSkins">Minecraft皮肤服务</Item>
-			<Item Key="Setting_Network_MojangServiceStatus_MojangSite">Mojang官网</Item>
-                        <Item Key="Setting_Network_MojangServiceStatus_MicrosoftLive">微软登录服务</Item>
-			<Item Key="Setting_Network_MojangServiceStatus_MicrosoftXBOXLive">XBOX登录服务</Item>
+			<Item Key="Setting_Network_MojangServiceStatus_Title">Mojang Service Status</Item>
+			<Item Key="Setting_Network_MojangServiceStatus_MainServer">Mojang Server Status:</Item>
+			<Item Key="Setting_Network_MojangServiceStatus_MinecraftSite">Minecraft Official</Item>
+			<Item Key="Setting_Network_MojangServiceStatus_MinecraftSession_Old">Minecraft Multiplayer Session(Old Version)</Item>
+			<Item Key="Setting_Network_MojangServiceStatus_MinecraftSession">Minecraft Multiplayer Session</Item>
+			<Item Key="Setting_Network_MojangServiceStatus_MojangAccount">Mojang Account Service</Item>
+			<Item Key="Setting_Network_MojangServiceStatus_MinecraftAuth">Minecraft Authenticate Service</Item>
+			<Item Key="Setting_Network_MojangServiceStatus_MojangAPI">Mojang API Service</Item>
+			<Item Key="Setting_Network_MojangServiceStatus_MinecraftSkins">Minecraft Skins Service</Item>
+			<Item Key="Setting_Network_MojangServiceStatus_MojangSite">Mojang Site</Item>
+                        <Item Key="Setting_Network_MojangServiceStatus_MicrosoftLive">Microsoft Login Service</Item>
+			<Item Key="Setting_Network_MojangServiceStatus_MicrosoftXBOXLive">XBOX Login Service</Item>
 
-			<Item Key="Setting_Network_Environment_Ping">网络环境</Item>
-			<Item Key="Setting_Network_Environment_Ping_ms_Title">与服务器的延迟:</Item>
-			<Item Key="Setting_Network_Environment_Ping_ms">毫秒</Item>
-			<Item Key="Setting_Network_Environment_Ping_Package">丢包率:</Item>
+			<Item Key="Setting_Network_Environment_Ping">Network Status</Item>
+			<Item Key="Setting_Network_Environment_Ping_ms_Title">Connect to Server Ping:</Item>
+			<Item Key="Setting_Network_Environment_Ping_ms">ms</Item>
+			<Item Key="Setting_Network_Environment_Ping_Package">Loss:</Item>
 
-			<Item Key="Setting_Network_Environment_Retest">重新检测</Item>
+			<Item Key="Setting_Network_Environment_Retest">Retest</Item>
 
-			<Item Key="Setting_Network_Troubleshooting">网络连接疑难解答</Item>
-			<Item Key="Setting_Network_Troubleshooting_Tips">若您无法正常连接到Mojang正版验证服务器，&#xD;&#xA;尝试更换一个稳定且不易受污染的DNS服务器通常能解决此问题。&#xA;&#xD;&#xA;若此问题持续出现，请联系您的互联网服务提供商(ISP)，&#xD;&#xA;并确保您的互联网并未遭到劫持。</Item>
+			<Item Key="Setting_Network_Troubleshooting">Troubleshooting Network</Item>
+			<Item Key="Setting_Network_Troubleshooting_Tips">If you can't connect to Mojang Authenticate Server,&#xD;&#xA;Usually try change to a clear DNS can solve it.&#xA;&#xD;&#xA;If this question always appear please contact your ISP.&#xD;&#xA;Make sure your Internet is not hijacked.</Item>
 
-			<Item Key="Setting_Advance_AdvLaunch_Title">高级启动</Item>
-			<Item Key="Setting_Advance_AdvLaunch_Warn_1">如果您不确定这些选项的作用，请不要改动这些设置。</Item>
-			<Item Key="Setting_Advance_AdvLaunch_Warn_SettingMoved">部分设置已经移动至高级核心设置内，点击此处前往。</Item>
-			<Item Key="Setting_Advance_AdvLaunch_MinecraftTitle">Minecraft窗口标题</Item>
-			<Item Key="Setting_Advance_AdvLaunch_MinecraftTitle_Tips">设置由BakaXL启动的Minecraft窗体标题。&#xD;&#xA;可在标题中使用参数来显示动态内容。&#xD;&#xA;{time}: 显示当前系统时间。</Item>
-			<Item Key="Setting_Advance_AdvLaunch_Args">高级启动参数</Item>
-			<Item Key="Setting_Advance_AdvLaunch_Args_Tips">设置Minecraft的高级启动参数。&#xD;&#xA;仅在有特殊需要时使用，需要正确填写参数。&#xD;&#xA;普通玩家无需使用此功能，建议留空。</Item>
-			<Item Key="Setting_Advance_AdvLaunch_AutoJoin">启动游戏后自动加入服务器</Item>
-			<Item Key="Setting_Advance_AdvLaunch_AutoJoin_IPBox">输入服务器地址</Item>
-			<Item Key="Setting_Advance_AdvLaunch_AutoJoin_Tips">在Minecraft启动并加载完成后自动加入服务器。</Item>
-			<Item Key="Setting_Advance_AdvLaunch_CheckVersionFolder">预检查游戏核心目录是否存在</Item>
-			<Item Key="Setting_Advance_AdvLaunch_CheckVersionFolder_Tips">在启动游戏前对 .minecraft/versions/&lt;游戏核心&gt; 目录&#xD;&#xA;进行检查，并在无法确认此文件夹存在时取消启动。&#xD;&#xA;&#xD;&#xA;若核心目录存在也无法检测到的极端情况出现时，请关闭此功能。&#xD;&#xA;关闭后，BakaXL将会在无法确认文件夹存在时尝试继续启动，&#xD;&#xA;直至下一次确认核心文件夹的存在。&#xD;&#xA;&#xD;&#xA;可能导致BakaXL在启动游戏时出现异常，甚至是崩溃。&#xD;&#xA;此设置并不会全局同步至计算机中其他BakaXL。</Item>
+			<Item Key="Setting_Advance_AdvLaunch_Title">Advance Launch Setting</Item>
+			<Item Key="Setting_Advance_AdvLaunch_Warn_1">If you don't what are you doing,please don't touch anything.</Item>
+			<Item Key="Setting_Advance_AdvLaunch_Warn_SettingMoved">Some settings move to advance core setting,click here enter core setting.</Item>
+			<Item Key="Setting_Advance_AdvLaunch_MinecraftTitle">Minecraft Title</Item>
+			<Item Key="Setting_Advance_AdvLaunch_MinecraftTitle_Tips">Set Minecraft Title started by BakaXL.&#xD;&#xA;The title allow some parameter to show dynamic content&#xD;&#xA;{time}: Show system time</Item>
+			<Item Key="Setting_Advance_AdvLaunch_Args">Advance Launch Parameter</Item>
+			<Item Key="Setting_Advance_AdvLaunch_Args_Tips">Set Java Launch Parameter&#xD;&#xA;For special use only.&#xD;&#xA;If you don't what are you doing,please don't touch anything.</Item>
+			<Item Key="Setting_Advance_AdvLaunch_AutoJoin">Auto Join Game Serber</Item>
+			<Item Key="Setting_Advance_AdvLaunch_AutoJoin_IPBox">Input server address.</Item>
+			<Item Key="Setting_Advance_AdvLaunch_AutoJoin_Tips">Auto join server after Minecraft loading successfully.</Item>
+			<Item Key="Setting_Advance_AdvLaunch_CheckVersionFolder">Check game core folder.</Item>
+			<Item Key="Setting_Advance_AdvLaunch_CheckVersionFolder_Tips">Check .minecraft/version/&lt;Game Core&gt; folder in before start,and cancel start when folder non-existent. &#xD;&#xA;&#xD;&#xA;If wrong judgment folder non-existent please disable this features.&#xD;&#xA;After disabling，BakaXL will try force start game,&#xD;&#xA;Until confirm the folder exists&#xD;&#xA;&#xD;&#xA;Disable it may cause BakaXL start game abnormal or crash.&#xD;&#xA;This setting will not sync to other folder's BakaXL</Item>
 
-			<Item Key="Setting_Advance_AdvLaunch_GCMethod">自定义Java回收器</Item>
-			<Item Key="Setting_Advance_AdvLaunch_GCMethod_Tips">设置在使用Java 9或更高级版本Java时使用的垃圾回收器(GC)。&#xD;&#xA;如果你的Java版本低于Java 9，则此选项不起作用。&#xD;&#xA;&#xD;&#xA;&quot;Z回收器(ZGC)&quot;仅可以Java 11或更高级版本使用，在错误的&#xD;&#xA;Java版本中使用此回收器将导致无法启动游戏。&#xD;&#xA;&#xD;&#xA;如果你不知道这是做什么的，请选择 &quot;默认&quot;。</Item>
+			<Item Key="Setting_Advance_AdvLaunch_GCMethod">Custom Java GC Method</Item>
+			<Item Key="Setting_Advance_AdvLaunch_GCMethod_Tips">Set Java 9&amp;higher version Java use GC Method.&#xD;&#xA;If your Java version lower 9,it doetn't work.&#xD;&#xA;&#xD;&#xA;Only higher than Java 11 version can use &quot;ZGC&quot;,在错误的&#xD;&#xA;Java版本中使用此回收器将导致无法启动游戏。&#xD;&#xA;&#xD;&#xA;如果你不知道这是做什么的，请选择 &quot;默认&quot;。</Item>
 			
-			<Item Key="Setting_Advance_GameResolution_Title">Minecraft窗体大小</Item>
+			<Item Key="Setting_Advance_GameResolution_Title">Minecraft Windows Resolution</Item>
 			<Item Key="Setting_Advance_GameResolution_SelectWindowSize">选择窗体大小</Item>
 			<Item Key="Setting_Advance_GameResolution_Wdith">窗体宽度</Item>
 			<Item Key="Setting_Advance_GameResolution_Height">窗体高度</Item>
