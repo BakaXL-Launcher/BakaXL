@@ -911,7 +911,7 @@
 			<Item Key="Setting_Advance_AdvLaunch_CheckVersionFolder_Tips">Check .minecraft/version/&lt;Game Core&gt; folder in before start,and cancel start when folder non-existent. &#xD;&#xA;&#xD;&#xA;If wrong judgment folder non-existent please disable this features.&#xD;&#xA;After disabling，BakaXL will try force start game,&#xD;&#xA;Until confirm the folder exists&#xD;&#xA;&#xD;&#xA;Disable it may cause BakaXL start game abnormal or crash.&#xD;&#xA;This setting will not sync to other folder's BakaXL</Item>
 
 			<Item Key="Setting_Advance_AdvLaunch_GCMethod">Custom Java GC Method</Item>
-			<Item Key="Setting_Advance_AdvLaunch_GCMethod_Tips">Set Java 9&amp;higher version Java use GC Method.&#xD;&#xA;If your Java version lower 9,it doetn't work.&#xD;&#xA;&#xD;&#xA;Only higher than Java 11 version can use &quot;ZGC&quot;,在错误的&#xD;&#xA;Java版本中使用此回收器将导致无法启动游戏。&#xD;&#xA;&#xD;&#xA;如果你不知道这是做什么的，请选择 &quot;默认&quot;。</Item>
+			<Item Key="Setting_Advance_AdvLaunch_GCMethod_Tips">Set Java 9&amp;higher version Java use GC Method.&#xD;&#xA;If your Java version lower 9,it doetn't work.&#xD;&#xA;&#xD;&#xA;Only higher than Java 11 version can use &quot;ZGC&quot;&#xD;&#xA;Using &quot;ZGC&quot; in the wrong Java version will game crash&#xD;&#xA;&#xD;&#xA;If you don't what's this，please choose &quot;Default&quot;。</Item>
 			
 			<Item Key="Setting_Advance_GameResolution_Title">Minecraft Windows Resolution</Item>
 			<Item Key="Setting_Advance_GameResolution_SelectWindowSize">选择窗体大小</Item>
