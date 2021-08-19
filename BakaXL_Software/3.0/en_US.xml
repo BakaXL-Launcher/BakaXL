@@ -914,10 +914,10 @@
 			<Item Key="Setting_Advance_AdvLaunch_GCMethod_Tips">Set Java 9&amp;higher version Java use GC Method.&#xD;&#xA;If your Java version lower 9,it doetn't work.&#xD;&#xA;&#xD;&#xA;Only higher than Java 11 version can use &quot;ZGC&quot;&#xD;&#xA;Using &quot;ZGC&quot; in the wrong Java version will game crash&#xD;&#xA;&#xD;&#xA;If you don't what's this，please choose &quot;Default&quot;。</Item>
 			
 			<Item Key="Setting_Advance_GameResolution_Title">Minecraft Windows Resolution</Item>
-			<Item Key="Setting_Advance_GameResolution_SelectWindowSize">选择窗体大小</Item>
-			<Item Key="Setting_Advance_GameResolution_Wdith">窗体宽度</Item>
-			<Item Key="Setting_Advance_GameResolution_Height">窗体高度</Item>
-			<Item Key="Setting_Advance_GameResolution_Tips">设置Minecraft在启动后窗体的大小。&#xD;&#xA;BakaXL已为您列出部分常用的窗体大小。&#xD;&#xA;选择“自定义”可以手动设置窗体大小。</Item>
+			<Item Key="Setting_Advance_GameResolution_SelectWindowSize">Select Window Size</Item>
+			<Item Key="Setting_Advance_GameResolution_Wdith">Wdith</Item>
+			<Item Key="Setting_Advance_GameResolution_Height">Height</Item>
+			<Item Key="Setting_Advance_GameResolution_Tips">Set Minecraft Window Size&#xD;&#xA;Bakaxl has listed some common resolution for you&#xD;&#xA;Choose "Custom" option to custom resolution</Item>
 
 			<Item Key="Setting_Advance_AutoFix_Title">自动补全</Item>
 			<Item Key="Setting_Advance_AutoFix_Btn_Title">自动补全资源文件</Item>
