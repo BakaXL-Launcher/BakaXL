@@ -16,7 +16,7 @@
 			<Item Key="LoadingPlugins">Plugin</Item>
 
 			<Item Key="Window_ReportIssue_Title">Report</Item>
-			<Item Key="Window_ReportIssue_Tips">Join BakaXL Offical Fourm to Report Issues</Item>
+			<Item Key="Window_ReportIssue_Tips">Join BakaXL Offical Forum to Report Issues</Item>
 
 			<Item Key="Window_GetHelp_Title">Get Helped</Item>
 			<Item Key="Window_GetHelp_Tips">Check Our Support Website to Get Help!</Item>
@@ -56,41 +56,41 @@
 			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_CheckAssets">Checking Minecraft Assets</Item>
 			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_DownloadAssets">Downloading Minecraft Assets</Item>
 			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_GenParameter">Generateing Parameters</Item>
-			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_CheckAuthlib">正在检查Authlib-Injector</Item>
-			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_CheckAuthlib_GetInfo">正在获取Authlib-Injector下载信息</Item>
-			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_CheckAuthlib_Download">正在下载Authlib-Injector</Item>
-			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_CheckPlugin">正在执行BakaXL插件定义的操作</Item>
+			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_CheckAuthlib">Checking Authlib-Injector</Item>
+			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_CheckAuthlib_GetInfo">Getting Authlib-Injector Download</Item>
+			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_CheckAuthlib_Download">Downloading Authlib-Injector</Item>
+			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_CheckPlugin">Running actions defined by BakaXL Plugins </Item>
 
-			<Item Key="LaunchBar_LaunchBtn_Launching_Environment_JavaNotExist">Java路径已变动，正在重新定位</Item>
-			<Item Key="LaunchBar_LaunchBtn_Launching_Environment_NewJavaFound">BakaXL将使用新的Java路径启动Minecraft</Item>
+			<Item Key="LaunchBar_LaunchBtn_Launching_Environment_JavaNotExist">Java Path changed, researching...</Item>
+			<Item Key="LaunchBar_LaunchBtn_Launching_Environment_NewJavaFound">BakaXL will use the new Java Path to run Minecraft. </Item>
 			
-			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_CheckEnvironment">发射模式: 检查和补全Minecraft环境</Item>
+			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_CheckEnvironment">Launch Mode: Checking and completing Minecraft Environment</Item>
 
 			<Item Key="LaunchBar_LaunchBtn_Launched_Title">Launched</Item>
 			<Item Key="LaunchBar_LaunchBtn_Launched_Tips">&lt;Running...&gt;</Item>
 
-			<Item Key="LaunchBar_ToolTip_DownloadLib">正在下载Minecraft支持库&#xD;&#xA;文件名：{0}&#xD;&#xA;路径：{1}</Item>
+			<Item Key="LaunchBar_ToolTip_DownloadLib">Downloading Minecraft libraries&#xD;&#xA;Name: {0}&#xD;&#xA;Path: {1}</Item>
 
 			<Item Key="LaunchBar_Title_Launched">Minecraft Launched With Profile: {0}</Item>
 			<Item Key="LaunchBar_Title_AuthError">Authentication Error: Incorrect Username/Password</Item>
 			<Item Key="LaunchBar_Title_AuthError_Unknown">Authentication Error: Unknown</Item>
-            <Item Key="LaunchBar_Title_AuthError_MojangTokenExpired">验证时出现错误：会话验证信息过期，请在本体设置重新登录此用户档案</Item>
-			<Item Key="LaunchBar_Title_AuthError_AuthlibTokenExpired">验证时出现错误：档案验证信息失效，请重新设置此用户档案</Item>
-			<Item Key="LaunchBar_Title_AuthError_MicrosoftLoginCanceled">验证时出现错误：微软账户登录被用户取消</Item>
-			<Item Key="LaunchBar_Title_EnvironmentError_JavaNotFound">环境检查错误：无法定位Java路径</Item>
-			<Item Key="LaunchBar_Title_GameError_GetAssetsListFailed">资源补全错误：无法从下载源获取Minecraft资源文件列表</Item>
-			<Item Key="LaunchBar_Title_GameError_GetAuthlibFailed">资源补全错误：无法下载Authlib-Injector本体</Item>
-			<Item Key="LaunchBar_Title_LaunchModeError_CheckGameFailed">发射模式错误：检查Minecraft环境出错</Item>
+            <Item Key="LaunchBar_Title_AuthError_MojangTokenExpired">Authentication Error: Expired authentication, please re-login the profile in Settings</Item>
+			<Item Key="LaunchBar_Title_AuthError_AuthlibTokenExpired">Authentication Error: Invalid profile info, please set the profile again</Item>
+			<Item Key="LaunchBar_Title_AuthError_MicrosoftLoginCanceled">Authentication Error: Microsoft account login cancelled by user</Item>
+			<Item Key="LaunchBar_Title_EnvironmentError_JavaNotFound">Environment Check Error: Can't find Java Path</Item>
+			<Item Key="LaunchBar_Title_GameError_GetAssetsListFailed">Resource Complete Error: Can't get Minecraft resources list from download source</Item>
+			<Item Key="LaunchBar_Title_GameError_GetAuthlibFailed">Resource Complete Error: Can't download Authlib-Injector</Item>
+			<Item Key="LaunchBar_Title_LaunchModeError_CheckGameFailed">Launch Mode Error: Check Minecraft environment error</Item>
 
 			<Item Key="UserSelector_Launch_Title">Select a Minecraft Profile</Item>
-			<Item Key="UserSelector_Authlib_SelectProfile">该账户拥有的多个角色，选择一个角色</Item>
+			<Item Key="UserSelector_Authlib_SelectProfile">Choose a Profile</Item>
 			<Item Key="UserSelector_Default_Title">Select a User</Item>
 
-            <Item Key="UserProfile_ToolTip_Offline">用户名：{0} &#xD;&#xA;此用户档案将使用离线验证</Item>
-			<Item Key="UserProfile_ToolTip_Online">用户名：{0} &#xD;&#xA;此用户档案将使用Mojang正版验证</Item>
-			<Item Key="UserProfile_ToolTip_Online_Microsoft">用户名：{0} &#xD;&#xA;此用户档案将使用微软账户正版验证</Item>
-			<Item Key="UserProfile_ToolTip_ThirParty_WithoutName">用户名：{0} &#xD;&#xA;此用户档案将使用第三方账户验证服务器&#xD;&#xA;验证服务器地址：{1}</Item>
-			<Item Key="UserProfile_ToolTip_ThirParty_WithName">用户名：{0} &#xD;&#xA;此用户档案将使用 {1} 提供的账户验证服务器&#xD;&#xA;验证服务器地址：{2}</Item>
+            <Item Key="UserProfile_ToolTip_Offline">Game ID: {0} &#xD;&#xA;\This profile is verifying offline. </Item>
+			<Item Key="UserProfile_ToolTip_Online">Game ID: {0} &#xD;&#xA;This profile is verifying with Mojang. </Item>
+			<Item Key="UserProfile_ToolTip_Online_Microsoft">Game ID: {0} &#xD;&#xA;This profile is verifying with Microsoft Account. </Item>
+			<Item Key="UserProfile_ToolTip_ThirParty_WithoutName">Game ID: {0} &#xD;&#xA;This profile is verifying with a third-party server. &#xD;&#xA;Server address: {1}</Item>
+			<Item Key="UserProfile_ToolTip_ThirParty_WithName">Game ID: {0} &#xD;&#xA;This profile is verifying with the server provided by {1} &#xD;&#xA;Server address: {2}</Item>
 
 			<Item Key="HomeIdentifier_Screen_Home">Home</Item>
 			<Item Key="HomeIdentifier_Screen_Menu">Start Menu</Item>
@@ -105,7 +105,7 @@
 			<Item Key="CoreSelector_Loading_Tips">Loading All The Cores.</Item>
 
 			<Item Key="CoreSelector_DisplayMode_All">All</Item>
-			<Item Key="CoreSelector_DisplayMode_Favorite">我的收藏</Item>
+			<Item Key="CoreSelector_DisplayMode_Favorite">Favourite</Item>
 			<Item Key="CoreSelector_DisplayMode_Vanilla">Vanilla</Item>
 			<Item Key="CoreSelector_DisplayMode_Forge">Forge</Item>
 			<Item Key="CoreSelector_DisplayMode_Fabric">Fabric</Item>
@@ -123,40 +123,40 @@
 			<Item Key="CoreSelector_CoreError_NoJsonFile">Warning - JSON File Not Exist</Item>
 			<Item Key="CoreSelector_CoreError_NotCompatible">Error - Format Not Compatible</Item>
 
-            <Item Key="CoreSelector_GetCore_Title">添加新的 Minecraft 核心 或 整合包</Item>
+            <Item Key="CoreSelector_GetCore_Title">Add new Minecraft Core or pack</Item>
 			
-			<Item Key="CoreManagement_Title">高级核心管理</Item>
-			<Item Key="CoreManagement_Publisher">发行者: {0}</Item>
-			<Item Key="CoreManagement_Publisher_None">尚无发行者</Item>
-			<Item Key="CoreManagement_LastPlayed">最近游玩于 {0}</Item>
-			<Item Key="CoreManagement_LastPlayed_None">尚未运行过</Item>
+			<Item Key="CoreManagement_Title">Advanced Core Management</Item>
+			<Item Key="CoreManagement_Publisher">Publisher: {0}</Item>
+			<Item Key="CoreManagement_Publisher_None">None</Item>
+			<Item Key="CoreManagement_LastPlayed">Recent Played at {0}</Item>
+			<Item Key="CoreManagement_LastPlayed_None">Never</Item>
 			
-			<Item Key="CoreManagement_Tips_Locked_MCVersion">某些选项不可用，因为Minecraft版本过低。</Item>
-			<Item Key="CoreManagement_Tips_Locked_ModPack">某些选项不可用，因为它们由您的整合包提供者管理。</Item>
-			<Item Key="CoreManagement_Tips_Locked_Server">某些选项不可用，因为它们由此整合包对应的服务器管理。</Item>
+			<Item Key="CoreManagement_Tips_Locked_MCVersion">Some options are unavailable, because Minecraft version is too low. </Item>
+			<Item Key="CoreManagement_Tips_Locked_ModPack">Some options are unavailable, because they manage by your pack publisher. </Item>
+			<Item Key="CoreManagement_Tips_Locked_Server">Some options are unavailable, because they manage by the pack's server. </Item>
 			
-			<Item Key="CoreManagement_Tips_Error_Json">此核心所使用的Json文件不是规范的Minecraft游戏核心标识文件。</Item>
-			<Item Key="CoreManagement_Tips_Error_Json_Broken">此核心的Json文件损坏，BakaXL无法读取。</Item>
-			<Item Key="CoreManagement_Tips_Error_Unsupported">此核心使用了其他启动器特有的标识格式，BakaXL无法读取。</Item>
-			<Item Key="CoreManagement_Tips_Error_Jar_Missing">此核心所需的Jar文件不存在。</Item>
-			<Item Key="CoreManagement_Tips_Error_Inherits_Missing">此核心所依赖的Minecraft核心不存在。</Item>
+			<Item Key="CoreManagement_Tips_Error_Json">The Json file of this core isn't a standard one. </Item>
+			<Item Key="CoreManagement_Tips_Error_Json_Broken">The Json file of this core is broken, BakaXL can't read. </Item>
+			<Item Key="CoreManagement_Tips_Error_Unsupported">This core is using a special format by other launchers, BakaXL can't read. </Item>
+			<Item Key="CoreManagement_Tips_Error_Jar_Missing">Jar file of this core missing. </Item>
+			<Item Key="CoreManagement_Tips_Error_Inherits_Missing">Minecraft core missing. </Item>
 			
-			<Item Key="CoreManagement_Tips_Suggest_Reset">此核心需要重置才可以正常使用，前往 &quot;恢复 > 重置此核心&quot;。</Item>
-			<Item Key="CoreManagement_Tips_Suggest_AutoRepare">BakaXL可尝试修复此核心，前往 &quot;恢复 > 自动修复&quot;。</Item>
-			<Item Key="CoreManagement_Tips_Suggest_Shader">若要加载Minecraft光影文件，则可能需要安装 &quot;Optifine&quot;。</Item>
+			<Item Key="CoreManagement_Tips_Suggest_Reset">This core need to restore, go to &quot;Restore > Restore the core&quot;. </Item>
+			<Item Key="CoreManagement_Tips_Suggest_AutoRepare">BakaXL can try to fix the core, go to &quot;Restore > Auto Fix&quot;. </Item>
+			<Item Key="CoreManagement_Tips_Suggest_Shader">If you want to load shaders, you might need to install &quot;Optifine&quot;. </Item>
 			
-			<Item Key="CoreManagement_Tips_Warn_Mod_Unsupported">此核心不支持安装模组(Mods)。</Item>
+			<Item Key="CoreManagement_Tips_Warn_Mod_Unsupported">This core does not support installing Mods. </Item>
 			
-			<Item Key="CoreManagement_Page_Info">信息</Item>
-			<Item Key="CoreManagement_Page_Mod">模组(Mods)</Item>
-			<Item Key="CoreManagement_Page_ResourcePack">资源包</Item>
-			<Item Key="CoreManagement_Page_ShaderPack">光影包</Item>
-			<Item Key="CoreManagement_Page_Config">游戏/模组配置</Item>
-			<Item Key="CoreManagement_Page_Advance">高级启动</Item>
-			<Item Key="CoreManagement_Page_Update">更新</Item>
-			<Item Key="CoreManagement_Page_Restore">恢复 / 删除</Item>
+			<Item Key="CoreManagement_Page_Info">Info</Item>
+			<Item Key="CoreManagement_Page_Mod">Mods</Item>
+			<Item Key="CoreManagement_Page_ResourcePack">Resource Packs</Item>
+			<Item Key="CoreManagement_Page_ShaderPack">Shader Packs</Item>
+			<Item Key="CoreManagement_Page_Config">Game/Mod Config</Item>
+			<Item Key="CoreManagement_Page_Advance">Advanced</Item>
+			<Item Key="CoreManagement_Page_Update">Update</Item>
+			<Item Key="CoreManagement_Page_Restore">Restore / Delete</Item>
 			
-			<Item Key="CoreManagement_Info_Description">简介</Item>
+			<Item Key="CoreManagement_Info_Description">Description</Item>
 			<Item Key="CoreManagement_Info_Description_None">这里空空的，啥介绍都没有。</Item>
 			<Item Key="CoreManagement_Info_PlayTime">游玩时间</Item>
 			<Item Key="CoreManagement_Info_PlayTime_Text">自 {0} 最后一次运行以来，此核心已累计运行 {1} 。</Item>
