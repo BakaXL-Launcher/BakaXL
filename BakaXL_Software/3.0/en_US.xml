@@ -16,7 +16,7 @@
 			<Item Key="LoadingPlugins">Plugin</Item>
 
 			<Item Key="Window_ReportIssue_Title">Report</Item>
-			<Item Key="Window_ReportIssue_Tips">Join BakaXL Official Fourm to Report Issues</Item>
+			<Item Key="Window_ReportIssue_Tips">Join BakaXL Official Forum to Report Issues</Item>
 
 			<Item Key="Window_GetHelp_Title">Get Helped</Item>
 			<Item Key="Window_GetHelp_Tips">Check Our Support Website to Get Help!</Item>
@@ -919,21 +919,21 @@
 			<Item Key="Setting_Advance_GameResolution_Height">Height</Item>
 			<Item Key="Setting_Advance_GameResolution_Tips">Set Minecraft Window Size&#xD;&#xA;Bakaxl has listed some common resolution for you&#xD;&#xA;Choose "Custom" option to custom resolution</Item>
 
-			<Item Key="Setting_Advance_AutoFix_Title">自动补全</Item>
-			<Item Key="Setting_Advance_AutoFix_Btn_Title">自动补全资源文件</Item>
+			<Item Key="Setting_Advance_AutoFix_Title">Auto fix</Item>
+			<Item Key="Setting_Advance_AutoFix_Btn_Title">Auto fix game files.</Item>
 			<Item Key="Setting_Advance_AutoFix_Btn_Tips">在你切换至一个未补全Assets文件的Minecraft版本时提醒你。</Item>
 
 			<Item Key="Setting_Advance_Reset_Title">Reset</Item>
-			<Item Key="Setting_Advance_Reset_Btn_Title">恢复默认设置</Item>
-			<Item Key="Setting_Advance_Reset_Btn_Tips">如果您觉得您搞砸了，可恢复所有高级选项至默认值。</Item>
+			<Item Key="Setting_Advance_Reset_Btn_Title">Reset Settings</Item>
+			<Item Key="Setting_Advance_Reset_Btn_Tips">If you think something was wrong but you forget that,you can try to reset set.</Item>
 
-			<Item Key="Setting_Personalize_Background_Title">BakaXL背景</Item>
-			<Item Key="Setting_Personalize_Background_Browse_Btn">设置背景图片</Item>
-			<Item Key="Setting_Personalize_Background_Default_Btn">恢复默认背景</Item>
-			<Item Key="Setting_Personalize_Background_Clear_Btn">清空背景</Item>
-			<Item Key="Setting_Personalize_Background_Browse_Btn_Tips">设置BakaXL窗体背景显示的图片。&#xD;虽然您的图片不会以任何方式上传，但我们不建议&#xD;您使用任何包含工口元素的图片。</Item>
-			<Item Key="Setting_Personalize_Background_CustomImage_Title">选择您的自定义背景图</Item>
-			<Item Key="Setting_Personalize_Background_CustomImage_Filter">图片格式</Item>
+			<Item Key="Setting_Personalize_Background_Title">BakaXL Background</Item>
+			<Item Key="Setting_Personalize_Background_Browse_Btn">Choose background picture</Item>
+			<Item Key="Setting_Personalize_Background_Default_Btn">Use default background picture</Item>
+			<Item Key="Setting_Personalize_Background_Clear_Btn">Clear background picture</Item>
+			<Item Key="Setting_Personalize_Background_Browse_Btn_Tips">Select BakaXL background picture&#xD;虽然您的图片不会以任何方式上传，但我们不建议&#xD;您使用任何包含工口元素的图片。</Item>
+			<Item Key="Setting_Personalize_Background_CustomImage_Title">Choose your custom picture</Item>
+			<Item Key="Setting_Personalize_Background_CustomImage_Filter">Image format</Item>
 
 			<Item Key="Setting_Personalize_Background_Acrylic">背景虚化</Item>
 			<Item Key="Setting_Personalize_Background_AcrylicType">虚化方式</Item>
