@@ -62,7 +62,7 @@
 			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_CheckPlugin">Running BakaXL Plugin Custom Actions</Item>
 
 			<Item Key="LaunchBar_LaunchBtn_Launching_Environment_JavaNotExist">Java path changed，Repositioning</Item>
-			<Item Key="LaunchBar_LaunchBtn_Launching_Environment_NewJavaFound">BakaXL will start Minecraft with whe new Java path</Item>
+			<Item Key="LaunchBar_LaunchBtn_Launching_Environment_NewJavaFound">BakaXL will start Minecraft with the new Java path</Item>
 			
 			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_CheckEnvironment">Launch Mode: Checking&amp;Fixing Minecraft environment</Item>
 
@@ -74,9 +74,9 @@
 			<Item Key="LaunchBar_Title_Launched">Minecraft Launched With Profile: {0}</Item>
 			<Item Key="LaunchBar_Title_AuthError">Authentication Error: Incorrect Username/Password</Item>
 			<Item Key="LaunchBar_Title_AuthError_Unknown">Authentication Error: Unknown</Item>
-                        <Item Key="LaunchBar_Title_AuthError_MojangTokenExpired">Verification Error：Session Validation Information Expired，Please Check Your User Profile in Settings</Item>
-			<Item Key="LaunchBar_Title_AuthError_AuthlibTokenExpired">Verification Error：Failure of Profile Verification Information，Please Reset This User Profile</Item>
-			<Item Key="LaunchBar_Title_AuthError_MicrosoftLoginCanceled">Verification Error：Microsoft Account Login Cancelled By User</Item>
+                        <Item Key="LaunchBar_Title_AuthError_MojangTokenExpired">Authentication Error：Session Validation Information Expired，Please Check Your User Profile in Settings</Item>
+			<Item Key="LaunchBar_Title_AuthError_AuthlibTokenExpired">Authentication Error：Failure of Profile Verification Information，Please Reset This User Profile</Item>
+			<Item Key="LaunchBar_Title_AuthError_MicrosoftLoginCanceled">Authentication Error：Microsoft Account Login Cancelled By User</Item>
 			<Item Key="LaunchBar_Title_EnvironmentError_JavaNotFound">Environment Error：Not Found Java</Item>
 			<Item Key="LaunchBar_Title_GameError_GetAssetsListFailed">Download Error：Cannot Get Minecraft File List by Source</Item>
 			<Item Key="LaunchBar_Title_GameError_GetAuthlibFailed">Download Error：Cannot Download Authlib-Injector</Item>
