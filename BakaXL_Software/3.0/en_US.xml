@@ -921,7 +921,7 @@
 
 			<Item Key="Setting_Advance_AutoFix_Title">Auto fix</Item>
 			<Item Key="Setting_Advance_AutoFix_Btn_Title">Auto fix game files.</Item>
-			<Item Key="Setting_Advance_AutoFix_Btn_Tips">在你切换至一个未补全Assets文件的Minecraft版本时提醒你。</Item>
+			<Item Key="Setting_Advance_AutoFix_Btn_Tips">If you choose Minecraft core's lack Assets we will remind you.</Item>
 
 			<Item Key="Setting_Advance_Reset_Title">Reset</Item>
 			<Item Key="Setting_Advance_Reset_Btn_Title">Reset Settings</Item>
@@ -931,33 +931,33 @@
 			<Item Key="Setting_Personalize_Background_Browse_Btn">Choose background picture</Item>
 			<Item Key="Setting_Personalize_Background_Default_Btn">Use default background picture</Item>
 			<Item Key="Setting_Personalize_Background_Clear_Btn">Clear background picture</Item>
-			<Item Key="Setting_Personalize_Background_Browse_Btn_Tips">Select BakaXL background picture&#xD;虽然您的图片不会以任何方式上传，但我们不建议&#xD;您使用任何包含工口元素的图片。</Item>
+			<Item Key="Setting_Personalize_Background_Browse_Btn_Tips">Select BakaXL background picture&#xD;Your background not be upload to any where &#xD;But we not suggest you select a R18 picture</Item>
 			<Item Key="Setting_Personalize_Background_CustomImage_Title">Choose your custom picture</Item>
 			<Item Key="Setting_Personalize_Background_CustomImage_Filter">Image format</Item>
 
-			<Item Key="Setting_Personalize_Background_Acrylic">背景虚化</Item>
-			<Item Key="Setting_Personalize_Background_AcrylicType">虚化方式</Item>
-			<Item Key="Setting_Personalize_Background_AcrylicType_Default">亚克力</Item>
-			<Item Key="Setting_Personalize_Background_AcrylicType_Blur">毛玻璃</Item>
-			<Item Key="Setting_Personalize_Background_AcrylicManual">手动设定虚化程度</Item>
-			<Item Key="Setting_Personalize_Background_AcrylicTips">背景虚化效果可让BakaXL虚化背景层的内容，营造舒适且不冲突的&#xD;视觉体验。&#xD;&#xD;使用实况背景或未设置背景时，无法手动调整虚化程度。&#xD;使用亚克力效果需要Windows 10。</Item>
+			<Item Key="Setting_Personalize_Background_Acrylic">Background Effects</Item>
+			<Item Key="Setting_Personalize_Background_AcrylicType">Effect</Item>
+			<Item Key="Setting_Personalize_Background_AcrylicType_Default">Acrylic</Item>
+			<Item Key="Setting_Personalize_Background_AcrylicType_Blur">Blur Glass</Item>
+			<Item Key="Setting_Personalize_Background_AcrylicManual">Effect level</Item>
+			<Item Key="Setting_Personalize_Background_AcrylicTips">The background effect can add blur effect to your background.&#xD;Make a comfortable experience.&#xD;&#xD;Live Background and No Background Mode can't use this function.&#xD;The Acrylic mode need Windows 10.</Item>
 
-			<Item Key="Setting_Personalize_Background_LiveBackground">使用实况背景功能（实验版）</Item>
+			<Item Key="Setting_Personalize_Background_LiveBackground">Live Background [Test]</Item>
 			<Item Key="Setting_Personalize_Background_LiveBackground_Tips">在BakaXL底部绑定额外的叠层以显示高级动态背景。&#xD;通过BakaXL x Wallpaper Engine联动显示动态背景。&#xD;&#xD;该功能在部分分辨率和DPI缩放环境下无法正常工作。&#xD;若未您当前未在使用Wallpaper Engine，则BakaXL将会使用&#xD;你的桌面壁纸。</Item>
 
-			<Item Key="Setting_Personalize_Background_Parallax">背景图片视差</Item>
+			<Item Key="Setting_Personalize_Background_Parallax">Background Parallax</Item>
 			<Item Key="Setting_Personalize_Background_Parallax_Tips">让背景图片跟随鼠标移动，营造视差效果。&#xD;打开此功能时，BakaXL将会稍许放大当前背景图片。&#xD;&#xD;使用实况背景或者默认背景时，无法使用此功能。</Item>
 
-			<Item Key="Setting_Personalize_Color_Title">BakaXL配色方案</Item>
-			<Item Key="Setting_Personalize_Color_Selector">选择一个配色方案</Item>
-			<Item Key="Setting_Personalize_Color_NightMode">反转颜色模式</Item>
+			<Item Key="Setting_Personalize_Color_Title">BakaXL Color</Item>
+			<Item Key="Setting_Personalize_Color_Selector">Select a Color scheme</Item>
+			<Item Key="Setting_Personalize_Color_NightMode">Anti Color</Item>
 			<Item Key="Setting_Personalize_Color_Tips">设置BakaXL窗体和控件所使用的配色方案。</Item>
 
-			<Item Key="Setting_Personalize_Tema_Title">BakaXL主题</Item>
-                        <Item Key="Setting_Personalize_Tema_List">浏览主题列表</Item>
-                        <Item Key="Setting_Personalize_Tema_Folder">主题文件夹</Item>
+			<Item Key="Setting_Personalize_Tema_Title">BakaXL Theme</Item>
+                        <Item Key="Setting_Personalize_Tema_List">View theme list</Item>
+                        <Item Key="Setting_Personalize_Tema_Folder">Theme folder</Item>
 
-			<Item Key="Setting_Accessibility_Info">&quot;辅助功能&quot; 可让您让您根据个人需求自定义BakaXL的功能，&#xD;以满足不同的使用条件。</Item>
+			<Item Key="Setting_Accessibility_Info">&quot;Accessibility&quot; 可让您让您根据个人需求自定义BakaXL的功能，&#xD;以满足不同的使用条件。</Item>
 			<Item Key="Setting_Accessibility_Vision_Title">视觉</Item>
 			<Item Key="Setting_Accessibility_Home_DisplayMode_Btn">主屏幕显示模式</Item>
 			<Item Key="Setting_Accessibility_Home_DisplayMode_Tips">&quot;主屏幕显示模式&quot; 将决定BakaXL的主页面是否展示所有的磁贴和功能。&#xD; · 标准: 主屏幕默认不显示开始菜单和功能磁贴 &#xD; · 传统: 主屏幕将始终显示开始菜单和功能磁贴&#xD;&#xD;使用标准模式时，需要按下空格或鼠标点击主屏幕空白位置向上&#xD;拖拽进入开始菜单。</Item>
@@ -968,55 +968,55 @@
 			<Item Key="Setting_Accessibility_SwitchCore_InteractMode_Btn">快捷切换核心</Item>
 			<Item Key="Setting_Accessibility_SwitchCore_InteractMode_Tips">&quot;快捷切换核心&quot; 可提供在启动条上快捷切换Minecraft核心的操作&#xD; · 标准: 在启动条上不显示额外的切换核心按钮 &#xD; · 传统: 在启动条上单独显示切换核心的按钮 &#xD;&#xD;使用标准模式时，需要通过拖拽&quot;启动游戏&quot;按钮切换核心。</Item>			
 
-			<Item Key="Setting_Audio_BGM_Title">背景音乐</Item>
-			<Item Key="Setting_Audio_BGM_Btn_Title">BakaXL背景音乐</Item>
+			<Item Key="Setting_Audio_BGM_Title">BGM</Item>
+			<Item Key="Setting_Audio_BGM_Btn_Title">BakaXL Background Music</Item>
 			<Item Key="Setting_Audio_BGM_LostFocusBehaviorBtn">失去焦点时自动停止背景音乐</Item>
 			<Item Key="Setting_Audio_BGM_Tips">您当前设置的BakaXL主题会提供用于播放的BakaXL主题背景音乐。&#xD;&#xA;当此选项为关闭时，BakaXL将会关闭所有界面下背景音乐。</Item>
 
-			<Item Key="Setting_Audio_SE_Title">音效</Item>
-			<Item Key="Setting_Audio_SE_Btn_Title">BakaXL音效</Item>
+			<Item Key="Setting_Audio_SE_Title">Sound Effect</Item>
+			<Item Key="Setting_Audio_SE_Btn_Title">BakaXL Sound Effect</Item>
 			<Item Key="Setting_Audio_SE_Btn_Tips">若您当前使用的主题包含音效包，则BakaXL会使用这些音效。&#xD;&#xA;当此选项为关闭时，BakaXL将会关闭所有界面下的音效。</Item>
 
-			<Item Key="Setting_Audio_EarProtection_Title">听力保护</Item>
+			<Item Key="Setting_Audio_EarProtection_Title">Ear Protection</Item>
 			<Item Key="Setting_Audio_EarProtection_Btn_Title">降低使用耳机时的音量</Item>
 			<Item Key="Setting_Audio_EarProtection_Btn_Tips">当此选项为开启时，BakaXL将会降低所有音频控件的输出音量。&#xD;&#xA;若BakaXL的音量即使在调整至最大时依旧很小声，可关闭此选项。&#xD;&#xA;&#xD;&#xA;在使用耳机时，请避免使用大音量聆听，过大的音量会导致听力变差。&#xD;&#xA;在您使用耳机时请将音量调整至可透过耳机听见周围声音的大小。</Item>
 
-			<Item Key="Setting_Audio_AutoControl_Behavior_Auto">自动</Item>
-			<Item Key="Setting_Audio_AutoControl_Behavior_Mute">静音</Item>
-			<Item Key="Setting_Audio_AutoControl_Behavior_Low">降低音量</Item>
+			<Item Key="Setting_Audio_AutoControl_Behavior_Auto">Auto</Item>
+			<Item Key="Setting_Audio_AutoControl_Behavior_Mute">Mute</Item>
+			<Item Key="Setting_Audio_AutoControl_Behavior_Low">Low pitch</Item>
 
-			<Item Key="Setting_Audio_AutoControl_Title">自动音量控制</Item>
+			<Item Key="Setting_Audio_AutoControl_Title">Auto Control Volume</Item>
 			<Item Key="Setting_Audio_AutoControl_MainBtn_Title">自动侦测音频播放软件</Item>
 			<Item Key="Setting_Audio_AutoControl_BehaviorBtn_Title">音量控制行为</Item>
 			<Item Key="Setting_Audio_AutoControl_Tips">BakaXL在启动时会侦测当前计算机中是否有正在运行的音频输出软件。&#xA;（如音乐播放器、语音聊天软件等）&#xA;在有音频播放时，BakaXL将会视情况自动关闭或降低背景音乐的音量。&#xA;若要恢复原先设置的音量大小，只需按住Ctrl并滚动鼠标滚轮。</Item>
 
-			<Item Key="Setting_Download_Source_Title">下载源</Item>
-			<Item Key="Setting_Download_Source_BMCLAPI_Btn_Title">中国大陆地区使用第三方下载源加速</Item>
+			<Item Key="Setting_Download_Source_Title">Download Source</Item>
+			<Item Key="Setting_Download_Source_BMCLAPI_Btn_Title">Use BMCLAPI download(in China)</Item>
 
-			<Item Key="Setting_Download_Source_BMCLAPIMirror_Btn_Title">BMCLAPI镜像服务器</Item>
-			<Item Key="Setting_Download_Source_BMCLAPIMirror_Mirror_Source">传统</Item>
-			<Item Key="Setting_Download_Source_BMCLAPIMirror_Mirror_MCBBS">MCBBS源</Item>
+			<Item Key="Setting_Download_Source_BMCLAPIMirror_Btn_Title">BMCLAPI Mirror Server</Item>
+			<Item Key="Setting_Download_Source_BMCLAPIMirror_Mirror_Source">Soucre</Item>
+			<Item Key="Setting_Download_Source_BMCLAPIMirror_Mirror_MCBBS">MCBBS</Item>
 
 			<Item Key="Setting_Download_Source_BMCLAPI_Tips">使用来自bangbang93的BMCLAPI来为BakaXL的资源下载加速。&#xD;&#xA;若要了解更多有关BMCLAPI的详情，请参阅：&#xD;&#xA;https://bmclapidoc.bangbang93.com/</Item>
 
-			<Item Key="Setting_Download_Advance">高级下载选项</Item>
+			<Item Key="Setting_Download_Advance">Download Advance</Item>
 
-			<Item Key="Setting_Download_Worker_Selector_Title">线程数</Item>
-			<Item Key="Setting_Download_Worker_Type_Normal">普通 (10 个线程 / 重试 2 次)</Item>
-			<Item Key="Setting_Download_Worker_Type_SemiFast">稍快 (50 个线程 / 重试 2 次)</Item>
-			<Item Key="Setting_Download_Worker_Type_Fast">快速 (128 个线程 / 重试 1 次)</Item>
-			<Item Key="Setting_Download_Worker_Type_Extreme">极快 (512 个线程 / 不重试)</Item>
-			<Item Key="Setting_Download_Worker_Type_LaunchMode">发射模式 (2048 个线程 / 不重试)</Item>
+			<Item Key="Setting_Download_Worker_Selector_Title">Threads</Item>
+			<Item Key="Setting_Download_Worker_Type_Normal">Normal (10 Threads / Retry twice)</Item>
+			<Item Key="Setting_Download_Worker_Type_SemiFast">SemiFast (50 Threads / Retry twice)</Item>
+			<Item Key="Setting_Download_Worker_Type_Fast">Fast (128 Threads / Retry once)</Item>
+			<Item Key="Setting_Download_Worker_Type_Extreme">Extreme (512 Threads / Retry disable)</Item>
+			<Item Key="Setting_Download_Worker_Type_LaunchMode">LaunchMode (2048 Threads / Retry disable)</Item>
 			<Item Key="Setting_Download_Worker_Tips">长时间等待BakaXL对Minecraft资源进行补全时，&#xD;&#xA;按照网络和计算机配置修改此选项。&#xD;&#xA;试图在下载失败时重新下载则会消耗更多时间，可尝&#xD;&#xA;试调整BakaXL重新下载的次数。&#xD;&#xA;&#xD;&#xA;使用&quot;发射模式&quot;时，会停止更新下载的状态（例如百分比）。&#xD;&#xA;&#xD;&#xA;并不是在所有情况下都能达到理论速度。(说不定会更慢)&#xD;&#xA;请根据网络与计算机配置酌情选择。</Item>
 
-			<Item Key="Setting_Download_Service_Providor">服务提供者</Item>
+			<Item Key="Setting_Download_Service_Providor">Service Support</Item>
 			<Item Key="Setting_Download_Service_Providor_MCBBS_Tips">BakaXL的部分文件使用了来自 Minecraft(我的世界)中文论坛&#xD;&#xA;所提供文件下载服务。&#xD;&#xA;请参阅：https://www.mcbbs.net/</Item>
 
 			<Item Key="Setting_Plaza_Setting_Title">Plaze Settings</Item>
 			<Item Key="Setting_Plaza_Setting_CellularNetwork">节省数据流量</Item>
 			<Item Key="Setting_Plaza_Setting_CellularNetwork_Tips">在使用计费互联网连接时开启，&#xD;&#xA;开启后，笨蛋广场将在播放前询问您并降低视频播放的清晰度。&#xD;&#xA;并不是所有在笨蛋广场提供的视频都支持降低清晰度播放。</Item>
 
-			<Item Key="Setting_Protocol_Btn_Title">BakaXL协议</Item>
+			<Item Key="Setting_Protocol_Btn_Title">BakaXL Protocol</Item>
 			<Item Key="Setting_Protocol_Btn_Tips">BakaXL协议可以让您通过网站提供的按钮快速启动BakaXL。&#xD;&#xA;根据网站按钮提供的参数，可使BakaXL直接启动特定内建功能。&#xD;&#xA;参阅BakaXL开发人员中心了解如何将您的网站接入BakaXL协议。</Item>
 
 			<Item Key="Setting_Insider_Desc">Introduction</Item>
@@ -1065,22 +1065,22 @@
 			<Item Key="HomeMenu_Confirm">Are you sure to continue?</Item>
 			<Item Key="HomeMenu_Confirm_Tips">Force end the current content may cause the progress rate lost, and this process is irreversible. </Item>
 
-			<Item Key="HomeMenu_Btn_Close">结束并返回BakaXL主界面</Item>
-			<Item Key="HomeMenu_Btn_Confirm">确认结束</Item>
-			<Item Key="HomeMenu_Btn_Closed">已结束</Item>
+			<Item Key="HomeMenu_Btn_Close">Back to BakaXL Homepage</Item>
+			<Item Key="HomeMenu_Btn_Confirm">Confirm</Item>
+			<Item Key="HomeMenu_Btn_Closed">Closed this page</Item>
 
-			<Item Key="IconSelector_DefaultTitle">选择一个图标</Item>
-			<Item Key="IconSelector_BrowseIcon">浏览自定义图标</Item>
-			<Item Key="IconSelector_Default">使用默认图标</Item>
+			<Item Key="IconSelector_DefaultTitle">Select a Icon</Item>
+			<Item Key="IconSelector_BrowseIcon">View custom Icon</Item>
+			<Item Key="IconSelector_Default">Use default Icon</Item>
 
-			<Item Key="IconSelector_Core_SetIcon_Title">为此核心选择一个图标</Item>
+			<Item Key="IconSelector_Core_SetIcon_Title">Select a icon for this core.</Item>
 
-			<Item Key="TextInputer_DefaultTitle">输入内容</Item>
-			<Item Key="TextInputer_Watermark">在这里输入您的内容...</Item>
+			<Item Key="TextInputer_DefaultTitle">Enter text</Item>
+			<Item Key="TextInputer_Watermark">Input something in here...</Item>
 
-			<Item Key="TextInputer_Core_SetName_Title">更改此核心的显示名称</Item>
-			<Item Key="TextInputer_Core_SetPublisher_Title">更改此核心的发行者</Item>
-			<Item Key="TextInputer_Core_SetDesc_Title">更改此核心的简介</Item>
+			<Item Key="TextInputer_Core_SetName_Title">Change this core's name</Item>
+			<Item Key="TextInputer_Core_SetPublisher_Title">Change this core Publisher.</Item>
+			<Item Key="TextInputer_Core_SetDesc_Title">Change this core's introduction.</Item>
 
 			<Item Key="MessageBox_Launch_CheckOnline">正在检查用户是否可以运行Minecraft……</Item>
                         <Item Key="MessageBox_Launch_CheckThirdParty">请等待我们连接到第三方验证服务器……</Item>
@@ -1215,26 +1215,26 @@
 
 			<Item Key="AddGameCore_DnD_Browse">或点击此区域浏览压缩包</Item>
 
-			<Item Key="Installer_InstallTimer">耗时</Item>
-			<Item Key="Installer_InstallTimer_Pending">等待下载启动</Item>
-			<Item Key="Installer_InstallTimer_Counting">正在计时...</Item>
+			<Item Key="Installer_InstallTimer">Timer</Item>
+			<Item Key="Installer_InstallTimer_Pending">Pending</Item>
+			<Item Key="Installer_InstallTimer_Counting">Counting...</Item>
 
-			<Item Key="Installer_InstallTaskStatus_PrepareInstaller">准备安装 {0} ...</Item>
+			<Item Key="Installer_InstallTaskStatus_PrepareInstaller">Prepare Install {0} ...</Item>
 			
-			<Item Key="Installer_InstallTaskStatus_DownloadMinecraft">正在下载 Minecraft...</Item>
-			<Item Key="Installer_InstallTaskStatus_DownloadForge">正在下载 Forge...</Item>	
-			<Item Key="Installer_InstallTaskStatus_InstallingForge">正在安装 Forge...</Item>
-			<Item Key="Installer_InstallTaskStatus_DownloadFabric">正在获取 Fabric 安装档案...</Item>
-			<Item Key="Installer_InstallTaskStatus_InstallingFabric">正在安装 Fabric...</Item>
-			<Item Key="Installer_InstallTaskStatus_DownloadAssets">正在补全 Assets...</Item>
-			<Item Key="Installer_InstallTaskStatus_UnzipFile">正在解压缩文件...</Item>
+			<Item Key="Installer_InstallTaskStatus_DownloadMinecraft">Download Minecraft...</Item>
+			<Item Key="Installer_InstallTaskStatus_DownloadForge">Download Forge...</Item>	
+			<Item Key="Installer_InstallTaskStatus_InstallingForge">Installing Forge...</Item>
+			<Item Key="Installer_InstallTaskStatus_DownloadFabric">Download Fabric...</Item>
+			<Item Key="Installer_InstallTaskStatus_InstallingFabric">Installing Fabric...</Item>
+			<Item Key="Installer_InstallTaskStatus_DownloadAssets">Fixing Assets...</Item>
+			<Item Key="Installer_InstallTaskStatus_UnzipFile">Unzip...</Item>
 			
-			<Item Key="Installer_InstallTaskStatus_DownloadLibs">正在补全 Libraries...</Item>
+			<Item Key="Installer_InstallTaskStatus_DownloadLibs">Completing Libraries...</Item>
 
-			<Item Key="Installer_InstallTaskStatus_DownloadLibsAndAssets">正在补全 Assets 与 Libraries...</Item>
+			<Item Key="Installer_InstallTaskStatus_DownloadLibsAndAssets">Completing Assets and Libraries...</Item>
 
-			<Item Key="Installer_InstallTaskStatus_Failed">安装失败</Item>
-			<Item Key="Installer_InstallTaskStatus_Successful">安装成功</Item>
+			<Item Key="Installer_InstallTaskStatus_Failed">Install failed</Item>
+			<Item Key="Installer_InstallTaskStatus_Successful">Install successful</Item>
 			
 			<Item Key="Installer_InstallTaskStatus_PrepareInstaller_Tips">BakaXL将要开始安装您所选定的游戏核心。&#xD;&#xA;请稍等片刻，并在此期间不要断开互联网连接或关闭BakaXL。</Item>
 			
@@ -1258,21 +1258,21 @@
 			<Item Key="Installer_InstallTaskStatus_Failed_Tips">请检查您的互联网连接，然后再试一次。&#xD;&#xA;BakaXL已将此错误制作成笨蛋罐头，您可以前往本体设置查看。&#xD;&#xA;点击任意位置即可返回。</Item>
 			<Item Key="Installer_InstallTaskStatus_Successful_Tips">{0} 已成功安装至BakaXL。&#xD;&#xA;您可以在 BakaXL主界面 - 核心管理 中找到它。&#xD;&#xA;点击任意位置即可返回。</Item>
 
-			<Item Key="DangerOperation_Title">注意</Item>
-			<Item Key="DangerOperation_ConfirmBtn_Default">确认进行此操作</Item>
-			<Item Key="DangerOperation_CancelBtn_Default">取消此操作并返回</Item>
+			<Item Key="DangerOperation_Title">Attention</Item>
+			<Item Key="DangerOperation_ConfirmBtn_Default">Confirm</Item>
+			<Item Key="DangerOperation_CancelBtn_Default">Cancel</Item>
 
-			<Item Key="ThemeTitle">个性化设置</Item>
+			<Item Key="ThemeTitle">Theme Settings</Item>
 			<Item Key="ThemeSubtitle">自定义您的BakaXL背景、主题等个性化设置</Item>
-			<Item Key="ThemeDefaultName">默认主题</Item>
-			<Item Key="ThemeDefaultDescription">BakaXL的默认主题，无法被删除或者被替换。</Item>
+			<Item Key="ThemeDefaultName">Default Theme</Item>
+			<Item Key="ThemeDefaultDescription">BakaXL default theme,can't delete or change.</Item>
 			<Item Key="ThemeEmptyDescription">这个作者也是有够懒的，居然啥介绍都没写…</Item>
 			<Item Key="ThemeTipInstall">将BakaXL主题文件拖入至此或放入 [BakaXL\Themes] 文件夹内</Item>
 			<Item Key="ThemeTipInstallTitle">这真是令人感到不愉快</Item>
 			<Item Key="ThemeTipInstallSubtitle">我发誓，这里干净的连个主题都没有，您为何不尝试来添加几个？</Item>
 			<Item Key="ThemeCustomMode">主题自定义模式</Item>
-			<Item Key="ThemeNightMode">夜间模式</Item>
-			<Item Key="ThemeBackground">背景图片</Item>
+			<Item Key="ThemeNightMode">Night Mode</Item>
+			<Item Key="ThemeBackground">Background</Item>
 			<Item Key="ThemeMenuOpenSource">查看主题文件</Item>
 
 			<Item Key="TapToSee">Tap to see</Item>
@@ -1283,31 +1283,31 @@
 			<Item Key="OK">OK</Item>
 			<Item Key="No">No</Item>
 
-			<Item Key="Color_Auto">自动检测</Item>
-			<Item Key="Color_Red">中国红</Item>
-			<Item Key="Color_Green">苦力怕绿</Item>
-			<Item Key="Color_Blue">天依蓝</Item>
-			<Item Key="Color_Purple">基佬紫</Item>
-			<Item Key="Color_Orange">烦人橙</Item>
-			<Item Key="Color_Lime">烂草绿</Item>
-			<Item Key="Color_Emerald">茶婊绿</Item>
-			<Item Key="Color_Teal">蓝翔蓝</Item>
-			<Item Key="Color_Cyan">天空蓝</Item>
-			<Item Key="Color_Cobalt">IE蓝</Item>
-			<Item Key="Color_Indigo">量子紫</Item>
-			<Item Key="Color_Violet">紫罗兰</Item>
-			<Item Key="Color_Pink">樱花色</Item>
-			<Item Key="Color_Magenta">迷の红</Item>
-			<Item Key="Color_Crimson">酒心红</Item>
-			<Item Key="Color_Amber">土狗黄</Item>
-			<Item Key="Color_Yellow">皮卡黄</Item>
-			<Item Key="Color_Brown">翔の色</Item>
-			<Item Key="Color_Olive">橄榄绿</Item>
-			<Item Key="Color_Steel">巨金怪</Item>
-			<Item Key="Color_Mauve">褪色紫</Item>
-			<Item Key="Color_Taupe">雾霾灰</Item>
-			<Item Key="Color_Sienna">木棕色</Item>
-			<Item Key="Color_Gray">沉默灰</Item>
+			<Item Key="Color_Auto">Auto</Item>
+			<Item Key="Color_Red">Red</Item>
+			<Item Key="Color_Green">Green</Item>
+			<Item Key="Color_Blue">Blue</Item>
+			<Item Key="Color_Purple">Purple</Item>
+			<Item Key="Color_Orange">Orange</Item>
+			<Item Key="Color_Lime">Lime</Item>
+			<Item Key="Color_Emerald">Emerald</Item>
+			<Item Key="Color_Teal">Teal</Item>
+			<Item Key="Color_Cyan">Cyan</Item>
+			<Item Key="Color_Cobalt">Cobalt</Item>
+			<Item Key="Color_Indigo">Indigo</Item>
+			<Item Key="Color_Violet">Violet</Item>
+			<Item Key="Color_Pink">Pink</Item>
+			<Item Key="Color_Magenta">Megenta</Item>
+			<Item Key="Color_Crimson">Crimson</Item>
+			<Item Key="Color_Amber">Amber</Item>
+			<Item Key="Color_Yellow">Yellow</Item>
+			<Item Key="Color_Brown">Brown</Item>
+			<Item Key="Color_Olive">Olive</Item>
+			<Item Key="Color_Steel">Steel</Item>
+			<Item Key="Color_Mauve">Mauve</Item>
+			<Item Key="Color_Taupe">Taupe</Item>
+			<Item Key="Color_Sienna">Sienna</Item>
+			<Item Key="Color_Gray">Gray</Item>
 
 			<Item Key="BakaXL.Pages.PageHome">BakaXL Main Page</Item>
 		</Items>
