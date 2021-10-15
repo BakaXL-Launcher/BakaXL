@@ -421,6 +421,9 @@
 
 			<Item Key="Bakaverse_FriendList_Tips">Your friends see your online status and the integration package name you playing. &#xD;&#xA;You can go to the Privacy Settings to modify the options related, or change your online status into &quot;Stealth&quot;。</Item>
 
+            <Item Key="Bakaverse_UserInfo_InviteToLobby">邀请好友加入大厅</Item>
+			<Item Key="Bakaverse_UserInfo_InviteToLobby_Tips">如果您是大厅的创建者，则可以在这里邀请该好友加入至您当前所在的大厅。</Item>
+			
 			<Item Key="Bakaverse_AddFriends_RecivedRequest">Friend requests</Item>
 			<Item Key="Bakaverse_AddFriends_RecivedRequest_BtnTitle">Check the friend requests received</Item>
 			<Item Key="Bakaverse_AddFriends_RecivedRequest_Agree">Agree</Item>
@@ -438,6 +441,68 @@
 			<Item Key="Bakaverse_AddFriends_Btn_Title">Search friends by BakaXL Network ID</Item>
 			<Item Key="Bakaverse_AddFriends_Btn_Tips">Find your friends by using BakaXL online services. </Item>
 			<Item Key="Bakaverse_AddFriends_MinePass_Btn_Title">Add friends by using BakaXL Interlaced Communication</Item>
+
+			<Item Key="Bakaverse_Lobby_Introduction_Title">介绍</Item>
+			<Item Key="Bakaverse_Lobby_Introduction_Content">加入好友的本地局域网游戏，亦或是共享客户端。&#xD;&#xA;请让所有要参与的好友都进入此画面。</Item>
+
+			<Item Key="Bakaverse_Lobby_LAN_Motd_Header">BakaXL 大厅</Item>
+
+			<Item Key="Bakaverse_Lobby_Error_Title">大厅服务异常</Item>
+			<Item Key="Bakaverse_Lobby_Error_Detail_Relogin">请重新登录此BakaXL账户</Item>
+			
+			<Item Key="Bakaverse_Lobby_CreateLobby_Title">创建新大厅</Item>
+			<Item Key="Bakaverse_Lobby_CreateLobby_CustomLobbyID_TextBox_Watermark">自定义大厅编号 (25个字符以内)</Item>
+			<Item Key="Bakaverse_Lobby_CreateLobby_CustomLobbyID_TextBox_Tips">感谢您对 BakaXL 的支持！作为预览体验计划的成员，&#xD;&#xA;您将可以在创建时自定义 BakaXL 大厅的编号！&#xD;&#xA;在使用此功能时，请不要违反BakaXL的使用守则。&#xD;&#xA;滥用此功能将会导致您的预览体验计划身份被取消。</Item>
+			<Item Key="Bakaverse_Lobby_CreateLobby_AllowStrangers_Btn_Title">仅对我的好友开放</Item>
+			<Item Key="Bakaverse_Lobby_CreateLobby_Create_Btn_Title">创建大厅</Item>
+			<Item Key="Bakaverse_Lobby_CreateLobby_Create_Btn_Tips">启动 Minecraft 并在单人游戏中选择 &quot;对局域网开放&quot;，&#xD;&#xA;随后即可创建一个大厅。&#xD;&#xA;若长时间检测失败，尝试以管理员身份运行 BakaXL 后启动 Minecraft。</Item>
+			
+			<Item Key="Bakaverse_Lobby_JoinLobby_Title">加入好友或公开大厅</Item>
+			<Item Key="Bakaverse_Lobby_JoinLobby_LobbyID_TextBox_Watermark">输入要加入的大厅编号 (例如: 01509230)</Item>
+			<Item Key="Bakaverse_Lobby_JoinLobby_Join_Btn_Title">加入大厅</Item>
+			<Item Key="Bakaverse_Lobby_JoinLobby_Join_Btn_Tips">输入好友或他人告知您的大厅编号，即可加入该大厅。&#xD;&#xA;若大厅设置为仅对好友开放，则您必须为创建者的好友才可加入。</Item>
+			
+			<Item Key="Bakaverse_Lobby_FriendInvites_Title">来自好友的邀请</Item>
+			<Item Key="Bakaverse_Lobby_FriendInvites_Tips">若您的好友邀请您加入其所在的大厅，他们将会显示在这里。</Item>
+
+			<Item Key="Bakaverse_Lobby_CrossLauncherPlay_Title">加入第三方启动器的联机平台</Item>
+			<Item Key="Bakaverse_Lobby_CrossLauncherPlay_Tips">若要加入由第三方启动器 (PCL2、HMCL) 创建的联机服务房间，&#xD;&#xA;则您需要先在 BakaXL 笨蛋广场 安装跨启动器联机插件。&#xD;&#xA;&#xD;&#xA;该项服务尚未开放，敬请期待。</Item>
+			
+			<Item Key="Bakaverse_Lobby_LobbyInfo_Title">大厅信息</Item>
+			<Item Key="Bakaverse_Lobby_LobbyInfo_LobbyID_Title">大厅编号</Item>
+			<Item Key="Bakaverse_Lobby_LobbyInfo_LobbyHost_Title">大厅创建者</Item>
+			<Item Key="Bakaverse_Lobby_LobbyInfo_LocalNAT_Title">本地 NAT 类型</Item>
+			<Item Key="Bakaverse_Lobby_LobbyInfo_LocalUPnP_Title">本地 UPnP 兼容性</Item>
+
+			<Item Key="Bakaverse_Lobby_LobbyAction_Title">大厅操作</Item>
+			<Item Key="Bakaverse_Lobby_LobbyAction_AutoAcceptJoin">自动同意加入大厅请求</Item>
+			<Item Key="Bakaverse_Lobby_LobbyAction_AutoAcceptJoin_Tips">介绍自动同意来自其他大厅加入者的加入请求。&#xD;&#xA;这在您打算懒得手动处理互联网朋友的请求时大概很有用吧。&#xD;&#xA;请注意。这将会允许所有知道大厅编号的用户随意加入该大厅。</Item>
+			<Item Key="Bakaverse_Lobby_LobbyAction_AllowRelay">在无法建立直接连接时使用中继连接</Item>
+			<Item Key="Bakaverse_Lobby_LobbyAction_AllowRelay_Tips">当 BakaXL 无法与对方建立直接连接时，&#xD;&#xA;通过 BakaXL Network Relay 中继服务进行连接。&#xD;&#xA;您的网络数据流量将通过受信任的BakaXL服务器进行安全中转。</Item>
+			<Item Key="Bakaverse_Lobby_LobbyAction_LeaveLobby">断开与大厅的连接</Item>
+			<Item Key="Bakaverse_Lobby_LobbyAction_LeaveLobby_Tips">若您当前正在参与 Minecraft 本地局域网联机，&#xD;&#xA;离开该大厅将导致与创建者主机的连接被断开。</Item>
+
+			<Item Key="Bakaverse_Lobby_LobbyJoinRequest_Title">加入大厅请求</Item>
+			<Item Key="Bakaverse_Lobby_LobbyJoinRequest_Tips">若有用户申请加入当前大厅，他们将会显示在这里。</Item>
+
+			<Item Key="Bakaverse_Lobby_OnlineUsers_Title">在线用户列表</Item>
+			<Item Key="Bakaverse_Lobby_OnlineUsers_Tips">选择一个用户，可进一步查看其账户信息，或添加对方为好友。</Item>
+			<Item Key="Bakaverse_Lobby_OnlineUsers_HostKick_Tips">您是大厅创建者，可以通过长按对应用户将其移出此大厅。</Item>
+
+			<Item Key="Bakaverse_Lobby_UserAction_Waiting">待处理</Item>
+
+			<Item Key="Bakaverse_Lobby_UserStatus_Host">大厅创建者</Item>
+			<Item Key="Bakaverse_Lobby_UserStatus_Joined">大厅中</Item>
+			<Item Key="Bakaverse_Lobby_UserStatus_Punching">大厅中 / 正在建立连接</Item>
+			<Item Key="Bakaverse_Lobby_UserStatus_WaitingRelay">大厅中 / 等待中继服务器响应</Item>
+			<Item Key="Bakaverse_Lobby_UserStatus_LeaveMinecraft">大厅中 / 游戏已断开</Item>
+			<Item Key="Bakaverse_Lobby_UserStatus_ConnectionEstablished">大厅中 / 连接已建立</Item>
+			<Item Key="Bakaverse_Lobby_UserStatus_RelayConnectionEstablished">大厅中 / 已通过中继建立连接</Item>
+			<Item Key="Bakaverse_Lobby_UserStatus_NATRestrict">连接失败 / NAT严格</Item>
+			<Item Key="Bakaverse_Lobby_UserStatus_FirewallReject">连接失败 / 防火墙</Item>
+			<Item Key="Bakaverse_Lobby_UserStatus_Unknown">连接失败 / 未知错误</Item>
+
+			<Item Key="Bakaverse_Lobby_CopyLobbyID_Template">我正在 BakaXL 的线上游戏大厅！快在 BakaXL 领域 里输入大厅编号: &lt;{0}&gt; 来加入吧！</Item>
 
 			<Item Key="Bakaverse_Notification_NewFriend_Title">New friend request</Item>
 			<Item Key="Bakaverse_Notification_NewFriend_Desc">Received a friend request from {0} !</Item>
@@ -888,11 +953,43 @@
 			<Item Key="Setting_Network_MojangServiceStatus_MicrosoftXBOXLive">XBOX登录服务</Item>
 
 			<Item Key="Setting_Network_Environment_Ping">网络环境</Item>
+			<Item Key="Setting_Network_Environment_NATType_Title">NAT 类型:</Item>
 			<Item Key="Setting_Network_Environment_Ping_ms_Title">与服务器的延迟:</Item>
 			<Item Key="Setting_Network_Environment_Ping_ms">毫秒</Item>
 			<Item Key="Setting_Network_Environment_Ping_Package">丢包率:</Item>
 
-			<Item Key="Setting_Network_Environment_Retest">重新检测</Item>
+			<Item Key="Setting_Network_Environment_NATType_Unknown">Unknown</Item>
+			<Item Key="Setting_Network_Environment_NATType_Open">Open (Public)</Item>
+			<Item Key="Setting_Network_Environment_NATType_FullCone">Medium (FullCone)</Item>
+			<Item Key="Setting_Network_Environment_NATType_Restrict">Medium (RestrictedCone)</Item>
+			<Item Key="Setting_Network_Environment_NATType_PortRestrict">Medium (PortRestrictedCone)</Item>
+			<Item Key="Setting_Network_Environment_NATType_Symmetric">Strict (Symmetric)</Item>
+			<Item Key="Setting_Network_Environment_NATType_SymmetricFirewall">Strict (Symmetric+Firewall)</Item>
+			<Item Key="Setting_Network_Environment_NATType_Error_DNS">DNS Error</Item>
+			<Item Key="Setting_Network_Environment_NATType_Error_NULL">Can't finish detecting now</Item>
+			<Item Key="Setting_Network_Environment_NATType_Error_RequestFailed">Connection Failed</Item>
+
+			<Item Key="Setting_Network_Environment_NATType_Checking">Detecting...</Item>
+			<Item Key="Setting_Network_Environment_NATType_Checking_Tips">BakaXL will show the result later...</Item>
+
+			<Item Key="Setting_Network_Environment_NATType_Tips_Open">The network environment won't affect the connect experience.&#xD;&#xA;This environment is fit for being the lobby creater.</Item>
+			<Item Key="Setting_Network_Environment_NATType_Tips_MayAffectOnlinePlay">这可能会影响您的联机体验</Item>
+			<Item Key="Setting_Network_Environment_NATType_Tips_MayAffectOnlinePlay_RouterOrFirewall">部分路由器和防火墙设置可能会影响您的联机体验</Item>
+			<Item Key="Setting_Network_Environment_NATType_Tips_MayAffectOnlinePlay_RouterOrFirewall_UPnP">部分路由器和防火墙设置可能会影响您的联机体验&#xD;&#xA;若大厅创建者或您的网络设备支持 UPnP，则将可能有所缓解</Item>
+			<Item Key="Setting_Network_Environment_NATType_Tips_WillAffectOnlinePlay">这将严重影响您的联机体验</Item>
+			<Item Key="Setting_Network_Environment_NATType_Tips_WillAffectOnlinePlay_UPnP">这将严重影响您的联机体验&#xD;&#xA;若大厅创建者或您的网络环境支持 UPnP，则将可能有所缓解</Item>
+
+			<Item Key="Setting_Network_Environment_UPnP_Unknown">Unknown</Item>
+			<Item Key="Setting_Network_Environment_UPnP_Unsupport">Unsupport</Item>
+			<Item Key="Setting_Network_Environment_UPnP_Unsupport_Tips">您当前的网络设备或系统不支持 UPnP 协议&#xD;&#xA;若您在网络设备中启用 UPnP，则 BakaXL 将通过该协议尝试改善您的联机体验</Item>
+			<Item Key="Setting_Network_Environment_UPnP_Unstable">Unstable [{0}]</Item>
+			<Item Key="Setting_Network_Environment_UPnP_Unstable_Tips">您当前的网络设备或系统对 UPnP 协议的支持并不正常&#xD;&#xA;这可能导致 BakaXL 无法改善您的联机体验&#xD;&#xA;若您认为您的网络设备或系统不存在此问题，请联系 BakaXL 开发团队</Item>
+			<Item Key="Setting_Network_Environment_UPnP_Enabled">Auto Mapping Enabled</Item>
+			<Item Key="Setting_Network_Environment_UPnP_Enabled_Tips">BakaXL 向您的网络设备请求自动映射以改善您的联机体验</Item>
+			<Item Key="Setting_Network_Environment_UPnP_Pending">Pending</Item>
+			<Item Key="Setting_Network_Environment_UPnP_Pending_Tips">BakaXL 尚未开始检测网络设备的 UPnP 协议&#xD;&#xA;当开始建立点对点连接时，BakaXL 将会开始检测并显示结果</Item>
+
+			<Item Key="Setting_Network_Environment_Retest">Retest</Item>
 
 			<Item Key="Setting_Network_Troubleshooting">网络连接疑难解答</Item>
 			<Item Key="Setting_Network_Troubleshooting_Tips">若您无法正常连接到Mojang正版验证服务器，&#xD;&#xA;尝试更换一个稳定且不易受污染的DNS服务器通常能解决此问题。&#xA;&#xD;&#xA;若此问题持续出现，请联系您的互联网服务提供商(ISP)，&#xD;&#xA;并确保您的互联网并未遭到劫持。</Item>
