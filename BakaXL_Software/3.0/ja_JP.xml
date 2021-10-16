@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Languages>
+	<Type>
+		<Key>ja_JP</Key>
+		<Name>日本語 (日本)</Name>
+		<Author>MRTangwin8</Author>
+	</Type>
+	<!--
+	于2019-11-16 GMT+9 7:51 由 MRTangwin8 第三次翻译，第二次校对。
+	MRTangwin8による第三次翻訳、第二次改正。時間は東京時間の朝七時五十一分です。
+    -->
+	<Language Key="ja_JP">
+		<Items>
+			<Item Key="BakaXLTitle">BakaXL - Minecraft Launcher</Item>
+
+			<Item Key="NoUserName">ゲームID未設定</Item>
+
+			<Item Key="Loading">読み込み中</Item>
+			<Item Key="PleaseWait">少々お待ちください</Item>
+			<Item Key="LoadingPlugins">拡張機能</Item>
+
+			<Item Key="LaunchBar_Hello">こんにちは{0}</Item>
+			<Item Key="LaunchBar_Launch">ゲームスタート</Item>
+			<Item Key="LaunchBar_NoCore">&lt;コア未選択&gt;</Item>
+
+			<Item Key="Minute">分</Item>
+			<Item Key="Hour">時間</Item>
+
+			<Item Key="Core_HaveRun">累積運行時間</Item>
+			<Item Key="Core_InstallTime">インストール</Item>
+			<Item Key="Core_NeverRun">まだ運行しない</Item>
+			<Item Key="Core_Default_Description">コアが疲れたから、紹介しない</Item>
+
+			<Item Key="HomeWelcome">ようこそ</Item>
+			<Item Key="HomePreview">プレビュー版が最終的な正式版ではありません。</Item>
+
+			<Item Key="Home_Title">新しいBakaXLへようこそ</Item>
+			<Item Key="Home_SubTitle">BakaXL 正式版</Item>
+			<Item Key="Home_SubTitle_Insider">BakaXL Insider Preview プレビュー版（体験版）</Item>
+
+			<Item Key="Tips">BakaXLヒント</Item>
+
+			<Item Key="HomeHello">こんにちは</Item>
+			<Item Key="HomeNewFeature">新特徴</Item>
+			<Item Key="HomeTheme">個性化</Item>
+			<Item Key="HomePlugin">拡張機能管理</Item>
+			<Item Key="HomeBakaPlaza">バカ広場</Item>
+			<Item Key="HomeLaunch">ゲームスタート</Item>
+			<Item Key="HomeLoginMode">認証モード</Item>
+			<Item Key="HomeOpenWebside">公式サイトを訪問</Item>
+			<Item Key="HomeGameCore">ゲームコア</Item>
+			<Item Key="HomeSettings">本体設置</Item>
+			<Item Key="HomeAchievements">成就管理</Item>
+			<Item Key="HomePackTool">BakaXL統合パッケージ[\n]導入/導出工具</Item>
+			<Item Key="HomePackToolName">統合パッケージ工具</Item>
+
+			<Item Key="BakaXL.Pages.PageHome">BakaXL主界面</Item>
+			<Item Key="BakaXL.Pages.PageDownload">本体更新系統</Item>
+			<Item Key="BakaXL.Pages.PageSettings">本体設置</Item>
+			<Item Key="BakaXL.Pages.PageGuide">設置引導</Item>
+			<Item Key="BakaXL.Pages.PageTips">BakaXLヒント</Item>
+			<Item Key="BakaXL.Pages.PagePlaza">バカ広場</Item>
+
+			<Item Key="Minecraft_AuthMode_Offline">オフラインモード</Item>
+			<Item Key="Minecraft_AuthMode_Online">オンライン認証</Item>
+			<Item Key="Minecraft_AuthMode_ThirdParty">サードパーティ認証（他社に基つく認証）</Item>
+
+			<Item Key="ProfileBtn_Offline">まだオンライン認証していない</Item>
+			<Item Key="ProfileBtn_Online">オンライン認証成功</Item>
+			<Item Key="ProfileBtn_ThirdParty">サードパーティ（他社に基つく）認証を使う</Item>
+
+			<Item Key="Hide">隠す</Item>
+			<Item Key="Show">示す</Item>
+			<Item Key="Off">閉める</Item>
+			<Item Key="On">開ける</Item>
+			<Item Key="Back">戻す</Item>
+			<Item Key="Continue">続く</Item>
+			<Item Key="NextStep">次ぎ</Item>
+			<Item Key="PreviousStep">前へ</Item>
+			<Item Key="Unavailable">使えない</Item>
+			<Item Key="Login">ログイン</Item>
+			<Item Key="LearnMore">もっと見る</Item>
+
+			<Item Key="BakaXL_Update_Title">BakaXL 新しいバ—ジョン {0}</Item>
+			<Item Key="BakaXL_Update_Info">新たなバージョンが出るので、最新のバージョンの更新をお願いいたします。時間が長くかかりません。モバイル通信の場合は通信会社によって有料の状況がございます。</Item>
+			<Item Key="BakaXL_Update_Btn_Yes">すぐ更新</Item>
+			<Item Key="BakaXL_Update_Btn_OrYes">後で</Item>
+
+			<Item Key="Bakaverse_Title">&quot;{0}&quot; の領域</Item>
+			<Item Key="Bakaverse_Account_Title">アカウント</Item>
+			<Item Key="Bakaverse_FriendsList_Title">友達リスト</Item>
+			<Item Key="Bakaverse_AddFriends_Title">友達追加</Item>
+
+			<Item Key="Bakaverse_UserInfo">アカウント情報</Item>
+
+			<Item Key="Bakaverse_UserInfo_AlreadyOnline">今います。&#xD;&#xA;たとえ相手がMinecraftまたBakaXLを使っているときは、ここに示します。</Item>
+			<Item Key="Bakaverse_UserInfo_LastLogin">前回のログイン時点：{0}。</Item>
+			<Item Key="Bakaverse_UserInfo_TimeBecomeFriend">友達を追加した時点：{0}。&#xD;&#xA;BakaXL Network IDを交換によって友達になった。</Item>
+
+			<Item Key="Bakaverse_AddFriends_RecivedRequest">友達申請</Item>
+			<Item Key="Bakaverse_AddFriends_RecivedRequest_BtnTitle">申請を閲覧</Item>
+
+			<Item Key="Bakaverse_AddFriends_RecivedRequest_NoInvite_Tips">悪いな...ここに何もありません。&#xD;&#xA;申請をもらった後、ここに示します。</Item>
+			<Item Key="Bakaverse_AddFriends_RecivedRequest_Tips">まだ批准していない申請を見る。</Item>
+
+			<Item Key="Bakaverse_AddFriends_SearchOnline_Title">ネットで友達を探す</Item>
+			<Item Key="Bakaverse_AddFriends_SearchTips">相手のBakaXL Network IDを入力(例：Username#1234)</Item>
+			<Item Key="Bakaverse_AddFriends_BtnTitle">BakaXL Network IDで友達を探す</Item>
+			<Item Key="Bakaverse_AddFriends_MinePass_BtnTitle">BakaXLで友達を追加</Item>
+
+			<Item Key="BakaPlaza_FullName">BakaXL バカ広場</Item>
+
+			<Item Key="Protocol_Ani_Tips">在BakaXLバカ広場でこの資料を閲覧する</Item>
+
+			<Item Key="Setting_JavaCheck_BestMatch">最適</Item>
+			<Item Key="Setting_JavaCheck_Usable">使えるもの</Item>
+			<Item Key="Setting_JavaCheck_SuggestUpdate">64位に更新できる</Item>
+			<Item Key="Setting_JavaCheck_SuggestUpdate_Java8">64位のJava 8に更新できる</Item>
+			<Item Key="Setting_JavaCheck_NotSupport">不適合</Item>
+
+			<Item Key="Setting_Title">BakaXL本体設置</Item>
+
+			<Item Key="Setting_BakaPublic">大衆版</Item>
+			<Item Key="Setting_CurrentVersion">いまのバ—ジョン</Item>
+
+			<Item Key="Setting_Support_Title">ヘルプとサポート &amp; 安全</Item>
+			<Item Key="Setting_Account_Title">アカウントとファイル</Item>
+			<Item Key="Setting_Java_Title">Javaマシンとメモリ</Item>
+			<Item Key="Setting_Advance_Title">もっと...</Item>
+			<Item Key="Setting_Network_Title">インターネット</Item>
+			<Item Key="Setting_Personalize_Title">個性化</Item>
+			<Item Key="Setting_Audio_Title">音声</Item>
+			<Item Key="Setting_Download_Title">ダウンロード</Item>
+			<Item Key="Setting_Protocol_Title">BakaXL契約</Item>
+			<Item Key="Setting_Plaza_Title">BakaXLバカ広場</Item>
+			<Item Key="Setting_Insider_Title">BakaXLプレビュー版計画</Item>
+			<Item Key="Setting_About_Title">私たちについて...</Item>
+
+			<Item Key="Setting_Support_Tips">BakaXL 3.0の本体設置画面へようこそ、BakaXL&#xD;&#xA;にもっと機能の追加することを頑張っています！一部の使えない機能がBakaXL 3.0の新機能です。&#xA;皆様のご要望を応じて調整しております。気に入るなら大変うれしいです。</Item>
+			<Item Key="Setting_Support_Website">BakaXLヘルプとサポートのサイト</Item>
+			<Item Key="Setting_Support_WebsiteTips">もっとBakaXL本体及び拡張機能をうまく使いたいなら、またはヘルプを取りたいなら、&#xD;&#xA;パソコンやスマホでBakaXLヘルプとサポートのサイトを訪問してください。</Item>
+			<Item Key="Setting_Support_SafeUse">安全使用引導</Item>
+			<Item Key="Setting_Support_ErrorHistory">バカ缶詰歴史</Item>
+			<Item Key="Setting_Support_Troubleshooting">疑問解答引導</Item>
+
+			<Item Key="Setting_Account_NewProfile">アカウントを増加</Item>
+			<Item Key="Setting_Account_ImportProfile">他のインサイダーからアカウント情報を導入</Item>
+			<Item Key="Setting_Account_ExportProfile">BakaXLアカウント情報を導出</Item>
+			<Item Key="Setting_Account_ProfileTips">他のインサイダーからアカウント情報を導入してから、他のインサイダーの制限によって&#xD;&#xA;Minecraftアカウントがあれば、もう一度パスワードを入力することが必要です。&#xD;&#xA;導出だったらBakaXLからその内容を削除いたします。&#xD;&#xA;導入だったら後で一部の内容を設定する場合がございます。</Item>
+
+			<Item Key="Setting_Account_BakaAccount_Title">BakaXL アカウント</Item>
+			<Item Key="Setting_Account_BakaAccount_Login">BakaXLアカウントでログイン</Item>
+			<Item Key="Setting_Account_BakaAccount_Register">登録</Item>
+			<Item Key="Setting_Account_BakaAccount_Logout">ログアウト</Item>
+			<Item Key="Setting_Account_BakaAccount_CancelLogin">ログインを取り消す</Item>
+			<Item Key="Setting_Account_BakaAccount_LoginAs">BakaXL ログインで {0} 。</Item>
+			<Item Key="Setting_Account_BakaAccount_AccountEmail">メールボックス：{0}</Item>
+			<Item Key="Setting_Account_BakaAccount_AccountStatus">状態：{0}</Item>
+			<Item Key="Setting_Account_BakaAccount_Connecting">BakaXL Network サーバーに接続しています…</Item>
+			<Item Key="Setting_Account_BakaAccount_Tips">BakaXLアカウント(BakaXL Account)を登録してIDをもらって&#xA;(BakaXL Network ID)、BakaXLのオンライン機能が使えます。&#xA;&#xA;このゲームIDを追加したら、友達追加、&#xA;いるかいないか状態を閲覧、ゲームソフトを共有、友達のゲームに&#xA;加入することができます。</Item>
+			<Item Key="Setting_Account_BakaAccount_LoginedTips">該当パソコンのすべてBakaXLソフトはこのアカウントでログインします。&#xA;BakaXL オンラインサービスはすべての国か地域で使えることはありますん。&#xA;&#xA;BakaXL契約を違反したら、アカウントに制限させていただきます。</Item>
+
+			<Item Key="Setting_Account_BakaAccount_AccountStatus_Normal">正常</Item>
+			<Item Key="Setting_Account_BakaAccount_AccountStatus_Restricted">制限あり</Item>
+
+			<Item Key="Setting_Account_BakaAccount_Login_AccountEmail">BakaXLアカウントのメールアドレスを入力</Item>
+			<Item Key="Setting_Account_BakaAccount_Login_AccountEmail_Tips">登録時のBakaXLアカウントのメールアドレス</Item>
+			<Item Key="Setting_Account_BakaAccount_Login_AccountPassword_Tips">このアカウントのパスワードを入力してください。&#xD;&#xA;BakaXLは暗号化いたします。</Item>
+			<Item Key="Setting_Account_BakaAccount_Login_Options">ログイン選択</Item>
+			<Item Key="Setting_Account_BakaAccount_Login_Options_AutoLogin">自動的にログイン</Item>
+			<Item Key="Setting_Account_BakaAccount_Login_Options_VanishLogin">ログインした後隠す</Item>
+
+			<Item Key="Setting_Account_Minecraft_Title">Minecraftアカウント情報</Item>
+
+			<Item Key="Setting_Account_Detail_Title_WithID">&quot;{0}&quot; の　アカウント情報</Item>
+			<Item Key="Setting_Account_Detail_Title">アカウント設置</Item>
+			<Item Key="Setting_Account_Detail_Title_NewProfile">新たな情報を作成</Item>
+
+			<Item Key="Setting_Account_Detail_Type">アカウントのタイプ</Item>
+			<Item Key="Setting_Account_Detail_AuthMode">ゲームスタートのモード</Item>
+			<Item Key="Setting_Account_Detail_AuthMode_Tips_Default">Minecraftを起動する時の認証方式を選ぶ。&#xD;&#xA;オンライン認証：Mojangアカウントでログイン。&#xD;&#xA;オフアインモード：ゲームIDだけで認証。&#xD;&#xA;&#xD;&#xA;法律によってオフラインモードは部分の地域で使えません。&#xD;&#xA;他社の認証サービス (authlib-injector) はまもなく。</Item>
+			<Item Key="Setting_Account_Detail_AuthMode_Tips_Online">Minecraftを起動する時の認証方式を選ぶ。&#xA;Mojangアカウントでオンライン認証によるゲームスタート。</Item>
+			<Item Key="Setting_Account_Detail_AuthMode_Tips_Offline">Minecraftを起動する時の認証方式を選ぶ。&#xA;ゲームIDだけでオフラインによるゲームスタート。&#xA;&#xA;法律によってオフラインモードは部分の地域で使えません。</Item>
+			<Item Key="Setting_Account_Detail_AuthMode_Tips_ThirdParty">Minecraftを起動する時の認証方式を選ぶ。&#xA;他社の認証サービスでアカウント情報を認証します。&#xA;&#xA;アカウント安全のため、他社の認証サービスで&#xA;Mojangアカウントと同じパスワードを使うことは推薦しません。</Item>
+
+			<Item Key="Setting_Account_Detail_AccInfo">アカウント情報</Item>
+
+			<Item Key="Setting_Account_Detail_Offline_Username">ゲームIDを入力</Item>
+			<Item Key="Setting_Account_Detail_Offline_Username_Tips">Minecraftで使いたいゲームIDを設定してください。&#xD;&#xA;英字、数字及び下線だけで使い、日本語、中国語と特殊記号などは推薦しません。</Item>
+
+			<Item Key="Setting_Account_Detail_Online_Email">Mojangアカウントメールアドレス</Item>
+			<Item Key="Setting_Account_Detail_Online_Email_Tips">Mojangアカウントメールアドレスを入力してください。</Item>
+			<Item Key="Setting_Account_Detail_Online_Password">パスワードを入力してください</Item>
+			<Item Key="Setting_Account_Detail_Online_Password_Tips">Mojangアカウントのパスワードを入力してください。&#xD;&#xA;BakaXLは暗号化いたします。</Item>
+
+			<Item Key="Setting_Account_Detail_Online_OnlineFunction_Title">Mojangアカウント機能</Item>
+			<Item Key="Setting_Account_Detail_Online_OnlineFunction_Tips">これらの機能は間もなく、お楽しみ。</Item>
+
+			<Item Key="Setting_Account_Detail_ThirdParty_Email">登録時のアドレス</Item>
+			<Item Key="Setting_Account_Detail_ThirdParty_Email_Tips">他社の認証サービスで登録時のメールアドレス</Item>
+			<Item Key="Setting_Account_Detail_ThirdParty_Password">パスワードを入力してください</Item>
+			<Item Key="Setting_Account_Detail_ThirdParty_Password_Tips">他社の認証サービスで登録時のパスワード</Item>
+
+			<Item Key="Setting_Account_Detail_ProfileProtection">アカウント保護及び安全</Item>
+			<Item Key="Setting_Account_Detail_ProfileProtection_Btn_Title">Mojangアカウント情報を保存しない</Item>
+			<Item Key="Setting_Account_Detail_DoNotSaveAuthInfo">ネットカフェなどの公共場所でBakaXLを使うとき、このスイッチをオープンするのが推薦です。&#xD;&#xA;BakaXLはゲームIDだけを保存する。</Item>
+			<Item Key="Setting_Account_Detail_DoNotSaveAuthInfo_Tips">BakaXLは標準的な暗号化方式を使い、アカウント情報の安全を守る。&#xD;&#xA;安全のため、他人にパスワードを知らせないようお願いします。</Item>
+
+			<Item Key="Setting_Account_Detail_Delete">アカウント情報を削除</Item>
+			<Item Key="Setting_Account_Detail_Delete_Btn_Title">BakaXLで削除</Item>
+			<Item Key="Setting_Account_Detail_Delete_Tips">施行後BakaXLで永久に削除いたします。&#xD;戻ることはできません。</Item>
+
+			<Item Key="Setting_Account_Detail_BackBtn_Back">戻る</Item>
+			<Item Key="Setting_Account_Detail_BackBtn_AuthBack">認証して戻る</Item>
+			<Item Key="Setting_Account_Detail_Tips_EmailInvaild">有効なメールアドレスではございません。もう一度やり直してください。</Item>
+			<Item Key="Setting_Account_Detail_Tips_AuthFailed">ゲームIDを獲得するのが失敗、もう一度してください！</Item>
+			<Item Key="Setting_Account_Detail_Tips_Authenticating">獲得中…</Item>
+			<Item Key="Setting_Account_Detail_Tips_AuthFailed_Username">獲得失敗</Item>
+			<Item Key="Setting_Account_Detail_Tips_NeedAuth">戻る前に、オンライン認証しなければなりません</Item>
+			<Item Key="Setting_Account_Detail_Tips_NeedUsername">ゲームIDを設定しなければなりません</Item>
+			<Item Key="Setting_Account_Detail_Tips_NeedReload">ゲームIDを変更し、一部の内容がリロードする必要がある。</Item>
+
+			<Item Key="Setting_Java_JVM_Title">Javaマシン</Item>
+			<Item Key="Setting_Java_JVM_Selector">Javaバージョンを選ぶ</Item>
+			<Item Key="Setting_Java_JVM_Tips">ゲーム体験のために、最適なJavaバージョンを選んでください。</Item>
+			<Item Key="Settings_SystemSettings_ManualJava">自己設定Java</Item>
+
+			<Item Key="Setting_Java_JVM_Advance">Java高級設置</Item>
+			<Item Key="Setting_Java_JVM_Advance_AutoJava">自動的にJava位置を探す</Item>
+			<Item Key="Setting_Java_JVM_Advance_ManualJava">Java位置を指定する</Item>
+			<Item Key="Setting_Java_JVM_Advance_ManualJava_Selector_Title">Javaw.exe位置を選んでください</Item>
+
+			<Item Key="Setting_Java_JVM_Advance_Tips">一般的には、BakaXLは自動的に最適なJavaを選びます。&#xD;&#xA;このオプションの作用が知らないなら、オプションの値を変えないようお願いいたします。</Item>
+
+			<Item Key="Setting_Java_JVM_Download">Javaダウンロード</Item>
+			<Item Key="Setting_Java_JVM_Download_Tips">最新のJavaをダウンロードできる。</Item>
+
+			<Item Key="Setting_Java_Memory_Title">メモリ設置</Item>
+
+			<Item Key="Setting_Java_Memory">メモリ</Item>
+			<Item Key="Setting_Java_Memory_Installed">インストール {0} GB</Item>
+			<Item Key="Setting_Java_Memory_Used">使ったのは</Item>
+			<Item Key="Setting_Java_Memory_MinecraftUsed">Minecraftで使うのは</Item>
+
+			<Item Key="Setting_Java_Memory_AutoMemory">メモリを自動的に設置</Item>
+			<Item Key="Setting_Java_Memory_AdvanceMemory">メモリ高級設置</Item>
+			<Item Key="Setting_Java_Memory_AdvanceMemory_Tips">BakaXLは通常状況でパソコンの配置によってメモリを自動的に配分する。&#xD;&#xA;このオプションの作用が知らないなら、オプションの値を変えないようお願いいたします。</Item>
+			<Item Key="Setting_Java_Memory_AdvanceMemory_ForceRelease">メモリを強制的に釈放</Item>
+			<Item Key="Setting_Java_Memory_AdvanceMemory_ForceRelease_Tips">推薦しませんが、BakaXLはすでにメモリを強制的に釈放することによって残るメモリを増加してみることは可能。</Item>
+			<Item Key="Setting_Java_Memory_AdvanceMemory_ManualMemory">メモリの大きさを指定</Item>
+			<Item Key="Setting_Java_Memory_AdvanceMemory_ManualMemory_AutoMode_Tips">指定する場合、“メモリを自動的に設置”の機能を閉める必要がある。</Item>
+			<Item Key="Setting_Java_Memory_AdvanceMemory_ManualMemory_Tips">Minecraftでのメモリをご希望のように指定する。</Item>
+
+			<Item Key="Setting_Network_Connected">接続しています</Item>
+			<Item Key="Setting_Network_Error">接続でエラーがあった</Item>
+			<Item Key="Setting_Network_MojangError">サービス中断</Item>
+			<Item Key="Setting_Network_Maintenance">サービス工事中</Item>
+			<Item Key="Setting_Network_Timeout">接続タイムアウト</Item>
+			<Item Key="Setting_Network_ConnectedWithError">接続していますが、エラーが一つ</Item>
+
+			<Item Key="Setting_Network_InternetStatus_Title">ネット状態</Item>
+			<Item Key="Setting_Network_InternetStatus_Connected">BakaXLはネットに接続しています。</Item>
+			<Item Key="Setting_Network_InternetStatus_Disconnected">BakaXLはネットに未接続。</Item>
+
+			<Item Key="Setting_Network_BakaServiceStatus_Title">BakaXLサーバー状態</Item>
+			<Item Key="Setting_Network_BakaServiceStatus_Plaza_API">BakaXLバカ広場(API):</Item>
+			<Item Key="Setting_Network_BakaServiceStatus_Plaza_Qiniu">BakaXLバカ広場(七牛曇):</Item>
+
+			<Item Key="Setting_Network_MojangServiceStatus_Title">Mojangサーバー状態</Item>
+			<Item Key="Setting_Network_MojangServiceStatus_MainServer">Mojang状態:</Item>
+			<Item Key="Setting_Network_MojangServiceStatus_MinecraftSite">Minecraft公式サイト</Item>
+			<Item Key="Setting_Network_MojangServiceStatus_MinecraftSession_Old">Minecraft多人数で遊ぶサービス(旧)</Item>
+			<Item Key="Setting_Network_MojangServiceStatus_MinecraftSession">Minecraft多人数で遊ぶサービス</Item>
+			<Item Key="Setting_Network_MojangServiceStatus_MojangAccount">Mojangアカウントサービス</Item>
+			<Item Key="Setting_Network_MojangServiceStatus_MinecraftAuth">Minecraftオンライン認証サービス</Item>
+			<Item Key="Setting_Network_MojangServiceStatus_MojangAPI">Mojang APIサービス</Item>
+			<Item Key="Setting_Network_MojangServiceStatus_MinecraftSkins">Minecraftスキンサービス</Item>
+			<Item Key="Setting_Network_MojangServiceStatus_MojangSite">Mojang公式サイト</Item>
+
+			<Item Key="Setting_Network_Environment_Ping">ネット環境</Item>
+			<Item Key="Setting_Network_Environment_Ping_ms_Title">サーバーとの遅延:</Item>
+			<Item Key="Setting_Network_Environment_Ping_ms">ms</Item>
+			<Item Key="Setting_Network_Environment_Ping_Package">パケット損失率:</Item>
+
+			<Item Key="Setting_Network_Environment_Retest">再テスト</Item>
+
+			<Item Key="Setting_Network_Troubleshooting">ネットワーク接続疑問解答</Item>
+			<Item Key="Setting_Network_Troubleshooting_Tips">Mojangオンライン認証サーバーに正常に接続できなかったら、&#xD;&#xA;DNSサーバーを変更してみてください。&#xA;&#xD;&#xA;まだあれば、ネットワークサービス提供商(ISP)を連絡し、&#xD;&#xA;インターネットがハイジャックされていないことを確認してください。</Item>
+
+			<Item Key="Setting_Advance_AdvLaunch_Title">高級起動</Item>
+			<Item Key="Setting_Advance_AdvLaunch_MinecraftTitle">Minecraftタイトル</Item>
+			<Item Key="Setting_Advance_AdvLaunch_MinecraftTitle_Tips">Minecraftのタイトルを設定する。&#xD;&#xA;タイトルで関数を使用によって動態内容を展示することができる。&#xD;&#xA;{time}: 今のシステム時間を示す。</Item>
+			<Item Key="Setting_Advance_AdvLaunch_Args">高級起動関数</Item>
+			<Item Key="Setting_Advance_AdvLaunch_Args_Tips">Minecraftの高級起動関数を設定する。&#xD;&#xA;特殊な需要があれば使い、正確にしなければならない。&#xD;&#xA;普通ゲーマはその機能が必要ではなくて、空白にすることは推薦です。</Item>
+			<Item Key="Setting_Advance_AdvLaunch_AutoJoin">起動後ゲームサーバーに自動的に加入</Item>
+			<Item Key="Setting_Advance_AdvLaunch_AutoJoin_IPBox">サーバーアドレスを入力</Item>
+			<Item Key="Setting_Advance_AdvLaunch_AutoJoin_Tips">Minecraft起動完了した後、サーバーに自動的に加入。</Item>
+
+			<Item Key="Setting_Advance_AutoFix_Title">自動補正</Item>
+			<Item Key="Setting_Advance_AutoFix_Btn_Title">不足のファイルを自動的に補足する</Item>
+			<Item Key="Setting_Advance_AutoFix_Btn_Tips">Assets（ゲーム資源）のファイルが不足のMinecraftコアを選択するときに注意します。</Item>
+
+			<Item Key="Setting_Personalize_Background_Title">BakaXL背景</Item>
+			<Item Key="Setting_Personalize_Background_Browse_Btn">背景画像を設置</Item>
+			<Item Key="Setting_Personalize_Background_Default_Btn">最初の背景画像を戻す</Item>
+			<Item Key="Setting_Personalize_Background_Clear_Btn">背景画像をクリア</Item>
+			<Item Key="Setting_Personalize_Background_Browse_Btn_Tips">BakaXLの背景画像を設置する。&#xD;画像は何の手段であれアプロードしませんが、&#xD;エロ元素付きの画像の使用はご遠慮ください。</Item>
+			<Item Key="Setting_Personalize_Background_CustomImage_Title">背景画像を選ぶ</Item>
+			<Item Key="Setting_Personalize_Background_CustomImage_Filter">画像フォーマット</Item>
+
+			<Item Key="Setting_Personalize_Background_Acrylic">背景ぼかし</Item>
+			<Item Key="Setting_Personalize_Background_AcrylicType">ぼかし方法</Item>
+			<Item Key="Setting_Personalize_Background_AcrylicType_Default">アクリル</Item>
+			<Item Key="Setting_Personalize_Background_AcrylicType_Blur">すりガラス</Item>
+			<Item Key="Setting_Personalize_Background_AcrylicManual">ぼかしの程度を設定する</Item>
+			<Item Key="Setting_Personalize_Background_AcrylicTips">背景ぼかしはBakaXLの背景画像をぼかさせることができ、快適な&#xD;視覚体験を呈する。&#xD;&#xD;動態的な背景画像、または背景画像未設定の時、ぼかしの程度が手動で調整できない。&#xD;アクリルぼかしはWindows 10が必要である。</Item>
+
+			<Item Key="Setting_Personalize_Background_LiveBackground">動態的な背景画像を使用（実験版）</Item>
+			<Item Key="Setting_Personalize_Background_LiveBackground_Tips">BakaXLの底でオーバーレイをバインドして、高度な動態的背景を表示する。&#xD;BakaXL x Wallpaper Engineによって動態的背景を表示する。&#xD;&#xD;この機能は、部分の解像度及びDPIスケーリング環境では正しく働けない場合がある。&#xD;Wallpaper Engineを使わなければ、BakaXLは&#xD;デスクトップ壁紙を使う。</Item>
+
+			<Item Key="Setting_Personalize_Color_Title">BakaXL配色</Item>
+			<Item Key="Setting_Personalize_Color_Selector">配色を選択</Item>
+			<Item Key="Setting_Personalize_Color_NightMode">色を逆にするモード（リバースカラーモード）</Item>
+			<Item Key="Setting_Personalize_Color_Tips">BakaXLでの配色方式を選ぶ。</Item>
+
+			<Item Key="Setting_Personalize_Tema_Title">BakaXLテーマ</Item>
+			<Item Key="Setting_Personalize_Tema_List">すいません...今は使えません</Item>
+
+			<Item Key="Setting_Audio_BGM_Title">背景音楽(BGM)</Item>
+			<Item Key="Setting_Audio_BGM_Btn_Title">BakaXL背景音楽(BGM)</Item>
+			<Item Key="Setting_Audio_BGM_LostFocusBehaviorBtn">不在の時はBGMを自動的停止いたします</Item>
+			<Item Key="Setting_Audio_BGM_Tips">設定されたBakaXLテーマはBakaXLテーマ背景音楽を提供いたします。&#xD;&#xA;オフの時，BakaXLはすべてのBGMを停止いたします。</Item>
+
+			<Item Key="Setting_Audio_SE_Title">効果音</Item>
+			<Item Key="Setting_Audio_SE_Btn_Title">BakaXL効果音</Item>
+			<Item Key="Setting_Audio_SE_Btn_Tips">設定されたテーマは効果音包みが付ければ、BakaXLはこれらの効果音を使います。&#xD;&#xA;オフの時，BakaXLはすべての効果音を停止いたします。</Item>
+
+			<Item Key="Setting_Audio_EarProtection_Title">聴覚保護</Item>
+			<Item Key="Setting_Audio_EarProtection_Btn_Title">ヘッドフォンを使用するときは音量を下げること</Item>
+			<Item Key="Setting_Audio_EarProtection_Btn_Tips">オンの時、BakaXLは音量を抑える。&#xD;&#xA;BakaXLの音量は最大にしても小さければ、オフにする。&#xD;&#xA;&#xD;&#xA;ヘッドフォンを使うとき、聴覚保護のため、音量をお抑えください。&#xD;&#xA;周囲の音が聞こえるのが推薦です。</Item>
+
+			<Item Key="Setting_Audio_AutoControl_Behavior_Auto">自動的</Item>
+			<Item Key="Setting_Audio_AutoControl_Behavior_Mute">マナーモード</Item>
+			<Item Key="Setting_Audio_AutoControl_Behavior_Low">音量を下げる</Item>
+
+			<Item Key="Setting_Audio_AutoControl_Title">自動音量調節</Item>
+			<Item Key="Setting_Audio_AutoControl_MainBtn_Title">オーディオ再生ソフトウェアを自動検出</Item>
+			<Item Key="Setting_Audio_AutoControl_BehaviorBtn_Title">音量調節行為</Item>
+			<Item Key="Setting_Audio_AutoControl_Tips">BakaXLは起動時で運行されている音声が出るソフトを検出いたします。&#xA;（iCloud Music、Line等）&#xA;音声が流れているとき、BakaXLは状況によってBGMの音量を減少いたします。&#xA;設定された音量の数値を戻せば、Ctrlを押すとマウスホイールを回してください。</Item>
+
+			<Item Key="Setting_Download_Source_Title">ダウンロード元</Item>
+			<Item Key="Setting_Download_Source_BMCLAPI_Btn_Title">中国大陸地区第三方加速</Item>
+			<Item Key="Setting_Download_Source_BMCLAPI_Tips">（ある原因でこちらは翻訳を提供いたしません）使用来自bangbang93的BMCLAPI来为BakaXL的资源下载加速。&#xD;&#xA;若要了解更多有关BMCLAPI的详情，请参阅：&#xD;&#xA;https://bmclapidoc.bangbang93.com/</Item>
+
+			<Item Key="Setting_Plaza_Setting_Title">バカ広場設定</Item>
+			<Item Key="Setting_Plaza_Setting_CellularNetwork">モバイル通信料を節約</Item>
+			<Item Key="Setting_Plaza_Setting_CellularNetwork_Tips">モバイル通信の環境でオン、&#xD;&#xA;オンすると、バカ広場ビデオを放送する前に訪ねてビデオの解像度を下げる。&#xD;&#xA;一部のバカ広場でのビデオは解像度を下がることはできない。</Item>
+
+			<Item Key="Setting_Protocol_Btn_Title">BakaXL議定書</Item>
+			<Item Key="Setting_Protocol_Btn_Tips">BakaXL議定書はウェブサイトによるボタンでBakaXLを快速起動することができる。&#xD;&#xA;ウェブサイトによるボタンの関数によって、直接にBakaXLの特定機能を起動することができる。&#xD;&#xA;BakaXL開発中心をご閲覧の上で、BakaXL議定書にアクセス（接続）することができる。</Item>
+
+			<Item Key="Setting_Insider_Desc">自己紹介セミナー</Item>
+			<Item Key="Setting_Insider_Info">BakaXL　斬新なバ—ジョンへ！「BakaXL 预览体验计划」のご参加の方々に誠にありがたいと申し上げます。   &#xD;&#xA;(BakaXL Insider Preview) のメンバーがなければ，&#xD;&#xA;私たちはこんなのBakaXLを創作することができません。&#xD;&#xA;&#xD;&#xA;ただいま、私たちに参加すればBakaXLはよりよくなることができます。&#xD;&#xA;&#xD;&#xA;今から「BakaXL 预览体验计划」（BakaXL プレビュー体験企画）へ！</Item>
+			<Item Key="Setting_Insider_Warn_1">BakaXL Insider Previewでの機能はプレビューの体験しか使いません。&#xA;将来で削除や変更の可能性があります。&#xA;プレビュー版で全てのBakaXL機能を使うことができません（バカ広場、コア管理、&#xA;拡張機能など）。</Item>
+			<Item Key="Setting_Insider_Warn_2">プレビュー版のBakaXLは必要機能が不足の原因で、統合パッケージに入れないでください。</Item>
+			<Item Key="Setting_Insider_Desc">紹介</Item>
+			<Item Key="Setting_Insider_TunnelTitle">更新方式を変更</Item>
+			<Item Key="Setting_Insider_CurrentTunnel">今の通路</Item>
+			<Item Key="Setting_Insider_TunnelDescription">斬新な更新通路方式、より多くの&#xD;&#xA;更新をもらえます！&#xA;&#xD;&#xA;今、 BakaXL Insider Preview は二つの通路があり：&#xD;&#xA;Pigeon 鳩通路（主なバージョンで、最も穏やかな更新を提供）&#xD;&#xA;Parrot オウム通路（毎日更新、最新の更新を提供）&#xD;&#xA;&#xD;&#xA;ご注意：Parrot オウム通路は大量な未完全とクリアした機能が含まれんています&#xD;&#xA;随時更新と改正、このバージョンを依頼しないでください。</Item>
+			<Item Key="Setting_Insider_TunnelSelection">プレビュー通路を選ぶ</Item>
+			<Item Key="Setting_Insider_ChangeTunnel_Btn">変更</Item>
+			<Item Key="Setting_Insider_StartBtn_Title">開始</Item>
+			<Item Key="Setting_Insider_LatestVersion">（今のプレビューバージョン：{0}）</Item>
+			<Item Key="Setting_Insider_Requirement">BakaXL 3.0を運行するのは.Net Framework 4.5が必要です。&#xA;BakaXL 3.0のプレビュー版（体験版）を使えばWindows 7またはより新しい操作系統が必要です。&#xA;Windows 10は推薦です。&#xA;&#xA;Windows XPは支持されていません。</Item>
+
+			<Item Key="Setting_About_Info">ご使用、誠にありがとうございます！</Item>
+			<Item Key="Setting_About_Version">内部バージョン</Item>
+			<Item Key="Setting_About_Version_TunnelTitle">通路：</Item>
+			<Item Key="Setting_About_Version_BuildTime">日時及びバージョン：</Item>
+			<Item Key="Setting_About_Developer">開発者</Item>
+			<Item Key="Setting_About_SpecialThanks">感謝</Item>
+			<Item Key="Setting_About_Inspiration">アイデア</Item>
+			<Item Key="Setting_About_OpenSourceLib">使用したオープンソースコンポーネント（コードを公開する機能やモノ）</Item>
+			<Item Key="Setting_About_Copyright">著作権</Item>
+
+			<Item Key="Setting_Tunnel_DEBUG">Debug 開発通路</Item>
+			<Item Key="Setting_Tunnel_DEBUG_UpdateMethod">随時更新</Item>
+			<Item Key="Setting_Tunnel_PARROT">Parrot オウム通路</Item>
+			<Item Key="Setting_Tunnel_PARROT_UpdateMethod">毎日更新</Item>
+			<Item Key="Setting_Tunnel_PIGEON">Pigeon 鳩通路</Item>
+			<Item Key="Setting_Tunnel_PIGEON_UpdateMethod">最も穏やかなバージョンだけを更新</Item>
+			<Item Key="Setting_Tunnel_SLOTH">Sloth コアラ通道</Item>
+			<Item Key="Setting_Tunnel_SLOTH_UpdateMethod">正式版の更新通路</Item>
+
+			<Item Key="ThemeTitle">個性化設定</Item>
+			<Item Key="ThemeSubtitle">BakaXL背景画像、テーマなどの個性化設定</Item>
+			<Item Key="ThemeDefaultName">デフォルトテーマ（最初テーマ）</Item>
+			<Item Key="ThemeDefaultDescription">BakaXLの最初テーマで、削除できません。</Item>
+			<Item Key="ThemeEmptyDescription">筆者がのんびりで、こちらは何の紹介もありません…</Item>
+			<Item Key="ThemeTipInstall">BakaXLテーマファイルをここにまたは [BakaXL\Themes] に入れてください</Item>
+			<Item Key="ThemeTipInstallTitle">不愉快と感じられるなあ</Item>
+			<Item Key="ThemeTipInstallSubtitle">誓います。何のテーマもないです。追加しませんか？</Item>
+			<Item Key="ThemeCustomMode">テーマカスタムモード（自分でテーマを作る）</Item>
+			<Item Key="ThemeNightMode">夜間モード</Item>
+			<Item Key="ThemeBackground">背景画像</Item>
+			<Item Key="ThemeMenuOpenSource">テーマファイルを閲覧</Item>
+
+			<Item Key="TapToSee">もっと見る</Item>
+			<Item Key="MenuDelete">削除</Item>
+			<Item Key="MenuRefresh">刷新</Item>
+			<Item Key="MenuMore">もっと...</Item>
+
+			<Item Key="OK">よし</Item>
+			<Item Key="No">いえ</Item>
+
+			<Item Key="Color_Auto">自動</Item>
+			<Item Key="Color_Red">中国の紅</Item>
+			<Item Key="Color_Green">Creeperの緑</Item>
+			<Item Key="Color_Blue">浅い青</Item>
+			<Item Key="Color_Purple">純粋な紫</Item>
+			<Item Key="Color_Orange">オレンジ</Item>
+			<Item Key="Color_Lime">浅い緑</Item>
+			<Item Key="Color_Emerald">茶色緑</Item>
+			<Item Key="Color_Teal">深い蓝</Item>
+			<Item Key="Color_Cyan">天の青</Item>
+			<Item Key="Color_Cobalt">IEの青</Item>
+			<Item Key="Color_Indigo">量子の紫</Item>
+			<Item Key="Color_Violet">バイオレット（紫）</Item>
+			<Item Key="Color_Pink">桜の色</Item>
+			<Item Key="Color_Magenta">迷の红</Item>
+			<Item Key="Color_Crimson">真紅</Item>
+			<Item Key="Color_Amber">アンバー黄</Item>
+			<Item Key="Color_Yellow">黄色</Item>
+			<Item Key="Color_Brown">褐色</Item>
+			<Item Key="Color_Olive">オリーブの緑</Item>
+			<Item Key="Color_Steel">鋼の色</Item>
+			<Item Key="Color_Mauve">浅い紫</Item>
+			<Item Key="Color_Taupe">灰褐色</Item>
+			<Item Key="Color_Sienna">木の褐色</Item>
+
+			<Item Key="BakaXL.Pages.PageHome">BakaXL Main Menu</Item>
+		</Items>
+	</Language>
+</Languages>

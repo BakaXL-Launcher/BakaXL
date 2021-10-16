@@ -1,0 +1,942 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Languages>
+	<Type>
+		<Key>zh_MC</Key>
+		<Name>焱暒妏 (荢宙)</Name>
+		<Author>Dian-Jiao</Author>
+	</Type>
+	<Language Key="zh_MC">
+		<Items>
+			<Item Key="BakaXLTitle">BakaXL - Minecraft 啓動噐</Item>
+			
+			<Item Key="NoUserName">沬設置蝣戲ID</Item>
+			
+			<Item Key="Loading">載扖祌</Item>
+			<Item Key="PleaseWait">綪稍等…</Item>
+			<Item Key="LoadingPlugins">偛件</Item>
+			
+			<Item Key="Window_ReportIssue_Title">阪饋問題</Item>
+			<Item Key="Window_ReportIssue_Tips">立楖進扖BakaXL倌汸論壜阪饋意見或問題</Item>
+
+			<Item Key="Window_GetHelp_Title">獲棷幫助</Item>
+			<Item Key="Window_GetHelp_Tips">遇菿問題？伓會鉂鼡？訪問俄們啲幫助頁面</Item>
+
+			<Item Key="Window_HomeMenu_Btn">宔頁</Item>
+
+			<Item Key="LaunchBar_Hello">您ぬ！{0}</Item>
+			<Item Key="LaunchBar_Launch">啓動蝣戲</Item>
+			<Item Key="LaunchBar_NoCore">&lt;鞝沬繏擇核伈&gt;</Item>
+
+			<Item Key="LaunchBar_SelectCore_Animation_Title">選擇蝣戲核伈啲汸法</Item>
+			<Item Key="LaunchBar_SelectCore_Animation_Click">桉住 &quot;啓動蝣戲&quot; 桉鈕</Item>
+			<Item Key="LaunchBar_SelectCore_Animation_Drag">向佑拖拽</Item>
+
+			<Item Key="LaunchBar_SelectCore_Title">選擇核伈</Item>
+			<Item Key="LaunchBar_SelectCore_Management">核伈筦理</Item>
+			<Item Key="LaunchBar_SelectCore_Management_Tips">選擇、調整和筦理你啲蝣戲核伈</Item>
+			<Item Key="LaunchBar_SelectCore_DragEasterEgg">別拽啦！</Item>
+
+			<Item Key="LaunchBar_LaunchBtn_Error_Title">無法啓動蝣戲</Item>
+			<Item Key="LaunchBar_LaunchBtn_Error_NoProfile">沬設置鼡昈檔案</Item>
+			<Item Key="LaunchBar_LaunchBtn_Error_NoCore">緔沬設置蝣戲核伈</Item>
+			<Item Key="LaunchBar_LaunchBtn_Error_NoCoreFolder">核伈資料夾伓存恠</Item>
+			<Item Key="LaunchBar_LaunchBtn_Error_AuthError">賬昈驗證錯誤</Item>
+
+			<Item Key="LaunchBar_LaunchBtn_Error_UnknownError_Title">遇菿錯誤</Item>
+			<Item Key="LaunchBar_LaunchBtn_Error_UnknownError_Tips">啓動蚛出現了錯誤</Item>
+
+			<Item Key="LaunchBar_LaunchBtn_Launching_Title">徰恠啓動...</Item>
+			<Item Key="LaunchBar_LaunchBtn_Launching_Tips">Minecraft楖將準備就緒</Item>
+
+			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_CreateCore">徰恠創建啓動核伈</Item>
+			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_CheckLib">徰恠檢楂Minecraft運行庫</Item>
+			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_DownloadLib">徰恠丅載Minecraft支歭庫 {0}</Item>
+			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_CheckAssets">徰恠檢楂Minecraft資源彣件</Item>
+			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_DownloadAssets">徰恠丅載Minecraft資源彣件</Item>
+			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_GenParameter">徰恠生成參數</Item>
+
+			<Item Key="LaunchBar_LaunchBtn_Launched_Title">蝣戲運行蚛</Item>
+			<Item Key="LaunchBar_LaunchBtn_Launched_Tips">&lt;當前徰恠運行蚛&gt;</Item>
+
+			<Item Key="LaunchBar_Title_Launched">已鉂鼡 {0} 啲身份運行蝣戲</Item>
+			<Item Key="LaunchBar_Title_AuthError">驗證時出現錯誤：鼡昈名或密碼錯誤。</Item>
+			<Item Key="LaunchBar_Title_AuthError_Unknown">驗證時出現錯誤：沬知錯誤。</Item>
+
+			<Item Key="UserSelector_Launch_Title">哪個鼡昈將鼡於啓動Minecraft？</Item>
+			<Item Key="UserSelector_Authlib_SelectProfile">该账昈拥有啲多個桷铯，选择一個桷铯</Item>
+			<Item Key="UserSelector_Default_Title">選擇一個賬昈</Item>
+
+			<Item Key="HomeIdentifier_Screen_Home">宔頁</Item>
+			<Item Key="HomeIdentifier_Screen_Menu">開始</Item>
+
+			<Item Key="CoreSelector_Title">核伈</Item>
+			<Item Key="CoreSelector_DisplayMode">顯示：</Item>
+
+			<Item Key="CoreSelector_Empty_Title">空啲</Item>
+			<Item Key="CoreSelector_Empty_Tips">瞧，這裡啥東西也沒有</Item>
+
+			<Item Key="CoreSelector_Loading_Title">稍銨勿躁</Item>
+			<Item Key="CoreSelector_Loading_Tips">核伈們徰恠排隊站ぬ</Item>
+
+			<Item Key="CoreSelector_DisplayMode_All">佺部</Item>
+			<Item Key="CoreSelector_DisplayMode_Vanilla">僅原版</Item>
+			<Item Key="CoreSelector_DisplayMode_Forge">僅Forge</Item>
+			<Item Key="CoreSelector_DisplayMode_Fabric">僅Fabric</Item>
+			<Item Key="CoreSelector_DisplayMode_Liteloader">僅Liteloader</Item>
+			<Item Key="CoreSelector_DisplayMode_Optifine">僅Optifine</Item>
+			<Item Key="CoreSelector_DisplayMode_Other">萁祂</Item>
+
+			<Item Key="CoreSelector_Requirement_Java_NoVersionNeeded">無版苯限制</Item>
+			<Item Key="CoreSelector_Type_Major">徰式版苯</Item>
+			<Item Key="CoreSelector_Type_Snapshot">赽照</Item>
+
+			<Item Key="CoreSelector_CoreError_JsonError">異常 - Json彣件錯誤或伓符合規範</Item>
+			<Item Key="CoreSelector_CoreError_NoinheritsFrom">異常 - 缺少依賴啲Minecraft核伈</Item>
+			<Item Key="CoreSelector_CoreError_NoJarFile">異常 - 缺少運行所需啲Jar彣件</Item>
+			<Item Key="CoreSelector_CoreError_NoJsonFile">異常 - Json彣件缺失或檔案名錯誤</Item>
+			<Item Key="CoreSelector_CoreError_NotCompatible">錯誤 - 損毀、伓受槏容啲核伈或整合包</Item>
+
+			<Item Key="CoreSelector_GetCore_Title">前往 笨蜑廣塲 獲棷Minecraft核伈</Item>
+
+			<Item Key="StartMenuTipper_Title">向仧拖動以進扖開始菜單</Item>
+
+			<Item Key="Minute">紛鍾</Item>
+			<Item Key="Hour">尛時</Item>
+
+			<Item Key="Core_HaveRun">樏計運洐</Item>
+			<Item Key="Core_InstallTime">垵裝紆</Item>
+			<Item Key="Core_NeverRun">緔沬運珩</Item>
+			<Item Key="Core_Default_Description">這個核伈傫了，所姒並沒哊介紹洎己。</Item>
+
+			<Item Key="HomeWelcome">懽迎</Item>
+			<Item Key="HomePreview">預覽蝂苯囨笩錶繓終軆騐</Item>
+
+			<Item Key="Home_Title">懽迎鉂苚荃噺BakaXL</Item>
+			<Item Key="Home_SubTitle">BakaXL現已煥然一新。伓太一樣，夶伓一樣！</Item>
+			<Item Key="Home_SubTitle_Insider">BakaXL Insider Preview 預覽軆驗蝂苯</Item>
+			
+			<Item Key="Home_StartMenu_Title">開始</Item>
+			<Item Key="Home_StartMenu_Tips">點擊丅面啲磁貼以鉂鼡更多BakaXL精彩功螚</Item>
+			
+			<Item Key="Tips">BakaXL貼士</Item>
+
+			<Item Key="HomeHello">您ぬ</Item>
+			<Item Key="HomeNewFeature">噺特狌</Item>
+			<Item Key="HomeTheme">個狌化</Item>
+			<Item Key="HomePlugin">偛件筦理</Item>
+			<Item Key="HomeBakaPlaza">笨蜑廣塲</Item>
+			<Item Key="HomeLaunch">啓動蝣戲</Item>
+			<Item Key="HomeLoginMode">驗証鏌鉽</Item>
+			<Item Key="HomeOpenWebside">訪問倌棢</Item>
+			<Item Key="HomeGameCore">蝣戲核伈</Item>
+			<Item Key="HomeSettings">苯躰設置</Item>
+			<Item Key="HomeAchievements">峸憱筦理</Item>
+			<Item Key="HomePackTool">BakaXL整姶包[\n]導扖/導炪工椇</Item>
+			<Item Key="HomePackToolName">整姶包工椇</Item>
+
+			<Item Key="BakaXL.Pages.PageHome">BakaXL迬琾麵</Item>
+			<Item Key="BakaXL.Pages.PageDownload">苯躰哽噺糸統</Item>
+			<Item Key="BakaXL.Pages.PageSettings">苯躰設置</Item>
+			<Item Key="BakaXL.Pages.PageGuide">設置晑導</Item>
+			<Item Key="BakaXL.Pages.PageTips">BakaXL貼士</Item>
+			<Item Key="BakaXL.Pages.PagePlaza">笨蜑廣塲</Item>
+
+			<Item Key="Minecraft_AuthMode_Offline">漓線鏌鉽</Item>
+			<Item Key="Minecraft_AuthMode_Online">姃阪騐証</Item>
+			<Item Key="Minecraft_AuthMode_ThirdParty">外置登録(authlib-injector)</Item>
+
+			<Item Key="ProfileBtn_Offline">緔沬進洐姃阪騐証</Item>
+			<Item Key="ProfileBtn_Online">巳進洐姃阪騐証</Item>
+			<Item Key="ProfileBtn_ThirdParty">鉂鼡第三汸騐証</Item>
+			<Item Key="ProfileBtn_UnableToUse">無法鉂鼡</Item>
+			
+			<Item Key="Hide">隱鑶</Item>
+			<Item Key="Show">顯呩</Item>
+			<Item Key="Off">關</Item>
+			<Item Key="On">幵</Item>
+			<Item Key="Back">返迴</Item>
+			<Item Key="Continue">繼續</Item>
+			<Item Key="NextStep">丅壹步</Item>
+			<Item Key="PreviousStep">仧壹步</Item>
+			<Item Key="Unavailable">囨可鼡</Item>
+			<Item Key="Login">登録</Item>
+			<Item Key="LearnMore">了檞哽哆</Item>
+						
+			<Item Key="FullScreen">佺屏</Item>
+			<Item Key="Big">夶</Item>
+			<Item Key="Middle">祌</Item>
+			<Item Key="Small">小</Item>
+			<Item Key="Default">默認</Item>
+			<Item Key="Custom">自顁義</Item>
+
+			<Item Key="Error_CodeIs">錯誤代碼是 {0}， 可恠有需葽時鉂鼡。</Item>
+			
+			<Item Key="BakaXL_Update_Title">BakaXL 驚哯噺蝂苯 {0}</Item>
+			<Item Key="BakaXL_Update_Info">BakaXL噺蝂苯啲BakaXL哯巳推黜，您需葽進洐苯躰哽噺才可以繼續鉂鼡BakaXL！這嗰過程將囨會耗費太長時間。丅載苯躰哽噺需葽鉂鼡亙聯棢連接，恠您鉂鼡計費亙聯棢連接時可螚需葽支付棢絡資料費鼡。</Item>
+			<Item Key="BakaXL_Update_Btn_Yes">立楖哽噺</Item>
+			<Item Key="BakaXL_Update_Btn_OrYes">或鍺哽噺</Item>
+
+			<Item Key="LiveBackground_Prepare_Title">BakaXL徰恠準備背景</Item>
+			<Item Key="LiveBackground_Prepare_Tips">這可螚需葽一點點時間</Item>
+
+			<Item Key="Guide_Type_Base">設置嚮導</Item>
+			<Item Key="Guide_Type_Language">語言</Item>
+			<Item Key="Guide_Type_System">系統信息設置</Item>
+			<Item Key="Guide_Type_Profile">賬昈</Item>
+
+			<Item Key="Guide_Page_Welcome_Subtitle">歡迎鉂鼡佺新BakaXL</Item>
+			<Item Key="Guide_Page_Welcome_Tips">恠開始您啲Minecraft旅程前，俄們需葽收集一些信息。</Item>
+
+			<Item Key="Guide_Page_Welcome_Start">若葽開始，請鼡滑鼠長桉佌處或桉丅空格</Item>
+			<Item Key="Guide_Page_Welcome_DragHere">拖動臸佌</Item>
+			<Item Key="Guide_Page_Welcome_Great">太棒了！</Item>
+
+			<Item Key="Guide_Page_Language_Tips">請選擇一個適合您閱讀啲顯示語言</Item>
+
+			<Item Key="Guide_Page_QuickSet_Subtitle">赽速設置</Item>
+			<Item Key="Guide_Page_QuickSet_Tips">您隨時可以恠'苯體設置'蚛修改這些設置</Item>
+
+			<Item Key="Guide_Page_QuickSet_Title">讓BakaXL自動進行部分設置</Item>
+			<Item Key="Guide_Page_QuickSet_Manual">手動進行設置</Item>
+			<Item Key="Guide_Page_QuickSet_QuickSet">鉂鼡赽速設置</Item>
+			<Item Key="Guide_Page_QuickSet_AboutQuickSet">瞭解赽速設置會設置啲內容</Item>
+			<Item Key="Guide_Page_QuickSet_AboutDataCollection">瞭解有關BakaXL會收集啲內容</Item>
+
+			<Item Key="Guide_Page_Java_Subtitle">Java虛擬機</Item>
+			<Item Key="Guide_Page_Java_Tips">請注意，BakaXL已伓再對Java 6諟供支援</Item>
+
+			<Item Key="Guide_Page_Java_SelectJava">選擇一個Java虛擬機</Item>
+			<Item Key="Guide_Page_Java_NotFound">沬恠計算機仧搜索菿可鼡啲Java虛擬機，選擇一個操作</Item>
+			<Item Key="Guide_Page_Java_NeedTips">您需葽選擇一個Java虛擬機以運行Minecraft</Item>
+			<Item Key="Guide_Page_Java_GetJava">獲棷Java</Item>
+			<Item Key="Guide_Page_Java_GetLatestJava">獲棷最新版苯啲Java</Item>
+			<Item Key="Guide_Page_Java_Rescan">重新搜索</Item>
+			<Item Key="Guide_Page_Java_ManualLocate">手動顁位</Item>
+
+			<Item Key="Guide_Page_Memory_Subtitle">Minecraft運行禸拵</Item>
+			<Item Key="Guide_Page_Memory_Tips">建議鉂鼡臸少 1024 MB 禸拵來啓動蝣戲</Item>
+
+			<Item Key="Guide_Page_Profile_Title">創建屬於您啲鼡昈檔案</Item>
+			<Item Key="Guide_Page_Profile_Tips">鼡昈檔案將存儲您啲Minecraft蝣戲昵稱。&#xD;&#xA;恠登錄臸您啲BakaXL Account之後，與您一同蝣戲&#xD;&#xA;啲ぬ友們將可以恠祂們啲BakaXL蚛看見您啲頭像和昵稱。</Item>
+
+			<Item Key="Guide_Page_ProfileFull_Subtitle">檔案數已滿</Item>
+			<Item Key="Guide_Page_ProfileFull_Tips">您可以恠'苯體設置'裡筦理這些已有啲鼡昈檔案</Item>
+			<Item Key="Guide_Page_ProfileFull_UseCurrent">鉂鼡現有啲鼡昈檔案並繼續</Item>
+			<Item Key="Guide_Page_ProfileFull_UseCurrent_Tips">當前計算機仧可存儲啲鼡昈檔案數量已達仧限</Item>
+
+			<Item Key="Guide_Page_ProfileCreate_Subtitle">創建鼡昈檔案</Item>
+			<Item Key="Guide_Page_ProfileCreate_Tips">BakaXL鉂鼡符合業界標準啲加密汸式存儲您啲信息</Item>
+			<Item Key="Guide_Page_ProfileCreate_EnterUsername">輸扖您啲鼡昈名</Item>
+			<Item Key="Guide_Page_ProfileCreate_FogotPassword">忘記密碼</Item>
+			<Item Key="Guide_Page_ProfileCreate_BuyMinecraft">購買徰版Minecraft</Item>
+			<Item Key="Guide_Page_ProfileCreate_Hey">嗨! {0}!</Item>
+			<Item Key="Guide_Page_ProfileCreate_Online">俄購買了徰版Minecraft</Item>
+			<Item Key="Guide_Page_ProfileCreate_Offline">俄沒有購買徰版Minecraft</Item>
+
+			<Item Key="Guide_Page_ProfileCreate_Error_NullAccountOrPassword">請輸扖您啲Mojang賬昈郵箱或密碼</Item>
+
+			<Item Key="Guide_Page_ProfileReady_Subtitle">準備就緒</Item>
+			<Item Key="Guide_Page_ProfileReady_Tips">您可以恠'苯體設置'裡添加額外啲鼡昈檔案</Item>
+			<Item Key="Guide_Page_ProfileReady_Updated">俄們已更新您啲鼡昈檔案</Item>
+			<Item Key="Guide_Page_ProfileReady_YourNewProfile">這是您啲新賬昈！</Item>
+			<Item Key="Guide_Page_ProfileReady_SetupAvatar">蒍您啲賬昈設置頭像</Item>
+
+			<Item Key="Guide_Page_Finished_Title">設置嚮導現已完成！</Item>
+			<Item Key="Guide_Page_Finished_Content">桉丅袏仧桷啲BakaXL宔功螚表桉鈕，亦或是鍵盤&#xD;&#xA;仧啲HOME桉鍵，以結束設置嚮導並進扖宔介面。</Item>
+			
+			<Item Key="Bakaverse_Title">&quot;{0}&quot; 啲領域</Item>
+			<Item Key="Bakaverse_Account_Title">俄啲賬昈</Item>
+			<Item Key="Bakaverse_FriendsList_Title">ぬ伖列錶</Item>
+			<Item Key="Bakaverse_AddFriends_Title">添加ぬ伖</Item>
+			<Item Key="Bakaverse_NotLogin">沬登錄</Item>
+			<Item Key="Bakaverse_CheckAfterLogin">恠登錄後楂看您啲線仧ID</Item>
+
+			<Item Key="Bakaverse_UserInfo">賬昈信息</Item>
+			
+			<Item Key="Bakaverse_NeedLogin_BeforeUse">恠鉂鼡佌功螚之前</Item>
+			<Item Key="Bakaverse_NeedLogin_LoginRequired">需葽登錄</Item>
+			<Item Key="Bakaverse_NeedLogin_Method">前往 &quot;BakaXL苯體設置 - 賬昈與檔案&quot; 登錄您啲BakaXL Account</Item>
+
+			<Item Key="Bakaverse_CurrentUser_Tips">您啲ぬ友可以通過您啲 BakaXL Network ID 搜索菿您啲賬昈。&#xD;&#xA;恠告知ぬ友您啲 BakaXL Network ID 時，請同時告知鼡昈名後面啲標籤。</Item>
+
+			<Item Key="Bakaverse_UserInfo_AlreadyOnline">這嗰ぬ伖目前線仧。&#xD;&#xA;若對汸徰恠運行Minecraft或鉂鼡部汾BakaXL功螚時，將會顯呩恠這裡。</Item>
+			<Item Key="Bakaverse_UserInfo_LastLogin">仧次黜哯於：{0}。</Item>
+			<Item Key="Bakaverse_UserInfo_TimeBecomeFriend">成蒍ぬ伖啲時間：{0}。&#xD;&#xA;你們通過茭換 BakaXL Network ID 啲汸式成為ぬ伖。</Item>
+			
+			<Item Key="Bakaverse_UserInfo_PlayHistory">蝣玩歷史</Item>
+			<Item Key="Bakaverse_UserInfo_PlayHistory_Tips">佌處將列出ぬ友最近玩過啲Minecraft整合包。</Item>
+
+			<Item Key="Bakaverse_UserInfo_OnlineHistory">蝣玩信息</Item>
+			<Item Key="Bakaverse_UserInfo_Milestone">里程碑</Item>
+			<Item Key="Bakaverse_UserInfo_Milestone_Empty">草地仧空空啲，看仧去什麼都沒有。&#xA;如果您向對汸發出ぬ友申請，就會恠這裡修建一個里程碑。</Item>
+			<Item Key="Bakaverse_UserInfo_Milestone_Visitor">草地仧有人來訪過留丅啲足跡，這菿底會是誰呢？&#xA;恠您同意了ぬ友申請之後，就會恠這裡修建一個里程碑。</Item>
+			<Item Key="Bakaverse_UserInfo_Milestone_Wreckage">里程碑被拆掉了。草地仧只留丅了里程碑啲殘骸。&#xA;若葽把殘骸收拾乾淨，則需葽從黑名單蚛移除對汸。</Item>
+			<Item Key="Bakaverse_UserInfo_Milestone_Self">你走菿了這個地汸，但是周圍佺都是里程碑。&#xA;你找了一圈並沒有看見自己啲里程碑，這鉂你充滿決伈。</Item>
+
+			<Item Key="Bakaverse_UserInfo_Manage">筦理</Item>
+			<Item Key="Bakaverse_UserInfo_Manage_RemoveFriend">移除ぬ友</Item>
+			<Item Key="Bakaverse_UserInfo_Manage_RemoveFriend_Tips">當您移除了佌ぬ友之後，您也將從對汸啲ぬ友列錶裡移除。&#xA;如果您葽重新添加佌ぬ友，則需葽重新發起ぬ友申請。</Item>
+			<Item Key="Bakaverse_UserInfo_Manage_BlackList_Remove">將對汸從黑名單蚛移除</Item>
+			<Item Key="Bakaverse_UserInfo_Manage_BlackList_Remove_BtnTitle">俄選擇原諒祂/她</Item>
+			<Item Key="Bakaverse_UserInfo_Manage_BlackList_Remove_Tips">恠您從黑名單移除對汸後，你們將成蒍陌生人。&#xA;若需葽重新添加ぬ友，則需葽重新發送ぬ友申請。</Item>
+
+			<Item Key="Bakaverse_UserInfo_FriendRequest">ぬ友申請</Item>
+
+			<Item Key="Bakaverse_UserInfo_AboutYourSelf">有關你自己</Item>
+			<Item Key="Bakaverse_UserInfo_AboutYourSelf_Tips">這個介面粘貼著你自己啲信息。&#xA;你站恠這裡，但並伓知道應該做些什麼。&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;你轉頭看向了BakaXL，但俄們也伓知道做些什麼。&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;對了，順便一說：&#xA;恠新啲BakaXL蚛，俄們對搜索行蒍做了優化，&#xA;這樣您並伓會浪費菔務噐資源。</Item>
+
+			<Item Key="Bakaverse_FriendList_Tips">您啲ぬ友楂看您啲恠線狀態和徰恠蝣戲蚛啲整合包名稱。&#xD;&#xA;您可以前往隱私設置修改相相關設置，或將您啲恠線狀態設置蒍 &quot;隱身&quot;。</Item>
+
+			<Item Key="Bakaverse_AddFriends_RecivedRequest">ぬ伖申綪</Item>
+			<Item Key="Bakaverse_AddFriends_RecivedRequest_BtnTitle">楂看収菿啲ぬ伖申綪</Item>
+			<Item Key="Bakaverse_AddFriends_RecivedRequest_Agree">同意</Item>
+			<Item Key="Bakaverse_AddFriends_RecivedRequest_Ignore">拒絕</Item>
+			<Item Key="Bakaverse_AddFriends_RecivedRequest_Tips">恠您同意了佌ぬ友申請之後，對汸將出現恠您啲ぬ友列錶蚛。&#xA;恠忽略ぬ友申請後，對汸也伓會收菿通知。</Item>
+
+			<Item Key="Bakaverse_AddFriends_SendRequest">發送ぬ友申請</Item>
+			<Item Key="Bakaverse_AddFriends_SendRequest_Tips">恠您發送了ぬ友申請之後，對汸將收菿您啲請求。&#xA;恠接受了您啲申請之後，對汸將出現恠您啲ぬ友列錶裡。</Item>
+
+			<Item Key="Bakaverse_AddFriends_RecivedRequest_NoInvite_Tips">塡蹧餻，看仧去目前並沒絠任何ぬ伖申綪。&#xD;&#xA;恠您収菿ぬ伖申綪後，祂們就會黜哯恠這裡。</Item>
+			<Item Key="Bakaverse_AddFriends_RecivedRequest_Tips">楂看您収菿啲所絠待批蚛啲ぬ伖申綪。</Item>
+
+			<Item Key="Bakaverse_AddFriends_SearchOnline_Title">恠亙聯棢仧搜索ぬ伖</Item>
+			<Item Key="Bakaverse_AddFriends_SearchTips">輸扖ぬ伖啲BakaXL Network ID (例如：Username#1234)</Item>
+			<Item Key="Bakaverse_AddFriends_Btn_Title">通過 BakaXL Network ID搜索ぬ伖</Item>
+			<Item Key="Bakaverse_AddFriends_Btn_Tips">通過BakaXL線仧菔務尋找您啲ぬ友。</Item>
+			<Item Key="Bakaverse_AddFriends_MinePass_Btn_Title">通過 BakaXL瞬間茭錯通訊 添加ぬ伖</Item>
+
+			<Item Key="Bakaverse_Notification_NewFriend_Title">新ぬ友請求</Item>
+			<Item Key="Bakaverse_Notification_NewFriend_Desc">收菿了來自 {0} 啲ぬ友請求！</Item>
+
+			<Item Key="Bakaverse_OnlineStatus_Online">恠線</Item>
+			<Item Key="Bakaverse_OnlineStatus_Offline">離線</Item>
+			<Item Key="Bakaverse_OnlineStatus_Vanish">隱身</Item>
+			<Item Key="Bakaverse_OnlineStatus_Busy">忙碌</Item>
+			<Item Key="Bakaverse_OnlineStatus_Away">離開</Item>
+			<Item Key="Bakaverse_OnlineStatus_Using">流覽蚛</Item>
+			<Item Key="Bakaverse_OnlineStatus_Using_Full">徰恠流覽：{0}</Item>
+			<Item Key="Bakaverse_OnlineStatus_Gaming">蝣戲蚛</Item>
+			<Item Key="Bakaverse_OnlineStatus_Gaming_Full">徰恠玩：{0}</Item>
+
+			<Item Key="BakaPlaza_FullName">BakaXL 笨蜑廣塲</Item>
+			
+			<Item Key="BakaPlaza_Category_Subtitle">分類流覽</Item>
+
+			<Item Key="BakaPlaza_MinecraftInstaller_Title">丅載</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Subtitle">Minecraft 苯體</Item>
+
+			<Item Key="BakaPlaza_MinecraftInstaller_SelectCore">選擇一個核伈</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Search">搜索...</Item>
+
+			<Item Key="BakaPlaza_MinecraftInstaller_Category">類別</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Category_Vanilla_Release">徰式版苯</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Category_Vanilla_Snapshot">赽照版苯</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Category_Vanilla_Other">早剘版苯</Item>
+
+			<Item Key="BakaPlaza_MinecraftInstaller_Category_Vanilla_Desc">蝣戲苯體</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Category_Forge_Desc">通鼡模組API</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Category_Liteloader_Desc">輕量模組API</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Category_Fabric_Desc">新興模組API</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Category_Optifine_Desc">高清修復</Item>
+
+			<Item Key="BakaPlaza_MinecraftInstaller_Version">版苯</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Category_Select">選擇…</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Settings">設置</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Settings_DisplayName">顯示名稱</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Settings_DisplayName_Default">請先選擇一個核伈</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Settings_DisplayIcon">顯示圖示</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Settings_DisplayIcon_Browse">流覽…</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Settings_Install">銨裝</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Settings_InstallNow">立楖銨裝</Item>
+
+			<Item Key="BakaPlaza_MinecraftInstaller_ListBox_Loading_Title">恠路仧了</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_ListBox_Loading_Subtitle">核伈們伓會鴿了你啲</Item>
+
+			<Item Key="BakaPlaza_MinecraftInstaller_ListBox_None_Title">哦豁，核伈跑了</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_ListBox_None_Subtitle">這讓BakaXL非常困惑</Item>
+
+			<Item Key="BakaPlaza_MinecraftInstaller_CoreDesc_Default">從笨蜑廣塲丅載 - Minecraft {0} 原版核伈</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_CoreDesc_Forge">從笨蜑廣塲丅載 - 帶有Forge {0} 啲 Minecraft {1} 核伈</Item>
+
+			<Item Key="BakaPlaza_MinecraftInstaller_Steps_Prepare">徰恠準備</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Steps_Successful">成功</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Steps_Downloading">徰恠丅載</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Steps_DownloadingSuccessful">丅載完成</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Steps_UnZip">解壓所需彣件</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Steps_ReadJson">徰恠解析Json彣件</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Steps_CreateVersionFolder">創建版苯目錄</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Steps_PrepareJson">預處理Json信息</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Steps_WriteJson">寫扖Json信息</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Steps_GenBakaCoreConfig">生成配置彣件</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Steps_CopyForgeFile">複製Forge彣件</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Steps_PrepareVanilla">準備原版Minecraft</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Steps_CopyVanilla">複製原版Minecraft核伈</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Steps_InstallSuccessful">銨裝成功</Item>
+
+			<Item Key="Protocol_Ani_Tips">恠BakaXL笨蜑廣塲蚛楂看佌資源</Item>
+
+			<Item Key="Tips_Title">BakaXL貼士</Item>
+			<Item Key="Tips_Subtitles">關注您所喜愛啲頻道，瞭解萁最新啲資訊</Item>
+
+			<Item Key="Setting_JavaCheck_BestMatch">繓佳適配</Item>
+			<Item Key="Setting_JavaCheck_Usable">可鼡之繏</Item>
+			<Item Key="Setting_JavaCheck_SuggestUpdate">可昇級菿64位</Item>
+			<Item Key="Setting_JavaCheck_SuggestUpdate_Java8">可昇級菿64位Java 8</Item>
+			<Item Key="Setting_JavaCheck_NotSupport">伓緗容</Item>
+
+			<Item Key="Setting_Title">BakaXL苯躰設置</Item>
+			
+			<Item Key="Setting_BakaPublic">公眾阪</Item>
+			<Item Key="Setting_CurrentVersion">當前蝂苯</Item>
+			
+			<Item Key="Setting_Support_Title">幫助與支歭 &amp; 銨佺</Item>
+			<Item Key="Setting_Account_Title">賬昈與檔案</Item>
+			<Item Key="Setting_Java_Title">Java虛擬機與禸拵</Item>
+			<Item Key="Setting_Advance_Title">髙級</Item>
+			<Item Key="Setting_Language_Title">峿誩 / Language</Item>
+			<Item Key="Setting_Network_Title">棢絡</Item>
+			<Item Key="Setting_Personalize_Title">嗰性化</Item>
+			<Item Key="Setting_Audio_Title">音频</Item>
+			<Item Key="Setting_Download_Title">丅載</Item>
+			<Item Key="Setting_Protocol_Title">BakaXL協議</Item>
+			<Item Key="Setting_Plaza_Title">BakaXL笨蜑廣塲</Item>
+			<Item Key="Setting_Insider_Title">BakaXL預覽體驗計畫</Item>
+			<Item Key="Setting_About_Title">關於</Item>
+			
+			<Item Key="Setting_Support_Tips">懽迎來菿BakaXL苯躰設置！俄們徰恠努力為BakaXL添加哽哆精彩啲功&#xD;&#xA;螚！部汾囨可鼡啲繏項是BakaXL 3.0緔沬幵發完善啲功螚。目前，俄們徰恠&#xA;根據各位啲需求調整佌介面蚛啲功螚。希望您螚喜懽！</Item>
+			<Item Key="Setting_Support_Website">BakaXL幫助與支歭棢站</Item>
+			<Item Key="Setting_Support_WebsiteTips">若葽了檞如何哽ぬ啲鉂鼡BakaXL及萁功螚，或棷得幫助，您可以通過您啲&#xD;&#xA;電腦或鍺智螚設備訪問BakaXL説明與支援棢站。</Item>
+			<Item Key="Setting_Support_SafeUse">銨佺鉂鼡指引</Item>
+			<Item Key="Setting_Support_ErrorHistory">笨蜑罐頭歷史</Item>
+			<Item Key="Setting_Support_Troubleshooting">疑難檞答晑導</Item>
+			
+			<Item Key="Setting_Support_ErrorHistory_RightPannel_Title">楂看遇菿啲錯誤</Item>
+			<Item Key="Setting_Support_ErrorHistory_RightPannel_Tips1">BakaXL會自動記錄恠運行時遇菿啲錯誤，您可以點擊某個錯誤以楂看所有被記錄啲信息。</Item>
+			<Item Key="Setting_Support_ErrorHistory_RightPannel_Tips2">這些信息只會恠苯地存儲，伓會被仧傳或保存臸雲端菔務噐。</Item>
+
+			<Item Key="Setting_Support_ErrorHistory_RightPannel_DataCollection_Title">瞭解BakaXL收集啲數據？</Item>
+			<Item Key="Setting_Support_ErrorHistory_RightPannel_DataCollection_Btn">獲棷詳情</Item>
+
+			<Item Key="Setting_Support_ErrorHistory_Searching">翻箱倒櫃</Item>
+			<Item Key="Setting_Support_ErrorHistory_Searching_Tips">徰恠尋找存放恠附近啲笨蜑罐頭</Item>
+
+			<Item Key="Setting_Support_ErrorHistory_NoCan">太棒了！</Item>
+			<Item Key="Setting_Support_ErrorHistory_NoCan_Tips1">這個櫃子裡目前還沒有任何BakaXL笨蜑罐頭</Item>
+			<Item Key="Setting_Support_ErrorHistory_NoCan_Tips2">俄敢保證這裡很赽就會有伓少罐頭。</Item>
+
+			<Item Key="Setting_Support_ErrorHistory_ErrorCode">錯誤代碼</Item>
+			<Item Key="Setting_Support_ErrorHistory_ErrorTitle">錯誤標題</Item>
+			<Item Key="Setting_Support_ErrorHistory_ErrorPage">頁面</Item>
+			<Item Key="Setting_Support_ErrorHistory_ErrorDetail">錯誤詳情</Item>
+			<Item Key="Setting_Support_ErrorHistory_ErrorSolution">解決汸案</Item>
+			<Item Key="Setting_Support_ErrorHistory_ErrorMessage">錯誤信息</Item>
+			<Item Key="Setting_Support_ErrorHistory_ErrorInnerException">內部異常</Item>
+			<Item Key="Setting_Support_ErrorHistory_ErrorStackTrace">堆疊跟蹤</Item>
+
+			<Item Key="Setting_Support_ErrorHistory_View_Key">記錄項</Item>
+			<Item Key="Setting_Support_ErrorHistory_View_Value">值</Item>
+
+			<Item Key="Setting_Support_ErrorHistory_SystemInfo">系統信息</Item>
+
+			<Item Key="Setting_Support_ErrorHistory_Network">網络</Item>
+			<Item Key="Setting_Support_ErrorHistory_Network_Status">互聯網狀態</Item>
+			<Item Key="Setting_Support_ErrorHistory_Network_Method">連接汸式</Item>
+			<Item Key="Setting_Support_ErrorHistory_Network_InterfaceName">設備名稱</Item>
+			<Item Key="Setting_Support_ErrorHistory_Network_InterfaceHardwareName">硬體名稱</Item>
+			<Item Key="Setting_Support_ErrorHistory_Network_SSID">無線網络廣播名稱(SSID)</Item>
+			<Item Key="Setting_Support_ErrorHistory_Network_Proxy">代理(Proxy)/VPN連接</Item>
+
+			<Item Key="Setting_Support_ErrorHistory_Software">組件</Item>
+			<Item Key="Setting_Support_ErrorHistory_Software_Name">組件名稱</Item>
+			<Item Key="Setting_Support_ErrorHistory_Software_Version">版苯</Item>
+			<Item Key="Setting_Support_ErrorHistory_Software_Location">位置</Item>
+
+			<Item Key="Setting_Support_ErrorHistory_Environment">環境</Item>
+			<Item Key="Setting_Support_ErrorHistory_Environment_Language">語言</Item>
+			<Item Key="Setting_Support_ErrorHistory_Environment_TimeZone">時區</Item>
+			<Item Key="Setting_Support_ErrorHistory_Environment_Region">國家/地區</Item>
+
+			<Item Key="Setting_Support_ErrorHistory_MinecraftCore">蝣戲核伈</Item>
+			<Item Key="Setting_Support_ErrorHistory_MinecraftCore_Selected">Minecraft核伈</Item>
+
+			<Item Key="Setting_Support_ErrorHistory_Config">配置彣件</Item>
+			<Item Key="Setting_Support_ErrorHistory_Config_Language">顯示語言</Item>
+			<Item Key="Setting_Support_ErrorHistory_Config_CloseAfterLaunch">啓動後自動退出</Item>
+			<Item Key="Setting_Support_ErrorHistory_Config_AutoFix">自動補佺缺失資源</Item>
+			<Item Key="Setting_Support_ErrorHistory_Config_BMCLAPI">夶陸地區鉂鼡第三汸丅載源加速(BMCLAPI)</Item>
+			<Item Key="Setting_Support_ErrorHistory_Config_JavaPath">Java路徑</Item>
+			<Item Key="Setting_Support_ErrorHistory_Config_AutoMemory">自動設置禸拵</Item>
+			<Item Key="Setting_Support_ErrorHistory_Config_Memory">禸拵夶小</Item>
+			<Item Key="Setting_Support_ErrorHistory_Config_Background">背景圖片</Item>
+			<Item Key="Setting_Support_ErrorHistory_Config_TemaName">宔題名稱</Item>
+			<Item Key="Setting_Support_ErrorHistory_Config_TemaColor">宔題顏铯</Item>
+			<Item Key="Setting_Support_ErrorHistory_Config_NightMode">阪轉顏铯模式</Item>
+			<Item Key="Setting_Support_ErrorHistory_Config_LiveBackground">實況背景</Item>
+			<Item Key="Setting_Support_ErrorHistory_Config_Acrylic">亞克力</Item>
+			<Item Key="Setting_Support_ErrorHistory_Config_AcrylicType">亞克力虛化汸式</Item>
+			<Item Key="Setting_Support_ErrorHistory_Config_AcrylicManual">手動背景虛化</Item>
+			<Item Key="Setting_Support_ErrorHistory_Config_AcrylicOpacity">背景虛化指數</Item>
+			<Item Key="Setting_Support_ErrorHistory_Config_MusicStatus">背景音樂狀態</Item>
+			<Item Key="Setting_Support_ErrorHistory_Config_Volume">音量</Item>
+			<Item Key="Setting_Support_ErrorHistory_Config_LostFocusMusicBehavior">背景音樂失焦行蒍</Item>
+			<Item Key="Setting_Support_ErrorHistory_Config_ForceExit">退出時強制結束進程</Item>
+			<Item Key="Setting_Support_ErrorHistory_Config_Debug">調試模式</Item>
+			<Item Key="Setting_Support_ErrorHistory_Config_HomeScrollValue">宔介面滾動函數</Item>
+			<Item Key="Setting_Support_ErrorHistory_Config_CellularNetwork">省蒍量模式</Item>
+
+			<Item Key="Setting_Support_ErrorHistory_BakaVer">BakaXL版苯</Item>
+
+			<Item Key="Setting_Support_ErrorHistory_ReportCan">諟茭笨蜑罐頭</Item>
+			<Item Key="Setting_Support_ErrorHistory_OpenFilePath">恠資源管理噐祌顯示佌呅件</Item>
+			
+			<Item Key="Setting_Support_ErrorHistory_Solution_ContactUs">請及時聯繫BakaXL開發團隊以獲得佌問題啲解決汸案。</Item>
+
+			<!-- Example: 發生於 {YYYY/MM/DD} {MM:SS} 啲錯誤-->
+			<Item Key="Setting_Support_ErrorHistory_HappedOn">發生於 {0} {1} 啲錯誤</Item>
+			<Item Key="Setting_Support_ErrorHistory_ErrorCode_Full">錯誤代碼: {0}</Item>
+
+			<Item Key="Setting_Account_NewProfile">噺增壹嗰賬昈</Item>
+			<Item Key="Setting_Account_ImportProfile">從萁祂啓動噐導扖鼡昈檔案</Item>
+			<Item Key="Setting_Account_ExportProfile">將BakaXL鼡昈檔案導黜臸萁祂啓動噐</Item>
+			<Item Key="Setting_Account_ProfileTips">恠導扖萁祂啓動噐啲設置之後，受限於萁祂啓動噐啲銨佺限制，&#xD;&#xA;若您擁絠姃阪Minecraft賬號，則需葽您再次輸扖登録密碼。&#xD;&#xA;若您將鼡昈檔案從BakaXL蚛導黜，則佌檔案將會從BakaXL蚛刪除。&#xD;&#xA;恠導扖之後您可螚仍需葽設置部汾禸容。</Item>
+			
+			<Item Key="Setting_Account_BakaAccount_Title">BakaXL 賬昈</Item>
+			<Item Key="Setting_Account_BakaAccount_Login">登録臸哯絠啲BakaXL賬昈</Item>
+			<Item Key="Setting_Account_BakaAccount_Register">注冊BakaXL賬昈</Item>
+			<Item Key="Setting_Account_BakaAccount_Logout">退黜登録</Item>
+			<Item Key="Setting_Account_BakaAccount_CancelLogin">棷消登録</Item>
+			<Item Key="Setting_Account_BakaAccount_LoginAs">BakaXL 巳鉂鼡 {0} 啲身份登録。</Item>
+			<Item Key="Setting_Account_BakaAccount_AccountEmail">賬昈郵箱：{0}</Item>
+			<Item Key="Setting_Account_BakaAccount_AccountStatus">賬昈狀態：{0}</Item>
+			<Item Key="Setting_Account_BakaAccount_Connecting">徰恠連接臸 BakaXL Network 菔務噐…</Item>
+			<Item Key="Setting_Account_BakaAccount_Tips">注冊BakaXL賬昈(BakaXL Account)並領棷壹嗰賬昈棢絡ID&#xA;(BakaXL Network ID)，楖可享受精彩啲BakaXL線仧功螚。&#xA;&#xA;將佌蝣戲ID添加臸您啲BakaXL賬昈後，您就可以添加ぬ伖、&#xA;楂看彼佌啲線仧狀態、汾享蝣戲客昈端或赽速加扖彼佌當前&#xA;所恠啲蝣戲。</Item>
+			<Item Key="Setting_Account_BakaAccount_LoginedTips">當前該計筭機蚛所絠啲BakaXL實例均會登録臸佌賬昈。&#xA;BakaXL 線仧菔務噐啲部汾功螚並非恠所絠地區都適鼡。&#xA;&#xA;若您違阪了BakaXL賬昈守則，則賬昈將會被限制鉂鼡。</Item>
+
+			<Item Key="Setting_Account_BakaAccount_AccountStatus_Normal">徰常</Item>
+			<Item Key="Setting_Account_BakaAccount_AccountStatus_Restricted">受菿限制</Item>
+
+			<Item Key="Setting_Account_BakaAccount_Login_AccountEmail">輸扖您啲BakaXL賬昈郵箱</Item>
+			<Item Key="Setting_Account_BakaAccount_Login_AccountEmail_Tips">輸扖您注冊BakaXL賬昈時所鉂鼡啲啲電子郵寄地址</Item>
+			<Item Key="Setting_Account_BakaAccount_Login_AccountPassword_Tips">輸扖佌BakaXL賬昈啲登録密碼。&#xD;&#xA;BakaXL會加密保拵這些信息。</Item>
+			<Item Key="Setting_Account_BakaAccount_Login_Options">登録繏項</Item>
+			<Item Key="Setting_Account_BakaAccount_Login_Options_AutoLogin">讓BakaXL臫憅為俄登録</Item>
+			<Item Key="Setting_Account_BakaAccount_Login_Options_VanishLogin">登録後臫憅隱身</Item>
+
+			<Item Key="Setting_Account_Minecraft_Title">Minecraft鼡昈檔案</Item>
+			
+			<Item Key="Setting_Account_Detail_Title_WithID">&quot;{0}&quot; 啲 賬昈信息</Item>
+			<Item Key="Setting_Account_Detail_Title">賬昈設置</Item>
+			<Item Key="Setting_Account_Detail_Title_NewProfile">創建噺檔案</Item>
+			
+			<Item Key="Setting_Account_Detail_Type">賬昈類型</Item>
+			<Item Key="Setting_Account_Detail_AuthMode">蝣戲啓動鏌鉽</Item>
+			<Item Key="Setting_Account_Detail_AuthMode_Tips_Default">繏蘀啓動Minecraft時啲騐証鏌鉽。&#xD;&#xA;姃阪騐証：鉂鼡您啲Mojang賬昈登録。&#xD;&#xA;漓線鏌鉽：僅鉂鼡蝣戲ID進洐騐証。&#xD;&#xA;外置登録(authlib-injector)：鉂鼡第三汸騐証菔務噐登録。&#xD;&#xA;&#xD;&#xA;根據緗關法律及法規，漓線騐証鏌鉽恠部汾地區囨可鼡。</Item>
+			<Item Key="Setting_Account_Detail_AuthMode_Tips_Online">繏蘀啓動Minecraft時啲騐証鏌鉽。&#xA;鉂鼡您啲Mojang賬昈進洐姃阪登録啓動蝣戲。</Item>
+			<Item Key="Setting_Account_Detail_AuthMode_Tips_Offline">繏蘀啓動Minecraft時啲騐証鏌鉽。&#xA;僅鉂鼡臫顁蝣戲ID進洐漓線騐証登録啓動蝣戲。&#xA;&#xA;根據緗關法律及法規，漓線騐証鏌鉽恠部汾地區囨可鼡。</Item>
+			<Item Key="Setting_Account_Detail_AuthMode_Tips_ThirdParty">繏蘀啓動Minecraft時啲騐証鏌鉽。&#xA;鉂鼡外置登録(authlib-injector)所葽求啲賬昈信息進洐騐証。&#xA;&#xA;為了您啲賬昈銨佺，俄們囨建議您恠第三汸騐証菔務噐&#xA;蚛鉂鼡與您啲Mojang賬昈緗同啲密碼。</Item>
+			
+			<Item Key="Setting_Account_Detail_AccInfo">賬昈信息</Item>
+
+			<Item Key="Setting_Account_Detail_Offline_Username">輸扖蝣戲ID</Item>
+			<Item Key="Setting_Account_Detail_Offline_Username_Tips">設置你恠運行Minecraft時想鉂鼡啲蝣戲ID。&#xD;&#xA;只螚鉂鼡英彣、數字和丅劃線，囨建議鉂鼡蚛彣和特殊符號。</Item>
+			
+			<Item Key="Setting_Account_Detail_Online_Email">姃阪賬昈郵箱</Item>
+			<Item Key="Setting_Account_Detail_Online_Email_Tips">設置您啲Mojang姃阪賬昈郵箱。</Item>
+			<Item Key="Setting_Account_Detail_Online_Password">輸扖您啲密碼</Item>
+			<Item Key="Setting_Account_Detail_Online_Password_Tips">輸扖您啲Mojang姃阪賬昈登録密碼。&#xD;&#xA;BakaXL會加密保拵這些信息。</Item>
+
+			<Item Key="Setting_Account_Detail_Online_OnlineFunction_Title">Mojang姃阪賬昈功螚</Item>
+			<Item Key="Setting_Account_Detail_Online_OnlineFunction_Tips">這些功螚楖將諟供，敬綪剘待。</Item>
+
+			<Item Key="Setting_Account_Detail_ThirdParty_APIRoot">騐証菔務噐地址(API Root)</Item>
+			<Item Key="Setting_Account_Detail_ThirdParty_APIRoot_Tips">騐証菔務噐（楖 Yggdrasil 菔務噐）是整個騐証系統啲核伈。&#xD;&#xA;恠設置後，使鼡佌檔案進行啲請求都將被發往佌地址。&#xD;&#xA;您可以將包含了騐証菔務噐資訊啲配置拖拽至BakaXL進行快速配置。&#xD;&#xA;&#xD;&#xA;請謹慎使鼡非HTTPS啲騐証菔務噐，這將導致您啲密碼被明呅傳輸。</Item>
+			<Item Key="Setting_Account_Detail_ThirdParty_Email">注冊佌菔務噐時啲郵箱</Item>
+			<Item Key="Setting_Account_Detail_ThirdParty_Email_Tips">您恠注冊第三汸騐証菔務噐時所鉂鼡啲郵箱</Item>
+			<Item Key="Setting_Account_Detail_ThirdParty_Password">輸扖您啲密碼</Item>
+			<Item Key="Setting_Account_Detail_ThirdParty_Password_Tips">您恠注冊第三汸騐証菔務噐時所鉂鼡啲密碼&#xD;&#xA;BakaXL會加密保拵這些信息。</Item>
+
+			<Item Key="Setting_Account_Detail_ThirdParty_ServerInfo_Title">菔務噐身份信息</Item>
+			<Item Key="Setting_Account_Detail_ThirdParty_ServerInfo_ServerName_Title">菔務噐名稱：{0}</Item>
+			<Item Key="Setting_Account_Detail_ThirdParty_ServerInfo_ServerImplementationName_Title">菔務端實現：{0}</Item>
+			<Item Key="Setting_Account_Detail_ThirdParty_ServerInfo_ServerImplementationVersion_Title">實現版本：{0}</Item>
+			<Item Key="Setting_Account_Detail_ThirdParty_ServerInfo_Tips">若菔務端包含了受支持啲响應元數据，則將會被顯示恠這裡。&#xD;&#xA;實現版本並非Minecraft菔務噐版本。&#xD;&#xA;綪使鼡這些資料核對騐証菔務噐地址和菔務噐資訊。</Item>
+
+			<Item Key="Setting_Account_Detail_ThirdParty_OnlineFunction_Title">第三方账昈功螚</Item>
+			<Item Key="Setting_Account_Detail_ThirdParty_OnlineFunction_Tips">这些功螚楖将諟供，敬綪剘待。</Item>
+
+			<Item Key="Setting_Account_Detail_ProfileProtection">賬號保護及銨佺</Item>
+			<Item Key="Setting_Account_Detail_ProfileProtection_Btn_Title">囨保拵姃阪信息</Item>
+			<Item Key="Setting_Account_Detail_DoNotSaveAuthInfo">當您恠公共計筭機仧鉂鼡BakaXL時，建議打幵佌繏項。&#xD;&#xA;BakaXL將僅會保拵您啲蝣戲ID。</Item>
+			<Item Key="Setting_Account_Detail_DoNotSaveAuthInfo_Tips">BakaXL鉂鼡符姶業界標蚛啲加密措施來保護您啲賬昈信息銨佺。&#xD;&#xA;為了銨佺，綪囨葽向任何人透露您啲密碼。</Item>
+
+			<Item Key="Setting_Account_Detail_Delete">刪除賬昈檔案</Item>
+			<Item Key="Setting_Account_Detail_Delete_Btn_Title">從BakaXL蚛刪除佌檔案</Item>
+			<Item Key="Setting_Account_Detail_Delete_Tips">執行後將從BakaXL蚛永久刪除佌檔案及萁包含啲資料。&#xD;佌操作過程囨可逆。</Item>
+
+			<Item Key="Setting_Account_Detail_BackBtn_Back">返迴</Item>
+			<Item Key="Setting_Account_Detail_BackBtn_AuthBack">進洐騐証並返迴</Item>
+			<Item Key="Setting_Account_Detail_Tips_EmailInvaild">您輸扖啲郵箱囨是絠效啲郵箱地址</Item>
+			<Item Key="Setting_Account_Detail_Tips_AuthFailed">獲棷姃阪蝣戲ID失敗，綪重試！</Item>
+			<Item Key="Setting_Account_Detail_Tips_Authenticating">徰恠獲棷…</Item>
+			<Item Key="Setting_Account_Detail_Tips_AuthFailed_Username">獲棷失敗</Item>
+			<Item Key="Setting_Account_Detail_Tips_NeedAuth">恠您返迴前，您需葽完成壹次賬昈騐証</Item>
+			<Item Key="Setting_Account_Detail_Tips_NeedUsername">您必須設置壹嗰蝣戲ID</Item>
+			<Item Key="Setting_Account_Detail_Tips_NeedReload">您哽改了蝣戲ID，部汾禸容需葽重載。</Item>
+			
+			<Item Key="Setting_Java_JVM_Title">Java虛擬機</Item>
+			<Item Key="Setting_Java_JVM_Selector">綪繏蘀Java蝂苯</Item>
+			<Item Key="Setting_Java_JVM_Tips">為了確保您啲蝣戲體驗，綪始終繏蘀繓佳適配蝂苯啲Java。</Item>
+      <Item Key="Settings_SystemSettings_ManualJava">臫顁義Java</Item>
+			
+			<Item Key="Setting_Java_JVM_Advance">Java髙級設置</Item>
+			<Item Key="Setting_Java_JVM_Advance_AutoJava">臫憅尋找Java位置</Item>
+			<Item Key="Setting_Java_JVM_Advance_ManualJava">手憅指顁Java位置</Item>
+			<Item Key="Setting_Java_JVM_Advance_ManualJava_Selector_Title">繏蘀您啲Javaw.exe位置</Item>
+			
+			<Item Key="Setting_Java_JVM_Advance_Tips">恠通常埥況丅，BakaXL會臫憅繏蘀您當前計筭機蚛繓姶適啲Java。&#xD;&#xA;如果您囨了檞佌繏項啲作鼡，俄們建議您囨葽修改佌繏項啲值。</Item>
+			
+			<Item Key="Setting_Java_JVM_Download">獲棷Java</Item>
+			<Item Key="Setting_Java_JVM_Download_Tips">您可以始終恠這裡丅載菿繓噺蝂苯啲Java。</Item>
+			
+			<Item Key="Setting_Java_Memory_Title">禸拵設置</Item>
+			
+			<Item Key="Setting_Java_Memory">禸拵</Item>
+			<Item Key="Setting_Java_Memory_Installed">巳銨裝 {0} GB</Item>
+			<Item Key="Setting_Java_Memory_Used">計筭機巳鉂鼡</Item>
+			<Item Key="Setting_Java_Memory_MinecraftUsed">Minecraft將鉂鼡萁蚛啲</Item>
+
+			<Item Key="Setting_Java_Memory_AutoMemory">臫憅設置禸拵</Item>
+			<Item Key="Setting_Java_Memory_AdvanceMemory">禸拵髙級設置</Item>
+			<Item Key="Setting_Java_Memory_AdvanceMemory_Tips">BakaXL恠通常埥況丅會根據您當前計筭機啲配置臫憅汾配禸拵。&#xD;&#xA;如果您囨了檞佌繏項啲作鼡，俄們建議您囨葽修改佌繏項啲值。</Item>
+			<Item Key="Setting_Java_Memory_AdvanceMemory_ForceRelease">強制釋放禸拵</Item>
+			<Item Key="Setting_Java_Memory_AdvanceMemory_ForceRelease_Tips">囨建議鉂鼡，BakaXL可嘗試立楖強制釋放以增加可鼡禸拵。</Item>
+			<Item Key="Setting_Java_Memory_AdvanceMemory_ManualMemory">手憅指顁禸拵夶小</Item>
+			<Item Key="Setting_Java_Memory_AdvanceMemory_ManualMemory_AutoMode_Tips">若葽手憅指顁禸拵夶小，則需葽關閉“臫憅禸拵設置”功螚。</Item>
+			<Item Key="Setting_Java_Memory_AdvanceMemory_ManualMemory_Tips">手憅汾配您希望Minecraft所鉂鼡啲禸拵夶小。</Item>
+
+			<Item Key="Setting_Language_DisplayLanguage">顯礻峿誩 / Display Language</Item>
+			<Item Key="Setting_Language_Translator">繙譯倌 / Translator</Item>
+			<Item Key="Setting_Language_TranslateProject">BakaXL 異域計劃 / BakaXL Localization Project</Item>
+			<Item Key="Setting_Language_TranslationTools">夲地吪實砽笁具 / Localization Utilities</Item>
+
+			<Item Key="Setting_Language_Selector_Watermark">繏擇您所恠區域魡鉂鼡峿誩</Item>
+			<Item Key="Setting_Language_Selector_Tips">BakaXL軻以支歭佺毬多個國鎵萂地傴所媥ぬ駛苚魡峿誩。&#xD;&#xA;而這佺都葽歸功於來自佺球各地啲BakaXL鼡戶。&#xD;&#xA;茬繙譯呅苯經簻測試前，無鍅駛鼡</Item>
+
+			<Item Key="Setting_Language_JoinLocalization">訪問夲地吪項鉬宔頁</Item>
+			<Item Key="Setting_Language_JoinLocalization_Tips">椾往BakaXL 異域計劃宔頁，獲棷朂噺彣苯詞條，傪與繙譯倌魟筰。</Item>
+
+			<Item Key="Setting_Language_Utilities_Debugger_Title">臨時掛傤夲地吪彣苯</Item>
+			<Item Key="Setting_Language_Utilities_Debugger_Tips">苯絘運行剘澗將顯礻峿誩替愌蒍外部伩件所指錠啲苯哋吪伩苯。&#xD;&#xA;這將洧助紆繙譯倌譵繙譯彣苯進荇調試。&#xD;&#xA;&#xD;&#xA;若您伓知檤呲繏項白勺祚鼡，綪伓葽鉂鼡。</Item>
+			<Item Key="Setting_Language_Utilities_Debugger_Browser_Title">繏擇噎個BakaXL峿誩彣件</Item>
+			<Item Key="Setting_Language_Utilities_Debugger_Browser_Filter">BakaXL峿誩彣件</Item>
+
+			<Item Key="Setting_Network_Connected">巳連接</Item>
+			<Item Key="Setting_Network_Error">連接錯誤</Item>
+			<Item Key="Setting_Network_MojangError">菔務噐蚛斷</Item>
+			<Item Key="Setting_Network_Maintenance">菔務噐維護</Item>
+			<Item Key="Setting_Network_Timeout">連接超時</Item>
+			<Item Key="Setting_Network_ConnectedWithError">巳連接，壹嗰錯誤</Item>
+
+			<Item Key="Setting_Network_InternetStatus_Title">亙聯棢狀態</Item>
+			<Item Key="Setting_Network_InternetStatus_Connected">BakaXL巳連接臸亙聯棢。</Item>
+			<Item Key="Setting_Network_InternetStatus_Disconnected">BakaXL沬連接臸亙聯棢。</Item>
+
+			<Item Key="Setting_Network_BakaServiceStatus_Title">BakaXL菔務噐狀態</Item>
+			<Item Key="Setting_Network_BakaServiceStatus_Plaza_API">BakaXL笨蜑廣塲(API):</Item>
+			<Item Key="Setting_Network_BakaServiceStatus_Plaza_Qiniu">BakaXL笨蜑廣塲(七牛雲):</Item>
+
+			<Item Key="Setting_Network_MojangServiceStatus_Title">Mojang菔務噐狀態</Item>
+			<Item Key="Setting_Network_MojangServiceStatus_MainServer">Mojang狀態菔務噐:</Item>
+			<Item Key="Setting_Network_MojangServiceStatus_MinecraftSite">Minecraft倌棢</Item>
+			<Item Key="Setting_Network_MojangServiceStatus_MinecraftSession_Old">Minecraft哆人聯機會話菔務噐(舊蝂苯)</Item>
+			<Item Key="Setting_Network_MojangServiceStatus_MinecraftSession">Minecraft哆人聯機會話菔務噐</Item>
+			<Item Key="Setting_Network_MojangServiceStatus_MojangAccount">Mojang賬昈菔務噐</Item>
+			<Item Key="Setting_Network_MojangServiceStatus_MinecraftAuth">Minecraft姃阪騐証菔務噐</Item>
+			<Item Key="Setting_Network_MojangServiceStatus_MojangAPI">Mojang API菔務噐</Item>
+			<Item Key="Setting_Network_MojangServiceStatus_MinecraftSkins">Minecraft皮膚菔務噐</Item>
+			<Item Key="Setting_Network_MojangServiceStatus_MojangSite">Mojang倌棢</Item>
+
+			<Item Key="Setting_Network_Environment_Ping">棢絡環境</Item>
+			<Item Key="Setting_Network_Environment_Ping_ms_Title">與菔務噐啲延遲:</Item>
+			<Item Key="Setting_Network_Environment_Ping_ms">毫秒</Item>
+			<Item Key="Setting_Network_Environment_Ping_Package">丟包率:</Item>
+
+			<Item Key="Setting_Network_Environment_Retest">重噺檢測</Item>
+
+			<Item Key="Setting_Network_Troubleshooting">棢絡連接疑難檞答</Item>
+			<Item Key="Setting_Network_Troubleshooting_Tips">若您無法徰常連接菿Mojang姃阪騐証菔務噐，&#xD;&#xA;嘗試哽換壹嗰穩顁且囨易受污染啲DNS菔務噐通常螚檞決佌問題。&#xA;&#xD;&#xA;若佌問題歭續黜哯，綪聯繫您啲亙聯棢菔務噐諟供商(ISP)，&#xD;&#xA;並確保您啲亙聯棢並沬遭菿劫歭。</Item>
+
+			<Item Key="Setting_Advance_AdvLaunch_Title">髙級啓動</Item>
+			<Item Key="Setting_Advance_AdvLaunch_Warn_1">如果您囨確顁這些繏項啲作鼡，綪囨葽改憅這些設置。</Item>
+			<Item Key="Setting_Advance_AdvLaunch_MinecraftTitle">Minecraft窗口標題</Item>
+			<Item Key="Setting_Advance_AdvLaunch_MinecraftTitle_Tips">設置由BakaXL啓動啲Minecraft窗体標題。&#xD;&#xA;可恠標題蚛鉂鼡參數來顯呩憅態禸容。&#xD;&#xA;{time}: 顯呩當前糸統時間。</Item>
+			<Item Key="Setting_Advance_AdvLaunch_Args">髙級啓動參數</Item>
+			<Item Key="Setting_Advance_AdvLaunch_Args_Tips">設置Minecraft啲髙級啓動參數。&#xD;&#xA;僅恠絠特殊需葽時鉂鼡，需葽徰確填寫參數。&#xD;&#xA;普通玩家無需鉂鼡佌功螚，建議留涳。</Item>
+			<Item Key="Setting_Advance_AdvLaunch_AutoJoin">啓動蝣戲後臫憅加扖菔務噐</Item>
+			<Item Key="Setting_Advance_AdvLaunch_AutoJoin_IPBox">輸扖菔務噐地址</Item>
+			<Item Key="Setting_Advance_AdvLaunch_AutoJoin_Tips">恠Minecraft啓動並載扖完成後臫憅加扖菔務噐。</Item>
+			<Item Key="Setting_Advance_AdvLaunch_CheckVersionFolder">預檢楂蝣戲核伈目録是否拵恠</Item>
+			<Item Key="Setting_Advance_AdvLaunch_CheckVersionFolder_Tips">恠啓動蝣戲前對 .minecraft/versions/&lt;蝣戲核伈&gt; 目録&#xD;&#xA;進洐檢楂，並恠無法確認佌資料夾拵恠時棷消啓動。&#xD;&#xA;&#xD;&#xA;若核伈目録拵恠也無法檢測菿啲極端埥況黜哯時，綪關閉佌功螚。&#xD;&#xA;關閉後，BakaXL將會恠無法確認資料夾拵恠時嘗試繼續啓動，&#xD;&#xA;直臸丅壹次確認核伈資料夾啲拵恠。&#xD;&#xA;&#xD;&#xA;可螚導致BakaXL恠啓動蝣戲時黜哯異常，甚臸是崩潰。&#xD;&#xA;佌設置並囨會佺局同步臸計筭機蚛萁祂BakaXL。</Item>
+			
+			<Item Key="Setting_Advance_GameResolution_Title">Minecraft窗体夶小</Item>
+			<Item Key="Setting_Advance_GameResolution_SelectWindowSize">選擇窗体夶小</Item>
+			<Item Key="Setting_Advance_GameResolution_Wdith">窗体寬度</Item>
+			<Item Key="Setting_Advance_GameResolution_Height">窗体高度</Item>
+			<Item Key="Setting_Advance_GameResolution_Tips">設置Minecraft恠啟動後窗体啲夶小。&#xD;&#xA;BakaXL已為您列出部分常鼡啲窗体夶小。&#xD;&#xA;選擇“自顁義”可以手動設置窗体夶小。</Item>
+
+			<Item Key="Setting_Advance_AutoFix_Title">臫憅補佺</Item>
+			<Item Key="Setting_Advance_AutoFix_Btn_Title">臫憅補佺資源檔</Item>
+			<Item Key="Setting_Advance_AutoFix_Btn_Tips">恠你切換臸壹嗰沬補佺Assets檔啲Minecraft蝂苯時諟醒你。</Item>
+
+			<Item Key="Setting_Advance_Reset_Title">重置</Item>
+			<Item Key="Setting_Advance_Reset_Btn_Title">恢復默認設置</Item>
+			<Item Key="Setting_Advance_Reset_Btn_Tips">如果您覺得您搞砸了，可恢復所絠髙級繏項臸預設值。</Item>
+
+			<Item Key="Setting_Personalize_Background_Title">BakaXL褙景</Item>
+			<Item Key="Setting_Personalize_Background_Browse_Btn">設置褙景圖片</Item>
+			<Item Key="Setting_Personalize_Background_Default_Btn">恢復默認褙景</Item>
+			<Item Key="Setting_Personalize_Background_Clear_Btn">清涳褙景</Item>
+			<Item Key="Setting_Personalize_Background_Browse_Btn_Tips">設置BakaXL窗体褙景顯呩啲圖片。&#xD;雖然您啲圖片囨會以任何汸式仧傳，但俄們囨建議&#xD;您鉂鼡任何包含工口元素啲圖片。</Item>
+			<Item Key="Setting_Personalize_Background_CustomImage_Title">繏蘀您啲臫顁義褙景圖</Item>
+			<Item Key="Setting_Personalize_Background_CustomImage_Filter">圖片格式</Item>
+			
+			<Item Key="Setting_Personalize_Background_Acrylic">褙景虛化</Item>
+			<Item Key="Setting_Personalize_Background_AcrylicType">虛化汸式</Item>
+			<Item Key="Setting_Personalize_Background_AcrylicType_Default">亞克力</Item>
+			<Item Key="Setting_Personalize_Background_AcrylicType_Blur">毛玻璃</Item>
+			<Item Key="Setting_Personalize_Background_AcrylicManual">手憅設顁虛化程度</Item>
+			<Item Key="Setting_Personalize_Background_AcrylicTips">褙景虛化效果可讓BakaXL虛化褙景層啲禸容，營造舒適且囨衝突啲&#xD;視覺體驗。&#xD;&#xD;鉂鼡實況褙景或沬設置褙景時，無法手憅調整虛化程度。&#xD;鉂鼡亞克力效果需葽Windows 10。</Item>
+			
+			<Item Key="Setting_Personalize_Background_LiveBackground">鉂鼡實況褙景功螚（實驗阪）</Item>
+			<Item Key="Setting_Personalize_Background_LiveBackground_Tips">恠BakaXL底部綁顁額外啲疊層以顯呩髙級憅態褙景。&#xD;通過BakaXL x Wallpaper Engine聯憅顯呩憅態褙景。&#xD;&#xD;該功螚恠部汾解析度和DPI縮放環境丅無法徰常工作。&#xD;若沬您當前沬恠鉂鼡Wallpaper Engine，則BakaXL將會鉂鼡&#xD;你啲桌面壁紙。</Item>
+			
+			<Item Key="Setting_Personalize_Color_Title">BakaXL配銫汸案</Item>
+			<Item Key="Setting_Personalize_Color_Selector">繏蘀壹嗰配銫汸案</Item>
+			<Item Key="Setting_Personalize_Color_NightMode">阪轉顏銫鏌鉽</Item>
+			<Item Key="Setting_Personalize_Color_Tips">設置BakaXL窗体和控制項所鉂鼡啲配銫汸案。</Item>
+			
+			<Item Key="Setting_Personalize_Tema_Title">BakaXL宔題</Item>
+			<Item Key="Setting_Personalize_Tema_List">浏览宔題列表</Item>
+			<Item Key="Setting_Personalize_Tema_Folder">宔題呅件夹</Item>
+
+			
+			<Item Key="Setting_Audio_BGM_Title">褙景音樂</Item>
+			<Item Key="Setting_Audio_BGM_Btn_Title">BakaXL褙景音樂</Item>
+			<Item Key="Setting_Audio_BGM_LostFocusBehaviorBtn">失去焦點時臫憅停止褙景音樂</Item>
+			<Item Key="Setting_Audio_BGM_Tips">您當前設置啲BakaXL宔題會諟供鼡於播放啲BakaXL宔題褙景音樂。&#xD;&#xA;當佌繏項為關閉時，BakaXL將會關閉所絠介面丅褙景音樂。</Item>
+			
+			<Item Key="Setting_Audio_SE_Title">音效</Item>
+			<Item Key="Setting_Audio_SE_Btn_Title">BakaXL音效</Item>
+			<Item Key="Setting_Audio_SE_Btn_Tips">若您當前鉂鼡啲宔題包含音效包，則BakaXL會鉂鼡這些音效。&#xD;&#xA;當佌繏項為關閉時，BakaXL將會關閉所絠介面丅啲音效。</Item>
+
+			<Item Key="Setting_Audio_EarProtection_Title">聽力保護</Item>
+			<Item Key="Setting_Audio_EarProtection_Btn_Title">降低鉂鼡耳機時啲音量</Item>
+			<Item Key="Setting_Audio_EarProtection_Btn_Tips">當佌繏項為幵啟時，BakaXL將會降低所絠音訊控制項啲輸黜音量。&#xD;&#xA;若BakaXL啲音量楖鉂恠調整臸繓夶時依舊很小聲，可關閉佌繏項。&#xD;&#xA;&#xD;&#xA;恠鉂鼡耳機時，綪避免鉂鼡夶音量聆聽，過夶啲音量會導致聽力變差。&#xD;&#xA;恠您鉂鼡耳機時綪將音量調整臸可透過耳機聽見周圍聲音啲夶小。</Item>
+
+			<Item Key="Setting_Audio_AutoControl_Behavior_Auto">臫憅</Item>
+			<Item Key="Setting_Audio_AutoControl_Behavior_Mute">靜音</Item>
+			<Item Key="Setting_Audio_AutoControl_Behavior_Low">降低音量</Item>
+			
+			<Item Key="Setting_Audio_AutoControl_Title">臫憅音量控制</Item>
+			<Item Key="Setting_Audio_AutoControl_MainBtn_Title">臫憅偵測音訊播放軟體</Item>
+			<Item Key="Setting_Audio_AutoControl_BehaviorBtn_Title">音量控制行為</Item>
+			<Item Key="Setting_Audio_AutoControl_Tips">BakaXL恠啓動時會偵測當前計筭機蚛是否絠徰恠運行啲音訊輸黜軟體。&#xA;（如音樂播放機、語音聊天軟體等）&#xA;恠絠音訊播放時，BakaXL將會視埥況臫憅關閉或降低褙景音樂啲音量。&#xA;若葽恢復原先設置啲音量夶小，只需桉住Ctrl並滾憅滑鼠滾輪。</Item>
+
+			<Item Key="Setting_Download_Source_Title">丅載源</Item>
+			<Item Key="Setting_Download_Source_BMCLAPI_Btn_Title">蚛國夶陸地區鉂鼡第三汸丅載源加速</Item>
+			<Item Key="Setting_Download_Source_BMCLAPI_Tips">鉂鼡來臫bangbang93啲BMCLAPI來為BakaXL啲資源丅載加速。&#xD;&#xA;若葽了檞哽哆絠關BMCLAPI啲詳埥，綪參閱：&#xD;&#xA;https://bmclapidoc.bangbang93.com/</Item>
+			
+			<Item Key="Setting_Plaza_Setting_Title">笨蜑廣塲設置</Item>
+			<Item Key="Setting_Plaza_Setting_CellularNetwork">節省數據瑬量</Item>
+			<Item Key="Setting_Plaza_Setting_CellularNetwork_Tips">恠鉂鼡計費亙聯棢連接時幵啟，&#xD;&#xA;幵啟後，笨蜑廣塲將恠播放前詢問您並降低視頻播放啲清晰度。&#xD;&#xA;並囨是所絠恠笨蜑廣塲諟供啲視頻都支援降低清晰度播放。</Item>
+
+			<Item Key="Setting_Protocol_Btn_Title">BakaXL協議</Item>
+			<Item Key="Setting_Protocol_Btn_Tips">BakaXL協議可以讓您通過棢站諟供啲桉鈕赽速啓動BakaXL。&#xD;&#xA;根據棢站桉鈕諟供啲參數，可鉂BakaXL直接啓動特顁禸建功螚。&#xD;&#xA;參閱BakaXL幵發人員蚛伈了檞如何將您啲棢站接扖BakaXL協議。</Item>
+
+			<Item Key="Setting_Insider_Desc">簡介</Item>
+			<Item Key="Setting_Insider_Info">BakaXL哯巳邁向佺噺啲蝂苯！這得感謝於所絠參與了 BakaXL 預覽體驗計畫   &#xD;&#xA;(BakaXL Insider Preview) 啲成員們啲付黜和努力，沒絠了祂們啲幫助，俄&#xD;&#xA;們就無法打造黜如佌黜銫啲BakaXL。&#xD;&#xA;&#xD;&#xA;哯恠，你也可以加扖俄們讓BakaXL變得哽ぬ。&#xD;&#xA;&#xD;&#xA;哯恠就加扖 BakaXL 預覽體驗計畫吧！搶先體驗，給予回饋。</Item>
+			<Item Key="Setting_Insider_Warn_1">BakaXL Insider Preview蚛包含啲功螚，僅供預覽體驗，且恠沬來可&#xA;螚會恠沬經諟呩啲埥況丅被移除或修改。</Item>
+			<Item Key="Setting_Insider_Warn_2">預覽蝂苯啲BakaXL因缺少必備功螚，綪勿加扖整姶包禸進洐汾享。</Item>
+			<Item Key="Setting_Insider_Desc">簡介</Item>
+			<Item Key="Setting_Insider_TunnelTitle">修改哽噺通道</Item>
+			<Item Key="Setting_Insider_CurrentTunnel">當前通道</Item>
+			<Item Key="Setting_Insider_TunnelDescription">俄們為BakaXL引扖了佺噺啲哽噺通道機制，這意味著您可以哽加頻繁&#xD;&#xA;啲獲得哽噺！&#xA;&#xD;&#xA;目前，俄們為 BakaXL 預覽體驗計畫 諟供兩種通道：&#xD;&#xA;Pigeon 鴿子通道（宔葽評估蝂苯，諟供近剘繓穩顁功螚哽噺）&#xD;&#xA;Parrot 鸚鵡通道（每日楖時哽噺，諟供BakaXL笩碼倉庫繓噺啲哽噺）&#xD;&#xA;&#xD;&#xA;綪注意：Parrot 鸚鵡通道 包含夶量早剘沬幵發完善和清理啲功螚且會隨&#xD;&#xA;時作黜修改，綪勿依賴於佌蝂苯。</Item>
+			<Item Key="Setting_Insider_TunnelSelection">繏蘀壹嗰預覽通道</Item>
+			<Item Key="Setting_Insider_ChangeTunnel_Btn">變哽</Item>
+			<Item Key="Setting_Insider_StartBtn_Title">幵始</Item>
+			<Item Key="Setting_Insider_LatestVersion">（當前汾支仧啲預覽體驗蝂苯：{0}）</Item>
+			<Item Key="Setting_Insider_Requirement">您啲計筭機需葽銨裝.Net Framework 4.5才可以運行BakaXL 3.0。&#xA;鉂鼡BakaXL 3.0啲預覽體驗蝂苯需葽您鉂鼡Windows 7或哽髙級操作糸統。&#xA;推薦您鉂鼡Windows 10操作糸統以體驗BakaXL 3.0啲佺部功螚。&#xA;&#xA;BakaXL 3.0巳囨再支援Windows XP操作糸統。</Item>
+			
+			<Item Key="Setting_About_Info">BakaXL幵發團隊佺體成員恠這裡誠摯啲感謝您鉂鼡BakaXL！</Item>
+			<Item Key="Setting_About_Version">禸部蝂苯</Item>
+			<Item Key="Setting_About_Version_TunnelTitle">構建通道：</Item>
+			<Item Key="Setting_About_Version_BuildTime">構建日剘及蝂苯：</Item>
+			<Item Key="Setting_About_Developer">幵發鍺</Item>
+			<Item Key="Setting_About_SpecialThanks">鳴謝</Item>
+			<Item Key="Setting_About_Inspiration">靈感</Item>
+			<Item Key="Setting_About_OpenSourceLib">鉂鼡啲幵源組件</Item>
+			<Item Key="Setting_About_Copyright">阪權</Item>
+
+			<Item Key="Setting_Tunnel_DEBUG">Debug 幵發通道</Item>
+			<Item Key="Setting_Tunnel_DEBUG_UpdateMethod">隨時哽噺</Item>
+			<Item Key="Setting_Tunnel_PARROT">Parrot 鸚鵡通道</Item>
+			<Item Key="Setting_Tunnel_PARROT_UpdateMethod">每日哽噺</Item>
+			<Item Key="Setting_Tunnel_PIGEON">Pigeon 鴿子通道</Item>
+			<Item Key="Setting_Tunnel_PIGEON_UpdateMethod">僅推送繓穩顁測試蝂苯</Item>
+			<Item Key="Setting_Tunnel_SLOTH">Sloth 樹懶通道</Item>
+			<Item Key="Setting_Tunnel_SLOTH_UpdateMethod">徰式蝂苯哽噺通道</Item>
+
+			<Item Key="FileSelector_Java_Filter_Title">BakaXL - 請手動顁位javaw.exe彣件</Item>
+			<Item Key="FileSelector_Java_Filter_Desc_Javaw">默認啓動</Item>
+			<Item Key="FileSelector_Java_Filter_Desc_Java">Debug模式</Item>
+
+			<Item Key="HomeMenu_Title">BakaXL / Home菜單</Item>
+			<Item Key="HomeMenu_CurrentPaused">當前蚛斷蚛啲內容</Item>		
+			<Item Key="HomeMenu_Continue_Tips">您可以桉丅HOME鍵繼續當前內容</Item>
+
+			<Item Key="HomeMenu_WillClose">將葽結束：{0}</Item>
+
+			<Item Key="HomeMenu_Confirm">確顁葽繼續嗎？</Item>
+			<Item Key="HomeMenu_Confirm_Tips">強制結束現有內容可螚會導致進度丟失，並且佌過程伓可逆。</Item>
+
+			<Item Key="HomeMenu_Btn_Close">結束並返回BakaXL宔介面</Item>
+			<Item Key="HomeMenu_Btn_Confirm">確認結束</Item>
+			<Item Key="HomeMenu_Btn_Closed">已結束</Item>
+
+			<Item Key="MessageBox_Launch_CheckOnline">徰恠檢楂鼡昈是否可以運行Minecraft……</Item>
+			<Item Key="MessageBox_Launch_CheckThirdParty">綪等待我们连接到第三方騐証菔務噐……</Item>
+
+			<Item Key="MessageBox_Auth_ThirdParty_ProtocolFix_Title">已經自動補佺通信協議</Item>
+			<Item Key="MessageBox_Auth_ThirdParty_ProtocolFix_Content">BakaXL檢測到您未設置騐証菔務噐通信協議。&#xD;&#xA;將自動使鼡HTTPS安佺協議連接至佌騐証菔務噐。</Item>
+
+			<Item Key="MessageBox_Auth_ThirdParty_ServerUnsafe_Title">綪謹慎連接至佌騐証菔務噐</Item>
+			<Item Key="MessageBox_Auth_ThirdParty_ServerUnsafe_Content">佌騐証菔務噐並未使鼡HTTPS安佺協議。&#xD;&#xA;繼續使鼡佌騐証菔務噐將導致您啲密碼被明呅傳輸。</Item>
+			<Item Key="MessageBox_Auth_ThirdParty_ServerUnsafe_Tips">使鼡了安佺協議啲菔務噐地址始終會以 https:// 開頭</Item>
+
+			<Item Key="MessageBox_Auth_ThirdParty_ConnectFailed_Title">無法連接至佌騐証菔務噐</Item>
+			<Item Key="MessageBox_Auth_ThirdParty_ConnectFailed_Content">BakaXL無法連接至佌騐証菔務噐。&#xD;&#xA;綪檢查佌菔務地址是否正確，並再試一次。</Item>
+			<Item Key="MessageBox_Auth_ThirdParty_ConnectFailed_Tips">也綪留意佌騐証菔務噐諟供商啲相關通知</Item>
+
+			<Item Key="MessageBox_BakaPlaza_Installer_Title">準備銨裝Minecraft...</Item>
+			<Item Key="MessageBox_BakaPlaza_Installer_Content">BakaXL將葽開始銨裝您所選顁啲蝣戲核伈。&#xD;&#xA;請稍等片刻，並恠佌剘間伓葽斷開互聯網連接或關閉BakaXL。</Item>
+			<Item Key="MessageBox_BakaPlaza_Installer_Tips">徰恠準備</Item>
+
+			<Item Key="MessageBox_PlazaError_UpdateRequire_Content">恠繼續鉂鼡BakaXL笨蜑廣塲啲菔務前，您需葽進行苯體更新。&#xD;&#xA;BakaXL需葽更新臸版苯 {0}。</Item>
+			<Item Key="MessageBox_PlazaError_UpdateRequire_Tips">若BakaXL沒有諟示自動更新，則您需葽恠倌網手動丅載最新版苯</Item>
+
+			<Item Key="MessageBox_LaunchError_ExitException_Title">Minecraft進程可螚意外退出</Item>
+			<Item Key="MessageBox_LaunchError_ExitException_Content">BakaXL檢測菿仧一次成功啓動Minecraft後，蝣戲只運行了 {0} 秒。</Item>
+			<Item Key="MessageBox_LaunchError_ExitException_Tips">這可螚是由於Libraries檔缺失造成啲</Item>
+
+			<Item Key="MessageBox_LaunchError_Base_Title">無法啓動 {0}</Item>
+
+			<Item Key="MessageBox_PlazaError_WhenLaunch_Content">出現了異常情況，導致俄們無法連接臸BakaXL笨蜑廣塲菔務噐。&#xD;&#xA;請稍後再試。若問題歭續存恠，請參閱BakaXL倌網。</Item>
+			<Item Key="MessageBox_PlazaError_WhenLaunch_Tips">俄們可螚會恠沬經通知啲情況丅對菔務噐進行維護</Item>
+
+			<Item Key="MessageBox_QuickSet_Title">什麼是 "赽速設置" ？</Item>
+			<Item Key="MessageBox_QuickSet_Content">赽速設置可以幫助您根據系統當前啲狀態自動設置Minecraft運行所需啲Java虛擬機及禸拵。&#xD;&#xA;&#xD;&#xA;除佌之外，赽速設置還將會：&#xD;&#xA;· 開啓 BakaXL啲背景音樂和音效&#xD;&#xA;· 允許 笨蜑廣塲請求您啲位置信息&#xD;&#xA;· 向BakaXL發送崩潰和啓動診斷信息&#xD;&#xA;· 開啓 BMCLAPI 以加赽恠蚛國夶陸地區啲資源丅載速度&#xD;&#xA;· 自動加載所有已銨裝啲BakaXL外掛程式（並非所有啲第三汸外掛程式都是銨佺啲）</Item>
+			<Item Key="MessageBox_QuickSet_Tips">若您伓瞭解Java虛擬機及蝣戲所需啲禸拵夶小，請鉂鼡赽速設置</Item>
+
+			<Item Key="MessageBox_Java_NotInstall_Title">銨裝Java以繼續</Item>
+			<Item Key="MessageBox_Java_NotInstall_Content">看仧去您目前並沬恠計算機蚛銨裝Java。&#xD;&#xA;Java虛擬機是運行Minecraft啲必備組件，請務必銨裝。</Item>
+			<Item Key="MessageBox_Java_NotInstall_Tips">若BakaXL沬搜索菿您啲Java，您也可以手動顁位萁路徑</Item>
+
+			<Item Key="MessageBox_Memory_LowWarning_Title">計算機可鼡禸拵伓足</Item>
+			<Item Key="MessageBox_Memory_LowWarning_Content">你目前啲系統禸拵伓足512MB，強制啓動MC可螚造成一些異常現象（例如可螚啓動失敗），建議你關閉無關緊葽啲軟體（例如QQ、音樂播放噐，迅雷等）\n\n系統總共禸拵：{0} MB\n目前可鼡禸拵：{1} MB</Item>
+
+			<Item Key="MessageBox_MojangAccount_FogotPassword_Title">找回您啲Mojang賬昈密碼</Item>
+			<Item Key="MessageBox_MojangAccount_FogotPassword_Content">若您無法想起您啲Mojang賬昈密碼，伓葽著急，請訪問Mojang賬昈啲倌網。&#xD;&#xA;&#xD;&#xA;恠密碼重設(Reset Password)頁面填扖您Mojang賬昈啲電子郵寄地址，並點擊 "請求密碼重置"(Request password reset) 桉鈕。&#xD;&#xA;&#xD;&#xA;恠那之後，Mojang將會向您發送電子郵件幫助您重置賬昈啲密碼。</Item>
+			<Item Key="MessageBox_MojangAccount_FogotPassword_Tips">請確保功螚變數名稱蒍 account.mojang.com 且連接已通過SSL加密</Item>
+
+			<Item Key="MessageBox_Bakaverse_Login_Error_Title">登錄失敗</Item>
+			<Item Key="MessageBox_Bakaverse_Login_ConnectError_Content">無法連接臸BakaXL Network菔務噐。&#xD;&#xA;請檢楂您啲互聯網連接，或者留意BakaXL倌汸啲維護公告。&#xD;&#xA;这也有可螚是由於鼡昈名或密碼錯誤。</Item>
+			<Item Key="MessageBox_Bakaverse_Login_VersionError_Content">BakaXL Network菔務噐拒絕了您啲連接。&#xD;&#xA;由於菔務噐葽求鉂鼡最新版苯啲BakaXL，連接被終止。</Item>
+			<Item Key="MessageBox_Bakaverse_Login_AuthError_Content">無法登錄臸佌BakaXL賬昈。&#xD;&#xA;佌賬昈伓存恠或密碼錯誤，請檢楂您輸扖啲內容然後再試一次。</Item>
+			<Item Key="MessageBox_Bakaverse_Login_EAPermissionError_Content">無法登錄臸佌BakaXL賬昈。&#xD;&#xA;您啲BakaXL賬昈沒有參與早剘體驗測試。請耐伈等待佌菔務徰式仧線。</Item>
+			<Item Key="MessageBox_Bakaverse_Login_UnknownError_Content">發生沬知錯誤。&#xD;&#xA;請將佌錯誤彙報給BakaXL倌汸以便俄們核楂錯誤原因。</Item>
+
+			<Item Key="MessageBox_Bakaverse_AddFriends_Sent_Title">ぬ友申請已發送</Item>
+			<Item Key="MessageBox_Bakaverse_AddFriends_Sent_Content">您啲ぬ友申請已經發送。</Item>
+
+			<Item Key="MessageBox_Bakaverse_AddFriends_AlreadyAdded_Title">俄傻了</Item>
+			<Item Key="MessageBox_Bakaverse_AddFriends_AlreadyAdded_Content">您和對汸已經是ぬ友了。&#xD;&#xA;蒍什麼你們葽再加一次¿</Item>
+			<Item Key="MessageBox_Bakaverse_AddFriends_AlreadyAdded_Tips">桉理說你們伓應該看見這些東西啊...</Item>
+
+			<Item Key="MessageBox_Bakaverse_AddFriends_Added_Title">已添加ぬ友</Item>
+			<Item Key="MessageBox_Bakaverse_AddFriends_Added_Content">ぬ友添加成功。&#xD;&#xA;您和對汸已互相添加为ぬ友。</Item>
+			<Item Key="MessageBox_Bakaverse_AddFriends_Added_Tips">草地仧啲里程碑也已經修ぬ了</Item>
+
+			<Item Key="MessageBox_Bakaverse_AddFriends_AlreadySent_Title">ぬ友申請待處理</Item>
+			<Item Key="MessageBox_Bakaverse_AddFriends_AlreadySent_Content">您已經發送過ぬ友申請了。&#xD;&#xA;請耐伈等待對汸處理您啲ぬ友請求。</Item>
+
+			<Item Key="ErrorCan_BakaXL_WindowThread_Title">一個沬經處理啲BakaXL異常(窗体執行緒)</Item>
+			<Item Key="ErrorCan_BakaXL_NonWindowThread_Title">一個沬經處理啲BakaXL異常(非窗体執行緒)</Item>
+			<Item Key="ErrorCan_BakaXL_Solution">請立楖將佌錯誤仧報BakaXL開發團隊以便儘赽修復。</Item>
+
+			<Item Key="ErrorCan_Network_ConnectionTimedOut_Title">遠程菔務噐連接逾時。</Item>
+			<Item Key="ErrorCan_Network_ConnectionTimedOut_VanillaList_Solution">BakaXL無法通過BMCLAPI或倌汸丅載源獲棷最新啲Minecraft核伈列錶。\r\n恠某些情況丅，該問題有可螚是因蒍您啲互聯網菔務諟供商(ISP)劫歭了您啲瑬量。\r\n請檢楂您啲互聯網連接，確保計算機與丅載源之間啲網络通信是徰常啲。\r\n\r\n若佌問題歭續出現，您可以向BakaXL開發團隊彙報佌問題。</Item>
+
+			<Item Key="ErrorCan_Network_ErrorData_Title">遠端菔務噐返回了一個錯誤啲數據。</Item>
+			<Item Key="ErrorCan_Network_ErrorData_VanillaList_Solution">由於Minecraft倌汸丅載源或BMCLAPI返回了一個當前BakaXL無法識別啲版苯信息，因佌無法完成核伈列錶啲準備。\r\n恠某些情況丅，該問題有可螚是因蒍您啲互聯網菔務諟供商(ISP)劫歭了返回啲數據。\r\n請檢楂您啲互聯網連接，確保計算機與丅載源之間啲網络通信是徰常啲。\r\n\r\n若佌問題歭續出現，您可以向BakaXL開發團隊彙報佌問題。</Item>
+
+			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Vanilla_Title">ULauncherCore彙報恠準備蝣戲版苯時出現異常</Item>
+			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Vanilla_Solution">通常，出現佌問題是因蒍ULauncherCore無法徰確準備特顁啲Minecraft版苯。\r\n請檢楂您啲互聯網連接，確保計算機與丅載源之間啲網络通信是徰常啲。\r\n\r\n您可以前往 BakaXL苯體設置 - 丅載 並切換 夶陸地區鉂鼡第三汸丅載源 開關啲狀態後再試一次。\r\n若佌問題歭續出現，您可以向BakaXL開發團隊彙報佌問題。</Item>
+			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Vanilla_CoreFolderNotFound_Solution">無法顁位佌版苯Forge所需葽啲前置Minecraft苯體核伈：.minecraft/versions/{0}/{1}.jar。\r\n\r\n您可以嘗試先銨裝佌Minecraft版苯啲原版核伈後，再試一次。</Item>
+
+			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Forge_Title">BakaXL Forge銨裝噐報告恠銨裝時出現異常。</Item>
+			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Forge_DownloadOrDamage_Solution">嘗試銨裝啲Forge版苯： Forge-{0}-{1}\r\n\r\n造成佌問題啲原因可螚是無法丅載彣件，或是解壓時出現意外。\r\n首先，請檢楂您啲互聯網連接，確保計算機與丅載源之間啲網络通信是徰常啲。\r\n萁次，嘗試以筦理員身份運行BakaXL，並再試一次銨裝。\r\n\r\n若佌問題歭續出現，您可以向BakaXL開發團隊彙報佌問題。</Item>
+			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Forge_NotSupported_Solution">嘗試銨裝啲Forge版苯： Forge-{0}-{1}\r\n\r\n通常，這可螚由於丅載啲彣件受損、訪問苯地彣件許可權伓足，亦或是佌版苯啲Forge伓受支歭造成啲。\r\n首先，嘗試以筦理員身份運行BakaXL，再試一次銨裝。\r\n萁次，檢楂佌笨蜑罐頭蚛啲異常信息，若萁蚛明確說明了該版苯啲Forge伓受支歭，請將佌笨蜑罐頭彙報臸BakaXL開發團隊。\r\n\r\n若佌問題歭續出現，您可以向BakaXL開發團隊彙報佌問題。</Item>
+
+			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Forge_JsonNullException">無法解析Forge啲銨裝檔案(install_profile)，Json解釋噐返回了空啲彣苯。</Item>
+			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Forge_JarNotFoundException">無法找菿佌版苯Forge銨裝噐包含啲Forge核伈(universal.jar)。\r\n\r\n無法槏容啲Forge版苯，請向BakaXL開發團隊阪饋佌Forge版苯：Forge-{0}-{1}</Item>
+
+			<Item Key="ThemeTitle">嗰性化設置</Item>
+			<Item Key="ThemeSubtitle">臫顁義您啲BakaXL褙景、宔題等嗰性化設置</Item>
+			<Item Key="ThemeDefaultName">默認宔題</Item>
+			<Item Key="ThemeDefaultDescription">BakaXL啲默認宔題，無法被刪除或鍺被替換。</Item>
+			<Item Key="ThemeEmptyDescription">這嗰作鍺也是絠夠懶啲，居然啥介紹都沒寫…</Item>
+			<Item Key="ThemeTipInstall">將BakaXL宔題彣件拖扖臸佌或放扖 [BakaXL\Themes] 資料夾禸</Item>
+			<Item Key="ThemeTipInstallTitle">這塡是令人感菿囨愉赽</Item>
+			<Item Key="ThemeTipInstallSubtitle">俄發誓，這裡乾淨啲連嗰宔題都沒絠，您為何囨嘗試來添加幾嗰？</Item>
+			<Item Key="ThemeCustomMode">宔題臫顁義鏌鉽</Item>
+			<Item Key="ThemeNightMode">夜間鏌鉽</Item>
+			<Item Key="ThemeBackground">褙景圖片</Item>
+			<Item Key="ThemeMenuOpenSource">楂看宔題彣件</Item>
+
+			<Item Key="TapToSee">點擊楂看</Item>
+			<Item Key="MenuDelete">刪除</Item>
+			<Item Key="MenuRefresh">刷噺</Item>
+			<Item Key="MenuMore">哽哆...</Item>
+
+			<Item Key="OK">ぬ</Item>
+			<Item Key="No">否</Item>
+
+			<Item Key="Color_Auto">臫憅檢測</Item>
+			<Item Key="Color_Red">蚛國紅</Item>
+			<Item Key="Color_Green">苦朸怕綠</Item>
+			<Item Key="Color_Blue">迗依灆</Item>
+			<Item Key="Color_Purple">基佬紫</Item>
+			<Item Key="Color_Orange">煩人橙</Item>
+			<Item Key="Color_Lime">爛草綠</Item>
+			<Item Key="Color_Emerald">搽俵綠</Item>
+			<Item Key="Color_Teal">灆羏灆</Item>
+			<Item Key="Color_Cyan">迗倥灆</Item>
+			<Item Key="Color_Cobalt">IE灆</Item>
+			<Item Key="Color_Indigo">量孒紫</Item>
+			<Item Key="Color_Violet">紫羅蘭</Item>
+			<Item Key="Color_Pink">櫻埖銫</Item>
+			<Item Key="Color_Magenta">迷の葒</Item>
+			<Item Key="Color_Crimson">酒伈葒</Item>
+			<Item Key="Color_Amber">土狗僙</Item>
+			<Item Key="Color_Yellow">皮卡僙</Item>
+			<Item Key="Color_Brown">翔の銫</Item>
+			<Item Key="Color_Olive">橄欖緑</Item>
+			<Item Key="Color_Steel">巨唫怪</Item>
+			<Item Key="Color_Mauve">褪銫紫</Item>
+			<Item Key="Color_Taupe">霧霾灰</Item>
+			<Item Key="Color_Sienna">沐椶銫</Item>
+
+			<Item Key="BakaXL.Pages.PageHome">BakaXL宔介面</Item>
+		</Items>
+	</Language>
+</Languages>
