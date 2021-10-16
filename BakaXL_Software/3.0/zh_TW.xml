@@ -61,9 +61,16 @@
 			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_CheckAuthlib_Download">正在下載Authlib-Injector</Item>
 			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_CheckPlugin">正在執行BakaXL外掛定義的操作</Item>
 
-			<Item Key="LaunchBar_LaunchBtn_Launching_Environment_JavaNotExist">Java路徑發射更變，正在尋找</Item>
-			<Item Key="LaunchBar_LaunchBtn_Launching_Environment_NewJavaFound">BakaXL將使用新的Java路徑啟動Minecraft</Item>
-			
+			<!-- 需要翻译
+			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_DownloadJava">正在下载 {0} 虚拟机 ({1} 位)</Item>
+			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_DownloadJava_Prepare">正在获取 Java 虚拟机列表</Item>
+			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_DownloadJava_Fetching">正在创建 {0} 虚拟机下载任务 ({1} 位)</Item>
+			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_DownloadJava_Finalizing">正在安装所需的 {0} 虚拟机 ({1} 位)</Item>
+
+			<Item Key="LaunchBar_LaunchBtn_Launching_Environment_JavaFullAuto">正在选择合适的 Java 虚拟机</Item>
+			<Item Key="LaunchBar_LaunchBtn_Launching_Environment_JavaNotExist">Java 路径已变动，正在重新定位</Item>
+			<Item Key="LaunchBar_LaunchBtn_Launching_Environment_NewJavaFound">BakaXL 已选定了合适的 Java 虚拟机</Item>
+			-->
 			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_CheckEnvironment">發射模式: 檢查和補全Minecraft環境</Item>
 
 			<Item Key="LaunchBar_LaunchBtn_Launched_Title">正在遊戲中</Item>
@@ -163,6 +170,12 @@
 			<Item Key="CoreManagement_Info_PlayTime_NeverPlayed_Text">此覈心自安裝後從未運行過，真難過。</Item>
 			<Item Key="CoreManagement_Info_Version">版本</Item>
 
+			<!-- 需要翻译
+			<Item Key="CoreManagement_Java_Tip">若想对该核心进行单独设置而不希望影响其他核心，请在这里设置。&#xD;&#xA;如果您不知道您在做什么，请不要修改任何内容。</Item>
+			<Item Key="CoreManagement_Java_JavaDefaultTip">BakaXL当前正使用本体设置内的全局Java设定。</Item>
+			<Item Key="CoreManagement_Java_MemoryDefaultTip">BakaXL当前正使用本体设置内的全局内存设定。</Item>
+			-->
+
 			<Item Key="CoreManagement_Mods_Title">模組(Mods)</Item>
 			
 			<Item Key="CoreManagement_Mods_Supported">此覈心或整合包安裝了支援的模組API。</Item>
@@ -172,6 +185,7 @@
 			<Item Key="CoreManagement_Mods_ModLoader_Forge">此覈心安裝了 Minecraft Forge，版本：{0}</Item>
 			<Item Key="CoreManagement_Mods_ModLoader_Fabric">此覈心安裝了 Fabric Loader/API。版本：{0}</Item>
 			<Item Key="CoreManagement_Mods_ModLoader_Liteloader">此覈心安裝了 Liteloader。版本：{0}</Item>
+			<Item Key="CoreManagement_Mods_ModLoader_Optifine">此覈心安裝了 Optifine。</Item>
 
 			<Item Key="CoreManagement_Mods_ModList_Title">位於Mods檔案夾</Item>
 			<Item Key="CoreManagement_Mods_ModList_DargTips">將模組拖入至此區域快速安裝模組。</Item>
@@ -246,9 +260,10 @@
 			<Item Key="ProfileBtn_Microsoft">微軟帳戶正版</Item>
 			<Item Key="ProfileBtn_ThirdParty">第三方驗證服務</Item>
 			<Item Key="ProfileBtn_UnableToUse">無法使用</Item>
-
+			
 			<Item Key="Hide">隱藏</Item>
 			<Item Key="Show">顯示</Item>
+			<Item Key="Cancel">取消</Item>
 			<Item Key="Off">關</Item>
 			<Item Key="On">開</Item>
 			<Item Key="Back">返回</Item>
@@ -284,6 +299,16 @@
 			<Item Key="BakaXL_Update_Info">新版本的BakaXL現已推出，您需要進行本體更新才能繼續使用BakaXL！這個過程將不會花費太長時間。下載本體更新需要使用網際網路連結，在您使用計費網際網路時可能需要支付網路數據費用。</Item>
 			<Item Key="BakaXL_Update_Btn_Yes">立即更新</Item>
 			<Item Key="BakaXL_Update_Btn_OrYes">或者更新</Item>
+
+			<!-- 需要翻译
+			<Item Key="BakaXL_Update_NeedLogin_Title">登录至 BakaXL Network 以继续更新</Item>
+			<Item Key="BakaXL_Update_NeedLogin_Info">若要从当前设置的BakaXL预览体验通道中获取本体更新，则需要您登录至BakaXL Network。&#xD;&#xA;前往 &quot;本体设置 - 账户与档案&quot; 中登录您的BakaXL Account</Item>
+
+			<Item Key="BakaXL_Update_NotInsider_Title">需要成为预览体验计划成员</Item>
+			<Item Key="BakaXL_Update_NotInsider_Info">诶呀，您当前好像还不是已登记的BakaXL预览体验计划成员呢。&#xD;&#xA;若要更新至此预览体验版本，您的账户需要被登记为BakaXL预览体验计划成员。&#xD;&#xA;&#xD;&#xA;在BakaXL 局外人用户群中参与交流讨论 亦或是通过 &quot;爱发电&quot; 支持BakaXL的开发工作，即可将您的BakaXL账户登记为预览体验计划成员！</Item>
+			<Item Key="BakaXL_Update_NotInsider_Tips">但实际上也有办法可以更新的啦，BakaXL不会做那种事的！</Item>
+			<Item Key="BakaXL_Update_NotInsider_Btn_Afdian">前往 &quot;爱发电&quot; 看看</Item>
+			-->
 
 			<Item Key="LiveBackground_Prepare_Title">BakaXL正在準備背景</Item>
 			<Item Key="LiveBackground_Prepare_Tips">這可能需要一點點時間</Item>
@@ -438,6 +463,70 @@
 			<Item Key="Bakaverse_AddFriends_Btn_Title">通過BakaXL Network ID搜尋好友</Item>
 			<Item Key="Bakaverse_AddFriends_Btn_Tips">通過BakaXL線上服務尋找您的好友。</Item>
 			<Item Key="Bakaverse_AddFriends_MinePass_Btn_Title">通過BakaXL瞬間交錯通訊 加入好友</Item>
+			
+			<!-- 需要翻译
+			<Item Key="Bakaverse_Lobby_Introduction_Title">介绍</Item>
+			<Item Key="Bakaverse_Lobby_Introduction_Content">加入好友的本地局域网游戏，亦或是共享客户端。&#xD;&#xA;请让所有要参与的好友都进入此画面。</Item>
+
+			<Item Key="Bakaverse_Lobby_LAN_Motd_Header">BakaXL 大厅</Item>
+
+			<Item Key="Bakaverse_Lobby_Error_Title">大厅服务异常</Item>
+			<Item Key="Bakaverse_Lobby_Error_Detail_Relogin">请重新登录此BakaXL账户</Item>
+
+			<Item Key="Bakaverse_Lobby_CreateLobby_Title">创建新大厅</Item>
+			<Item Key="Bakaverse_Lobby_CreateLobby_CustomLobbyID_TextBox_Watermark">自定义大厅编号 (25个字符以内)</Item>
+			<Item Key="Bakaverse_Lobby_CreateLobby_CustomLobbyID_TextBox_Tips">感谢您对 BakaXL 的支持！作为预览体验计划的成员，&#xD;&#xA;您将可以在创建时自定义 BakaXL 大厅的编号！&#xD;&#xA;在使用此功能时，请不要违反BakaXL的使用守则。&#xD;&#xA;滥用此功能将会导致您的预览体验计划身份被取消。</Item>
+			<Item Key="Bakaverse_Lobby_CreateLobby_AllowStrangers_Btn_Title">仅对我的好友开放</Item>
+			<Item Key="Bakaverse_Lobby_CreateLobby_Create_Btn_Title">创建大厅</Item>
+			<Item Key="Bakaverse_Lobby_CreateLobby_Create_Btn_Tips">启动 Minecraft 并在单人游戏中选择 &quot;对局域网开放&quot;，&#xD;&#xA;随后即可创建一个大厅。&#xD;&#xA;若长时间检测失败，尝试以管理员身份运行 BakaXL 后启动 Minecraft。</Item>
+
+			<Item Key="Bakaverse_Lobby_JoinLobby_Title">加入好友或公开大厅</Item>
+			<Item Key="Bakaverse_Lobby_JoinLobby_LobbyID_TextBox_Watermark">输入要加入的大厅编号 (例如: 01509230)</Item>
+			<Item Key="Bakaverse_Lobby_JoinLobby_Join_Btn_Title">加入大厅</Item>
+			<Item Key="Bakaverse_Lobby_JoinLobby_Join_Btn_Tips">输入好友或他人告知您的大厅编号，即可加入该大厅。&#xD;&#xA;若大厅设置为仅对好友开放，则您必须为创建者的好友才可加入。</Item>
+
+			<Item Key="Bakaverse_Lobby_FriendInvites_Title">来自好友的邀请</Item>
+			<Item Key="Bakaverse_Lobby_FriendInvites_Tips">若您的好友邀请您加入其所在的大厅，他们将会显示在这里。</Item>
+
+			<Item Key="Bakaverse_Lobby_CrossLauncherPlay_Title">加入第三方启动器的联机平台</Item>
+			<Item Key="Bakaverse_Lobby_CrossLauncherPlay_Tips">若要加入由第三方启动器 (PCL2、HMCL) 创建的联机服务房间，&#xD;&#xA;则您需要先在 BakaXL 笨蛋广场 安装跨启动器联机插件。&#xD;&#xA;&#xD;&#xA;该项服务尚未开放，敬请期待。</Item>
+
+			<Item Key="Bakaverse_Lobby_LobbyInfo_Title">大厅信息</Item>
+			<Item Key="Bakaverse_Lobby_LobbyInfo_LobbyID_Title">大厅编号</Item>
+			<Item Key="Bakaverse_Lobby_LobbyInfo_LobbyHost_Title">大厅创建者</Item>
+			<Item Key="Bakaverse_Lobby_LobbyInfo_LocalNAT_Title">本地 NAT 类型</Item>
+			<Item Key="Bakaverse_Lobby_LobbyInfo_LocalUPnP_Title">本地 UPnP 兼容性</Item>
+
+			<Item Key="Bakaverse_Lobby_LobbyAction_Title">大厅操作</Item>
+			<Item Key="Bakaverse_Lobby_LobbyAction_AutoAcceptJoin">自动同意加入大厅请求</Item>
+			<Item Key="Bakaverse_Lobby_LobbyAction_AutoAcceptJoin_Tips">介绍自动同意来自其他大厅加入者的加入请求。&#xD;&#xA;这在您打算懒得手动处理互联网朋友的请求时大概很有用吧。&#xD;&#xA;请注意。这将会允许所有知道大厅编号的用户随意加入该大厅。</Item>
+			<Item Key="Bakaverse_Lobby_LobbyAction_AllowRelay">在无法建立直接连接时使用中继连接</Item>
+			<Item Key="Bakaverse_Lobby_LobbyAction_AllowRelay_Tips">当 BakaXL 无法与对方建立直接连接时，&#xD;&#xA;通过 BakaXL Network Relay 中继服务进行连接。&#xD;&#xA;您的网络数据流量将通过受信任的BakaXL服务器进行安全中转。</Item>
+			<Item Key="Bakaverse_Lobby_LobbyAction_LeaveLobby">断开与大厅的连接</Item>
+			<Item Key="Bakaverse_Lobby_LobbyAction_LeaveLobby_Tips">若您当前正在参与 Minecraft 本地局域网联机，&#xD;&#xA;离开该大厅将导致与创建者主机的连接被断开。</Item>
+
+			<Item Key="Bakaverse_Lobby_LobbyJoinRequest_Title">加入大厅请求</Item>
+			<Item Key="Bakaverse_Lobby_LobbyJoinRequest_Tips">若有用户申请加入当前大厅，他们将会显示在这里。</Item>
+
+			<Item Key="Bakaverse_Lobby_OnlineUsers_Title">在线用户列表</Item>
+			<Item Key="Bakaverse_Lobby_OnlineUsers_Tips">选择一个用户，可进一步查看其账户信息，或添加对方为好友。</Item>
+			<Item Key="Bakaverse_Lobby_OnlineUsers_HostKick_Tips">您是大厅创建者，可以通过长按对应用户将其移出此大厅。</Item>
+
+			<Item Key="Bakaverse_Lobby_UserAction_Waiting">待处理</Item>
+
+			<Item Key="Bakaverse_Lobby_UserStatus_Host">大厅创建者</Item>
+			<Item Key="Bakaverse_Lobby_UserStatus_Joined">大厅中</Item>
+			<Item Key="Bakaverse_Lobby_UserStatus_Punching">大厅中 / 正在建立连接</Item>
+			<Item Key="Bakaverse_Lobby_UserStatus_WaitingRelay">大厅中 / 等待中继服务器响应</Item>
+			<Item Key="Bakaverse_Lobby_UserStatus_LeaveMinecraft">大厅中 / 游戏已断开</Item>
+			<Item Key="Bakaverse_Lobby_UserStatus_ConnectionEstablished">大厅中 / 连接已建立</Item>
+			<Item Key="Bakaverse_Lobby_UserStatus_RelayConnectionEstablished">大厅中 / 已通过中继建立连接</Item>
+			<Item Key="Bakaverse_Lobby_UserStatus_NATRestrict">连接失败 / NAT严格</Item>
+			<Item Key="Bakaverse_Lobby_UserStatus_FirewallReject">连接失败 / 防火墙</Item>
+			<Item Key="Bakaverse_Lobby_UserStatus_Unknown">连接失败 / 未知错误</Item>
+
+			<Item Key="Bakaverse_Lobby_CopyLobbyID_Template">我正在 BakaXL 的线上游戏大厅！快在 BakaXL 领域 里输入大厅编号: &lt;{0}&gt; 来加入吧！</Item>
+			-->
 
 			<Item Key="Bakaverse_Notification_NewFriend_Title">新好友請求</Item>
 			<Item Key="Bakaverse_Notification_NewFriend_Desc">收到了來自 {0} 的好友請求！</Item>
@@ -794,34 +883,57 @@
 			<Item Key="Setting_Account_Detail_Tips_NeedReload">您變更了遊戲ID，部分內容需要重載。</Item>
 			
 			<Item Key="Setting_Java_JVM_Title">Java VM</Item>
+			
+			<!--需要翻译
+			<Item Key="Setting_Java_JVM_FullAuto">让 BakaXL 自动决定 Java 版本</Item>
+			<Item Key="Setting_Java_JVM_FullAuto_Tips">当开启此选项时，BakaXL 将会自动根据运行的 Minecraft&#xD;&#xA;版本选定合适的 Java 虚拟机版本。&#xD;&#xA;若您没有安装对应的 Java 虚拟机，则 BakaXL 会自动为您安装。</Item>
+			-->
+
 			<Item Key="Setting_Java_JVM_Selector">請選擇Java版本</Item>
 			<Item Key="Setting_Java_JVM_Tips">為了確保您的遊戲體驗，請始終選擇最佳適配版本的Java。</Item>
-			<Item Key="Settings_SystemSettings_ManualJava">自訂Java</Item>
+
+			<!-- 需要翻译
+			<Item Key="Setting_Java_JVM_Manual">自定义</Item>
+			<Item Key="Setting_Java_JVM_Info_CanUpgradeTo64Bit">可升级为 64 位版本</Item>
+			<Item Key="Setting_Java_JVM_Info_BestMatch">最佳适配</Item>
+			<Item Key="Setting_Java_JVM_Info_CanUpgradeTo64BitJava8">可升级为 Java 8 (64位)版本</Item>
+			<Item Key="Setting_Java_JVM_Info_OpticalChoice">可用之选</Item>
+			-->
 			
 			<Item Key="Setting_Java_JVM_Advance">Java進階設定</Item>
 			<Item Key="Setting_Java_JVM_Advance_AutoJava">自動尋找Java位置</Item>
 			<Item Key="Setting_Java_JVM_Advance_ManualJava">手動指定Java位置</Item>
 			<Item Key="Setting_Java_JVM_Advance_ManualJava_Selector_Title">選擇您的Javaw.exe位置</Item>
-			
+
+			<!-- 需要翻译
+			<Item Key="Setting_Java_JVM_Advance_AdvanceSearchPermission">更细致的自动寻找Java位置</Item>
+			<Item Key="Setting_Java_JVM_Advance_AdvanceSearchPermission_Tips">授权 BakaXL 遍历您计算机磁盘上的文件夹以&#xD;&#xA;寻找可能无法通过普通搜索无法寻找到的Java位置。&#xD;&#xA;在使用该搜索方式前，请了解此功能如何运作。</Item>
+			-->
+
 			<Item Key="Setting_Java_JVM_Advance_Tips">在通常情況下，BakaXL會自動選擇您當前PC中最合適的Java。&#xD;&#xA;如果您不瞭解此選項的作用，我們建議您不要修改此選項的值。</Item>
 
-      <Item Key="Setting_Java_JVM_Download">獲取Java 8</Item>
-      <Item Key="Setting_Java_JVM_Download_Tips">運行 Minecraft 1.16 及更低版本的 Minecraft 推薦使用 Java 8。&#xD;&#xA;BakaXL將會跳轉至來自可信下載源提供的Java 8下載地址。&#xD;&#xA;</Item>
+      		<Item Key="Setting_Java_JVM_Download">獲取Java 8</Item>
+      		<Item Key="Setting_Java_JVM_Download_Tips">運行 Minecraft 1.16 及更低版本的 Minecraft 推薦使用 Java 8。&#xD;&#xA;BakaXL將會跳轉至來自可信下載源提供的Java 8下載地址。&#xD;&#xA;</Item>
 
-      <Item Key="Setting_Java_JVM16_Download">獲取Java 16</Item>
-      <Item Key="Setting_Java_JVM16_Download_Tips">運行 Minecraft 1.17 或更高級版本的 Minecraft 需要使用 Java 16。&#xD;&#xA;BakaXL會連接至互聯網自動安裝來自可信來源的Java 16。&#xD;&#xA;這個過程可能需要數分鐘，在您使用計費互聯網連接時可能&#xD;&#xA;需要支付一定費用。</Item>
+      		<Item Key="Setting_Java_JVM16_Download">獲取Java 16</Item>
+      		<Item Key="Setting_Java_JVM16_Download_Tips">運行 Minecraft 1.17 或更高級版本的 Minecraft 需要使用 Java 16。&#xD;&#xA;BakaXL會連接至互聯網自動安裝來自可信來源的Java 16。&#xD;&#xA;這個過程可能需要數分鐘，在您使用計費互聯網連接時可能&#xD;&#xA;需要支付一定費用。</Item>
 
-      <Item Key="Setting_Java_JVM16_Installing_Pending">BakaXL 自動化安裝 Java 16中…&#xD;&#xA;待安裝進度更新後，它將會顯示在這裡。</Item>
-      <Item Key="Setting_Java_JVM16_Installing_ProgressChanged">BakaXL 當前正在進行 Java 16 的安装…&#xD;&#xA;狀態: {0} </Item>
+			<!--
+      		<Item Key="Setting_Java_JVM_AutoInstall_Tips">运行 Minecraft 1.16 及更低版本的 Minecraft 推荐使用 Java 8。&#xD;&#xA;运行 Minecraft 1.17 或更高级版本的 Minecraft 需要使用 Java 16。&#xD;&#xA;BakaXL会连接至互联网自动安装来自可信来源的 Java。&#xD;&#xA;这个过程可能需要数分钟，在您使用计费互联网连接时可能&#xD;&#xA;需要支付网络数据费用。</Item>
 
-      <Item Key="Setting_Java_JVM16_Installing_Successful">BakaXL 已安裝 Java 16 在您的電腦上。&#xD;&#xA;選擇 &quot;Java高級設定 - 自動尋找Java位置&quot; 重繪Java清單。</Item>
-      <Item Key="Setting_Java_JVM16_Installing_Failed">BakaXL 無法自動安裝 Java 16。&#xD;&#xA;這可能是由於下載源提供的檔案受損或互聯網連接中斷。</Item>
+			<Item Key="Setting_Java_JVM_Installing_Pending">BakaXL 当前正在进行 Java {0} 的安装…&#xD;&#xA;待安装进度更新后，它将会显示在这里。</Item>
+			<Item Key="Setting_Java_JVM_Installing_ProgressChanged">BakaXL 当前正在进行 Java {0} 的安装…&#xD;&#xA;状态: {1} </Item>
 
-      <Item Key="Setting_Java_JVM16_InstallProgress_Preparing">準備安裝 Java 16</Item>
-      <Item Key="Setting_Java_JVM16_InstallProgress_FetchingFileList">獲取 Java 16 ({0} 位) 的檔案清單</Item>
-      <Item Key="Setting_Java_JVM16_InstallProgress_Downloading">正在下載 Java 16 ({0} 位) </Item>
-      <Item Key="Setting_Java_JVM16_InstallProgress_Finalizing">即將完成安裝…</Item>
-      
+			<Item Key="Setting_Java_JVM_Installing_Successful">BakaXL 已成功安装了 Java {0}。&#xD;&#xA;您可以在 Java 虚拟机列表中选择此虚拟机。</Item>
+			<Item Key="Setting_Java_JVM_Installing_Failed">BakaXL 无法自动安装 Java {0}。&#xD;&#xA;这可能是由于下载源提供的文件受损或互联网连接中断。</Item>
+
+			<Item Key="Setting_Java_JVM_InstallProgress_Preparing">准备安装 Java {0}</Item>
+			<Item Key="Setting_Java_JVM_InstallProgress_FetchingFileList">获取 Java {0} ({1} 位) 的文件列表</Item>
+			<Item Key="Setting_Java_JVM_InstallProgress_Downloading">正在下载 Java {0} ({1} 位) </Item>
+
+			<Item Key="Setting_Java_JVM_InstallProgress_Finalizing">即将完成安装…</Item>
+			-->
+
 			<Item Key="Setting_Java_Memory_Title">記憶體設定</Item>
 			
 			<Item Key="Setting_Java_Memory">記憶體</Item>
@@ -892,6 +1004,39 @@
 			<Item Key="Setting_Network_Environment_Ping_ms">毫秒(ms)</Item>
 			<Item Key="Setting_Network_Environment_Ping_Package">丟包率(loss):</Item>
 
+			<!--
+			<Item Key="Setting_Network_Environment_NATType_Unknown">未知</Item>
+			<Item Key="Setting_Network_Environment_NATType_Open">开放</Item>
+			<Item Key="Setting_Network_Environment_NATType_FullCone">中等 (完全圆锥)</Item>
+			<Item Key="Setting_Network_Environment_NATType_Restrict">中等 (受限圆锥)</Item>
+			<Item Key="Setting_Network_Environment_NATType_PortRestrict">中等 (端口受限圆锥)</Item>
+			<Item Key="Setting_Network_Environment_NATType_Symmetric">严格 (对称)</Item>
+			<Item Key="Setting_Network_Environment_NATType_SymmetricFirewall">严格 (对称+防火墙)</Item>
+			<Item Key="Setting_Network_Environment_NATType_Error_DNS">DNS 解析错误</Item>
+			<Item Key="Setting_Network_Environment_NATType_Error_NULL">当前无法完成检测</Item>
+			<Item Key="Setting_Network_Environment_NATType_Error_RequestFailed">网络连接失败</Item>
+
+			<Item Key="Setting_Network_Environment_NATType_Checking">正在检测…</Item>
+			<Item Key="Setting_Network_Environment_NATType_Checking_Tips">BakaXL 将在检测完成后显示结果…</Item>
+
+			<Item Key="Setting_Network_Environment_NATType_Tips_Open">当前网络环境不会影响联机体验&#xD;&#xA;该网络环境适合作为大厅创建者</Item>
+			<Item Key="Setting_Network_Environment_NATType_Tips_MayAffectOnlinePlay">这可能会影响您的联机体验</Item>
+			<Item Key="Setting_Network_Environment_NATType_Tips_MayAffectOnlinePlay_RouterOrFirewall">部分路由器和防火墙设置可能会影响您的联机体验</Item>
+			<Item Key="Setting_Network_Environment_NATType_Tips_MayAffectOnlinePlay_RouterOrFirewall_UPnP">部分路由器和防火墙设置可能会影响您的联机体验&#xD;&#xA;若大厅创建者或您的网络设备支持 UPnP，则将可能有所缓解</Item>
+			<Item Key="Setting_Network_Environment_NATType_Tips_WillAffectOnlinePlay">这将严重影响您的联机体验</Item>
+			<Item Key="Setting_Network_Environment_NATType_Tips_WillAffectOnlinePlay_UPnP">这将严重影响您的联机体验&#xD;&#xA;若大厅创建者或您的网络环境支持 UPnP，则将可能有所缓解</Item>
+
+			<Item Key="Setting_Network_Environment_UPnP_Unknown">未知</Item>
+			<Item Key="Setting_Network_Environment_UPnP_Unsupport">不兼容</Item>
+			<Item Key="Setting_Network_Environment_UPnP_Unsupport_Tips">您当前的网络设备或系统不支持 UPnP 协议&#xD;&#xA;若您在网络设备中启用 UPnP，则 BakaXL 将通过该协议尝试改善您的联机体验</Item>
+			<Item Key="Setting_Network_Environment_UPnP_Unstable">不稳定 [{0}]</Item>
+			<Item Key="Setting_Network_Environment_UPnP_Unstable_Tips">您当前的网络设备或系统对 UPnP 协议的支持并不正常&#xD;&#xA;这可能导致 BakaXL 无法改善您的联机体验&#xD;&#xA;若您认为您的网络设备或系统不存在此问题，请联系 BakaXL 开发团队</Item>
+			<Item Key="Setting_Network_Environment_UPnP_Enabled">已启用自动映射</Item>
+			<Item Key="Setting_Network_Environment_UPnP_Enabled_Tips">BakaXL 向您的网络设备请求自动映射以改善您的联机体验</Item>
+			<Item Key="Setting_Network_Environment_UPnP_Pending">尚未开始检测</Item>
+			<Item Key="Setting_Network_Environment_UPnP_Pending_Tips">BakaXL 尚未开始检测网络设备的 UPnP 协议&#xD;&#xA;当开始建立点对点连接时，BakaXL 将会开始检测并显示结果</Item>
+			-->
+
 			<Item Key="Setting_Network_Environment_Retest">重新檢測</Item>
 
 			<Item Key="Setting_Network_Troubleshooting">網路連接疑難排解</Item>
@@ -952,10 +1097,71 @@
 			<Item Key="Setting_Personalize_Color_Selector">選擇一個配色方案</Item>
 			<Item Key="Setting_Personalize_Color_NightMode">反轉顏色模式</Item>
 			<Item Key="Setting_Personalize_Color_Tips">設定BakaXL表單和控制項所使用的配色方案。</Item>
-			
+			<!--
 			<Item Key="Setting_Personalize_Tema_Title">BakaXL主題</Item>
-			<Item Key="Setting_Personalize_Tema_List">瀏覽主題清單</Item>
-			<Item Key="Setting_Personalize_Tema_Folder">主題資料夾</Item>
+			<Item Key="Setting_Personalize_Tema_Patch">将当前个性化设置保存为主题</Item>
+			<Item Key="Setting_Personalize_Tema_List">浏览主题列表</Item>
+			<Item Key="Setting_Personalize_Tema_Folder">打开主题文件夹</Item>
+
+			<Item Key="Setting_Personalize_Tema_Default">BakaXL 默认主题</Item>
+			<Item Key="Setting_Personalize_Tema_Default_Desc">这是一个来自BakaXL的默认主题，非常默认，特别默认。</Item>
+			<Item Key="Setting_Personalize_Tema_Custom">自定义</Item>
+			<Item Key="Setting_Personalize_Tema_Custom_Desc">这是一个自定义的BakaXL主题，也没有被打包起来，一切都显得那么的安静。</Item>
+
+			<Item Key="Setting_Personalize_Tema_Patcher_Title">完善主题信息</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_NoIcon">没图标呢</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_DefaultName">新BakaXL主题</Item>
+
+			<Item Key="Setting_Personalize_Tema_Patcher_Name">名称</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_Name_Watermark">主题的显示名称</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_Name_Tips">会作为主题文件的文件名及显示名称。&#xD;请不要包含任何令他人感到不适的内容。</Item>
+
+			<Item Key="Setting_Personalize_Tema_Patcher_Desc">介绍</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_Desc_Watermark">主题的介绍</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_Desc_Tips">当加载了该BakaXL主题后，将会在主题列表中显示介绍。&#xD;请不要包含任何令他人感到不适的内容。&#xD;&#xD;使用了并非由您创作的背景图片和背景音乐时，请注明图片创作者、&#xD;出处、来源、音乐作曲家、歌手、专辑名等信息。</Item>
+
+			<Item Key="Setting_Personalize_Tema_Patcher_Icon">图标</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_Icon_BtnTitle">选择图标</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_Icon_Tips">BakaXL将会在主题列表中显示该图标。&#xD;建议图标应当与主题内容相符，且不要包含工口或任何令他人感到&#xD;不适的内容。</Item>
+
+			<Item Key="Setting_Personalize_Tema_Patcher_Music">背景音乐</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_Music_Tips">BakaXL在加载主题后，会在对应的界面中播放背景音乐。&#xD; · 全局: 在任何界面均只循环播放主要背景音乐 &#xD; · 分离: 在&quot;本体设置&quot;及&quot;贴士&quot;页中播放独立的背景音乐。&#xD;&#xD;右键对应的按钮可以预览已设置的背景音乐。&#xD;为了预览音乐效果，BakaXL会自动打开背景音乐。</Item>
+
+			<Item Key="Setting_Personalize_Tema_Patcher_Music_Selector_Title">选择一个音乐文件</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_Music_Selector_Filter">音乐格式</Item>
+
+			<Item Key="Setting_Personalize_Tema_Patcher_Music_Type_BtnTitle">音乐模式</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_Music_Type_Global">全局</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_Music_Type_Split">分离</Item>
+
+			<Item Key="Setting_Personalize_Tema_Patcher_Music_Pos_Main">主要</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_Music_Pos_Settings">本体设置</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_Music_Pos_Tips">贴士</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_Music_Pos_Unset">尚未设置</Item>
+
+			<Item Key="Setting_Personalize_Tema_Patcher_SoundEffects">音效</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_SoundEffects_Unsupported_Tips">当前版本的BakaXL主题包不支持自定义音效功能。</Item>
+
+			<Item Key="Setting_Personalize_Tema_Patcher_CustomColor">自定义配色方案</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_CustomColor_Unsupported_Tips">当前版本的BakaXL主题包不支持自定义配色方案功能。</Item>
+
+			<Item Key="Setting_Personalize_Tema_Patcher_Creator">制作者</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_Creator_UseAs">BakaXL将会使用 {0} 作为主题作者。</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_Creator_NetworkLogined_Tips">您当前已经登录 BakaXL Network，BakaXL默认将&#xD;使用您的 BakaXL Network ID 做为主题作者。</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_Creator_Default_Tips">您尚未登录至 BakaXL Network，BakaXL默认将&#xD;使用您账户档案列表中的首个档案用户名作为主题作者。</Item>
+
+			<Item Key="Setting_Personalize_Tema_Patcher_Creator_SetProfile_Tips">若要使用您的Minecraft账户档案名称，请</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_Creator_SetProfile_ClickHere">点击这里</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_Creator_SetProfile_Selector_Title">为该BakaXL主题设置作者</Item>
+
+			<Item Key="Setting_Personalize_Tema_Patcher_Safety_Legal">安全健康、版权保护及免责声明</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_Safety_Legal_Content">在使用BakaXL主题系统时，请务必注意所使用资源的使用许可。&#xD;请不要使用来自未知来源的内容。&#xD;&#xD;您应当且必须标注在主题中使用的背景图片、图标及音乐的来源&#xD;及创作者信息。&#xD;&#xD;您不可以将包含来自第三方未经授权内容所制作的BakaXL主题&#xD;用于任何商业用途。&#xD;&#xD;为了主题使用者的身心健康，以及对于未成年人的保护。&#xD;BakaXL不建议您使用任何包含工口或令他人引起不适的元素或内容。&#xD;&#xD;您不可以制作及传播任何包含违反国家法律及相关政策的主题。&#xD;BakaXL会采取相关措施禁止加载或传播含有政治意味的主题。&#xD;若发生上述情况，BakaXL有权利根据隐私政策向公共或政府机构&#xD;提供您的信息以协助调查。&#xD;&#xD;若您通过该功能制作BakaXL主题，则代表您已阅读并了解您将承担&#xD;任何由制作或分享该BakaXL主题可能会产生问题或潜在的法律后果，&#xD;BakaXL及其开发团队将不负责任。&#xD;&#xD;BakaXL采取措施以保护创作者的版权，若BakaXL收到来自创作者&#xD;的请求表明特定BakaXL主题含有来自其创作的内容且未获得相关&#xD;授权，则BakaXL将会限制用户传播或使用该主题。&#xD;&#xD;您始终可以在BakaXL官方网站上查看该政策的完整版本。</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_Safety_Legal_Btn">阅读完整BakaXL主题系统使用政策</Item>
+
+			<Item Key="Setting_Personalize_Tema_Patcher_Export">导出主题</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_Export_Btn">打包并导出BakaXL主题</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_Export_Tips">导出主题则代表您已阅读并了解BakaXL主题系统使用政策。&#xD;该主题将会被导出至该BakaXL实例的 &quot;BakaXL\Tema&quot; 文件夹中。</Item>
+			-->
 
 			<Item Key="Setting_Accessibility_Info">&quot;協助工具&quot; 可讓您讓您根據個人需求自訂BakaXL的功能，&#xD;以滿足不同的使用條件。</Item>
 			<Item Key="Setting_Accessibility_Vision_Title">視覺</Item>
@@ -1022,16 +1228,16 @@
 			<Item Key="Setting_Insider_Desc">簡介</Item>
             <Item Key="Setting_Insider_Info">BakaXL現已邁向全新的版本！這得感謝於所有參與了 BakaXL 預先體驗計劃   &#xD;&#xA;(BakaXL Insider Preview) 的成員們的付出及努力，沒有了他們的幫助，我&#xD;&#xA;們就無法打造出如此出色的BakaXL。&#xD;&#xA;&#xD;&#xA;現在，你也可以加入我們讓BakaXL變得更好。&#xD;&#xA;&#xD;&#xA;現在就加入 BakaXL 預先體驗計劃吧！搶先體驗，予以回饋。</Item>
 			<Item Key="Setting_Insider_Warn_1">BakaXL Insider Preview中包含之功能，僅供預先體驗，且未來&#xA;能會在未經提示的情況下遭移除或修改。&#xA;預先體驗版本中您將無法使用完整的BakaXL功能（笨蛋廣場、覈心管理、&#xA;拓展等）。</Item>
-			<Item Key="Setting_Insider_Warn_2">預先體驗版本的BakaXL因缺少必備功能，請勿加入整合包內進行分享。</Item>
+			<Item Key="Setting_Insider_Warn_2">預先體驗版本的BakaXL因缺少必備功能，請勿加入整合包內進行分享。&#xD;&#xA;Bunny 兔兔通道的主要更新流程尚未開始，且大量落後於當前版本。</Item>
 			<Item Key="Setting_Insider_Desc">簡介</Item>
 			<Item Key="Setting_Insider_TunnelTitle">變更更新通道</Item>
 			<Item Key="Setting_Insider_CurrentTunnel">當前通道</Item>
-			<Item Key="Setting_Insider_TunnelDescription">我們為BakaXL引入了全新的更新通道機制，這意味著您可以更加頻繁&#xD;&#xA;的取得更新！&#xA;&#xD;&#xA;目前，我們為 BakaXL Insider Preview 提供兩種通道：&#xD;&#xA;Pigeon 鴿子通道（主要的評估版本，提供近期之最穩定更新）&#xD;&#xA;Parrot 鸚鵡通道（每日更新，提供BakaXL原始碼倉庫最新的更新）&#xD;&#xA;&#xD;&#xA;請注意: 鸚鵡通道 涵蓋大量早期未開發完善和清理的功能且會隨&#xD;&#xA;時作出修改，請勿依賴於此版本。</Item>
+			<Item Key="Setting_Insider_TunnelDescription">我們為BakaXL引入了全新的更新通道機制，這意味著您可以更加頻繁&#xD;&#xA;的取得更新！&#xA;&#xD;&#xA;目前，我們為 BakaXL Insider Preview 提供三種通道：&#xD;&#xA;Pigeon 鴿子通道（主要的評估版本，提供近期之最穩定更新）&#xD;&#xA;Parrot 鸚鵡通道（每日更新，提供BakaXL原始碼倉庫最新的更新）&#xD;&#xA;Bunny 兔兔通道（BakaXL 4.0 早期預覽版本，目前啥也沒有）&#xD;&#xA;&#xD;&#xA;請注意: 鸚鵡通道 涵蓋大量早期未開發完善和清理的功能且會隨&#xD;&#xA;時作出修改，請勿依賴於此版本。</Item>
 			<Item Key="Setting_Insider_TunnelSelection">選擇一個更新通道</Item>
 			<Item Key="Setting_Insider_ChangeTunnel_Btn">變更</Item>
 			<Item Key="Setting_Insider_StartBtn_Title">開始</Item>
 			<Item Key="Setting_Insider_LatestVersion">（當前分支上的預先體驗版本：{0}）</Item>
-			<Item Key="Setting_Insider_Requirement">您的PC需要安裝.Net Framework 4.6才可以使BakaXL 3.0正常運作。&#xA;使用BakaXL 3.0的預先體驗版本需要您使用Windows 7或更進階之作業系統。&#xA;強烈建議您使用Windows 10作業系統以體驗BakaXL 3.0的全部功能。&#xA;&#xA;請注意：BakaXL 3.0已不再支援Windows XP作業系統。</Item>
+			<Item Key="Setting_Insider_Requirement">您的PC需要安裝.Net Framework 4.6才能使BakaXL正常運作。&#xA;使用BakaXL 3.0的預先體驗版本需要您使用Windows 7或更進階之作業系統。&#xA;強烈建議您使用Windows 10作業系統以體驗BakaXL的全部功能。&#xA;&#xA;請注意：BakaXL已不再支援Windows XP作業系統。</Item>
 			
 			<Item Key="Setting_About_Info">BakaXL開發團隊全體成員在這裡誠摯的感謝您使用BakaXL！</Item>
 			<Item Key="Setting_About_Version">內部版本</Item>
@@ -1047,6 +1253,8 @@
 			<Item Key="Setting_Tunnel_DEBUG_UpdateMethod">隨時更新</Item>
 			<Item Key="Setting_Tunnel_PARROT">Parrot 鸚鵡通道</Item>
 			<Item Key="Setting_Tunnel_PARROT_UpdateMethod">每日更新</Item>
+			<Item Key="Setting_Tunnel_BUNNY">Bunny 兔兔通道</Item>
+			<Item Key="Setting_Tunnel_BUNNY_UpdateMethod">BakaXL 4.0 早期預覽版本</Item>
 			<Item Key="Setting_Tunnel_PIGEON">Pigeon 鴿子通道</Item>
 			<Item Key="Setting_Tunnel_PIGEON_UpdateMethod">僅推送最穩定之測試版本</Item>
 			<Item Key="Setting_Tunnel_SLOTH">Sloth 樹獺通道</Item>
@@ -1108,6 +1316,42 @@
 			<Item Key="MessageBox_BakaPlaza_Installer_Content">BakaXL將要開始安裝您所選定的遊戲覈心。&#xD;&#xA;請稍等片刻，並在此期間不要斷開網際網路連接或關閉BakaXL。</Item>
 			<Item Key="MessageBox_BakaPlaza_Installer_Tips">正在準備</Item>
 
+			<!--
+			<Item Key="MessageBox_Java_AdvanceSearchPermission_Title">确认使用细致搜索？</Item>
+			<Item Key="MessageBox_Java_AdvanceSearchPermission_Message">若使用细致搜索，则代表您授权BakaXL对您计算机磁盘内的文件进行遍历。&#xD;&#xA;BakaXL将搜索每个磁盘的根目录，随后继续遍历包含以下名称的文件夹：&#xD;&#xA;&#xD;&#xA;Minecraft、Java、Jre、Jdk、MC、Runtime&#xD;&#xA;&#xD;&#xA;若您不了解此功能的作用，请点击 &quot;取消&quot;。</Item>
+			<Item Key="MessageBox_Java_AdvanceSearchPermission_Tips">BakaXL不会以任何方式保留您的磁盘内容索引</Item>
+
+			<Item Key="MessageBox_SkinPatcher_RequireProfile_Title">需要至少一个Minecraft账户档案以继续</Item>
+			<Item Key="MessageBox_SkinPatcher_RequireProfile_Content">制作BakaXL主题之前，您至少需要创建一个Minecraft账户档案。</Item>
+
+			<Item Key="MessageBox_SkinPatcher_ImageDecodeFailed_Title">图标文件可能受损</Item>
+			<Item Key="MessageBox_SkinPatcher_ImageDecodeFailed_Content">该图标文件可能不完整或受损，BakaXL无法将其设为主题图标。&#xD;&#xA;请检查或更换一个图标文件，然后再试一次。</Item>
+
+			<Item Key="MessageBox_SkinPatcher_ThemeNoName_Title">缺少主题名称</Item>
+			<Item Key="MessageBox_SkinPatcher_ThemeNoName_Content">在生成BakaXL主题之前，您需要为该主题包设置一个不为空的显示名称。</Item>
+
+			<Item Key="MessageBox_SkinPatcher_ThemeNoDesc_Title">缺少主题介绍</Item>
+			<Item Key="MessageBox_SkinPatcher_ThemeNoDesc_Content">在生成BakaXL主题之前，您需要为该主题包设置一个不为空的介绍。</Item>
+
+			<Item Key="MessageBox_SkinPatcher_ThemeNoIcon_Title">缺少主题图标</Item>
+			<Item Key="MessageBox_SkinPatcher_ThemeNoIcon_Content">在生成BakaXL主题之前，您需要为该主题包设置一个图标。</Item>
+
+			<Item Key="MessageBox_SkinPatcher_ThemeNoCreator_Title">缺少主题制作者</Item>
+			<Item Key="MessageBox_SkinPatcher_ThemeNoCreator_Content">在生成BakaXL主题之前，您需要为该主题包设置一个制作者。&#xD;&#xA;在主题作者名称区域检查您的制作者设置是否正确。</Item>
+
+			<Item Key="MessageBox_SkinPatcher_ThemeNoMusic_Main_Title">缺少主要背景音乐</Item>
+			<Item Key="MessageBox_SkinPatcher_ThemeNoMusic_Main_Content">您尚未设置该BakaXL主题的主要背景音乐。&#xD;&#xA;BakaXL主题至少需要包含一个主要背景音乐。</Item>
+
+			<Item Key="MessageBox_SkinPatcher_ThemeNoMusic_Split_Title">缺少分离背景音乐</Item>
+			<Item Key="MessageBox_SkinPatcher_ThemeNoMusic_Split_Content">您尚未设置该BakaXL主题的分离背景音乐。&#xD;&#xA;若您选择使用分离音乐模式，则需要为 &quot;本体设置&quot; 及 &quot;贴士&quot; 界面单独设置背景音乐。</Item>
+
+			<Item Key="MessageBox_SkinPatcher_ThemeExport_Successful_Title">主题制作成功</Item>
+			<Item Key="MessageBox_SkinPatcher_ThemeExport_Successful_Content">{0} BakaXL主题已经制作并打包成功。&#xD;&#xA;BakaXL 已将该主题文件保存在  &quot;BakaXL\Tema &quot; 中。</Item>
+
+			<Item Key="MessageBox_SkinPatcher_ThemeExport_Failed_Title">主题导出失败</Item>
+			<Item Key="MessageBox_SkinPatcher_ThemeExport_Failed_Content">BakaXL无法顺利将主题文件导出至主题文件夹中。&#xD;&#xA;请确保BakaXL有足够权限访问主题文件夹，然后再试一次。</Item>
+			-->
+
 			<Item Key="MessageBox_PlazaError_UpdateRequire_Content">在繼續使用BakaXL笨蛋廣場的服務前，您需要進行本體更新。&#xD;&#xA;BakaXL需要更新至版本 {0}。</Item>
 			<Item Key="MessageBox_PlazaError_UpdateRequire_Tips">若BakaXL沒有提示自動更新，則您需要在官網手動下載最新版本</Item>
 
@@ -1127,6 +1371,12 @@
 			<Item Key="MessageBox_Java_NotInstall_Title">安裝Java以繼續</Item>
 			<Item Key="MessageBox_Java_NotInstall_Content">看起來您現在並未在PC中安裝Java。&#xD;&#xA;Java VM是運行Minecraft的必備組件，請務必安裝。</Item>
 			<Item Key="MessageBox_Java_NotInstall_Tips">若BakaXL未搜尋到您的Java，您也可以手動定位其路徑</Item>
+
+			<!--
+			<Item Key="MessageBox_Java_NotInstall_ButFine_Title">没有检测到 Java 虚拟机…</Item>
+			<Item Key="MessageBox_Java_NotInstall_ButFine_Content">看上去您目前并未在计算机中安装Java。&#xD;&#xA;您可以继续进行设置向导，BakaXL 将会在您启动游戏时自动安装合适的 Java。&#xD;&#xA;&#xD;&#xA;如果您相信您安装了 Java，也不必担心。&#xD;&#xA;前往 &quot;本体设置 - Java 虚拟机与内存&quot; 中试试使用 &quot;细致搜索&quot; 来查找 Java。 </Item>
+			<Item Key="MessageBox_Java_NotInstall_ButFine_Tips">您始终可以在本体设置中修改 Java 虚拟机设置</Item>
+			-->
 
 			<Item Key="MessageBox_Memory_LowWarning_Title">PC可用記憶體不足</Item>
 			<Item Key="MessageBox_Memory_LowWarning_Content">你當前的系統記憶體不足512MB，強制啟動MC可能造成一些異常現象（例如可能啟動失敗），建議你關閉無關緊要的應用程式（例如Chrome、FireFox，Steam等）\n\n系統總共記憶體：{0} MB\n當前可用記憶體：{1} MB</Item>
@@ -1151,7 +1401,7 @@
 			<Item Key="MessageBox_Bakaverse_AddFriends_Sent_Title">好友申請已發送</Item>
 			<Item Key="MessageBox_Bakaverse_AddFriends_Sent_Content">您的好友申請已經發送。</Item>
 
-			<Item Key="MessageBox_Bakaverse_AddFriends_AlreadyAdded_Title">我傻了</Item>
+			<Item Key="MessageBox_Bakaverse_AddFriends_AlreadyAdded_Title">WTF?!</Item>
 			<Item Key="MessageBox_Bakaverse_AddFriends_AlreadyAdded_Content">您和對方已經是好友了。&#xD;&#xA;為什麼你們要再加一次¿</Item>
 			<Item Key="MessageBox_Bakaverse_AddFriends_AlreadyAdded_Tips">按理說你們不應該看見這些東西啊...</Item>
 
@@ -1162,9 +1412,78 @@
 			<Item Key="MessageBox_Bakaverse_AddFriends_AlreadySent_Title">好友申請待處理</Item>
 			<Item Key="MessageBox_Bakaverse_AddFriends_AlreadySent_Content">您已經發送過好友申請了。&#xD;&#xA;請耐心等待對方處理您的好友請求。</Item>
 
+			<!--
+			<Item Key="MessageBox_Bakaverse_Lobby_FriendsInviteTo_Title">来自好友的大厅邀请</Item>
+			<Item Key="MessageBox_Bakaverse_Lobby_FriendsInviteTo_Content">您的好友 {0} 邀请您加入其创建的大厅 &lt;{1}&gt;。&#xD;&#xA;是否要现在加入？</Item>
+			<Item Key="MessageBox_Bakaverse_Lobby_FriendsInviteTo_Btn_Ok">加入</Item>
+			<Item Key="MessageBox_Bakaverse_Lobby_FriendsInviteTo_Btn_No">下次一定</Item>
+
+			<Item Key="MessageBox_Bakaverse_Lobby_FriendsRequestJoin_Title">请求加入您的大厅</Item>
+			<Item Key="MessageBox_Bakaverse_Lobby_FriendsRequestJoin_Content">用户 {0} 请求加入您当前所在的大厅，&#xD;&#xA;请问是否允许其加入该大厅？</Item>
+			<Item Key="MessageBox_Bakaverse_Lobby_FriendsRequestJoin_Btn_Ok">彳亍</Item>
+			<Item Key="MessageBox_Bakaverse_Lobby_FriendsRequestJoin_Btn_No">8太彳亍</Item>
+
+			<Item Key="MessageBox_Bakaverse_Lobby_KickUser_Title">要将此用户踢出房间吗？</Item>
+			<Item Key="MessageBox_Bakaverse_Lobby_KickUser_Content">作为人类高质量大厅所有者，您接下来的操作会导致此用户被踢出大厅。&#xD;&#xA;若其当前正在进行 Minecraft 本地局域网联机或文件传输，这些连接也同样会被断开。</Item>
+			<Item Key="MessageBox_Bakaverse_Lobby_KickUser_Tips">我晒干了沉默，悔得很冲动</Item>
+			<Item Key="MessageBox_Bakaverse_Lobby_KickUser_Btn_Ok">拿来吧你</Item>
+			<Item Key="MessageBox_Bakaverse_Lobby_KickUser_Btn_No">考虑一下</Item>
+
+			<Item Key="MessageBox_Bakaverse_Lobby_Join_NoLobbyID_Title">大厅加入申请发送了…？</Item>
+			<Item Key="MessageBox_Bakaverse_Lobby_Join_NoLobbyID_Content">BakaXL 已向大厅…&#xD;&#xA;诶？您怎么没有输入大厅编号？</Item>
+			<Item Key="MessageBox_Bakaverse_Lobby_Join_NoLobbyID_Tips">您搁这压测呢？</Item>
+
+			<Item Key="MessageBox_Bakaverse_Lobby_Join_RequestSend_Title">已发送大厅加入申请</Item>
+			<Item Key="MessageBox_Bakaverse_Lobby_Join_RequestSend_Content">BakaXL 已向大厅 {0} 的创建者发送请求。&#xD;&#xA;在对方允许后，您将加入该大厅。</Item>
+			<Item Key="MessageBox_Bakaverse_Lobby_Join_RequestSend_Tips">若该大厅为好友大厅，则需要先与创建者成为好友</Item>
+
+			<Item Key="MessageBox_Bakaverse_Lobby_HostLeave_Title">确定要解散该大厅吗？</Item>
+			<Item Key="MessageBox_Bakaverse_Lobby_HostLeave_Content">如果您选择解散该大厅，则所有已建立的连接均会被断开。&#xD;&#xA;若您正在进行 Minecraft 本地局域网联机或文件传输，这些连接也同样会被断开。</Item>
+			<Item Key="MessageBox_Bakaverse_Lobby_HostLeave_Tips">一键炸房...</Item>
+			<Item Key="MessageBox_Bakaverse_Lobby_HostLeave_Btn_Ok">是的，解散</Item>
+			<Item Key="MessageBox_Bakaverse_Lobby_HostLeave_Btn_No">诶我手滑了</Item>
+
+			<Item Key="MessageBox_Bakaverse_Lobby_JoinerLeave_Title">要离开大厅了吗？</Item>
+			<Item Key="MessageBox_Bakaverse_Lobby_JoinerLeave_Content">如果您决定离开这个大厅，那么您将会离开这个大厅。&#xD;&#xA;若您正在进行 Minecraft 本地局域网联机或文件传输，这些连接也同样会被断开。</Item>
+			<Item Key="MessageBox_Bakaverse_Lobby_JoinerLeave_Tips">听君一席话胜似听君一席话</Item>
+			<Item Key="MessageBox_Bakaverse_Lobby_JoinerLeave_Btn_Ok">溜了</Item>
+			<Item Key="MessageBox_Bakaverse_Lobby_JoinerLeave_Btn_No">手滑</Item>
+
+			<Item Key="MessageBox_Bakaverse_Lobby_JoinerInfo_NotExist_Title">薛定谔的用户</Item>
+			<Item Key="MessageBox_Bakaverse_Lobby_JoinerInfo_NotExist_Content">虽然这个用户存在在大厅里，但是他不存在在 BakaXL Network 中。&#xD;&#xA;这很奇怪。可能因为你观测到了这个情况，所以他现在不存在了。</Item>
+			<Item Key="MessageBox_Bakaverse_Lobby_JoinerInfo_NotExist_Tips">说实话这种情况真的有可能发生吗？？</Item>
+
+			<Item Key="MessageBox_Bakaverse_Lobby_Create_NoLANGameDetected_Title">尚未开始Minecraft局域网联机</Item>
+			<Item Key="MessageBox_Bakaverse_Lobby_Create_NoLANGameDetected_Content">您需要使用当前运行的BakaXL启动游戏，并在单人游戏中选择 &quot;向局域网开放&quot;。&#xD;&#xA;若您已经开放了局域网游戏，则需要稍等至少10秒钟才可以创建大厅。</Item>
+			<Item Key="MessageBox_Bakaverse_Lobby_Create_NoLANGameDetected_Tips">若长时间无法检测，请尝试使用管理员身份运行 BakaXL</Item>
+
+			<Item Key="MessageBox_Bakaverse_Lobby_Create_LobbyIDUsed_Title">大厅创建失败</Item>
+			<Item Key="MessageBox_Bakaverse_Lobby_Create_LobbyIDUsed_Content">BakaXL当前无法创建大厅。&#xD;&#xA;这可能是由于此的大厅ID已被使用或不可用，请更换一个并再试一次。</Item>
+			<Item Key="MessageBox_Bakaverse_Lobby_Create_LobbyIDUsed_Tips">大厅服务器向你问好，并表示困惑</Item>
+
+			<Item Key="MessageBox_Bakaverse_Lobby_GotKicked_Title">被大厅创建者移出</Item>
+			<Item Key="MessageBox_Bakaverse_Lobby_GotKicked_Content">诶呀，看上去大厅创建者将您从大厅中踢出了。&#xD;&#xA;请确保您在大厅里没有违反社区守则，或做出令他人感到不适的行为。</Item>
+			<Item Key="MessageBox_Bakaverse_Lobby_GotKicked_Tips">BakaXL看上去也没有什么好办法</Item>
+
+			<Item Key="MessageBox_Bakaverse_Lobby_Cracked_Title">大厅被解散了…</Item>
+			<Item Key="MessageBox_Bakaverse_Lobby_Cracked_Content">大厅创建者已解散了该大厅，现在大家都在外面了。&#xD;&#xA;有可能创建者累了，或者创建者的互联网连接炸了。</Item>
+			<Item Key="MessageBox_Bakaverse_Lobby_Cracked_Tips">一键炸房! Yes!</Item>
+			-->
+
 			<Item Key="MessageBox_Tips_Channel_Locked_Title">此提示頻道被鎖定</Item>
 			<Item Key="MessageBox_Tips_Channel_Locked_Content">此提示頻道當前暫停對外開放，這可能是由於：&#xD;&#xA;· 受到來自發行方要求暫停訪問的請求。&#xD;&#xA;· 遭到過多用戶檢舉而自動凍結。&#xD;&#xA;· 違反BakaXL提示系統使用條款</Item>
 			<Item Key="MessageBox_Tips_Channel_Locked_Tips">請嘗試過段時間再來訪問此頻道</Item>
+
+			<!--
+			<Item Key="Notify_Bakaverse_FriendRequest_Title">新好友申请</Item>
+			<Item Key="Notify_Bakaverse_FriendRequest_Content">用户 &lt;{0}#{1}&gt; 申请添加您为 BakaXL 好友。</Item>
+
+			<Item Key="Notify_Bakaverse_Lobby_JoinRequest_Title">大厅加入申请</Item>
+			<Item Key="Notify_Bakaverse_Lobby_JoinRequest_Content">用户 &lt;{0}#{1}&gt; 请求加入您当前所在的BakaXL大厅。</Item>
+
+			<Item Key="Notify_Bakaverse_Lobby_InviteTo_Title">邀请您加入大厅</Item>
+			<Item Key="Notify_Bakaverse_Lobby_InviteTo_Content">您的好友 &lt;{0}&gt; 邀请您加入其创建的BakaXL大厅！</Item>
+			-->
 
 			<Item Key="ErrorCan_BakaXL_WindowThread_Title">一個未經處理的BakaXL異常（窗體執行緒）</Item>
 			<Item Key="ErrorCan_BakaXL_NonWindowThread_Title">一個未經處理的BakaXL異常（非窗體執行緒）</Item>
@@ -1290,18 +1609,18 @@
 			<Item Key="Color_Purple">基佬紫</Item>
 			<Item Key="Color_Orange">煩人橙</Item>
 			<Item Key="Color_Lime">爛草綠</Item>
-			<Item Key="Color_Emerald">茶婊綠</Item>
+			<Item Key="Color_Emerald">菜狗綠</Item>
 			<Item Key="Color_Teal">藍翔藍</Item>
 			<Item Key="Color_Cyan">天空藍</Item>
 			<Item Key="Color_Cobalt">IE藍</Item>
 			<Item Key="Color_Indigo">量子紫</Item>
 			<Item Key="Color_Violet">紫羅蘭</Item>
 			<Item Key="Color_Pink">櫻花色</Item>
-			<Item Key="Color_Magenta">迷の紅</Item>
+			<Item Key="Color_Magenta">叔叔红</Item>
 			<Item Key="Color_Crimson">酒心紅</Item>
 			<Item Key="Color_Amber">土狗黃</Item>
 			<Item Key="Color_Yellow">皮卡黃</Item>
-			<Item Key="Color_Brown">翔の色</Item>
+			<Item Key="Color_Brown">惡臭棕</Item>
 			<Item Key="Color_Olive">橄欖綠</Item>
 			<Item Key="Color_Steel">巨金怪</Item>
 			<Item Key="Color_Mauve">褪色紫</Item>
