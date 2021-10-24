@@ -63,7 +63,7 @@
 
 			<Item Key="LaunchBar_LaunchBtn_Launching_Environment_JavaNotExist">Java路径已变动，正在重新定位</Item>
 			<Item Key="LaunchBar_LaunchBtn_Launching_Environment_NewJavaFound">BakaXL将使用新的Java路径启动Minecraft</Item>
-			
+
 			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_CheckEnvironment">发射模式: 检查和补全Minecraft环境</Item>
 
 			<Item Key="LaunchBar_LaunchBtn_Launched_Title">Launched</Item>
@@ -74,7 +74,7 @@
 			<Item Key="LaunchBar_Title_Launched">Minecraft Launched With Profile: {0}</Item>
 			<Item Key="LaunchBar_Title_AuthError">Authentication Error: Incorrect Username/Password</Item>
 			<Item Key="LaunchBar_Title_AuthError_Unknown">Authentication Error: Unknown</Item>
-            <Item Key="LaunchBar_Title_AuthError_MojangTokenExpired">验证时出现错误：会话验证信息过期，请在本体设置重新登录此用户档案</Item>
+			<Item Key="LaunchBar_Title_AuthError_MojangTokenExpired">验证时出现错误：会话验证信息过期，请在本体设置重新登录此用户档案</Item>
 			<Item Key="LaunchBar_Title_AuthError_AuthlibTokenExpired">验证时出现错误：档案验证信息失效，请重新设置此用户档案</Item>
 			<Item Key="LaunchBar_Title_AuthError_MicrosoftLoginCanceled">验证时出现错误：微软账户登录被用户取消</Item>
 			<Item Key="LaunchBar_Title_EnvironmentError_JavaNotFound">环境检查错误：无法定位Java路径</Item>
@@ -86,7 +86,7 @@
 			<Item Key="UserSelector_Authlib_SelectProfile">该账户拥有的多个角色，选择一个角色</Item>
 			<Item Key="UserSelector_Default_Title">Select a User</Item>
 
-            <Item Key="UserProfile_ToolTip_Offline">用户名：{0} &#xD;&#xA;此用户档案将使用离线验证</Item>
+			<Item Key="UserProfile_ToolTip_Offline">用户名：{0} &#xD;&#xA;此用户档案将使用离线验证</Item>
 			<Item Key="UserProfile_ToolTip_Online">用户名：{0} &#xD;&#xA;此用户档案将使用Mojang正版验证</Item>
 			<Item Key="UserProfile_ToolTip_Online_Microsoft">用户名：{0} &#xD;&#xA;此用户档案将使用微软账户正版验证</Item>
 			<Item Key="UserProfile_ToolTip_ThirParty_WithoutName">用户名：{0} &#xD;&#xA;此用户档案将使用第三方账户验证服务器&#xD;&#xA;验证服务器地址：{1}</Item>
@@ -123,30 +123,30 @@
 			<Item Key="CoreSelector_CoreError_NoJsonFile">Warning - JSON File Not Exist</Item>
 			<Item Key="CoreSelector_CoreError_NotCompatible">Error - Format Not Compatible</Item>
 
-            <Item Key="CoreSelector_GetCore_Title">添加新的 Minecraft 核心 或 整合包</Item>
-			
+			<Item Key="CoreSelector_GetCore_Title">添加新的 Minecraft 核心 或 整合包</Item>
+
 			<Item Key="CoreManagement_Title">高级核心管理</Item>
 			<Item Key="CoreManagement_Publisher">发行者: {0}</Item>
 			<Item Key="CoreManagement_Publisher_None">尚无发行者</Item>
 			<Item Key="CoreManagement_LastPlayed">最近游玩于 {0}</Item>
 			<Item Key="CoreManagement_LastPlayed_None">尚未运行过</Item>
-			
+
 			<Item Key="CoreManagement_Tips_Locked_MCVersion">某些选项不可用，因为Minecraft版本过低。</Item>
 			<Item Key="CoreManagement_Tips_Locked_ModPack">某些选项不可用，因为它们由您的整合包提供者管理。</Item>
 			<Item Key="CoreManagement_Tips_Locked_Server">某些选项不可用，因为它们由此整合包对应的服务器管理。</Item>
-			
+
 			<Item Key="CoreManagement_Tips_Error_Json">此核心所使用的Json文件不是规范的Minecraft游戏核心标识文件。</Item>
 			<Item Key="CoreManagement_Tips_Error_Json_Broken">此核心的Json文件损坏，BakaXL无法读取。</Item>
 			<Item Key="CoreManagement_Tips_Error_Unsupported">此核心使用了其他启动器特有的标识格式，BakaXL无法读取。</Item>
 			<Item Key="CoreManagement_Tips_Error_Jar_Missing">此核心所需的Jar文件不存在。</Item>
 			<Item Key="CoreManagement_Tips_Error_Inherits_Missing">此核心所依赖的Minecraft核心不存在。</Item>
-			
+
 			<Item Key="CoreManagement_Tips_Suggest_Reset">此核心需要重置才可以正常使用，前往 &quot;恢复 > 重置此核心&quot;。</Item>
 			<Item Key="CoreManagement_Tips_Suggest_AutoRepare">BakaXL可尝试修复此核心，前往 &quot;恢复 > 自动修复&quot;。</Item>
 			<Item Key="CoreManagement_Tips_Suggest_Shader">若要加载Minecraft光影文件，则可能需要安装 &quot;Optifine&quot;。</Item>
-			
+
 			<Item Key="CoreManagement_Tips_Warn_Mod_Unsupported">此核心不支持安装模组(Mods)。</Item>
-			
+
 			<Item Key="CoreManagement_Page_Info">信息</Item>
 			<Item Key="CoreManagement_Page_Mod">模组(Mods)</Item>
 			<Item Key="CoreManagement_Page_ResourcePack">资源包</Item>
@@ -155,7 +155,7 @@
 			<Item Key="CoreManagement_Page_Advance">高级启动</Item>
 			<Item Key="CoreManagement_Page_Update">更新</Item>
 			<Item Key="CoreManagement_Page_Restore">恢复 / 删除</Item>
-			
+
 			<Item Key="CoreManagement_Info_Description">简介</Item>
 			<Item Key="CoreManagement_Info_Description_None">这里空空的，啥介绍都没有。</Item>
 			<Item Key="CoreManagement_Info_PlayTime">游玩时间</Item>
@@ -164,10 +164,10 @@
 			<Item Key="CoreManagement_Info_Version">版本</Item>
 
 			<Item Key="CoreManagement_Mods_Title">模组(Mods)</Item>
-			
+
 			<Item Key="CoreManagement_Mods_Supported">此核心或整合包安装了支持的模组API。</Item>
 			<Item Key="CoreManagement_Mods_Unsupported">此核心或整合包好像并未使用支持加载模组的模组API。&#xD;&#xA;若您要使用模组，则应当先安装Forge、Farbic或其他模组API。&#xD;&#xA;&#xD;&#xA;若您认为BakaXL错误的认为该核心或整合包没有安装模组API，请联系我们。</Item>
-			
+
 			<Item Key="CoreManagement_Mods_ModLoader_Scanning">正在扫描核心的模组API...</Item>
 			<Item Key="CoreManagement_Mods_ModLoader_Forge">此核心安装了 Minecraft Forge，版本：{0}</Item>
 			<Item Key="CoreManagement_Mods_ModLoader_Fabric">此核心安装了 Fabric Loader/API。版本：{0}</Item>
@@ -305,11 +305,11 @@
 
 			<Item Key="Guide_Page_Language_Tips">Please Select Your Language</Item>
 
-            <Item Key="Guide_Page_DisplayMode_Subtitle">主屏幕显示模式</Item>
+			<Item Key="Guide_Page_DisplayMode_Subtitle">主屏幕显示模式</Item>
 			<Item Key="Guide_Page_DisplayMode_Tips">您随时可以在 '本体设置 - 辅助功能' 中修改这些设置</Item>
 
 			<Item Key="Guide_Page_DisplayMode_Standard_Tips">主屏幕上默认不显示开始菜单与磁贴</Item>
-			<Item Key="Guide_Page_DisplayMode_Traditional_Tips">主屏幕上将始终显示开始菜单与磁贴</Item>		
+			<Item Key="Guide_Page_DisplayMode_Traditional_Tips">主屏幕上将始终显示开始菜单与磁贴</Item>
 
 			<Item Key="Guide_Page_Audio_Subtitle">音乐与音效</Item>
 			<Item Key="Guide_Page_Audio_Tips">在使用部分功能或主题时，BakaXL可播放音乐或音效</Item>
@@ -421,6 +421,9 @@
 
 			<Item Key="Bakaverse_FriendList_Tips">Your friends see your online status and the integration package name you playing. &#xD;&#xA;You can go to the Privacy Settings to modify the options related, or change your online status into &quot;Stealth&quot;。</Item>
 
+			<Item Key="Bakaverse_UserInfo_InviteToLobby">Invite friend to your lobby</Item>
+			<Item Key="Bakaverse_UserInfo_InviteToLobby_Tips">If you are the lobby's creater, then you can invite your friend to your lobby here.</Item>
+
 			<Item Key="Bakaverse_AddFriends_RecivedRequest">Friend requests</Item>
 			<Item Key="Bakaverse_AddFriends_RecivedRequest_BtnTitle">Check the friend requests received</Item>
 			<Item Key="Bakaverse_AddFriends_RecivedRequest_Agree">Agree</Item>
@@ -439,6 +442,68 @@
 			<Item Key="Bakaverse_AddFriends_Btn_Tips">Find your friends by using BakaXL online services. </Item>
 			<Item Key="Bakaverse_AddFriends_MinePass_Btn_Title">Add friends by using BakaXL Interlaced Communication</Item>
 
+			<Item Key="Bakaverse_Lobby_Introduction_Title">Introduction</Item>
+			<Item Key="Bakaverse_Lobby_Introduction_Content">Join friends' local network games, or share your clients.&#xD;&#xA;Please let all your friends who will take part in be here.</Item>
+
+			<Item Key="Bakaverse_Lobby_LAN_Motd_Header">BakaXL Lobby</Item>
+
+			<Item Key="Bakaverse_Lobby_Error_Title">Lobby Service Error</Item>
+			<Item Key="Bakaverse_Lobby_Error_Detail_Relogin">Please relogin this BakaXL Account</Item>
+
+			<Item Key="Bakaverse_Lobby_CreateLobby_Title">Create a new lobby</Item>
+			<Item Key="Bakaverse_Lobby_CreateLobby_CustomLobbyID_TextBox_Watermark">Custom Lobby ID (in 25 letters)</Item>
+			<Item Key="Bakaverse_Lobby_CreateLobby_CustomLobbyID_TextBox_Tips">Thanks for your support to BakaXL! As the member of the Insider Program, &#xD;&#xA;You can custom BakaXL Lobby ID when create! &#xD;&#xA;Please don't violate BakaXL ToS when using this feature.&#xD;&#xA;Using this feature in a wrong way will make your Insider status cancelled.</Item>
+			<Item Key="Bakaverse_Lobby_CreateLobby_AllowStrangers_Btn_Title">Only open to my friends</Item>
+			<Item Key="Bakaverse_Lobby_CreateLobby_Create_Btn_Title">Create a lobby</Item>
+			<Item Key="Bakaverse_Lobby_CreateLobby_Create_Btn_Tips">Start Minecraft and choose &quot;Open to LAN&quot; in a single game, &#xD;&#xA;then you can create a lobby. &#xD;&#xA;If detecting fails for a long time, try to start Minecraft after running BakaXL as administrator. </Item>
+
+			<Item Key="Bakaverse_Lobby_JoinLobby_Title">Join a friend or public lobby</Item>
+			<Item Key="Bakaverse_Lobby_JoinLobby_LobbyID_TextBox_Watermark">输入要加入的大厅编号 (例如: 01509230)</Item>
+			<Item Key="Bakaverse_Lobby_JoinLobby_Join_Btn_Title">Join lobby</Item>
+			<Item Key="Bakaverse_Lobby_JoinLobby_Join_Btn_Tips">输入好友或他人告知您的大厅编号，即可加入该大厅。&#xD;&#xA;若大厅设置为仅对好友开放，则您必须为创建者的好友才可加入。</Item>
+
+			<Item Key="Bakaverse_Lobby_FriendInvites_Title">Invites from friends</Item>
+			<Item Key="Bakaverse_Lobby_FriendInvites_Tips">若您的好友邀请您加入其所在的大厅，他们将会显示在这里。</Item>
+
+			<Item Key="Bakaverse_Lobby_CrossLauncherPlay_Title">Join a third-party launcher's connect platform</Item>
+			<Item Key="Bakaverse_Lobby_CrossLauncherPlay_Tips">若要加入由第三方启动器 (PCL2、HMCL) 创建的联机服务房间，&#xD;&#xA;则您需要先在 BakaXL 笨蛋广场 安装跨启动器联机插件。&#xD;&#xA;&#xD;&#xA;该项服务尚未开放，敬请期待。</Item>
+
+			<Item Key="Bakaverse_Lobby_LobbyInfo_Title">Lobby Information</Item>
+			<Item Key="Bakaverse_Lobby_LobbyInfo_LobbyID_Title">Lobby ID</Item>
+			<Item Key="Bakaverse_Lobby_LobbyInfo_LobbyHost_Title">Lobby Creater</Item>
+			<Item Key="Bakaverse_Lobby_LobbyInfo_LocalNAT_Title">Local NAT Type</Item>
+			<Item Key="Bakaverse_Lobby_LobbyInfo_LocalUPnP_Title">Local UPnP Compatibility</Item>
+
+			<Item Key="Bakaverse_Lobby_LobbyAction_Title">大厅操作</Item>
+			<Item Key="Bakaverse_Lobby_LobbyAction_AutoAcceptJoin">自动同意加入大厅请求</Item>
+			<Item Key="Bakaverse_Lobby_LobbyAction_AutoAcceptJoin_Tips">介绍自动同意来自其他大厅加入者的加入请求。&#xD;&#xA;这在您打算懒得手动处理互联网朋友的请求时大概很有用吧。&#xD;&#xA;请注意。这将会允许所有知道大厅编号的用户随意加入该大厅。</Item>
+			<Item Key="Bakaverse_Lobby_LobbyAction_AllowRelay">在无法建立直接连接时使用中继连接</Item>
+			<Item Key="Bakaverse_Lobby_LobbyAction_AllowRelay_Tips">当 BakaXL 无法与对方建立直接连接时，&#xD;&#xA;通过 BakaXL Network Relay 中继服务进行连接。&#xD;&#xA;您的网络数据流量将通过受信任的BakaXL服务器进行安全中转。</Item>
+			<Item Key="Bakaverse_Lobby_LobbyAction_LeaveLobby">断开与大厅的连接</Item>
+			<Item Key="Bakaverse_Lobby_LobbyAction_LeaveLobby_Tips">若您当前正在参与 Minecraft 本地局域网联机，&#xD;&#xA;离开该大厅将导致与创建者主机的连接被断开。</Item>
+
+			<Item Key="Bakaverse_Lobby_LobbyJoinRequest_Title">加入大厅请求</Item>
+			<Item Key="Bakaverse_Lobby_LobbyJoinRequest_Tips">若有用户申请加入当前大厅，他们将会显示在这里。</Item>
+
+			<Item Key="Bakaverse_Lobby_OnlineUsers_Title">在线用户列表</Item>
+			<Item Key="Bakaverse_Lobby_OnlineUsers_Tips">选择一个用户，可进一步查看其账户信息，或添加对方为好友。</Item>
+			<Item Key="Bakaverse_Lobby_OnlineUsers_HostKick_Tips">您是大厅创建者，可以通过长按对应用户将其移出此大厅。</Item>
+
+			<Item Key="Bakaverse_Lobby_UserAction_Waiting">待处理</Item>
+
+			<Item Key="Bakaverse_Lobby_UserStatus_Host">大厅创建者</Item>
+			<Item Key="Bakaverse_Lobby_UserStatus_Joined">大厅中</Item>
+			<Item Key="Bakaverse_Lobby_UserStatus_Punching">大厅中 / 正在建立连接</Item>
+			<Item Key="Bakaverse_Lobby_UserStatus_WaitingRelay">大厅中 / 等待中继服务器响应</Item>
+			<Item Key="Bakaverse_Lobby_UserStatus_LeaveMinecraft">大厅中 / 游戏已断开</Item>
+			<Item Key="Bakaverse_Lobby_UserStatus_ConnectionEstablished">大厅中 / 连接已建立</Item>
+			<Item Key="Bakaverse_Lobby_UserStatus_RelayConnectionEstablished">大厅中 / 已通过中继建立连接</Item>
+			<Item Key="Bakaverse_Lobby_UserStatus_NATRestrict">连接失败 / NAT严格</Item>
+			<Item Key="Bakaverse_Lobby_UserStatus_FirewallReject">连接失败 / 防火墙</Item>
+			<Item Key="Bakaverse_Lobby_UserStatus_Unknown">连接失败 / 未知错误</Item>
+
+			<Item Key="Bakaverse_Lobby_CopyLobbyID_Template">我正在 BakaXL 的线上游戏大厅！快在 BakaXL 领域 里输入大厅编号: &lt;{0}&gt; 来加入吧！</Item>
+
 			<Item Key="Bakaverse_Notification_NewFriend_Title">New friend request</Item>
 			<Item Key="Bakaverse_Notification_NewFriend_Desc">Received a friend request from {0} !</Item>
 
@@ -455,7 +520,7 @@
 			<Item Key="BakaPlaza_FullName">BakaXL BakaPlaza</Item>
 			<Item Key="BakaPlaza_Update">更新</Item>
 
-            <Item Key="BakaPlaza_SearchBar_Watermark">搜索一些内容…</Item>
+			<Item Key="BakaPlaza_SearchBar_Watermark">搜索一些内容…</Item>
 
 			<Item Key="BakaPlaza_Category_Subtitle">Category</Item>
 
@@ -477,7 +542,7 @@
 			<Item Key="BakaPlaza_MinecraftInstaller_Category_Fabric_Desc">A new Mod API</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Category_Optifine_Desc">Optifine</Item>
 
-            <Item Key="BakaPlaza_MinecraftInstaller_Core_Status_Release">正式版</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Core_Status_Release">正式版</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Core_Status_Snapshot">快照版</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Core_Status_Special">特别版</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Core_Status_Stable">稳定版</Item>
@@ -553,7 +618,7 @@
 
 			<Item Key="Tips_ChannelList_Loading">正在获取频道列表</Item>
 			<Item Key="Tips_ChannelList_Loading_Tips">来自第三方的非官方BakaXL贴士频道将不会在此显示</Item>
-			
+
 			<Item Key="Tips_ChannelList_NoChannels">怪了，频道都躲起来了</Item>
 			<Item Key="Tips_ChannelList_NoChannels_Tips">请检查您的互联网连接。这也有可能是因为BakaXL贴士服务器正在维护。</Item>
 			<Item Key="Tips_ChannelList_NoChannels_Tips_Bottom">请稍后再试。</Item>
@@ -564,7 +629,7 @@
 
 			<Item Key="Tips_ChannelDetail_LoadFailed">这个频道空空的</Item>
 			<Item Key="Tips_ChannelDetail_LoadFailed_Tips">请检查您的互联网连接。这也有可能是因为该频道尚未发布任何贴士。</Item>
-			
+
 			<Item Key="Tips_Detail_Loading">正在搞个大新闻</Item>
 			<Item Key="Tips_Detail_Loading_Tips">正在加载贴士详情，请稍后…</Item>
 
@@ -756,7 +821,7 @@
 			<Item Key="Setting_Account_Detail_Online_OnlineFunction_Title">Minecraft正版账户功能</Item>
 			<Item Key="Setting_Account_Detail_Online_OnlineFunction_Tips">这些功能即将提供，敬请期待。</Item>
 
-            <Item Key="Setting_Account_Detail_ThirdParty_APIRoot">验证服务器地址(API Root)</Item>
+			<Item Key="Setting_Account_Detail_ThirdParty_APIRoot">验证服务器地址(API Root)</Item>
 			<Item Key="Setting_Account_Detail_ThirdParty_APIRoot_Tips">验证服务器（即 Yggdrasil 服务器）是整个验证系统的核心。&#xD;&#xA;在设置后，使用此档案进行的请求都将被发往此地址。&#xD;&#xA;您可以将包含了验证服务器信息的配置拖拽至BakaXL进行快速配置。&#xD;&#xA;&#xD;&#xA;请谨慎使用非HTTPS的验证服务器，这将导致您的密码被明文传输。</Item>
 
 			<Item Key="Setting_Account_Detail_ThirdParty_Email">注册此服务时的邮箱</Item>
@@ -810,7 +875,7 @@
 
 			<Item Key="Setting_Java_JVM16_Download">获取Java 16</Item>
 			<Item Key="Setting_Java_JVM16_Download_Tips">运行 Minecraft 1.17 或更高级版本的 Minecraft 需要使用 Java 16。&#xD;&#xA;BakaXL会连接至互联网自动安装来自可信来源的Java 16。&#xD;&#xA;这个过程可能需要数分钟，在您使用计费互联网连接时可能&#xD;&#xA;需要支付网络数据费用。</Item>
-			
+
 			<Item Key="Setting_Java_JVM16_Installing_Pending">BakaXL 当前正在进行 Java 16 的安装…&#xD;&#xA;待安装进度更新后，它将会显示在这里。</Item>
 			<Item Key="Setting_Java_JVM16_Installing_ProgressChanged">BakaXL 当前正在进行 Java 16 的安装…&#xD;&#xA;状态: {0} </Item>
 
@@ -884,15 +949,47 @@
 			<Item Key="Setting_Network_MojangServiceStatus_MojangAPI">Mojang API服务</Item>
 			<Item Key="Setting_Network_MojangServiceStatus_MinecraftSkins">Minecraft皮肤服务</Item>
 			<Item Key="Setting_Network_MojangServiceStatus_MojangSite">Mojang官网</Item>
-            <Item Key="Setting_Network_MojangServiceStatus_MicrosoftLive">微软登录服务</Item>
+			<Item Key="Setting_Network_MojangServiceStatus_MicrosoftLive">微软登录服务</Item>
 			<Item Key="Setting_Network_MojangServiceStatus_MicrosoftXBOXLive">XBOX登录服务</Item>
 
 			<Item Key="Setting_Network_Environment_Ping">网络环境</Item>
+			<Item Key="Setting_Network_Environment_NATType_Title">NAT Type:</Item>
 			<Item Key="Setting_Network_Environment_Ping_ms_Title">与服务器的延迟:</Item>
 			<Item Key="Setting_Network_Environment_Ping_ms">毫秒</Item>
 			<Item Key="Setting_Network_Environment_Ping_Package">丢包率:</Item>
 
-			<Item Key="Setting_Network_Environment_Retest">重新检测</Item>
+			<Item Key="Setting_Network_Environment_NATType_Unknown">Unknown</Item>
+			<Item Key="Setting_Network_Environment_NATType_Open">Open (Public)</Item>
+			<Item Key="Setting_Network_Environment_NATType_FullCone">Medium (FullCone)</Item>
+			<Item Key="Setting_Network_Environment_NATType_Restrict">Medium (RestrictedCone)</Item>
+			<Item Key="Setting_Network_Environment_NATType_PortRestrict">Medium (PortRestrictedCone)</Item>
+			<Item Key="Setting_Network_Environment_NATType_Symmetric">Strict (Symmetric)</Item>
+			<Item Key="Setting_Network_Environment_NATType_SymmetricFirewall">Strict (Symmetric+Firewall)</Item>
+			<Item Key="Setting_Network_Environment_NATType_Error_DNS">DNS Error</Item>
+			<Item Key="Setting_Network_Environment_NATType_Error_NULL">Can't finish detecting now</Item>
+			<Item Key="Setting_Network_Environment_NATType_Error_RequestFailed">Connection Failed</Item>
+
+			<Item Key="Setting_Network_Environment_NATType_Checking">Detecting...</Item>
+			<Item Key="Setting_Network_Environment_NATType_Checking_Tips">BakaXL will show the result later...</Item>
+
+			<Item Key="Setting_Network_Environment_NATType_Tips_Open">The network environment won't affect the connect experience.&#xD;&#xA;This environment is fit for being the lobby creater.</Item>
+			<Item Key="Setting_Network_Environment_NATType_Tips_MayAffectOnlinePlay">This may affect your connect experience.</Item>
+			<Item Key="Setting_Network_Environment_NATType_Tips_MayAffectOnlinePlay_RouterOrFirewall">Some router or firewall settings may affect your connect experience.</Item>
+			<Item Key="Setting_Network_Environment_NATType_Tips_MayAffectOnlinePlay_RouterOrFirewall_UPnP">Some router or firewall settings may affect your connect experience.&#xD;&#xA;If the lobby creater or your network devices support UPnP, then may alleviate.</Item>
+			<Item Key="Setting_Network_Environment_NATType_Tips_WillAffectOnlinePlay">This will affect your connect experience.</Item>
+			<Item Key="Setting_Network_Environment_NATType_Tips_WillAffectOnlinePlay_UPnP">This will affect your connect experience.&#xD;&#xA;If the lobby creater or your network devices support UPnP, then may alleviate.</Item>
+
+			<Item Key="Setting_Network_Environment_UPnP_Unknown">Unknown</Item>
+			<Item Key="Setting_Network_Environment_UPnP_Unsupport">Unsupport</Item>
+			<Item Key="Setting_Network_Environment_UPnP_Unsupport_Tips">Your network devices or systems don't support UPnP now.&#xD;&#xA;If you enable it, then BakaXL will try to improve your connect experience by this protocol.</Item>
+			<Item Key="Setting_Network_Environment_UPnP_Unstable">Unstable [{0}]</Item>
+			<Item Key="Setting_Network_Environment_UPnP_Unstable_Tips">Your network devices or systems' support to UPnP isn't normal now.&#xD;&#xA;This may cause BakaXL can't improve your connect experience.&#xD;&#xA;If you think your network devices or systems don't have the problem, please connect BakaXL Development Team.</Item>
+			<Item Key="Setting_Network_Environment_UPnP_Enabled">Auto Mapping Enabled</Item>
+			<Item Key="Setting_Network_Environment_UPnP_Enabled_Tips">BakaXL sends a request to your network devices to improve your connect experience.</Item>
+			<Item Key="Setting_Network_Environment_UPnP_Pending">Pending</Item>
+			<Item Key="Setting_Network_Environment_UPnP_Pending_Tips">BakaXL doesn't begin to test network devices' UPnP support.&#xD;&#xA;When you begin to create P2P connections, BakaXL will begin to test and show the result.</Item>
+
+			<Item Key="Setting_Network_Environment_Retest">Retest</Item>
 
 			<Item Key="Setting_Network_Troubleshooting">网络连接疑难解答</Item>
 			<Item Key="Setting_Network_Troubleshooting_Tips">若您无法正常连接到Mojang正版验证服务器，&#xD;&#xA;尝试更换一个稳定且不易受污染的DNS服务器通常能解决此问题。&#xA;&#xD;&#xA;若此问题持续出现，请联系您的互联网服务提供商(ISP)，&#xD;&#xA;并确保您的互联网并未遭到劫持。</Item>
@@ -912,7 +1009,7 @@
 
 			<Item Key="Setting_Advance_AdvLaunch_GCMethod">自定义Java回收器</Item>
 			<Item Key="Setting_Advance_AdvLaunch_GCMethod_Tips">设置在使用Java 9或更高级版本Java时使用的垃圾回收器(GC)。&#xD;&#xA;如果你的Java版本低于Java 9，则此选项不起作用。&#xD;&#xA;&#xD;&#xA;&quot;Z回收器(ZGC)&quot;仅可以Java 11或更高级版本使用，在错误的&#xD;&#xA;Java版本中使用此回收器将导致无法启动游戏。&#xD;&#xA;&#xD;&#xA;如果你不知道这是做什么的，请选择 &quot;默认&quot;。</Item>
-			
+
 			<Item Key="Setting_Advance_GameResolution_Title">Minecraft窗体大小</Item>
 			<Item Key="Setting_Advance_GameResolution_SelectWindowSize">选择窗体大小</Item>
 			<Item Key="Setting_Advance_GameResolution_Wdith">窗体宽度</Item>
@@ -954,8 +1051,8 @@
 			<Item Key="Setting_Personalize_Color_Tips">设置BakaXL窗体和控件所使用的配色方案。</Item>
 
 			<Item Key="Setting_Personalize_Tema_Title">BakaXL主题</Item>
-            <Item Key="Setting_Personalize_Tema_List">浏览主题列表</Item>
-            <Item Key="Setting_Personalize_Tema_Folder">主题文件夹</Item>
+			<Item Key="Setting_Personalize_Tema_List">浏览主题列表</Item>
+			<Item Key="Setting_Personalize_Tema_Folder">主题文件夹</Item>
 
 			<Item Key="Setting_Accessibility_Info">&quot;辅助功能&quot; 可让您让您根据个人需求自定义BakaXL的功能，&#xD;以满足不同的使用条件。</Item>
 			<Item Key="Setting_Accessibility_Vision_Title">视觉</Item>
@@ -963,10 +1060,10 @@
 			<Item Key="Setting_Accessibility_Home_DisplayMode_Tips">&quot;主屏幕显示模式&quot; 将决定BakaXL的主页面是否展示所有的磁贴和功能。&#xD; · 标准: 主屏幕默认不显示开始菜单和功能磁贴 &#xD; · 传统: 主屏幕将始终显示开始菜单和功能磁贴&#xD;&#xD;使用标准模式时，需要按下空格或鼠标点击主屏幕空白位置向上&#xD;拖拽进入开始菜单。</Item>
 			<Item Key="Setting_Accessibility_Home_SelectCore_Btn">切换核心磁贴</Item>
 			<Item Key="Setting_Accessibility_Home_SelectCore_Tips">&quot;切换核心磁贴&quot; 将决定BakaXL的开始菜单中是否显示切换核心磁贴&#xD;&#xD;您始终可以通过启动条的快捷交互来切换核心。&#xD;参见 &quot;快捷切换核心&quot;。</Item>
-			
+
 			<Item Key="Setting_Accessibility_Interaction_Title">交互</Item>
 			<Item Key="Setting_Accessibility_SwitchCore_InteractMode_Btn">快捷切换核心</Item>
-			<Item Key="Setting_Accessibility_SwitchCore_InteractMode_Tips">&quot;快捷切换核心&quot; 可提供在启动条上快捷切换Minecraft核心的操作&#xD; · 标准: 在启动条上不显示额外的切换核心按钮 &#xD; · 传统: 在启动条上单独显示切换核心的按钮 &#xD;&#xD;使用标准模式时，需要通过拖拽&quot;启动游戏&quot;按钮切换核心。</Item>			
+			<Item Key="Setting_Accessibility_SwitchCore_InteractMode_Tips">&quot;快捷切换核心&quot; 可提供在启动条上快捷切换Minecraft核心的操作&#xD; · 标准: 在启动条上不显示额外的切换核心按钮 &#xD; · 传统: 在启动条上单独显示切换核心的按钮 &#xD;&#xD;使用标准模式时，需要通过拖拽&quot;启动游戏&quot;按钮切换核心。</Item>
 
 			<Item Key="Setting_Audio_BGM_Title">背景音乐</Item>
 			<Item Key="Setting_Audio_BGM_Btn_Title">BakaXL背景音乐</Item>
@@ -1083,7 +1180,7 @@
 			<Item Key="TextInputer_Core_SetDesc_Title">更改此核心的简介</Item>
 
 			<Item Key="MessageBox_Launch_CheckOnline">正在检查用户是否可以运行Minecraft……</Item>
-            <Item Key="MessageBox_Launch_CheckThirdParty">请等待我们连接到第三方验证服务器……</Item>
+			<Item Key="MessageBox_Launch_CheckThirdParty">请等待我们连接到第三方验证服务器……</Item>
 
 			<Item Key="MessageBox_Auth_ThirdParty_ProtocolFix_Title">已经自动补全通信协议</Item>
 			<Item Key="MessageBox_Auth_ThirdParty_ProtocolFix_Content">BakaXL检测到您未设置验证服务器通信协议。&#xD;&#xA;将自动使用HTTPS安全协议连接至此验证服务器。</Item>
@@ -1220,24 +1317,24 @@
 			<Item Key="Installer_InstallTimer_Counting">正在计时...</Item>
 
 			<Item Key="Installer_InstallTaskStatus_PrepareInstaller">准备安装 {0} ...</Item>
-			
+
 			<Item Key="Installer_InstallTaskStatus_DownloadMinecraft">正在下载 Minecraft...</Item>
-			<Item Key="Installer_InstallTaskStatus_DownloadForge">正在下载 Forge...</Item>	
+			<Item Key="Installer_InstallTaskStatus_DownloadForge">正在下载 Forge...</Item>
 			<Item Key="Installer_InstallTaskStatus_InstallingForge">正在安装 Forge...</Item>
 			<Item Key="Installer_InstallTaskStatus_DownloadFabric">正在获取 Fabric 安装档案...</Item>
 			<Item Key="Installer_InstallTaskStatus_InstallingFabric">正在安装 Fabric...</Item>
 			<Item Key="Installer_InstallTaskStatus_DownloadAssets">正在补全 Assets...</Item>
 			<Item Key="Installer_InstallTaskStatus_UnzipFile">正在解压缩文件...</Item>
-			
+
 			<Item Key="Installer_InstallTaskStatus_DownloadLibs">正在补全 Libraries...</Item>
 
 			<Item Key="Installer_InstallTaskStatus_DownloadLibsAndAssets">正在补全 Assets 与 Libraries...</Item>
 
 			<Item Key="Installer_InstallTaskStatus_Failed">安装失败</Item>
 			<Item Key="Installer_InstallTaskStatus_Successful">安装成功</Item>
-			
+
 			<Item Key="Installer_InstallTaskStatus_PrepareInstaller_Tips">BakaXL将要开始安装您所选定的游戏核心。&#xD;&#xA;请稍等片刻，并在此期间不要断开互联网连接或关闭BakaXL。</Item>
-			
+
 			<Item Key="Installer_InstallTaskStatus_DownloadMinecraft_Tips">BakaXL正在将 {0} 下载至本地。&#xD;&#xA;请稍等片刻，并在此期间不要断开互联网连接或关闭BakaXL。</Item>
 			<Item Key="Installer_InstallTaskStatus_DownloadForge_Tips">BakaXL正在将 Forge-{0} 下载至本地。&#xD;&#xA;请稍等片刻，并在此期间不要断开互联网连接或关闭BakaXL。</Item>
 			<Item Key="Installer_InstallTaskStatus_InstallingForge_Tips">BakaXL正在安装 Forge {0}。&#xD;&#xA;请稍等片刻，并在此期间不要操作游戏目录或关闭BakaXL。</Item>
@@ -1249,7 +1346,7 @@
 			<Item Key="Installer_InstallTaskStatus_InstallingForge_Tips_ModPack">BakaXL正在为 {0} 安装 Forge。&#xD;&#xA;请稍等片刻，并在此期间不要操作游戏目录或关闭BakaXL。</Item>
 			<Item Key="Installer_InstallTaskStatus_DownloadFabric_Tips_ModPack">BakaXL正在将 {0} 所需的 Fabric 安装档案 下载至本地。&#xD;&#xA;请稍等片刻，并在此期间不要断开互联网连接或关闭BakaXL。</Item>
 			<Item Key="Installer_InstallTaskStatus_InstallingFabric_Tips_ModPack">BakaXL正在为 {0} 处理 Fabric 安装档案。&#xD;&#xA;请稍等片刻，并在此期间不要操作游戏目录或关闭BakaXL。</Item>
-			
+
 			<Item Key="Installer_InstallTaskStatus_DownloadLibs_Tips">BakaXL正在补全该版本所需的 运行库文件(Libraries)。&#xD;&#xA;请稍等片刻，并在此期间不要断开互联网连接或关闭BakaXL。</Item>
 			<Item Key="Installer_InstallTaskStatus_DownloadAssets_Tips">BakaXL正在补全该版本所需的 资源文件(Assets)。&#xD;&#xA;请稍等片刻，并在此期间不要断开互联网连接或关闭BakaXL。</Item>
 			<Item Key="Installer_InstallTaskStatus_DownloadLibsAndAssets_Tips">BakaXL正在补全该版本所需的 运行库文件(Libraries) 和 资源文件(Assets)。&#xD;&#xA;请稍等片刻，并在此期间不要断开互联网连接或关闭BakaXL。</Item>
