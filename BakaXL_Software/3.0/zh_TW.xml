@@ -61,7 +61,7 @@
 			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_CheckAuthlib_Download">正在下載Authlib-Injector</Item>
 			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_CheckPlugin">正在執行BakaXL外掛定義的操作</Item>
 
-			<!-- 需要翻译
+			<!-- 需要翻译↓ -->
 			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_DownloadJava">正在下载 {0} 虚拟机 ({1} 位)</Item>
 			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_DownloadJava_Prepare">正在获取 Java 虚拟机列表</Item>
 			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_DownloadJava_Fetching">正在创建 {0} 虚拟机下载任务 ({1} 位)</Item>
@@ -70,7 +70,7 @@
 			<Item Key="LaunchBar_LaunchBtn_Launching_Environment_JavaFullAuto">正在选择合适的 Java 虚拟机</Item>
 			<Item Key="LaunchBar_LaunchBtn_Launching_Environment_JavaNotExist">Java 路径已变动，正在重新定位</Item>
 			<Item Key="LaunchBar_LaunchBtn_Launching_Environment_NewJavaFound">BakaXL 已选定了合适的 Java 虚拟机</Item>
-			-->
+			<!-- 需要翻译↑ -->
 			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_CheckEnvironment">發射模式: 檢查和補全Minecraft環境</Item>
 
 			<Item Key="LaunchBar_LaunchBtn_Launched_Title">正在遊戲中</Item>
