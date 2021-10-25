@@ -7,9 +7,9 @@
 	</Type>
 	<Language Key="fr_FR">
 		<Items>
-			<Item Key="BakaXLTitle">BakaXL - Luancher de Minecraft</Item>
+			<Item Key="BakaXLTitle">BakaXL - Launcher Minecraft</Item>
 
-			<Item Key="NoUserName">Sans d'identifiant Minecraft</Item>
+			<Item Key="NoUserName">Sans de profil Minecraft</Item>
 
 			<Item Key="Loading">Chargement</Item>
 			<Item Key="PleaseWait">Veuillez patienter...</Item>
@@ -19,29 +19,29 @@
 			<Item Key="Window_ReportIssue_Tips">Rejoignez-vous au Forum officiel de BakaXL pour signaler un bogue</Item>
 
 			<Item Key="Window_GetHelp_Title">Obtenir de l'aide</Item>
-			<Item Key="Window_GetHelp_Tips">Besoin d'aide? Allez sur notre site d'assistance!</Item>
+			<Item Key="Window_GetHelp_Tips">Besoin d'aide ? Allez sur notre site d'assistance!</Item>
 
 			<Item Key="Window_HomeMenu_Btn">Page d'accueil</Item>
 
 			<Item Key="LaunchBar_Hello">Bonjour! {0}</Item>
 			<Item Key="LaunchBar_Launch">Démarrer le jeu!</Item>
-			<Item Key="LaunchBar_NoCore">&lt;Aucun noyau sélecté&gt;</Item>
+			<Item Key="LaunchBar_NoCore">&lt;Aucun Noyau sélecté&gt;</Item>
 
-			<Item Key="LaunchBar_SelectCore_Animation_Title">Pour sélectionner le noyau</Item>
-			<Item Key="LaunchBar_SelectCore_Animation_Click">Appuyer sur le bouton &quot;Jouer&quot;</Item>
+			<Item Key="LaunchBar_SelectCore_Animation_Title">Sélectionner le Noyau ainsi</Item>
+			<Item Key="LaunchBar_SelectCore_Animation_Click">Appuyer sur le bouton &quot;Démarrer le jeu!&quot;</Item>
 			<Item Key="LaunchBar_SelectCore_Animation_Drag">Glisser vers la droite</Item>
 
-			<Item Key="LaunchBar_SelectCore_BtnTitle">Modifier le noyau de Minecraft</Item>
+			<Item Key="LaunchBar_SelectCore_BtnTitle">Modifier les Noyaux de Minecraft</Item>
 
-			<Item Key="LaunchBar_SelectCore_Title">Tir du noyau</Item>
+			<Item Key="LaunchBar_SelectCore_Title">Tir du Noyau</Item>
 			<Item Key="LaunchBar_SelectCore_Management">Configuration</Item>
-			<Item Key="LaunchBar_SelectCore_Management_Tips">Gérer vos noyaux de Minecraft</Item>
+			<Item Key="LaunchBar_SelectCore_Management_Tips">Gérer vos Noyaux de Minecraft</Item>
 			<Item Key="LaunchBar_SelectCore_DragEasterEgg">Assez!</Item>
 
 			<Item Key="LaunchBar_LaunchBtn_Error_Title">Impossible de démarrer le jeu</Item>
-			<Item Key="LaunchBar_LaunchBtn_Error_NoProfile">Manque de profil</Item>
-			<Item Key="LaunchBar_LaunchBtn_Error_NoCore">Manque de noyau</Item>
-			<Item Key="LaunchBar_LaunchBtn_Error_NoCoreFolder">Impossible de trouver le dossier du noyau</Item>
+			<Item Key="LaunchBar_LaunchBtn_Error_NoProfile">Manque de profil d'utilisateur</Item>
+			<Item Key="LaunchBar_LaunchBtn_Error_NoCore">Manque de Noyau</Item>
+			<Item Key="LaunchBar_LaunchBtn_Error_NoCoreFolder">Impossible de trouver le dossier du Noyau</Item>
 			<Item Key="LaunchBar_LaunchBtn_Error_AuthError">Authentification échouée</Item>
 
 			<Item Key="LaunchBar_LaunchBtn_Error_UnknownError_Title">Il y a quelque chose qui cloche!</Item>
@@ -50,7 +50,7 @@
 			<Item Key="LaunchBar_LaunchBtn_Launching_Title">Lancement en cours...</Item>
 			<Item Key="LaunchBar_LaunchBtn_Launching_Tips">Minecraft sera prêt dans un instant</Item>
 
-			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_CreateCore">Création du noyau</Item>
+			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_CreateCore">Création du Noyau</Item>
 			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_CheckLib">Vérification de la bibliothèque de Minecraft</Item>
 			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_DownloadLib">Téléchargement de la bibliothèque de Minecraft {0}</Item>
 			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_CheckAssets">Vérification des assets de Minecraft</Item>
@@ -66,108 +66,108 @@
 			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_DownloadJava_Fetching">Préparation du téléchargement de la machine virtuelle {0} ({1} bits)</Item>
 			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_DownloadJava_Finalizing">Installation de la machine virtuelle {0} ({1} bits)</Item>
 
-			<Item Key="LaunchBar_LaunchBtn_Launching_Environment_JavaFullAuto">Selectionnement la JVM adéquate</Item>
+			<Item Key="LaunchBar_LaunchBtn_Launching_Environment_JavaFullAuto">Selectionnement de la JVM adéquate</Item>
 			<Item Key="LaunchBar_LaunchBtn_Launching_Environment_JavaNotExist">Relocalisation du chemin d'accès à la JVM</Item>
 			<Item Key="LaunchBar_LaunchBtn_Launching_Environment_NewJavaFound">BakaXL a choisi la JVM adéquate pour vous</Item>
 
 			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_CheckEnvironment">Mode de lancement : Vérifier et compléter l'environnement de Minecraft</Item>
 
 			<Item Key="LaunchBar_LaunchBtn_Launched_Title">Le jeu est lancé</Item>
-			<Item Key="LaunchBar_LaunchBtn_Launched_Tips">&lt;Le jeu et en cours&gt;</Item>
+			<Item Key="LaunchBar_LaunchBtn_Launched_Tips">&lt;Le jeu est en cours&gt;</Item>
 
-			<Item Key="LaunchBar_ToolTip_DownloadLib">Téléchargement des assets de Minecraft &#xD;&#xA;Nom de fiche : {0}&#xD;&#xA; Chemin d'accès : {1}</Item>
+			<Item Key="LaunchBar_ToolTip_DownloadLib">Téléchargement des assets de Minecraft &#xD;&#xA;Nom de fiche : {0} &#xD;&#xA;Chemin d'accès : {1}</Item>
 
 			<Item Key="LaunchBar_Title_Launched">Le jeu est lancé sous le profil de {0}</Item>
 			<Item Key="LaunchBar_Title_AuthError">Authentification échouée : Le nom ou le mot de passe incorret</Item>
 			<Item Key="LaunchBar_Title_AuthError_Unknown">Authentification échouée : Une erreur inconnue</Item>
-			<Item Key="LaunchBar_Title_AuthError_MojangTokenExpired">Authentification échouée : Les données d'authentification ont expiré, veuillez reconnecter sur votre profil dans la configuration de BakaXL</Item>
-			<Item Key="LaunchBar_Title_AuthError_AuthlibTokenExpired">Authentification échouée : Les données d'authentification ont expiré, veuillez reconfigurez votre profil</Item>
-			<Item Key="LaunchBar_Title_AuthError_MicrosoftLoginCanceled">Authentification échouée : La connexion microsoft a été annulée</Item>
+			<Item Key="LaunchBar_Title_AuthError_MojangTokenExpired">Authentification échouée : Les données d'authentification ont expiré, veuillez reconnecter sur votre profil dans la Configuration de BakaXL</Item>
+			<Item Key="LaunchBar_Title_AuthError_AuthlibTokenExpired">Authentification échouée : Les données d'authentification ont expiré, veuillez créer un nouveau profil</Item>
+			<Item Key="LaunchBar_Title_AuthError_MicrosoftLoginCanceled">Authentification échouée : La connexion Microsoft a été annulée</Item>
 			<Item Key="LaunchBar_Title_EnvironmentError_JavaNotFound">Erreur de l'environnement : Impossible de localiser les dossiers de Java</Item>
 			<Item Key="LaunchBar_Title_GameError_GetAssetsListFailed">Erreur des assets : Impossible de télécharger les assets de Minecraft</Item>
 			<Item Key="LaunchBar_Title_GameError_GetAuthlibFailed">Erreur des assets : Impossible de télécharger l'Authlib-Injector</Item>
 			<Item Key="LaunchBar_Title_LaunchModeError_CheckGameFailed">Erreur du mode de lancement : Une erreur de l'environnement Minecraft est trouvée durant la vérification</Item>
 
-			<Item Key="UserSelector_Launch_Title">哪个用户将用于启动Minecraft？</Item>
-			<Item Key="UserSelector_Authlib_SelectProfile">该账户拥有的多个角色，选择一个角色</Item>
-			<Item Key="UserSelector_Default_Title">选择一个账户</Item>
+			<Item Key="UserSelector_Launch_Title">Sous le profil de quel utilisateur le jeu sera-t-il lancé ?</Item>
+			<Item Key="UserSelector_Authlib_SelectProfile">Cet utilisateur porte plusieurs personnages sous son profil, en choisissez un</Item>
+			<Item Key="UserSelector_Default_Title">Choisissez un profil d'utilisateur</Item>
 
-			<Item Key="UserProfile_ToolTip_Offline">用户名：{0} &#xD;&#xA;此用户档案将使用离线验证</Item>
-			<Item Key="UserProfile_ToolTip_Online">用户名：{0} &#xD;&#xA;此用户档案将使用Mojang正版验证</Item>
-			<Item Key="UserProfile_ToolTip_Online_Microsoft">用户名：{0} &#xD;&#xA;此用户档案将使用微软账户正版验证</Item>
-			<Item Key="UserProfile_ToolTip_ThirParty_WithoutName">用户名：{0} &#xD;&#xA;此用户档案将使用第三方账户验证服务器&#xD;&#xA;验证服务器地址：{1}</Item>
-			<Item Key="UserProfile_ToolTip_ThirParty_WithName">用户名：{0} &#xD;&#xA;此用户档案将使用 {1} 提供的账户验证服务器&#xD;&#xA;验证服务器地址：{2}</Item>
+			<Item Key="UserProfile_ToolTip_Offline">Utilisateur : {0} &#xD;&#xA;Ce profil sera en mode Hors-ligne</Item>
+			<Item Key="UserProfile_ToolTip_Online">Utilisateur : {0} &#xD;&#xA;Ce profil sera en mode Enligne</Item>
+			<Item Key="UserProfile_ToolTip_Online_Microsoft">Utilisateur : {0} &#xD;&#xA;Ce profil sera connecté avec un compte Microsoft</Item>
+			<Item Key="UserProfile_ToolTip_ThirParty_WithoutName">Utilisateur : {0} &#xD;&#xA;Ce profil sera authentifié par un serveur externe &#xD;&#xA;l'addresse du serveur: {1}</Item>
+			<Item Key="UserProfile_ToolTip_ThirParty_WithName">Utilisateur : {0} &#xD;&#xA;Ce profil sera authentifié par un serveur externe offert par {1} &#xD;&#xA;l'addresse du serveur: {1}</Item>
 
-			<Item Key="HomeIdentifier_Screen_Home">主页</Item>
-			<Item Key="HomeIdentifier_Screen_Menu">开始</Item>
+			<Item Key="HomeIdentifier_Screen_Home">Page d'accueil</Item>
+			<Item Key="HomeIdentifier_Screen_Menu">Menu démarrer</Item>
 
-			<Item Key="CoreSelector_Title">核心</Item>
-			<Item Key="CoreSelector_DisplayMode">显示：</Item>
+			<Item Key="CoreSelector_Title">Noyau</Item>
+			<Item Key="CoreSelector_DisplayMode">Affichage : </Item>
 
-			<Item Key="CoreSelector_Empty_Title">空的</Item>
-			<Item Key="CoreSelector_Empty_Tips">瞧，这里啥东西也没有</Item>
+			<Item Key="CoreSelector_Empty_Title">Vide</Item>
+			<Item Key="CoreSelector_Empty_Tips">Voyez, y a rien ici</Item>
 
-			<Item Key="CoreSelector_Loading_Title">稍安勿躁</Item>
-			<Item Key="CoreSelector_Loading_Tips">核心们正在排队站好</Item>
+			<Item Key="CoreSelector_Loading_Title">Soyez patient</Item>
+			<Item Key="CoreSelector_Loading_Tips">Les Noyaux sont entrain de se mettre au rang</Item>
 
-			<Item Key="CoreSelector_DisplayMode_All">全部</Item>
-			<Item Key="CoreSelector_DisplayMode_Favorite">我的收藏</Item>
-			<Item Key="CoreSelector_DisplayMode_Vanilla">仅原版</Item>
-			<Item Key="CoreSelector_DisplayMode_Forge">仅Forge</Item>
-			<Item Key="CoreSelector_DisplayMode_Fabric">仅Fabric</Item>
-			<Item Key="CoreSelector_DisplayMode_Liteloader">仅Liteloader</Item>
-			<Item Key="CoreSelector_DisplayMode_Optifine">仅Optifine</Item>
-			<Item Key="CoreSelector_DisplayMode_Other">其他</Item>
+			<Item Key="CoreSelector_DisplayMode_All">Toutes</Item>
+			<Item Key="CoreSelector_DisplayMode_Favorite">Mes favorites</Item>
+			<Item Key="CoreSelector_DisplayMode_Vanilla">Origninales</Item>
+			<Item Key="CoreSelector_DisplayMode_Forge">Forge</Item>
+			<Item Key="CoreSelector_DisplayMode_Fabric">Fabric</Item>
+			<Item Key="CoreSelector_DisplayMode_Liteloader">Liteloader</Item>
+			<Item Key="CoreSelector_DisplayMode_Optifine">Optifine</Item>
+			<Item Key="CoreSelector_DisplayMode_Other">Autres</Item>
 
-			<Item Key="CoreSelector_Requirement_Java_NoVersionNeeded">无版本限制</Item>
-			<Item Key="CoreSelector_Type_Major">正式版本</Item>
-			<Item Key="CoreSelector_Type_Snapshot">快照</Item>
+			<Item Key="CoreSelector_Requirement_Java_NoVersionNeeded">Version de JVM non limité</Item>
+			<Item Key="CoreSelector_Type_Major">Officielles</Item>
+			<Item Key="CoreSelector_Type_Snapshot">Snapshots</Item>
 
-			<Item Key="CoreSelector_CoreError_JsonError">异常 - Json文件错误或不符合规范</Item>
-			<Item Key="CoreSelector_CoreError_NoinheritsFrom">异常 - 缺少依赖的Minecraft核心</Item>
-			<Item Key="CoreSelector_CoreError_NoJarFile">异常 - 缺少运行所需的Jar文件</Item>
-			<Item Key="CoreSelector_CoreError_NoJsonFile">异常 - Json文件缺失或文件名错误</Item>
-			<Item Key="CoreSelector_CoreError_NotCompatible">错误 - 损毁、不受兼容的核心或整合包</Item>
+			<Item Key="CoreSelector_CoreError_JsonError">Avertissement - Format des fiches JSON inadéquat</Item>
+			<Item Key="CoreSelector_CoreError_NoinheritsFrom">Avertissement - Manque des héritages nécessaire</Item>
+			<Item Key="CoreSelector_CoreError_NoJarFile">Avertissement - Manque des fiches Jar nécessaires</Item>
+			<Item Key="CoreSelector_CoreError_NoJsonFile">Avertissement - Manque ou nomination inadéquate des fiches Json</Item>
+			<Item Key="CoreSelector_CoreError_NotCompatible">Erreur - Noyau ou Pack de mods endommagé, incompatible</Item>
 
-			<Item Key="CoreSelector_GetCore_Title">添加新的 Minecraft 核心 或 整合包</Item>
+			<Item Key="CoreSelector_GetCore_Title">Créer un nouveau Noyau de Minecraft</Item>
 
-			<Item Key="CoreManagement_Title">高级核心管理</Item>
-			<Item Key="CoreManagement_Publisher">发行者: {0}</Item>
-			<Item Key="CoreManagement_Publisher_None">尚无发行者</Item>
-			<Item Key="CoreManagement_LastPlayed">最近游玩于 {0}</Item>
-			<Item Key="CoreManagement_LastPlayed_None">尚未运行过</Item>
+			<Item Key="CoreManagement_Title">Gestion avancée des Noyaux</Item>
+			<Item Key="CoreManagement_Publisher">Publié par : {0}</Item>
+			<Item Key="CoreManagement_Publisher_None">Pas d'éditeur</Item>
+			<Item Key="CoreManagement_LastPlayed">Récemment joué à {0}</Item>
+			<Item Key="CoreManagement_LastPlayed_None">Pas encore joué</Item>
 
-			<Item Key="CoreManagement_Tips_Locked_MCVersion">某些选项不可用，因为Minecraft版本过低。</Item>
-			<Item Key="CoreManagement_Tips_Locked_ModPack">某些选项不可用，因为它们由您的整合包提供者管理。</Item>
-			<Item Key="CoreManagement_Tips_Locked_Server">某些选项不可用，因为它们由此整合包对应的服务器管理。</Item>
+			<Item Key="CoreManagement_Tips_Locked_MCVersion">Plusieurs options inaccessibles, la version de Minecraft est trop vieille.</Item>
+			<Item Key="CoreManagement_Tips_Locked_ModPack">Plusieurs options inaccessibles, elles sont contrôlées par l'éditeur de ce Pack de mods.</Item>
+			<Item Key="CoreManagement_Tips_Locked_Server">Plusieurs options inaccessibles, elles sont contrôlées par le serveur correspondant de ce Pack de mods.</Item>
 
-			<Item Key="CoreManagement_Tips_Error_Json">此核心所使用的Json文件不是规范的Minecraft游戏核心标识文件。</Item>
-			<Item Key="CoreManagement_Tips_Error_Json_Broken">此核心的Json文件损坏，BakaXL无法读取。</Item>
-			<Item Key="CoreManagement_Tips_Error_Unsupported">此核心使用了其他启动器特有的标识格式，BakaXL无法读取。</Item>
-			<Item Key="CoreManagement_Tips_Error_Jar_Missing">此核心所需的Jar文件不存在。</Item>
-			<Item Key="CoreManagement_Tips_Error_Inherits_Missing">此核心所依赖的Minecraft核心不存在。</Item>
+			<Item Key="CoreManagement_Tips_Error_Json">Les fiches Json de ce noyau ne sont pas en format demandé.</Item>
+			<Item Key="CoreManagement_Tips_Error_Json_Broken">Les fiches Json de ce noyau sont endommagées.</Item>
+			<Item Key="CoreManagement_Tips_Error_Unsupported">Les fiches Json de ce noyau sont en format spécial d'un autre launcher.</Item>
+			<Item Key="CoreManagement_Tips_Error_Jar_Missing">Les fiches Jar nécessaires sont perdues.</Item>
+			<Item Key="CoreManagement_Tips_Error_Inherits_Missing">Les héritages nécessaires de ce noyau sont perdues.</Item>
 
-			<Item Key="CoreManagement_Tips_Suggest_Reset">此核心需要重置才可以正常使用，前往 &quot;恢复 > 重置此核心&quot;。</Item>
-			<Item Key="CoreManagement_Tips_Suggest_AutoRepare">BakaXL可尝试修复此核心，前往 &quot;恢复 > 自动修复&quot;。</Item>
-			<Item Key="CoreManagement_Tips_Suggest_Shader">若要加载Minecraft光影文件，则可能需要安装 &quot;Optifine&quot;。</Item>
+			<Item Key="CoreManagement_Tips_Suggest_Reset">Ce noyau a besoin de réinitialisation, veuillez aller dans &quot;Restauration > Initialisation&quot; pour résoudre ce problème.</Item>
+			<Item Key="CoreManagement_Tips_Suggest_AutoRepare">BakaXL peut essayer de restaurer ce noyeau &quot;Restauration > Restauration automatique&quot; pour résoudre ce problème.</Item>
+			<Item Key="CoreManagement_Tips_Suggest_Shader">Installation d'&quot;Optifine&quot; est probablement nécessairee au chargement de Pack de shaders</Item>
 
-			<Item Key="CoreManagement_Tips_Warn_Mod_Unsupported">此核心不支持安装模组(Mods)。</Item>
+			<Item Key="CoreManagement_Tips_Warn_Mod_Unsupported">Ce noyau n'est pas compatible avec les mods.</Item>
 
-			<Item Key="CoreManagement_Page_Info">信息</Item>
-			<Item Key="CoreManagement_Page_Mod">模组(Mods)</Item>
-			<Item Key="CoreManagement_Page_ResourcePack">资源包</Item>
-			<Item Key="CoreManagement_Page_ShaderPack">光影包</Item>
-			<Item Key="CoreManagement_Page_Config">游戏/模组配置</Item>
-			<Item Key="CoreManagement_Page_Advance">高级启动</Item>
-			<Item Key="CoreManagement_Page_Update">更新</Item>
-			<Item Key="CoreManagement_Page_Restore">恢复 / 删除</Item>
+			<Item Key="CoreManagement_Page_Info">Information</Item>
+			<Item Key="CoreManagement_Page_Mod">Mod</Item>
+			<Item Key="CoreManagement_Page_ResourcePack">Pack de ressource</Item>
+			<Item Key="CoreManagement_Page_ShaderPack">Pack de shaders</Item>
+			<Item Key="CoreManagement_Page_Config">Configuration</Item>
+			<Item Key="CoreManagement_Page_Advance">Avancé</Item>
+			<Item Key="CoreManagement_Page_Update">Mise à jour</Item>
+			<Item Key="CoreManagement_Page_Restore">Restauration / Suppression</Item>
 
-			<Item Key="CoreManagement_Info_Description">简介</Item>
-			<Item Key="CoreManagement_Info_Description_None">这里空空的，啥介绍都没有。</Item>
-			<Item Key="CoreManagement_Info_PlayTime">游玩时间</Item>
-			<Item Key="CoreManagement_Info_PlayTime_Text">自 {0} 最后一次运行以来，此核心已累计运行 {1} 。</Item>
-			<Item Key="CoreManagement_Info_PlayTime_NeverPlayed_Text">此核心自安装日以来就从来没有运行过，真难过。</Item>
-			<Item Key="CoreManagement_Info_Version">版本</Item>
+			<Item Key="CoreManagement_Info_Description">Déscription</Item>
+			<Item Key="CoreManagement_Info_Description_None">Il n'y a rien ici, pas de déscription</Item>
+			<Item Key="CoreManagement_Info_PlayTime">Temps passé dans le jeu</Item>
+			<Item Key="CoreManagement_Info_PlayTime_Text">Depuis {0}, la dernière fois que le jeu a été lancé avec ce noyau, vous l'avez joué pendant {1}.</Item>
+			<Item Key="CoreManagement_Info_PlayTime_NeverPlayed_Text">Ce pauvre noyau n'a jamais été utilisé depuis sa naissance.</Item>
+			<Item Key="CoreManagement_Info_Version">Version</Item>
 
 			<Item Key="CoreManagement_Java_Tip">若想对该核心进行单独设置而不希望影响其他核心，请在这里设置。&#xD;&#xA;如果您不知道您在做什么，请不要修改任何内容。</Item>
 			<Item Key="CoreManagement_Java_JavaDefaultTip">BakaXL当前正使用本体设置内的全局Java设定。</Item>
