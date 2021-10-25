@@ -8,16 +8,16 @@
 	<Language Key="zh_MEME">
 		<Items>
 			<Item Key="BakaXLTitle">BakaXL - 迈恩克拉夫特 启动器</Item>
-			
+
 			<Item Key="NoUserName">您游戏ID没写</Item>
-			
+
 			<Item Key="Loading">载入中</Item>
 			<Item Key="PleaseWait">请稍等…</Item>
 			<Item Key="LoadingPlugins">插件</Item>
 
 			<Item Key="Window_ReportIssue_Title">反馈问题</Item>
 			<Item Key="Window_ReportIssue_Tips">前往BakaXL官方Github仓库提交Issues</Item>
-			
+
 			<Item Key="Window_GetHelp_Title">获取帮助</Item>
 			<Item Key="Window_GetHelp_Tips">遇到问题？不会使用？访问我们的帮助页面</Item>
 
@@ -43,7 +43,7 @@
 			<Item Key="LaunchBar_LaunchBtn_Error_NoCore">尚未设置游戏核心</Item>
 			<Item Key="LaunchBar_LaunchBtn_Error_NoCoreFolder">核心文件夹不存在</Item>
 			<Item Key="LaunchBar_LaunchBtn_Error_AuthError">账户验证错误</Item>
-			
+
 			<Item Key="LaunchBar_LaunchBtn_Error_UnknownError_Title">遇到错误</Item>
 			<Item Key="LaunchBar_LaunchBtn_Error_UnknownError_Tips">启动中出现了错误</Item>
 
@@ -66,9 +66,9 @@
 			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_DownloadJava_Fetching">正在创建 {0} 虚拟机下载任务 ({1} 位)</Item>
 			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_DownloadJava_Finalizing">正在安装所需的 {0} 虚拟机 ({1} 位)</Item>
 
-			<Item Key="LaunchBar_LaunchBtn_Launching_Environment_JavaNotExist">Jvav路径已变动，正在重新定位</Item>
-			<Item Key="LaunchBar_LaunchBtn_Launching_Environment_NewJavaFound">BakaXL将使用新的Jvav路径启动迈恩克拉夫特</Item>
-			
+			<Item Key="LaunchBar_LaunchBtn_Launching_Environment_JavaNotExist">Java路径已变动，正在重新定位</Item>
+			<Item Key="LaunchBar_LaunchBtn_Launching_Environment_NewJavaFound">BakaXL将使用新的Java路径启动迈恩克拉夫特</Item>
+
 			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_CheckEnvironment">芜湖起飞: 检查和补全迈恩克拉夫特环境</Item>
 
 			<Item Key="LaunchBar_LaunchBtn_Launched_Title">游戏运行中</Item>
@@ -82,7 +82,7 @@
 			<Item Key="LaunchBar_Title_AuthError_MojangTokenExpired">验证时出现错误：会话验证信息过期，请在本体设置重新登录此用户档案</Item>
 			<Item Key="LaunchBar_Title_AuthError_AuthlibTokenExpired">验证时出现错误：档案验证信息失效，请重新设置此用户档案</Item>
 			<Item Key="LaunchBar_Title_AuthError_MicrosoftLoginCanceled">验证时出现错误：巨硬账户登录被用户取消</Item>
-			<Item Key="LaunchBar_Title_EnvironmentError_JavaNotFound">环境检查错误：无法定位Jvav路径</Item>
+			<Item Key="LaunchBar_Title_EnvironmentError_JavaNotFound">环境检查错误：无法定位Java路径</Item>
 			<Item Key="LaunchBar_Title_GameError_GetAssetsListFailed">资源补全错误：无法从下载源获取迈恩克拉夫特资源文件列表</Item>
 			<Item Key="LaunchBar_Title_GameError_GetAuthlibFailed">资源补全错误：无法下载Authlib-Injector本体</Item>
 			<Item Key="LaunchBar_Title_LaunchModeError_CheckGameFailed">芜湖起飞错误：检查迈恩克拉夫特环境出错</Item>
@@ -108,7 +108,7 @@
 
 			<Item Key="CoreSelector_Loading_Title">请坐和放宽</Item>
 			<Item Key="CoreSelector_Loading_Tips">核心们正在排队站好</Item>
-			
+
 			<Item Key="CoreSelector_DisplayMode_All">全部</Item>
 			<Item Key="CoreSelector_DisplayMode_Favorite">我的收藏</Item>
 			<Item Key="CoreSelector_DisplayMode_Vanilla">仅原版</Item>
@@ -129,29 +129,29 @@
 			<Item Key="CoreSelector_CoreError_NotCompatible">错误 - 损毁、不受兼容的核心或整活包</Item>
 
 			<Item Key="CoreSelector_GetCore_Title">添加新的 迈恩克拉夫特 核心 或 整活包</Item>
-			
+
 			<Item Key="CoreManagement_Title">高级核心管理</Item>
 			<Item Key="CoreManagement_Publisher">发行者: {0}</Item>
 			<Item Key="CoreManagement_Publisher_None">尚无发行者</Item>
 			<Item Key="CoreManagement_LastPlayed">最近游玩于 {0}</Item>
 			<Item Key="CoreManagement_LastPlayed_None">尚未运行过</Item>
-			
+
 			<Item Key="CoreManagement_Tips_Locked_MCVersion">某些选项不可用，因为迈恩克拉夫特版本过低。</Item>
 			<Item Key="CoreManagement_Tips_Locked_ModPack">某些选项不可用，因为它们由您的整活包提供者管理。</Item>
 			<Item Key="CoreManagement_Tips_Locked_Server">某些选项不可用，因为它们由此整活包对应的服务器管理。</Item>
-			
+
 			<Item Key="CoreManagement_Tips_Error_Json">此核心所使用的Json文件不是规范的迈恩克拉夫特游戏核心标识文件。</Item>
 			<Item Key="CoreManagement_Tips_Error_Json_Broken">此核心的Json文件损坏，BakaXL无法读取。</Item>
 			<Item Key="CoreManagement_Tips_Error_Unsupported">此核心使用了其他启动器特有的标识格式，BakaXL无法读取。</Item>
 			<Item Key="CoreManagement_Tips_Error_Jar_Missing">此核心所需的Jar文件不存在。</Item>
 			<Item Key="CoreManagement_Tips_Error_Inherits_Missing">此核心所依赖的迈恩克拉夫特核心不存在。</Item>
-			
+
 			<Item Key="CoreManagement_Tips_Suggest_Reset">此核心需要重置才可以正常使用，前往 &quot;恢复 > 重置此核心&quot;。</Item>
 			<Item Key="CoreManagement_Tips_Suggest_AutoRepare">BakaXL可尝试修复此核心，前往 &quot;恢复 > 自动修复&quot;。</Item>
 			<Item Key="CoreManagement_Tips_Suggest_Shader">若要加载迈恩克拉夫特光影文件，则可能需要安装 &quot;Optifine&quot;。</Item>
-			
+
 			<Item Key="CoreManagement_Tips_Warn_Mod_Unsupported">此核心不支持安装模组(Mods)。</Item>
-			
+
 			<Item Key="CoreManagement_Page_Info">公告板</Item>
 			<Item Key="CoreManagement_Page_Mod">国际象棋</Item>
 			<Item Key="CoreManagement_Page_ResourcePack">画笔</Item>
@@ -160,7 +160,7 @@
 			<Item Key="CoreManagement_Page_Advance">方块</Item>
 			<Item Key="CoreManagement_Page_Update">云上转一转</Item>
 			<Item Key="CoreManagement_Page_Restore">就地转一转</Item>
-			
+
 			<Item Key="CoreManagement_Info_Description">简介</Item>
 			<Item Key="CoreManagement_Info_Description_None">这里空空的，啥介绍都没有。</Item>
 			<Item Key="CoreManagement_Info_PlayTime">游玩时间</Item>
@@ -169,10 +169,10 @@
 			<Item Key="CoreManagement_Info_Version">版本</Item>
 
 			<Item Key="CoreManagement_Mods_Title">模组(Mods)</Item>
-			
+
 			<Item Key="CoreManagement_Mods_Supported">此核心或整活包安装了支持的模组API。</Item>
 			<Item Key="CoreManagement_Mods_Unsupported">此核心或整活包好像并未使用支持加载模组的模组API。&#xD;&#xA;若您要使用模组，则应当先安装Forge、Farbic或其他模组API。&#xD;&#xA;&#xD;&#xA;若您认为BakaXL错误的认为该核心或整活包没有安装模组API，请联系我们。</Item>
-			
+
 			<Item Key="CoreManagement_Mods_ModLoader_Scanning">正在扫描核心的模组API...</Item>
 			<Item Key="CoreManagement_Mods_ModLoader_Forge">此核心安装了 迈恩克拉夫特 Forge，版本：{0}</Item>
 			<Item Key="CoreManagement_Mods_ModLoader_Fabric">此核心安装了 Fabric Loader/API。版本：{0}</Item>
@@ -213,10 +213,10 @@
 
 			<Item Key="Home_Task_NoTask">BakaXL任务队列 >> 当前无任何任务和通知</Item>
 			<Item Key="Home_Task_HasTask">BakaXL任务队列 >> {0} 项任务, {1} 项通知</Item>
-			
+
 			<Item Key="Home_StartMenu_Title">开始</Item>
 			<Item Key="Home_StartMenu_Tips">点击下面的磁贴以使用更多BakaXL精彩功能</Item>
-			
+
 			<Item Key="Tips">叽里呱啦</Item>
 
 			<Item Key="HomeHello">您好</Item>
@@ -284,7 +284,7 @@
 			<Item Key="Custom">自定义</Item>
 
 			<Item Key="Error_CodeIs">错误代码是 {0}， 可在有需要时使用。</Item>
-			
+
 			<Item Key="BakaXL_Update_Title">BakaXL 惊现新版本 {0}</Item>
 			<Item Key="BakaXL_Update_Info">早上好BakaXL。昨天爆出的TT罐头是满打满算的30个，多亏了酒吧点炒饭的找茬怪，光是动画BUG就出了10个。TT快要累死了，我看找茬怪们全得赔钱，因为小笨蛋们肯定咽不下这口气。&#xD;&#xA;联机大厅又有人被拒之门外，又是NAT严格干的好事。与此同时，TT正在收拾摊了一地的TT罐头。&#xD;&#xA;而在笨蛋广场呢？好吧……笨蛋广场还是那个笨蛋广场。&#xD;&#xA;我是你们的绿色毛茸茸，和我一起，开始逐梦BakaXL的新一天吧。</Item>
 			<Item Key="BakaXL_Update_Btn_Yes">立即更新</Item>
@@ -317,12 +317,12 @@
 			<Item Key="Guide_Page_Welcome_Great">太棒了！</Item>
 
 			<Item Key="Guide_Page_Language_Tips">我敲，你该不会打算用这玩意过向导吧？</Item>
-			
+
 			<Item Key="Guide_Page_DisplayMode_Subtitle">主屏幕显示模式</Item>
 			<Item Key="Guide_Page_DisplayMode_Tips">您随时可以在... '大齿轮 - 飞奔的轮椅人'？ 中修改这些设置</Item>
 
 			<Item Key="Guide_Page_DisplayMode_Standard_Tips">主屏幕上默认不显示开始菜单与磁贴</Item>
-			<Item Key="Guide_Page_DisplayMode_Traditional_Tips">主屏幕上将始终显示开始菜单与磁贴</Item>		
+			<Item Key="Guide_Page_DisplayMode_Traditional_Tips">主屏幕上将始终显示开始菜单与磁贴</Item>
 
 			<Item Key="Guide_Page_Audio_Subtitle">音乐与音效</Item>
 			<Item Key="Guide_Page_Audio_Tips">在使用部分功能或主题时，BakaXL可播放音乐或音效</Item>
@@ -332,21 +332,21 @@
 
 			<Item Key="Guide_Page_QuickSet_Subtitle">快速设置</Item>
 			<Item Key="Guide_Page_QuickSet_Tips">您随时可以在'大齿轮'中修改这些设置</Item>
-			
+
 			<Item Key="Guide_Page_QuickSet_Title">让BakaXL自动进行部分设置</Item>
 			<Item Key="Guide_Page_QuickSet_Manual">手动进行设置</Item>
 			<Item Key="Guide_Page_QuickSet_QuickSet">使用快速设置</Item>
 			<Item Key="Guide_Page_QuickSet_AboutQuickSet">了解快速设置会设置的内容</Item>
 			<Item Key="Guide_Page_QuickSet_AboutDataCollection">了解有关BakaXL会收集的内容</Item>
 
-			<Item Key="Guide_Page_Java_Subtitle">Jvav虚拟机</Item>
-			<Item Key="Guide_Page_Java_Tips">请注意，BakaXL已不再对Jvav 6提供支持</Item>
-			
-			<Item Key="Guide_Page_Java_SelectJava">选择一个Jvav虚拟机</Item>
-			<Item Key="Guide_Page_Java_NotFound">未在计算机上搜索到可用的Jvav虚拟机，选择一个操作</Item>
-			<Item Key="Guide_Page_Java_NeedTips">您需要选择一个Jvav虚拟机以运行迈恩克拉夫特</Item>
-			<Item Key="Guide_Page_Java_GetJava">获取Jvav</Item>
-			<Item Key="Guide_Page_Java_GetLatestJava">获取最新版本的Jvav</Item>
+			<Item Key="Guide_Page_Java_Subtitle">Java虚拟机</Item>
+			<Item Key="Guide_Page_Java_Tips">请注意，BakaXL已不再对Java 6提供支持</Item>
+
+			<Item Key="Guide_Page_Java_SelectJava">选择一个Java虚拟机</Item>
+			<Item Key="Guide_Page_Java_NotFound">未在计算机上搜索到可用的Java虚拟机，选择一个操作</Item>
+			<Item Key="Guide_Page_Java_NeedTips">您需要选择一个Java虚拟机以运行迈恩克拉夫特</Item>
+			<Item Key="Guide_Page_Java_GetJava">获取Java</Item>
+			<Item Key="Guide_Page_Java_GetLatestJava">获取最新版本的Java</Item>
 			<Item Key="Guide_Page_Java_Rescan">重新搜索</Item>
 			<Item Key="Guide_Page_Java_ManualLocate">手动定位</Item>
 
@@ -411,7 +411,7 @@
 
 			<Item Key="Bakaverse_UserInfo_InviteToLobby">邀请好友加入多人运动</Item>
 			<Item Key="Bakaverse_UserInfo_InviteToLobby_Tips">如果您是多人运动的创建者，则可以在这里邀请该好友加入至您当前所在的多人运动。</Item>
-			
+
 			<Item Key="Bakaverse_UserInfo_PlayHistory">游玩历史</Item>
 			<Item Key="Bakaverse_UserInfo_PlayHistory_Tips">此处将列出好友最近玩过的迈恩克拉夫特整活包。</Item>
 
@@ -421,7 +421,7 @@
 			<Item Key="Bakaverse_UserInfo_Milestone_Visitor">草地上有人来访过留下的足迹，这到底会是谁呢？&#xA;在您同意了好友申请之后，就会在这里修建一个里程碑。</Item>
 			<Item Key="Bakaverse_UserInfo_Milestone_Wreckage">里程碑被拆掉了。草地上只留下了里程碑的残骸。&#xA;若要把残骸收拾干净，则需要从黑名单中移除对方。</Item>
 			<Item Key="Bakaverse_UserInfo_Milestone_Self">你走到了这个地方，但是周围全都是里程碑。&#xA;你找了一圈并没有看见自己的里程碑，这使你充满决心。</Item>
-			
+
 			<Item Key="Bakaverse_UserInfo_Manage">管理</Item>
 			<Item Key="Bakaverse_UserInfo_Manage_RemoveFriend">你是个好人</Item>
 			<Item Key="Bakaverse_UserInfo_Manage_RemoveFriend_Tips">当您对此好友发送好人卡之后，您也将从对方的好友列表里移除。&#xA;如果您要重新添加此好友，则需要重新发起好友申请。</Item>
@@ -631,7 +631,7 @@
 
 			<Item Key="Tips_ChannelList_Loading">正在获取频道列表</Item>
 			<Item Key="Tips_ChannelList_Loading_Tips">来自第三方的非官方BakaXL贴士频道将不会在此显示</Item>
-			
+
 			<Item Key="Tips_ChannelList_NoChannels">怪了，频道都躲起来了</Item>
 			<Item Key="Tips_ChannelList_NoChannels_Tips">请检查您的互联网连接。这也有可能是因为BakaXL贴士服务器正在维护。</Item>
 			<Item Key="Tips_ChannelList_NoChannels_Tips_Bottom">请稍后再试。</Item>
@@ -642,7 +642,7 @@
 
 			<Item Key="Tips_ChannelDetail_LoadFailed">这个频道空空的</Item>
 			<Item Key="Tips_ChannelDetail_LoadFailed_Tips">请检查您的互联网连接。这也有可能是因为该频道尚未发布任何贴士。</Item>
-			
+
 			<Item Key="Tips_Detail_Loading">正在搞个大新闻</Item>
 			<Item Key="Tips_Detail_Loading_Tips">正在加载贴士详情，请稍后…</Item>
 
@@ -652,14 +652,14 @@
 			<Item Key="Setting_JavaCheck_BestMatch">最佳适配</Item>
 			<Item Key="Setting_JavaCheck_Usable">可用之选</Item>
 			<Item Key="Setting_JavaCheck_SuggestUpdate">可升级到64位</Item>
-			<Item Key="Setting_JavaCheck_SuggestUpdate_Java8">可升级到64位Jvav 8</Item>
+			<Item Key="Setting_JavaCheck_SuggestUpdate_Java8">可升级到64位Java 8</Item>
 			<Item Key="Setting_JavaCheck_NotSupport">不兼容</Item>
 
 			<Item Key="Setting_Title">大齿轮</Item>
-			
+
 			<Item Key="Setting_BakaPublic">公众版</Item>
 			<Item Key="Setting_CurrentVersion">当前版本</Item>
-			
+
 			<Item Key="Setting_Support_Title">马里奥问号方块</Item>
 			<Item Key="Setting_Account_Title">太空人</Item>
 			<Item Key="Setting_Java_Title">芯片</Item>
@@ -674,7 +674,7 @@
 			<Item Key="Setting_Plaza_Title">游泳圈</Item>
 			<Item Key="Setting_Insider_Title">BUG！</Item>
 			<Item Key="Setting_About_Title">对话气泡</Item>
-			
+
 			<Item Key="Setting_Support_Tips">欢迎来到BakaXL本体设置！我们正在努力为BakaXL添加更多精彩的功&#xD;&#xA;能！部分不可用的选项是BakaXL 3.0尚未开发完善的功能。目前，我们正在&#xA;根据各位的需求调整此界面中的功能。希望您能喜欢！</Item>
 			<Item Key="Setting_Support_Website">BakaXL帮助与支持网站</Item>
 			<Item Key="Setting_Support_WebsiteTips">若要了解如何更好的使用BakaXL及其功能，或取得帮助，您可以通过您的&#xD;&#xA;电脑或者智能设备访问BakaXL帮助与支持网站。</Item>
@@ -710,7 +710,7 @@
 			<Item Key="Setting_Support_ErrorHistory_View_Value">值</Item>
 
 			<Item Key="Setting_Support_ErrorHistory_SystemInfo">系统信息</Item>
-			
+
 			<Item Key="Setting_Support_ErrorHistory_Network">网络</Item>
 			<Item Key="Setting_Support_ErrorHistory_Network_Status">互联网状态</Item>
 			<Item Key="Setting_Support_ErrorHistory_Network_Method">连接方式</Item>
@@ -718,20 +718,20 @@
 			<Item Key="Setting_Support_ErrorHistory_Network_InterfaceHardwareName">硬件名称</Item>
 			<Item Key="Setting_Support_ErrorHistory_Network_SSID">无线网络广播名称(SSID)</Item>
 			<Item Key="Setting_Support_ErrorHistory_Network_Proxy">代理(Proxy)/VPN连接</Item>
-			
+
 			<Item Key="Setting_Support_ErrorHistory_Software">组件</Item>
 			<Item Key="Setting_Support_ErrorHistory_Software_Name">组件名称</Item>
 			<Item Key="Setting_Support_ErrorHistory_Software_Version">版本</Item>
 			<Item Key="Setting_Support_ErrorHistory_Software_Location">位置</Item>
-			
+
 			<Item Key="Setting_Support_ErrorHistory_Environment">环境</Item>
 			<Item Key="Setting_Support_ErrorHistory_Environment_Language">语言</Item>
 			<Item Key="Setting_Support_ErrorHistory_Environment_TimeZone">时区</Item>
 			<Item Key="Setting_Support_ErrorHistory_Environment_Region">国家/地区</Item>
-			
+
 			<Item Key="Setting_Support_ErrorHistory_MinecraftCore">游戏核心</Item>
 			<Item Key="Setting_Support_ErrorHistory_MinecraftCore_Selected">迈恩克拉夫特核心</Item>
-			
+
 			<Item Key="Setting_Support_ErrorHistory_Config">配置文件</Item>
 			<Item Key="Setting_Support_ErrorHistory_Config_Language">显示语言</Item>
 			<Item Key="Setting_Support_ErrorHistory_Config_CloseAfterLaunch">启动后自动退出</Item>
@@ -739,8 +739,8 @@
 			<Item Key="Setting_Support_ErrorHistory_Config_BMCLAPI">大陆地区使用第三方下载源加速</Item>
 			<Item Key="Setting_Support_ErrorHistory_Config_BMCLAPI_Mirror">下载源模式</Item>
 			<Item Key="Setting_Support_ErrorHistory_Config_ThreadMode">下载线程模式</Item>
-			<Item Key="Setting_Support_ErrorHistory_Config_JavaGCMode">Jvav GC回收器模式</Item>
-			<Item Key="Setting_Support_ErrorHistory_Config_JavaPath">Jvav路径</Item>
+			<Item Key="Setting_Support_ErrorHistory_Config_JavaGCMode">Java GC回收器模式</Item>
+			<Item Key="Setting_Support_ErrorHistory_Config_JavaPath">Java路径</Item>
 			<Item Key="Setting_Support_ErrorHistory_Config_AutoMemory">自动设置内存</Item>
 			<Item Key="Setting_Support_ErrorHistory_Config_Memory">内存大小</Item>
 			<Item Key="Setting_Support_ErrorHistory_Config_Background">背景图片</Item>
@@ -759,9 +759,9 @@
 			<Item Key="Setting_Support_ErrorHistory_Config_Debug">调试模式</Item>
 			<Item Key="Setting_Support_ErrorHistory_Config_HomeScrollValue">主界面滚动函数</Item>
 			<Item Key="Setting_Support_ErrorHistory_Config_CellularNetwork">省流量模式</Item>
-			
+
 			<Item Key="Setting_Support_ErrorHistory_BakaVer">BakaXL版本</Item>
-			
+
 			<Item Key="Setting_Support_ErrorHistory_ReportCan">提交笨蛋罐头</Item>
 			<Item Key="Setting_Support_ErrorHistory_OpenFilePath">在资源管理器中显示此文件</Item>
 
@@ -770,12 +770,12 @@
 			<!-- Example: 发生于 {YYYY/MM/DD} {MM:SS} 的错误-->
 			<Item Key="Setting_Support_ErrorHistory_HappedOn">发生于 {0} {1} 的错误</Item>
 			<Item Key="Setting_Support_ErrorHistory_ErrorCode_Full">错误代码: {0}</Item>
-			
+
 			<Item Key="Setting_Account_NewProfile">新增一个档案</Item>
 			<Item Key="Setting_Account_ImportProfile">从其他启动器导入用户档案</Item>
 			<Item Key="Setting_Account_ExportProfile">将BakaXL用户档案导出至其他启动器</Item>
 			<Item Key="Setting_Account_ProfileTips">在导入其他启动器的设置之后，受限于其他启动器的安全限制，&#xD;&#xA;若您拥有正版迈恩克拉夫特账号，则需要您再次输入登录密码。&#xD;&#xA;若您将用户档案从BakaXL中导出，则此档案将会从BakaXL中删除。&#xD;&#xA;在导入之后您可能仍需要设置部分内容。</Item>
-			
+
 			<Item Key="Setting_Account_BakaAccount_Title">BakaXL 账户</Item>
 			<Item Key="Setting_Account_BakaAccount_Login">登录至现有的BakaXL账户</Item>
 			<Item Key="Setting_Account_BakaAccount_Register">注册BakaXL账户</Item>
@@ -799,11 +799,11 @@
 			<Item Key="Setting_Account_BakaAccount_Login_Options_VanishLogin">登录后自动隐身</Item>
 
 			<Item Key="Setting_Account_Minecraft_Title">迈恩克拉夫特用户档案</Item>
-			
+
 			<Item Key="Setting_Account_Detail_Title_WithID">&quot;{0}&quot; 的 账户信息</Item>
 			<Item Key="Setting_Account_Detail_Title">账户设置</Item>
 			<Item Key="Setting_Account_Detail_Title_NewProfile">创建新档案</Item>
-			
+
 			<Item Key="Setting_Account_Detail_Type">账户类型</Item>
 			<Item Key="Setting_Account_Detail_AuthMode">游戏启动模式</Item>
 			<Item Key="Setting_Account_Detail_AuthMode_Tips_Default">选择启动迈恩克拉夫特时的验证模式。&#xD;&#xA;正版验证：使用您的 Bugjump账户 或 巨硬账户 进行登录。&#xD;&#xA;离线模式：仅使用游戏ID进行验证。&#xD;&#xA;外置登录(authlib-injector)：使用第三方验证服务器登录。&#xD;&#xA;&#xD;&#xA;根据相关法律及法规，离线验证模式在部分地区不可用。</Item>
@@ -811,12 +811,12 @@
 			<Item Key="Setting_Account_Detail_AuthMode_Tips_Online_Microsoft">选择启动迈恩克拉夫特时的验证模式。&#xA;通过您的巨硬账户(Macrohard Account)授权进行正版登录。</Item>
 			<Item Key="Setting_Account_Detail_AuthMode_Tips_Offline">选择启动迈恩克拉夫特时的验证模式。&#xA;仅使用自定游戏ID进行离线验证登录启动游戏。&#xA;&#xA;根据相关法律及法规，离线验证模式在部分地区不可用。</Item>
 			<Item Key="Setting_Account_Detail_AuthMode_Tips_ThirdParty">选择启动迈恩克拉夫特时的验证模式。&#xA;使用外置登录(authlib-injector)所要求的账户信息进行验证。&#xA;&#xA;为了您的账户安全，我们不建议您在第三方验证服务&#xA;中使用与您的麻将账户相同的密码。</Item>
-			
+
 			<Item Key="Setting_Account_Detail_AccInfo">账户信息</Item>
 
 			<Item Key="Setting_Account_Detail_Offline_Username">填个游戏ID</Item>
 			<Item Key="Setting_Account_Detail_Offline_Username_Tips">设置你在运行迈恩克拉夫特时想使用的游戏ID。&#xD;&#xA;只能使用英文、数字和下划线，不建议使用中文和特殊符号。</Item>
-			
+
 			<Item Key="Setting_Account_Detail_Online_Email">Bugjump账户邮箱</Item>
 			<Item Key="Setting_Account_Detail_Online_Email_Tips">设置您的Bugjump正版账户邮箱。</Item>
 			<Item Key="Setting_Account_Detail_Online_Password">输入您的密码</Item>
@@ -870,54 +870,54 @@
 			<Item Key="Setting_Account_Detail_Tips_NeedUsername">您必须设置一个游戏ID</Item>
 			<Item Key="Setting_Account_Detail_Tips_ThirdPartAPIRoot">您必须设置一个第三方验证服务器</Item>
 			<Item Key="Setting_Account_Detail_Tips_NeedReload">您更改了游戏ID，部分内容需要重载。</Item>
-			
-			<Item Key="Setting_Java_JVM_Title">Jvav虚拟机</Item>
 
-			<Item Key="Setting_Java_JVM_FullAuto">让 BakaXL 自动决定 Jvav 版本</Item>
-			<Item Key="Setting_Java_JVM_FullAuto_Tips">当开启此选项时，BakaXL 将会自动根据运行的 Minecraft&#xD;&#xA;版本选定合适的 Jvav 虚拟机版本。&#xD;&#xA;若您没有安装对应的 Jvav 虚拟机，则 BakaXL 会自动为您安装。</Item>
+			<Item Key="Setting_Java_JVM_Title">Java虚拟机</Item>
 
-			<Item Key="Setting_Java_JVM_Selector">请选择Jvav版本</Item>
-			<Item Key="Setting_Java_JVM_Tips">为了确保您的游戏体验，请始终选择最佳适配版本的Jvav。</Item>
-			<Item Key="Settings_SystemSettings_ManualJava">自定义Jvav</Item>
+			<Item Key="Setting_Java_JVM_FullAuto">让 BakaXL 自动决定 Java 版本</Item>
+			<Item Key="Setting_Java_JVM_FullAuto_Tips">当开启此选项时，BakaXL 将会自动根据运行的 Minecraft&#xD;&#xA;版本选定合适的 Java 虚拟机版本。&#xD;&#xA;若您没有安装对应的 Java 虚拟机，则 BakaXL 会自动为您安装。</Item>
+
+			<Item Key="Setting_Java_JVM_Selector">请选择Java版本</Item>
+			<Item Key="Setting_Java_JVM_Tips">为了确保您的游戏体验，请始终选择最佳适配版本的Java。</Item>
+			<Item Key="Settings_SystemSettings_ManualJava">自定义Java</Item>
 
 			<Item Key="Setting_Java_JVM_Manual">自定义</Item>
 			<Item Key="Setting_Java_JVM_Info_CanUpgradeTo64Bit">可升级为 64 位版本</Item>
 			<Item Key="Setting_Java_JVM_Info_BestMatch">最佳适配</Item>
-			<Item Key="Setting_Java_JVM_Info_CanUpgradeTo64BitJava8">可升级为 Jvav 8 (64位)版本</Item>
+			<Item Key="Setting_Java_JVM_Info_CanUpgradeTo64BitJava8">可升级为 Java 8 (64位)版本</Item>
 			<Item Key="Setting_Java_JVM_Info_OpticalChoice">可用之选</Item>
-			
-			<Item Key="Setting_Java_JVM_Advance">Jvav高级设置</Item>
-			<Item Key="Setting_Java_JVM_Advance_AutoJava">自动寻找Jvav位置</Item>
-			<Item Key="Setting_Java_JVM_Advance_ManualJava">手动指定Jvav位置</Item>
-			<Item Key="Setting_Java_JVM_Advance_ManualJava_Selector_Title">选择您的Jvavw.exe位置</Item>
 
-			<Item Key="Setting_Java_JVM_Advance_AdvanceSearchPermission">更细致的自动寻找Jvav位置</Item>
-			<Item Key="Setting_Java_JVM_Advance_AdvanceSearchPermission_Tips">授权 BakaXL 遍历您计算机磁盘上的文件夹以&#xD;&#xA;寻找可能无法通过普通搜索无法寻找到的Jvav位置。&#xD;&#xA;在使用该搜索方式前，请了解此功能如何运作。</Item>
-			
-			<Item Key="Setting_Java_JVM_Advance_Tips">在通常情况下，BakaXL会自动选择您当前计算机中最合适的Jvav。&#xD;&#xA;如果您不了解此选项的作用，我们建议您不要修改此选项的值。</Item>
-			
-			<Item Key="Setting_Java_JVM_Download">获取Jvav 8</Item>
-			<Item Key="Setting_Java_JVM_Download_Tips">运行 Minecraft 1.16 及更低版本的 Minecraft 推荐使用 Jvav 8。&#xD;&#xA;BakaXL将会跳转至来自可信下载源提供的Jvav 8下载地址。&#xD;&#xA;</Item>
+			<Item Key="Setting_Java_JVM_Advance">Java高级设置</Item>
+			<Item Key="Setting_Java_JVM_Advance_AutoJava">自动寻找Java位置</Item>
+			<Item Key="Setting_Java_JVM_Advance_ManualJava">手动指定Java位置</Item>
+			<Item Key="Setting_Java_JVM_Advance_ManualJava_Selector_Title">选择您的Javaw.exe位置</Item>
 
-			<Item Key="Setting_Java_JVM16_Download">获取Jvav 16</Item>
-			<Item Key="Setting_Java_JVM16_Download_Tips">运行 Minecraft 1.17 或更高级版本的 Minecraft 需要使用 Jvav 16。&#xD;&#xA;BakaXL会连接至互联网自动安装来自可信来源的Jvav 16。&#xD;&#xA;这个过程可能需要数分钟，在您使用计费互联网连接时可能&#xD;&#xA;需要支付网络数据费用。</Item>
+			<Item Key="Setting_Java_JVM_Advance_AdvanceSearchPermission">更细致的自动寻找Java位置</Item>
+			<Item Key="Setting_Java_JVM_Advance_AdvanceSearchPermission_Tips">授权 BakaXL 遍历您计算机磁盘上的文件夹以&#xD;&#xA;寻找可能无法通过普通搜索无法寻找到的Java位置。&#xD;&#xA;在使用该搜索方式前，请了解此功能如何运作。</Item>
 
-			<Item Key="Setting_Java_JVM_AutoInstall_Tips">运行 Minecraft 1.16 及更低版本的 Minecraft 推荐使用 Jvav 8。&#xD;&#xA;运行 Minecraft 1.17 或更高级版本的 Minecraft 需要使用 Jvav 16。&#xD;&#xA;BakaXL会连接至互联网自动安装来自可信来源的 Jvav。&#xD;&#xA;这个过程可能需要数分钟，在您使用计费互联网连接时可能&#xD;&#xA;需要支付网络数据费用。</Item>
+			<Item Key="Setting_Java_JVM_Advance_Tips">在通常情况下，BakaXL会自动选择您当前计算机中最合适的Java。&#xD;&#xA;如果您不了解此选项的作用，我们建议您不要修改此选项的值。</Item>
 
-			<Item Key="Setting_Java_JVM_Installing_Pending">BakaXL 当前正在进行 Jvav {0} 的安装…&#xD;&#xA;待安装进度更新后，它将会显示在这里。</Item>
-			<Item Key="Setting_Java_JVM_Installing_ProgressChanged">BakaXL 当前正在进行 Jvav {0} 的安装…&#xD;&#xA;状态: {1} </Item>
+			<Item Key="Setting_Java_JVM_Download">获取Java 8</Item>
+			<Item Key="Setting_Java_JVM_Download_Tips">运行 Minecraft 1.16 及更低版本的 Minecraft 推荐使用 Java 8。&#xD;&#xA;BakaXL将会跳转至来自可信下载源提供的Java 8下载地址。&#xD;&#xA;</Item>
 
-			<Item Key="Setting_Java_JVM_Installing_Successful">BakaXL 已成功安装了 Jvav {0}。&#xD;&#xA;您可以在 Jvav 虚拟机列表中选择此虚拟机。</Item>
-			<Item Key="Setting_Java_JVM_Installing_Failed">BakaXL 无法自动安装 Jvav {0}。&#xD;&#xA;这可能是由于下载源提供的文件受损或互联网连接中断。</Item>
+			<Item Key="Setting_Java_JVM16_Download">获取Java 16</Item>
+			<Item Key="Setting_Java_JVM16_Download_Tips">运行 Minecraft 1.17 或更高级版本的 Minecraft 需要使用 Java 16。&#xD;&#xA;BakaXL会连接至互联网自动安装来自可信来源的Java 16。&#xD;&#xA;这个过程可能需要数分钟，在您使用计费互联网连接时可能&#xD;&#xA;需要支付网络数据费用。</Item>
 
-			<Item Key="Setting_Java_JVM_InstallProgress_Preparing">准备安装 Jvav {0}</Item>
-			<Item Key="Setting_Java_JVM_InstallProgress_FetchingFileList">获取 Jvav {0} ({1} 位) 的文件列表</Item>
-			<Item Key="Setting_Java_JVM_InstallProgress_Downloading">正在下载 Jvav {0} ({1} 位) </Item>
+			<Item Key="Setting_Java_JVM_AutoInstall_Tips">运行 Minecraft 1.16 及更低版本的 Minecraft 推荐使用 Java 8。&#xD;&#xA;运行 Minecraft 1.17 或更高级版本的 Minecraft 需要使用 Java 16。&#xD;&#xA;BakaXL会连接至互联网自动安装来自可信来源的 Java。&#xD;&#xA;这个过程可能需要数分钟，在您使用计费互联网连接时可能&#xD;&#xA;需要支付网络数据费用。</Item>
+
+			<Item Key="Setting_Java_JVM_Installing_Pending">BakaXL 当前正在进行 Java {0} 的安装…&#xD;&#xA;待安装进度更新后，它将会显示在这里。</Item>
+			<Item Key="Setting_Java_JVM_Installing_ProgressChanged">BakaXL 当前正在进行 Java {0} 的安装…&#xD;&#xA;状态: {1} </Item>
+
+			<Item Key="Setting_Java_JVM_Installing_Successful">BakaXL 已成功安装了 Java {0}。&#xD;&#xA;您可以在 Java 虚拟机列表中选择此虚拟机。</Item>
+			<Item Key="Setting_Java_JVM_Installing_Failed">BakaXL 无法自动安装 Java {0}。&#xD;&#xA;这可能是由于下载源提供的文件受损或互联网连接中断。</Item>
+
+			<Item Key="Setting_Java_JVM_InstallProgress_Preparing">准备安装 Java {0}</Item>
+			<Item Key="Setting_Java_JVM_InstallProgress_FetchingFileList">获取 Java {0} ({1} 位) 的文件列表</Item>
+			<Item Key="Setting_Java_JVM_InstallProgress_Downloading">正在下载 Java {0} ({1} 位) </Item>
 
 			<Item Key="Setting_Java_JVM_InstallProgress_Finalizing">即将完成安装…</Item>
-			
+
 			<Item Key="Setting_Java_Memory_Title">内存设置</Item>
-			
+
 			<Item Key="Setting_Java_Memory">内存</Item>
 			<Item Key="Setting_Java_Memory_Installed">已安装 {0} GB</Item>
 			<Item Key="Setting_Java_Memory_Used">计算机已使用</Item>
@@ -947,7 +947,7 @@
 			<Item Key="Setting_Language_Utilities_Debugger_Tips">在本次运行期间将显示语言替换为外部文件所指定的本地化文本。&#xD;&#xA;这将有助于翻译官对翻译文本进行调试。&#xD;&#xA;&#xD;&#xA;若您不知道此选项的作用，请不要使用。</Item>
 			<Item Key="Setting_Language_Utilities_Debugger_Browser_Title">选择一个BakaXL语言文件</Item>
 			<Item Key="Setting_Language_Utilities_Debugger_Browser_Filter">BakaXL语言文件</Item>
-			
+
 			<Item Key="Setting_Network_Connected">已连接</Item>
 			<Item Key="Setting_Network_Error">连接错误</Item>
 			<Item Key="Setting_Network_MojangError">服务中断</Item>
@@ -1035,10 +1035,10 @@
 			<Item Key="Setting_Advance_AdvLaunch_AutoJoin_Tips">在迈恩克拉夫特启动并加载完成后自动加入服务器。</Item>
 			<Item Key="Setting_Advance_AdvLaunch_CheckVersionFolder">预检查游戏核心目录是否存在</Item>
 			<Item Key="Setting_Advance_AdvLaunch_CheckVersionFolder_Tips">在启动游戏前对 .minecraft/versions/&lt;游戏核心&gt; 目录&#xD;&#xA;进行检查，并在无法确认此文件夹存在时取消启动。&#xD;&#xA;&#xD;&#xA;若核心目录存在也无法检测到的极端情况出现时，请关闭此功能。&#xD;&#xA;关闭后，BakaXL将会在无法确认文件夹存在时尝试继续启动，&#xD;&#xA;直至下一次确认核心文件夹的存在。&#xD;&#xA;&#xD;&#xA;可能导致BakaXL在启动游戏时出现异常，甚至是崩溃。&#xD;&#xA;此设置并不会全局同步至计算机中其他BakaXL。</Item>
-			
-			<Item Key="Setting_Advance_AdvLaunch_GCMethod">自定义Jvav回收器</Item>
-			<Item Key="Setting_Advance_AdvLaunch_GCMethod_Tips">设置在使用Jvav 9或更高级版本Jvav时使用的垃圾回收器(GC)。&#xD;&#xA;如果你的Jvav版本低于Jvav 9，则此选项不起作用。&#xD;&#xA;&#xD;&#xA;&quot;Z回收器(ZGC)&quot;仅可以Jvav 11或更高级版本使用，在错误的&#xD;&#xA;Jvav版本中使用此回收器将导致无法启动游戏。&#xD;&#xA;&#xD;&#xA;如果你不知道这是做什么的，请选择 &quot;默认&quot;。</Item>
-			
+
+			<Item Key="Setting_Advance_AdvLaunch_GCMethod">自定义Java回收器</Item>
+			<Item Key="Setting_Advance_AdvLaunch_GCMethod_Tips">设置在使用Java 9或更高级版本Java时使用的垃圾回收器(GC)。&#xD;&#xA;如果你的Java版本低于Java 9，则此选项不起作用。&#xD;&#xA;&#xD;&#xA;&quot;Z回收器(ZGC)&quot;仅可以Java 11或更高级版本使用，在错误的&#xD;&#xA;Java版本中使用此回收器将导致无法启动游戏。&#xD;&#xA;&#xD;&#xA;如果你不知道这是做什么的，请选择 &quot;默认&quot;。</Item>
+
 			<Item Key="Setting_Advance_GameResolution_Title">迈恩克拉夫特窗体大小</Item>
 			<Item Key="Setting_Advance_GameResolution_SelectWindowSize">选择窗体大小</Item>
 			<Item Key="Setting_Advance_GameResolution_Wdith">窗体宽度</Item>
@@ -1060,17 +1060,17 @@
 			<Item Key="Setting_Personalize_Background_Browse_Btn_Tips">设置BakaXL窗体背景显示的图片。&#xD;虽然您的图片不会以任何方式上传，但我们不建议&#xD;您使用任何包含工口元素的图片。</Item>
 			<Item Key="Setting_Personalize_Background_CustomImage_Title">选择您的自定义背景图</Item>
 			<Item Key="Setting_Personalize_Background_CustomImage_Filter">图片格式</Item>
-			
+
 			<Item Key="Setting_Personalize_Background_Acrylic">背景虚化</Item>
 			<Item Key="Setting_Personalize_Background_AcrylicType">虚化方式</Item>
 			<Item Key="Setting_Personalize_Background_AcrylicType_Default">亚克力</Item>
 			<Item Key="Setting_Personalize_Background_AcrylicType_Blur">毛玻璃</Item>
 			<Item Key="Setting_Personalize_Background_AcrylicManual">手动设定虚化程度</Item>
 			<Item Key="Setting_Personalize_Background_AcrylicTips">背景虚化效果可让BakaXL虚化背景层的内容，营造舒适且不冲突的&#xD;视觉体验。&#xD;&#xD;使用实况背景或未设置背景时，无法手动调整虚化程度。&#xD;使用亚克力效果需要Windows 10。</Item>
-			
+
 			<Item Key="Setting_Personalize_Background_LiveBackground">使用实况背景功能（实验版）</Item>
 			<Item Key="Setting_Personalize_Background_LiveBackground_Tips">在BakaXL底部绑定额外的叠层以显示高级动态背景。&#xD;通过BakaXL x Wallpaper Engine联动显示动态背景。&#xD;&#xD;该功能在部分分辨率和DPI缩放环境下无法正常工作。&#xD;若未您当前未在使用Wallpaper Engine，则BakaXL将会使用&#xD;你的桌面壁纸。</Item>
-			
+
 			<Item Key="Setting_Personalize_Background_Parallax">背景图片视差</Item>
 			<Item Key="Setting_Personalize_Background_Parallax_Tips">让背景图片跟随鼠标移动，营造视差效果。&#xD;打开此功能时，BakaXL将会稍许放大当前背景图片。&#xD;&#xD;使用实况背景或者默认背景时，无法使用此功能。</Item>
 
@@ -1078,7 +1078,7 @@
 			<Item Key="Setting_Personalize_Color_Selector">选择一个配色方案</Item>
 			<Item Key="Setting_Personalize_Color_NightMode">反转颜色模式</Item>
 			<Item Key="Setting_Personalize_Color_Tips">设置BakaXL窗体和控件所使用的配色方案。</Item>
-			
+
 			<Item Key="Setting_Personalize_Tema_Title">BakaXL主题</Item>
 			<Item Key="Setting_Personalize_Tema_List">浏览主题列表</Item>
 			<Item Key="Setting_Personalize_Tema_Folder">打开主题文件夹</Item>
@@ -1148,16 +1148,16 @@
 			<Item Key="Setting_Accessibility_Home_DisplayMode_Tips">&quot;主屏幕显示模式&quot; 将决定BakaXL的主页面是否展示所有的磁贴和功能。&#xD; · 标准: 主屏幕默认不显示开始菜单和功能磁贴 &#xD; · 传统: 主屏幕将始终显示开始菜单和功能磁贴&#xD;&#xD;使用标准模式时，需要按下空格或鼠标点击主屏幕空白位置向上&#xD;拖拽进入开始菜单。</Item>
 			<Item Key="Setting_Accessibility_Home_SelectCore_Btn">切换核心磁贴</Item>
 			<Item Key="Setting_Accessibility_Home_SelectCore_Tips">&quot;切换核心磁贴&quot; 将决定BakaXL的开始菜单中是否显示切换核心磁贴&#xD;&#xD;您始终可以通过启动条的快捷交互来切换核心。&#xD;参见 &quot;快捷切换核心&quot;。</Item>
-			
+
 			<Item Key="Setting_Accessibility_Interaction_Title">交互</Item>
 			<Item Key="Setting_Accessibility_SwitchCore_InteractMode_Btn">快捷切换核心</Item>
-			<Item Key="Setting_Accessibility_SwitchCore_InteractMode_Tips">&quot;快捷切换核心&quot; 可提供在启动条上快捷切换迈恩克拉夫特核心的操作&#xD; · 标准: 在启动条上不显示额外的切换核心按钮 &#xD; · 传统: 在启动条上单独显示切换核心的按钮 &#xD;&#xD;使用标准模式时，需要通过拖拽&quot;启动游戏&quot;按钮切换核心。</Item>			
-			
+			<Item Key="Setting_Accessibility_SwitchCore_InteractMode_Tips">&quot;快捷切换核心&quot; 可提供在启动条上快捷切换迈恩克拉夫特核心的操作&#xD; · 标准: 在启动条上不显示额外的切换核心按钮 &#xD; · 传统: 在启动条上单独显示切换核心的按钮 &#xD;&#xD;使用标准模式时，需要通过拖拽&quot;启动游戏&quot;按钮切换核心。</Item>
+
 			<Item Key="Setting_Audio_BGM_Title">背景音乐</Item>
 			<Item Key="Setting_Audio_BGM_Btn_Title">BakaXL背景音乐</Item>
 			<Item Key="Setting_Audio_BGM_LostFocusBehaviorBtn">失去焦点时自动停止背景音乐</Item>
 			<Item Key="Setting_Audio_BGM_Tips">您当前设置的BakaXL主题会提供用于播放的BakaXL主题背景音乐。&#xD;&#xA;当此选项为关闭时，BakaXL将会关闭所有界面下背景音乐。</Item>
-			
+
 			<Item Key="Setting_Audio_SE_Title">音效</Item>
 			<Item Key="Setting_Audio_SE_Btn_Title">BakaXL音效</Item>
 			<Item Key="Setting_Audio_SE_Btn_Tips">若您当前使用的主题包含音效包，则BakaXL会使用这些音效。&#xD;&#xA;当此选项为关闭时，BakaXL将会关闭所有界面下的音效。</Item>
@@ -1169,7 +1169,7 @@
 			<Item Key="Setting_Audio_AutoControl_Behavior_Auto">自动</Item>
 			<Item Key="Setting_Audio_AutoControl_Behavior_Mute">静音</Item>
 			<Item Key="Setting_Audio_AutoControl_Behavior_Low">降低音量</Item>
-			
+
 			<Item Key="Setting_Audio_AutoControl_Title">自动音量控制</Item>
 			<Item Key="Setting_Audio_AutoControl_MainBtn_Title">自动侦测音频播放软件</Item>
 			<Item Key="Setting_Audio_AutoControl_BehaviorBtn_Title">音量控制行为</Item>
@@ -1177,11 +1177,11 @@
 
 			<Item Key="Setting_Download_Source_Title">下载源</Item>
 			<Item Key="Setting_Download_Source_BMCLAPI_Btn_Title">中国大陆地区使用第三方下载源加速</Item>
-			
+
 			<Item Key="Setting_Download_Source_BMCLAPIMirror_Btn_Title">BMCLAPI镜像服务器</Item>
 			<Item Key="Setting_Download_Source_BMCLAPIMirror_Mirror_Source">传统</Item>
 			<Item Key="Setting_Download_Source_BMCLAPIMirror_Mirror_MCBBS">MCBBS源</Item>
-			
+
 			<Item Key="Setting_Download_Source_BMCLAPI_Tips">使用来自bangbang93的BMCLAPI来为BakaXL的资源下载加速。&#xD;&#xA;&#xD;&#xA;关：使用文件的原始下载地址进行下载 (速度较慢)&#xD;&#xA;传统：使用BMCLAPI传统服务器进行下载 (更新快，速度较快)&#xD;&#xA;MCBBS源：BMCLAPI的MCBBS镜像源进行下载 (更新较慢，速度最快)&#xD;&#xA;&#xD;&#xA;若要了解更多有关BMCLAPI的详情，请参阅：&#xD;&#xA;https://bmclapidoc.bangbang93.com/</Item>
 
 			<Item Key="Setting_Download_Advance">高级下载选项</Item>
@@ -1196,11 +1196,11 @@
 
 			<Item Key="Setting_Download_Service_Providor">服务提供者</Item>
 			<Item Key="Setting_Download_Service_Providor_MCBBS_Tips">BakaXL的部分文件使用了来自 Minecraft(我的世界)中文论坛&#xD;&#xA;所提供文件下载服务。&#xD;&#xA;请参阅：https://www.mcbbs.net/</Item>
-			
+
 			<Item Key="Setting_Plaza_Setting_Title">游泳圈设置</Item>
 			<Item Key="Setting_Plaza_Setting_CellularNetwork">节省数据流量</Item>
 			<Item Key="Setting_Plaza_Setting_CellularNetwork_Tips">在使用计费互联网连接时开启，&#xD;&#xA;开启后，游泳圈将在播放前询问您并降低视频播放的清晰度。&#xD;&#xA;并不是所有在游泳圈提供的视频都支持降低清晰度播放。</Item>
-			
+
 			<Item Key="Setting_Protocol_Btn_Title">BakaXL协议</Item>
 			<Item Key="Setting_Protocol_Btn_Tips">BakaXL协议可以让您通过网站提供的按钮快速启动BakaXL。&#xD;&#xA;根据网站按钮提供的参数，可使BakaXL直接启动特定内建功能。&#xD;&#xA;参阅BakaXL开发人员中心了解如何将您的网站接入BakaXL协议。</Item>
 
@@ -1217,7 +1217,7 @@
 			<Item Key="Setting_Insider_StartBtn_Title">开始</Item>
 			<Item Key="Setting_Insider_LatestVersion">（当前分支上的预览体验版本：{0}）</Item>
 			<Item Key="Setting_Insider_Requirement">您的计算机需要安装.Net Framework 4.5才可以运行BakaXL 3.0。&#xA;使用BakaXL 3.0的预览体验版本需要您使用Windows 7或更高级操作系统。&#xA;推荐您使用Windows 10操作系统以体验BakaXL 3.0的全部功能。&#xA;&#xA;BakaXL 3.0已不再支持Windows XP操作系统。</Item>
-			
+
 			<Item Key="Setting_About_Info">BakaXL开发团队全体成员在这里诚挚的感谢您使用BakaXL！</Item>
 			<Item Key="Setting_About_Version">内部版本</Item>
 			<Item Key="Setting_About_Version_TunnelTitle">构建通道：</Item>
@@ -1236,17 +1236,17 @@
 			<Item Key="Setting_Tunnel_PIGEON_UpdateMethod">仅推送最稳定测试版本</Item>
 			<Item Key="Setting_Tunnel_SLOTH">Sloth 树懒通道</Item>
 			<Item Key="Setting_Tunnel_SLOTH_UpdateMethod">正式版本更新通道</Item>
-			
-			<Item Key="FileSelector_Java_Filter_Title">BakaXL - 请手动定位Jvavw.exe文件</Item>
+
+			<Item Key="FileSelector_Java_Filter_Title">BakaXL - 请手动定位Javaw.exe文件</Item>
 			<Item Key="FileSelector_Java_Filter_Desc_Javaw">默认启动</Item>
 			<Item Key="FileSelector_Java_Filter_Desc_Java">Debug模式</Item>
 
 			<Item Key="HomeMenu_Title">BakaXL / Home菜单</Item>
-			<Item Key="HomeMenu_CurrentPaused">当前中断中的内容</Item>		
+			<Item Key="HomeMenu_CurrentPaused">当前中断中的内容</Item>
 			<Item Key="HomeMenu_Continue_Tips">您可以按下HOME键继续当前内容</Item>
-			
+
 			<Item Key="HomeMenu_WillClose">将要结束：{0}</Item>
-			
+
 			<Item Key="HomeMenu_Confirm">确定要继续吗？</Item>
 			<Item Key="HomeMenu_Confirm_Tips">强制结束现有内容可能会导致进度丢失，并且此过程不可逆。</Item>
 
@@ -1301,17 +1301,17 @@
 			<Item Key="MessageBox_LaunchError_ExitException_Tips">这可能是由于Libraries文件缺失造成的</Item>
 
 			<Item Key="MessageBox_LaunchError_Base_Title">无法启动 {0}</Item>
-			
+
 			<Item Key="MessageBox_PlazaError_WhenLaunch_Content">出现了异常情况，导致我们无法连接至BakaXL游泳圈服务器。&#xD;&#xA;请稍后再试。若问题持续存在，请参阅BakaXL官网。</Item>
 			<Item Key="MessageBox_PlazaError_WhenLaunch_Tips">我们可能会在未经通知的情况下对服务器进行维护</Item>
 
 			<Item Key="MessageBox_QuickSet_Title">什么是 "快速设置" ？</Item>
-			<Item Key="MessageBox_QuickSet_Content">快速设置可以帮助您根据系统当前的状态自动设置迈恩克拉夫特运行所需的Jvav虚拟机及内存。&#xD;&#xA;&#xD;&#xA;除此之外，快速设置还将会：&#xD;&#xA;· 开启 BakaXL的背景音乐和音效&#xD;&#xA;· 允许 游泳圈请求您的位置信息&#xD;&#xA;· 向BakaXL发送崩溃和启动诊断信息&#xD;&#xA;· 开启 BMCLAPI 以加快在中国大陆地区的资源下载速度&#xD;&#xA;· 自动加载所有已安装的BakaXL插件（并非所有的第三方插件都是安全的）</Item>
-			<Item Key="MessageBox_QuickSet_Tips">若您不了解Jvav虚拟机及游戏所需的内存大小，请使用快速设置</Item>
+			<Item Key="MessageBox_QuickSet_Content">快速设置可以帮助您根据系统当前的状态自动设置迈恩克拉夫特运行所需的Java虚拟机及内存。&#xD;&#xA;&#xD;&#xA;除此之外，快速设置还将会：&#xD;&#xA;· 开启 BakaXL的背景音乐和音效&#xD;&#xA;· 允许 游泳圈请求您的位置信息&#xD;&#xA;· 向BakaXL发送崩溃和启动诊断信息&#xD;&#xA;· 开启 BMCLAPI 以加快在中国大陆地区的资源下载速度&#xD;&#xA;· 自动加载所有已安装的BakaXL插件（并非所有的第三方插件都是安全的）</Item>
+			<Item Key="MessageBox_QuickSet_Tips">若您不了解Java虚拟机及游戏所需的内存大小，请使用快速设置</Item>
 
-			<Item Key="MessageBox_Java_NotInstall_Title">安装Jvav以继续</Item>
-			<Item Key="MessageBox_Java_NotInstall_Content">看上去您目前并未在计算机中安装Jvav。&#xD;&#xA;Jvav虚拟机是运行迈恩克拉夫特的必备组件，请务必安装。</Item>
-			<Item Key="MessageBox_Java_NotInstall_Tips">若BakaXL未搜索到您的Jvav，您也可以手动定位其路径</Item>
+			<Item Key="MessageBox_Java_NotInstall_Title">安装Java以继续</Item>
+			<Item Key="MessageBox_Java_NotInstall_Content">看上去您目前并未在计算机中安装Java。&#xD;&#xA;Java虚拟机是运行迈恩克拉夫特的必备组件，请务必安装。</Item>
+			<Item Key="MessageBox_Java_NotInstall_Tips">若BakaXL未搜索到您的Java，您也可以手动定位其路径</Item>
 
 			<Item Key="MessageBox_Memory_LowWarning_Title">计算机可用内存不足</Item>
 			<Item Key="MessageBox_Memory_LowWarning_Content">你目前的系统内存不足512MB，强制启动MC可能造成一些异常现象（例如可能启动失败），建议你关闭无关紧要的软件（例如QQ、音乐播放器，迅雷等）\n\n系统总共内存：{0} MB\n目前可用内存：{1} MB</Item>
@@ -1321,7 +1321,7 @@
 			<Item Key="MessageBox_Download_LaunchMode_Tips">启用芜湖起飞会自动修改BakaXL的部分设置，并停用下载状态显示。</Item>
 			<Item Key="MessageBox_Download_LaunchMode_Btn_Yes">冲鸭！</Item>
 			<Item Key="MessageBox_Download_LaunchMode_Btn_No">唔，我想当个乖孩子</Item>
-			
+
 			<Item Key="MessageBox_MojangAccount_FogotPassword_Title">找回您的麻将账户密码</Item>
 			<Item Key="MessageBox_MojangAccount_FogotPassword_Content">若您无法想起您的麻将账户密码，不要着急，请访问麻将账户的官网。&#xD;&#xA;&#xD;&#xA;在密码重设(Reset Password)页面填入您麻将账户的电子邮件地址，并点击 "请求密码重置"(Request password reset) 按钮。&#xD;&#xA;&#xD;&#xA;在那之后，麻将将会向您发送电子邮件帮助您重置账户的密码。</Item>
 			<Item Key="MessageBox_MojangAccount_FogotPassword_Tips">请确保域名为 account.mojang.com 且连接已通过SSL加密</Item>
@@ -1461,24 +1461,24 @@
 			<Item Key="Installer_InstallTimer_Counting">正在计时...</Item>
 
 			<Item Key="Installer_InstallTaskStatus_PrepareInstaller">准备安装 {0} ...</Item>
-			
+
 			<Item Key="Installer_InstallTaskStatus_DownloadMinecraft">正在下载 迈恩克拉夫特...</Item>
-			<Item Key="Installer_InstallTaskStatus_DownloadForge">正在下载 Forge...</Item>	
+			<Item Key="Installer_InstallTaskStatus_DownloadForge">正在下载 Forge...</Item>
 			<Item Key="Installer_InstallTaskStatus_InstallingForge">正在安装 Forge...</Item>
 			<Item Key="Installer_InstallTaskStatus_DownloadFabric">正在获取 Fabric 安装档案...</Item>
 			<Item Key="Installer_InstallTaskStatus_InstallingFabric">正在安装 Fabric...</Item>
 			<Item Key="Installer_InstallTaskStatus_DownloadAssets">正在补全 Assets...</Item>
 			<Item Key="Installer_InstallTaskStatus_UnzipFile">正在解压缩文件...</Item>
-			
+
 			<Item Key="Installer_InstallTaskStatus_DownloadLibs">正在补全 Libraries...</Item>
 
 			<Item Key="Installer_InstallTaskStatus_DownloadLibsAndAssets">正在补全 Assets 与 Libraries...</Item>
 
 			<Item Key="Installer_InstallTaskStatus_Failed">安装失败</Item>
 			<Item Key="Installer_InstallTaskStatus_Successful">安装成功</Item>
-			
+
 			<Item Key="Installer_InstallTaskStatus_PrepareInstaller_Tips">BakaXL将要开始安装您所选定的游戏核心。&#xD;&#xA;请稍等片刻，并在此期间不要断开互联网连接或关闭BakaXL。</Item>
-			
+
 			<Item Key="Installer_InstallTaskStatus_DownloadMinecraft_Tips">BakaXL正在将 {0} 下载至本地。&#xD;&#xA;请稍等片刻，并在此期间不要断开互联网连接或关闭BakaXL。</Item>
 			<Item Key="Installer_InstallTaskStatus_DownloadForge_Tips">BakaXL正在将 Forge-{0} 下载至本地。&#xD;&#xA;请稍等片刻，并在此期间不要断开互联网连接或关闭BakaXL。</Item>
 			<Item Key="Installer_InstallTaskStatus_InstallingForge_Tips">BakaXL正在安装 Forge {0}。&#xD;&#xA;请稍等片刻，并在此期间不要操作游戏目录或关闭BakaXL。</Item>
@@ -1490,7 +1490,7 @@
 			<Item Key="Installer_InstallTaskStatus_InstallingForge_Tips_ModPack">BakaXL正在为 {0} 安装 Forge。&#xD;&#xA;请稍等片刻，并在此期间不要操作游戏目录或关闭BakaXL。</Item>
 			<Item Key="Installer_InstallTaskStatus_DownloadFabric_Tips_ModPack">BakaXL正在将 {0} 所需的 Fabric 安装档案 下载至本地。&#xD;&#xA;请稍等片刻，并在此期间不要断开互联网连接或关闭BakaXL。</Item>
 			<Item Key="Installer_InstallTaskStatus_InstallingFabric_Tips_ModPack">BakaXL正在为 {0} 处理 Fabric 安装档案。&#xD;&#xA;请稍等片刻，并在此期间不要操作游戏目录或关闭BakaXL。</Item>
-			
+
 			<Item Key="Installer_InstallTaskStatus_DownloadLibs_Tips">BakaXL正在补全该版本所需的 运行库文件(Libraries)。&#xD;&#xA;请稍等片刻，并在此期间不要断开互联网连接或关闭BakaXL。</Item>
 			<Item Key="Installer_InstallTaskStatus_DownloadAssets_Tips">BakaXL正在补全该版本所需的 资源文件(Assets)。&#xD;&#xA;请稍等片刻，并在此期间不要断开互联网连接或关闭BakaXL。</Item>
 			<Item Key="Installer_InstallTaskStatus_DownloadLibsAndAssets_Tips">BakaXL正在补全该版本所需的 运行库文件(Libraries) 和 资源文件(Assets)。&#xD;&#xA;请稍等片刻，并在此期间不要断开互联网连接或关闭BakaXL。</Item>
@@ -1531,18 +1531,18 @@
 			<Item Key="Color_Purple">基佬紫</Item>
 			<Item Key="Color_Orange">烦人橙</Item>
 			<Item Key="Color_Lime">烂草绿</Item>
-			<Item Key="Color_Emerald">茶婊绿</Item>
+			<Item Key="Color_Emerald">菜狗绿</Item>
 			<Item Key="Color_Teal">蓝翔蓝</Item>
 			<Item Key="Color_Cyan">天空蓝</Item>
-			<Item Key="Color_Cobalt">IE蓝</Item>
+			<Item Key="Color_Cobalt">浏览器蓝</Item>
 			<Item Key="Color_Indigo">量子紫</Item>
 			<Item Key="Color_Violet">紫罗兰</Item>
 			<Item Key="Color_Pink">樱花色</Item>
-			<Item Key="Color_Magenta">迷の红</Item>
+			<Item Key="Color_Magenta">叔叔红</Item>
 			<Item Key="Color_Crimson">酒心红</Item>
 			<Item Key="Color_Amber">土狗黄</Item>
 			<Item Key="Color_Yellow">皮卡黄</Item>
-			<Item Key="Color_Brown">翔の色</Item>
+			<Item Key="Color_Brown">恶臭棕</Item>
 			<Item Key="Color_Olive">橄榄绿</Item>
 			<Item Key="Color_Steel">巨金怪</Item>
 			<Item Key="Color_Mauve">褪色紫</Item>
