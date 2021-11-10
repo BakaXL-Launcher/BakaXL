@@ -56,47 +56,47 @@
 			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_CheckAssets">Checking Minecraft Assets</Item>
 			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_DownloadAssets">Downloading Minecraft Assets</Item>
 			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_GenParameter">Generateing Parameters</Item>
-			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_CheckAuthlib">正在检查Authlib-Injector</Item>
-			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_CheckAuthlib_GetInfo">正在获取Authlib-Injector下载信息</Item>
-			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_CheckAuthlib_Download">正在下载Authlib-Injector</Item>
-			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_CheckPlugin">正在执行BakaXL插件定义的操作</Item>
+			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_CheckAuthlib">Checking Authlib-Injector</Item>
+			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_CheckAuthlib_GetInfo">Getting Authlib-Injector Download Info</Item>
+			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_CheckAuthlib_Download">Downloading Authlib-Injector</Item>
+			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_CheckPlugin">Doing BakaXL Plugin Actions</Item>
             
-			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_DownloadJava">正在下载 {0} 虚拟机 ({1} 位)</Item>
-			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_DownloadJava_Prepare">正在获取 Java 虚拟机列表</Item>
-			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_DownloadJava_Fetching">正在创建 {0} 虚拟机下载任务 ({1} 位)</Item>
-			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_DownloadJava_Finalizing">正在安装所需的 {0} 虚拟机 ({1} 位)</Item>
+			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_DownloadJava">Downloading {0} ({1} Bit)</Item>
+			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_DownloadJava_Prepare">Getting Java VM List</Item>
+			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_DownloadJava_Fetching">Creating {0} Download Task ({1} Bit)</Item>
+			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_DownloadJava_Finalizing">Installing {0} Needed ({1} Bit)</Item>
 
-			<Item Key="LaunchBar_LaunchBtn_Launching_Environment_JavaFullAuto">正在选择合适的 Java 虚拟机</Item>
-			<Item Key="LaunchBar_LaunchBtn_Launching_Environment_JavaNotExist">Java路径已变动，正在重新定位</Item>
-			<Item Key="LaunchBar_LaunchBtn_Launching_Environment_NewJavaFound">BakaXL将使用新的Java路径启动Minecraft</Item>
+			<Item Key="LaunchBar_LaunchBtn_Launching_Environment_JavaFullAuto">Choosing Match Java VM</Item>
+			<Item Key="LaunchBar_LaunchBtn_Launching_Environment_JavaNotExist">Java Path changed, relocating</Item>
+			<Item Key="LaunchBar_LaunchBtn_Launching_Environment_NewJavaFound">BakaXL will use the new Java Path to run Minecraft</Item>
 			
-			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_CheckEnvironment">发射模式: 检查和补全Minecraft环境</Item>
+			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_CheckEnvironment">Launch Mode: Checking and Completing Minecraft Environment</Item>
 
 			<Item Key="LaunchBar_LaunchBtn_Launched_Title">Launched</Item>
 			<Item Key="LaunchBar_LaunchBtn_Launched_Tips">&lt;Running...&gt;</Item>
 
-			<Item Key="LaunchBar_ToolTip_DownloadLib">正在下载Minecraft支持库&#xD;&#xA;文件名：{0}&#xD;&#xA;路径：{1}</Item>
+			<Item Key="LaunchBar_ToolTip_DownloadLib">Downloading Minecraft Libraries&#xD;&#xA;File Name：{0}&#xD;&#xA;Path：{1}</Item>
 
 			<Item Key="LaunchBar_Title_Launched">Minecraft Launched With Profile: {0}</Item>
 			<Item Key="LaunchBar_Title_AuthError">Authentication Error: Incorrect Username/Password</Item>
 			<Item Key="LaunchBar_Title_AuthError_Unknown">Authentication Error: Unknown</Item>
-            <Item Key="LaunchBar_Title_AuthError_MojangTokenExpired">验证时出现错误：会话验证信息过期，请在本体设置重新登录此用户档案</Item>
-			<Item Key="LaunchBar_Title_AuthError_AuthlibTokenExpired">验证时出现错误：档案验证信息失效，请重新设置此用户档案</Item>
-			<Item Key="LaunchBar_Title_AuthError_MicrosoftLoginCanceled">验证时出现错误：微软账户登录被用户取消</Item>
-			<Item Key="LaunchBar_Title_EnvironmentError_JavaNotFound">环境检查错误：无法定位Java路径</Item>
-			<Item Key="LaunchBar_Title_GameError_GetAssetsListFailed">资源补全错误：无法从下载源获取Minecraft资源文件列表</Item>
-			<Item Key="LaunchBar_Title_GameError_GetAuthlibFailed">资源补全错误：无法下载Authlib-Injector本体</Item>
-			<Item Key="LaunchBar_Title_LaunchModeError_CheckGameFailed">发射模式错误：检查Minecraft环境出错</Item>
+            <Item Key="LaunchBar_Title_AuthError_MojangTokenExpired">AuthError：Info expired, please relogin this profile in Settings</Item>
+			<Item Key="LaunchBar_Title_AuthError_AuthlibTokenExpired">AuthError：Profile Auth info expired, please reset this profile</Item>
+			<Item Key="LaunchBar_Title_AuthError_MicrosoftLoginCanceled">AuthError：Microsoft Account loginning cancelled by user</Item>
+			<Item Key="LaunchBar_Title_EnvironmentError_JavaNotFound">EnvironmentCheckError：Cannot locate Java Path</Item>
+			<Item Key="LaunchBar_Title_GameError_GetAssetsListFailed">CompleteResourceError：Cannot get Minecraft Resource List from downloading source</Item>
+			<Item Key="LaunchBar_Title_GameError_GetAuthlibFailed">CompleteResourceError：Cannot download Authlib-Injector</Item>
+			<Item Key="LaunchBar_Title_LaunchModeError_CheckGameFailed">LaunchModeEror：Wrong with checking Minecraft Environment</Item>
 
 			<Item Key="UserSelector_Launch_Title">Select a Minecraft Profile</Item>
-			<Item Key="UserSelector_Authlib_SelectProfile">该账户拥有的多个角色，选择一个角色</Item>
+			<Item Key="UserSelector_Authlib_SelectProfile">There're some profiles this account has, please select one</Item>
 			<Item Key="UserSelector_Default_Title">Select a User</Item>
 
-            <Item Key="UserProfile_ToolTip_Offline">用户名：{0} &#xD;&#xA;此用户档案将使用离线验证</Item>
-			<Item Key="UserProfile_ToolTip_Online">用户名：{0} &#xD;&#xA;此用户档案将使用Mojang正版验证</Item>
-			<Item Key="UserProfile_ToolTip_Online_Microsoft">用户名：{0} &#xD;&#xA;此用户档案将使用微软账户正版验证</Item>
-			<Item Key="UserProfile_ToolTip_ThirParty_WithoutName">用户名：{0} &#xD;&#xA;此用户档案将使用第三方账户验证服务器&#xD;&#xA;验证服务器地址：{1}</Item>
-			<Item Key="UserProfile_ToolTip_ThirParty_WithName">用户名：{0} &#xD;&#xA;此用户档案将使用 {1} 提供的账户验证服务器&#xD;&#xA;验证服务器地址：{2}</Item>
+            <Item Key="UserProfile_ToolTip_Offline">Username：{0} &#xD;&#xA;This profile will auth offline</Item>
+			<Item Key="UserProfile_ToolTip_Online">Username：{0} &#xD;&#xA;This profile will auth with Mojang</Item>
+			<Item Key="UserProfile_ToolTip_Online_Microsoft">Username：{0} &#xD;&#xA;This profile will auth with Microsoft</Item>
+			<Item Key="UserProfile_ToolTip_ThirParty_WithoutName">Username：{0} &#xD;&#xA;This profile will auth with third-party server&#xD;&#xA;Auth server URL：{1}</Item>
+			<Item Key="UserProfile_ToolTip_ThirParty_WithName">Username：{0} &#xD;&#xA;This profile will auth with third-party server offered by {1} &#xD;&#xA;Auth server URL：{2}</Item>
 
 			<Item Key="HomeIdentifier_Screen_Home">Home</Item>
 			<Item Key="HomeIdentifier_Screen_Menu">Start Menu</Item>
@@ -111,7 +111,7 @@
 			<Item Key="CoreSelector_Loading_Tips">Loading All The Cores.</Item>
 
 			<Item Key="CoreSelector_DisplayMode_All">All</Item>
-			<Item Key="CoreSelector_DisplayMode_Favorite">我的收藏</Item>
+			<Item Key="CoreSelector_DisplayMode_Favorite">Favorite</Item>
 			<Item Key="CoreSelector_DisplayMode_Vanilla">Vanilla</Item>
 			<Item Key="CoreSelector_DisplayMode_Forge">Forge</Item>
 			<Item Key="CoreSelector_DisplayMode_Fabric">Fabric</Item>
@@ -129,17 +129,17 @@
 			<Item Key="CoreSelector_CoreError_NoJsonFile">Warning - JSON File Not Exist</Item>
 			<Item Key="CoreSelector_CoreError_NotCompatible">Error - Format Not Compatible</Item>
 
-            <Item Key="CoreSelector_GetCore_Title">添加新的 Minecraft 核心 或 整合包</Item>
+            <Item Key="CoreSelector_GetCore_Title">Add new Minecraft cores or modpacks</Item>
 			
-			<Item Key="CoreManagement_Title">高级核心管理</Item>
-			<Item Key="CoreManagement_Publisher">发行者: {0}</Item>
-			<Item Key="CoreManagement_Publisher_None">尚无发行者</Item>
-			<Item Key="CoreManagement_LastPlayed">最近游玩于 {0}</Item>
-			<Item Key="CoreManagement_LastPlayed_None">尚未运行过</Item>
+			<Item Key="CoreManagement_Title">Advanced Core Management</Item>
+			<Item Key="CoreManagement_Publisher">Publisher: {0}</Item>
+			<Item Key="CoreManagement_Publisher_None">Publisher: None</Item>
+			<Item Key="CoreManagement_LastPlayed">Last Played on {0}</Item>
+			<Item Key="CoreManagement_LastPlayed_None">Never ran yet</Item>
 			
-			<Item Key="CoreManagement_Tips_Locked_MCVersion">某些选项不可用，因为Minecraft版本过低。</Item>
-			<Item Key="CoreManagement_Tips_Locked_ModPack">某些选项不可用，因为它们由您的整合包提供者管理。</Item>
-			<Item Key="CoreManagement_Tips_Locked_Server">某些选项不可用，因为它们由此整合包对应的服务器管理。</Item>
+			<Item Key="CoreManagement_Tips_Locked_MCVersion">Some options are unavailable, because Minecraft version is too low. </Item>
+			<Item Key="CoreManagement_Tips_Locked_ModPack">Some options are unavailable，因为它们由您的整合包提供者管理。</Item>
+			<Item Key="CoreManagement_Tips_Locked_Server">Some options are unavailable，因为它们由此整合包对应的服务器管理。</Item>
 			
 			<Item Key="CoreManagement_Tips_Error_Json">此核心所使用的Json文件不是规范的Minecraft游戏核心标识文件。</Item>
 			<Item Key="CoreManagement_Tips_Error_Json_Broken">此核心的Json文件损坏，BakaXL无法读取。</Item>
@@ -481,34 +481,34 @@
 			<Item Key="Bakaverse_Lobby_JoinLobby_Title">Join a friend or public lobby</Item>
 			<Item Key="Bakaverse_Lobby_JoinLobby_LobbyID_TextBox_Watermark">Enter the Lobby Code (e.g. 01509230)</Item>
 			<Item Key="Bakaverse_Lobby_JoinLobby_Join_Btn_Title">Join lobby</Item>
-			<Item Key="Bakaverse_Lobby_JoinLobby_Join_Btn_Tips">输入好友或他人告知您的大厅编号，即可加入该大厅。&#xD;&#xA;若大厅设置为仅对好友开放，则您必须为创建者的好友才可加入。</Item>
+			<Item Key="Bakaverse_Lobby_JoinLobby_Join_Btn_Tips">Enter Lobby Codeyour friends or others told to you, then you can join it. &#xD;&#xA;If the lobby seted open to friends only, then you must be the creater's friend to join. </Item>
 			
 			<Item Key="Bakaverse_Lobby_FriendInvites_Title">Invites from friends</Item>
-			<Item Key="Bakaverse_Lobby_FriendInvites_Tips">若您的好友邀请您加入其所在的大厅，他们将会显示在这里。</Item>
+			<Item Key="Bakaverse_Lobby_FriendInvites_Tips">If your friends invite you to their lobbies, their invites will show here. </Item>
 
-			<Item Key="Bakaverse_Lobby_CrossLauncherPlay_Title">Join a third-party launcher's connect platform</Item>
-			<Item Key="Bakaverse_Lobby_CrossLauncherPlay_Tips">若要加入由第三方启动器 (PCL2、HMCL) 创建的联机服务房间，&#xD;&#xA;则您需要先在 BakaXL 笨蛋广场 安装跨启动器联机插件。&#xD;&#xA;&#xD;&#xA;该项服务尚未开放，敬请期待。</Item>
+			<Item Key="Bakaverse_Lobby_CrossLauncherPlay_Title">Join a third-party launcher's connecting platform</Item>
+			<Item Key="Bakaverse_Lobby_CrossLauncherPlay_Tips">If you want to join a connecting room created by third-party launchers (PCL2、HMCL) ,&#xD;&#xA;You need to install the Cross-launcher connecting plugin in BakaPlaza. &#xD;&#xA;&#xD;&#xA;This service isn't available now, stay tuned. </Item>
 			
 			<Item Key="Bakaverse_Lobby_LobbyInfo_Title">Lobby Information</Item>
 			<Item Key="Bakaverse_Lobby_LobbyInfo_LobbyID_Title">Lobby ID</Item>
-			<Item Key="Bakaverse_Lobby_LobbyInfo_LobbyHost_Title">Lobby Creater</Item>
+			<Item Key="Bakaverse_Lobby_LobbyInfo_LobbyHost_Title">Lobby Host</Item>
 			<Item Key="Bakaverse_Lobby_LobbyInfo_LocalNAT_Title">Local NAT Type</Item>
 			<Item Key="Bakaverse_Lobby_LobbyInfo_LocalUPnP_Title">Local UPnP Compatibility</Item>
 
 			<Item Key="Bakaverse_Lobby_LobbyAction_Title">Lobby Action</Item>
 			<Item Key="Bakaverse_Lobby_LobbyAction_AutoAcceptJoin">Auto Accept Join Request</Item>
-			<Item Key="Bakaverse_Lobby_LobbyAction_AutoAcceptJoin_Tips">介绍自动同意来自其他大厅加入者的加入请求。&#xD;&#xA;这在您打算懒得手动处理互联网朋友的请求时大概很有用吧。&#xD;&#xA;请注意。这将会允许所有知道大厅编号的用户随意加入该大厅。</Item>
+			<Item Key="Bakaverse_Lobby_LobbyAction_AutoAcceptJoin_Tips">Auto accept join requests from other lobby joiners. &#xD;&#xA;This may be useful when you are lazy to accept your friends' requests manually. &#xD;&#xA;Notice: This will make all the users who knows the lobby code can join here. </Item>
 			<Item Key="Bakaverse_Lobby_LobbyAction_AllowRelay">Connect with Relay when cannot connect directly</Item>
-			<Item Key="Bakaverse_Lobby_LobbyAction_AllowRelay_Tips">当 BakaXL 无法与对方建立直接连接时，&#xD;&#xA;通过 BakaXL Network Relay 中继服务进行连接。&#xD;&#xA;您的网络数据流量将通过受信任的BakaXL服务器进行安全中转。</Item>
+			<Item Key="Bakaverse_Lobby_LobbyAction_AllowRelay_Tips">When BakaXL cannot connect to the other side directly, &#xD;&#xA;connect with BakaXL Network Relay service. &#xD;&#xA;Your cellular data will relay by trusted BakaXL servers safely. </Item>
 			<Item Key="Bakaverse_Lobby_LobbyAction_LeaveLobby">Leave Lobby</Item>
-			<Item Key="Bakaverse_Lobby_LobbyAction_LeaveLobby_Tips">若您当前正在参与 Minecraft 本地局域网联机，&#xD;&#xA;离开该大厅将导致与创建者主机的连接被断开。</Item>
+			<Item Key="Bakaverse_Lobby_LobbyAction_LeaveLobby_Tips">If you are playing Minecraft LAN game, &#xD;&#xA;leave the lobby will cause the connection to the host closed. </Item>
 
 			<Item Key="Bakaverse_Lobby_LobbyJoinRequest_Title">Lobby Joining Request</Item>
-			<Item Key="Bakaverse_Lobby_LobbyJoinRequest_Tips">若有用户申请加入当前大厅，他们将会显示在这里。</Item>
+			<Item Key="Bakaverse_Lobby_LobbyJoinRequest_Tips">If there're users sending join requests, they will be shown here. </Item>
 
 			<Item Key="Bakaverse_Lobby_OnlineUsers_Title">Online User List</Item>
-			<Item Key="Bakaverse_Lobby_OnlineUsers_Tips">选择一个用户，可进一步查看其账户信息，或添加对方为好友。</Item>
-			<Item Key="Bakaverse_Lobby_OnlineUsers_HostKick_Tips">您是大厅创建者，可以通过长按对应用户将其移出此大厅。</Item>
+			<Item Key="Bakaverse_Lobby_OnlineUsers_Tips">Choose a user can see its account details, or add it as friend. </Item>
+			<Item Key="Bakaverse_Lobby_OnlineUsers_HostKick_Tips">You are the lobby host, you can remove the users by long-clicking them. </Item>
 
 			<Item Key="Bakaverse_Lobby_UserAction_Waiting">Waiting</Item>
 
@@ -537,8 +537,8 @@
 			<Item Key="Bakaverse_OnlineStatus_Using_Full">Browsing: {0}</Item>
 			<Item Key="Bakaverse_OnlineStatus_Gaming">Gaming</Item>
 			<Item Key="Bakaverse_OnlineStatus_Gaming_Full">Playing: {0}</Item>
-            <Item Key="Bakaverse_OnlineStatus_Gaming_InServer">正在第三方Minecraft服务器中游玩</Item>
-			<Item Key="Bakaverse_OnlineStatus_Gaming_InLANServer">本地局域网联机开放中</Item>
+            <Item Key="Bakaverse_OnlineStatus_Gaming_InServer">Playing in third-party Minecraft Server</Item>
+			<Item Key="Bakaverse_OnlineStatus_Gaming_InLANServer">LAN game connection opening</Item>
 
 			<Item Key="BakaPlaza_FullName">BakaXL BakaPlaza</Item>
 			<Item Key="BakaPlaza_Update">Update</Item>
@@ -565,13 +565,13 @@
 			<Item Key="BakaPlaza_MinecraftInstaller_Category_Fabric_Desc">A new Mod API</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Category_Optifine_Desc">Optifine</Item>
 
-            <Item Key="BakaPlaza_MinecraftInstaller_Core_Status_Release">正式版</Item>
-			<Item Key="BakaPlaza_MinecraftInstaller_Core_Status_Snapshot">快照版</Item>
-			<Item Key="BakaPlaza_MinecraftInstaller_Core_Status_Special">特别版</Item>
-			<Item Key="BakaPlaza_MinecraftInstaller_Core_Status_Stable">稳定版</Item>
-			<Item Key="BakaPlaza_MinecraftInstaller_Core_Status_Unstable">不稳定</Item>
-			<Item Key="BakaPlaza_MinecraftInstaller_Core_Status_Beta">测试版</Item>
-			<Item Key="BakaPlaza_MinecraftInstaller_Core_Status_Recommend">推荐版</Item>
+            <Item Key="BakaPlaza_MinecraftInstaller_Core_Status_Release">Releases</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Core_Status_Snapshot">Snapshots</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Core_Status_Special">Special</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Core_Status_Stable">Stable</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Core_Status_Unstable">Unstable</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Core_Status_Beta">Beta</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Core_Status_Recommend">Recommended</Item>
 
 			<Item Key="BakaPlaza_MinecraftInstaller_Version">Version</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Category_Select">Select...</Item>
@@ -604,38 +604,38 @@
 			<Item Key="BakaPlaza_MinecraftInstaller_Steps_WriteJson">Write Json information</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Steps_GenBakaCoreConfig">Generate configuration files</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Steps_CopyForgeFile">Copy Forge files</Item>
-			<Item Key="BakaPlaza_MinecraftInstaller_Steps_PrepareProcessor">初始化Forge文件处理器</Item>
-			<Item Key="BakaPlaza_MinecraftInstaller_Steps_GenerateForgeFile">生成Forge文件</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Steps_PrepareProcessor">Preparing Forge file processer</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Steps_GenerateForgeFile">Generating Forge Files</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Steps_PrepareVanilla">Prepare Vanilla Minecraft</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Steps_CopyVanilla">Copy Vanilla Minecraft core</Item>
-			<Item Key="BakaPlaza_MinecraftInstaller_Steps_CleanUp">准备结束安装</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Steps_CleanUp">Ready to Finish</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Steps_InstallSuccessful">Install completed</Item>
 
 			<Item Key="Protocol_Ani_Tips">Browse this resource in BakaPlaza</Item>
 
-			<Item Key="MusicInfo_UnknownName">未知歌曲名</Item>
-			<Item Key="MusicInfo_UnknownAblum">未知专辑</Item>
-			<Item Key="MusicInfo_UnknownArtist">未知歌手</Item>
+			<Item Key="MusicInfo_UnknownName">Unknown song name</Item>
+			<Item Key="MusicInfo_UnknownAblum">Unknown Ablum</Item>
+			<Item Key="MusicInfo_UnknownArtist">Unknown Artist</Item>
 
 			<Item Key="Tips_Title">BakaXL Tips</Item>
 			<Item Key="Tips_Subtitles">Follow your favourite channels and learn about the news about them. </Item>
 
-			<Item Key="Tips_Subscribe">订阅此频道</Item>
-			<Item Key="Tips_Subscribed">已订阅</Item>
-			<Item Key="Tips_Official">官方贴士频道</Item>
-			<Item Key="Tips_New">新开通</Item>
-			<Item Key="Tips_Locked">锁定</Item>
-			<Item Key="Tips_Refresh">刷新</Item>
-			<Item Key="Tips_Search">搜索频道</Item>
-			<Item Key="Tips_ChannelList">贴士频道列表</Item>
-			<Item Key="Tips_VisitInPlaza">在笨蛋广场中查看</Item>
-			<Item Key="Tips_Publisher">发行方</Item>
-			<Item Key="Tips_Publisher_WithName">发行方: {0}</Item>
+			<Item Key="Tips_Subscribe">Subscribe</Item>
+			<Item Key="Tips_Subscribed">Subscribed</Item>
+			<Item Key="Tips_Official">Official Channels</Item>
+			<Item Key="Tips_New">New</Item>
+			<Item Key="Tips_Locked">Locked</Item>
+			<Item Key="Tips_Refresh">Refresh</Item>
+			<Item Key="Tips_Search">Search</Item>
+			<Item Key="Tips_ChannelList">Channel List</Item>
+			<Item Key="Tips_VisitInPlaza">Visit in BakaPlaza</Item>
+			<Item Key="Tips_Publisher">Publisher</Item>
+			<Item Key="Tips_Publisher_WithName">Publisher: {0}</Item>
 
-			<Item Key="Tips_Home_Loading">集合啦！贴士们！</Item>
-			<Item Key="Tips_Home_Loading_Tips">一二一，一二一，列队！</Item>
+			<Item Key="Tips_Home_Loading">Come here, Tips! </Item>
+			<Item Key="Tips_Home_Loading_Tips">Stand in Line! </Item>
 
-			<Item Key="Tips_Home_NoTips">小贴士们放学回家了</Item>
+			<Item Key="Tips_Home_NoTips">There are no tips. </Item>
 			<Item Key="Tips_Home_NoTips_Tips">目前这里一条贴士都没有呢，请检查您的互联网连接。</Item>
 			<Item Key="Tips_Home_NoTips_Bottom">我们可能会在未经事先通知的情况下对贴士系统服务器进行维护。</Item>
 
@@ -670,7 +670,7 @@
 			<Item Key="Setting_BakaPublic">Public</Item>
 			<Item Key="Setting_CurrentVersion">Current Version</Item>
 
-			<Item Key="Setting_Support_Title">Support/Health &amp; Safety</Item>
+			<Item Key="Setting_Support_Title">Support &amp; Safety</Item>
 			<Item Key="Setting_Account_Title">Profiles</Item>
 			<Item Key="Setting_Java_Title">Java VM &amp; Memory</Item>
 			<Item Key="Setting_Advance_Title">Advance</Item>
