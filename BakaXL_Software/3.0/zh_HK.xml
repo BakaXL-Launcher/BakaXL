@@ -12,7 +12,7 @@
 			<Item Key="NoUserName">未設定遊戲ID</Item>
 			
 			<Item Key="Loading">載入中</Item>
-			<Item Key="PleaseWait">請稍後…</Item>
+			<Item Key="PleaseWait">請稍等…</Item>
 			<Item Key="LoadingPlugins">插件</Item>
 
 			<Item Key="Window_ReportIssue_Title">回報問題</Item>
@@ -486,8 +486,8 @@
 			<Item Key="Bakaverse_Lobby_FriendInvites_Title">來自好友的邀請</Item>
 			<Item Key="Bakaverse_Lobby_FriendInvites_Tips">如您嘅好友邀請您加入其所在嘅大廳，他們將會顯示在這裡。</Item>
 
-			<Item Key="Bakaverse_Lobby_CrossLauncherPlay_Title">加入第三方啟動器的聯機平台</Item>
-			<Item Key="Bakaverse_Lobby_CrossLauncherPlay_Tips">如要加入由第三方啟動器 (PCL2、HMCL) 創建的聯機服務房間，&#xD;&#xA;則您需要先在 BakaXL 笨蛋廣場 安裝跨啟動器聯機插件。&#xD;&#xA;&#xD;&#xA;該服務還未開放，敬情期待。</Item>
+			<Item Key="Bakaverse_Lobby_CrossLauncherPlay_Title">加入第三方啟動器的連線平台</Item>
+			<Item Key="Bakaverse_Lobby_CrossLauncherPlay_Tips">如要加入由第三方啟動器 (PCL2、HMCL) 創建的連線服務房間，&#xD;&#xA;則您需要先在 BakaXL 笨蛋廣場 安裝跨啟動器連線插件。&#xD;&#xA;&#xD;&#xA;該服務還未開放，敬情期待。</Item>
 
 			<Item Key="Bakaverse_Lobby_LobbyInfo_Title">大廳資訊</Item>
 			<Item Key="Bakaverse_Lobby_LobbyInfo_LobbyID_Title">大廳編號</Item>
@@ -501,7 +501,7 @@
 			<Item Key="Bakaverse_Lobby_LobbyAction_AllowRelay">在無法建立直接連接時使用中繼連接</Item>
 			<Item Key="Bakaverse_Lobby_LobbyAction_AllowRelay_Tips">當 BakaXL 無法與對方建立直接連接時，&#xD;&#xA;通過 BakaXL Network Relay 中繼服務進行連接。&#xD;&#xA;您嘅網絡數據流量將通過受信任嘅 BakaXL 服務器進行安全中轉。</Item>
 			<Item Key="Bakaverse_Lobby_LobbyAction_LeaveLobby">斷開與大廳嘅連接</Item>
-			<Item Key="Bakaverse_Lobby_LobbyAction_LeaveLobby_Tips">如您當前正在參與 Minecraft 本地局域網聯機，&#xD;&#xA;離開該大廳將導致與創建者嘅連接被斷開。</Item>
+			<Item Key="Bakaverse_Lobby_LobbyAction_LeaveLobby_Tips">如您當前正在參與 Minecraft 本地局域網連線，&#xD;&#xA;離開該大廳將導致與創建者嘅連接被斷開。</Item>
 
 			<Item Key="Bakaverse_Lobby_LobbyJoinRequest_Title">加入大廳請求</Item>
 			<Item Key="Bakaverse_Lobby_LobbyJoinRequest_Tips">如有用戶申請加入當前大廳，他們將會顯示在這裡。</Item>
@@ -538,7 +538,7 @@
 			<Item Key="Bakaverse_OnlineStatus_Gaming">遊戲中</Item>
 			<Item Key="Bakaverse_OnlineStatus_Gaming_Full">正在玩：{0}</Item>
       <Item Key="Bakaverse_OnlineStatus_Gaming_InServer">正在第三方Minecraft服務器中遊玩</Item>
-      <Item Key="Bakaverse_OnlineStatus_Gaming_InLANServer">本地局域網聯機開放中</Item>
+      <Item Key="Bakaverse_OnlineStatus_Gaming_InLANServer">本地局域網連線開放中</Item>
 
 			<Item Key="BakaPlaza_FullName">BakaXL 笨蛋廣場</Item>
 			<Item Key="BakaPlaza_Update">更新</Item>
@@ -593,9 +593,9 @@
 			<Item Key="BakaPlaza_MinecraftInstaller_CoreDesc_Forge">從笨蛋廣場下載 - 帶有Forge {0} 嘅 Minecraft {1} 核心</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_CoreDesc_Fabric">從笨蛋廣場下載 - 帶有Fabric {0} 嘅 Minecraft {1} 核心</Item>
 
-			<Item Key="BakaPlaza_MinecraftInstaller_Steps_Prepare">正在準備</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Steps_Prepare">準備緊..</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Steps_Successful">成功</Item>
-			<Item Key="BakaPlaza_MinecraftInstaller_Steps_Downloading">正在下載</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Steps_Downloading">下載緊..</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Steps_DownloadingSuccessful">下載完成</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Steps_UnZip">解壓所需文件</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Steps_ReadJson">正在解析Json文件</Item>
@@ -636,22 +636,22 @@
 			<Item Key="Tips_Home_Loading_Tips">一二一，一二一，列隊！</Item>
 
 			<Item Key="Tips_Home_NoTips">小貼士們放學返咗屋企</Item>
-			<Item Key="Tips_Home_NoTips_Tips">依家呢到一條貼士都冇呢，請檢查您嘅互聯網連接。</Item>
-			<Item Key="Tips_Home_NoTips_Bottom">我哋可能會喺未經事先通知嘅情況下對貼士系統伺服器進行維護。</Item>
+			<Item Key="Tips_Home_NoTips_Tips">依家呢到一條貼士都冇喎，請檢查您嘅互聯網連接。</Item>
+			<Item Key="Tips_Home_NoTips_Bottom">我哋可能會喺未事先通知嘅情況下對貼士系統伺服器進行維護。</Item>
 
 			<Item Key="Tips_ChannelList_Loading">正在獲取頻道列表</Item>
 			<Item Key="Tips_ChannelList_Loading_Tips">來自第三方嘅非官方BakaXL貼士頻道將唔會喺呢到顯示</Item>
 			
 			<Item Key="Tips_ChannelList_NoChannels">怪怪哋，頻道都匿埋咗</Item>
 			<Item Key="Tips_ChannelList_NoChannels_Tips">請檢查您嘅互聯網連接。這也有可能係因為BakaXL貼士伺服器正在維護。</Item>
-			<Item Key="Tips_ChannelList_NoChannels_Tips_Bottom">請稍後再試。</Item>
+			<Item Key="Tips_ChannelList_NoChannels_Tips_Bottom">請遲啲再試。</Item>
 
 			<Item Key="Tips_ChannelList_SubscribeTips">若要喺您嘅BakaXL貼士首頁顯示來自某個頻道嘅貼士，則需要訂閱該頻道。</Item>
 
 			<Item Key="Tips_ChannelDetail_Loading">正在獲取貼士列表</Item>
 
 			<Item Key="Tips_ChannelDetail_LoadFailed">呢個頻道空寥寥</Item>
-			<Item Key="Tips_ChannelDetail_LoadFailed_Tips">請檢查您嘅互聯網連接。這也有可能係因為該頻道仲未發佈任何貼士。</Item>
+			<Item Key="Tips_ChannelDetail_LoadFailed_Tips">請檢查您嘅互聯網連接。都有可能係因為該頻道仲未發佈任何貼士。</Item>
 			
 			<Item Key="Tips_Detail_Loading">正在搞個大新聞</Item>
 			<Item Key="Tips_Detail_Loading_Tips">正在加載貼士詳情，請稍後…</Item>
@@ -758,8 +758,8 @@
 			<Item Key="Setting_Support_ErrorHistory_Config_TemaColor">主題顏色</Item>
 			<Item Key="Setting_Support_ErrorHistory_Config_NightMode">反轉顏色模式</Item>
 			<Item Key="Setting_Support_ErrorHistory_Config_LiveBackground">實況背景</Item>
-			<Item Key="Setting_Support_ErrorHistory_Config_Acrylic">亞克力</Item>
-			<Item Key="Setting_Support_ErrorHistory_Config_AcrylicType">亞克力虛化方式</Item>
+			<Item Key="Setting_Support_ErrorHistory_Config_Acrylic">亞加力</Item>
+			<Item Key="Setting_Support_ErrorHistory_Config_AcrylicType">亞加力虛化方式</Item>
 			<Item Key="Setting_Support_ErrorHistory_Config_AcrylicManual">手動背景虛化</Item>
 			<Item Key="Setting_Support_ErrorHistory_Config_AcrylicOpacity">背景虛化指數</Item>
 			<Item Key="Setting_Support_ErrorHistory_Config_MusicStatus">背景音樂狀態</Item>
@@ -947,7 +947,7 @@
 			<Item Key="Setting_Language_TranslationTools">本地化實用工具 / Localization Utilities</Item>
 
 			<Item Key="Setting_Language_Selector_Watermark">揀您所喺區域嘅使用語言</Item>
-			<Item Key="Setting_Language_Selector_Tips">BakaXL可以支援全球多個國家同地區所偏好使用嘅語言。&#xD;&#xA;而這全都要歸功於來自全球各地嘅BakaXL用戶。&#xD;&#xA;喺翻譯文本經過測試前，沒法使用。</Item>
+			<Item Key="Setting_Language_Selector_Tips">BakaXL可以支援全球多個國家同地區所偏好使用嘅語言。&#xD;&#xA;而呢啲要多謝晒來自全球各地嘅BakaXL用戶。&#xD;&#xA;喺翻譯文本經過測試前，沒法使用。</Item>
 
 			<Item Key="Setting_Language_JoinLocalization">訪問本地化項目主頁</Item>
 			<Item Key="Setting_Language_JoinLocalization_Tips">前往BakaXL 異域計劃主頁，獲取最新文本詞條，參與翻譯官工作。</Item>
@@ -980,8 +980,8 @@
 			<Item Key="Setting_Network_MojangServiceStatus_Title">Mojang伺服器狀態</Item>
 			<Item Key="Setting_Network_MojangServiceStatus_MainServer">Mojang狀態服務:</Item>
 			<Item Key="Setting_Network_MojangServiceStatus_MinecraftSite">Minecraft官網</Item>
-			<Item Key="Setting_Network_MojangServiceStatus_MinecraftSession_Old">Minecraft多人聯機會話服務(舊版本)</Item>
-			<Item Key="Setting_Network_MojangServiceStatus_MinecraftSession">Minecraft多人聯機會話服務</Item>
+			<Item Key="Setting_Network_MojangServiceStatus_MinecraftSession_Old">Minecraft多人連線會話服務(舊版本)</Item>
+			<Item Key="Setting_Network_MojangServiceStatus_MinecraftSession">Minecraft多人連線會話服務</Item>
 			<Item Key="Setting_Network_MojangServiceStatus_MojangAccount">Mojang賬戶服務</Item>
 			<Item Key="Setting_Network_MojangServiceStatus_MinecraftAuth">Minecraft正版驗證服務</Item>
 			<Item Key="Setting_Network_MojangServiceStatus_MojangAPI">Mojang API服務</Item>
@@ -1010,20 +1010,20 @@
       <Item Key="Setting_Network_Environment_NATType_Checking">正在檢測…</Item>
       <Item Key="Setting_Network_Environment_NATType_Checking_Tips">BakaXL 將在檢測完成後顯示結果…</Item>
 
-      <Item Key="Setting_Network_Environment_NATType_Tips_Open">當前網絡環境不會影響聯機體驗&#xD;&#xA;該網絡環境適合作為大廳創建者</Item>
-      <Item Key="Setting_Network_Environment_NATType_Tips_MayAffectOnlinePlay">這可能會影響妳的聯機體驗</Item>
-      <Item Key="Setting_Network_Environment_NATType_Tips_MayAffectOnlinePlay_RouterOrFirewall">部分路由器和防火墻設定可能會影響妳聯機體驗</Item>
-      <Item Key="Setting_Network_Environment_NATType_Tips_MayAffectOnlinePlay_RouterOrFirewall_UPnP">部分路由器和防火墻設定可能會影響妳聯機體驗&#xD;&#xA;如大廳創建者或妳的網絡設備支持 UPnP，則可能有所緩解</Item>
-      <Item Key="Setting_Network_Environment_NATType_Tips_WillAffectOnlinePlay">這將嚴重影響妳的聯機體驗</Item>
-      <Item Key="Setting_Network_Environment_NATType_Tips_WillAffectOnlinePlay_UPnP">這將嚴重影響妳的聯機體驗&#xD;&#xA;如大廳創建者或妳的網絡設備支持 UPnP，則可能有所緩解</Item>
+      <Item Key="Setting_Network_Environment_NATType_Tips_Open">當前網絡環境不會影響連線體驗&#xD;&#xA;該網絡環境適合作為大廳創建者</Item>
+      <Item Key="Setting_Network_Environment_NATType_Tips_MayAffectOnlinePlay">咁可能會影響你嘅連線體驗</Item>
+      <Item Key="Setting_Network_Environment_NATType_Tips_MayAffectOnlinePlay_RouterOrFirewall">部分路由器同防火墻設定可能會影響你連線體驗</Item>
+      <Item Key="Setting_Network_Environment_NATType_Tips_MayAffectOnlinePlay_RouterOrFirewall_UPnP">部分路由器和防火墻設定可能會影響妳連線體驗&#xD;&#xA;如大廳創建者或妳的網絡設備支持 UPnP，則可能有所緩解</Item>
+      <Item Key="Setting_Network_Environment_NATType_Tips_WillAffectOnlinePlay">這將嚴重影響妳的連線體驗</Item>
+      <Item Key="Setting_Network_Environment_NATType_Tips_WillAffectOnlinePlay_UPnP">這將嚴重影響妳的連線體驗&#xD;&#xA;如大廳創建者或妳嘅網絡設備支持 UPnP，則可能有所緩解</Item>
 
       <Item Key="Setting_Network_Environment_UPnP_Unknown">未知</Item>
       <Item Key="Setting_Network_Environment_UPnP_Unsupport">不兼容</Item>
-      <Item Key="Setting_Network_Environment_UPnP_Unsupport_Tips">妳當前嘅網絡設備或系統不支持 UPnP 協議&#xD;&#xA;如妳在網絡設備中啟用 UPnP，則 BakaXL 將通過該協議嘗試改善妳的聯機體驗</Item>
+      <Item Key="Setting_Network_Environment_UPnP_Unsupport_Tips">妳當前嘅網絡設備或系統不支持 UPnP 協議&#xD;&#xA;如妳在網絡設備中啟用 UPnP，則 BakaXL 將通過該協議嘗試改善妳的連線體驗</Item>
       <Item Key="Setting_Network_Environment_UPnP_Unstable">不穩定 [{0}]</Item>
-      <Item Key="Setting_Network_Environment_UPnP_Unstable_Tips">妳當前嘅網絡設備或系統對 UPnP 協議嘅支持並不正常&#xD;&#xA;這可能導致 BakaXL 無法改善妳嘅聯機體驗&#xD;&#xA;如妳認為妳的網絡設備或系統不存在呢個問題，請聯繫 BakaXL 開發團隊</Item>
+      <Item Key="Setting_Network_Environment_UPnP_Unstable_Tips">妳當前嘅網絡設備或系統對 UPnP 協議嘅支持並不正常&#xD;&#xA;這可能導致 BakaXL 無法改善妳嘅連線體驗&#xD;&#xA;如妳認為妳的網絡設備或系統不存在呢個問題，請聯繫 BakaXL 開發團隊</Item>
       <Item Key="Setting_Network_Environment_UPnP_Enabled">已啟用自動映射</Item>
-      <Item Key="Setting_Network_Environment_UPnP_Enabled_Tips">BakaXL 向妳嘅網絡設備請求自動映射以改善妳嘅聯機體驗</Item>
+      <Item Key="Setting_Network_Environment_UPnP_Enabled_Tips">BakaXL 向妳嘅網絡設備請求自動映射以改善妳嘅連線體驗</Item>
       <Item Key="Setting_Network_Environment_UPnP_Pending">尚未開始檢測</Item>
       <Item Key="Setting_Network_Environment_UPnP_Pending_Tips">BakaXL 尚未開始檢測網絡設備嘅 UPnP 協議&#xD;&#xA;當開始建立點對點連接時，BakaXL 將會開始檢測並顯示結果</Item>
 
@@ -1033,7 +1033,7 @@
 			<Item Key="Setting_Network_Troubleshooting_Tips">若您沒法正常連接到Mojang正版驗證伺服器，&#xD;&#xA;嘗試更換一個穩定且唔易受污染嘅DNS伺服器通常能解決呢個問題。&#xA;&#xD;&#xA;若呢個問題持續出現，請聯絡您嘅互聯網服務提供商(ISP)，&#xD;&#xA;并確保您嘅互聯網并未遭到劫持。</Item>
 
 			<Item Key="Setting_Advance_AdvLaunch_Title">進階啟動</Item>
-			<Item Key="Setting_Advance_AdvLaunch_Warn_1">如果您唔確定呢啲選項嘅作用，請唔好改動呢啲設定。</Item>
+			<Item Key="Setting_Advance_AdvLaunch_Warn_1">如果您唔肯定呢啲選項嘅作用，請唔好改動呢啲設定。</Item>
 			<Item Key="Setting_Advance_AdvLaunch_Warn_SettingMoved">部分設定已經移動至進階核心設定入面，點擊此處前往。</Item>
 			<Item Key="Setting_Advance_AdvLaunch_MinecraftTitle">Minecraft窗口標題</Item>
 			<Item Key="Setting_Advance_AdvLaunch_MinecraftTitle_Tips">設定由BakaXL啟動嘅Minecraft窗體標題。&#xD;&#xA;可喺標題中使用參數來顯示動態內容。&#xD;&#xA;{time}: 顯示當前系統時間。</Item>
@@ -1042,7 +1042,7 @@
 			<Item Key="Setting_Advance_AdvLaunch_AutoJoin">啟動遊戲後自動加入伺服器</Item>
 			<Item Key="Setting_Advance_AdvLaunch_AutoJoin_IPBox">輸入伺服器地址</Item>
 			<Item Key="Setting_Advance_AdvLaunch_AutoJoin_Tips">喺Minecraft啟動并加載完成後自動加入伺服器。</Item>
-			<Item Key="Setting_Advance_AdvLaunch_CheckVersionFolder">預檢查遊戲核心目錄係否存在</Item>
+			<Item Key="Setting_Advance_AdvLaunch_CheckVersionFolder">預檢查遊戲核心目錄是否存在</Item>
 			<Item Key="Setting_Advance_AdvLaunch_CheckVersionFolder_Tips">喺啟動遊戲前對 .minecraft/versions/&lt;遊戲核心&gt; 目錄&#xD;&#xA;進行檢查，并喺沒法確認此文件夾存在時取消啟動。&#xD;&#xA;&#xD;&#xA;若核心目錄存在也沒法檢測到嘅極端情況出現時，請關閉此功能。&#xD;&#xA;關閉後，BakaXL將會喺沒法確認文件夾存在時嘗試繼續啟動，&#xD;&#xA;直至下一次確認核心文件夾嘅存在。&#xD;&#xA;&#xD;&#xA;可能導致BakaXL喺啟動遊戲時出現異常，甚至係崩潰。&#xD;&#xA;此設定並唔會全局同步至計算機中其他BakaXL。</Item>
 			
 			<Item Key="Setting_Advance_AdvLaunch_GCMethod">自定義Java回收器</Item>
@@ -1072,10 +1072,10 @@
 			
 			<Item Key="Setting_Personalize_Background_Acrylic">背景虛化</Item>
 			<Item Key="Setting_Personalize_Background_AcrylicType">虛化方式</Item>
-			<Item Key="Setting_Personalize_Background_AcrylicType_Default">亞克力</Item>
+			<Item Key="Setting_Personalize_Background_AcrylicType_Default">亞加力</Item>
 			<Item Key="Setting_Personalize_Background_AcrylicType_Blur">毛玻璃</Item>
 			<Item Key="Setting_Personalize_Background_AcrylicManual">手動設定虛化程度</Item>
-			<Item Key="Setting_Personalize_Background_AcrylicTips">背景虛化效果可讓BakaXL虛化背景層嘅內容，營造舒適且唔沖突嘅&#xD;視覺體驗。&#xD;&#xD;使用實況背景或未設定背景時，沒法手動調整虛化程度。&#xD;使用亞克力效果需要Windows 10。</Item>
+			<Item Key="Setting_Personalize_Background_AcrylicTips">背景虛化效果可讓BakaXL虛化背景層嘅內容，營造舒適且唔沖突嘅&#xD;視覺體驗。&#xD;&#xD;使用實況背景或未設定背景時，沒法手動調整虛化程度。&#xD;使用亞加力效果需要Windows 10。</Item>
 			
 			<Item Key="Setting_Personalize_Background_LiveBackground">使用實況背景功能（實驗版）</Item>
 			<Item Key="Setting_Personalize_Background_LiveBackground_Tips">喺BakaXL底部綁定額外嘅疊層以顯示進階動態背景。&#xD;通過BakaXL x Wallpaper Engine聯動顯示動態背景。&#xD;&#xD;該功能喺部分解像度同DPI縮放環境下沒法正常工作。&#xD;若未您當前未喺使用Wallpaper Engine，則BakaXL將會使用&#xD;你嘅桌面壁紙。</Item>
@@ -1408,7 +1408,7 @@
       <Item Key="MessageBox_Bakaverse_Lobby_FriendsRequestJoin_Btn_No">NO咯</Item>
 
       <Item Key="MessageBox_Bakaverse_Lobby_KickUser_Title">要將此用戶踢出房間嗎？</Item>
-      <Item Key="MessageBox_Bakaverse_Lobby_KickUser_Content">作為人類高質量大廳所有者，妳接下來嘅操作會導致呢個用戶被踢出大廳。&#xD;&#xA;如其當前正在進行 Minecraft 本地局域網聯機或文件傳輸，這些連接也同樣會被斷開。</Item>
+      <Item Key="MessageBox_Bakaverse_Lobby_KickUser_Content">作為人類高質量大廳所有者，妳接下來嘅操作會導致呢個用戶被踢出大廳。&#xD;&#xA;如其當前正在進行 Minecraft 本地局域網連線或文件傳輸，這些連接也同樣會被斷開。</Item>
       <Item Key="MessageBox_Bakaverse_Lobby_KickUser_Tips">一腳差錯，柒Q左</Item>
       <Item Key="MessageBox_Bakaverse_Lobby_KickUser_Btn_Ok">躝屍趌路</Item>
       <Item Key="MessageBox_Bakaverse_Lobby_KickUser_Btn_No">有得倾</Item>
@@ -1422,13 +1422,13 @@
       <Item Key="MessageBox_Bakaverse_Lobby_Join_RequestSend_Tips">如該大廳為好友大廳，則需要先與創建者成為好友</Item>
 
       <Item Key="MessageBox_Bakaverse_Lobby_HostLeave_Title">確定要解散該大廳嗎？</Item>
-      <Item Key="MessageBox_Bakaverse_Lobby_HostLeave_Content">如妳選擇解散該大廳，則所有已建立嘅連接均會被斷開。&#xD;&#xA;如妳正在進行 Minecraft 本地局域網聯機或文件傳輸，這些連接也同樣會被斷開。</Item>
+      <Item Key="MessageBox_Bakaverse_Lobby_HostLeave_Content">如妳選擇解散該大廳，則所有已建立嘅連接均會被斷開。&#xD;&#xA;如妳正在進行 Minecraft 本地局域網連線或文件傳輸，這些連接也同樣會被斷開。</Item>
       <Item Key="MessageBox_Bakaverse_Lobby_HostLeave_Tips">Fire in the hole</Item>
       <Item Key="MessageBox_Bakaverse_Lobby_HostLeave_Btn_Ok">丟雷</Item>
       <Item Key="MessageBox_Bakaverse_Lobby_HostLeave_Btn_No">誒我玩下啫</Item>
 
       <Item Key="MessageBox_Bakaverse_Lobby_JoinerLeave_Title">要離開大廳了嗎？</Item>
-      <Item Key="MessageBox_Bakaverse_Lobby_JoinerLeave_Content">如妳決定離開這個大廳，那妳將會離開這個大廳。&#xD;&#xA;如妳正在進行 Minecraft 本地局域網聯機或文件傳輸，這些連接也同樣會被斷開。</Item>
+      <Item Key="MessageBox_Bakaverse_Lobby_JoinerLeave_Content">如妳決定離開這個大廳，那妳將會離開這個大廳。&#xD;&#xA;如妳正在進行 Minecraft 本地局域網連線或文件傳輸，這些連接也同樣會被斷開。</Item>
       <Item Key="MessageBox_Bakaverse_Lobby_JoinerLeave_Tips">下午3點啦，夠鐘飲茶啦</Item>
       <Item Key="MessageBox_Bakaverse_Lobby_JoinerLeave_Btn_Ok">再也不見</Item>
       <Item Key="MessageBox_Bakaverse_Lobby_JoinerLeave_Btn_No">手滑</Item>
@@ -1437,7 +1437,7 @@
       <Item Key="MessageBox_Bakaverse_Lobby_JoinerInfo_NotExist_Content">雖然這個用戶在大廳裡，But他不在 BakaXL Network 中。&#xD;&#xA;這有夠怪。可能因為你見到了這個情況，所以他現在不存在了。</Item>
       <Item Key="MessageBox_Bakaverse_Lobby_JoinerInfo_NotExist_Tips">喂，這種情況真有可能發生咩？？</Item>
 
-      <Item Key="MessageBox_Bakaverse_Lobby_Create_NoLANGameDetected_Title">尚未開始Minecraft局域網聯機</Item>
+      <Item Key="MessageBox_Bakaverse_Lobby_Create_NoLANGameDetected_Title">尚未開始Minecraft局域網連線</Item>
       <Item Key="MessageBox_Bakaverse_Lobby_Create_NoLANGameDetected_Content">妳需要使用當前運行嘅BakaXL啟動遊戲，並在單人遊戲中選擇 &quot;向局域網開放&quot;。&#xD;&#xA;如妳已經開放了局域網遊戲，則需要稍等至少10秒鐘才可以創建大廳。</Item>
       <Item Key="MessageBox_Bakaverse_Lobby_Create_NoLANGameDetected_Tips">如長時間無法檢測，請嘗試使用管理員身份運行 BakaXL</Item>
 
