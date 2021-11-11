@@ -1183,7 +1183,7 @@
 			<Item Key="Setting_Audio_AutoControl_Title">自動音量控制</Item>
 			<Item Key="Setting_Audio_AutoControl_MainBtn_Title">自動偵測音頻播放軟件</Item>
 			<Item Key="Setting_Audio_AutoControl_BehaviorBtn_Title">音量控制行為</Item>
-			<Item Key="Setting_Audio_AutoControl_Tips">BakaXL喺啟動時會偵測當前計算機中係否有正在運行嘅音頻輸出軟件。&#xA;（如音樂播放器、語音聊天軟件等）&#xA;喺有音頻播放時，BakaXL將會視情況自動關閉或降低背景音樂嘅音量。&#xA;若要恢復原先設定嘅音量大小，只需撳住Ctrl并滾動滑鼠滾輪。</Item>
+			<Item Key="Setting_Audio_AutoControl_Tips">BakaXL喺啟動時會偵測當前計算機中是否有正在運行嘅音頻輸出軟件。&#xA;（如音樂播放器、語音聊天軟件等）&#xA;喺有音頻播放時，BakaXL將會視情況自動關閉或降低背景音樂嘅音量。&#xA;若要恢復原先設定嘅音量大小，只需撳住Ctrl并滾動滑鼠滾輪。</Item>
 
 			<Item Key="Setting_Download_Source_Title">下載源</Item>
 			<Item Key="Setting_Download_Source_BMCLAPI_Btn_Title">中國大陸地區使用第三方下載源加速</Item>
@@ -1279,7 +1279,7 @@
 			<Item Key="TextInputer_Core_SetPublisher_Title">更改此核心嘅發行者</Item>
 			<Item Key="TextInputer_Core_SetDesc_Title">更改此核心嘅簡介</Item>
 
-			<Item Key="MessageBox_Launch_CheckOnline">正在檢查用戶係否可以運行Minecraft……</Item>
+			<Item Key="MessageBox_Launch_CheckOnline">正在檢查用戶是否可以運行Minecraft……</Item>
 			<Item Key="MessageBox_Launch_CheckThirdParty">請等待我哋連接到第三方驗證伺服器……</Item>
 
 			<Item Key="MessageBox_Auth_ThirdParty_ProtocolFix_Title">已經自動補全通信協議</Item>
@@ -1290,7 +1290,7 @@
 			<Item Key="MessageBox_Auth_ThirdParty_ServerUnsafe_Tips">使用咗安全協議嘅伺服器地址始終會以 https:// 開頭</Item>
 
 			<Item Key="MessageBox_Auth_ThirdParty_ConnectFailed_Title">沒法連接至此驗證伺服器</Item>
-			<Item Key="MessageBox_Auth_ThirdParty_ConnectFailed_Content">BakaXL沒法連接至此驗證伺服器。&#xD;&#xA;請檢查此服務地址係否正確，并再試一次。</Item>
+			<Item Key="MessageBox_Auth_ThirdParty_ConnectFailed_Content">BakaXL沒法連接至此驗證伺服器。&#xD;&#xA;請檢查此服務地址是否正確，并再試一次。</Item>
 			<Item Key="MessageBox_Auth_ThirdParty_ConnectFailed_Tips">也請留意此驗證伺服器提供商嘅相關通知</Item>
 
 			<Item Key="MessageBox_Auth_ThirdParty_UnexpectedUUIDFormat_Title">無法解析該驗證服務器的用戶檔案</Item>
