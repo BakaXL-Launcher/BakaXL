@@ -62,14 +62,15 @@
 			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_CheckPlugin">正在執行BakaXL外掛定義的操作</Item>
 
 			<!-- 需要翻译↓ -->
-			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_DownloadJava">正在下载 {0} 虚拟机 ({1} 位)</Item>
-			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_DownloadJava_Prepare">正在获取 Java 虚拟机列表</Item>
-			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_DownloadJava_Fetching">正在创建 {0} 虚拟机下载任务 ({1} 位)</Item>
-			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_DownloadJava_Finalizing">正在安装所需的 {0} 虚拟机 ({1} 位)</Item>
+			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_DownloadJava">正在下載 {0} 虛擬機 ({1} 位)</Item>
+			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_DownloadJava_Prepare">獲取 Java 虛擬機列表中</Item>
+			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_DownloadJava_Fetching">創建 {0} 虛擬機下載任務 ({1} 位)中</Item>
+			<!-- 話説翻譯成下載{0}虛擬機 ({1} 位)中或者按照原句會好點嗎 -->
+			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_DownloadJava_Finalizing">正在安裝所需的 {0} 虛擬機 ({1} 位)</Item>
 
-			<Item Key="LaunchBar_LaunchBtn_Launching_Environment_JavaFullAuto">正在选择合适的 Java 虚拟机</Item>
-			<Item Key="LaunchBar_LaunchBtn_Launching_Environment_JavaNotExist">Java 路径已变动，正在重新定位</Item>
-			<Item Key="LaunchBar_LaunchBtn_Launching_Environment_NewJavaFound">BakaXL 已选定了合适的 Java 虚拟机</Item>
+			<Item Key="LaunchBar_LaunchBtn_Launching_Environment_JavaFullAuto">正在選擇合適的 Java 虛擬機</Item>
+			<Item Key="LaunchBar_LaunchBtn_Launching_Environment_JavaNotExist">Java 路徑變更，重新定位中</Item>
+			<Item Key="LaunchBar_LaunchBtn_Launching_Environment_NewJavaFound">BakaXL 已經選定了合適的 Java 虛擬機</Item>
 			<!-- 需要翻译↑ -->
 			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_CheckEnvironment">發射模式: 檢查和補全Minecraft環境</Item>
 
@@ -171,9 +172,9 @@
 			<Item Key="CoreManagement_Info_Version">版本</Item>
 
 			<!-- 需要翻译↓-->
-			<Item Key="CoreManagement_Java_Tip">若想对该核心进行单独设置而不希望影响其他核心，请在这里设置。&#xD;&#xA;如果您不知道您在做什么，请不要修改任何内容。</Item>
-			<Item Key="CoreManagement_Java_JavaDefaultTip">BakaXL当前正使用本体设置内的全局Java设定。</Item>
-			<Item Key="CoreManagement_Java_MemoryDefaultTip">BakaXL当前正使用本体设置内的全局内存设定。</Item>
+			<Item Key="CoreManagement_Java_Tip">如果想單獨設置該覈心而不希望影響其他覈心，請在此設置。&#xD;&#xA;如果你不知道你在做什麽，請不要做任何變更。</Item>
+			<Item Key="CoreManagement_Java_JavaDefaultTip">BakaXL正在使用本體設置内的全局Java設置。</Item>
+			<Item Key="CoreManagement_Java_MemoryDefaultTip">BakaXL正在使用本體設置内的全局内存設置。</Item>
 			<!-- 需要翻译↑-->
 
 			<Item Key="CoreManagement_Mods_Title">模組(Mods)</Item>
@@ -300,11 +301,12 @@
 			<Item Key="BakaXL_Update_Btn_Yes">立即更新</Item>
 			<Item Key="BakaXL_Update_Btn_OrYes">或者更新</Item>
 
-			<!-- 需要翻译↓ -->
-			<Item Key="BakaXL_Update_NeedLogin_Title">登录至 BakaXL Network 以继续更新</Item>
-			<Item Key="BakaXL_Update_NeedLogin_Info">若要从当前设置的BakaXL预览体验通道中获取本体更新，则需要您登录至BakaXL Network。&#xD;&#xA;前往 &quot;本体设置 - 账户与档案&quot; 中登录您的BakaXL Account</Item>
+			
+			<Item Key="BakaXL_Update_NeedLogin_Title">登入 BakaXL Network 以繼續更新</Item>
+			<Item Key="BakaXL_Update_NeedLogin_Info">如果想從當前設置的BakaXL預覽體驗通道中獲得本體更新，則需要登入BakaXL Network。&#xD;&#xA;前往 &quot;本體設置 - 賬戶與檔案&quot; 中登入BakaXL Account</Item>
 
-			<Item Key="BakaXL_Update_NotInsider_Title">需要成为预览体验计划成员</Item>
+			<Item Key="BakaXL_Update_NotInsider_Title">需成爲預覽體驗計劃成員</Item>
+			<!-- 需要翻译↓ -->
 			<Item Key="BakaXL_Update_NotInsider_Info">诶呀，您当前好像还不是已登记的BakaXL预览体验计划成员呢。&#xD;&#xA;若要更新至此预览体验版本，您的账户需要被登记为BakaXL预览体验计划成员。&#xD;&#xA;&#xD;&#xA;在BakaXL 局外人用户群中参与交流讨论 亦或是通过 &quot;爱发电&quot; 支持BakaXL的开发工作，即可将您的BakaXL账户登记为预览体验计划成员！</Item>
 			<Item Key="BakaXL_Update_NotInsider_Tips">但实际上也有办法可以更新的啦，BakaXL不会做那种事的！</Item>
 			<Item Key="BakaXL_Update_NotInsider_Btn_Afdian">前往 &quot;爱发电&quot; 看看</Item>
@@ -464,22 +466,24 @@
 			<Item Key="Bakaverse_AddFriends_Btn_Tips">通過BakaXL線上服務尋找您的好友。</Item>
 			<Item Key="Bakaverse_AddFriends_MinePass_Btn_Title">通過BakaXL瞬間交錯通訊 加入好友</Item>
 			
+			
+			<Item Key="Bakaverse_Lobby_Introduction_Title">介紹</Item>
+			<Item Key="Bakaverse_Lobby_Introduction_Content">加入好友的局域網伺服器，或者共享客戶端。&#xD;&#xA;請讓所有要參加的好友都進入此畫面。</Item>
+
+			<Item Key="Bakaverse_Lobby_LAN_Motd_Header">BakaXL 大廳</Item>
+
+			<Item Key="Bakaverse_Lobby_Error_Title">大廳服務異常</Item>
+			<Item Key="Bakaverse_Lobby_Error_Detail_Relogin">請重新登入此BakaXL賬號</Item>
+
+			<Item Key="Bakaverse_Lobby_CreateLobby_Title">創建新大廳</Item>
+			<Item Key="Bakaverse_Lobby_CreateLobby_CustomLobbyID_TextBox_Watermark">自定義大廳編號 (25個字符以内)</Item>
 			<!-- 需要翻译 -->
-			<Item Key="Bakaverse_Lobby_Introduction_Title">介绍</Item>
-			<Item Key="Bakaverse_Lobby_Introduction_Content">加入好友的本地局域网游戏，亦或是共享客户端。&#xD;&#xA;请让所有要参与的好友都进入此画面。</Item>
-
-			<Item Key="Bakaverse_Lobby_LAN_Motd_Header">BakaXL 大厅</Item>
-
-			<Item Key="Bakaverse_Lobby_Error_Title">大厅服务异常</Item>
-			<Item Key="Bakaverse_Lobby_Error_Detail_Relogin">请重新登录此BakaXL账户</Item>
-
-			<Item Key="Bakaverse_Lobby_CreateLobby_Title">创建新大厅</Item>
-			<Item Key="Bakaverse_Lobby_CreateLobby_CustomLobbyID_TextBox_Watermark">自定义大厅编号 (25个字符以内)</Item>
 			<Item Key="Bakaverse_Lobby_CreateLobby_CustomLobbyID_TextBox_Tips">感谢您对 BakaXL 的支持！作为预览体验计划的成员，&#xD;&#xA;您将可以在创建时自定义 BakaXL 大厅的编号！&#xD;&#xA;在使用此功能时，请不要违反BakaXL的使用守则。&#xD;&#xA;滥用此功能将会导致您的预览体验计划身份被取消。</Item>
-			<Item Key="Bakaverse_Lobby_CreateLobby_AllowStrangers_Btn_Title">仅对我的好友开放</Item>
-			<Item Key="Bakaverse_Lobby_CreateLobby_Create_Btn_Title">创建大厅</Item>
-			<Item Key="Bakaverse_Lobby_CreateLobby_Create_Btn_Tips">启动 Minecraft 并在单人游戏中选择 &quot;对局域网开放&quot;，&#xD;&#xA;随后即可创建一个大厅。&#xD;&#xA;若长时间检测失败，尝试以管理员身份运行 BakaXL 后启动 Minecraft。</Item>
-
+			<!-- 請翻譯上一條 -->
+			<Item Key="Bakaverse_Lobby_CreateLobby_AllowStrangers_Btn_Title">僅對我的好友開放</Item>
+			<Item Key="Bakaverse_Lobby_CreateLobby_Create_Btn_Title">創建大廳</Item>
+			<Item Key="Bakaverse_Lobby_CreateLobby_Create_Btn_Tips">啓動 Minecraft 并在單人游戲菜單内選擇 &quot;公開至局域網&quot;，&#xD;&#xA;隨後便可創建大廳。&#xD;&#xA;如果長時間檢測失敗，請嘗試以管理員身份運行 BakaXL 之後開啓 Minecraft。</Item>
+			<!-- 下列需要翻譯 -->
 			<Item Key="Bakaverse_Lobby_JoinLobby_Title">加入好友或公开大厅</Item>
 			<Item Key="Bakaverse_Lobby_JoinLobby_LobbyID_TextBox_Watermark">输入要加入的大厅编号 (例如: 01509230)</Item>
 			<Item Key="Bakaverse_Lobby_JoinLobby_Join_Btn_Title">加入大厅</Item>
