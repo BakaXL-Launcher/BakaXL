@@ -27,14 +27,14 @@
 			<Item Key="LaunchBar_Launch">Démarrer le jeu!</Item>
 			<Item Key="LaunchBar_NoCore">&lt;Aucun Noyau sélecté&gt;</Item>
 
-			<Item Key="LaunchBar_SelectCore_Animation_Title">Sélectionner le Noyau ainsi</Item>
-			<Item Key="LaunchBar_SelectCore_Animation_Click">Appuyer sur le bouton &quot;Démarrer le jeu!&quot;</Item>
-			<Item Key="LaunchBar_SelectCore_Animation_Drag">Glisser vers la droite</Item>
+			<Item Key="LaunchBar_SelectCore_Animation_Title">Choix du Noyau</Item>
+			<Item Key="LaunchBar_SelectCore_Animation_Click">Appuyer sur&#xD;&#xA;&quot;Démarrer le jeu!&quot;</Item>
+			<Item Key="LaunchBar_SelectCore_Animation_Drag">Glisser!</Item>
 
 			<Item Key="LaunchBar_SelectCore_BtnTitle">Modifier les Noyaux de Minecraft</Item>
 
 			<Item Key="LaunchBar_SelectCore_Title">Tir du Noyau</Item>
-			<Item Key="LaunchBar_SelectCore_Management">Réglages</Item>
+			<Item Key="LaunchBar_SelectCore_Management">Configuration</Item>
 			<Item Key="LaunchBar_SelectCore_Management_Tips">Gérer vos Noyaux de Minecraft</Item>
 			<Item Key="LaunchBar_SelectCore_DragEasterEgg">Assez!</Item>
 
@@ -47,12 +47,12 @@
 			<Item Key="LaunchBar_LaunchBtn_Error_UnknownError_Title">Il y a quelque chose qui cloche!</Item>
 			<Item Key="LaunchBar_LaunchBtn_Error_UnknownError_Tips">Une erreur inattendue est survenue durant le lancement de jeu</Item>
 
-			<Item Key="LaunchBar_LaunchBtn_Launching_Title">Lancement en cours...</Item>
+			<Item Key="LaunchBar_LaunchBtn_Launching_Title">Lancement...</Item>
 			<Item Key="LaunchBar_LaunchBtn_Launching_Tips">Minecraft sera prêt dans un instant</Item>
 
 			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_CreateCore">Création du Noyau</Item>
-			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_CheckLib">Vérification de la bibliothèque de Minecraft</Item>
-			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_DownloadLib">Téléchargement de la bibliothèque de Minecraft {0}</Item>
+			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_CheckLib">Vérification des Bibliothèques de Minecraft</Item>
+			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_DownloadLib">Téléchargement des Bibliothèques de Minecraft {0}</Item>
 			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_CheckAssets">Vérification des assets de Minecraft</Item>
 			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_DownloadAssets">Téléchargement des assets de Minecraft</Item>
 			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_GenParameter">Génération des paramètres</Item>
@@ -160,7 +160,7 @@
 			<Item Key="CoreManagement_Page_Config">Réglages</Item>
 			<Item Key="CoreManagement_Page_Advance">Avancé</Item>
 			<Item Key="CoreManagement_Page_Update">Mise à jour</Item>
-			<Item Key="CoreManagement_Page_Restore">Restauration / Suppression</Item>
+			<Item Key="CoreManagement_Page_Restore">Restauration</Item>
 
 			<Item Key="CoreManagement_Info_Description">Déscription</Item>
 			<Item Key="CoreManagement_Info_Description_None">Il n'y a rien ici, pas de déscription</Item>
@@ -176,77 +176,77 @@
 
 			<Item Key="CoreManagement_Mods_Title">Mods</Item>
 
-			<Item Key="CoreManagement_Mods_Supported">此核心或整合包安装了支持的模组API。</Item>
-			<Item Key="CoreManagement_Mods_Unsupported">此核心或整合包好像并未使用支持加载模组的模组API。&#xD;&#xA;若您要使用模组，则应当先安装Forge、Farbic或其他模组API。&#xD;&#xA;&#xD;&#xA;若您认为BakaXL错误的认为该核心或整合包没有安装模组API，请联系我们。</Item>
+			<Item Key="CoreManagement_Mods_Supported">Les API nécessaires de ce Noyau ou Pack de mods sont déjà installées.</Item>
+			<Item Key="CoreManagement_Mods_Unsupported">Les API nécessaires de ce Noyau ou Pack de mods ne semblent pas déjà installées.&#xD;&#xA;Il faut installer les API comme Forge ou Fabric avant d'installer les mods.&#xD;&#xA;&#xD;&#xA;Contacter nous si vous trouvez que BakaXL n'arrive pas à identifer les API.</Item>
 
-			<Item Key="CoreManagement_Mods_ModLoader_Scanning">正在扫描核心的模组API...</Item>
-			<Item Key="CoreManagement_Mods_ModLoader_Forge">此核心安装了 Minecraft Forge，版本：{0}</Item>
-			<Item Key="CoreManagement_Mods_ModLoader_Fabric">此核心安装了 Fabric Loader/API。版本：{0}</Item>
-			<Item Key="CoreManagement_Mods_ModLoader_Liteloader">此核心安装了 Liteloader。版本：{0}</Item>
-			<Item Key="CoreManagement_Mods_ModLoader_Optifine">此核心安装了 Optifine 高清修复。</Item>
+			<Item Key="CoreManagement_Mods_ModLoader_Scanning">BakaXL est à la recherche d'API...</Item>
+			<Item Key="CoreManagement_Mods_ModLoader_Forge">Forge API trouvée, version : {0}</Item>
+			<Item Key="CoreManagement_Mods_ModLoader_Fabric">Fabric Loader/API trouvé(e), version : {0}</Item>
+			<Item Key="CoreManagement_Mods_ModLoader_Liteloader">Liteloader trouvé, version : {0}</Item>
+			<Item Key="CoreManagement_Mods_ModLoader_Optifine">Optifine trouvé</Item>
 
-			<Item Key="CoreManagement_Mods_ModList_Title">位于Mods文件夹</Item>
-			<Item Key="CoreManagement_Mods_ModList_DargTips">将模组拖入至此区域快速安装模组。</Item>
-			<Item Key="CoreManagement_Mods_ModList_Desc">BakaXL 将会扫描此核心的Mods文件夹，并将所有受支持的模组文件显示在此列表中。</Item>
-			<Item Key="CoreManagement_Mods_ModList_Scanning">正在扫描…</Item>
-			<Item Key="CoreManagement_Mods_ModList_NoMods">BakaXL 未在此核心或整合包中找到任何模组文件。</Item>
+			<Item Key="CoreManagement_Mods_ModList_Title">Dans le dossier "Mods"</Item>
+			<Item Key="CoreManagement_Mods_ModList_DargTips">Glisser les mods dans cette zone pour une installation rapide.</Item>
+			<Item Key="CoreManagement_Mods_ModList_Desc">BakaXL effectuera une recherche dans dossier de mods de ce Noyau et listera les mods supportés.</Item>
+			<Item Key="CoreManagement_Mods_ModList_Scanning">Recherche en cours...</Item>
+			<Item Key="CoreManagement_Mods_ModList_NoMods">Aucun mod n'est trouvé.</Item>
 
-			<Item Key="CoreManagement_Restore_Title">恢复</Item>
-			<Item Key="CoreManagement_Restore_Button">重置此核心</Item>
-			<Item Key="CoreManagement_Restore_Desc">如果Minecraft没有正常运行，重置核心可能会解决问题。重置时，BakaXL将会删除Libraries和核心的Json文件，然后尝试重新从笨蛋广场获取此版本。</Item>
-			<Item Key="CoreManagement_Restore_Delete_Title">删除此核心</Item>
-			<Item Key="CoreManagement_Restore_Delete_Button">从游戏目录中删除此Minecraft核心</Item>
-			<Item Key="CoreManagement_Restore_Delete_Desc">执行后将从当前游戏目录中永久删除此Minecraft游戏核心，其所包含的Mods、地图、截图等数据将会被同时删除。&#xD;&#xA;&#xD;&#xA;此操作过程不可逆。请谨慎操作。</Item>
-			<Item Key="CoreManagement_Restore_ClearCache_Title">清理垃圾文件</Item>
-			<Item Key="CoreManagement_Restore_ClearCache_Button">从该游戏核心中清理垃圾文件</Item>
-			<Item Key="CoreManagement_Restore_ClearCache_Desc">执行后将会清理掉无用的垃圾文件、日志文件等；通常情况下，这些文件清理后不会对您的游戏造成影响。</Item>
+			<Item Key="CoreManagement_Restore_Title">Restauration</Item>
+			<Item Key="CoreManagement_Restore_Button">Restaurer ce Noyau</Item>
+			<Item Key="CoreManagement_Restore_Desc">Restauration le Noyau peut résoudre plusieurs problèms.&#xD;&#xA;Lors de Restauration, BakaXL supprimera les Bibliothèques et les fiches JSON pour ensuite les réinstaller.</Item>
+			<Item Key="CoreManagement_Restore_Delete_Title">Suppression</Item>
+			<Item Key="CoreManagement_Restore_Delete_Button">Supprimer ce Noyau</Item>
+			<Item Key="CoreManagement_Restore_Delete_Desc">Ce Noyau sera supprimé; les mods, les cartes, les captures d'écran, etc. seront tous effacés aussi.&#xD;&#xA;&#xD;&#xA;Il ne sera pas possible de retrouver les fiches supprimées, réfléchissez avant d'agir.</Item>
+			<Item Key="CoreManagement_Restore_ClearCache_Title">Vidage</Item>
+			<Item Key="CoreManagement_Restore_ClearCache_Button">Vider le cache</Item>
+			<Item Key="CoreManagement_Restore_ClearCache_Desc">Supprimer les fiches temporaires, les journaux. Le jeu ne sera normalement pas affecté.</Item>
 
 			<Item Key="StartMenuTipper_Title">Glisser au menu démarrer</Item>
 
 			<Item Key="Minute">Minutes</Item>
 			<Item Key="Hour">Heures</Item>
 
-			<Item Key="Core_HaveRun">累计运行</Item>
-			<Item Key="Core_InstallTime">安装于</Item>
-			<Item Key="Core_NeverRun">尚未运行</Item>
+			<Item Key="Core_HaveRun">Temps de jeu</Item>
+			<Item Key="Core_InstallTime">Installé à</Item>
+			<Item Key="Core_NeverRun">Jamais joué</Item>
 			<Item Key="Core_Default_Description">Ce Noyau est trop fatigué de se présenter</Item>
 
 			<Item Key="HomeWelcome">Bienvenue</Item>
-			<Item Key="HomePreview">预览版本不代表最终体验</Item>
+			<Item Key="HomePreview">La version finale ne sera pas la même que les versions Insider Preview</Item>
 
-			<Item Key="Home_Title">Dire bonjour à la nouvelle version BakaXL</Item>
-			<Item Key="Home_SubTitle">BakaXL现已焕然一新。不太一样，大不一样！</Item>
-			<Item Key="Home_SubTitle_Insider">BakaXL Insider Preview 预览体验版本</Item>
+			<Item Key="Home_Title">Dire bonjour à la nouvelle version de BakaXL!</Item>
+			<Item Key="Home_SubTitle">Flambant nouveau est BakaXL! Peu de changement, beaucoup de différence!</Item>
+			<Item Key="Home_SubTitle_Insider">Version Insider Preview de BakaXL</Item>
 
-			<Item Key="Home_Task_NoTask">BakaXL任务队列 >> 当前无任何任务和通知</Item>
-			<Item Key="Home_Task_HasTask">BakaXL任务队列 >> {0} 项任务, {1} 项通知</Item>
+			<Item Key="Home_Task_NoTask">Liste de tâches >> Aucune tâche ou notification</Item>
+			<Item Key="Home_Task_HasTask">Liste de tâches >> {0} tâche(s), {1} notification(s)</Item>
 
 			<Item Key="Home_StartMenu_Title">Menu démarrer</Item>
 			<Item Key="Home_StartMenu_Tips">Cliquer sur les tuiles ci-dessous pour explorer plus les fonctionnalités de BakaXL</Item>
 
-			<Item Key="Tips">BakaXL贴士</Item>
+			<Item Key="Tips">Nouvelles</Item>
 
 			<Item Key="HomeHello">Bonjour</Item>
-			<Item Key="HomeNewFeature">新特性</Item>
-			<Item Key="HomeTheme">个性化</Item>
+			<Item Key="HomeNewFeature">Nouvelles fonctionnalités</Item>
+			<Item Key="HomeTheme">Personnalisation</Item>
 			<Item Key="HomePlugin">Plugin</Item>
-			<Item Key="HomeBakaPlaza">笨蛋广场</Item>
-			<Item Key="HomeLaunch">启动游戏</Item>
-			<Item Key="HomeLoginMode">验证模式</Item>
+			<Item Key="HomeBakaPlaza">Place Baka</Item>
+			<Item Key="HomeLaunch">Démarrer le jeu</Item>
+			<Item Key="HomeLoginMode">Connexion</Item>
 			<Item Key="HomeOpenWebside">Notre site</Item>
-			<Item Key="HomeGameCore">切换核心</Item>
+			<Item Key="HomeGameCore">Noyaux</Item>
 			<Item Key="HomeSettings">Réglages de BakaXL</Item>
-			<Item Key="HomeAchievements">成就管理</Item>
-			<Item Key="HomePackTool">BakaXL整合包[\n]导入/导出工具</Item>
-			<Item Key="HomePackToolName">整合包工具</Item>
+			<Item Key="HomeAchievements">Trophées</Item>
+			<Item Key="HomePackTool">Pack de mods [\n] Importer/Exporter</Item>
+			<Item Key="HomePackToolName">Outil de Pack de mods</Item>
 
-			<Item Key="BakaXL.Pages.PageHome">BakaXL主界面</Item>
-			<Item Key="BakaXL.Pages.PageDownload">本体更新系统</Item>
-			<Item Key="BakaXL.Pages.PageSettings">本体设置</Item>
-			<Item Key="BakaXL.Pages.PageGuide">设置向导</Item>
-			<Item Key="BakaXL.Pages.PageTips">BakaXL贴士</Item>
-			<Item Key="BakaXL.Pages.PagePlaza">笨蛋广场</Item>
-			<Item Key="BakaXL.Pages.PageAddGameCore">添加核心向导</Item>
+			<Item Key="BakaXL.Pages.PageHome">Page d'accueil</Item>
+			<Item Key="BakaXL.Pages.PageDownload">Mise à jour</Item>
+			<Item Key="BakaXL.Pages.PageSettings">Réglages</Item>
+			<Item Key="BakaXL.Pages.PageGuide">Guide</Item>
+			<Item Key="BakaXL.Pages.PageTips">Nouvelles</Item>
+			<Item Key="BakaXL.Pages.PagePlaza">Place Baka</Item>
+			<Item Key="BakaXL.Pages.PageAddGameCore">Créer un Noyau</Item>
 
 			<Item Key="Minecraft_AuthMode_Offline">Mode Hors-ligne</Item>
 			<Item Key="Minecraft_AuthMode_Online">Mode En ligne(Mojang)</Item>
@@ -265,7 +265,7 @@
 			<Item Key="Off">Désactivé</Item>
 			<Item Key="On">Activé</Item>
 			<Item Key="Back">Retour</Item>
-			<Item Key="Continue">Continue</Item>
+			<Item Key="Continue">Continuer</Item>
 			<Item Key="NextStep">Prochaine étape</Item>
 			<Item Key="PreviousStep">Retour à la dernière étape</Item>
 			<Item Key="Unavailable">Indisponible</Item>
@@ -274,12 +274,12 @@
 			<Item Key="Edit">Modifier</Item>
 			<Item Key="UnableEdit">Impossible à modifier</Item>
 			<Item Key="Clear">Vider</Item>
-			<Item Key="Favorite">Mettre dans Mes favorites</Item>V
+			<Item Key="Favorite">Mettre dans Mes favorites</Item>
 			<Item Key="UnFavorite">Enlever de Mes favorites</Item>
 			<Item Key="Standard">Standard</Item>
 			<Item Key="Traditional">Traditionel</Item>
 			<Item Key="Preparing">En cours de préparation</Item>
-			<Item Key="Refresh">rafraîchir</Item>
+			<Item Key="Refresh">Rafraîchir</Item>
 
 			<Item Key="FullScreen">En plein écran</Item>
 			<Item Key="Big">Grand</Item>
@@ -288,15 +288,15 @@
 			<Item Key="Default">Par défaut</Item>
 			<Item Key="Custom">Personnalisé</Item>
 
-			<Item Key="Error_CodeIs">错误代码是 {0}， 可在有需要时使用。</Item>
+			<Item Key="Error_CodeIs">Code d'erreur {0}, prendre le code en note si vous l'avez besoin.</Item>
 
-			<Item Key="BakaXL_Update_Title">BakaXL 惊现新版本 {0}</Item>
-			<Item Key="BakaXL_Update_Info">新版本的BakaXL现已推出，您需要进行本体更新才可以继续使用BakaXL！这个过程将不会耗费太长时间。下载本体更新需要使用互联网连接，在您使用计费互联网连接时可能需要支付网络数据费用。</Item>
-			<Item Key="BakaXL_Update_Btn_Yes">立即更新</Item>
-			<Item Key="BakaXL_Update_Btn_OrYes">或者更新</Item>
+			<Item Key="BakaXL_Update_Title">Nouvelle version de BakaXL: {0}</Item>
+			<Item Key="BakaXL_Update_Info">Il faut que vous installez la nouvelle version de BakaXL pour pouvoir l'utilser. L'installation ne dura pas trop long. Vous devez peut-être payer le frais de service d'internet.</Item>
+			<Item Key="BakaXL_Update_Btn_Yes">Mettre à jour</Item>
+			<Item Key="BakaXL_Update_Btn_OrYes">Ou mettre à jour</Item>
 
-			<Item Key="BakaXL_Update_NeedLogin_Title">登录至 BakaXL Network 以继续更新</Item>
-			<Item Key="BakaXL_Update_NeedLogin_Info">若要从当前设置的BakaXL预览体验通道中获取本体更新，则需要您登录至BakaXL Network。&#xD;&#xA;前往 &quot;本体设置 - 账户与档案&quot; 中登录您的BakaXL Account</Item>
+			<Item Key="BakaXL_Update_NeedLogin_Title">Connecter sur votre Compte BakaXL pour continuer la mise à jour</Item>
+			<Item Key="BakaXL_Update_NeedLogin_Info">Il faut connecter sur votre Compte BakaXL pour obtenir la mise à jour à traver du Canal d'Insider Preview.&#xD;&#xA;Veuillez aux &quot;Réglages - Comptes et Profils&quot; pour vous connecter.</Item>
 
 			<Item Key="BakaXL_Update_NotInsider_Title">需要成为预览体验计划成员</Item>
 			<Item Key="BakaXL_Update_NotInsider_Info">诶呀，您当前好像还不是已登记的BakaXL预览体验计划成员呢。&#xD;&#xA;若要更新至此预览体验版本，您的账户需要被登记为BakaXL预览体验计划成员。&#xD;&#xA;&#xD;&#xA;在BakaXL 局外人用户群中参与交流讨论 亦或是通过 &quot;爱发电&quot; 支持BakaXL的开发工作，即可将您的BakaXL账户登记为预览体验计划成员！</Item>
@@ -307,7 +307,7 @@
 			<Item Key="LiveBackground_Prepare_Tips">这可能需要一点点时间</Item>
 
 			<Item Key="Guide_Type_Base">设置向导</Item>
-			<Item Key="Guide_Type_Language">语言</Item>
+			<Item Key="Guide_Type_Language">Langue</Item>
 			<Item Key="Guide_Type_System">系统信息设置</Item>
 			<Item Key="Guide_Type_Profile">账户</Item>
 			<Item Key="Guide_Type_Other">其他</Item>
@@ -678,7 +678,7 @@
 			<Item Key="Setting_Audio_Title">Son</Item>
 			<Item Key="Setting_Download_Title">Téléchargement</Item>
 			<Item Key="Setting_Protocol_Title">Protocole de BakaXL</Item>
-			<Item Key="Setting_Plaza_Title">Place BakaXL</Item>
+			<Item Key="Setting_Plaza_Title">Place Baka</Item>
 			<Item Key="Setting_Insider_Title">BakaXL预览体验计划</Item>
 			<Item Key="Setting_About_Title">À propos</Item>
 
@@ -783,7 +783,7 @@
 			<Item Key="Setting_Account_ExportProfile">Exporter un profil de BakaXL à un autre Luancher</Item>
 			<Item Key="Setting_Account_ProfileTips">Après l'importation, il faut que vous reconnectez sur votre profil,&#xD;&#xA;vous devez probablement aussi configurer quelque paramètre.&#xD;&#xA;Votre profil sera supprimer après l'exportation.</Item>
 
-			<Item Key="Setting_Account_BakaAccount_Title">Comptes BakaXL</Item>
+			<Item Key="Setting_Account_BakaAccount_Title">Compte BakaXL</Item>
 			<Item Key="Setting_Account_BakaAccount_Login">登录至现有的BakaXL账户</Item>
 			<Item Key="Setting_Account_BakaAccount_Register">注册BakaXL账户</Item>
 			<Item Key="Setting_Account_BakaAccount_Logout">Déconnecter</Item>
@@ -902,13 +902,13 @@
 
 			<Item Key="Setting_Java_JVM_Advance_Tips">在通常情况下，BakaXL会自动选择您当前计算机中最合适的Java。&#xD;&#xA;如果您不了解此选项的作用，我们建议您不要修改此选项的值。</Item>
 
-			<Item Key="Setting_Java_JVM_Download">获取Java 8</Item>
-			<Item Key="Setting_Java_JVM_Download_Tips">运行 Minecraft 1.16 及更低版本的 Minecraft 推荐使用 Java 8。&#xD;&#xA;BakaXL将会跳转至来自可信下载源提供的Java 8下载地址。&#xD;&#xA;</Item>
+			<Item Key="Setting_Java_JVM_Download">Obtenir Java 8</Item>
+			<Item Key="Setting_Java_JVM_Download_Tips">Java 8 est recommandé pour Minecraft 1.16 ou plus bas&#xD;&#xA;BakaXL将会跳转至来自可信下载源提供的Java 8下载地址。&#xD;&#xA;</Item>
 
-			<Item Key="Setting_Java_JVM16_Download">获取Java 16</Item>
-			<Item Key="Setting_Java_JVM16_Download_Tips">运行 Minecraft 1.17 或更高级版本的 Minecraft 需要使用 Java 16。&#xD;&#xA;BakaXL会连接至互联网自动安装来自可信来源的Java 16。&#xD;&#xA;这个过程可能需要数分钟，在您使用计费互联网连接时可能&#xD;&#xA;需要支付网络数据费用。</Item>
+			<Item Key="Setting_Java_JVM16_Download">Obtenir Java 16</Item>
+			<Item Key="Setting_Java_JVM16_Download_Tips">Java 16 est recommandé pour Minecraft 1.17 ou plus bas&#xD;&#xA;BakaXL会连接至互联网自动安装来自可信来源的Java 16。&#xD;&#xA;这个过程可能需要数分钟，在您使用计费互联网连接时可能&#xD;&#xA;需要支付网络数据费用。</Item>
 
-			<Item Key="Setting_Java_JVM_AutoInstall_Tips">运行 Minecraft 1.16 及更低版本的 Minecraft 推荐使用 Java 8。&#xD;&#xA;运行 Minecraft 1.17 或更高级版本的 Minecraft 需要使用 Java 16。&#xD;&#xA;BakaXL会连接至互联网自动安装来自可信来源的 Java。&#xD;&#xA;这个过程可能需要数分钟，在您使用计费互联网连接时可能&#xD;&#xA;需要支付网络数据费用。</Item>
+			<Item Key="Setting_Java_JVM_AutoInstall_Tips">Java 8 est recommandé pour Minecraft 1.16 ou plus bas&#xD;&#xA;Java 16 est recommandé pour Minecraft 1.17 ou plus bas&#xD;&#xA;BakaXL会连接至互联网自动安装来自可信来源的 Java。&#xD;&#xA;这个过程可能需要数分钟，在您使用计费互联网连接时可能&#xD;&#xA;需要支付网络数据费用。</Item>
 
 			<Item Key="Setting_Java_JVM_Installing_Pending">BakaXL 当前正在进行 Java {0} 的安装…&#xD;&#xA;待安装进度更新后，它将会显示在这里。</Item>
 			<Item Key="Setting_Java_JVM_Installing_ProgressChanged">BakaXL 当前正在进行 Java {0} 的安装…&#xD;&#xA;状态: {1} </Item>
@@ -1514,7 +1514,7 @@
 
 			<Item Key="Installer_InstallTimer">耗时</Item>
 			<Item Key="Installer_InstallTimer_Pending">等待下载启动</Item>
-			<Item Key="Installer_InstallTimer_Counting">正在计时...</Item>
+			<Item Key="Installer_InstallTimer_Counting">正在计时</Item>
 
 			<Item Key="Installer_InstallTaskStatus_PrepareInstaller">准备安装 {0} ...</Item>
 
