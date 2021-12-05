@@ -12,16 +12,16 @@
 			<Item Key="NoUserName">您游戏ID没写</Item>
 
 			<Item Key="Loading">载入中</Item>
-			<Item Key="PleaseWait">请稍等…</Item>
+			<Item Key="PleaseWait">给爷等Item>
 			<Item Key="LoadingPlugins">插件</Item>
 
-			<Item Key="Window_ReportIssue_Title">反馈问题</Item>
+			<Item Key="Window_ReportIssue_Title">和开发者对线</Item>
 			<Item Key="Window_ReportIssue_Tips">前往BakaXL官方Github仓库提交Issues</Item>
 
-			<Item Key="Window_GetHelp_Title">获取帮助</Item>
+			<Item Key="Window_GetHelp_Title">摇（机器）人</Item>
 			<Item Key="Window_GetHelp_Tips">遇到问题？不会使用？访问我们的帮助页面</Item>
 
-			<Item Key="Window_HomeMenu_Btn">主页</Item>
+			<Item Key="Window_HomeMenu_Btn">家</Item>
 
 			<Item Key="LaunchBar_Hello">您好！{0}</Item>
 			<Item Key="LaunchBar_Launch">林肯死大头</Item>
@@ -514,10 +514,10 @@
 			<Item Key="Bakaverse_Lobby_UserStatus_FirewallReject">被防火墙摁倒在地</Item>
 			<Item Key="Bakaverse_Lobby_UserStatus_Unknown">抽筋了！</Item>
 
-			<Item Key="Bakaverse_Lobby_CopyLobbyID_Template">我正在 BakaXL 的线上多人运动！快在 BakaXL 妙妙屋 里输入多人运动编号: &lt;{0}&gt; 来加入吧！</Item>
+			<Item Key="Bakaverse_Lobby_CopyLobbyID_Template">我正在 BakaXL 的线上多人运动健身房！快在 BakaXL 妙妙屋 里输入多人运动编号: &lt;{0}&gt; 来加入吧！</Item>
 
-			<Item Key="Bakaverse_Notification_NewFriend_Title">新好友请求</Item>
-			<Item Key="Bakaverse_Notification_NewFriend_Desc">收到了来自 {0} 的好友请求！</Item>
+			<Item Key="Bakaverse_Notification_NewFriend_Title">新基友请求</Item>
+			<Item Key="Bakaverse_Notification_NewFriend_Desc">收到了来自 {0} 的基友请求！</Item>
 
 			<Item Key="Bakaverse_OnlineStatus_Online">在线</Item>
 			<Item Key="Bakaverse_OnlineStatus_Offline">离线</Item>
@@ -580,8 +580,8 @@
 			<Item Key="BakaPlaza_MinecraftInstaller_ListBox_None_Subtitle">这让BakaXL非常困惑</Item>
 
 			<Item Key="BakaPlaza_MinecraftInstaller_CoreDesc_Default">从游泳圈下载 - 迈恩克拉夫特 {0} 原版核心</Item>
-			<Item Key="BakaPlaza_MinecraftInstaller_CoreDesc_Forge">从游泳圈下载 - 带有Forge {0} 的 迈恩克拉夫特 {1} 核心</Item>
-			<Item Key="BakaPlaza_MinecraftInstaller_CoreDesc_Fabric">从游泳圈下载 - 带有Fabric {0} 的 迈恩克拉夫特 {1} 核心</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_CoreDesc_Forge">从游泳圈下载 - 带有铁砧 {0} 的 迈恩克拉夫特 {1} 核心</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_CoreDesc_Fabric">从游泳圈下载 - 带有纺织布 {0} 的 迈恩克拉夫特 {1} 核心</Item>
 
 			<Item Key="BakaPlaza_MinecraftInstaller_Steps_Prepare">正在准备</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Steps_Successful">成功</Item>
@@ -987,19 +987,19 @@
 			<Item Key="Setting_Network_Environment_Ping_ms">毫秒</Item>
 			<Item Key="Setting_Network_Environment_Ping_Package">丢包率:</Item>
 
-			<Item Key="Setting_Network_Environment_NATType_Unknown">未知</Item>
-			<Item Key="Setting_Network_Environment_NATType_Open">开放</Item>
-			<Item Key="Setting_Network_Environment_NATType_FullCone">中等 (完全圆锥)</Item>
-			<Item Key="Setting_Network_Environment_NATType_Restrict">中等 (受限圆锥)</Item>
-			<Item Key="Setting_Network_Environment_NATType_PortRestrict">中等 (端口受限圆锥)</Item>
-			<Item Key="Setting_Network_Environment_NATType_Symmetric">严格 (对称)</Item>
-			<Item Key="Setting_Network_Environment_NATType_SymmetricFirewall">严格 (对称+防火墙)</Item>
-			<Item Key="Setting_Network_Environment_NATType_Error_DNS">DNS 解析错误</Item>
+			<Item Key="Setting_Network_Environment_NATType_Unknown">爷不理解</Item>
+			<Item Key="Setting_Network_Environment_NATType_Open">公开访问</Item>
+			<Item Key="Setting_Network_Environment_NATType_FullCone">中等 (完整的锥子)</Item>
+			<Item Key="Setting_Network_Environment_NATType_Restrict">中等 (只有一半的锥子)</Item>
+			<Item Key="Setting_Network_Environment_NATType_PortRestrict">中等 (只有1/3的锥子)</Item>
+			<Item Key="Setting_Network_Environment_NATType_Symmetric">严格 (板砖)</Item>
+			<Item Key="Setting_Network_Environment_NATType_SymmetricFirewall">严格 (几百块板砖筑成了墙)</Item>
+			<Item Key="Setting_Network_Environment_NATType_Error_DNS">DNS 炸了</Item>
 			<Item Key="Setting_Network_Environment_NATType_Error_NULL">当前无法完成检测</Item>
-			<Item Key="Setting_Network_Environment_NATType_Error_RequestFailed">网络连接失败</Item>
+			<Item Key="Setting_Network_Environment_NATType_Error_RequestFailed">爷上不了网</Item>
 
-			<Item Key="Setting_Network_Environment_NATType_Checking">正在检测…</Item>
-			<Item Key="Setting_Network_Environment_NATType_Checking_Tips">BakaXL 将在检测完成后显示结果…</Item>
+			<Item Key="Setting_Network_Environment_NATType_Checking">正在运动…</Item>
+			<Item Key="Setting_Network_Environment_NATType_Checking_Tips">BakaXL 将在运动完成后显示结果…</Item>
 
 			<Item Key="Setting_Network_Environment_NATType_Tips_Open">我与NAT开放亲密无间.jpg&#xD;&#xA;该网络环境适合作为多人运动的创建者</Item>
 			<Item Key="Setting_Network_Environment_NATType_Tips_MayAffectOnlinePlay">这可能会影响您的联机体验</Item>
@@ -1008,17 +1008,17 @@
 			<Item Key="Setting_Network_Environment_NATType_Tips_WillAffectOnlinePlay">我与NAT严格不共戴天.jpg</Item>
 			<Item Key="Setting_Network_Environment_NATType_Tips_WillAffectOnlinePlay_UPnP">我与NAT严格不共戴天.jpg&#xD;&#xA;若多人运动创建者或您的网络环境支持 UPnP，则将可能有所缓解</Item>
 
-			<Item Key="Setting_Network_Environment_UPnP_Unknown">未知</Item>
-			<Item Key="Setting_Network_Environment_UPnP_Unsupport">不兼容</Item>
+			<Item Key="Setting_Network_Environment_UPnP_Unknown">爷不理解</Item>
+			<Item Key="Setting_Network_Environment_UPnP_Unsupport">炸了</Item>
 			<Item Key="Setting_Network_Environment_UPnP_Unsupport_Tips">您当前的网络设备或系统不支持 UPnP 协议&#xD;&#xA;若您在网络设备中启用 UPnP，则 BakaXL 将通过该协议尝试改善您的联机体验</Item>
-			<Item Key="Setting_Network_Environment_UPnP_Unstable">不稳定 [{0}]</Item>
-			<Item Key="Setting_Network_Environment_UPnP_Unstable_Tips">您当前的网络设备或系统对 UPnP 协议的支持并不正常&#xD;&#xA;这可能导致 BakaXL 无法改善您的联机体验&#xD;&#xA;若您认为您的网络设备或系统不存在此问题，请联系 BakaXL 开发团队</Item>
-			<Item Key="Setting_Network_Environment_UPnP_Enabled">已启用自动映射</Item>
+			<Item Key="Setting_Network_Environment_UPnP_Unstable">摇来摇去 [{0}]</Item>
+			<Item Key="Setting_Network_Environment_UPnP_Unstable_Tips">您当前的网络设备或系统对 UPnP 协议的支持并不正常&#xD;&#xA;这可能导致 BakaXL 无法改善您的联机体验&#xD;&#xA;若您认为您的网络设备或系统不存在此问题，请和 BakaXL 开发团队对线</Item>
+			<Item Key="Setting_Network_Environment_UPnP_Enabled">没啥问题</Item>
 			<Item Key="Setting_Network_Environment_UPnP_Enabled_Tips">BakaXL 向您的网络设备请求自动映射以改善您的联机体验</Item>
-			<Item Key="Setting_Network_Environment_UPnP_Pending">尚未开始检测</Item>
-			<Item Key="Setting_Network_Environment_UPnP_Pending_Tips">BakaXL 尚未开始检测网络设备的 UPnP 协议&#xD;&#xA;当开始建立点对点连接时，BakaXL 将会开始检测并显示结果</Item>
+			<Item Key="Setting_Network_Environment_UPnP_Pending">还没测呢</Item>
+			<Item Key="Setting_Network_Environment_UPnP_Pending_Tips">BakaXL 尚未开始检测网络设备的 UPnP 协议&#xD;&#xA;当开始一对一运动时，BakaXL 将会开始检测并显示结果</Item>
 
-			<Item Key="Setting_Network_Environment_Retest">重新检测</Item>
+			<Item Key="Setting_Network_Environment_Retest">重来</Item>
 
 			<Item Key="Setting_Network_Troubleshooting">网络连接疑难解答</Item>
 			<Item Key="Setting_Network_Troubleshooting_Tips">若您无法正常连接到麻将正版验证服务器或巨硬登录服务器，&#xD;&#xA;尝试更换一个稳定且不易受污染的DNS服务器通常能解决此问题。&#xA;&#xD;&#xA;若此问题持续出现，请联系您的互联网服务提供商(ISP)，&#xD;&#xA;并确保您的互联网并未遭到劫持。</Item>
