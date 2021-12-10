@@ -161,17 +161,32 @@
 			<Item Key="CoreManagement_Page_Advance">高级启动</Item>
 			<Item Key="CoreManagement_Page_Update">更新</Item>
 			<Item Key="CoreManagement_Page_Restore">恢复 / 删除</Item>
+			<Item Key="CoreManagement_Page_Export">导出</Item>
 			
 			<Item Key="CoreManagement_Info_Description">简介</Item>
 			<Item Key="CoreManagement_Info_Description_None">这里空空的，啥介绍都没有。</Item>
 			<Item Key="CoreManagement_Info_PlayTime">游玩时间</Item>
 			<Item Key="CoreManagement_Info_PlayTime_Text">自 {0} 最后一次运行以来，此核心已累计运行 {1} 。</Item>
 			<Item Key="CoreManagement_Info_PlayTime_NeverPlayed_Text">此核心自安装日以来就从来没有运行过，真难过。</Item>
+			<Item Key="CoreManagement_Info_PlayTime_Reset">重置统计数据</Item>
 			<Item Key="CoreManagement_Info_Version">版本</Item>
+			<Item Key="CoreManagement_Info_Version_Text">此核心的基础游戏版本为 Minecraft {0}</Item>
+			<Item Key="CoreManagement_Info_Links">参阅</Item>
+			<Item Key="CoreManagement_Info_Links_Tips">若此核心包含了来自核心发布者设置的链接，&#xD;&#xA;BakaXL 会将他们显示在这里。</Item>
+			<Item Key="CoreManagement_Info_Links_HomePage">访问核心主页</Item>
+			<Item Key="CoreManagement_Info_Links_HomePage_Tips">若要访问此核心发布者的主页，请点击此处。&#xD;&#xA;此页面由此核心发布者而非 BakaXL 提供。</Item>
+			<Item Key="CoreManagement_Info_Links_PrivacyPolicy">访问核心隐私政策</Item>
+			<Item Key="CoreManagement_Info_Links_PrivacyPolicy_Tips">若要了解此核心的隐私政策及其如何保护您的个人隐私，请点击此处。&#xD;&#xA;此页面由此核心发布者而非 BakaXL 提供。</Item>
 
 			<Item Key="CoreManagement_Java_Tip">若想对该核心进行单独设置而不希望影响其他核心，请在这里设置。&#xD;&#xA;如果您不知道您在做什么，请不要修改任何内容。</Item>
-			<Item Key="CoreManagement_Java_JavaDefaultTip">BakaXL当前正使用本体设置内的全局Java设定。</Item>
-			<Item Key="CoreManagement_Java_MemoryDefaultTip">BakaXL当前正使用本体设置内的全局内存设定。</Item>
+			
+			<Item Key="CoreManagement_Java_JavaDefaultTip">BakaXL 当前正使用本体设置内的全局 Java 虚拟机设定。</Item>
+			<Item Key="CoreManagement_Java_JavaOverrideTip">您已经为此核心启用了单独的 Java 虚拟机设置。</Item>
+			<Item Key="CoreManagement_Java_JavaOverrideBtn">为此核心启用单独的 Java 虚拟机设定</Item>
+			
+			<Item Key="CoreManagement_Java_MemoryDefaultTip">BakaXL 当前正使用本体设置内的全局内存设定。</Item>
+			<Item Key="CoreManagement_Java_MemoryOverrideTip">您已经为此核心启用了单独的内存设置。</Item>
+			<Item Key="CoreManagement_Java_MemoryOverrideBtn">为此核心启用单独的内存设定</Item>
 
 
 			<Item Key="CoreManagement_Mods_Title">模组(Mods)</Item>
@@ -209,6 +224,7 @@
 			<Item Key="Core_HaveRun">Played: </Item>
 			<Item Key="Core_InstallTime">Install By: </Item>
 			<Item Key="Core_NeverRun">Never Launched.</Item>
+			<Item Key="Core_RecentRun">Launched Recently: </Item>
 			<Item Key="Core_Default_Description">This core is too lazy to have a description.</Item>
 
 			<Item Key="HomeWelcome">Welcome</Item>
@@ -239,6 +255,7 @@
 			<Item Key="HomeAchievements">Achievements</Item>
 			<Item Key="HomePackTool">BakaXL Mod Pack[\n]Tool</Item>
 			<Item Key="HomePackToolName">Mod Pack Tool</Item>
+			<Item Key="HomeBakaverse">领域/联机大厅</Item>
 
 			<Item Key="BakaXL.Pages.PageHome">BakaXL Home Menu</Item>
 			<Item Key="BakaXL.Pages.PageDownload">Update System</Item>
@@ -247,6 +264,7 @@
 			<Item Key="BakaXL.Pages.PageTips">BakaXL Tips</Item>
 			<Item Key="BakaXL.Pages.PagePlaza">BakaPlaza</Item>
 			<Item Key="BakaXL.Pages.PageAddGameCore">添加核心向导</Item>
+			<Item Key="BakaXL.Pages.PageCrashReport">游戏错误追踪器</Item>
 
 			<Item Key="Minecraft_AuthMode_Offline">Offline Mode</Item>
 			<Item Key="Minecraft_AuthMode_Online">Online Mode (Mojang)</Item>
@@ -338,8 +356,6 @@
 			<Item Key="Guide_Page_Audio_Off_Tips">BakaXL关闭所有声音输出</Item>
 			<Item Key="Guide_Page_Audio_On_Tips">BakaXL将根据主题和功能播放背景音乐和音效</Item>
 
-			<Item Key="Guide_Page_Audio_Subtitle">音乐与音效</Item>
-
 			<Item Key="Guide_Page_QuickSet_Subtitle">Quick Setting</Item>
 			<Item Key="Guide_Page_QuickSet_Tips">You can always change these in 'Settings'</Item>
 
@@ -387,6 +403,14 @@
 			<Item Key="Guide_Page_ProfileReady_Updated">We have updated your Profile!</Item>
 			<Item Key="Guide_Page_ProfileReady_YourNewProfile">Here's your new Profile</Item>
 			<Item Key="Guide_Page_ProfileReady_SetupAvatar">Choose a Avatar</Item>
+
+			<Item Key="Guide_Page_ProfileAuthLib_Subtitle">创建整合包所需的凭据档案</Item>
+			<Item Key="Guide_Page_ProfileAuthLib_Tips">您的整合包提供者要求您通过特定的第三方账户验证</Item>
+			<Item Key="Guide_Page_ProfileAuthLib_GoRegister">点击前往注册</Item>
+			<Item Key="Guide_Page_ProfileAuthLib_CreateTitle">创建 &quot;{0}&quot; 所需的凭据</Item>
+			<Item Key="Guide_Page_ProfileAuthLib_CreateSubTitle">您当前所使用的整合包要求 BakaXL 创建一个由 &quot;{0}&quot;&#xD;&#xA;提供验证服务的第三方 Minecraft 账户档案。</Item>
+			<Item Key="Guide_Page_ProfileAuthLib_CreateTips">BakaXL 无法保证此验证服务器的安全性。&#xD;&#xA;请参阅此验证服务提供商的隐私政策以了解其如何保护您的用户数据。&#xD;&#xA;验证服务器地址: {0}</Item>
+			<Item Key="Guide_Page_ProfileAuthLib_Skip">跳过该步骤并于稍后自行创建</Item>
 
 			<Item Key="Guide_Page_Finished_Title">Finished!</Item>
 			<Item Key="Guide_Page_Finished_Content">Press the HOME button on the top left corner,&#xD;&#xA;or the HOME key on the keyboard to continue.</Item>
