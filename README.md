@@ -25,19 +25,20 @@ BakaXL启动器是一款全新的Minecraft崩坏启动器，若要了解更多�
 
 
 <h4>目前提供的语言条目文件</h4> 
-zh-CN.xaml / zh-CN.xml 简体中文 [2.0/3.0]<br />
-zh-HK.xaml / zh-HK.xml 粤语（繁体中文）[2.0/3.0] ##2021.10.25 更新<br />
-zh-TW.xaml / zh-TW.xml 正體中文 [2.0/3.0] ##2021.04.17 需要补全并翻译词条<br />
-zh-CC.xaml / zh-CC.xml 文言（文辭雅正，博學淵深） [2.0/3.0] ##2020.11.19 需要补全并翻译词条<br />
-zh_MEME.xaml / zh_MEME.xml 梗体中文（天朝） [3.0] ##2021.04.07 需要补全并翻译词条<br />
-zh-BO.xaml / zh-BO.xml 藏语（ཁྱོད་བདེ་མོ།） [3.0] ##2021.04.06 需要补全并翻译词条<br />
-zh-MC.xaml / zh-MC.xml 焱暒妏 (荢宙) [2.0/3.0] ##2020.11.19 需要补全并翻译词条<br />
-en-US.xaml / en-US.xml English [2.0/3.0] ##2021.10.16 需要补全并翻译词条<br />
-en-ES.xaml español [2.0] ##2017.7.28 需要补全并翻译词条<br />
-fr-FR.xaml français [2.0] ##2020.11.19 需要补全并翻译词条<br />
-ja-JP.xaml / ja-JP.xml 日本語 [2.0/3.0] ##2020.11.19 需要补全并翻译词条<br />
-ko-KR.xaml 한국어 [2.0] ##2017.7.30 需要补全并翻译词条<br />
+zh-CN.xaml / zh-CN.xml 简体中文（中国） [2.0/3.0]<br />
+zh-HK.xaml / zh-HK.xml 粤语（中國廣東、香港、澳門）[2.0/3.0]<br />
+zh-TW.xaml / zh-TW.xml 正體中文（中國台灣） [2.0/3.0]<br />
+zh-CC.xaml / zh-CC.xml 文言（華夏） [2.0/3.0]<br />
+zh-MC.xaml / zh-MC.xml 焱暒妏 (荢宙) [2.0/3.0]<br />
+zh_MEME.xaml / zh_MEME.xml 梗体中文（天朝） [3.0]<br />
 
+en-US.xaml / en-US.xml English (US, UK, Canada, Australia, New Zealand) [2.0/3.0]<br />
+ja-JP.xaml / ja-JP.xml 日本語 (日本) [2.0/3.0]<br />
+ko-KR.xaml / ko-KR.xml 한국어 (한국) [2.0/3.0]<br />
+zh-BO.xaml / zh-BO.xml བོད་ཡིག(ཀྲུང་གོའི་བོད་ལྗོངས) [3.0]<br />
+fr-FR.xaml / fr-FR.xml Français (Belgique, Canada, France, Suisse) [2.0/3.0]<br />
+
+en-ES.xaml español [2.0]<br />
 
 <h4>特别感谢以下翻译官对BakaXL异域计划的支持：</h4>
 
