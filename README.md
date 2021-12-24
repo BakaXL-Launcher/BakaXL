@@ -35,7 +35,7 @@ zh_MEME.xaml / zh_MEME.xml 梗体中文（天朝） [3.0]<br />
 en-US.xaml / en-US.xml English (US, UK, Canada, Australia, New Zealand) [2.0/3.0]<br />
 ja-JP.xaml / ja-JP.xml 日本語 (日本) [2.0/3.0]<br />
 ko-KR.xaml / ko-KR.xml 한국어 (한국) [2.0/3.0]<br />
-zh-BO.xaml / zh-BO.xml བོད་ཡིག(ཀྲུང་གོའི་བོད་ལྗོངས) [3.0]<br />
+zh-BO.xml བོད་ཡིག(ཀྲུང་གོའི་བོད་ལྗོངས) [3.0]<br />
 fr-FR.xaml / fr-FR.xml Français (Belgique, Canada, France, Suisse) [2.0/3.0]<br />
 
 en-ES.xaml español [2.0]<br />
