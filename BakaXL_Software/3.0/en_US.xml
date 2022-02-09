@@ -15,10 +15,10 @@
 			<Item Key="PleaseWait">Please Wait...</Item>
 			<Item Key="LoadingPlugins">Plugin</Item>
 
-			<Item Key="Window_ReportIssue_Title">Report</Item>
+			<Item Key="Window_ReportIssue_Title">Report An Issue</Item>
 			<Item Key="Window_ReportIssue_Tips">Join BakaXL Offical Fourm to Report Issues</Item>
 
-			<Item Key="Window_GetHelp_Title">Get Helped</Item>
+			<Item Key="Window_GetHelp_Title">Get Help</Item>
 			<Item Key="Window_GetHelp_Tips">Check Our Support Website to Get Help!</Item>
 
 			<Item Key="Window_HomeMenu_Btn">HOME Menu</Item>
@@ -35,7 +35,7 @@
 
 			<Item Key="LaunchBar_SelectCore_Title">Select Core</Item>
 			<Item Key="LaunchBar_SelectCore_Management">Core Manage</Item>
-			<Item Key="LaunchBar_SelectCore_Management_Tips">Manage All Your Game Core</Item>
+			<Item Key="LaunchBar_SelectCore_Management_Tips">Manage All Your Game Cores</Item>
 			<Item Key="LaunchBar_SelectCore_DragEasterEgg">Noooooo!</Item>
 
 			<Item Key="LaunchBar_LaunchBtn_Error_Title">Launch Failed</Item>
@@ -45,58 +45,58 @@
 			<Item Key="LaunchBar_LaunchBtn_Error_AuthError">Auth Failed</Item>
 
 			<Item Key="LaunchBar_LaunchBtn_Error_UnknownError_Title">Oops!</Item>
-			<Item Key="LaunchBar_LaunchBtn_Error_UnknownError_Tips">Something Worng</Item>
+			<Item Key="LaunchBar_LaunchBtn_Error_UnknownError_Tips">Something Went Wrong!</Item>
 
 			<Item Key="LaunchBar_LaunchBtn_Launching_Title">Launching...</Item>
 			<Item Key="LaunchBar_LaunchBtn_Launching_Tips">Will be ready shortly</Item>
 
 			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_CreateCore">Creating Launcher Core</Item>
 			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_CheckLib">Checking Minecraft Libraries</Item>
-			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_DownloadLib">Download Minecraft Libraries {0}</Item>
+			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_DownloadLib">Downloading Minecraft Libraries {0}</Item>
 			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_CheckAssets">Checking Minecraft Assets</Item>
 			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_DownloadAssets">Downloading Minecraft Assets</Item>
-			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_GenParameter">Generateing Parameters</Item>
-			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_CheckAuthlib">正在检查Authlib-Injector</Item>
-			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_CheckAuthlib_GetInfo">正在获取Authlib-Injector下载信息</Item>
-			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_CheckAuthlib_Download">正在下载Authlib-Injector</Item>
-			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_CheckPlugin">正在执行BakaXL插件定义的操作</Item>
+			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_GenParameter">Generating Parameters</Item>
+			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_CheckAuthlib">Checking Authlib-Injector</Item>
+			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_CheckAuthlib_GetInfo">Getting Authlib-Injector Information</Item>
+			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_CheckAuthlib_Download">Downloading Authlib-Injector</Item>
+			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_CheckPlugin">Running BakaXL plugin-defined operation</Item>
             
-			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_DownloadJava">正在下载 {0} 虚拟机 ({1} 位)</Item>
-			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_DownloadJava_Prepare">正在获取 Java 虚拟机列表</Item>
-			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_DownloadJava_Fetching">正在创建 {0} 虚拟机下载任务 ({1} 位)</Item>
-			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_DownloadJava_Finalizing">正在安装所需的 {0} 虚拟机 ({1} 位)</Item>
+			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_DownloadJava">Downloading {0} Virtual Machine ({1} 位)</Item>
+			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_DownloadJava_Prepare">Getting a list of Java Virtual Machines</Item>
+			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_DownloadJava_Fetching">Creating a {0} Virtual Machine download task ({1} 位)</Item>
+			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_DownloadJava_Finalizing">Installing the required {0} Virtual Machine ({1} 位)</Item>
 
 			<Item Key="LaunchBar_LaunchBtn_Launching_Environment_JavaFullAuto">正在选择合适的 Java 虚拟机</Item>
 			<Item Key="LaunchBar_LaunchBtn_Launching_Environment_JavaNotExist">Java路径已变动，正在重新定位</Item>
-			<Item Key="LaunchBar_LaunchBtn_Launching_Environment_NewJavaFound">BakaXL将使用新的Java路径启动Minecraft</Item>
+			<Item Key="LaunchBar_LaunchBtn_Launching_Environment_NewJavaFound">BakaXL will launch Minecraft with the new Java path</Item>
 			
-			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_CheckEnvironment">发射模式: 检查和补全Minecraft环境</Item>
+			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_CheckEnvironment">Launch Mode: Checking and finishing the Minecraft environment</Item>
 
 			<Item Key="LaunchBar_LaunchBtn_Launched_Title">Launched</Item>
 			<Item Key="LaunchBar_LaunchBtn_Launched_Tips">&lt;Running...&gt;</Item>
 
-			<Item Key="LaunchBar_ToolTip_DownloadLib">正在下载Minecraft支持库&#xD;&#xA;文件名：{0}&#xD;&#xA;路径：{1}</Item>
+			<Item Key="LaunchBar_ToolTip_DownloadLib">Downloading Minecraft support libraries&#xD;&#xA;Filename: {0}&#xD;&#xA;Path:{1}</Item>
 
 			<Item Key="LaunchBar_Title_Launched">Minecraft Launched With Profile: {0}</Item>
 			<Item Key="LaunchBar_Title_AuthError">Authentication Error: Incorrect Username/Password</Item>
 			<Item Key="LaunchBar_Title_AuthError_Unknown">Authentication Error: Unknown</Item>
-            <Item Key="LaunchBar_Title_AuthError_MojangTokenExpired">验证时出现错误：会话验证信息过期，请在本体设置重新登录此用户档案</Item>
-			<Item Key="LaunchBar_Title_AuthError_AuthlibTokenExpired">验证时出现错误：档案验证信息失效，请重新设置此用户档案</Item>
-			<Item Key="LaunchBar_Title_AuthError_MicrosoftLoginCanceled">验证时出现错误：微软账户登录被用户取消</Item>
-			<Item Key="LaunchBar_Title_EnvironmentError_JavaNotFound">环境检查错误：无法定位Java路径</Item>
-			<Item Key="LaunchBar_Title_GameError_GetAssetsListFailed">资源补全错误：无法从下载源获取Minecraft资源文件列表</Item>
-			<Item Key="LaunchBar_Title_GameError_GetAuthlibFailed">资源补全错误：无法下载Authlib-Injector本体</Item>
-			<Item Key="LaunchBar_Title_LaunchModeError_CheckGameFailed">发射模式错误：检查Minecraft环境出错</Item>
+            <Item Key="LaunchBar_Title_AuthError_MojangTokenExpired">Authentication Error: Session authentication information has expired, please log in to this user profile again</Item>
+			<Item Key="LaunchBar_Title_AuthError_AuthlibTokenExpired">Authentication Error: User profile information invalid, please reset this profile</Item>
+			<Item Key="LaunchBar_Title_AuthError_MicrosoftLoginCanceled">Authentication Error: Microsoft account login cancelled by user/Item>
+			<Item Key="LaunchBar_Title_EnvironmentError_JavaNotFound">Environment Check Error: Unable to locate Java path</Item>
+			<Item Key="LaunchBar_Title_GameError_GetAssetsListFailed">Resource Completion Error: Unable to get Minecraft resource file list from download source</Item>
+			<Item Key="LaunchBar_Title_GameError_GetAuthlibFailed">Resource Completion Error: Unable to download Authlib-Injector files</Item>
+			<Item Key="LaunchBar_Title_LaunchModeError_CheckGameFailed">Launch Mode Error: Error checking Minecraft environment</Item>
 
 			<Item Key="UserSelector_Launch_Title">Select a Minecraft Profile</Item>
-			<Item Key="UserSelector_Authlib_SelectProfile">该账户拥有的多个角色，选择一个角色</Item>
+			<Item Key="UserSelector_Authlib_SelectProfile">Multiple profiles owned by this account, please select a profile</Item>
 			<Item Key="UserSelector_Default_Title">Select a User</Item>
 
-            <Item Key="UserProfile_ToolTip_Offline">用户名：{0} &#xD;&#xA;此用户档案将使用离线验证</Item>
-			<Item Key="UserProfile_ToolTip_Online">用户名：{0} &#xD;&#xA;此用户档案将使用Mojang正版验证</Item>
-			<Item Key="UserProfile_ToolTip_Online_Microsoft">用户名：{0} &#xD;&#xA;此用户档案将使用微软账户正版验证</Item>
-			<Item Key="UserProfile_ToolTip_ThirParty_WithoutName">用户名：{0} &#xD;&#xA;此用户档案将使用第三方账户验证服务器&#xD;&#xA;验证服务器地址：{1}</Item>
-			<Item Key="UserProfile_ToolTip_ThirParty_WithName">用户名：{0} &#xD;&#xA;此用户档案将使用 {1} 提供的账户验证服务器&#xD;&#xA;验证服务器地址：{2}</Item>
+            <Item Key="UserProfile_ToolTip_Offline">Username:{0} &#xD;&#xA;This user profile will use offline authentication</Item>
+			<Item Key="UserProfile_ToolTip_Online">Username:{0} &#xD;&#xA;This user profile will use official Mojang authentication</Item>
+			<Item Key="UserProfile_ToolTip_Online_Microsoft">Username:{0} &#xD;&#xA;This user profile will use official Microsoft authentication</Item>
+			<Item Key="UserProfile_ToolTip_ThirParty_WithoutName">Username:{0} &#xD;&#xA;This user profile will use a third-party authentication server&#xD;&#xA;Authentication server address:{1}</Item>
+			<Item Key="UserProfile_ToolTip_ThirParty_WithName">Username:{0} &#xD;&#xA;This user profile will use the {1} authentication server&#xD;&#xA;Authentication server address:{2}</Item>
 
 			<Item Key="HomeIdentifier_Screen_Home">Home</Item>
 			<Item Key="HomeIdentifier_Screen_Menu">Start Menu</Item>
@@ -111,7 +111,7 @@
 			<Item Key="CoreSelector_Loading_Tips">Loading All The Cores.</Item>
 
 			<Item Key="CoreSelector_DisplayMode_All">All</Item>
-			<Item Key="CoreSelector_DisplayMode_Favorite">我的收藏</Item>
+			<Item Key="CoreSelector_DisplayMode_Favorite">Favorite</Item>
 			<Item Key="CoreSelector_DisplayMode_Vanilla">Vanilla</Item>
 			<Item Key="CoreSelector_DisplayMode_Forge">Forge</Item>
 			<Item Key="CoreSelector_DisplayMode_Fabric">Fabric</Item>
@@ -126,7 +126,7 @@
 			<Item Key="CoreSelector_CoreError_JsonError">Warning - JSON File Format Error</Item>
 			<Item Key="CoreSelector_CoreError_NoinheritsFrom">Warning - Inherits Missing</Item>
 			<Item Key="CoreSelector_CoreError_NoJarFile">Warning - Core Jar Missing</Item>
-			<Item Key="CoreSelector_CoreError_NoJsonFile">Warning - JSON File Not Exist</Item>
+			<Item Key="CoreSelector_CoreError_NoJsonFile">Warning - JSON File Does Not Exist</Item>
 			<Item Key="CoreSelector_CoreError_NotCompatible">Error - Format Not Compatible</Item>
 
             <Item Key="CoreSelector_GetCore_Title">添加新的 Minecraft 核心 或 整合包</Item>
@@ -207,7 +207,7 @@
 			<Item Key="Hour">Hours</Item>
 
 			<Item Key="Core_HaveRun">Played: </Item>
-			<Item Key="Core_InstallTime">Install By: </Item>
+			<Item Key="Core_InstallTime">Installed on: </Item>
 			<Item Key="Core_NeverRun">Never Launched.</Item>
 			<Item Key="Core_Default_Description">This core is too lazy to have a description.</Item>
 
@@ -249,8 +249,8 @@
 			<Item Key="BakaXL.Pages.PageAddGameCore">添加核心向导</Item>
 
 			<Item Key="Minecraft_AuthMode_Offline">Offline Mode</Item>
-			<Item Key="Minecraft_AuthMode_Online">Online Mode (Mojang)</Item>
-			<Item Key="Minecraft_AuthMode_Online_Microsoft">Online Mode (Mojang)</Item>
+			<Item Key="Minecraft_AuthMode_Online">Authentication Mode (Mojang)</Item>
+			<Item Key="Minecraft_AuthMode_Online_Microsoft">Authentication Mode (Microsoft)</Item>
 			<Item Key="Minecraft_AuthMode_ThirdParty">Third Party Mode</Item>
 
 			<Item Key="ProfileBtn_Offline">Offline</Item>
@@ -293,8 +293,8 @@
 
 			<Item Key="Error_CodeIs">Error Code is {0} if Needed.</Item>
 
-			<Item Key="BakaXL_Update_Title">BakaXL Has the New Version {0}!</Item>
-			<Item Key="BakaXL_Update_Info">The new version of BakaXL is now released, the update was required to perform before you can continue. It won't take too long. Internet connection was required during the update.</Item>
+			<Item Key="BakaXL_Update_Title">BakaXL Has A New Version {0}!</Item>
+			<Item Key="BakaXL_Update_Info">A new version of BakaXL is now released, an update is required before you can continue. It won't take too long. An internet connection is required during the update.</Item>
 			<Item Key="BakaXL_Update_Btn_Yes">Update Now</Item>
 			<Item Key="BakaXL_Update_Btn_OrYes">Or Update</Item>
 
@@ -350,35 +350,35 @@
 			<Item Key="Guide_Page_QuickSet_AboutDataCollection">Learn More About Data Collection</Item>
 
 			<Item Key="Guide_Page_Java_Subtitle">Java Virtual Machine</Item>
-			<Item Key="Guide_Page_Java_Tips">BakaXL are no Longer Support Java 6</Item>
+			<Item Key="Guide_Page_Java_Tips">BakaXL no longer supports Java 6</Item>
 
 			<Item Key="Guide_Page_Java_SelectJava">Select a JVM</Item>
-			<Item Key="Guide_Page_Java_NotFound">Looks like that we did not found any JVM on this PC</Item>
+			<Item Key="Guide_Page_Java_NotFound">Looks like that we did not find a JVM on this PC</Item>
 			<Item Key="Guide_Page_Java_NeedTips">You must install JVM in order to run Minecraft</Item>
 			<Item Key="Guide_Page_Java_GetJava">Get JVM</Item>
-			<Item Key="Guide_Page_Java_GetLatestJava">Get Latest JVM</Item>
-			<Item Key="Guide_Page_Java_Rescan">Re-Locate</Item>
-			<Item Key="Guide_Page_Java_ManualLocate">Manual Locate</Item>
+			<Item Key="Guide_Page_Java_GetLatestJava">Get The Latest JVM</Item>
+			<Item Key="Guide_Page_Java_Rescan">Re-Scan</Item>
+			<Item Key="Guide_Page_Java_ManualLocate">Locate Manually</Item>
 
 			<Item Key="Guide_Page_Memory_Subtitle">Memory(RAM)</Item>
-			<Item Key="Guide_Page_Memory_Tips">It is recommended to use at least 1024 MB of RAM</Item>
+			<Item Key="Guide_Page_Memory_Tips">Using at least 1024MB of RAM is recommended</Item>
 
 			<Item Key="Guide_Page_Profile_Title">User Profile</Item>
-			<Item Key="Guide_Page_Profile_Tips">User Profile will store your Minecraft username.&#xD;&#xA;After login to BakaXL Account, your friends&#xD;&#xA;was able to see your profile in their Launcher</Item>
+			<Item Key="Guide_Page_Profile_Tips">User Profile will store your Minecraft username.&#xD;&#xA;After you login to your BakaXL Account, your friends&#xD;&#xA;will able to see your profile in their Launcher</Item>
 
-			<Item Key="Guide_Page_ProfileFull_Subtitle">Profile is Full</Item>
-			<Item Key="Guide_Page_ProfileFull_Tips">You can manage all the profile in the 'Settings'</Item>
+			<Item Key="Guide_Page_ProfileFull_Subtitle">Profiles are Full</Item>
+			<Item Key="Guide_Page_ProfileFull_Tips">You can manage all the profiles in the 'Settings'</Item>
 			<Item Key="Guide_Page_ProfileFull_UseCurrent">Use your current profile to continue</Item>
-			<Item Key="Guide_Page_ProfileFull_UseCurrent_Tips">The maxium number of profile was reached</Item>
+			<Item Key="Guide_Page_ProfileFull_UseCurrent_Tips">The maximum number of profiles was reached</Item>
 
-			<Item Key="Guide_Page_ProfileCreate_Subtitle">Creare Profile</Item>
-			<Item Key="Guide_Page_ProfileCreate_Tips">BakaXL use the industry standard data encryption</Item>
+			<Item Key="Guide_Page_ProfileCreate_Subtitle">Create Profile</Item>
+			<Item Key="Guide_Page_ProfileCreate_Tips">BakaXL uses the industry standard for data encryption</Item>
 			<Item Key="Guide_Page_ProfileCreate_EnterUsername">Enter your Username</Item>
-			<Item Key="Guide_Page_ProfileCreate_FogotPassword">Fogot Passowrd?</Item>
-			<Item Key="Guide_Page_ProfileCreate_BuyMinecraft">Buy the Minecraft</Item>
+			<Item Key="Guide_Page_ProfileCreate_FogotPassword">Forgot Password?</Item>
+			<Item Key="Guide_Page_ProfileCreate_BuyMinecraft">Buy Minecraft</Item>
 			<Item Key="Guide_Page_ProfileCreate_Hey">Hi There! {0}!</Item>
 			<Item Key="Guide_Page_ProfileCreate_Online">I Bought Minecraft</Item>
-			<Item Key="Guide_Page_ProfileCreate_Offline">I Don't Have Game</Item>
+			<Item Key="Guide_Page_ProfileCreate_Offline">I Don't Have The Game</Item>
 
 			<Item Key="Guide_Page_ProfileCreate_Error_NullAccountOrPassword">Please enter your Username/Password</Item>
 
@@ -386,7 +386,7 @@
 			<Item Key="Guide_Page_ProfileReady_Tips">You can always modify your profile in 'Settings'</Item>
 			<Item Key="Guide_Page_ProfileReady_Updated">We have updated your Profile!</Item>
 			<Item Key="Guide_Page_ProfileReady_YourNewProfile">Here's your new Profile</Item>
-			<Item Key="Guide_Page_ProfileReady_SetupAvatar">Choose a Avatar</Item>
+			<Item Key="Guide_Page_ProfileReady_SetupAvatar">Choose an Avatar</Item>
 
 			<Item Key="Guide_Page_Finished_Title">Finished!</Item>
 			<Item Key="Guide_Page_Finished_Content">Press the HOME button on the top left corner,&#xD;&#xA;or the HOME key on the keyboard to continue.</Item>
@@ -400,11 +400,11 @@
 
 			<Item Key="Bakaverse_UserInfo">User Info</Item>
 
-			<Item Key="Bakaverse_NeedLogin_BeforeUse">Befor you can use</Item>
+			<Item Key="Bakaverse_NeedLogin_BeforeUse">Before you can use</Item>
 			<Item Key="Bakaverse_NeedLogin_LoginRequired">Need Login</Item>
-			<Item Key="Bakaverse_NeedLogin_Method">Go to &quot;Settings - Profiles&quot; Login Your BakaXL Account</Item>
+			<Item Key="Bakaverse_NeedLogin_Method">Go to &quot;Settings - Profiles&quot; Login To Your BakaXL Account</Item>
 
-			<Item Key="Bakaverse_CurrentUser_Tips">Your friends can search for your account by using BakaXL Network ID. &#xD;&#xA;Please tell the tag which following the username together when you are telling your friends your BakaXL Network ID. </Item>
+			<Item Key="Bakaverse_CurrentUser_Tips">Your friends can search for your account by using your BakaXL Network ID. &#xD;&#xA;Please include the tag that follows your username when you are telling your friends your BakaXL Network ID. </Item>
 
 			<Item Key="Bakaverse_UserInfo_VerificationAndPlan">认证与计划</Item>
 			<Item Key="Bakaverse_UserInfo_VerificationAndPlan_Tips">若您加入了某项BakaXL计划或经过了BakaXL认证，他们将显示在此处。</Item>
@@ -414,9 +414,9 @@
 			<Item Key="Bakaverse_UserInfo_IsInsider">BakaXL 预览体验计划成员</Item>
 			<Item Key="Bakaverse_UserInfo_SupporterPlan">BakaXL 赞助者计划: {0}</Item>
 
-			<Item Key="Bakaverse_UserInfo_AlreadyOnline">This friend is online now. &#xD;&#xA;If it is running Minecraft or using some BakaXL features, it will show here. </Item>
-			<Item Key="Bakaverse_UserInfo_LastLogin">Last appeared on：{0}。</Item>
-			<Item Key="Bakaverse_UserInfo_TimeBecomeFriend">Time became friends：{0}。&#xD;&#xA;You became friends by switching BakaXL Network ID. </Item>
+			<Item Key="Bakaverse_UserInfo_AlreadyOnline">This friend is online now. &#xD;&#xA;If they are running Minecraft or using some BakaXL features, they will show here. </Item>
+			<Item Key="Bakaverse_UserInfo_LastLogin">Last appeared on:{0}。</Item>
+			<Item Key="Bakaverse_UserInfo_TimeBecomeFriend">Became friends on:{0}。&#xD;&#xA;You became friends by switching BakaXL Network ID. </Item>
 
 			<Item Key="Bakaverse_UserInfo_PlayHistory">Play history</Item>
 			<Item Key="Bakaverse_UserInfo_PlayHistory_Tips">Here will show you the Minecraft integration package your friend played recent time. </Item>
@@ -424,31 +424,31 @@
 			<Item Key="Bakaverse_UserInfo_OnlineHistory">Play information</Item>
 			<Item Key="Bakaverse_UserInfo_Milestone">Milestone</Item>
 			<Item Key="Bakaverse_UserInfo_Milestone_Empty">The grass is empty. It seems that there is nothing. &#xA;If you send a friend request to others, then we will build a milestone here. </Item>
-			<Item Key="Bakaverse_UserInfo_Milestone_Visitor">There is the footprint on the grass. Who will it be?&#xA;We will build a milestone here after you accept a friend request. </Item>
-			<Item Key="Bakaverse_UserInfo_Milestone_Wreckage">The milestone was removed. There are only wreckages of the milestone on the grass. &#xA;If you want to clean the wreckages up, you need to remove the other side from you blacklist. </Item>
+			<Item Key="Bakaverse_UserInfo_Milestone_Visitor">There is a footprint on the grass. Who will it be?&#xA;We will build a milestone here after you accept a friend request. </Item>
+			<Item Key="Bakaverse_UserInfo_Milestone_Wreckage">The milestone was removed. There are only wreckages of the milestone on the grass. &#xA;If you want to clean the wreckages up, you need to remove the other side from your blacklist. </Item>
 			<Item Key="Bakaverse_UserInfo_Milestone_Self">You walked to this place, but there are all milestones around. &#xA;You looked around and didn't see your own milestone, this makes you be full of termination. </Item>
 
 			<Item Key="Bakaverse_UserInfo_Manage">Manage</Item>
-			<Item Key="Bakaverse_UserInfo_Manage_RemoveFriend">Remove the friend</Item>
-			<Item Key="Bakaverse_UserInfo_Manage_RemoveFriend_Tips">When you removed the friend, you will also removed from the other side's friends list. &#xA;If you want to add this friend again, you will need to resend the request. </Item>
-			<Item Key="Bakaverse_UserInfo_Manage_BlackList_Remove">Remove it from the blacklist</Item>
+			<Item Key="Bakaverse_UserInfo_Manage_RemoveFriend">Remove Friend</Item>
+			<Item Key="Bakaverse_UserInfo_Manage_RemoveFriend_Tips">When you remove a friend, you will also removed from the other side's friends list. &#xA;If you want to add this friend again, you will need to resend the request. </Item>
+			<Item Key="Bakaverse_UserInfo_Manage_BlackList_Remove">Remove from blacklist</Item>
 			<Item Key="Bakaverse_UserInfo_Manage_BlackList_Remove_BtnTitle">I decide to forgive him/her</Item>
-			<Item Key="Bakaverse_UserInfo_Manage_BlackList_Remove_Tips">You will become strangers when you remove others from your blacklist. &#xA;If you want to add this friend again, you will need to resend the request. </Item>
+			<Item Key="Bakaverse_UserInfo_Manage_BlackList_Remove_Tips">You will become strangers when you remove the other side from your blacklist. &#xA;If you want to add this friend again, you will need to resend the request. </Item>
 
 			<Item Key="Bakaverse_UserInfo_FriendRequest">Friend requests</Item>
 
 			<Item Key="Bakaverse_UserInfo_AboutYourSelf">About yourself</Item>
-			<Item Key="Bakaverse_UserInfo_AboutYourSelf_Tips">This interace sticks your own information. &#xA;You stand here, but don't know what to do. &#xA;&#xA;&#xA;&#xA;&#xA;&#xA;You looked behind to BakaXL, but we don't know what to do either. &#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;Oh, by the way:&#xA;In the new version of BakaXL, we have changed the behavior that BakaXL performs a friend search,&#xA;so keeping searching about yourself will have no impact on the server performance. </Item>
+			<Item Key="Bakaverse_UserInfo_AboutYourSelf_Tips">This interface has your own information. &#xA;You stand here, but don't know what to do. &#xA;&#xA;&#xA;&#xA;&#xA;&#xA;You looked behind to BakaXL, but we don't know what to do either. &#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;Oh, by the way:&#xA;In the new version of BakaXL, we have changed the behavior that BakaXL performs a friend search,&#xA;so keeping searching about yourself will have no impact on the server performance. </Item>
 
-			<Item Key="Bakaverse_FriendList_Tips">Your friends see your online status and the integration package name you playing. &#xD;&#xA;You can go to the Privacy Settings to modify the options related, or change your online status into &quot;Stealth&quot;。</Item>
+			<Item Key="Bakaverse_FriendList_Tips">Your friends see your online status and the package name you are playing. &#xD;&#xA;You can go to the Privacy Settings to modify related options, or change your online status to &quot;Stealth&quot;。</Item>
 
             <Item Key="Bakaverse_UserInfo_InviteToLobby">Invite friend to your lobby</Item>
 			<Item Key="Bakaverse_UserInfo_InviteToLobby_Tips">If you are the lobby's creater, then you can invite your friend to your lobby here.</Item>
 			
 			<Item Key="Bakaverse_AddFriends_RecivedRequest">Friend requests</Item>
-			<Item Key="Bakaverse_AddFriends_RecivedRequest_BtnTitle">Check the friend requests received</Item>
-			<Item Key="Bakaverse_AddFriends_RecivedRequest_Agree">Agree</Item>
-			<Item Key="Bakaverse_AddFriends_RecivedRequest_Ignore">Ignore</Item>
+			<Item Key="Bakaverse_AddFriends_RecivedRequest_BtnTitle">Check received friend requests</Item>
+			<Item Key="Bakaverse_AddFriends_RecivedRequest_Agree">Accept</Item>
+			<Item Key="Bakaverse_AddFriends_RecivedRequest_Ignore">Decline</Item>
 			<Item Key="Bakaverse_AddFriends_RecivedRequest_Tips">The others will show in your friends list after you accept the request. &#xA;It won't receive the notification after you ignore the request. </Item>
 
 			<Item Key="Bakaverse_AddFriends_SendRequest">Send friend request</Item>
