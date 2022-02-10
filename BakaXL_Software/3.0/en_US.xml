@@ -2,7 +2,7 @@
 <Languages>
 	<Type>
 		<Key>en_US</Key>
-		<Name>English (US, UK, Canada, New Zeland)</Name>
+		<Name>English (US, UK, Canada, New Zealand)</Name>
 		<Author>BakaXL</Author>
 	</Type>
 	<Language Key="en_US">
@@ -129,17 +129,17 @@
 			<Item Key="CoreSelector_CoreError_NoJsonFile">Warning - JSON File Does Not Exist</Item>
 			<Item Key="CoreSelector_CoreError_NotCompatible">Error - Format Not Compatible</Item>
 
-            <Item Key="CoreSelector_GetCore_Title">添加新的 Minecraft 核心 或 整合包</Item>
+            <Item Key="CoreSelector_GetCore_Title">Add a new Minecraft Core or Mod Pack</Item>
 			
-			<Item Key="CoreManagement_Title">高级核心管理</Item>
-			<Item Key="CoreManagement_Publisher">发行者: {0}</Item>
-			<Item Key="CoreManagement_Publisher_None">尚无发行者</Item>
-			<Item Key="CoreManagement_LastPlayed">最近游玩于 {0}</Item>
-			<Item Key="CoreManagement_LastPlayed_None">尚未运行过</Item>
+			<Item Key="CoreManagement_Title">Advanced Core Management</Item>
+			<Item Key="CoreManagement_Publisher">Publisher:{0}</Item>
+			<Item Key="CoreManagement_Publisher_None">Publisher not available</Item>
+			<Item Key="CoreManagement_LastPlayed">Last played on {0}</Item>
+			<Item Key="CoreManagement_LastPlayed_None">Never played</Item>
 			
-			<Item Key="CoreManagement_Tips_Locked_MCVersion">某些选项不可用，因为Minecraft版本过低。</Item>
-			<Item Key="CoreManagement_Tips_Locked_ModPack">某些选项不可用，因为它们由您的整合包提供者管理。</Item>
-			<Item Key="CoreManagement_Tips_Locked_Server">某些选项不可用，因为它们由此整合包对应的服务器管理。</Item>
+			<Item Key="CoreManagement_Tips_Locked_MCVersion">Some options are unavailable because the Minecraft version is too old.</Item>
+			<Item Key="CoreManagement_Tips_Locked_ModPack">Some options are unavailable because they are managed by a mod pack provider.</Item>
+			<Item Key="CoreManagement_Tips_Locked_Server">Some options are unavailable because they are managed by the server corresponding to this mod pack.</Item>
 			
 			<Item Key="CoreManagement_Tips_Error_Json">此核心所使用的Json文件不是规范的Minecraft游戏核心标识文件。</Item>
 			<Item Key="CoreManagement_Tips_Error_Json_Broken">此核心的Json文件损坏，BakaXL无法读取。</Item>
@@ -419,7 +419,7 @@
 			<Item Key="Bakaverse_UserInfo_TimeBecomeFriend">Became friends on:{0}。&#xD;&#xA;You became friends by switching BakaXL Network ID. </Item>
 
 			<Item Key="Bakaverse_UserInfo_PlayHistory">Play History</Item>
-			<Item Key="Bakaverse_UserInfo_PlayHistory_Tips">Here will show you the Minecraft integration package your friend played recent time. </Item>
+			<Item Key="Bakaverse_UserInfo_PlayHistory_Tips">Your friends' recently played mod packs and play time will show here.</Item>
 
 			<Item Key="Bakaverse_UserInfo_OnlineHistory">Play information</Item>
 			<Item Key="Bakaverse_UserInfo_Milestone">Milestone</Item>
@@ -440,7 +440,7 @@
 			<Item Key="Bakaverse_UserInfo_AboutYourSelf">About yourself</Item>
 			<Item Key="Bakaverse_UserInfo_AboutYourSelf_Tips">This interface has your own information. &#xA;You stand here, but don't know what to do. &#xA;&#xA;&#xA;&#xA;&#xA;&#xA;You looked behind to BakaXL, but we don't know what to do either. &#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;Oh, by the way:&#xA;In the new version of BakaXL, we have changed the behavior that BakaXL performs a friend search,&#xA;so keeping searching about yourself will have no impact on the server performance. </Item>
 
-			<Item Key="Bakaverse_FriendList_Tips">Your friends see your online status and the package name you are playing. &#xD;&#xA;You can go to the Privacy Settings to modify related options, or change your online status to &quot;Stealth&quot;。</Item>
+			<Item Key="Bakaverse_FriendList_Tips">Your friends see your online status and name of the mod pack you are playing. &#xD;&#xA;You can go to the Privacy Settings to modify related options, or change your online status to &quot;Stealth&quot;。</Item>
 
             <Item Key="Bakaverse_UserInfo_InviteToLobby">Invite friend to your lobby</Item>
 			<Item Key="Bakaverse_UserInfo_InviteToLobby_Tips">If you are the lobby's creator, then you can invite your friend to your lobby here.</Item>
@@ -491,7 +491,7 @@
 			
 			<Item Key="Bakaverse_Lobby_LobbyInfo_Title">Lobby Information</Item>
 			<Item Key="Bakaverse_Lobby_LobbyInfo_LobbyID_Title">Lobby ID</Item>
-			<Item Key="Bakaverse_Lobby_LobbyInfo_LobbyHost_Title">Lobby Creater</Item>
+			<Item Key="Bakaverse_Lobby_LobbyInfo_LobbyHost_Title">Lobby Creator</Item>
 			<Item Key="Bakaverse_Lobby_LobbyInfo_LocalNAT_Title">Local NAT Type</Item>
 			<Item Key="Bakaverse_Lobby_LobbyInfo_LocalUPnP_Title">Local UPnP Compatibility</Item>
 
