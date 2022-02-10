@@ -343,10 +343,10 @@
 			<Item Key="Guide_Page_QuickSet_Subtitle">Quick Setting</Item>
 			<Item Key="Guide_Page_QuickSet_Tips">You can always change these in 'Settings'</Item>
 
-			<Item Key="Guide_Page_QuickSet_Title">Let BakaXL Automatically Setup Things</Item>
-			<Item Key="Guide_Page_QuickSet_Manual">Menual Setting</Item>
-			<Item Key="Guide_Page_QuickSet_QuickSet">Quick Setting</Item>
-			<Item Key="Guide_Page_QuickSet_AboutQuickSet">Learn More About Quick Setting</Item>
+			<Item Key="Guide_Page_QuickSet_Title">Let BakaXL Automatically Set Things Up</Item>
+			<Item Key="Guide_Page_QuickSet_Manual">Manual Settings</Item>
+			<Item Key="Guide_Page_QuickSet_QuickSet">Quick Settings</Item>
+			<Item Key="Guide_Page_QuickSet_AboutQuickSet">Learn More About Quick Settings</Item>
 			<Item Key="Guide_Page_QuickSet_AboutDataCollection">Learn More About Data Collection</Item>
 
 			<Item Key="Guide_Page_Java_Subtitle">Java Virtual Machine</Item>
@@ -364,12 +364,12 @@
 			<Item Key="Guide_Page_Memory_Tips">Using at least 1024MB of RAM is recommended</Item>
 
 			<Item Key="Guide_Page_Profile_Title">User Profile</Item>
-			<Item Key="Guide_Page_Profile_Tips">User Profile will store your Minecraft username.&#xD;&#xA;After you login to your BakaXL Account, your friends&#xD;&#xA;will able to see your profile in their Launcher</Item>
+			<Item Key="Guide_Page_Profile_Tips">A User Profile will store your Minecraft username.&#xD;&#xA;After you login to your BakaXL Account, your friends&#xD;&#xA;will able to see your profile in their Launcher</Item>
 
 			<Item Key="Guide_Page_ProfileFull_Subtitle">Profiles are Full</Item>
 			<Item Key="Guide_Page_ProfileFull_Tips">You can manage all the profiles in the 'Settings'</Item>
 			<Item Key="Guide_Page_ProfileFull_UseCurrent">Use your current profile to continue</Item>
-			<Item Key="Guide_Page_ProfileFull_UseCurrent_Tips">The maximum number of profiles was reached</Item>
+			<Item Key="Guide_Page_ProfileFull_UseCurrent_Tips">The maximum number of profiles has been reached</Item>
 
 			<Item Key="Guide_Page_ProfileCreate_Subtitle">Create Profile</Item>
 			<Item Key="Guide_Page_ProfileCreate_Tips">BakaXL uses the industry standard for data encryption</Item>
@@ -389,13 +389,13 @@
 			<Item Key="Guide_Page_ProfileReady_SetupAvatar">Choose an Avatar</Item>
 
 			<Item Key="Guide_Page_Finished_Title">Finished!</Item>
-			<Item Key="Guide_Page_Finished_Content">Press the HOME button on the top left corner,&#xD;&#xA;or the HOME key on the keyboard to continue.</Item>
+			<Item Key="Guide_Page_Finished_Content">Press the HOME button in the top left corner,&#xD;&#xA;or the HOME key on the keyboard to continue.</Item>
 
 			<Item Key="Bakaverse_Title">&quot;{0}&quot;'s Bakaverse</Item>
 			<Item Key="Bakaverse_Account_Title">Me</Item>
 			<Item Key="Bakaverse_FriendsList_Title">Friends</Item>
 			<Item Key="Bakaverse_AddFriends_Title">Add Friends</Item>
-			<Item Key="Bakaverse_NotLogin">Not Login</Item>
+			<Item Key="Bakaverse_NotLogin">Not Logged In</Item>
 			<Item Key="Bakaverse_CheckAfterLogin">Get your Network ID after Login</Item>
 
 			<Item Key="Bakaverse_UserInfo">User Info</Item>
@@ -418,7 +418,7 @@
 			<Item Key="Bakaverse_UserInfo_LastLogin">Last appeared on:{0}。</Item>
 			<Item Key="Bakaverse_UserInfo_TimeBecomeFriend">Became friends on:{0}。&#xD;&#xA;You became friends by switching BakaXL Network ID. </Item>
 
-			<Item Key="Bakaverse_UserInfo_PlayHistory">Play history</Item>
+			<Item Key="Bakaverse_UserInfo_PlayHistory">Play History</Item>
 			<Item Key="Bakaverse_UserInfo_PlayHistory_Tips">Here will show you the Minecraft integration package your friend played recent time. </Item>
 
 			<Item Key="Bakaverse_UserInfo_OnlineHistory">Play information</Item>
@@ -443,18 +443,18 @@
 			<Item Key="Bakaverse_FriendList_Tips">Your friends see your online status and the package name you are playing. &#xD;&#xA;You can go to the Privacy Settings to modify related options, or change your online status to &quot;Stealth&quot;。</Item>
 
             <Item Key="Bakaverse_UserInfo_InviteToLobby">Invite friend to your lobby</Item>
-			<Item Key="Bakaverse_UserInfo_InviteToLobby_Tips">If you are the lobby's creater, then you can invite your friend to your lobby here.</Item>
+			<Item Key="Bakaverse_UserInfo_InviteToLobby_Tips">If you are the lobby's creator, then you can invite your friend to your lobby here.</Item>
 			
 			<Item Key="Bakaverse_AddFriends_RecivedRequest">Friend requests</Item>
 			<Item Key="Bakaverse_AddFriends_RecivedRequest_BtnTitle">Check received friend requests</Item>
 			<Item Key="Bakaverse_AddFriends_RecivedRequest_Agree">Accept</Item>
 			<Item Key="Bakaverse_AddFriends_RecivedRequest_Ignore">Decline</Item>
-			<Item Key="Bakaverse_AddFriends_RecivedRequest_Tips">The others will show in your friends list after you accept the request. &#xA;It won't receive the notification after you ignore the request. </Item>
+			<Item Key="Bakaverse_AddFriends_RecivedRequest_Tips">The others will show in your friends list after you accept the request. &#xA;They won't receive a notification after you ignore the request. </Item>
 
 			<Item Key="Bakaverse_AddFriends_SendRequest">Send friend request</Item>
-			<Item Key="Bakaverse_AddFriends_SendRequest_Tips">Your friend will receive your request once you send it. &#xA;All the requests send by your friends will be shown here.  </Item>
+			<Item Key="Bakaverse_AddFriends_SendRequest_Tips">Your friend will receive your request once you send it. &#xA;All the requests sent by your friends will be shown here.  </Item>
 
-			<Item Key="Bakaverse_AddFriends_RecivedRequest_NoInvite_Tips">Oops, it seems that there is no requests now. &#xD;&#xA;When you received the requests, they will show here. </Item>
+			<Item Key="Bakaverse_AddFriends_RecivedRequest_NoInvite_Tips">Oops, it seems that there are no requests now. &#xD;&#xA;When you receive friend requests, they will show here. </Item>
 			<Item Key="Bakaverse_AddFriends_RecivedRequest_Tips">Check all the requests you received and pending. </Item>
 
 			<Item Key="Bakaverse_AddFriends_SearchOnline_Title">Search friends on the Internet</Item>
@@ -469,11 +469,11 @@
 			<Item Key="Bakaverse_Lobby_LAN_Motd_Header">BakaXL Lobby</Item>
 
 			<Item Key="Bakaverse_Lobby_Error_Title">Lobby Service Error</Item>
-			<Item Key="Bakaverse_Lobby_Error_Detail_Relogin">Please relogin this BakaXL Account</Item>
+			<Item Key="Bakaverse_Lobby_Error_Detail_Relogin">Please login to this BakaXL Account again</Item>
 			
 			<Item Key="Bakaverse_Lobby_CreateLobby_Title">Create a new lobby</Item>
 			<Item Key="Bakaverse_Lobby_CreateLobby_CustomLobbyID_TextBox_Watermark">Custom Lobby ID (in 25 letters)</Item>
-			<Item Key="Bakaverse_Lobby_CreateLobby_CustomLobbyID_TextBox_Tips">Thanks for your support to BakaXL! As the member of the Insider Program, &#xD;&#xA;You can custom BakaXL Lobby ID when create! &#xD;&#xA;Please don't violate BakaXL ToS when using this feature.&#xD;&#xA;Using this feature in a wrong way will make your Insider status cancelled.</Item>
+			<Item Key="Bakaverse_Lobby_CreateLobby_CustomLobbyID_TextBox_Tips">Thanks for supporting BakaXL! As a member of the Insider Program, &#xD;&#xA;You can choose a custom BakaXL Lobby ID when creating a lobby! &#xD;&#xA;Please don't violate BakaXL ToS when using this feature.&#xD;&#xA;Using this feature incorrectly will cancel your Insider status.</Item>
 			<Item Key="Bakaverse_Lobby_CreateLobby_AllowStrangers_Btn_Title">Only open to my friends</Item>
 			<Item Key="Bakaverse_Lobby_CreateLobby_Create_Btn_Title">Create a lobby</Item>
 			<Item Key="Bakaverse_Lobby_CreateLobby_Create_Btn_Tips">Start Minecraft and choose &quot;Open to LAN&quot; in a single game, &#xD;&#xA;then you can create a lobby. &#xD;&#xA;If detecting fails for a long time, try to start Minecraft after running BakaXL as administrator. </Item>
