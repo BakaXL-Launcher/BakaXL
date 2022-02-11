@@ -67,7 +67,7 @@
 			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_DownloadJava_Finalizing">Installing the required {0} Virtual Machine ({1} 位)</Item>
 
 			<Item Key="LaunchBar_LaunchBtn_Launching_Environment_JavaFullAuto">正在选择合适的 Java 虚拟机</Item>
-			<Item Key="LaunchBar_LaunchBtn_Launching_Environment_JavaNotExist">Java路径已变动，正在重新定位</Item>
+			<Item Key="LaunchBar_LaunchBtn_Launching_Environment_JavaNotExist">The Java path has changed and is being relocated.</Item>
 			<Item Key="LaunchBar_LaunchBtn_Launching_Environment_NewJavaFound">BakaXL will launch Minecraft with the new Java path</Item>
 			
 			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_CheckEnvironment">Launch Mode: Checking and finishing the Minecraft environment</Item>
@@ -141,15 +141,15 @@
 			<Item Key="CoreManagement_Tips_Locked_ModPack">Some options are unavailable because they are managed by a mod pack provider.</Item>
 			<Item Key="CoreManagement_Tips_Locked_Server">Some options are unavailable because they are managed by the server corresponding to this mod pack.</Item>
 			
-			<Item Key="CoreManagement_Tips_Error_Json">此核心所使用的Json文件不是规范的Minecraft游戏核心标识文件。</Item>
-			<Item Key="CoreManagement_Tips_Error_Json_Broken">此核心的Json文件损坏，BakaXL无法读取。</Item>
-			<Item Key="CoreManagement_Tips_Error_Unsupported">此核心使用了其他启动器特有的标识格式，BakaXL无法读取。</Item>
-			<Item Key="CoreManagement_Tips_Error_Jar_Missing">此核心所需的Jar文件不存在。</Item>
-			<Item Key="CoreManagement_Tips_Error_Inherits_Missing">此核心所依赖的Minecraft核心不存在。</Item>
+			<Item Key="CoreManagement_Tips_Error_Json">The JSON file used by this core is not a standard Minecraft core file.</Item>
+			<Item Key="CoreManagement_Tips_Error_Json_Broken">The JSON file for this core is corrupt and can't be read by BakaXL.</Item>
+			<Item Key="CoreManagement_Tips_Error_Unsupported">This core uses a launcher-specific logo format, which can't be read by BakaXL.</Item>
+			<Item Key="CoreManagement_Tips_Error_Jar_Missing">The required Jar file for this core does not exist.</Item>
+			<Item Key="CoreManagement_Tips_Error_Inherits_Missing">A Minecraft core that this core depends on does not exist.</Item>
 			
-			<Item Key="CoreManagement_Tips_Suggest_Reset">此核心需要重置才可以正常使用，前往 &quot;恢复 > 重置此核心&quot;。</Item>
-			<Item Key="CoreManagement_Tips_Suggest_AutoRepare">BakaXL可尝试修复此核心，前往 &quot;恢复 > 自动修复&quot;。</Item>
-			<Item Key="CoreManagement_Tips_Suggest_Shader">若要加载Minecraft光影文件，则可能需要安装 &quot;Optifine&quot;。</Item>
+			<Item Key="CoreManagement_Tips_Suggest_Reset">This core needs to be reset to work properly, go to&quot;Restore > Reset this core&quot;.</Item>
+			<Item Key="CoreManagement_Tips_Suggest_AutoRepare">BakaXL can attempt to repair this core by going to&quot;Recovery > Auto repair&quot;.</Item>
+			<Item Key="CoreManagement_Tips_Suggest_Shader">To load Minecraft shader files, you may need to install&quot;Optifine&quot;.</Item>
 			
 			<Item Key="CoreManagement_Tips_Warn_Mod_Unsupported">此核心不支持安装模组(Mods)。</Item>
 			
