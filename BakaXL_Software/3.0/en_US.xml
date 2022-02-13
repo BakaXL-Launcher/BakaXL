@@ -82,7 +82,7 @@
 			<Item Key="LaunchBar_Title_AuthError_Unknown">Authentication Error: Unknown</Item>
             <Item Key="LaunchBar_Title_AuthError_MojangTokenExpired">Authentication Error: Session authentication information has expired, please log in to this user profile again</Item>
 			<Item Key="LaunchBar_Title_AuthError_AuthlibTokenExpired">Authentication Error: User profile information invalid, please reset this profile</Item>
-			<Item Key="LaunchBar_Title_AuthError_MicrosoftLoginCanceled">Authentication Error: Microsoft account login cancelled by user/Item>
+			<Item Key="LaunchBar_Title_AuthError_MicrosoftLoginCanceled">Authentication Error: Microsoft account login cancelled by user</Item>
 			<Item Key="LaunchBar_Title_EnvironmentError_JavaNotFound">Environment Check Error: Unable to locate Java path</Item>
 			<Item Key="LaunchBar_Title_GameError_GetAssetsListFailed">Resource Completion Error: Unable to get Minecraft resource file list from download source</Item>
 			<Item Key="LaunchBar_Title_GameError_GetAuthlibFailed">Resource Completion Error: Unable to download Authlib-Injector files</Item>
