@@ -174,32 +174,32 @@
 			<Item Key="CoreManagement_Java_MemoryDefaultTip">BakaXL is currently using the globally configured memory settings.</Item>
 
 
-			<Item Key="CoreManagement_Mods_Title">模组(Mods)</Item>
+			<Item Key="CoreManagement_Mods_Title">Mods</Item>
 			
-			<Item Key="CoreManagement_Mods_Supported">此核心或整合包安装了支持的模组API。</Item>
-			<Item Key="CoreManagement_Mods_Unsupported">此核心或整合包好像并未使用支持加载模组的模组API。&#xD;&#xA;若您要使用模组，则应当先安装Forge、Farbic或其他模组API。&#xD;&#xA;&#xD;&#xA;若您认为BakaXL错误的认为该核心或整合包没有安装模组API，请联系我们。</Item>
+			<Item Key="CoreManagement_Mods_Supported">This core or package has a mod-supporting API installed.</Item>
+			<Item Key="CoreManagement_Mods_Unsupported">This core or package does not a have an API that supports installing mods.&#xD;&#xA;If you want to use mods, you should install Forge, Fabric, or another mod API.&#xD;&#xA;&#xD;&#xA;If you believe that BakaXL incorrectly thinks that a core or package does not have an API that supports installing mods, please contact us.</Item>
 			
-			<Item Key="CoreManagement_Mods_ModLoader_Scanning">正在扫描核心的模组API...</Item>
-			<Item Key="CoreManagement_Mods_ModLoader_Forge">此核心安装了 Minecraft Forge，版本：{0}</Item>
-			<Item Key="CoreManagement_Mods_ModLoader_Fabric">此核心安装了 Fabric Loader/API。版本：{0}</Item>
-			<Item Key="CoreManagement_Mods_ModLoader_Liteloader">此核心安装了 Liteloader。版本：{0}</Item>
-            <Item Key="CoreManagement_Mods_ModLoader_Optifine">此核心安装了 Optifine 高清修复。</Item>
+			<Item Key="CoreManagement_Mods_ModLoader_Scanning">Scanning the core for a mod API</Item>
+			<Item Key="CoreManagement_Mods_ModLoader_Forge">This core has Minecraft Forge installed, version{0}</Item>
+			<Item Key="CoreManagement_Mods_ModLoader_Fabric">This core has Fabric Loader/API installed, version{0}</Item>
+			<Item Key="CoreManagement_Mods_ModLoader_Liteloader">This core has Liteloader installed, version{0}</Item>
+            <Item Key="CoreManagement_Mods_ModLoader_Optifine">This core has Optifine HD installed.</Item>
 
-			<Item Key="CoreManagement_Mods_ModList_Title">位于Mods文件夹</Item>
-			<Item Key="CoreManagement_Mods_ModList_DargTips">将模组拖入至此区域快速安装模组。</Item>
-			<Item Key="CoreManagement_Mods_ModList_Desc">BakaXL 将会扫描此核心的Mods文件夹，并将所有受支持的模组文件显示在此列表中。</Item>
-			<Item Key="CoreManagement_Mods_ModList_Scanning">正在扫描…</Item>
-			<Item Key="CoreManagement_Mods_ModList_NoMods">BakaXL 未在此核心或整合包中找到任何模组文件。</Item>
+			<Item Key="CoreManagement_Mods_ModList_Title">Mods Folder</Item>
+			<Item Key="CoreManagement_Mods_ModList_DargTips">Drag mods into this area to quickly install them.</Item>
+			<Item Key="CoreManagement_Mods_ModList_Desc">BakaXL will scan this core's 'Mods' folder and display all supported mod files in this list.</Item>
+			<Item Key="CoreManagement_Mods_ModList_Scanning">Scanning...</Item>
+			<Item Key="CoreManagement_Mods_ModList_NoMods">BakaXL did not find any mod files in this core or package.</Item>
 
-			<Item Key="CoreManagement_Restore_Title">恢复</Item>
-			<Item Key="CoreManagement_Restore_Button">重置此核心</Item>
-			<Item Key="CoreManagement_Restore_Desc">如果Minecraft没有正常运行，重置核心可能会解决问题。重置时，BakaXL将会删除Libraries和核心的Json文件，然后尝试重新从笨蛋广场获取此版本。</Item>
-			<Item Key="CoreManagement_Restore_Delete_Title">删除此核心</Item>
-			<Item Key="CoreManagement_Restore_Delete_Button">从游戏目录中删除此Minecraft核心</Item>
-			<Item Key="CoreManagement_Restore_Delete_Desc">执行后将从当前游戏目录中永久删除此Minecraft游戏核心，其所包含的Mods、地图、截图等数据将会被同时删除。&#xD;&#xA;&#xD;&#xA;此操作过程不可逆。请谨慎操作。</Item>
-			<Item Key="CoreManagement_Restore_ClearCache_Title">清理垃圾文件</Item>
-			<Item Key="CoreManagement_Restore_ClearCache_Button">从该游戏核心中清理垃圾文件</Item>
-			<Item Key="CoreManagement_Restore_ClearCache_Desc">执行后将会清理掉无用的垃圾文件、日志文件等；通常情况下，这些文件清理后不会对您的游戏造成影响。</Item>
+			<Item Key="CoreManagement_Restore_Title">Restore</Item>
+			<Item Key="CoreManagement_Restore_Button">Reset this core</Item>
+			<Item Key="CoreManagement_Restore_Desc">If Minecraft is not working properly, resetting the core may solve the problem. When resetting, BakaXL will delete the Libraries and the JSON file for the core, and then attempt to get this version from BakaPlaza again.</Item>
+			<Item Key="CoreManagement_Restore_Delete_Title">Delete this core</Item>
+			<Item Key="CoreManagement_Restore_Delete_Button">Remove this core from the game directory</Item>
+			<Item Key="CoreManagement_Restore_Delete_Desc">If you do this, this Minecraft core will be permanently deleted from the current game directory, and its mods, maps, screenshots, and other data will be deleted as well.&#xD;&#xA;&#xD;&#xA;This process is irreversible. Please proceed with caution.</Item>
+			<Item Key="CoreManagement_Restore_ClearCache_Title">Clear garbage files</Item>
+			<Item Key="CoreManagement_Restore_ClearCache_Button">Clear garbage files from this game core</Item>
+			<Item Key="CoreManagement_Restore_ClearCache_Desc">If you do this, useless junk files, log files, etc. will be deleted; usually, your game will not be affected after these files are deleted.</Item>
 
 			<Item Key="StartMenuTipper_Title">Swipe Up to Start Menu</Item>
 
@@ -218,8 +218,8 @@
 			<Item Key="Home_SubTitle">BakaXL is now completely new!</Item>
 			<Item Key="Home_SubTitle_Insider">BakaXL Insider Preview Version</Item>
 
-			<Item Key="Home_Task_NoTask">BakaXL任务队列 >> 当前无任何任务和通知</Item>
-			<Item Key="Home_Task_HasTask">BakaXL任务队列 >> {0} 项任务, {1} 项通知</Item>
+			<Item Key="Home_Task_NoTask">BakaXL Task Queue >> No current tasks or notifications</Item>
+			<Item Key="Home_Task_HasTask">BakaXL Task Queue >> {0} Tasks, {1} Notifications</Item>
 
 			<Item Key="Home_StartMenu_Title">Start</Item>
 			<Item Key="Home_StartMenu_Tips">Click on The Tiles Below to Explore More BakaXL Features</Item>
@@ -246,7 +246,7 @@
 			<Item Key="BakaXL.Pages.PageGuide">Guide</Item>
 			<Item Key="BakaXL.Pages.PageTips">BakaXL Tips</Item>
 			<Item Key="BakaXL.Pages.PagePlaza">BakaPlaza</Item>
-			<Item Key="BakaXL.Pages.PageAddGameCore">添加核心向导</Item>
+			<Item Key="BakaXL.Pages.PageAddGameCore">Add A Core</Item>
 
 			<Item Key="Minecraft_AuthMode_Offline">Offline Mode</Item>
 			<Item Key="Minecraft_AuthMode_Online">Authentication Mode (Mojang)</Item>
