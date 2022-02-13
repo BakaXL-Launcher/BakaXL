@@ -34,7 +34,7 @@
 			<Item Key="LaunchBar_SelectCore_BtnTitle">Switch Minecraft Core</Item>
 
 			<Item Key="LaunchBar_SelectCore_Title">Select Core</Item>
-			<Item Key="LaunchBar_SelectCore_Management">Core Manage</Item>
+			<Item Key="LaunchBar_SelectCore_Management">Core Management</Item>
 			<Item Key="LaunchBar_SelectCore_Management_Tips">Manage All Your Game Cores</Item>
 			<Item Key="LaunchBar_SelectCore_DragEasterEgg">Noooooo!</Item>
 
@@ -66,8 +66,8 @@
 			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_DownloadJava_Fetching">Creating a {0} Virtual Machine download task ({1} 位)</Item>
 			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_DownloadJava_Finalizing">Installing the required {0} Virtual Machine ({1} 位)</Item>
 
-			<Item Key="LaunchBar_LaunchBtn_Launching_Environment_JavaFullAuto">正在选择合适的 Java 虚拟机</Item>
-			<Item Key="LaunchBar_LaunchBtn_Launching_Environment_JavaNotExist">The Java path has changed and is being relocated.</Item>
+			<Item Key="LaunchBar_LaunchBtn_Launching_Environment_JavaFullAuto">Autmatically selecting the correct JVM</Item>
+			<Item Key="LaunchBar_LaunchBtn_Launching_Environment_JavaNotExist">The Java path has changed and is being relocated</Item>
 			<Item Key="LaunchBar_LaunchBtn_Launching_Environment_NewJavaFound">BakaXL will launch Minecraft with the new Java path</Item>
 			
 			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_CheckEnvironment">Launch Mode: Checking and finishing the Minecraft environment</Item>
@@ -151,27 +151,27 @@
 			<Item Key="CoreManagement_Tips_Suggest_AutoRepare">BakaXL can attempt to repair this core by going to&quot;Recovery > Auto repair&quot;.</Item>
 			<Item Key="CoreManagement_Tips_Suggest_Shader">To load Minecraft shader files, you may need to install&quot;Optifine&quot;.</Item>
 			
-			<Item Key="CoreManagement_Tips_Warn_Mod_Unsupported">此核心不支持安装模组(Mods)。</Item>
+			<Item Key="CoreManagement_Tips_Warn_Mod_Unsupported">This core does not support the installation of mods.</Item>
 			
-			<Item Key="CoreManagement_Page_Info">信息</Item>
-			<Item Key="CoreManagement_Page_Mod">模组(Mods)</Item>
-			<Item Key="CoreManagement_Page_ResourcePack">资源包</Item>
-			<Item Key="CoreManagement_Page_ShaderPack">光影包</Item>
-			<Item Key="CoreManagement_Page_Config">游戏/模组配置</Item>
-			<Item Key="CoreManagement_Page_Advance">高级启动</Item>
-			<Item Key="CoreManagement_Page_Update">更新</Item>
-			<Item Key="CoreManagement_Page_Restore">恢复 / 删除</Item>
+			<Item Key="CoreManagement_Page_Info">Information</Item>
+			<Item Key="CoreManagement_Page_Mod">Mods(Mods)</Item>
+			<Item Key="CoreManagement_Page_ResourcePack">Resource Packs</Item>
+			<Item Key="CoreManagement_Page_ShaderPack">Shader Packs</Item>
+			<Item Key="CoreManagement_Page_Config">Game/Mod Settings</Item>
+			<Item Key="CoreManagement_Page_Advance">Advanced Setup</Item>
+			<Item Key="CoreManagement_Page_Update">Update</Item>
+			<Item Key="CoreManagement_Page_Restore">Restore/Delete</Item>
 			
-			<Item Key="CoreManagement_Info_Description">简介</Item>
-			<Item Key="CoreManagement_Info_Description_None">这里空空的，啥介绍都没有。</Item>
-			<Item Key="CoreManagement_Info_PlayTime">游玩时间</Item>
-			<Item Key="CoreManagement_Info_PlayTime_Text">自 {0} 最后一次运行以来，此核心已累计运行 {1} 。</Item>
-			<Item Key="CoreManagement_Info_PlayTime_NeverPlayed_Text">此核心自安装日以来就从来没有运行过，真难过。</Item>
-			<Item Key="CoreManagement_Info_Version">版本</Item>
+			<Item Key="CoreManagement_Info_Description">Information</Item>
+			<Item Key="CoreManagement_Info_Description_None">No information available.</Item>
+			<Item Key="CoreManagement_Info_PlayTime">Play Time</Item>
+			<Item Key="CoreManagement_Info_PlayTime_Text">This core has been run {0} times since {1} was last run.</Item>
+			<Item Key="CoreManagement_Info_PlayTime_NeverPlayed_Text">Unfortunately, this core hasn't been run since its install date.</Item>
+			<Item Key="CoreManagement_Info_Version">Version</Item>
 
-			<Item Key="CoreManagement_Java_Tip">若想对该核心进行单独设置而不希望影响其他核心，请在这里设置。&#xD;&#xA;如果您不知道您在做什么，请不要修改任何内容。</Item>
-			<Item Key="CoreManagement_Java_JavaDefaultTip">BakaXL当前正使用本体设置内的全局Java设定。</Item>
-			<Item Key="CoreManagement_Java_MemoryDefaultTip">BakaXL当前正使用本体设置内的全局内存设定。</Item>
+			<Item Key="CoreManagement_Java_Tip">If you want to configure this core manually without affecting other cores, please do it here&#xD;&#xA;Don't change anything if you don't know what you're doing.</Item>
+			<Item Key="CoreManagement_Java_JavaDefaultTip">BakaXL is currently using the globally configured Java settings.</Item>
+			<Item Key="CoreManagement_Java_MemoryDefaultTip">BakaXL is currently using the globally configured memory settings.</Item>
 
 
 			<Item Key="CoreManagement_Mods_Title">模组(Mods)</Item>
@@ -294,7 +294,7 @@
 			<Item Key="Error_CodeIs">Error Code is {0} if Needed.</Item>
 
 			<Item Key="BakaXL_Update_Title">BakaXL Has A New Version {0}!</Item>
-			<Item Key="BakaXL_Update_Info">A new version of BakaXL is now released, an update is required before you can continue. It won't take too long. An internet connection is required during the update.</Item>
+			<Item Key="BakaXL_Update_Info">A new version of BakaXL has been released, an update is required before you can continue. It won't take too long. An internet connection is required during the update.</Item>
 			<Item Key="BakaXL_Update_Btn_Yes">Update Now</Item>
 			<Item Key="BakaXL_Update_Btn_OrYes">Or Update</Item>
 
@@ -396,13 +396,13 @@
 			<Item Key="Bakaverse_FriendsList_Title">Friends</Item>
 			<Item Key="Bakaverse_AddFriends_Title">Add Friends</Item>
 			<Item Key="Bakaverse_NotLogin">Not Logged In</Item>
-			<Item Key="Bakaverse_CheckAfterLogin">Get your Network ID after Login</Item>
+			<Item Key="Bakaverse_CheckAfterLogin">Get your Network ID after Logging In</Item>
 
 			<Item Key="Bakaverse_UserInfo">User Info</Item>
 
-			<Item Key="Bakaverse_NeedLogin_BeforeUse">Before you can use</Item>
-			<Item Key="Bakaverse_NeedLogin_LoginRequired">Need Login</Item>
-			<Item Key="Bakaverse_NeedLogin_Method">Go to &quot;Settings - Profiles&quot; Login To Your BakaXL Account</Item>
+			<Item Key="Bakaverse_NeedLogin_BeforeUse">Before you can use this</Item>
+			<Item Key="Bakaverse_NeedLogin_LoginRequired">You need to login</Item>
+			<Item Key="Bakaverse_NeedLogin_Method">Go to &quot;Settings - Profiles&quot; and then Login To Your BakaXL Account</Item>
 
 			<Item Key="Bakaverse_CurrentUser_Tips">Your friends can search for your account by using your BakaXL Network ID. &#xD;&#xA;Please include the tag that follows your username when you are telling your friends your BakaXL Network ID. </Item>
 
@@ -673,7 +673,7 @@
 			<Item Key="Setting_Support_Title">Support/Health &amp; Safety</Item>
 			<Item Key="Setting_Account_Title">Profiles</Item>
 			<Item Key="Setting_Java_Title">Java VM &amp; Memory</Item>
-			<Item Key="Setting_Advance_Title">Advance</Item>
+			<Item Key="Setting_Advance_Title">Advanced</Item>
 			<Item Key="Setting_Language_Title">语言 / Language</Item>
 			<Item Key="Setting_Network_Title">Network</Item>
 			<Item Key="Setting_Personalize_Title">Personalize</Item>
@@ -695,16 +695,16 @@
 
 			<Item Key="Setting_Support_ErrorHistory_RightPannel_Title">View errors encountered</Item>
 			<Item Key="Setting_Support_ErrorHistory_RightPannel_Tips1">BakaXL will record the errors in running automatically. You can click on a error to view all the information recorded. </Item>
-			<Item Key="Setting_Support_ErrorHistory_RightPannel_Tips2">These information only stores on localhost, and will not upload or save to any BakaXL server. </Item>
+			<Item Key="Setting_Support_ErrorHistory_RightPannel_Tips2">This information is only stored locally, and will not be uploaded or saved to any BakaXL server. </Item>
 
-			<Item Key="Setting_Support_ErrorHistory_RightPannel_DataCollection_Title">Learn about the information BakaXL collected?</Item>
+			<Item Key="Setting_Support_ErrorHistory_RightPannel_DataCollection_Title">Want to know more about the data BakaXL collects?</Item>
 			<Item Key="Setting_Support_ErrorHistory_RightPannel_DataCollection_Btn">Learn more</Item>
 
 			<Item Key="Setting_Support_ErrorHistory_Searching">Searching</Item>
 			<Item Key="Setting_Support_ErrorHistory_Searching_Tips">Looking for BakaCans stored around...</Item>
 
 			<Item Key="Setting_Support_ErrorHistory_NoCan">Great!</Item>
-			<Item Key="Setting_Support_ErrorHistory_NoCan_Tips1">There is no BakaCans here now.</Item>
+			<Item Key="Setting_Support_ErrorHistory_NoCan_Tips1">There are no BakaCans here now.</Item>
 			<Item Key="Setting_Support_ErrorHistory_NoCan_Tips2">I'm sure that there will be a lot of cans here soon. </Item>
 
 			<Item Key="Setting_Support_ErrorHistory_ErrorCode">Error Code</Item>
@@ -723,7 +723,7 @@
 
 			<Item Key="Setting_Support_ErrorHistory_Network">Network</Item>
 			<Item Key="Setting_Support_ErrorHistory_Network_Status">Network Status</Item>
-			<Item Key="Setting_Support_ErrorHistory_Network_Method">Connect Method</Item>
+			<Item Key="Setting_Support_ErrorHistory_Network_Method">Connection Method</Item>
 			<Item Key="Setting_Support_ErrorHistory_Network_InterfaceName">Device Name</Item>
 			<Item Key="Setting_Support_ErrorHistory_Network_InterfaceHardwareName">Hardware Name</Item>
 			<Item Key="Setting_Support_ErrorHistory_Network_SSID">SSID</Item>
@@ -788,7 +788,7 @@
 
 			<Item Key="Setting_Account_BakaAccount_Title">BakaXL Account</Item>
 			<Item Key="Setting_Account_BakaAccount_Login">Sign in to a BakaXL Account</Item>
-			<Item Key="Setting_Account_BakaAccount_Register">Sign up a BakaXL Account</Item>
+			<Item Key="Setting_Account_BakaAccount_Register">Sign up for a BakaXL Account</Item>
 			<Item Key="Setting_Account_BakaAccount_Logout">Sign out</Item>
 			<Item Key="Setting_Account_BakaAccount_CancelLogin">Cancel login</Item>
 			<Item Key="Setting_Account_BakaAccount_LoginAs">BakaXL was logged in as {0} . </Item>
