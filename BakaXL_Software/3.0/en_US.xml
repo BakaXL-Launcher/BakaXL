@@ -154,7 +154,7 @@
 			<Item Key="CoreManagement_Tips_Warn_Mod_Unsupported">This core does not support the installation of mods.</Item>
 			
 			<Item Key="CoreManagement_Page_Info">Information</Item>
-			<Item Key="CoreManagement_Page_Mod">Mods(Mods)</Item>
+			<Item Key="CoreManagement_Page_Mod">Mods</Item>
 			<Item Key="CoreManagement_Page_ResourcePack">Resource Packs</Item>
 			<Item Key="CoreManagement_Page_ShaderPack">Shader Packs</Item>
 			<Item Key="CoreManagement_Page_Config">Game/Mod Settings</Item>
@@ -193,7 +193,7 @@
 
 			<Item Key="CoreManagement_Restore_Title">Restore</Item>
 			<Item Key="CoreManagement_Restore_Button">Reset this core</Item>
-			<Item Key="CoreManagement_Restore_Desc">If Minecraft is not working properly, resetting the core may solve the problem. When resetting, BakaXL will delete the Libraries and the JSON file for the core, and then attempt to get this version from BakaPlaza again.</Item>
+			<Item Key="CoreManagement_Restore_Desc">If Minecraft is not working properly, resetting this core may solve the problem. If you do this, BakaXL will delete the Libraries and the JSON file for the core, and then attempt to get this version from BakaPlaza again.</Item>
 			<Item Key="CoreManagement_Restore_Delete_Title">Delete this core</Item>
 			<Item Key="CoreManagement_Restore_Delete_Button">Remove this core from the game directory</Item>
 			<Item Key="CoreManagement_Restore_Delete_Desc">If you do this, this Minecraft core will be permanently deleted from the current game directory, and its mods, maps, screenshots, and other data will be deleted as well.&#xD;&#xA;&#xD;&#xA;This process is irreversible. Please proceed with caution.</Item>
@@ -271,29 +271,29 @@
 			<Item Key="Unavailable">Unavailable</Item>
 			<Item Key="Login">Login</Item>
 			<Item Key="LearnMore">Learn More</Item>
-			<Item Key="Edit">编辑</Item>
-			<Item Key="UnableEdit">无法编辑</Item>
-			<Item Key="Clear">清空</Item>
-			<Item Key="Favorite">收藏</Item>
-			<Item Key="UnFavorite">取消收藏</Item>
-			<Item Key="Standard">标准</Item>
-			<Item Key="Traditional">传统</Item>
-			<Item Key="Preparing">正在准备</Item>
-			<Item Key="Refresh">刷新</Item>
+			<Item Key="Edit">Edit</Item>
+			<Item Key="UnableEdit">Unable to edit</Item>
+			<Item Key="Clear">Clear</Item>
+			<Item Key="Favorite">Favorite</Item>
+			<Item Key="UnFavorite">Unfavorite</Item>
+			<Item Key="Standard">Standard</Item>
+			<Item Key="Traditional">Traditional</Item>
+			<Item Key="Preparing">Preparing</Item>
+			<Item Key="Refresh">Refresh</Item>
 
-			<Item Key="Standard">标准</Item>
-			<Item Key="Traditional">传统</Item>
+			<Item Key="Standard">Standard</Item>
+			<Item Key="Traditional">Traditional</Item>
 
-			<Item Key="FullScreen">全屏</Item>
-			<Item Key="Big">大</Item>
-			<Item Key="Middle">中</Item>
-			<Item Key="Small">小</Item>
-			<Item Key="Default">默认</Item>
-			<Item Key="Custom">自定义</Item>
+			<Item Key="FullScreen">Fullscreen </Item>
+			<Item Key="Big">Large </Item>
+			<Item Key="Middle">Medium </Item>
+			<Item Key="Small">Small </Item>
+			<Item Key="Default">Default </Item>
+			<Item Key="Custom">Custom </Item>
 
 			<Item Key="Error_CodeIs">Error Code is {0} if Needed.</Item>
 
-			<Item Key="BakaXL_Update_Title">BakaXL Has A New Version {0}!</Item>
+			<Item Key="BakaXL_Update_Title">There is a new version of BakaXL available {0}!</Item>
 			<Item Key="BakaXL_Update_Info">A new version of BakaXL has been released, an update is required before you can continue. It won't take too long. An internet connection is required during the update.</Item>
 			<Item Key="BakaXL_Update_Btn_Yes">Update Now</Item>
 			<Item Key="BakaXL_Update_Btn_OrYes">Or Update</Item>
@@ -772,10 +772,10 @@
 
 			<Item Key="Setting_Support_ErrorHistory_BakaVer">BakaXL Version</Item>
 
-			<Item Key="Setting_Support_ErrorHistory_ReportCan">提交笨蛋罐头</Item>
-			<Item Key="Setting_Support_ErrorHistory_OpenFilePath">在资源管理器中显示此文件</Item>
+			<Item Key="Setting_Support_ErrorHistory_ReportCan">Submit a BakaCan</Item>
+			<Item Key="Setting_Support_ErrorHistory_OpenFilePath">Show this file in Explorer</Item>
 
-			<Item Key="Setting_Support_ErrorHistory_Solution_ContactUs">Please contact BakaXL Developerment Team to get the solution of the problem. </Item>
+			<Item Key="Setting_Support_ErrorHistory_Solution_ContactUs">Please contact the BakaXL Development Team to get the solution for this problem. </Item>
 
 			<!-- Example: 发生于 {YYYY/MM/DD} {MM:SS} 的错误-->
 			<Item Key="Setting_Support_ErrorHistory_HappedOn">An error happened at {0} {1} </Item>
@@ -796,7 +796,7 @@
 			<Item Key="Setting_Account_BakaAccount_AccountStatus">Account status：{0}</Item>
 			<Item Key="Setting_Account_BakaAccount_Connecting">Connecting to BakaXL Network server...</Item>
 			<Item Key="Setting_Account_BakaAccount_Tips">Sign up a BakaXL Account and get a BakaXL Network ID, &#xA;then you can enjoy the wonderful BakaXL online features. &#xA;&#xA;After adding this game ID to your BakaXL account, you can add friends, &#xA;check online status between each other, share game clients or join in&#xA;each other's current games quickly. </Item>
-			<Item Key="Setting_Account_BakaAccount_LoginedTips">All BakaXL instances on this computer will log in to this account. &#xA;Some of BakaXL's online servicess and features are not available &#xA;in all countries or regions. &#xA;&#xA;If you violate BakaXL's account rules, your account will be restricted. </Item>
+			<Item Key="Setting_Account_BakaAccount_LoginedTips">All BakaXL instances on this computer will log in to this account. &#xA;Some of BakaXL's online services and features are not available &#xA;in all countries or regions. &#xA;&#xA;If you violate BakaXL's account rules, your account will be restricted. </Item>
 
 			<Item Key="Setting_Account_BakaAccount_AccountStatus_Normal">OK</Item>
 			<Item Key="Setting_Account_BakaAccount_AccountStatus_Restricted">Restricted</Item>
@@ -881,13 +881,13 @@
 			<Item Key="Setting_Account_Detail_Tips_ThirdPartAPIRoot">您必须设置一个第三方验证服务器</Item>
 			<Item Key="Setting_Account_Detail_Tips_NeedReload">您更改了游戏ID，部分内容需要重载。</Item>
 
-			<Item Key="Setting_Java_JVM_Title">Java虚拟机</Item>
+			<Item Key="Setting_Java_JVM_Title">Java Virtual Machine</Item>
 			
-			<Item Key="Setting_Java_JVM_FullAuto">让 BakaXL 自动决定 Java 版本</Item>
-			<Item Key="Setting_Java_JVM_FullAuto_Tips">当开启此选项时，BakaXL 将会自动根据运行的 Minecraft&#xD;&#xA;版本选定合适的 Java 虚拟机版本。&#xD;&#xA;若您没有安装对应的 Java 虚拟机，则 BakaXL 会自动为您安装。</Item>
+			<Item Key="Setting_Java_JVM_FullAuto">Let BakaXL automatically determine Java version</Item>
+			<Item Key="Setting_Java_JVM_FullAuto_Tips">When this option is enabled, BakaXL will automatically select the appropriate &#xD;&#xA;JVM version that's require to run Minecraft. Select the appropriate JVM version.&#xD;&#xA;If you do not have the correct JVM version installed, BakaXL will automatically &#xD;&#xA;install it for you.</Item>
 
-			<Item Key="Setting_Java_JVM_Selector">请选择Java版本</Item>
-			<Item Key="Setting_Java_JVM_Tips">为了确保您的游戏体验，请始终选择最佳适配版本的Java。</Item>
+			<Item Key="Setting_Java_JVM_Selector">Please select the Java version</Item>
+			<Item Key="Setting_Java_JVM_Tips">To ensure the best experience possible, please always select the most optimal &#xD;&#xA;version of Java for the version of Minecraft you are playing.</Item>
 
 			<Item Key="Setting_Java_JVM_Manual">自定义</Item>
 			<Item Key="Setting_Java_JVM_Info_CanUpgradeTo64Bit">可升级为 64 位版本</Item>
@@ -919,27 +919,27 @@
 			<Item Key="Setting_Java_JVM_Installing_Successful">BakaXL 已成功安装了 Java {0}。&#xD;&#xA;您可以在 Java 虚拟机列表中选择此虚拟机。</Item>
 			<Item Key="Setting_Java_JVM_Installing_Failed">BakaXL 无法自动安装 Java {0}。&#xD;&#xA;这可能是由于下载源提供的文件受损或互联网连接中断。</Item>
 
-			<Item Key="Setting_Java_JVM_InstallProgress_Preparing">准备安装 Java {0}</Item>
-			<Item Key="Setting_Java_JVM_InstallProgress_FetchingFileList">获取 Java {0} ({1} 位) 的文件列表</Item>
-			<Item Key="Setting_Java_JVM_InstallProgress_Downloading">正在下载 Java {0} ({1} 位) </Item>
+			<Item Key="Setting_Java_JVM_InstallProgress_Preparing">Preparing to install Java {0}</Item>
+			<Item Key="Setting_Java_JVM_InstallProgress_FetchingFileList">Getting Java {0} ({1} Bit) Files</Item>
+			<Item Key="Setting_Java_JVM_InstallProgress_Downloading">Downloading Java {0} ({1} Bit) </Item>
 
 			<Item Key="Setting_Java_JVM_InstallProgress_Finalizing">即将完成安装…</Item>
 
-			<Item Key="Setting_Java_Memory_Title">内存设置</Item>
+			<Item Key="Setting_Java_Memory_Title">Memory Settings</Item>
 
-			<Item Key="Setting_Java_Memory">内存</Item>
-			<Item Key="Setting_Java_Memory_Installed">已安装 {0} GB</Item>
-			<Item Key="Setting_Java_Memory_Used">计算机已使用</Item>
-			<Item Key="Setting_Java_Memory_MinecraftUsed">Minecraft将使用其中的</Item>
+			<Item Key="Setting_Java_Memory">Memory</Item>
+			<Item Key="Setting_Java_Memory_Installed">{0} GB Installed</Item>
+			<Item Key="Setting_Java_Memory_Used">Currently in Use</Item>
+			<Item Key="Setting_Java_Memory_MinecraftUsed">Allocated to Minecraft</Item>
 
-			<Item Key="Setting_Java_Memory_AutoMemory">自动设置内存</Item>
-			<Item Key="Setting_Java_Memory_AdvanceMemory">内存高级设置</Item>
-			<Item Key="Setting_Java_Memory_AdvanceMemory_Tips">BakaXL在通常情况下会根据您当前计算机的配置自动分配内存。&#xD;&#xA;如果您不了解此选项的作用，我们建议您不要修改此选项的值。</Item>
-			<Item Key="Setting_Java_Memory_AdvanceMemory_ForceRelease">强制释放内存</Item>
-			<Item Key="Setting_Java_Memory_AdvanceMemory_ForceRelease_Tips">不建议使用，BakaXL可尝试立即强制释放以增加可用内存。</Item>
-			<Item Key="Setting_Java_Memory_AdvanceMemory_ManualMemory">手动指定内存大小</Item>
-			<Item Key="Setting_Java_Memory_AdvanceMemory_ManualMemory_AutoMode_Tips">若要手动指定内存大小，则需要关闭“自动内存设置”功能。</Item>
-			<Item Key="Setting_Java_Memory_AdvanceMemory_ManualMemory_Tips">手动分配您希望Minecraft所使用的内存大小。</Item>
+			<Item Key="Setting_Java_Memory_AutoMemory">Automatically Configure Memory Settings</Item>
+			<Item Key="Setting_Java_Memory_AdvanceMemory">Advanced Memory Settings</Item>
+			<Item Key="Setting_Java_Memory_AdvanceMemory_Tips">BakaXL will normally allocate memory automatically based on your computer's &#xD;&#xA;configuration. If you don't understand what this option does, we recommend &#xD;&#xA;that you don't change these values.</Item>
+			<Item Key="Setting_Java_Memory_AdvanceMemory_ForceRelease">Force Release Memory</Item>
+			<Item Key="Setting_Java_Memory_AdvanceMemory_ForceRelease_Tips">Not recommended, BakaXL can attempt to force release memory to increase available memory.</Item>
+			<Item Key="Setting_Java_Memory_AdvanceMemory_ManualMemory">Manually Specify Memory Size</Item>
+			<Item Key="Setting_Java_Memory_AdvanceMemory_ManualMemory_AutoMode_Tips">To manually specify memory size, "Automatically Configure Memory Settings" must be disabled.</Item>
+			<Item Key="Setting_Java_Memory_AdvanceMemory_ManualMemory_Tips">Manually configure the amount of memory you want Minecraft to use.</Item>
 
 			<Item Key="Setting_Language_DisplayLanguage">显示语言 / Display Language</Item>
 			<Item Key="Setting_Language_Translator">翻译官 / Translator</Item>
@@ -1062,20 +1062,20 @@
 			<Item Key="Setting_Advance_Reset_Btn_Title">恢复默认设置</Item>
 			<Item Key="Setting_Advance_Reset_Btn_Tips">如果您觉得您搞砸了，可恢复所有高级选项至默认值。</Item>
 
-			<Item Key="Setting_Personalize_Background_Title">BakaXL背景</Item>
-			<Item Key="Setting_Personalize_Background_Browse_Btn">设置背景图片</Item>
-			<Item Key="Setting_Personalize_Background_Default_Btn">恢复默认背景</Item>
-			<Item Key="Setting_Personalize_Background_Clear_Btn">清空背景</Item>
-			<Item Key="Setting_Personalize_Background_Browse_Btn_Tips">设置BakaXL窗体背景显示的图片。&#xD;虽然您的图片不会以任何方式上传，但我们不建议&#xD;您使用任何包含工口元素的图片。</Item>
-			<Item Key="Setting_Personalize_Background_CustomImage_Title">选择您的自定义背景图</Item>
-			<Item Key="Setting_Personalize_Background_CustomImage_Filter">图片格式</Item>
+			<Item Key="Setting_Personalize_Background_Title">BakaXL Background</Item>
+			<Item Key="Setting_Personalize_Background_Browse_Btn">Set background image</Item>
+			<Item Key="Setting_Personalize_Background_Default_Btn">Restore default background (also resets transparency settings)</Item>
+			<Item Key="Setting_Personalize_Background_Clear_Btn">Enable transparency</Item>
+			<Item Key="Setting_Personalize_Background_Browse_Btn_Tips">Sets the image displayed in the background of the BakaXL window.&#xD;While your image will not be uploaded, we recommend that you don't use any images that contain elements that may be &#xD;considered inappropriate.</Item>
+			<Item Key="Setting_Personalize_Background_CustomImage_Title">Select a custom background image</Item>
+			<Item Key="Setting_Personalize_Background_CustomImage_Filter">Image Files</Item>
 
-			<Item Key="Setting_Personalize_Background_Acrylic">背景虚化</Item>
-			<Item Key="Setting_Personalize_Background_AcrylicType">虚化方式</Item>
-			<Item Key="Setting_Personalize_Background_AcrylicType_Default">亚克力</Item>
-			<Item Key="Setting_Personalize_Background_AcrylicType_Blur">毛玻璃</Item>
-			<Item Key="Setting_Personalize_Background_AcrylicManual">手动设定虚化程度</Item>
-			<Item Key="Setting_Personalize_Background_AcrylicTips">背景虚化效果可让BakaXL虚化背景层的内容，营造舒适且不冲突的&#xD;视觉体验。&#xD;&#xD;使用实况背景或未设置背景时，无法手动调整虚化程度。&#xD;使用亚克力效果需要Windows 10。</Item>
+			<Item Key="Setting_Personalize_Background_Acrylic">Background Blur</Item>
+			<Item Key="Setting_Personalize_Background_AcrylicType">Blur Method</Item>
+			<Item Key="Setting_Personalize_Background_AcrylicType_Default">Acrylic</Item>
+			<Item Key="Setting_Personalize_Background_AcrylicType_Blur">Rough Glass</Item>
+			<Item Key="Setting_Personalize_Background_AcrylicManual">Manually set blur level</Item>
+			<Item Key="Setting_Personalize_Background_AcrylicTips">The background blur effect allows BakaXL to blur the content of the background, creating a comfortable and non-conflicting &#xD;visual experience.&#xD;&#xD;The blur level cannot be manually adjusted when using a live background or if there is no background image.&#xD;Windows 10 is required to use blur effects.</Item>
 
 			<Item Key="Setting_Personalize_Background_LiveBackground">使用实况背景功能（实验版）</Item>
 			<Item Key="Setting_Personalize_Background_LiveBackground_Tips">在BakaXL底部绑定额外的叠层以显示高级动态背景。&#xD;通过BakaXL x Wallpaper Engine联动显示动态背景。&#xD;&#xD;该功能在部分分辨率和DPI缩放环境下无法正常工作。&#xD;若未您当前未在使用Wallpaper Engine，则BakaXL将会使用&#xD;你的桌面壁纸。</Item>
@@ -1083,15 +1083,15 @@
 			<Item Key="Setting_Personalize_Background_Parallax">背景图片视差</Item>
 			<Item Key="Setting_Personalize_Background_Parallax_Tips">让背景图片跟随鼠标移动，营造视差效果。&#xD;打开此功能时，BakaXL将会稍许放大当前背景图片。&#xD;&#xD;使用实况背景或者默认背景时，无法使用此功能。</Item>
 
-			<Item Key="Setting_Personalize_Color_Title">BakaXL配色方案</Item>
-			<Item Key="Setting_Personalize_Color_Selector">选择一个配色方案</Item>
-			<Item Key="Setting_Personalize_Color_NightMode">反转颜色模式</Item>
-			<Item Key="Setting_Personalize_Color_Tips">设置BakaXL窗体和控件所使用的配色方案。</Item>
+			<Item Key="Setting_Personalize_Color_Title">BakaXL Color Scheme</Item>
+			<Item Key="Setting_Personalize_Color_Selector">Select a color scheme</Item>
+			<Item Key="Setting_Personalize_Color_NightMode">Invert color scheme</Item>
+			<Item Key="Setting_Personalize_Color_Tips">Sets the color scheme used by BakaXL forms and buttons.</Item>
 
-			<Item Key="Setting_Personalize_Tema_Title">BakaXL主题</Item>
-		    <Item Key="Setting_Personalize_Tema_Patch">将当前个性化设置保存为主题</Item>
-            <Item Key="Setting_Personalize_Tema_List">浏览主题列表</Item>
-            <Item Key="Setting_Personalize_Tema_Folder">打开主题文件夹</Item>
+			<Item Key="Setting_Personalize_Tema_Title">BakaXL Theme</Item>
+		    <Item Key="Setting_Personalize_Tema_Patch">Save the current personalization settings as a theme</Item>
+            <Item Key="Setting_Personalize_Tema_List">Browse the list of themes</Item>
+            <Item Key="Setting_Personalize_Tema_Folder">Open theme folder</Item>
 
 			<Item Key="Setting_Personalize_Tema_Default">BakaXL 默认主题</Item>
 			<Item Key="Setting_Personalize_Tema_Default_Desc">这是一个来自BakaXL的默认主题，非常默认，特别默认。</Item>
