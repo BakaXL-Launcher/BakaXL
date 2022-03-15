@@ -69,6 +69,7 @@
 			<Item Key="LaunchBar_LaunchBtn_Launching_Environment_JavaFullAuto">正在选择合适的 Java 虚拟机</Item>
 			<Item Key="LaunchBar_LaunchBtn_Launching_Environment_JavaNotExist">Java 路径已变动，正在重新定位</Item>
 			<Item Key="LaunchBar_LaunchBtn_Launching_Environment_NewJavaFound">BakaXL 已选定了合适的 Java 虚拟机</Item>
+			<Item Key="LaunchBar_LaunchBtn_Launching_Environment_AwaitJavaDownloadRequest">正在等待用户决定是否下载 Java 虚拟机</Item>
 			
 			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_CheckEnvironment">发射模式: 检查和补全Minecraft环境</Item>
 
@@ -91,6 +92,7 @@
 			<Item Key="UserSelector_Launch_Title">哪个用户将用于启动Minecraft？</Item>
 			<Item Key="UserSelector_Authlib_SelectProfile">该账户拥有的多个角色，选择一个角色</Item>
 			<Item Key="UserSelector_Default_Title">选择一个账户</Item>
+			<Item Key="UserSelector_AddProfile_Title">添加其他 Minecraft 用户档案</Item>
 
 			<Item Key="UserProfile_ToolTip_Offline">用户名：{0} &#xD;&#xA;此用户档案将使用离线验证</Item>
 			<Item Key="UserProfile_ToolTip_Online">用户名：{0} &#xD;&#xA;此用户档案将使用Mojang正版验证</Item>
@@ -102,6 +104,7 @@
 			<Item Key="HomeIdentifier_Screen_Menu">开始</Item>
 
 			<Item Key="CoreSelector_Title">核心</Item>
+			<Item Key="CoreSelector_SelectCore_Title">选择一个核心</Item>
 			<Item Key="CoreSelector_DisplayMode">显示：</Item>
 
 			<Item Key="CoreSelector_Empty_Title">空的</Item>
@@ -298,6 +301,7 @@
 			<Item Key="Traditional">传统</Item>
 			<Item Key="Preparing">正在准备</Item>
 			<Item Key="Refresh">刷新</Item>
+			<Item Key="ReTry">再试一次</Item>
 
 			<Item Key="Standard">标准</Item>
 			<Item Key="Traditional">传统</Item>
@@ -525,8 +529,17 @@
 			<Item Key="Bakaverse_Lobby_LobbyInfo_Title">大厅信息</Item>
 			<Item Key="Bakaverse_Lobby_LobbyInfo_LobbyID_Title">大厅编号</Item>
 			<Item Key="Bakaverse_Lobby_LobbyInfo_LobbyHost_Title">大厅创建者</Item>
-			<Item Key="Bakaverse_Lobby_LobbyInfo_LocalNAT_Title">本地 NAT 类型</Item>
-			<Item Key="Bakaverse_Lobby_LobbyInfo_LocalUPnP_Title">本地 UPnP 兼容性</Item>
+			
+			<Item Key="Bakaverse_Lobby_LobbyInfo_LobbyHost_GameStatus_Title">大厅游戏信息</Item>
+			<Item Key="Bakaverse_Lobby_LobbyInfo_LobbyHost_GameStatus_NotInGame">尚未开始游戏</Item>
+			<Item Key="Bakaverse_Lobby_LobbyInfo_LobbyHost_GameStatus_NotInGame_Tips">此大厅创建者尚未开始 Minecraft 游戏。&#xD;&#xA;在游戏启动后，版本信息将会同步显示在这里。</Item>
+			
+			<Item Key="Bakaverse_Lobby_LobbyInfo_LobbyHost_GameStatus_InGame_NoVersion_Tips">大厅创建者正在进行 Minecraft 游戏。&#xD;&#xA;您使用同样的 Minecraft 版本才可以加入游戏。&#xD;&#xA;若大厅创建者正在使用整合包，则您应当也使用一致的整合包。</Item>
+			<Item Key="Bakaverse_Lobby_LobbyInfo_LobbyHost_GameStatus_InGame_WithVersion_Tips">游戏中的 Minecraft 版本: {0}。&#xD;&#xA;您使用同样的 Minecraft 版本才可以加入游戏。&#xD;&#xA;若大厅创建者正在使用整合包，则您应当也使用一致的整合包。</Item>
+
+			<Item Key="Bakaverse_Lobby_LobbyInfo_Network_Title">本地网络环境</Item>
+			<Item Key="Bakaverse_Lobby_LobbyInfo_LocalNAT_Title">NAT 类型</Item>
+			<Item Key="Bakaverse_Lobby_LobbyInfo_LocalUPnP_Title">UPnP 兼容性</Item>
 			
 			<Item Key="Bakaverse_Lobby_LobbyInfo_LocalDiscoveryServerStatus_Title">BakaXL Network 探测服务可用性</Item>
 			<Item Key="Bakaverse_Lobby_LobbyInfo_LocalDiscoveryServerStatus_Connected">可用</Item>
@@ -562,6 +575,8 @@
 			<Item Key="Bakaverse_Lobby_UserStatus_Unknown">连接失败 / 未知错误</Item>
 
 			<Item Key="Bakaverse_Lobby_CopyLobbyID_Template">我正在 BakaXL 的线上游戏大厅！快在 BakaXL 领域 里输入大厅编号: &lt;{0}&gt; 来加入吧！</Item>
+			<Item Key="Bakaverse_Lobby_CopyLobbyID_WithHostGameInfo_Template">我正在 BakaXL 的线上游戏大厅里游玩 [{0}]！快在 BakaXL 领域 里输入大厅编号: &lt;{1}&gt; 来加入吧！</Item>
+			<Item Key="Bakaverse_Lobby_CopyLobbyID_WithHostGameInfo_HasBaseVersion_Template">我正在 BakaXL 的线上游戏大厅里游玩 [{0}] (Minecraft {1})！快在 BakaXL 领域 里输入大厅编号: &lt;{2}&gt; 来加入吧！</Item>
 
 			<Item Key="Bakaverse_UserSettings_Title">用户设置</Item>
 			<Item Key="Bakaverse_UserSettings_PersonalInfo">个人信息设置</Item>
@@ -570,6 +585,10 @@
 			<Item Key="Bakaverse_UserSettings_PersonalInfo_AccountSettings">前往 BakaXL Account 账户系统修改设置</Item>
 
 			<Item Key="Bakaverse_UserSettings_Privacy">隐私设置</Item>
+
+			<Item Key="Bakaverse_UserSettings_Privacy_SkinShare">BakaXL Network SkinShare 皮肤妙享</Item>
+			<Item Key="Bakaverse_UserSettings_Privacy_SkinShare_Tips">皮肤妙享功能允许其他同样开启此功能的&#xD;&#xA;BakaXL Network 好友、服务器内玩家或大厅联机参与者&#xD;&#xA;看见您所设置的离线皮肤。&#xD;&#xA;&#xD;&#xA;关闭此功能后，BakaXL 将停止向 BakaXL Network 公开您的皮肤信息，&#xD;&#xA;您也无法看见其他用户设置的皮肤。&#xD;&#xA;此功能仅在使用离线验证模式启动 Minecraft 时生效。</Item>
+
 			<Item Key="Bakaverse_UserSettings_Privacy_GameRecord">允许 BakaXL Network 记录我的游戏状态</Item>
 			<Item Key="Bakaverse_UserSettings_Privacy_GameRecord_Tips">是否允许将您的游戏状态 (如游戏名称、版本) 记录至 BakaXL Network 中。&#xD;&#xA;BakaXL Network 服务器会定期清理游戏状态缓存。&#xD;&#xA;游戏状态不会包含您的敏感信息。&#xD;&#xA;&#xD;&#xA;关闭此功能后，BakaXL 将停止向 BakaXL Network 上报您的游戏状态。</Item>
 			<Item Key="Bakaverse_UserSettings_Privacy_GameRecord_Remove">从 BakaXL Network 中删除我的游戏状态缓存</Item>
@@ -632,6 +651,9 @@
 			<Item Key="BakaPlaza_MinecraftInstaller_Core_Status_Beta">测试版</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Core_Status_Recommend">推荐版</Item>
 
+			<Item Key="BakaPlaza_MinecraftInstaller_Core_Optifine_InstallMethod_NewCore">以 创建新核心 的形式安装</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Core_Optifine_InstallMethod_AsMod">以 模组 的形式安装</Item>
+
 			<Item Key="BakaPlaza_MinecraftInstaller_Version">版本</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Category_Select">选择…</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Settings">设置</Item>
@@ -643,10 +665,10 @@
 			<Item Key="BakaPlaza_MinecraftInstaller_Settings_InstallNow">立即安装</Item>
 
 			<Item Key="BakaPlaza_MinecraftInstaller_ListBox_Loading_Title">在路上了</Item>
-			<Item Key="BakaPlaza_MinecraftInstaller_ListBox_Loading_Subtitle">核心们不会鸽了你的</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_ListBox_Loading_Subtitle">稍等一会，核心们不会鸽了你的</Item>
 
-			<Item Key="BakaPlaza_MinecraftInstaller_ListBox_None_Title">哦豁，核心跑了</Item>
-			<Item Key="BakaPlaza_MinecraftInstaller_ListBox_None_Subtitle">这让BakaXL非常困惑</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_ListBox_None_Title">哦豁，乜都冇</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_ListBox_None_Subtitle">BakaXL 无法找到合适的核心</Item>
 
 			<Item Key="BakaPlaza_MinecraftInstaller_CoreDesc_Default">从笨蛋广场下载 - Minecraft {0} 原版核心</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_CoreDesc_Forge">从笨蛋广场下载 - 带有 Forge {0} 的 Minecraft {1} 核心</Item>
@@ -657,6 +679,7 @@
 			<Item Key="BakaPlaza_MinecraftInstaller_Steps_Successful">成功</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Steps_Downloading">正在下载</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Steps_DownloadingSuccessful">下载完成</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Steps_CheckCoreEnv">检查当前核心环境</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Steps_UnZip">解压所需文件</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Steps_ReadJson">正在解析 Json 文件</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Steps_CreateVersionFolder">创建版本目录</Item>
@@ -667,6 +690,7 @@
 			<Item Key="BakaPlaza_MinecraftInstaller_Steps_PrepareProcessor">初始化 Forge 文件处理器</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Steps_GenerateForgeFile">生成 Forge 文件</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Steps_GenerateOptifineFile">生成 Optifine 文件</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Steps_CopyOptifineFile">复制 Optifine 文件</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Steps_PrepareVanilla">准备原版 Minecraft</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Steps_CopyVanilla">复制原版 Minecraft 核心</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Steps_CleanUp">准备结束安装</Item>
@@ -875,6 +899,9 @@
 			<Item Key="Setting_Account_Detail_Title_WithID">&quot;{0}&quot; 的 账户信息</Item>
 			<Item Key="Setting_Account_Detail_Title">账户设置</Item>
 			<Item Key="Setting_Account_Detail_Title_NewProfile">创建新档案</Item>
+
+			<Item Key="Setting_Account_Detail_Notice_Credential">某些设置已隐藏或者由您的服务器或整合包来进行管理。</Item>
+			<Item Key="Setting_Account_Detail_Notice_MojangAccount">自 2022年3月10日 之后，Mojang 账户可能将无法进行正版验证</Item>
 			
 			<Item Key="Setting_Account_Detail_Type">账户类型</Item>
 			<Item Key="Setting_Account_Detail_AuthMode">游戏启动模式</Item>
@@ -936,6 +963,10 @@
 			<Item Key="Setting_Account_Detail_AccFeatures_SkinCapes_Skin_SaveBtn">保存我的 Minecraft 角色皮肤</Item>
 			<Item Key="Setting_Account_Detail_AccFeatures_SkinCapes_Skin_UploadBtn">为我的 Minecraft 角色更换皮肤</Item>
 			<Item Key="Setting_Account_Detail_AccFeatures_SkinCapes_Skin_UploadTips">您现在可以直接通过 BakaXL 更换角色的皮肤。&#xD;&#xA;更换皮肤后需要重新启动 Minecraft。</Item>
+
+			<Item Key="Setting_Account_Detail_AccFeatures_SkinCapes_Skin_UploadBtn_Offline">为我的 Minecraft 角色设置离线皮肤</Item>
+			<Item Key="Setting_Account_Detail_AccFeatures_SkinCapes_Skin_ClearBtn_Offline">恢复至默认皮肤</Item>
+			<Item Key="Setting_Account_Detail_AccFeatures_SkinCapes_Skin_UploadTips_Offline">为您的角色设置离线皮肤。&#xD;&#xA;更换皮肤后需要重新启动 Minecraft。&#xD;&#xA;&#xD;&#xA;若开启了 BakaXL Network SkinShare 皮肤妙享，&#xD;&#xA;设置离线皮肤后，就可以看见好友或大厅内&#xD;&#xA;其他玩家设置的离线皮肤。</Item>
 
 			<Item Key="Setting_Account_Detail_AccFeatures_SkinCapes_Capes_DisplayStatusBtn">设置披风的显示状态</Item>
 			<Item Key="Setting_Account_Detail_AccFeatures_SkinCapes_Capes_UploadBtn">为我的 Minecraft 角色更换披风</Item>
@@ -1087,6 +1118,11 @@
 			<Item Key="Setting_Network_Environment_Ping_ms_Title">与服务器的延迟:</Item>
 			<Item Key="Setting_Network_Environment_Ping_ms">毫秒</Item>
 			<Item Key="Setting_Network_Environment_Ping_Package">丢包率:</Item>
+
+			<Item Key="Setting_Network_Environment_Proxy">网络请求代理</Item>
+			<Item Key="Setting_Network_Environment_Proxy_Settings_Title">目标代理服务器:</Item>
+			<Item Key="Setting_Network_Environment_Proxy_Settings_ProxyPac">不经过代理服务器</Item>
+			<Item Key="Setting_Network_Environment_Proxy_Settings_NoProxy">未设置代理服务器</Item>
 
 			<Item Key="Setting_Network_Environment_NATType_Unknown">未知</Item>
 			<Item Key="Setting_Network_Environment_NATType_Open">开放</Item>
@@ -1289,9 +1325,13 @@
 			<Item Key="Setting_Download_Source_Title">下载源</Item>
 			<Item Key="Setting_Download_Source_BMCLAPI_Btn_Title">中国大陆地区使用第三方下载源加速</Item>
 			
-			<Item Key="Setting_Download_Source_BMCLAPIMirror_Btn_Title">BMCLAPI镜像服务器</Item>
+			<Item Key="Setting_Download_Source_BMCLAPIMirror_Btn_Title">BMCLAPI镜像服务器</Item>		
 			<Item Key="Setting_Download_Source_BMCLAPIMirror_Mirror_Source">传统</Item>
 			<Item Key="Setting_Download_Source_BMCLAPIMirror_Mirror_MCBBS">MCBBS源</Item>
+
+			<Item Key="Setting_Download_Source_Official">官方源</Item>
+			<Item Key="Setting_Download_Source_BMCLAPI_Traditional">BMCLAPI (传统源)</Item>
+			<Item Key="Setting_Download_Source_BMCLAPI_MCBBS">BMCLAPI (MCBBS源)</Item>
 			
 			<Item Key="Setting_Download_Source_BMCLAPI_Tips">使用来自bangbang93的BMCLAPI来为BakaXL的资源下载加速。&#xD;&#xA;&#xD;&#xA;关：使用文件的原始下载地址进行下载 (速度较慢)&#xD;&#xA;传统：使用BMCLAPI传统服务器进行下载 (更新快，速度较快)&#xD;&#xA;MCBBS源：BMCLAPI的MCBBS镜像源进行下载 (更新较慢，速度最快)&#xD;&#xA;&#xD;&#xA;若要了解更多有关BMCLAPI的详情，请参阅：&#xD;&#xA;https://bmclapidoc.bangbang93.com/</Item>
 
