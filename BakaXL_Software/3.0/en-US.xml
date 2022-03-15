@@ -428,21 +428,21 @@
 			<Item Key="Bakaverse_NeedLogin_LoginRequired">Need Login</Item>
 			<Item Key="Bakaverse_NeedLogin_Method">Go to &quot;Settings - Profiles&quot; Login Your BakaXL Account</Item>
 
-			<Item Key="Bakaverse_CurrentUser_Tips">Your friends can search for your account by using BakaXL Network ID. &#xD;&#xA;Please tell the tag which following the username together when you are telling your friends your BakaXL Network ID. </Item>
+			<Item Key="Bakaverse_CurrentUser_Tips">Your friends can search for your account by using BakaXL Network ID. &#xD;&#xA;Please tell the tag which following the username together &#xD;&#xA;when you are telling your friends your BakaXL Network ID. </Item>
 
 			<Item Key="Bakaverse_UserInfo_VerificationAndPlan">认证与计划</Item>
 			<Item Key="Bakaverse_UserInfo_VerificationAndPlan_Tips">若您加入了某项BakaXL计划或经过了BakaXL认证，他们将显示在此处。</Item>
 
-			<Item Key="Bakaverse_UserInfo_Verification">BakaXL认证: {0}</Item>
-			<Item Key="Bakaverse_UserInfo_VerificationButNoInfo">该账户经过BakaXL认证</Item>
-			<Item Key="Bakaverse_UserInfo_IsInsider">BakaXL 预览体验计划成员</Item>
-			<Item Key="Bakaverse_UserInfo_SupporterPlan">BakaXL 赞助者计划: {0}</Item>
+			<Item Key="Bakaverse_UserInfo_Verification">BakaXL Verification: {0}</Item>
+			<Item Key="Bakaverse_UserInfo_VerificationButNoInfo">This account has already verified by BakaXL</Item>
+			<Item Key="Bakaverse_UserInfo_IsInsider">BakaXL Insider Program Member</Item>
+			<Item Key="Bakaverse_UserInfo_SupporterPlan">BakaXL Support Plan: {0}</Item>
 
 			<Item Key="Bakaverse_UserInfo_AlreadyOnline">This friend is online now. &#xD;&#xA;If it is running Minecraft or using some BakaXL features, it will show here. </Item>
 			<Item Key="Bakaverse_UserInfo_LastLogin">Last appeared on：{0}。</Item>
 			<Item Key="Bakaverse_UserInfo_TimeBecomeFriend">Time became friends：{0}。&#xD;&#xA;You became friends by switching BakaXL Network ID. </Item>
 
-            <Item Key="Bakaverse_UserInfo_InviteToLobby">邀请好友加入大厅</Item>
+            <Item Key="Bakaverse_UserInfo_InviteToLobby">Invite the friend to lobby</Item>
 			<Item Key="Bakaverse_UserInfo_InviteToLobby_Tips">如果您是大厅的创建者，则可以在这里邀请该好友加入至您当前所在的大厅。</Item>
 
 			<Item Key="Bakaverse_UserInfo_PlayHistory">Play history</Item>
@@ -487,7 +487,7 @@
 			<Item Key="Bakaverse_AddFriends_Btn_Tips">Find your friends by using BakaXL online services. </Item>
 			<Item Key="Bakaverse_AddFriends_MinePass_Btn_Title">Add friends by using BakaXL Interlaced Communication</Item>
 
-            <Item Key="Bakaverse_AddFriends_Discovery_Title">发现</Item>
+            <Item Key="Bakaverse_AddFriends_Discovery_Title">Discovery</Item>
 			<Item Key="Bakaverse_AddFriends_Discovery_Tips">随着您不断使用 BakaXL 进行游戏或探索。&#xD;&#xA;BakaXL Network 将会在这里向您推荐一些与您志同道合的用户。</Item>
 			<Item Key="Bakaverse_AddFriends_Discovery_RecentPlayed">由于您最近游玩过 &quot;{0}&quot;。</Item>
 			<Item Key="Bakaverse_AddFriends_Discovery_RecentChangedTema">由于您最近使用过 &quot;{0}&quot; BakaXL 主题。</Item>
@@ -528,10 +528,10 @@
 			<Item Key="Bakaverse_Lobby_LobbyInfo_LocalNAT_Title">Local NAT Type</Item>
 			<Item Key="Bakaverse_Lobby_LobbyInfo_LocalUPnP_Title">Local UPnP Compatibility</Item>
 
-			<Item Key="Bakaverse_Lobby_LobbyInfo_LocalDiscoveryServerStatus_Title">BakaXL Network 探测服务可用性</Item>
-			<Item Key="Bakaverse_Lobby_LobbyInfo_LocalDiscoveryServerStatus_Connected">可用</Item>
-			<Item Key="Bakaverse_Lobby_LobbyInfo_LocalDiscoveryServerStatus_Failed">不可用</Item>
-			<Item Key="Bakaverse_Lobby_LobbyInfo_LocalDiscoveryServerStatus_Tips">BakaXL Network 探测服务确保了您是否可以正常使用&#xD;&#xA;大厅的相关功能，若服务不可用，将无法进行联机。</Item>
+			<Item Key="Bakaverse_Lobby_LobbyInfo_LocalDiscoveryServerStatus_Title">BakaXL Network Discovery Service Status</Item>
+			<Item Key="Bakaverse_Lobby_LobbyInfo_LocalDiscoveryServerStatus_Connected">Available</Item>
+			<Item Key="Bakaverse_Lobby_LobbyInfo_LocalDiscoveryServerStatus_Failed">Unavailable</Item>
+			<Item Key="Bakaverse_Lobby_LobbyInfo_LocalDiscoveryServerStatus_Tips">BakaXL Network Discovery Service decided you can &#xD;&#xA;use functions about Lobby or not. If it's unavailable, then you can't connect to others. </Item>
 
 			<Item Key="Bakaverse_Lobby_LobbyAction_Title">Lobby Action</Item>
 			<Item Key="Bakaverse_Lobby_LobbyAction_AutoAcceptJoin">Auto Accept Join Request</Item>
@@ -1553,11 +1553,11 @@
 			<Item Key="MessageBox_Bakaverse_AddFriends_Sent_Title">好友申请已发送</Item>
 			<Item Key="MessageBox_Bakaverse_AddFriends_Sent_Content">您的好友申请已经发送。</Item>
 
-			<Item Key="MessageBox_Bakaverse_AddFriends_AlreadyAdded_Title">我傻了</Item>
-			<Item Key="MessageBox_Bakaverse_AddFriends_AlreadyAdded_Content">您和对方已经是好友了。&#xD;&#xA;为什么你们要再加一次¿</Item>
-			<Item Key="MessageBox_Bakaverse_AddFriends_AlreadyAdded_Tips">按理说你们不应该看见这些东西啊...</Item>
+			<Item Key="MessageBox_Bakaverse_AddFriends_AlreadyAdded_Title">I'm idiot</Item>
+			<Item Key="MessageBox_Bakaverse_AddFriends_AlreadyAdded_Content">You are already friends. &#xD;&#xA;Why do you want to add again¿</Item>
+			<Item Key="MessageBox_Bakaverse_AddFriends_AlreadyAdded_Tips">You shouldn't see this...</Item>
 
-			<Item Key="MessageBox_Bakaverse_AddFriends_Added_Title">已添加好友</Item>
+			<Item Key="MessageBox_Bakaverse_AddFriends_Added_Title">Added</Item>
 			<Item Key="MessageBox_Bakaverse_AddFriends_Added_Content">好友添加成功。&#xD;&#xA;您和对方已互相添加为好友。</Item>
 			<Item Key="MessageBox_Bakaverse_AddFriends_Added_Tips">草地上的里程碑也已经修好了</Item>
 
@@ -1566,7 +1566,7 @@
 
 			<Item Key="MessageBox_Bakaverse_Lobby_Create_LobbyIDFormat_Title">大厅编号格式不正确</Item>
 			<Item Key="MessageBox_Bakaverse_Lobby_Create_LobbyIDFormat_Content">您期望使用的大厅编号当前无法被使用，请检查输入格式。&#xD;&#xA;自定义 BakaXL 大厅编号仅可使用 英文字母、数字、下划线。</Item>
-			<Item Key="MessageBox_Bakaverse_Lobby_Create_LobbyIDFormat_Tips">+V 领 BakaXL 大夹子</Item>
+			<Item Key="MessageBox_Bakaverse_Lobby_Create_LobbyIDFormat_Tips">+Twitter to let BakaXL mute you</Item>
 
 			<Item Key="MessageBox_Bakaverse_Lobby_Create_LobbyIDUsed_Title">该大厅编号当前正在使用中</Item>
 			<Item Key="MessageBox_Bakaverse_Lobby_Create_LobbyIDUsed_Content">您期望使用的大厅编号当前无法被使用，因为 BakaXL Network 中有大厅&#xD;&#xA;正在使用此大厅编号。&#xD;&#xA;请更换一个编号，或等待使用此编号的大厅解散。</Item>
@@ -1583,7 +1583,7 @@
 			<Item Key="MessageBox_Bakaverse_Lobby_FriendsRequestJoin_Btn_No">8太彳亍</Item>
 
 			<Item Key="MessageBox_Bakaverse_Lobby_KickUser_Title">要将此用户踢出房间吗？</Item>
-			<Item Key="MessageBox_Bakaverse_Lobby_KickUser_Content">作为人类高质量大厅所有者，您接下来的操作会导致此用户被踢出大厅。&#xD;&#xA;若其当前正在进行 Minecraft 本地局域网联机或文件传输，这些连接也同样会被断开。</Item>
+			<Item Key="MessageBox_Bakaverse_Lobby_KickUser_Content">As a human-high-quality lobby host, the operate you are doing next will cause this user be kicked out. &#xD;&#xA;若其当前正在进行 Minecraft 本地局域网联机或文件传输，这些连接也同样会被断开。</Item>
 			<Item Key="MessageBox_Bakaverse_Lobby_KickUser_Tips">我晒干了沉默，悔得很冲动</Item>
 			<Item Key="MessageBox_Bakaverse_Lobby_KickUser_Btn_Ok">拿来吧你</Item>
 			<Item Key="MessageBox_Bakaverse_Lobby_KickUser_Btn_No">考虑一下</Item>
@@ -1773,8 +1773,8 @@
 			<Item Key="ThemeTipInstallTitle">这真是令人感到不愉快</Item>
 			<Item Key="ThemeTipInstallSubtitle">我发誓，这里干净的连个主题都没有，您为何不尝试来添加几个？</Item>
 			<Item Key="ThemeCustomMode">主题自定义模式</Item>
-			<Item Key="ThemeNightMode">夜间模式</Item>
-			<Item Key="ThemeBackground">背景图片</Item>
+			<Item Key="ThemeNightMode">Night Mode</Item>
+			<Item Key="ThemeBackground">Background Picture</Item>
 			<Item Key="ThemeMenuOpenSource">查看主题文件</Item>
 
 			<Item Key="TapToSee">Tap to see</Item>
@@ -1782,18 +1782,18 @@
 			<Item Key="MenuRefresh">Refresh</Item>
 			<Item Key="MenuMore">More...</Item>
 
-			<Item Key="Minecraft_Dimension_Overworld">主世界</Item>
-			<Item Key="Minecraft_Dimension_Nether">下界</Item>
-			<Item Key="Minecraft_Dimension_TheEnd">末路之地</Item>
+			<Item Key="Minecraft_Dimension_Overworld">Overworld</Item>
+			<Item Key="Minecraft_Dimension_Nether">Nether</Item>
+			<Item Key="Minecraft_Dimension_TheEnd">The End</Item>
 
-			<Item Key="Minecraft_Weather_Clear">天气晴朗</Item>
-			<Item Key="Minecraft_Weather_Thunderstorm">雷雨交加</Item>
-			<Item Key="Minecraft_Weather_Rain">细雨如丝</Item>
+			<Item Key="Minecraft_Weather_Clear">Clear</Item>
+			<Item Key="Minecraft_Weather_Thunderstorm">ThunderStorm</Item>
+			<Item Key="Minecraft_Weather_Rain">Rain</Item>
 
-			<Item Key="Minecraft_PlayerHealth_Healthy">健康 - 进展顺利</Item>
-			<Item Key="Minecraft_PlayerHealth_Injured">受伤 - 情况不妙</Item>
-			<Item Key="Minecraft_PlayerHealth_BadlyInjured">重伤 - 艰难求生</Item>
-			<Item Key="Minecraft_PlayerHealth_Dead">身故 - 等待浴火重生</Item>
+			<Item Key="Minecraft_PlayerHealth_Healthy">Healthy - Going Well</Item>
+			<Item Key="Minecraft_PlayerHealth_Injured">Hurt - Not So Well</Item>
+			<Item Key="Minecraft_PlayerHealth_BadlyInjured">Badly Hurt - Working to be Alive</Item>
+			<Item Key="Minecraft_PlayerHealth_Dead">Dead - Waiting for the Respawn</Item>
 
 			<Item Key="Minecraft_DefaultPlayer_Steve">Steve</Item>
 			<Item Key="Minecraft_DefaultPlayer_Alex">Alex</Item>
