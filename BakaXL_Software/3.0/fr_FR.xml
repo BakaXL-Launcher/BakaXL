@@ -221,7 +221,7 @@
 			<Item Key="Core_HaveRun">Temps de jeu</Item>
 			<Item Key="Core_InstallTime">Installé à</Item>
 			<Item Key="Core_NeverRun">Jamais joué</Item>
-			<Item Key="Core_RecentRun">最近运行于</Item>
+			<Item Key="Core_RecentRun">Récemment joué</Item>
 			<Item Key="Core_Default_Description">Ce Noyau est trop fatigué de se présenter</Item>
 
 			<Item Key="HomeWelcome">Bienvenue</Item>
@@ -252,7 +252,7 @@
 			<Item Key="HomeAchievements">Trophées</Item>
 			<Item Key="HomePackTool">Pack de mods [\n] Importer/Exporter</Item>
 			<Item Key="HomePackToolName">Outil de Pack de mods</Item>
-			<Item Key="HomeBakaverse">领域/联机大厅</Item>
+			<Item Key="HomeBakaverse">Domaine / Multijoueurs</Item>
 
 
 			<Item Key="BakaXL.Pages.PageHome">Page d'accueil</Item>
@@ -262,7 +262,7 @@
 			<Item Key="BakaXL.Pages.PageTips">Nouvelles</Item>
 			<Item Key="BakaXL.Pages.PagePlaza">Place Baka</Item>
 			<Item Key="BakaXL.Pages.PageAddGameCore">Créer un Noyau</Item>
-			<Item Key="BakaXL.Pages.PageCrashReport">游戏错误追踪器</Item>
+			<Item Key="BakaXL.Pages.PageCrashReport">Système de suivi des erreurs</Item>
 
 			<Item Key="Minecraft_AuthMode_Offline">Mode Hors-ligne</Item>
 			<Item Key="Minecraft_AuthMode_Online">Mode En ligne(Mojang)</Item>
@@ -340,12 +340,13 @@
 			<Item Key="Guide_Page_Language_Tips">Choisissez la langue qui vous convient.</Item>
 
 			<Item Key="Guide_Page_DisplayMode_Subtitle">Affichage</Item>
-			<Item Key="Guide_Page_DisplayMode_Tips">Vous pouvez la modifier à tout moment dans&#xA;&quot;Réglages - Accessibilité.&quot;</Item>
+			<Item Key="Guide_Page_DisplayMode_Tips">Vous pouvez modifier le mode d'affichage&#xA;à tout moment dans&quot;Réglages - Accessibilité.&quot;</Item>
 
 			<Item Key="Guide_Page_DisplayMode_Standard_Tips">Le menu démarrer et les tuiles&#xD;&#xA;ne seront pas disposés par défaut.</Item>
 			<Item Key="Guide_Page_DisplayMode_Traditional_Tips">Le menu démarrer et les tuiles&#xD;&#xA;seront toujours disposés.</Item>
 
-			<Item Key="Guide_Page_Audio_Tips">BakaXL peut diffuser de la musique ou des effets sonores lors de l'utilisation de certaines fonctionnalités ou thèmes.</Item>
+			<Item Key="Guide_Page_Audio_Tips">BakaXL peut diffuser de la musique ou des effets&#xD;&#xA;sonores lors de l'utilisation de&#xD;&#xA;certaines fonctionnalités ou thèmes.</Item>
+			
 
 			<Item Key="Guide_Page_Audio_Off_Tips">BakaXL sera silencieux.</Item>
 			<Item Key="Guide_Page_Audio_On_Tips">BakaXL diffuser du de la musique ou des effets sonores selon le circonstance.</Item>
@@ -355,7 +356,7 @@
 			<Item Key="Guide_Page_QuickSet_Subtitle">Démarrage rapide.</Item>
 			<Item Key="Guide_Page_QuickSet_Tips">Les paramètres seront à tout moment accessibles dans&#xA;&quot;Réglages.&quot;</Item>
 
-			<Item Key="Guide_Page_QuickSet_Title">BakaXL peut configurer certaines paramètres automatiquement</Item>
+			<Item Key="Guide_Page_QuickSet_Title">BakaXL peut configurer certaines paramètres pour vous.</Item>
 			<Item Key="Guide_Page_QuickSet_Manual">Configuration manuelle</Item>
 			<Item Key="Guide_Page_QuickSet_QuickSet">Configuration automatique</Item>
 			<Item Key="Guide_Page_QuickSet_AboutQuickSet">Connaître plus sur le Démarrage rapide</Item>
@@ -368,15 +369,15 @@
 			<Item Key="Guide_Page_Java_NotFound">BakaXL n'a pas trouvé de JVM</Item>
 			<Item Key="Guide_Page_Java_NeedTips">Vous devez choir une JVM pour Minecraft</Item>
 			<Item Key="Guide_Page_Java_GetJava">Obtenir Java</Item>
-			<Item Key="Guide_Page_Java_GetLatestJava">Obtenir plus récente versoion de Java</Item>
+			<Item Key="Guide_Page_Java_GetLatestJava">Obtenir la plus récente versoion de Java</Item>
 			<Item Key="Guide_Page_Java_Rescan">Laisser BakaXL chercher Java automatiquement</Item>
 			<Item Key="Guide_Page_Java_ManualLocate">Localiser le chemin d'accès de Java</Item>
 
 			<Item Key="Guide_Page_Memory_Subtitle">La mémoire vive</Item>
-			<Item Key="Guide_Page_Memory_Tips">Il est recommandé de laisser 1024 MB de mémoire vive pour Minecraft.</Item>
+			<Item Key="Guide_Page_Memory_Tips">Il est recommandé de laisser&#xD;&#xA;1024 MB de mémoire vive pour Minecraft.</Item>
 
 			<Item Key="Guide_Page_Profile_Title">Créez un profil à vous.</Item>
-			<Item Key="Guide_Page_Profile_Tips">Votre Compte Minecraft sera stocké dans ce profil.&#xD;&#xA;Votres ami(e)s qui jouent avec vous seront capable&#xD;&#xA;de voir votre nom et avatar dans leur BakaXL,&#xD;&#xA;si vous vous êtes connecté(e) sur votre Compte BakaXL.</Item>
+			<Item Key="Guide_Page_Profile_Tips">Votre Compte Minecraft sera stocké dans ce profil.&#xD;&#xA;si vous vous êtes connecté(e) sur votre Compte BakaXL,&#xD;&#xA;votres ami(e)s qui jouent avec vous seront capable&#xD;&#xA;de voir votre nom et avatar dans leur BakaXL.</Item>
 
 			<Item Key="Guide_Page_ProfileFull_Subtitle">Le nombre de profils est à son maximum.</Item>
 			<Item Key="Guide_Page_ProfileFull_Tips">Vous pouvez gérer les profils aux &quot;Réglages de BakaXL.&quot;</Item>
@@ -384,7 +385,7 @@
 			<Item Key="Guide_Page_ProfileFull_UseCurrent_Tips">Le nombre de profils que cette appareil peut stocké est à son maximum.</Item>
 
 			<Item Key="Guide_Page_ProfileCreate_Subtitle">Créer un profil</Item>
-			<Item Key="Guide_Page_ProfileCreate_Tips">BakaXL stocke les données 使用符合业界标准的加密方式存储您的信息</Item>
+			<Item Key="Guide_Page_ProfileCreate_Tips">BakaXL stocke les données avec 使用符合业界标准的加密方式存储您的信息</Item>
 			<Item Key="Guide_Page_ProfileCreate_EnterUsername">Inscrire le nom du profil</Item>
 			<Item Key="Guide_Page_ProfileCreate_FogotPassword">Récupérer le mot de passe</Item>
 			<Item Key="Guide_Page_ProfileCreate_BuyMinecraft">Acheter Minecraft</Item>
@@ -397,34 +398,34 @@
 			<Item Key="Guide_Page_ProfileReady_Subtitle">C'est prét!</Item>
 			<Item Key="Guide_Page_ProfileReady_Tips">Vous pouvez créer plus de profils aux &quot;Réglages de BakaXL.&quot;</Item>
 			<Item Key="Guide_Page_ProfileReady_Updated">Nous avons déjà effectué&#xD;&#xA;la mise à jour de votre compte.</Item>
-			<Item Key="Guide_Page_ProfileReady_YourNewProfile">Ça c'est votre nouveau profil!</Item>
+			<Item Key="Guide_Page_ProfileReady_YourNewProfile">Ça, c'est votre nouveau profil!</Item>
 			<Item Key="Guide_Page_ProfileReady_SetupAvatar">Modifier l'avatar de votre profil.</Item>
 
-			<Item Key="Guide_Page_ProfileAuthLib_Subtitle">创建整合包所需的凭据档案</Item>
-			<Item Key="Guide_Page_ProfileAuthLib_Tips">您的整合包提供者要求您通过特定的第三方账户验证</Item>
-			<Item Key="Guide_Page_ProfileAuthLib_GoRegister">点击前往注册</Item>
+			<Item Key="Guide_Page_ProfileAuthLib_Subtitle">Créer le profil nécessaire pour ce pack de mods.</Item>
+			<Item Key="Guide_Page_ProfileAuthLib_Tips">Ce pack de mods vous demande l'authentification d'un serveur externe.</Item>
+			<Item Key="Guide_Page_ProfileAuthLib_GoRegister">S'inscrire</Item>
 			<Item Key="Guide_Page_ProfileAuthLib_CreateTitle">创建 &quot;{0}&quot; 所需的凭据</Item>
-			<Item Key="Guide_Page_ProfileAuthLib_CreateSubTitle">您当前所使用的整合包要求 BakaXL 创建一个由 &quot;{0}&quot;&#xD;&#xA;提供验证服务的第三方 Minecraft 账户档案。</Item>
-			<Item Key="Guide_Page_ProfileAuthLib_CreateTips">BakaXL 无法保证此验证服务器的安全性。&#xD;&#xA;请参阅此验证服务提供商的隐私政策以了解其如何保护您的用户数据。&#xD;&#xA;验证服务器地址: {0}</Item>
-			<Item Key="Guide_Page_ProfileAuthLib_Skip">跳过该步骤并于稍后自行创建</Item>
+			<Item Key="Guide_Page_ProfileAuthLib_CreateSubTitle">Ce pack de mods demande BakaXL de créer un profil authentifié par&#xD;&#xA;&quot;{0}&quot;</Item>
+			<Item Key="Guide_Page_ProfileAuthLib_CreateTips">BakaXL ne peut pas garantir la sécurité ces serveurs.&#xD;&#xA;Allez sur leurs sites pour savoir plus sur&#xD;&#xA;leurs règles de confidentialité,&#xD;&#xA;L'addresse de serveur: {0}</Item>
+			<Item Key="Guide_Page_ProfileAuthLib_Skip">Sauter cette étape est créer le profil après</Item>
 
 			<Item Key="Guide_Page_Finished_Title">Configuration terminée!</Item>
-			<Item Key="Guide_Page_Finished_Content">Cliquer le bouton en bas à gauche,&#xD;&#xA;ou appuyez sur la touche de début de votre clavier,&#xD;&#xA;pour retourner à la page d'accueil.</Item>
+			<Item Key="Guide_Page_Finished_Content">Cliquer le bouton en haut à gauche,&#xD;&#xA;ou appuyez sur la touche de début de votre clavier,&#xD;&#xA;pour retourner à la page d'accueil.</Item>
 
-			<Item Key="Bakaverse_Title">Le domaine de &quot;{0}&quot;</Item>
+			<Item Key="Bakaverse_Title">Le Domaine de &quot;{0}&quot;</Item>
 			<Item Key="Bakaverse_Account_Title">Mon compte</Item>
 			<Item Key="Bakaverse_FriendsList_Title">Mes ami(e)s</Item>
 			<Item Key="Bakaverse_AddFriends_Title">Ajouter un(e) ami(e)</Item>
 			<Item Key="Bakaverse_NotLogin">Vous n'êtes pas connecté(e)</Item>
 			<Item Key="Bakaverse_CheckAfterLogin">Connectez-vous pour voir votre ID.</Item>
 
-			<Item Key="Bakaverse_UserInfo">账户信息</Item>
+			<Item Key="Bakaverse_UserInfo">Information du compte</Item>
 
-			<Item Key="Bakaverse_NeedLogin_BeforeUse">在使用此功能之前</Item>
-			<Item Key="Bakaverse_NeedLogin_LoginRequired">需要登录</Item>
-			<Item Key="Bakaverse_NeedLogin_Method">前往 &quot;BakaXL本体设置 - 账户与档案&quot; 登录您的BakaXL Account</Item>
+			<Item Key="Bakaverse_NeedLogin_BeforeUse">Pour utiliser cette fonctionnalité.</Item>
+			<Item Key="Bakaverse_NeedLogin_LoginRequired">Il faut que vous vous connectez.</Item>
+			<Item Key="Bakaverse_NeedLogin_Method">Allez &quot;Réglages de BakaXL - Comptes et profils&quot; pour vous connecter à votre Compte BakaXL.</Item>
 
-			<Item Key="Bakaverse_CurrentUser_Tips">您的好友可以通过您的 BakaXL Network ID 搜索到您的账户。&#xD;&#xA;在告知好友您的 BakaXL Network ID 时，请同时告知用户名后面的标签。</Item>
+			<Item Key="Bakaverse_CurrentUser_Tips">Vos ami(e)s peuvent vous retrouver avec votre ID du Réseau BakaXL&#xD;&#xA;Votre ID comporte les nombres après "#".</Item>
 
 			<Item Key="Bakaverse_UserInfo_VerificationAndPlan">认证与计划</Item>
 			<Item Key="Bakaverse_UserInfo_VerificationAndPlan_Tips">若您加入了某项BakaXL计划或经过了BakaXL认证，他们将显示在此处。</Item>
