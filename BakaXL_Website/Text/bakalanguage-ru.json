@@ -1,0 +1,60 @@
+{
+    "title": "BakaXL - Новый способ запуска своего Minecraft",
+	"News_Title" : "Новости!",
+	"Footer_Mobile": "Если вы используете смарт-устройство для посещения сайта BakaXL, некоторые функции будут отключены.",
+	"MobileImage_1_Img": {
+        "src": "./assets/img/en/top/bnr-switchToChinese.png",
+		"alt": "Переключиться на китайский"
+    },
+	"MobileImage_1_Link": {
+        "href": "http://www.BakaXL.com/?lang=zh-CN"
+    },
+	"MobileImage_2_Img": {
+        "src": "./assets/img/en/top/bnr-translator.png",
+		"alt": "Проект переводчиков BakaXL"
+    },
+	"MobileImage_2_Link": {
+        "src": "javascript:void(0)"
+    },
+    "Download_Bac": {
+        "src": "./assets/img/en/top/img_main.png"
+    },
+    "Download_Now": {
+        "src": "./assets/img/en/top/text_catch01_6.png",
+		"alt": "Скачать"
+    },
+	"News_Title_Img": {
+        "src": "./assets/img/en/top/title_topics.png"
+    },
+	"News1_Img": {
+        "src": "./assets/img/common/img_noimage.jpg"
+    },
+    "News_1_Title": "Новый сайт BakaXL уже здесь!",
+    "News_1_Date": "9/9/2017",
+    "News_1_Desc": "Добро пожаловать на официальный сайт BakaXL!",
+    "News_1_Link": {
+        "href": "javascript:void(0)"
+    },
+	"News2_Img": {
+        "src": "./assets/img/common/img_noimage.jpg"
+    },
+    "News_2_Title": "Попробуйте BakaXL версии 2.2.7",
+    "News_2_Date": "9/9/2017",
+    "News_2_Desc": "Новая версия BakaXL(2.2.7) уже доступна! Попробуйте прямо сейчас!",
+    "News_2_Link": {
+        "href": "javascript:void(0)"
+    },
+	"News3_Img": {
+        "src": "./assets/img/common/img_noimage.jpg"
+    },
+    "News_3_Title": "Попробуйте систему RGB BakaTinge",
+    "News_3_Date": "9/9/2017",
+    "News_3_Desc": "Система BakaTinge может позволить BakaXL управлять вашей игровой RGB системой, на подобе клавиатуры и мыши Razer или мыши Logitech.",
+    "News_3_Link": {
+        "href": "javascript:void(0)"
+    },
+	"Protocol_Title_Unavaliable": "Протокол BakaXL недоступен",
+	"Protocol_Content_Unavaliable": "Протокол BakaXL в настоящее время недоступен, причина может быть в следующем<br /><br />1. Этот ресурс недоступен в BakaPlaza<br />2. Протокол BakaXL был отключен",
+	"Protocol_Title": "BakaXL обработает ваш запрос",
+	"Protocol_Content": "BakaXL откроет и обработает ваш запрос.<br /><br />BakaXL будет автоматически открываться, если вы включите функцию 'Протокол BakaXL'.<br />Если "Протокол BakaXL" отключен, вам необходимо открывать BakaXL вручную."
+}
