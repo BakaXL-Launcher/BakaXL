@@ -1,7 +1,7 @@
 {
     "title": "BakaXL - Новый способ запуска своего Minecraft",
 	"News_Title" : "Новости!",
-	"Footer_Mobile": "Если вы используете смарт-устройство для посещения сайта BakaXL, некоторые функции будут отключены.",
+	"Footer_Mobile": "Если вы используете мобильную версию сайта BakaXL, некоторые функции будут отключены.",
 	"MobileImage_1_Img": {
         "src": "./assets/img/en/top/bnr-switchToChinese.png",
 		"alt": "Переключиться на китайский"
