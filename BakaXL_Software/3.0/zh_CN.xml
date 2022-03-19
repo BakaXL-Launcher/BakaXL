@@ -132,6 +132,9 @@
 			<Item Key="CoreSelector_CoreError_NoJsonFile">异常 - Json文件缺失或文件名错误</Item>
 			<Item Key="CoreSelector_CoreError_NotCompatible">错误 - 损毁、不受兼容的核心或整合包</Item>
 
+			<Item Key="CoreSelector_CoreProtocolMismatch_Title">这是非标准的 Minecraft 核心。</Item>
+			<Item Key="CoreSelector_CoreProtocolMismatch_Tooltip">这个核心由 HMCL 启动器创建，包含了官方启动器无法识别的参数。&#xD;&#xA;BakaXL 可尝试启动此核心，但部分功能、Mod 加载或游戏体验可能不会按照预期方式运行。</Item>
+
 			<Item Key="CoreSelector_GetCore_Title">添加新的 Minecraft 核心 或 整合包</Item>
 			
 			<Item Key="CoreManagement_Title">高级核心管理</Item>
@@ -266,7 +269,7 @@
 			<Item Key="BakaXL.Pages.PageGuide">设置向导</Item>
 			<Item Key="BakaXL.Pages.PageTips">BakaXL贴士</Item>
 			<Item Key="BakaXL.Pages.PagePlaza">笨蛋广场</Item>
-			<Item Key="BakaXL.Pages.PageAddGameCore">添加核心向导</Item>
+			<Item Key="BakaXL.Pages.PageAddGameCore">核心添加向导</Item>
 			<Item Key="BakaXL.Pages.PageCrashReport">游戏错误追踪器</Item>
 
 			<Item Key="Minecraft_AuthMode_Offline">离线模式</Item>
@@ -302,6 +305,11 @@
 			<Item Key="Preparing">正在准备</Item>
 			<Item Key="Refresh">刷新</Item>
 			<Item Key="ReTry">再试一次</Item>
+
+			<Item Key="Unset">尚未设置</Item>
+			<Item Key="NoVersion">无可用版本</Item>
+			<Item Key="InCompatible">不兼容</Item>
+			<Item Key="Unsupport">尚不支持</Item>
 
 			<Item Key="Standard">标准</Item>
 			<Item Key="Traditional">传统</Item>
@@ -418,6 +426,9 @@
 
 			<Item Key="Guide_Page_Finished_Title">设置向导现已完成！</Item>
 			<Item Key="Guide_Page_Finished_Content">按下左上角的BakaXL主菜单按钮，亦或是键盘&#xD;&#xA;上的HOME按键，以结束设置向导并进入主界面。</Item>
+
+			<Item Key="Guide_Page_Finished_AddGameCore_Title">需要继续安装新的 Minecraft 核心吗？</Item>
+			<Item Key="Guide_Page_Finished_AddGameCore_Tips">点击此处，安装 Minecraft 核心。</Item>
 
 			<Item Key="Bakaverse_Title">&quot;{0}&quot; 的领域</Item>
 			<Item Key="Bakaverse_Account_Title">我的账户</Item>
@@ -670,10 +681,10 @@
 			<Item Key="BakaPlaza_MinecraftInstaller_ListBox_None_Title">哦豁，乜都冇</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_ListBox_None_Subtitle">BakaXL 无法找到合适的核心</Item>
 
-			<Item Key="BakaPlaza_MinecraftInstaller_CoreDesc_Default">从笨蛋广场下载 - Minecraft {0} 原版核心</Item>
-			<Item Key="BakaPlaza_MinecraftInstaller_CoreDesc_Forge">从笨蛋广场下载 - 带有 Forge {0} 的 Minecraft {1} 核心</Item>
-			<Item Key="BakaPlaza_MinecraftInstaller_CoreDesc_Optifine">从笨蛋广场下载 - 带有 Optifine {0} 的 Minecraft {1} 核心</Item>
-			<Item Key="BakaPlaza_MinecraftInstaller_CoreDesc_Fabric">从笨蛋广场下载 - 带有 Fabric {0} 的 Minecraft {1} 核心</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_CoreDesc_Default">通过 BakaXL 下载的 - Minecraft {0} 原版核心</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_CoreDesc_Forge">通过 BakaXL 下载的 - 带有 Forge {0} 的 Minecraft {1} 核心</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_CoreDesc_Optifine">通过 BakaXL 下载的 - 带有 Optifine {0} 的 Minecraft {1} 核心</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_CoreDesc_Fabric">通过 BakaXL 下载的 - 带有 Fabric {0} 的 Minecraft {1} 核心</Item>
 
 			<Item Key="BakaPlaza_MinecraftInstaller_Steps_Prepare">正在准备</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Steps_Successful">成功</Item>
@@ -1568,6 +1579,14 @@
 			<Item Key="MessageBox_Download_LaunchMode_Tips">启用发射模式会自动修改BakaXL的部分设置，并停用下载状态显示。</Item>
 			<Item Key="MessageBox_Download_LaunchMode_Btn_Yes">冲鸭！</Item>
 			<Item Key="MessageBox_Download_LaunchMode_Btn_No">唔，我想当个乖孩子</Item>
+
+			<Item Key="MessageBox_CoreInstall_CoreFolderExist_Title">该核心文件夹已存在</Item>
+			<Item Key="MessageBox_CoreInstall_CoreFolderExist_Content">BakaXL 检测到使用 {0} 作为名字的核心已经存在。&#xD;&#xA;请更换一个名字，或通过 &quot;手动安装核心&quot; 覆盖此核心内容。</Item>
+			<Item Key="MessageBox_CoreInstall_CoreFolderExist_Tips">覆盖安装不会覆盖您的存档等数据</Item>
+
+			<Item Key="MessageBox_CoreInstall_CoreNameEmpty_Title">核心名称为空</Item>
+			<Item Key="MessageBox_CoreInstall_CoreNameEmpty_Content">您还没有为这个核心设定一个显示名称。&#xD;&#xA;这恐怕不太好吧…</Item>
+			<Item Key="MessageBox_CoreInstall_CoreNameEmpty_Tips">(此时，一位软件测试工程师走进了酒吧…)</Item>
 			
 			<Item Key="MessageBox_MojangAccount_FogotPassword_Title">找回您的Mojang账户密码</Item>
 			<Item Key="MessageBox_MojangAccount_FogotPassword_Content">若您无法想起您的Mojang账户密码，不要着急，请访问Mojang账户的官网。&#xD;&#xA;&#xD;&#xA;在密码重设(Reset Password)页面填入您Mojang账户的电子邮件地址，并点击 "请求密码重置"(Request password reset) 按钮。&#xD;&#xA;&#xD;&#xA;在那之后，Mojang将会向您发送电子邮件帮助您重置账户的密码。</Item>
@@ -1728,11 +1747,32 @@
 			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Optifine_DownloadOrDamage_Solution">尝试安装的 Optifine 版本：Optifine-{0}-{1}&#xD;&#xA;&#xD;&#xA;造成此问题的原因可能是无法下载文件，或是解压时出现意外。&#xD;&#xA;首先，请检查您的互联网连接，确保计算机与下载源之间的网络通信是正常的。&#xD;&#xA;其次，尝试以管理员身份运行 BakaXL，并再试一次安装。&#xD;&#xA;&#xD;&#xA;若此问题持续出现，您可以向 BakaXL 开发团队汇报此问题。</Item>
 			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Optifine_NotSupported_Solution">尝试安装的 Optifine 版本：Optifine-{0}-{1}&#xD;&#xA;&#xD;&#xA;通常，这可能由于下载的文件受损、访问本地文件权限不足，亦或是此版本的 Optifine 不受支持造成的。&#xD;&#xA;首先，尝试以管理员身份运行 BakaXL，再试一次安装。&#xD;&#xA;其次，检查此笨蛋罐头中的异常信息，若其中明确说明了该版本的 Optifine 不受支持，请将此笨蛋罐头汇报至 BakaXL 开发团队。&#xD;&#xA;&#xD;&#xA;若此问题持续出现，您可以向 BakaXL 开发团队汇报此问题。</Item>
 
+			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_AutoInstaller_Title">ULauncherCore汇报在准备游戏版本时出现异常</Item>
+			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_AutoInstaller_Solution">通常，出现此问题是因为ULauncherCore无法正确准备特定的Minecraft版本。&#xD;&#xA;请检查您的互联网连接，确保计算机与下载源之间的网络通信是正常的。&#xD;&#xA;&#xD;&#xA;您可以前往 BakaXL本体设置 - 下载 并切换 大陆地区使用第三方下载源 开关的状态后再试一次。&#xD;&#xA;若此问题持续出现，您可以向BakaXL开发团队汇报此问题。</Item>
+
 			<Item Key="AddGameCore_Title">添加新的 Minecraft 本体 或 整合包</Item>
 			<Item Key="AddGameCore_Tips">若您不了解如何导入或安装整合包，推荐您直接安装 Minecraft 核心</Item>
 			<Item Key="AddGameCore_Btn_PlazaInstall">通过笨蛋广场直接安装 Minecraft 核心</Item>
 			<Item Key="AddGameCore_Btn_ImportExist">导入其他目录下的 Minecraft</Item>
 			<Item Key="AddGameCore_Btn_InstallModPack">安装 MCBBS 格式整合包</Item>
+
+			<Item Key="AddGameCore_CoreInstaller_Title">自动安装核心</Item>
+			<Item Key="AddGameCore_CoreInstaller_Minecraft_VerstionType">版本分类</Item>
+			<Item Key="AddGameCore_CoreInstaller_CoreListTitle">选择一个 {0} 版本</Item>
+			<Item Key="AddGameCore_CoreInstaller_RemoveAddon">移除该组件并返回</Item>
+
+			<Item Key="AddGameCore_CoreInstaller_CoreAddonConfig_Title">了解你将要安装的核心</Item>
+			<Item Key="AddGameCore_CoreInstaller_CoreAddonConfig_Tips">BakaXL 将显示当前选择的 Minecraft 版本可以安装的附加组件。&#xD;&#xA;若某个组件不兼容与当前版本或其他组件，它将被禁用。</Item>
+
+			<Item Key="AddGameCore_CoreInstaller_CoreConfig_Title">核心配置文件</Item>
+			<Item Key="AddGameCore_CoreInstaller_CoreConfig_Tips">BakaXL 在安装 Minecraft 期间，请保持互联网连接。&#xD;&#xA;若您当前正在使用计费互联网连接，安装过程会产生数据流量费用。</Item>
+
+			<Item Key="AddGameCore_CoreInstaller_Optifine_Notice_ForgeMod">当使用此安装配置时，BakaXL 会将 OptiFine 以模组的形式安装。</Item>
+			<Item Key="AddGameCore_CoreInstaller_Optifine_Notice_FabricMod">当使用此安装配置时，BakaXL 会将 OptiFine 以模组的形式安装。&#xD;&#xA;若要在 Fabric 中使用 Optifine，则需要额外自行安装 OptiFabric。</Item>
+			
+			<Item Key="AddGameCore_ManualCoreInstaller_Title">手动安装核心</Item>
+			<Item Key="AddGameCore_ModPackImporter_Title">导入整合包</Item>
+			<Item Key="AddGameCore_AssetsInstall_Title">下载模组 / 整合包</Item>
 
 			<Item Key="AddGameCore_CurseModPack_RemoveSoon">为了保护 Curse 整合包作者及 Mod 作者的利益。&#xD;&#xA;我们现已停止兼容 CurseForge 格式整合包的安装。</Item>
 
