@@ -1,0 +1,1913 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Languages>
+	<Type>
+		<Key>ru_RU</Key>
+		<Name>Русский язык</Name>
+		<Author>vanja-san</Author>
+	</Type>
+	<Language Key="ru_RU">
+		<Items>
+			<Item Key="BakaXLTitle">BakaXL: Лаунчер Minecraft</Item>
+			
+			<Item Key="NoUserName">Никнейм не установлен</Item>
+			
+			<Item Key="Loading">Загрузка</Item>
+			<Item Key="PleaseWait">Подождите...</Item>
+			<Item Key="LoadingPlugins">Плагины</Item>
+
+			<Item Key="Window_ReportIssue_Title">Обратная связь</Item>
+			<Item Key="Window_ReportIssue_Tips">Посетите официальный репозиторий BakaXL на Github для отправки сообщений о проблемах</Item>
+			
+			<Item Key="Window_GetHelp_Title">Помощь</Item>
+			<Item Key="Window_GetHelp_Tips">Столкнулись с проблемами? Не знаете как использовать? Посетите нашу страницу помощи</Item>
+
+			<Item Key="Window_HomeMenu_Btn">Главная</Item>
+
+			<Item Key="LaunchBar_Hello">Привет, {0}!</Item>
+			<Item Key="LaunchBar_Launch">Запустить игру</Item>
+			<Item Key="LaunchBar_NoCore">Ядро не выбрано</Item>
+
+			<Item Key="LaunchBar_SelectCore_Animation_Title">Как выбрать ядро игры</Item>
+			<Item Key="LaunchBar_SelectCore_Animation_Click">Кликните и удерживайте кнопку «Запустить игру»</Item>
+			<Item Key="LaunchBar_SelectCore_Animation_Drag">Перетащите вправо</Item>
+
+			<Item Key="LaunchBar_SelectCore_BtnTitle">Сменить ядро игры</Item>
+
+			<Item Key="LaunchBar_SelectCore_Title">Выбор ядра</Item>
+			<Item Key="LaunchBar_SelectCore_Management">Управление ядром</Item>
+			<Item Key="LaunchBar_SelectCore_Management_Tips">Выбирайте, адаптируйте и &#xD;&#xA;управляйте ядром своей игры</Item>
+			<Item Key="LaunchBar_SelectCore_DragEasterEgg">Перетащите сюда!</Item>
+
+			<Item Key="LaunchBar_LaunchBtn_Error_Title">Невозможно запустить игру</Item>
+			<Item Key="LaunchBar_LaunchBtn_Error_NoProfile">Профиль пользователя не установлен</Item>
+			<Item Key="LaunchBar_LaunchBtn_Error_NoCore">Ядро игры не установлено</Item>
+			<Item Key="LaunchBar_LaunchBtn_Error_NoCoreFolder">Папки ядра не существует</Item>
+			<Item Key="LaunchBar_LaunchBtn_Error_AuthError">Ошибка авторизации аккаунта</Item>
+			
+			<Item Key="LaunchBar_LaunchBtn_Error_UnknownError_Title">Возникла ошибка</Item>
+			<Item Key="LaunchBar_LaunchBtn_Error_UnknownError_Tips">Во время запуска произошла ошибка</Item>
+
+			<Item Key="LaunchBar_LaunchBtn_Launching_Title">Запуск...</Item>
+			<Item Key="LaunchBar_LaunchBtn_Launching_Tips">Игра скоро будет готова</Item>
+
+			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_CreateCore">Создание ядра запуска</Item>
+			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_CheckLib">Проверка библиотек</Item>
+			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_DownloadLib">Скачивание библиотеки {0}</Item>
+			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_CheckAssets">Проверка файлов assets</Item>
+			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_DownloadAssets">Скачивание файлов assets</Item>
+			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_GenParameter">Генерация параметров</Item>
+			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_CheckAuthlib">Проверка authlib-injector</Item>
+			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_CheckAuthlib_GetInfo">Получение информации о скачивании authlib-injector</Item>
+			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_CheckAuthlib_Download">Скачивание authlib-injector</Item>
+			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_CheckPlugin">Проверка плагина</Item>
+
+			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_DownloadJava">Скачивание {0} ({1} бит)</Item>
+			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_DownloadJava_Prepare">Получение списка Java</Item>
+			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_DownloadJava_Fetching">Создание задачи скачивания {0} ({1} бит)</Item>
+			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_DownloadJava_Finalizing">Установка необходимых {0} ({1} бит)</Item>
+
+			<Item Key="LaunchBar_LaunchBtn_Launching_Environment_JavaFullAuto">Выбор подходящей Java</Item>
+			<Item Key="LaunchBar_LaunchBtn_Launching_Environment_JavaNotExist">Путь Java изменился и переносится в другое место</Item>
+			<Item Key="LaunchBar_LaunchBtn_Launching_Environment_NewJavaFound">Лаунчер выбрал подходящую Java</Item>
+			<Item Key="LaunchBar_LaunchBtn_Launching_Environment_AwaitJavaDownloadRequest">Ожидание решения пользователя о скачивании Java</Item>
+			
+			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_CheckEnvironment">Режим запуска: Проверка и завершение создания среды Minecraft</Item>
+
+			<Item Key="LaunchBar_LaunchBtn_Launched_Title">Игра запущена</Item>
+			<Item Key="LaunchBar_LaunchBtn_Launched_Tips">В настоящее время запущена</Item>
+
+			<Item Key="LaunchBar_ToolTip_DownloadLib">Скачивание библиотеки &#xD;&#xA;Имя файла: {0} &#xD;&#xA;Путь: {1}</Item>
+
+			<Item Key="LaunchBar_Title_Launched">Игра была запущена {0}</Item>
+			<Item Key="LaunchBar_Title_AuthError">Ошибка авторизации: Неверное имя пользователя или пароль</Item>
+			<Item Key="LaunchBar_Title_AuthError_Unknown">Ошибка проверки: Неизвестная ошибка</Item>
+			<Item Key="LaunchBar_Title_AuthError_MojangTokenExpired">Ошибка авторизации: Информация об авторизации сеанса истекла. Войдите в аккаунт снова в настройках.</Item>
+			<Item Key="LaunchBar_Title_AuthError_AuthlibTokenExpired">Ошибка проверки: Информация о проверке профиля недействительна. Сбросьте профиль.</Item>
+			<Item Key="LaunchBar_Title_AuthError_MicrosoftLoginCanceled">Ошибка проверки: Вход в аккаунт Microsoft отменён пользователем</Item>
+			<Item Key="LaunchBar_Title_EnvironmentError_JavaNotFound">Ошибка проверки среды: Невозможно определить путь к Java</Item>
+			<Item Key="LaunchBar_Title_GameError_GetAssetsListFailed">Ошибка завершения ресурса: Невозможно получить список файлов assets из источника для скачивания</Item>
+			<Item Key="LaunchBar_Title_GameError_GetAuthlibFailed">Ошибка завершения ресурса: Невозможно загрузить authlib-injector</Item>
+			<Item Key="LaunchBar_Title_LaunchModeError_CheckGameFailed">Ошибка режима запуска: Ошибка проверки игры</Item>
+
+			<Item Key="UserSelector_Launch_Title">Какой пользователь будет использоваться для запуска игры?</Item>
+			<Item Key="UserSelector_Authlib_SelectProfile">У аккаунта несколько профилей, выберите один</Item>
+			<Item Key="UserSelector_Default_Title">Выберите аккаунт</Item>
+			<Item Key="UserSelector_AddProfile_Title">Добавить ещё один профиль Minecraft</Item>
+
+			<Item Key="UserProfile_ToolTip_Offline">Имя пользователя: {0} &#xD;&#xA;В этом профиле будет использоваться режим не в сети</Item>
+			<Item Key="UserProfile_ToolTip_Online">Имя пользователя: {0} &#xD;&#xA;Этот профиль будет авторизован через подлинный аккаунт Mojang.</Item>
+			<Item Key="UserProfile_ToolTip_Online_Microsoft">Имя пользователя: {0} &#xD;&#xA;Этот профиль будет авторизован через подлинный аккаунт Microsoft.</Item>
+			<Item Key="UserProfile_ToolTip_ThirParty_WithoutName">Имя пользователя: {0} &#xD;&#xA;Этот профиль будет использовать сторонний сервер авторизации аккаунта. &#xD;&#xA;Адрес сервера авторизации: {1}</Item>
+			<Item Key="UserProfile_ToolTip_ThirParty_WithName">Имя пользователя: {0} &#xD;&#xA;Этот профиль будет использовать сервер авторизации аккаунта, предоставленный {1}. &#xD;&#xA;Адрес сервера авторизации: {2}</Item>
+
+			<Item Key="HomeIdentifier_Screen_Home">Главная</Item>
+			<Item Key="HomeIdentifier_Screen_Menu">Пуск</Item>
+
+			<Item Key="CoreSelector_Title">Ядро</Item>
+			<Item Key="CoreSelector_SelectCore_Title">Выберите ядро</Item>
+			<Item Key="CoreSelector_DisplayMode">Отображение:</Item>
+
+			<Item Key="CoreSelector_Empty_Title">Пусто</Item>
+			<Item Key="CoreSelector_Empty_Tips">Тут ничего нет</Item>
+
+			<Item Key="CoreSelector_Loading_Title">Не волнуйся</Item>
+			<Item Key="CoreSelector_Loading_Tips">Ядра стоят в очереди</Item>
+			
+			<Item Key="CoreSelector_DisplayMode_All">Все</Item>
+			<Item Key="CoreSelector_DisplayMode_Favorite">Избранное</Item>
+			<Item Key="CoreSelector_DisplayMode_Vanilla">Только оригинальная версия</Item>
+			<Item Key="CoreSelector_DisplayMode_Forge">Только с Forge</Item>
+			<Item Key="CoreSelector_DisplayMode_Fabric">Только с Fabric</Item>
+			<Item Key="CoreSelector_DisplayMode_Liteloader">Только с Liteloader</Item>
+			<Item Key="CoreSelector_DisplayMode_Optifine">Только с Optifine</Item>
+			<Item Key="CoreSelector_DisplayMode_Other">Другое</Item>
+
+			<Item Key="CoreSelector_Requirement_Java_NoVersionNeeded">Без ограничения версии</Item>
+			<Item Key="CoreSelector_Type_Major">Официальная версия</Item>
+			<Item Key="CoreSelector_Type_Snapshot">Снапшот</Item>
+
+			<Item Key="CoreSelector_CoreError_JsonError">Проблема — файл Json неверен или не соответствует спецификации</Item>
+			<Item Key="CoreSelector_CoreError_NoinheritsFrom">Проблема - Отсутствуют зависимости для игрового ядра</Item>
+			<Item Key="CoreSelector_CoreError_NoJarFile">Проблема - Отсутствует Jar-файл, необходимый для запуска</Item>
+			<Item Key="CoreSelector_CoreError_NoJsonFile">Проблема - Отсутствует файл Json или неверное имя файла</Item>
+			<Item Key="CoreSelector_CoreError_NotCompatible">Проблема - Битое, несовместимое ядро или модпак</Item>
+
+			<Item Key="CoreSelector_CoreProtocolMismatch_Title">Это нестандартное ядро игры.</Item>
+			<Item Key="CoreSelector_CoreProtocolMismatch_Tooltip">Это ядро создаётся лаунчером HMCL и содержит параметры, не распознаваемые официальным лаунчером. &#xD;&#xA;Лаунчер попытается запустить это ядро, но некоторые функции, такие как скачивание модов или игровой процесс могут работать не так, как ожидается.</Item>
+
+			<Item Key="CoreSelector_GetCore_Title">Добавить новое ядро или модпак</Item>
+			
+			<Item Key="CoreManagement_Title">Расширенное управление ядром</Item>
+			<Item Key="CoreManagement_Publisher">Издатель: {0}</Item>
+			<Item Key="CoreManagement_Publisher_None">Издателя пока нет</Item>
+			<Item Key="CoreManagement_LastPlayed">Последний запуск: {0}</Item>
+			<Item Key="CoreManagement_LastPlayed_None">Не был запущен</Item>
+			
+			<Item Key="CoreManagement_Tips_Locked_MCVersion">Некоторые параметры недоступны из-за слишком низкой версии Minecraft.</Item>
+			<Item Key="CoreManagement_Tips_Locked_ModPack">Некоторые параметры недоступны, потому что они управляются вашим поставщиком модпака.</Item>
+			<Item Key="CoreManagement_Tips_Locked_Server">Некоторые параметры недоступны, потому что они управляются сервером, соответствующим этому модпаку.</Item>
+			
+			<Item Key="CoreManagement_Tips_Error_Json">Json-файл, используемый этим ядром, не является каноническим файлом идентификации ядра игры Minecraft.</Item>
+			<Item Key="CoreManagement_Tips_Error_Json_Broken">Json-файл для этого ядра повреждён и не может быть прочитан лаунчером.</Item>
+			<Item Key="CoreManagement_Tips_Error_Unsupported">Это ядро использует формат логотипа, характерный для других лаунчеров, который не может быть прочитан лаунчером.</Item>
+			<Item Key="CoreManagement_Tips_Error_Jar_Missing">Jar-файла, необходимого для этого ядра, не существует.</Item>
+			<Item Key="CoreManagement_Tips_Error_Inherits_Missing">Ядро Minecraft, от которого зависит это ядро, не существует.</Item>
+			
+			<Item Key="CoreManagement_Tips_Suggest_Reset">Для правильной работы ядро, его необходимо сбросить, перейдите в «Восстановление > Сбросить это ядро».</Item>
+			<Item Key="CoreManagement_Tips_Suggest_AutoRepare">Лаунчер может попробовать исправить это ядро, перейдите в «Восстановление > Автовосстановление».</Item>
+			<Item Key="CoreManagement_Tips_Suggest_Shader">Для загрузки файлов освещения игры, вам может понадобиться установить &quot;Optifine&quot;.</Item>
+			
+			<Item Key="CoreManagement_Tips_Warn_Mod_Unsupported">Это ядро не поддерживает установку модов.</Item>
+			
+			<Item Key="CoreManagement_Page_Info">Информация</Item>
+			<Item Key="CoreManagement_Page_Mod">Моды</Item>
+			<Item Key="CoreManagement_Page_ResourcePack">Пакеты текстур</Item>
+			<Item Key="CoreManagement_Page_ShaderPack">Шейдеры</Item>
+			<Item Key="CoreManagement_Page_Config">Конфиги игры/модов</Item>
+			<Item Key="CoreManagement_Page_Advance">Расширенный запуск</Item>
+			<Item Key="CoreManagement_Page_Update">Обновление</Item>
+			<Item Key="CoreManagement_Page_Restore">Восстановление / Удаление</Item>
+			<Item Key="CoreManagement_Page_Export">Экспорт</Item>
+			
+			<Item Key="CoreManagement_Info_Description">Описание</Item>
+			<Item Key="CoreManagement_Info_Description_None">Пусто, нет описания.</Item>
+			<Item Key="CoreManagement_Info_PlayTime">Время игры</Item>
+			<Item Key="CoreManagement_Info_PlayTime_Text">Это ядро было запущено {1} с момента последнего запуска {0}.</Item>
+			<Item Key="CoreManagement_Info_PlayTime_NeverPlayed_Text">Не запускалось с момента установки, что очень грустно.</Item>
+			<Item Key="CoreManagement_Info_PlayTime_Reset">Сбросить статистику</Item>
+			<Item Key="CoreManagement_Info_Version">Версия</Item>
+			<Item Key="CoreManagement_Info_Version_Text">Версия основной игры - Minecraft {0}</Item>
+			<Item Key="CoreManagement_Info_Links">Ссылки</Item>
+			<Item Key="CoreManagement_Info_Links_Tips">Если это ядро содержит ссылки из основных настроек издателя, &#xD;&#xA;лаунчер отобразит их здесь.</Item>
+			<Item Key="CoreManagement_Info_Links_HomePage">Посетите основную домашнюю страницу</Item>
+			<Item Key="CoreManagement_Info_Links_HomePage_Tips">Чтобы посетить домашнюю страницу этого основного издателя, нажмите здесь. &#xD;&#xA;Эта страница предоставлена этим основным издателем, а не BakaXL.</Item>
+			<Item Key="CoreManagement_Info_Links_PrivacyPolicy">Посетите основную политику конфиденциальности</Item>
+			<Item Key="CoreManagement_Info_Links_PrivacyPolicy_Tips">Чтобы узнать об этой основной политике конфиденциальности и о том, как она защищает вашу личную конфиденциальность, нажмите здесь. &#xD;&#xA;Эта страница предоставлена этим основным издателем, а не BakaXL.</Item>
+
+			<Item Key="CoreManagement_Java_Tip">Если вы хотите настроить это ядро индивидуально, не затрагивая другие ядра, установите его здесь. &#xD;&#xA;Если вы не знаете что делаете, ничего не трогайте.</Item>
+			
+			<Item Key="CoreManagement_Java_JavaDefaultTip">В настоящее время лаунчер использует глобальные настройки Java</Item>
+			<Item Key="CoreManagement_Java_JavaOverrideTip">Вы включили параметр индивидуальной Java для этого ядра</Item>
+			<Item Key="CoreManagement_Java_JavaOverrideBtn">Включить параметр индивидуальной Java для этого ядра</Item>
+			
+			<Item Key="CoreManagement_Java_MemoryDefaultTip">В настоящее время лаунчер использует глобальные настройки памяти</Item>
+			<Item Key="CoreManagement_Java_MemoryOverrideTip">Вы включили параметр индивидуальной памяти для этого ядра</Item>
+			<Item Key="CoreManagement_Java_MemoryOverrideBtn">Включить параметр индивидуальной памяти для этого ядра</Item>
+
+
+			<Item Key="CoreManagement_Mods_Title">Моды</Item>
+			
+			<Item Key="CoreManagement_Mods_Supported">Этот пакет ядра или модпак устанавливает поддерживаемый API.</Item>
+			<Item Key="CoreManagement_Mods_Unsupported">Похоже, что это ядро или модпак не использует API мода, который поддерживает загрузку модов.&#xD;&#xA;Если вы хотите использовать моды, сначала необходимо установить Forge, Fabric или другой API модов.&#xD;&#xA;&#xD;&#xA;Если вы считаете, что лаунчер ошибочно полагает, что в ядре или модпаке не установлен API модов, то свяжитесь с нами.</Item>
+			
+			<Item Key="CoreManagement_Mods_ModLoader_Scanning">Лаунчер поддерживает автоматическое сканирование и распознавание большинства установленных модов Minecraft. &#xD;&#xA;Некоторые моды могут не отображаться в списке, если лаунчер их не распознаёт.</Item>
+			<Item Key="CoreManagement_Mods_ModLoader_Forge">На этом ядре установлен Minecraft Forge. Версия: {0}</Item>
+			<Item Key="CoreManagement_Mods_ModLoader_Fabric">На этом ядре установлен Fabric Loader/API. Версия: {0}</Item>
+			<Item Key="CoreManagement_Mods_ModLoader_Liteloader">На этом ядре установлен Liteloader. Версия:{0}</Item>
+			<Item Key="CoreManagement_Mods_ModLoader_Optifine">На этом ядре установлен Optifine HD.</Item>
+
+			<Item Key="CoreManagement_Mods_ModList_Title">Находится в папке модов</Item>
+			<Item Key="CoreManagement_Mods_ModList_DargTips">Перетащите моды в эту область, чтобы быстро их установить.</Item>
+			<Item Key="CoreManagement_Mods_ModList_Desc">Лаунчер просканирует основную папку модов и отобразит все поддерживаемые файлы в этом списке.</Item>
+			<Item Key="CoreManagement_Mods_ModList_Scanning">Сканирование...</Item>
+			<Item Key="CoreManagement_Mods_ModList_NoMods">Лаунчер не нашёл никаких файлов модов в этом ядре или модпаке.</Item>
+
+			<Item Key="CoreManagement_Restore_Title">Восстановление</Item>
+			<Item Key="CoreManagement_Restore_Button">Сбросить это ядро</Item>
+			<Item Key="CoreManagement_Restore_Desc">Если Minecraft работает неправильно, сброс ядра может решить проблему. При сбросе лаунчер удалит библиотеки и json-файл ядра, а затем снова попытается получить эту версию из Baka Plaza.</Item>
+			<Item Key="CoreManagement_Restore_Delete_Title">Удаление ядра</Item>
+			<Item Key="CoreManagement_Restore_Delete_Button">Удалить это ядро из каталога игры</Item>
+			<Item Key="CoreManagement_Restore_Delete_Desc">Это приведёт к окончательному удалению ядра Minecraft из текущего каталога игры, при этом все моды, карты, скриншоты и другие данные будут удалены. &#xD;&#xA;&#xD;&#xA;Эта процедура необратима, действуйте с осторожностью.</Item>
+			<Item Key="CoreManagement_Restore_ClearCache_Title">Очистка нежелательных файлов</Item>
+			<Item Key="CoreManagement_Restore_ClearCache_Button">Очистить ненужные файлы из ядра</Item>
+			<Item Key="CoreManagement_Restore_ClearCache_Desc">Это позволит очистить все бесполезные ненужные файлы, файлы логов и тому подобное. Обычно эти файлы не влияют на вашу игру после очистки.</Item>
+
+			<Item Key="StartMenuTipper_Title">Свайпните вверх</Item>
+
+			<Item Key="Minute">мин.</Item>
+			<Item Key="Hour">ч.</Item>
+
+			<Item Key="Core_HaveRun">Кумулятивные пробеги</Item>
+			<Item Key="Core_InstallTime">Установлен</Item>
+			<Item Key="Core_NeverRun">Еще не запускалось</Item>
+			<Item Key="Core_RecentRun">Последний запуск</Item>
+			<Item Key="Core_Default_Description">Это ядро устало, поэтому оно не представляется.</Item>
+
+			<Item Key="HomeWelcome">Добро пожаловать</Item>
+			<Item Key="HomePreview">Предварительные версии не представляют окончательный опыт</Item>
+
+			<Item Key="Home_Title">Добро пожаловать в новый лаунчер BakaXL!</Item>
+			<Item Key="Home_SubTitle">Лаунчер теперь выглядит по-новому. Не то же самое, совсем другое!</Item>
+			<Item Key="Home_SubTitle_Insider">Предварительная версия BakaXL</Item>
+
+			<Item Key="Home_Task_NoTask">Очередь задач лаунчера >> Нет текущих задач и уведомлений</Item>
+			<Item Key="Home_Task_HasTask">Очередь задач лаунчера >> Задач: {0}. Уведомлений: {1}</Item>
+			
+			<Item Key="Home_StartMenu_Title">Пуск</Item>
+			<Item Key="Home_StartMenu_Tips">Нажмите на плитку ниже, чтобы использовать больше замечательных функций</Item>
+			
+			<Item Key="Tips">Советы</Item>
+
+			<Item Key="HomeHello">Привет</Item>
+			<Item Key="HomeNewFeature">Новые возможности</Item>
+			<Item Key="HomeTheme">Персонализация</Item>
+			<Item Key="HomePlugin">Плагины</Item>
+			<Item Key="HomeBakaPlaza">Baka Plaza</Item>
+			<Item Key="HomeLaunch">Запустить игру</Item>
+			<Item Key="HomeLoginMode">Режим авторизации</Item>
+			<Item Key="HomeOpenWebside">Официальный сайт</Item>
+			<Item Key="HomeGameCore">Переключение ядра</Item>
+			<Item Key="HomeSettings">Настройки</Item>
+			<Item Key="HomeAchievements">Достижения</Item>
+			<Item Key="HomePackTool">Модпак[\n]Инструменты импорта/экспорта</Item>
+			<Item Key="HomePackToolName">Инструменты модпака</Item>
+			<Item Key="HomeBakaverse">Аккаунт</Item>
+
+			<Item Key="BakaXL.Pages.PageHome">Интерфейс</Item>
+			<Item Key="BakaXL.Pages.PageDownload">Обновление</Item>
+			<Item Key="BakaXL.Pages.PageSettings">Настройки</Item>
+			<Item Key="BakaXL.Pages.PageGuide">Мастер настройки</Item>
+			<Item Key="BakaXL.Pages.PageTips">Советы</Item>
+			<Item Key="BakaXL.Pages.PagePlaza">Baka Plaza</Item>
+			<Item Key="BakaXL.Pages.PageAddGameCore">Мастер добавления ядра</Item>
+			<Item Key="BakaXL.Pages.PageCrashReport">Отслеживание ошибок в игре</Item>
+
+			<Item Key="Minecraft_AuthMode_Offline">Офлайн</Item>
+			<Item Key="Minecraft_AuthMode_Online">Подлинная авторизация (Mojang)</Item>
+			<Item Key="Minecraft_AuthMode_Online_Microsoft">Подлинная авторизация (Microsoft)</Item>
+			<Item Key="Minecraft_AuthMode_ThirdParty">Внешний вход (authlib-injector)</Item>
+
+			<Item Key="ProfileBtn_Offline">Офлайн</Item>
+			<Item Key="ProfileBtn_Online">Аккаунт Mojang</Item>
+			<Item Key="ProfileBtn_Microsoft">Аккаунт Microsoft</Item>
+			<Item Key="ProfileBtn_ThirdParty">Внешний вход</Item>
+			<Item Key="ProfileBtn_UnableToUse">Недоступно</Item>
+
+			<Item Key="Hide">Спрятано</Item>
+			<Item Key="Show">Показано</Item>
+			<Item Key="Cancel">Отмена</Item>
+			<Item Key="Off">Выкл</Item>
+			<Item Key="On">Вкл</Item>
+			<Item Key="Back">Назад</Item>
+			<Item Key="Continue">Продолжить</Item>
+			<Item Key="NextStep">Следующий шаг</Item>
+			<Item Key="PreviousStep">Предыдущий шаг</Item>
+			<Item Key="Unavailable">Недоступно</Item>
+			<Item Key="Login">Войти</Item>
+			<Item Key="LearnMore">Узнать больше</Item>
+			<Item Key="Edit">Изменить</Item>
+			<Item Key="UnableEdit">Невозможно изменить</Item>
+			<Item Key="Clear">Очистить</Item>
+			<Item Key="Favorite">В избранное</Item>
+			<Item Key="UnFavorite">Убрать из избранного</Item>
+			<Item Key="Standard">Стандартный</Item>
+			<Item Key="Traditional">Традиционный</Item>
+			<Item Key="Preparing">Подготовка</Item>
+			<Item Key="Refresh">Обновить</Item>
+			<Item Key="ReTry">Повторить</Item>
+
+			<Item Key="Unset">Еще не установлено</Item>
+			<Item Key="NoVersion">Нет доступной версии</Item>
+			<Item Key="InCompatible">Несовместимый</Item>
+			<Item Key="Unsupport">Пока не поддерживается</Item>
+
+			<Item Key="Standard">Стандартный</Item>
+			<Item Key="Traditional">Традиционный</Item>
+
+			<Item Key="FullScreen">На весь экран</Item>
+			<Item Key="Big">Большой</Item>
+			<Item Key="Middle">Средний</Item>
+			<Item Key="Small">Маленький</Item>
+			<Item Key="Default">По умолчанию</Item>
+			<Item Key="Custom">Пользовательский</Item>
+
+			<Item Key="Error_CodeIs">Код ошибки {0}, его можно использовать при необходимости.</Item>
+			
+			<Item Key="BakaXL_Update_Title">Лаунчер имеет новую версию {0}</Item>
+			<Item Key="BakaXL_Update_Info">Теперь доступна новая версия лаунчера. Обновите его, чтобы продолжить использовать! Этот процесс не займёт слишком много времени. Для скачивания обновления требуется подключение к Интернету, и с вас может взиматься плата за сетевые данные при использовании платного подключения к Интернету.</Item>
+			<Item Key="BakaXL_Update_Btn_Yes">Обновить</Item>
+			<Item Key="BakaXL_Update_Btn_OrYes">Или обновить</Item>
+
+			<Item Key="BakaXL_Update_NeedLogin_Title">Войдите в аккаунт BakaXL для продолжения обновления</Item>
+			<Item Key="BakaXL_Update_NeedLogin_Info">Чтобы получать обновления лаунчара из установленного в настоящее время канала инсайдеров, вам необходимо войти в BakaXL. &#xD;&#xA;Перейдите в «Настройки — Аккаунты и профили», чтобы войти в свой аккаунт BakaXL.</Item>
+
+			<Item Key="BakaXL_Update_NotInsider_Title">Необходимо быть участником инсайдерской программы</Item>
+			<Item Key="BakaXL_Update_NotInsider_Info">Упс, похоже, вы не являетесь зарегистрированным участником инсайдерской программы в данный момент. &#xD;&#xA;Чтобы выполнить обновление до этой версии, ваш аккаунт должен быть зарегистрирован в качестве участника инсайдерской программы. &#xD;&#xA;&#xD;&#xA;Участвуйте в обсуждениях в группе пользователей BakaXL Outsider или поддержите разработку через &quot;Love Power&quot;, чтобы зарегистрировать свой аккаунт BakaXL в качестве инсайдера!</Item>
+			<Item Key="BakaXL_Update_NotInsider_Tips">На самом деле есть способ обновить его, лаунчер не стал бы этого делать!</Item>
+			<Item Key="BakaXL_Update_NotInsider_Btn_Afdian">Перейти и взглянуть на раздел &quot;Love Power&quot;</Item>
+
+			<Item Key="LiveBackground_Prepare_Title">Подготовка фона</Item>
+			<Item Key="LiveBackground_Prepare_Tips">Это может занять некоторое время</Item>
+
+			<Item Key="Guide_Type_Base">Мастер настройки</Item>
+			<Item Key="Guide_Type_Language">Язык</Item>
+			<Item Key="Guide_Type_System">Информация о системе</Item>
+			<Item Key="Guide_Type_Profile">Аккаунты</Item>
+			<Item Key="Guide_Type_Other">Другое</Item>
+			<Item Key="Guide_Type_Personalize">Персонализация</Item>
+			<Item Key="Guide_Type_Accessibility">Доступность</Item>
+
+			<Item Key="Guide_Page_Welcome_Subtitle">Добро пожаловать в новый лаунчер BakaXL!</Item>
+			<Item Key="Guide_Page_Welcome_Tips">Прежде чем начать путешествие по Minecraft, необходимо собрать некоторую информацию.</Item>
+
+			<Item Key="Guide_Page_Welcome_Start">Чтобы начать, нажмите и удерживайте здесь с помощью мыши или нажмите пробел</Item>
+			<Item Key="Guide_Page_Welcome_DragHere">Перетащите сюда</Item>
+			<Item Key="Guide_Page_Welcome_Great">Отлично!</Item>
+
+			<Item Key="Guide_Page_Language_Tips">Выберите свой язык для отображения</Item>
+			
+			<Item Key="Guide_Page_DisplayMode_Subtitle">Режим отображения главного экрана</Item>
+			<Item Key="Guide_Page_DisplayMode_Tips">Вы можете изменить эти настройки в любое время в разделе «Настройки - Доступность».</Item>
+
+			<Item Key="Guide_Page_DisplayMode_Standard_Tips">Пуск и плитки не отображаются по умолчанию на главном экране.</Item>
+			<Item Key="Guide_Page_DisplayMode_Traditional_Tips">Пуск и плитки всегда будут отображаться на главном экране</Item>		
+
+			<Item Key="Guide_Page_Audio_Subtitle">Музыка и звук</Item>
+			<Item Key="Guide_Page_Audio_Tips">Лаунчер может воспроизводить музыку или звуковые эффекты при использовании некоторых функций или тем</Item>
+
+			<Item Key="Guide_Page_Audio_Off_Tips">Будет отключен весь вывод звука</Item>
+			<Item Key="Guide_Page_Audio_On_Tips">Лаунчер будет воспроизводить фоновую музыку и звуковые эффекты в зависимости от тем и функций.</Item>
+
+			<Item Key="Guide_Page_QuickSet_Subtitle">Быстрая настройка</Item>
+			<Item Key="Guide_Page_QuickSet_Tips">Вы можете изменить эти настройки в любое время в «Настройках».</Item>
+			
+			<Item Key="Guide_Page_QuickSet_Title">Пусть лаунчер автоматизирует некоторые настройки</Item>
+			<Item Key="Guide_Page_QuickSet_Manual">Настроить вручную</Item>
+			<Item Key="Guide_Page_QuickSet_QuickSet">Быстрая настройка</Item>
+			<Item Key="Guide_Page_QuickSet_AboutQuickSet">Узнайте, что затрагивает быстрая настройка</Item>
+			<Item Key="Guide_Page_QuickSet_AboutDataCollection">Узнайте какие данные собирает лаунчер</Item>
+
+			<Item Key="Guide_Page_Java_Subtitle">Java</Item>
+			<Item Key="Guide_Page_Java_Tips">Обратите внимание, что лаунчер больше не поддерживает Java 6.</Item>
+			
+			<Item Key="Guide_Page_Java_SelectJava">Выберать Java</Item>
+			<Item Key="Guide_Page_Java_NotFound">На компьютере не найдена доступная Java, выберите действие</Item>
+			<Item Key="Guide_Page_Java_NeedTips">Вам нужно выбрать Java для запуска Minecraft</Item>
+			<Item Key="Guide_Page_Java_GetJava">Получить Java</Item>
+			<Item Key="Guide_Page_Java_GetLatestJava">Получить последнюю версию Java</Item>
+			<Item Key="Guide_Page_Java_Rescan">Повторный поиск</Item>
+			<Item Key="Guide_Page_Java_ManualLocate">Указать вручную</Item>
+
+			<Item Key="Guide_Page_Memory_Subtitle">Оперативная память для работы Minecraft</Item>
+			<Item Key="Guide_Page_Memory_Tips">Для запуска игры рекомендуется использовать не менее 1024МБ оперативной памяти</Item>
+
+			<Item Key="Guide_Page_Profile_Title">Создайте собственный профиль</Item>
+			<Item Key="Guide_Page_Profile_Tips">В профиле будет храниться ваш игровой ник Minecraft.&#xD;&#xA;После входа в аккаунт BakaXL, ваши друзья которые играют с вами, увидят ваш аватар и ник в своём лаунчере.</Item>
+
+			<Item Key="Guide_Page_ProfileFull_Subtitle">Количество файлов переполнено</Item>
+			<Item Key="Guide_Page_ProfileFull_Tips">Вы можете управлять этими существующими профилями в «Настройках».</Item>
+			<Item Key="Guide_Page_ProfileFull_UseCurrent">Использовать существующий профиль и продолжить</Item>
+			<Item Key="Guide_Page_ProfileFull_UseCurrent_Tips">Количество файлов пользователя, которые могут храниться на текущем компьютере, достигло максимума</Item>
+
+			<Item Key="Guide_Page_ProfileCreate_Subtitle">Создать профиль</Item>
+			<Item Key="Guide_Page_ProfileCreate_Tips">Лаунчер хранит вашу информацию, используя стандартное шифрование</Item>
+			<Item Key="Guide_Page_ProfileCreate_EnterUsername">Введите имя пользователя</Item>
+			<Item Key="Guide_Page_ProfileCreate_FogotPassword">Забыли пароль?</Item>
+			<Item Key="Guide_Page_ProfileCreate_BuyMinecraft">Купить подлинный Майнкрафта</Item>
+			<Item Key="Guide_Page_ProfileCreate_Hey">Привет, {0}!</Item>
+			<Item Key="Guide_Page_ProfileCreate_Online">Я приобрёл оригинальную игру Minecraft</Item>
+			<Item Key="Guide_Page_ProfileCreate_Offline">Я не приобретал оригинальный Minecraft</Item>
+
+			<Item Key="Guide_Page_ProfileCreate_Error_NullAccountOrPassword">Введите данные своего аккаунта Mojang или войдите через аккаунт Microsoft</Item>
+
+			<Item Key="Guide_Page_ProfileReady_Subtitle">Готов к запуску</Item>
+			<Item Key="Guide_Page_ProfileReady_Tips">Вы можете добавить дополнительные профили в «Настройках»</Item>
+			<Item Key="Guide_Page_ProfileReady_Updated">Мы обновили ваш профиль</Item>
+			<Item Key="Guide_Page_ProfileReady_YourNewProfile">Это ваш новый профиль!</Item>
+			<Item Key="Guide_Page_ProfileReady_SetupAvatar">Установите аватар для своего аккаунта</Item>
+
+			<Item Key="Guide_Page_ProfileAuthLib_Subtitle">Файл авторизации, необходимый для создания модпака</Item>
+			<Item Key="Guide_Page_ProfileAuthLib_Tips">Ваш поставщик модпака требует, чтобы вы авторизировались с помощью определённого стороннего аккаунта.</Item>
+			<Item Key="Guide_Page_ProfileAuthLib_GoRegister">Нажмите, чтобы зарегистрироваться</Item>
+			<Item Key="Guide_Page_ProfileAuthLib_CreateTitle">Аккаунты, необходимые для создания «{0}»</Item>
+			<Item Key="Guide_Page_ProfileAuthLib_CreateSubTitle">Модпак который вы сейчас используете, требует чтобы лаунчер создал файл с именем «{0}». &#xD;&#xA;Профили сторонних аккаунтов Minecraft, которые предоставляют услуги проверки.</Item>
+			<Item Key="Guide_Page_ProfileAuthLib_CreateTips">Мы не можем гарантировать безопасность этого сервера авторизации. &#xD;&#xA;Ознакомьтесь с политикой конфиденциальности этого поставщика услуг авторизации, чтобы узнать как он защищает ваши пользовательские данные. &#xD;&#xA;Адрес сервера авторизации: {0}</Item>
+			<Item Key="Guide_Page_ProfileAuthLib_Skip">Пропустите этот шаг и создайте свой позже</Item>
+
+			<Item Key="Guide_Page_Finished_Title">Мастер настройки завершён!</Item>
+			<Item Key="Guide_Page_Finished_Content">Нажмите кнопку главного меню лаунчера в левом верхнем углу или на клавиатуре &#xD;&#xA;для завершения работы мастера настройки и входа в основной интерфейс.</Item>
+
+			<Item Key="Guide_Page_Finished_AddGameCore_Title">Установить новое ядро Minecraft?</Item>
+			<Item Key="Guide_Page_Finished_AddGameCore_Tips">Нажмите здесь, чтобы установить ядро Minecraft.</Item>
+
+			<Item Key="Bakaverse_Title">Поле &quot;{0}&quot;</Item>
+			<Item Key="Bakaverse_Account_Title">Мой аккаунт</Item>
+			<Item Key="Bakaverse_FriendsList_Title">Список друзей</Item>
+			<Item Key="Bakaverse_AddFriends_Title">Добавить друга</Item>
+			<Item Key="Bakaverse_NotLogin">Вход не выполнен</Item>
+			<Item Key="Bakaverse_CheckAfterLogin">Проверьте свой сетевой идентификатор после входа</Item>
+
+			<Item Key="Bakaverse_UserInfo">Информация об аккаунте</Item>
+
+			<Item Key="Bakaverse_NeedLogin_BeforeUse">Перед использованием этой функции</Item>
+			<Item Key="Bakaverse_NeedLogin_LoginRequired">Требуется вход</Item>
+			<Item Key="Bakaverse_NeedLogin_Method">Перейдите в «Настройки» — «Аккаунты и профили», чтобы войти в свой аккаунт BakaXL.</Item>
+
+			<Item Key="Bakaverse_CurrentUser_Tips">Ваши друзья могут искать ваш аккаунт по вашему сетевому идентификатору BakaXL.&#xD;&#xA;Когда вы сообщаете друзьям свой сетевой идентификатор, также сообщите им этикетку после вашего имени пользователя.</Item>
+
+			<Item Key="Bakaverse_UserInfo_VerificationAndPlan">Сертификаты и планы</Item>
+			<Item Key="Bakaverse_UserInfo_VerificationAndPlan_Tips">Если вы зарегистрированы или сертифицированы в BakaXL, то это появятся здесь.</Item>
+
+			<Item Key="Bakaverse_UserInfo_Verification">Сертификат: {0}</Item>
+			<Item Key="Bakaverse_UserInfo_VerificationButNoInfo">Этот аккаунт сертифицирован</Item>
+			<Item Key="Bakaverse_UserInfo_IsInsider">Участник инсайдерской программы</Item>
+			<Item Key="Bakaverse_UserInfo_SupporterPlan">План спонсора: {0}</Item>
+
+			<Item Key="Bakaverse_UserInfo_AlreadyOnline">Этот друг сейчас в сети. &#xD;&#xA;Если другой человек запускает Minecraft или использует некоторые из функций лаунчера, они будут показаны здесь.</Item>
+			<Item Key="Bakaverse_UserInfo_LastLogin">Последний раз появлялся: {0}</Item>
+			<Item Key="Bakaverse_UserInfo_TimeBecomeFriend">Подружились: {0}. &#xD;&#xA;Вы становитесь друзьями, обмениваясь сетевыми идентификаторами.</Item>
+
+			<Item Key="Bakaverse_UserInfo_InviteToLobby">Пригласить друзей присоединиться к лобби</Item>
+			<Item Key="Bakaverse_UserInfo_InviteToLobby_Tips">Если вы являетесь создателем лобби в котором вы сейчас находитесь, вы можете пригласить друга.</Item>
+			
+			<Item Key="Bakaverse_UserInfo_PlayHistory">История игр</Item>
+			<Item Key="Bakaverse_UserInfo_PlayHistory_Tips">Здесь будут перечислены моды Minecraft, в которые недавно играл ваш друг.</Item>
+
+			<Item Key="Bakaverse_UserInfo_OnlineHistory">Информация о игре</Item>
+			<Item Key="Bakaverse_UserInfo_Milestone">Веха</Item>
+			<Item Key="Bakaverse_UserInfo_Milestone_Empty">Веха была пуста и ни на что не похожа. &#xA;Если вы отправите кому-то запрос на добавление в друзья, здесь будет создана веха.</Item>
+			<Item Key="Bakaverse_UserInfo_Milestone_Visitor">Следы, оставленные кем-то в гостях на траве, кто бы это мог быть? &#xA;Как только вы согласитесь на запрос в друзья, здесь будет построена веха.</Item>
+			<Item Key="Bakaverse_UserInfo_Milestone_Wreckage">Вехи были удалены. На траве остались только их остатки. &#xA;Чтобы убрать обломки, нужно удалить человека из чёрного списка.</Item>
+			<Item Key="Bakaverse_UserInfo_Milestone_Self">Вы добираетесь до этого места, но кругом вехи. &#xA;Вы оглядываетесь и не видите своих вех, что наполняет вас решимостью.</Item>
+			
+			<Item Key="Bakaverse_UserInfo_Manage">Управление</Item>
+			<Item Key="Bakaverse_UserInfo_Manage_RemoveFriend">Удалить друга</Item>
+			<Item Key="Bakaverse_UserInfo_Manage_RemoveFriend_Tips">Когда вы удалите этого друга, вы также будете удалены из его списка друзей .&#xA;Если вы захотите повторно добавить этого друга, вам нужно будет повторно инициировать запрос на добавление в друзья.</Item>
+			<Item Key="Bakaverse_UserInfo_Manage_BlackList_Remove">Удалить из черного списка</Item>
+			<Item Key="Bakaverse_UserInfo_Manage_BlackList_Remove_BtnTitle">Я решил простить его/её</Item>
+			<Item Key="Bakaverse_UserInfo_Manage_BlackList_Remove_Tips">После того, как вы удалите человека из чёрного списка, вы станете незнакомцем. Если вам нужно повторно добавить друга, вам нужно будет повторно отправить запрос на добавление в друзья.</Item>
+
+			<Item Key="Bakaverse_UserInfo_FriendRequest">Запрос в друзья</Item>
+
+			<Item Key="Bakaverse_UserInfo_AboutYourSelf">О себе</Item>
+			<Item Key="Bakaverse_UserInfo_AboutYourSelf_Tips">На этот экран выставляется ваша собственная информация. &#xA;Вы стоите здесь, но не знаете что делать. &#xA;&#xA;&#xA;&#xA;&#xA;&#xA;Вы поворачиваете голову и смотрите на BakaXL, но мы тоже не знаем, что делать. &#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;А кстати: &#xA;В новой версии лаунчера мы оптимизировали поведение при поиске, &#xA;таким образом, вы не тратите ресурсы сервера впустую.</Item>
+
+			<Item Key="Bakaverse_FriendList_Tips">Ваши друзья видят ваш статус сети и название модпака, в который вы играете. &#xD;&#xA;Вы можете перейти к настройкам конфиденциальности, чтобы изменить соответствующие настройки, или установить свой статус сети на «Инкогнито».</Item>
+
+			<Item Key="Bakaverse_AddFriends_RecivedRequest">Запросы в друзья</Item>
+			<Item Key="Bakaverse_AddFriends_RecivedRequest_BtnTitle">Просмотр полученных запросов на добавление в друзья</Item>
+			<Item Key="Bakaverse_AddFriends_RecivedRequest_Agree">Согласиться</Item>
+			<Item Key="Bakaverse_AddFriends_RecivedRequest_Ignore">Отклонить</Item>
+			<Item Key="Bakaverse_AddFriends_RecivedRequest_Tips">После того, как вы согласитесь на этот запрос на добавление в друзья, они появятся в вашем списке друзей. &#xA;После игнорирования запроса на добавление в друзья, другой человек не получит уведомления.</Item>
+
+			<Item Key="Bakaverse_AddFriends_SendRequest">Отправить запрос на дружбу</Item>
+			<Item Key="Bakaverse_AddFriends_SendRequest_Tips">После того как вы отправите запрос на дружбу, другой человек получит ваш запрос. &#xA;После того как ваш запрос будет принят, человек появится в списке ваших друзей.</Item>
+
+			<Item Key="Bakaverse_AddFriends_RecivedRequest_NoInvite_Tips">Жаль, но похоже на данный момент нет запросов на дружбу. &#xD;&#xA;Как только вы получите запрос на добавление в друзья, они появятся здесь.</Item>
+			<Item Key="Bakaverse_AddFriends_RecivedRequest_Tips">Просмотрите все ожидающие запросы на добавление в друзья, которые вы получили.</Item>
+
+			<Item Key="Bakaverse_AddFriends_SearchOnline_Title">Поиск друзей в сети</Item>
+			<Item Key="Bakaverse_AddFriends_SearchTips">Введите сетевой идентификатор вашего друга (пример: ИмяПользователя#1234)</Item>
+			<Item Key="Bakaverse_AddFriends_Btn_Title">Поиск друзей по сетевому идентификатору</Item>
+			<Item Key="Bakaverse_AddFriends_Btn_Tips">Найдите своих друзей через онлайн-сервис.</Item>
+			<Item Key="Bakaverse_AddFriends_MinePass_Btn_Title">Добавляйте друзей с помощью мгновенной интерактивной связи</Item>
+
+			<Item Key="Bakaverse_AddFriends_Discovery_Title">Исследовать</Item>
+			<Item Key="Bakaverse_AddFriends_Discovery_Tips">Играйте или исследуйте, продолжая использовать лаунчер. &#xD;&#xA;BakaXL Network создана для того, чтобы рекомендовать пользователей-единомышленников.</Item>
+			<Item Key="Bakaverse_AddFriends_Discovery_RecentPlayed">Поскольку вы недавно играли в &quot;{0}&quot;.</Item>
+			<Item Key="Bakaverse_AddFriends_Discovery_RecentChangedTema">Поскольку вы недавно использовали тему &quot;{0}&quot;.</Item>
+			<Item Key="Bakaverse_AddFriends_Discovery_RecentDownload">Поскольку вы недавно скачали &quot;{0}&quot;.</Item>
+			<Item Key="Bakaverse_AddFriends_Discovery_RecentJoinedServer">Так как вы недавно играли на сервере &quot;{0}&quot;.</Item>
+
+			<Item Key="Bakaverse_Lobby_Title">Лобби</Item>
+
+			<Item Key="Bakaverse_Lobby_Introduction_Title">Описание</Item>
+			<Item Key="Bakaverse_Lobby_Introduction_Content">Присоединяйтесь к локальной игре друга или используйте общий клиент. &#xD;&#xA;Позвольте всем друзьям, которые хотят участвовать, войти на этот экран.</Item>
+
+			<Item Key="Bakaverse_Lobby_LAN_Motd_Header">Лобби лаунчера</Item>
+
+			<Item Key="Bakaverse_Lobby_Error_Title">Ненормальное обслуживание в лобби</Item>
+			<Item Key="Bakaverse_Lobby_Error_Detail_Relogin">Повторите вход в аккаунт BakaXL</Item>
+			
+			<Item Key="Bakaverse_Lobby_CreateLobby_Title">Создать новое лобби</Item>
+			<Item Key="Bakaverse_Lobby_CreateLobby_CustomLobbyID_TextBox_Watermark">Пользовательский номер зала (до 20 символов)</Item>
+			<Item Key="Bakaverse_Lobby_CreateLobby_CustomLobbyID_TextBox_Tips">Благодарим вас за поддержку лаунчера в качестве инсайдера! &#xD;&#xA;Вы можете создавать лобби лаунчера со своими номерами! &#xD;&#xA;Не нарушайте условия использования лаунчера при использовании этой функции. &#xD;&#xA;Злоупотребление этой функцией приведёт к аннулированию вашего статуса в инсайдерской программе.</Item>
+			<Item Key="Bakaverse_Lobby_CreateLobby_AllowStrangers_Btn_Title">Доступно только для моих друзей</Item>
+			<Item Key="Bakaverse_Lobby_CreateLobby_Create_Btn_Title">Создать лобби</Item>
+			<Item Key="Bakaverse_Lobby_CreateLobby_Create_Btn_Tips">Запустите Minecraft и выберите «Открыть по локальной сети» в &#xD;&#xA;одиночной игре. &#xD;&#xA;Затем можно создать лобби. &#xD;&#xA;Если в течение длительного времени неудаётся обнаружить, попробуйте &#xD;&#xA;запустить Minecraft после запуска лаунчера от имени администратора.</Item>
+			
+			<Item Key="Bakaverse_Lobby_JoinLobby_Title">Присоединяйтесь к другу или общедоступному лобби</Item>
+			<Item Key="Bakaverse_Lobby_JoinLobby_LobbyID_TextBox_Watermark">Введите номер лобби (например: 01509230)</Item>
+			<Item Key="Bakaverse_Lobby_JoinLobby_Join_Btn_Title">Присоединиться к лобби</Item>
+			<Item Key="Bakaverse_Lobby_JoinLobby_Join_Btn_Tips">Введите номер лобби, к которому ваш друг или кто-то другой сказал вам &#xD;&#xA;присоединиться. &#xD;&#xA;Если лобби настроено так, чтобы быть открытым только для друзей, &#xD;&#xA;вы должны быть другом создателя, чтобы присоединиться.</Item>
+			
+			<Item Key="Bakaverse_Lobby_FriendInvites_Title">Приглашение от друга</Item>
+			<Item Key="Bakaverse_Lobby_FriendInvites_Tips">Если ваш друг пригласит вас присоединиться к его лобби, &#xD;&#xA;приглашение появится здесь.</Item>
+
+			<Item Key="Bakaverse_Lobby_CrossLauncherPlay_Title">Присоединяйтесь к сторонним лаунчерам</Item>
+			<Item Key="Bakaverse_Lobby_CrossLauncherPlay_Tips">Чтобы присоединиться к сетевой комнате обслуживания, создайте &#xD;&#xA;сторонний лаунчер (PCL2, HMCL). &#xD;&#xA;Затем вам нужно сначала установить кросс-лаунчеру сетевой плагин в &#xD;&#xA;Baka Plaza. &#xD;&#xA;&#xD;&#xA;Эта служба ещё не доступна, поэтому следите за новостями.</Item>
+			
+			<Item Key="Bakaverse_Lobby_LobbyInfo_Title">Информация о лобби</Item>
+			<Item Key="Bakaverse_Lobby_LobbyInfo_LobbyID_Title">Номер лобби</Item>
+			<Item Key="Bakaverse_Lobby_LobbyInfo_LobbyHost_Title">Создатель лобби</Item>
+			
+			<Item Key="Bakaverse_Lobby_LobbyInfo_LobbyHost_GameStatus_Title">Информация об игре в лобби</Item>
+			<Item Key="Bakaverse_Lobby_LobbyInfo_LobbyHost_GameStatus_NotInGame">Ещё не играли</Item>
+			<Item Key="Bakaverse_Lobby_LobbyInfo_LobbyHost_GameStatus_NotInGame_Tips">Создатель этого лобби не запускал игру Minecraft. &#xD;&#xA;После запуска игры здесь будет синхронно отображаться информация о версии.</Item>
+			
+			<Item Key="Bakaverse_Lobby_LobbyInfo_LobbyHost_GameStatus_InGame_NoVersion_Tips">Создатель лобби играет в игру Minecraft. &#xD;&#xA;Вы можете присоединиться к игре, только если вы используете ту же версию Minecraft. &#xD;&#xA;Если создатель лобби использует модпак, вы также должны использовать тот же модпак.</Item>
+			<Item Key="Bakaverse_Lobby_LobbyInfo_LobbyHost_GameStatus_InGame_WithVersion_Tips">Версия игры Майнкрафт: {0}. &#xD;&#xA;Вы можете присоединиться к игре, только используя ту же версию Minecraft. &#xD;&#xA;Если создатель лобби использует модпак, вы также должны использовать тот же модпак.</Item>
+
+			<Item Key="Bakaverse_Lobby_LobbyInfo_Network_Title">Окружение локальной сети</Item>
+			<Item Key="Bakaverse_Lobby_LobbyInfo_LocalNAT_Title">Тип NAT</Item>
+			<Item Key="Bakaverse_Lobby_LobbyInfo_LocalUPnP_Title">Совместимость с UPnP</Item>
+			
+			<Item Key="Bakaverse_Lobby_LobbyInfo_LocalDiscoveryServerStatus_Title">Доступность услуги BakaXL Network Probing</Item>
+			<Item Key="Bakaverse_Lobby_LobbyInfo_LocalDiscoveryServerStatus_Connected">Доступно</Item>
+			<Item Key="Bakaverse_Lobby_LobbyInfo_LocalDiscoveryServerStatus_Failed">Недосупно</Item>
+			<Item Key="Bakaverse_Lobby_LobbyInfo_LocalDiscoveryServerStatus_Tips">Служба обнаружения BakaXL Network гарантирует, что вы готовы к работе &#xD;&#xA;Если соответствующие функции лобби недоступны, подключение будет недоступно.</Item>
+
+			<Item Key="Bakaverse_Lobby_LobbyAction_Title">Работа лобби</Item>
+			<Item Key="Bakaverse_Lobby_LobbyAction_AutoAcceptJoin">Автоcоглашаться на присоединение к запросам лобби</Item>
+			<Item Key="Bakaverse_Lobby_LobbyAction_AutoAcceptJoin_Tips">Вводит автоматическое согласие на присоединение к запросам от других участников лобби. &#xD;&#xA;Это, вероятно, полезно, когда вы слишком ленивы, чтобы вручную обрабатывать запросы от интернет-друзей. &#xD;&#xA;Обратите внимание, что это позволит всем пользователям знающим номер зала, присоединиться к залу когда захотят.</Item>
+			<Item Key="Bakaverse_Lobby_LobbyAction_AllowRelay">Используйте ретрансляционное соединение, когда прямое соединение установить невозможно</Item>
+			<Item Key="Bakaverse_Lobby_LobbyAction_AllowRelay_Tips">Когда лаунчер не может установить прямое соединение с другой стороной, &#xD;&#xA;подключитесь через службу BakaXL Network Relay. &#xD;&#xA;Ваш сетевой трафик данных будет безопасно направляться через доверенные серверы. &#xD;&#xA;Это должно быть включено как создателем, так и присоединившимся, чтобы это работало.</Item>
+			<Item Key="Bakaverse_Lobby_LobbyAction_LeaveLobby">Отключиться от лобби</Item>
+			<Item Key="Bakaverse_Lobby_LobbyAction_LeaveLobby_Tips">Если вы в настоящее время участвуете в локальной сети Minecraft, &#xD;&#xA;и покинете лобби, соединение с хостом-создателем будет разорвано.</Item>
+
+			<Item Key="Bakaverse_Lobby_LobbyJoinRequest_Title">Запросы на подключение к лобби</Item>
+			<Item Key="Bakaverse_Lobby_LobbyJoinRequest_Tips">Если пользователь запросит присоединение к текущему лобби, он будет отображаться здесь.</Item>
+
+			<Item Key="Bakaverse_Lobby_OnlineUsers_Title">Список пользователей в сети</Item>
+			<Item Key="Bakaverse_Lobby_OnlineUsers_Tips">Выберите пользователя, чтобы просмотреть дополнительную информацию о его аккаунте или добавить его в друзья.</Item>
+			<Item Key="Bakaverse_Lobby_OnlineUsers_HostKick_Tips">Вы являетесь создателем лобби и можете перемещать его из этого лобби, долго нажимая на соответствующего пользователя.</Item>
+
+			<Item Key="Bakaverse_Lobby_UserAction_Waiting">Ожидание</Item>
+
+			<Item Key="Bakaverse_Lobby_UserStatus_Host">Создатель лобби</Item>
+			<Item Key="Bakaverse_Lobby_UserStatus_Joined">В лобби</Item>
+			<Item Key="Bakaverse_Lobby_UserStatus_Punching">В лобби / Устанавливается соединение</Item>
+			<Item Key="Bakaverse_Lobby_UserStatus_WaitingRelay">В лобби / Ожидание ответа сервера ретрансляции</Item>
+			<Item Key="Bakaverse_Lobby_UserStatus_LeaveMinecraft">В лобби / Игра отключена</Item>
+			<Item Key="Bakaverse_Lobby_UserStatus_ConnectionEstablished">В лобби / Соединение установлено</Item>
+			<Item Key="Bakaverse_Lobby_UserStatus_RelayConnectionEstablished">В лобби / Подключен через ретрансляцию</Item>
+			<Item Key="Bakaverse_Lobby_UserStatus_NATRestrict">Ошибка подключения / Строгий NAT</Item>
+			<Item Key="Bakaverse_Lobby_UserStatus_FirewallReject">Сбой соединения / Брандмауэр</Item>
+			<Item Key="Bakaverse_Lobby_UserStatus_Unknown">Сбой соединения / Неизвестная ошибка</Item>
+
+			<Item Key="Bakaverse_Lobby_CopyLobbyID_Template">Я в лобби сетевой игры BakaXL! Чтобы присоединиться, введите номер лобби в поле BakaXL: {0}!</Item>
+			<Item Key="Bakaverse_Lobby_CopyLobbyID_WithHostGameInfo_Template">Я играю в [{0}], сетевом лобби BakaXL! Чтобы присоединиться, введите номер лобби в поле BakaXL: {1}!</Item>
+			<Item Key="Bakaverse_Lobby_CopyLobbyID_WithHostGameInfo_HasBaseVersion_Template">Я играю в [{0}] (Minecraft {1}) в сетевом лобби BakaXL! Чтобы присоединиться, введите номер лобби в поле BakaXL: {2}!</Item>
+
+			<Item Key="Bakaverse_UserSettings_Title">Настройки пользователя</Item>
+			<Item Key="Bakaverse_UserSettings_PersonalInfo">Настройки личной информации</Item>
+			<Item Key="Bakaverse_UserSettings_PersonalInfo_Status">Переключить мой статус сети</Item>
+			<Item Key="Bakaverse_UserSettings_PersonalInfo_Avatar">Сменить аватар</Item>
+			<Item Key="Bakaverse_UserSettings_PersonalInfo_AccountSettings">Перейти в настройки аккаунта BakaXL</Item>
+
+			<Item Key="Bakaverse_UserSettings_Privacy">Настройки конфиденциальности</Item>
+
+			<Item Key="Bakaverse_UserSettings_Privacy_SkinShare">Скины BakaXL Network SkinShare</Item>
+			<Item Key="Bakaverse_UserSettings_Privacy_SkinShare_Tips">Функция обмена скинами позволяет другим друзьям BakaXL Network, игрокам на сервере или участникам онлайн-лобби, у которых также включена эта функция, видеть скины, установленные вами в автономном режиме. &#xD;&#xA;&#xD;&#xA;Когда эта функция отключена, лаунчер перестанет передавать информацию о вашем скине в BakaXL Network, и вы не сможете видеть скины установленные другими пользователями. &#xD;&#xA;Эта функция доступна только при запуске Minecraft с использованием автономной авторизации.</Item>
+
+			<Item Key="Bakaverse_UserSettings_Privacy_GameRecord">Разрешить BakaXL Network записывать мой игровой статус</Item>
+			<Item Key="Bakaverse_UserSettings_Privacy_GameRecord_Tips">Разрешить ли запись статуса вашей игры (например, название игры, версию) в BakaXL Network. &#xD;&#xA;Сервер BakaXL Network периодически очищает кэш статуса игры. &#xD;&#xA;Статус игры не будет содержать конфиденциальную информацию о вас. &#xD;&#xA;&#xD;&#xA;Когда эта функция отключена, лаунчер перестанет сообщать о состоянии вашей игры в BakaXL Network.</Item>
+			<Item Key="Bakaverse_UserSettings_Privacy_GameRecord_Remove">Удалить кеш статуса моей игры из BakaXL Network</Item>
+
+			<Item Key="Bakaverse_UserSettings_Privacy_FriendRecommend">Разрешить BakaXL рекомендовать мне друзей</Item>
+			<Item Key="Bakaverse_UserSettings_Privacy_FriendRecommend_Tips">BakaXL порекомендует вам друзей-единомышленников на основе вашего последнего игрового статуса (например: название запущенного модпака, сторонние серверы к которым вы присоединялись, темы лаунчера которые вы использовали, или моды которые вы установили). &#xD;&#xA;&#xD;&#xA;Когда эта функция отключена, лаунчер перестанет рекомендовать вас и не будет рекомендовать вам других. &#xD;&#xA;Если вы отключите реферальные рассылки, может пройти некоторое время, прежде чем BakaXL Network совсем перестанет предлагать вас другим.</Item>
+
+			<Item Key="Bakaverse_UserSettings_Tips">Здесь можно просмотреть и изменить некоторые настройки вашего аккаунта.</Item>
+
+			<Item Key="Bakaverse_Notification_NewFriend_Title">Новые запросы на добавление в друзья</Item>
+			<Item Key="Bakaverse_Notification_NewFriend_Desc">Запрос на добавление в друзья получен от {0}!</Item>
+
+			<Item Key="Bakaverse_OnlineStatus_Online">В сети</Item>
+			<Item Key="Bakaverse_OnlineStatus_Offline">Не в сети</Item>
+			<Item Key="Bakaverse_OnlineStatus_Vanish">Невидимый</Item>
+			<Item Key="Bakaverse_OnlineStatus_Busy">Занят</Item>
+			<Item Key="Bakaverse_OnlineStatus_Away">Отошёл</Item>
+			<Item Key="Bakaverse_OnlineStatus_Using">Просматривает</Item>
+			<Item Key="Bakaverse_OnlineStatus_Using_Full">Текущий просмотр: {0}</Item>
+			<Item Key="Bakaverse_OnlineStatus_Gaming">В игре</Item>
+			<Item Key="Bakaverse_OnlineStatus_Gaming_Full">Играет в: {0}</Item>
+			<Item Key="Bakaverse_OnlineStatus_Gaming_InServer">Играет на стороннем сервере Minecraft</Item>
+			<Item Key="Bakaverse_OnlineStatus_Gaming_InLANServer">Развлекается с друзьями в локальной сети</Item>
+			<Item Key="Bakaverse_OnlineStatus_Gaming_InSinglePlayWorld">Исследует мир Minecraft в одиночку</Item>
+
+			<Item Key="Bakaverse_OnlineStatus_Gaming_InSinglePlayWorld_Dimension">Размер: {0}</Item>
+			<Item Key="Bakaverse_OnlineStatus_Gaming_InSinglePlayWorld_Weather">Погода: {0}</Item>
+			<Item Key="Bakaverse_OnlineStatus_Gaming_InSinglePlayWorld_Health">Здоровье: {0}</Item>
+
+			<Item Key="BakaPlaza_FullName">Baka Plaza</Item>
+			<Item Key="BakaPlaza_Update">Обновить</Item>
+
+			<Item Key="BakaPlaza_SearchBar_Watermark">Поиск контента...</Item>
+
+			<Item Key="BakaPlaza_Category_Subtitle">Поиск по категории</Item>
+
+			<Item Key="BakaPlaza_MinecraftInstaller_Title">Скачать</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Subtitle">Лаунчер Minecraft</Item>
+
+			<Item Key="BakaPlaza_MinecraftInstaller_SelectCore">Выберите ядро</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Search">Поиск...</Item>
+
+			<Item Key="BakaPlaza_MinecraftInstaller_Category">Категория</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Category_Vanilla_Release">Релиз</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Category_Vanilla_Snapshot">Снапшот</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Category_Vanilla_Other">Другая</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Category_Vanilla_Special">Специальная</Item>
+
+			<Item Key="BakaPlaza_MinecraftInstaller_Category_Vanilla_Desc">Чистый</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Category_Forge_Desc">Forge API</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Category_Liteloader_Desc">Liteloader API</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Category_Fabric_Desc">Fabric API</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Category_Optifine_Desc">Optifine HD</Item>
+
+			<Item Key="BakaPlaza_MinecraftInstaller_Core_Status_Release">Релиз</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Core_Status_Snapshot">Снапшот</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Core_Status_Special">Специальная</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Core_Status_Stable">Стабильная</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Core_Status_Unstable">Нестабильная</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Core_Status_Beta">Бета</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Core_Status_Recommend">Рекомендуемая</Item>
+
+			<Item Key="BakaPlaza_MinecraftInstaller_Core_Optifine_InstallMethod_NewCore">Установить как новое ядро</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Core_Optifine_InstallMethod_AsMod">Установить как мод</Item>
+
+			<Item Key="BakaPlaza_MinecraftInstaller_Version">Версия</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Category_Select">Выберите...</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Settings">Настройки</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Settings_DisplayName">Отображаемое название</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Settings_DisplayName_Default">Сначала выберите ядро</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Settings_DisplayIcon">Отображаемая иконка</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Settings_DisplayIcon_Browse">Обзор...</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Settings_Install">Установка</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Settings_InstallNow">Установить</Item>
+
+			<Item Key="BakaPlaza_MinecraftInstaller_ListBox_Loading_Title">В пути</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_ListBox_Loading_Subtitle">Подождите минутку, ядро не будет вас преследовать</Item>
+
+			<Item Key="BakaPlaza_MinecraftInstaller_ListBox_None_Title">О нет, ничего</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_ListBox_None_Subtitle">Лаунчер не может найти нужное ядро</Item>
+
+			<Item Key="BakaPlaza_MinecraftInstaller_CoreDesc_Default">Скачано с Baka Plaza - Чистое ядро Minecraft {0}</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_CoreDesc_Forge">Скачано с Baka Plaza - ядро ​​Minecraft {1} с Forge {0}</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_CoreDesc_Optifine">Скачано с Baka Plaza — ядро ​​Minecraft {1} с Optifine {0}</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_CoreDesc_Fabric">Скачано с Baka Plaza — ядро ​​Minecraft {1} с Fabric {0}</Item>
+
+			<Item Key="BakaPlaza_MinecraftInstaller_Steps_Prepare">Подготовка</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Steps_Successful">Успешно</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Steps_Downloading">Скачивается</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Steps_DownloadingSuccessful">Скачивание завершено</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Steps_CheckCoreEnv">Проверьте текущую среду ядра</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Steps_UnZip">Распаковка необходимых файлов</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Steps_ReadJson">Разбор Json-файла</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Steps_CreateVersionFolder">Создание каталога версий</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Steps_PrepareJson">Предварительная обработка информации Json</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Steps_WriteJson">Запись информации в формате Json</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Steps_GenBakaCoreConfig">Создание конфигурационных файлов</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Steps_CopyForgeFile">Копирование файлов Forge</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Steps_PrepareProcessor">Подготовка обработчика файлов Forge</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Steps_GenerateForgeFile">Создание файла Forge</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Steps_GenerateOptifineFile">Создание файлов Optifine</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Steps_CopyOptifineFile">Копирование файлов Optifine</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Steps_PrepareVanilla">Подготовка чистого Minecraft</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Steps_CopyVanilla">Копирование чистого ядро Minecraft</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Steps_CleanUp">Подготовка к завершению установки</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Steps_InstallSuccessful">Установка выполнена успешно</Item>
+
+			<Item Key="Protocol_Ani_Tips">Ознакомьтесь с этим ресурсом на Baka Plaza.</Item>
+
+			<Item Key="MusicInfo_UnknownName">Неизвестное название песни</Item>
+			<Item Key="MusicInfo_UnknownAblum">Неизвестный альбом</Item>
+			<Item Key="MusicInfo_UnknownArtist">Неизвестный исполнитель</Item>
+
+			<Item Key="Tips_Title">Советы</Item>
+			<Item Key="Tips_Subtitles">Следите за своими любимыми каналами, чтобы быть в курсе последних новостей</Item>
+
+			<Item Key="Tips_Subscribe">Подпишитесь на этот канал</Item>
+			<Item Key="Tips_Subscribed">Подписаны</Item>
+			<Item Key="Tips_Official">Официальный канал советов</Item>
+			<Item Key="Tips_New">Недавно открытые</Item>
+			<Item Key="Tips_Locked">Закрыты</Item>
+			<Item Key="Tips_Refresh">Обновить</Item>
+			<Item Key="Tips_Search">Поиск канала</Item>
+			<Item Key="Tips_ChannelList">Список каналов советов</Item>
+			<Item Key="Tips_VisitInPlaza">Посетить Baka Plaza</Item>
+			<Item Key="Tips_Publisher">Опубликовал</Item>
+			<Item Key="Tips_Publisher_WithName">Опубликовал: {0}</Item>
+
+			<Item Key="Tips_Home_Loading">Соберитесь! Советы!</Item>
+			<Item Key="Tips_Home_Loading_Tips">Раз-два-один, раз-два-один, стройтесь!</Item>
+
+			<Item Key="Tips_Home_NoTips">Советы по возвращению домой из школы</Item>
+			<Item Key="Tips_Home_NoTips_Tips">Здесь пока нет ни одного совета, проверьте подключение к интернету.</Item>
+			<Item Key="Tips_Home_NoTips_Bottom">Мы можем проводить техническое обслуживание сервера системы размещения без предварительного уведомления.</Item>
+
+			<Item Key="Tips_ChannelList_Loading">Получение списка каналов</Item>
+			<Item Key="Tips_ChannelList_Loading_Tips">Неофициальные каналы с советами от третьих лиц не будут показаны здесь.</Item>
+			
+			<Item Key="Tips_ChannelList_NoChannels">Странно, каналы прячутся</Item>
+			<Item Key="Tips_ChannelList_NoChannels_Tips">Проверьте ваше интернет-соединение, это также может быть связано с тем что сервер советов находится на техобслуживании.</Item>
+			<Item Key="Tips_ChannelList_NoChannels_Tips_Bottom">Повторите попытку позже.</Item>
+
+			<Item Key="Tips_ChannelList_SubscribeTips">Чтобы отображать советы с канала на главной странице советов, вам необходимо подписаться на этот канал.</Item>
+
+			<Item Key="Tips_ChannelDetail_Loading">Получение списка советов</Item>
+
+			<Item Key="Tips_ChannelDetail_LoadFailed">Этот канал пуст</Item>
+			<Item Key="Tips_ChannelDetail_LoadFailed_Tips">Проверьте ваше интернет-соединение, также это может быть связано с тем, что на этом канале не было опубликовано ни одного совета.</Item>
+			
+			<Item Key="Tips_Detail_Loading">Большие новости в процессе подготовки</Item>
+			<Item Key="Tips_Detail_Loading_Tips">Загрузка сведений о совете, подождите...</Item>
+
+			<Item Key="Tips_Detail_LoadFailed">Куда пропал ребёнок?</Item>
+			<Item Key="Tips_Detail_LoadFailed_Tips">В настоящее время невозможно загрузить данные для этого совета. Повторите позже.</Item>
+
+			<Item Key="Setting_JavaCheck_BestMatch">Наиболее подходящий</Item>
+			<Item Key="Setting_JavaCheck_Usable">Доступные варианты</Item>
+			<Item Key="Setting_JavaCheck_SuggestUpdate">Возможность обновления до 64-битной версии</Item>
+			<Item Key="Setting_JavaCheck_SuggestUpdate_Java8">Возможность обновления до 64-битной Java 8</Item>
+			<Item Key="Setting_JavaCheck_NotSupport">Несовместимо</Item>
+
+			<Item Key="Setting_Title">Настройки лаунчера</Item>
+			
+			<Item Key="Setting_BakaPublic">Публичная версия</Item>
+			<Item Key="Setting_CurrentVersion">Текущая версия</Item>
+			
+			<Item Key="Setting_Support_Title">Информация</Item>
+			<Item Key="Setting_Account_Title">Аккаунты и профили</Item>
+			<Item Key="Setting_Java_Title">Java и память</Item>
+			<Item Key="Setting_Advance_Title">Дополнительно</Item>
+			<Item Key="Setting_Language_Title">Язык</Item>
+			<Item Key="Setting_Network_Title">Сеть</Item>
+			<Item Key="Setting_Personalize_Title">Персонализация</Item>
+			<Item Key="Setting_Accessibility_Title">Доступность</Item>
+			<Item Key="Setting_Audio_Title">Аудио</Item>
+			<Item Key="Setting_Download_Title">Скачивание</Item>
+			<Item Key="Setting_Protocol_Title">Служба</Item>
+			<Item Key="Setting_Plaza_Title">Baka Plaza</Item>
+			<Item Key="Setting_Insider_Title">Инсайдерская программа</Item>
+			<Item Key="Setting_About_Title">О приложении</Item>
+			
+			<Item Key="Setting_Support_Tips">Добро пожаловать в настройки лаунчера! Мы работаем над добавлением ещё более интересных функций в лаунчер! Некоторые из недоступных параметров являются функциями лаунчера BakaXL 3.0, которые ещё не полностью разработаны. В настоящее время мы адаптируем функциональность этого интерфейса к вашим потребностям. Мы надеемся, что вам понравится!</Item>
+			<Item Key="Setting_Support_Website">Сайт справки и поддержки</Item>
+			<Item Key="Setting_Support_WebsiteTips">Чтобы узнать, как лучше использовать лаунчер и его функции, или получить &#xD;&#xA;помощь, вы можете перейти на сайт справки и поддержки с компьютера или &#xD;&#xA;мобильного устройства. Информация не на русском!</Item>
+			<Item Key="Setting_Support_SafeUse">Руководство по безопасному использованию</Item>
+			<Item Key="Setting_Support_ErrorHistory">История ошибок</Item>
+			<Item Key="Setting_Support_Troubleshooting">Мастер устранения неполадок</Item>
+			<Item Key="Setting_Support_PrivacyPolicy">Политика конфиденциальности</Item>
+
+			<Item Key="Setting_Support_ErrorHistory_RightPannel_Title">Просмотр возникших ошибок</Item>
+			<Item Key="Setting_Support_ErrorHistory_RightPannel_Tips1">Лаунчер автоматически регистрирует ошибки, возникающие во время выполнения, и вы можете щелкнуть по ошибке, чтобы просмотреть всю зарегистрированную информацию.</Item>
+			<Item Key="Setting_Support_ErrorHistory_RightPannel_Tips2">Эта информация будет храниться только локально и не будет загружаться или сохраняться на облачном сервере.</Item>
+
+			<Item Key="Setting_Support_ErrorHistory_RightPannel_DataCollection_Title">Знаете, какие данные собирает лаунчер?</Item>
+			<Item Key="Setting_Support_ErrorHistory_RightPannel_DataCollection_Btn">Получить подробности</Item>
+
+			<Item Key="Setting_Support_ErrorHistory_Searching">Рысканье</Item>
+			<Item Key="Setting_Support_ErrorHistory_Searching_Tips">Ищу консервированные глупые чучела поблизости</Item>
+
+			<Item Key="Setting_Support_ErrorHistory_NoCan">Это здорово!</Item>
+			<Item Key="Setting_Support_ErrorHistory_NoCan_Tips1">В настоящее время в этом шкафу нет банок.</Item>
+			<Item Key="Setting_Support_ErrorHistory_NoCan_Tips2">Я уверен, что скоро здесь будет довольно много банок.</Item>
+
+			<Item Key="Setting_Support_ErrorHistory_ErrorCode">Код ошибки</Item>
+			<Item Key="Setting_Support_ErrorHistory_ErrorTitle">Заголовок ошибки</Item>
+			<Item Key="Setting_Support_ErrorHistory_ErrorPage">Страница</Item>
+			<Item Key="Setting_Support_ErrorHistory_ErrorDetail">Сведения об ошибке</Item>
+			<Item Key="Setting_Support_ErrorHistory_ErrorSolution">Решение</Item>
+			<Item Key="Setting_Support_ErrorHistory_ErrorMessage">Сообщение ошибки</Item>
+			<Item Key="Setting_Support_ErrorHistory_ErrorInnerException">Внутреннее исключение</Item>
+			<Item Key="Setting_Support_ErrorHistory_ErrorStackTrace">Трассировка стека</Item>
+
+			<Item Key="Setting_Support_ErrorHistory_View_Key">Элемент записи</Item>
+			<Item Key="Setting_Support_ErrorHistory_View_Value">Значение</Item>
+
+			<Item Key="Setting_Support_ErrorHistory_SystemInfo">Системная информация</Item>
+			
+			<Item Key="Setting_Support_ErrorHistory_Network">Сеть</Item>
+			<Item Key="Setting_Support_ErrorHistory_Network_Status">Статус сети</Item>
+			<Item Key="Setting_Support_ErrorHistory_Network_Method">Способ подключения</Item>
+			<Item Key="Setting_Support_ErrorHistory_Network_InterfaceName">Имя устройства</Item>
+			<Item Key="Setting_Support_ErrorHistory_Network_InterfaceHardwareName">Название оборудования</Item>
+			<Item Key="Setting_Support_ErrorHistory_Network_SSID">Имя широковещательной передачи беспроводной сети (SSID)</Item>
+			<Item Key="Setting_Support_ErrorHistory_Network_Proxy">Прокси/ВПН</Item>
+			
+			<Item Key="Setting_Support_ErrorHistory_Software">Компоненты</Item>
+			<Item Key="Setting_Support_ErrorHistory_Software_Name">Название компонента</Item>
+			<Item Key="Setting_Support_ErrorHistory_Software_Version">Версия</Item>
+			<Item Key="Setting_Support_ErrorHistory_Software_Location">Расположение</Item>
+			
+			<Item Key="Setting_Support_ErrorHistory_Environment">Окружающая среда</Item>
+			<Item Key="Setting_Support_ErrorHistory_Environment_Language">Язык</Item>
+			<Item Key="Setting_Support_ErrorHistory_Environment_TimeZone">Часовые пояса</Item>
+			<Item Key="Setting_Support_ErrorHistory_Environment_Region">Страна/Регион</Item>
+			
+			<Item Key="Setting_Support_ErrorHistory_MinecraftCore">Ядро игры</Item>
+			<Item Key="Setting_Support_ErrorHistory_MinecraftCore_Selected">Ядро Minecraft</Item>
+			
+			<Item Key="Setting_Support_ErrorHistory_Config">Конфигурационный файл</Item>
+			<Item Key="Setting_Support_ErrorHistory_Config_Language">Язык интерфейса</Item>
+			<Item Key="Setting_Support_ErrorHistory_Config_CloseAfterLaunch">Автовыход после запуска</Item>
+			<Item Key="Setting_Support_ErrorHistory_Config_AutoFix">Автозаполнение отсутствующих ресурсов</Item>
+			<Item Key="Setting_Support_ErrorHistory_Config_BMCLAPI">Используйте сторонние источники скачивания для ускорения в Китае</Item>
+			<Item Key="Setting_Support_ErrorHistory_Config_BMCLAPI_Mirror">Источник скачивания</Item>
+			<Item Key="Setting_Support_ErrorHistory_Config_ThreadMode">Потоков скачивания</Item>
+			<Item Key="Setting_Support_ErrorHistory_Config_JavaGCMode">Сборщик Java GC</Item>
+			<Item Key="Setting_Support_ErrorHistory_Config_JavaPath">Путь к Java</Item>
+			<Item Key="Setting_Support_ErrorHistory_Config_AutoMemory">Автонастройка памяти</Item>
+			<Item Key="Setting_Support_ErrorHistory_Config_Memory">Размер памяти</Item>
+			<Item Key="Setting_Support_ErrorHistory_Config_Background">Фоновые изображения</Item>
+			<Item Key="Setting_Support_ErrorHistory_Config_TemaName">Название темы</Item>
+			<Item Key="Setting_Support_ErrorHistory_Config_TemaColor">Цвет темы</Item>
+			<Item Key="Setting_Support_ErrorHistory_Config_NightMode">Ночной режим</Item>
+			<Item Key="Setting_Support_ErrorHistory_Config_LiveBackground">Живой фон</Item>
+			<Item Key="Setting_Support_ErrorHistory_Config_Acrylic">Акрил</Item>
+			<Item Key="Setting_Support_ErrorHistory_Config_AcrylicType">Акриловое размытие</Item>
+			<Item Key="Setting_Support_ErrorHistory_Config_AcrylicManual">Ручное размытие</Item>
+			<Item Key="Setting_Support_ErrorHistory_Config_AcrylicOpacity">Прозрачность размытия</Item>
+			<Item Key="Setting_Support_ErrorHistory_Config_MusicStatus">Состояние фоновой музыки</Item>
+			<Item Key="Setting_Support_ErrorHistory_Config_Volume">Громкость</Item>
+			<Item Key="Setting_Support_ErrorHistory_Config_LostFocusMusicBehavior">Поведение фоновой музыки вне фокуса</Item>
+			<Item Key="Setting_Support_ErrorHistory_Config_ForceExit">Принудительно завершить процесс при выходе</Item>
+			<Item Key="Setting_Support_ErrorHistory_Config_Debug">Отладка</Item>
+			<Item Key="Setting_Support_ErrorHistory_Config_HomeScrollValue">Функция прокрутки основного интерфейса</Item>
+			<Item Key="Setting_Support_ErrorHistory_Config_CellularNetwork">Сохранение данных</Item>
+			
+			<Item Key="Setting_Support_ErrorHistory_BakaVer">Версия лаунчера</Item>
+			
+			<Item Key="Setting_Support_ErrorHistory_ReportCan">Сообщить</Item>
+			<Item Key="Setting_Support_ErrorHistory_OpenFilePath">Показать этот файл в проводнике</Item>
+
+			<Item Key="Setting_Support_ErrorHistory_Solution_ContactUs">Немедленно свяжитесь с командой разработчиков BakaXL для решения этой проблемы.</Item>
+
+			<!-- Example: Ошибка в {YYYY/MM/DD} {MM:SS}-->
+			<Item Key="Setting_Support_ErrorHistory_HappedOn">Ошибка {0} {1}</Item>
+			<Item Key="Setting_Support_ErrorHistory_ErrorCode_Full">Код ошибки: {0}</Item>
+			
+			<Item Key="Setting_Account_NewProfile">Новый профиль</Item>
+			<Item Key="Setting_Account_ManageCredential">Файлы данных, используемые модпаками или серверами.</Item>
+			<Item Key="Setting_Account_ImportProfile">Импорт профиля из других лаунчеров</Item>
+			<Item Key="Setting_Account_ExportProfile">Экспорт профиля в другие лаунчеры</Item>
+			<Item Key="Setting_Account_ProfileTips">С учётом ограничений, после импорта настроек из других лаунчеров, &#xD;&#xA;если у вас есть подлинный аккаунт Minecraft, нужно будет снова &#xD;&#xA;ввести пароль для входа. &#xD;&#xA;Если вы экспортируете профиль пользователя из лаунчера BakaXL, &#xD;&#xA;профиль будет удалён из лаунчера BakaXL. &#xD;&#xA;Возможно, после импорта вам всё ещё придётся настроить некоторые &#xD;&#xA;элементы.</Item>
+			
+			<Item Key="Setting_Account_BakaAccount_Title">Аккаунт BakaXL</Item>
+			<Item Key="Setting_Account_BakaAccount_Login">Войти</Item>
+			<Item Key="Setting_Account_BakaAccount_Register">Регистрация</Item>
+			<Item Key="Setting_Account_BakaAccount_Logout">Выйти</Item>
+			<Item Key="Setting_Account_BakaAccount_CancelLogin">Отменить вход</Item>
+			<Item Key="Setting_Account_BakaAccount_LoginAs">Вход выполнен: {0}.</Item>
+			<Item Key="Setting_Account_BakaAccount_AccountEmail">Электронная почта: {0}</Item>
+			<Item Key="Setting_Account_BakaAccount_AccountStatus">Статус аккаунта: {0}</Item>
+			<Item Key="Setting_Account_BakaAccount_Connecting">Подключение к серверу BakaXL Network...</Item>
+			<Item Key="Setting_Account_BakaAccount_Tips">Зарегистрируйте аккаунт BakaXL и получите сетевой идентификатор &#xD;&#xA;аккаунта (ID BakaXL Network), чтобы насладиться замечательными &#xD;&#xA;сетевыми функциями лаунчера. &#xD;&#xA;&#xD;&#xA;После добавления этого игрового идентификатора в свой аккаунт &#xD;&#xA;BakaXL, вы сможете добавлять или проверять статус сети друзей, &#xD;&#xA;делится игровыми клиентами или быстро присоединяться к текущим &#xD;&#xA;играм друг друга.</Item>
+			<Item Key="Setting_Account_BakaAccount_LoginedTips">Все экземпляры лаунчера BakaXL которые в настоящее время &#xA;находятся на этом компьютере, будут зарегистрированы в этом &#xA;аккаунте. &#xA;Некоторые функции служб BakaXL Network доступны не во всех &#xA;регионах. &#xA;&#xA;Если вы нарушите политику аккаунта BakaXL, ваш аккаунт будет &#xA;ограничен.</Item>
+
+			<Item Key="Setting_Account_BakaAccount_AccountStatus_Normal">Нормальный</Item>
+			<Item Key="Setting_Account_BakaAccount_AccountStatus_Restricted">Ограниченный</Item>
+
+			<Item Key="Setting_Account_BakaAccount_Login_AccountEmail">Введите электронную почту</Item>
+			<Item Key="Setting_Account_BakaAccount_Login_AccountEmail_Tips">Введите электронную почту, которую вы использовали для регистрации своего аккаунта BakaXL.</Item>
+			<Item Key="Setting_Account_BakaAccount_Login_AccountPassword_Tips">Введите пароль для входа в аккаунт BakaXL. &#xD;&#xA;Лаунчер хранит эту информацию в зашифрованном виде.</Item>
+			<Item Key="Setting_Account_BakaAccount_Login_Options">Варианты входа</Item>
+			<Item Key="Setting_Account_BakaAccount_Login_Options_AutoLogin">Разрешить лаунчеру автоматически производить входить</Item>
+			<Item Key="Setting_Account_BakaAccount_Login_Options_VanishLogin">Оставаться инкогнито после входа</Item>
+
+			<Item Key="Setting_Account_Minecraft_Title">Профиль Minecraft</Item>
+			
+			<Item Key="Setting_Account_Detail_Title_WithID">Информация о аккаунте «{0}»</Item>
+			<Item Key="Setting_Account_Detail_Title">Настройки аккаунта</Item>
+			<Item Key="Setting_Account_Detail_Title_NewProfile">Создание нового профиля</Item>
+
+			<Item Key="Setting_Account_Detail_Notice_Credential">Некоторые параметры скрыты или управляются сервером или модпаком.</Item>
+			<Item Key="Setting_Account_Detail_Notice_MojangAccount">После 10 мар. 2022г. в аккаунт Mojang нельзя авторизироваться.</Item>
+			
+			<Item Key="Setting_Account_Detail_Type">Тип аккаунта</Item>
+			<Item Key="Setting_Account_Detail_AuthMode">Режим авторизации</Item>
+			<Item Key="Setting_Account_Detail_AuthMode_Tips_Default">Режим авторизации при запуске Minecraft. &#xD;&#xA;Подлинная авторизация: Войдите в свой аккаунт Mojang или Microsoft. &#xD;&#xA;Режим офлайн: Для авторизации используется только никнейм. &#xD;&#xA;Внешний вход (authlib-injector): Вход с использованием стороннего сервера авторизации. &#xA;&#xA;Режим офлайн-проверки недоступен в некоторых регионах из-за соответствующих законов и правил.</Item>
+			<Item Key="Setting_Account_Detail_AuthMode_Tips_Online">Режим авторизации при запуске Minecraft. &#xA;Вход в аккаунт Mojang.</Item>
+			<Item Key="Setting_Account_Detail_AuthMode_Tips_Online_Microsoft">Режим авторизации при запуске Minecraft. &#xD;&#xA;Вход в аккаунт Microsoft.</Item>
+			<Item Key="Setting_Account_Detail_AuthMode_Tips_Offline">Режим авторизации при запуске Minecraft. &#xD;&#xA;Запустите игру с авторизацией без пароля, используя только свой &#xA;никнейм. &#xA;&#xA;Режим офлайн-проверки недоступен в некоторых регионах из-за &#xA;соответствующих законов и правил.</Item>
+			<Item Key="Setting_Account_Detail_AuthMode_Tips_ThirdParty">Режим авторизации при запуске Minecraft. &#xA;Используйте для авторизации информацию о аккаунте, требуемую внешним входом (authlib-injector). &#xA;&#xA;В целях безопасности вашего аккаунта мы не рекомендуем вам использовать сторонний сервис авторизации. &#xD;&#xA;Используйте тот же пароль, что и в аккаунте Mojang.</Item>
+			
+			<Item Key="Setting_Account_Detail_AccInfo">Информация о аккаунте</Item>
+
+			<Item Key="Setting_Account_Detail_Offline_Username">Введите никнейм</Item>
+			<Item Key="Setting_Account_Detail_Offline_Username_Tips">Установите никнейм, который вы хотите использовать в игре. &#xD;&#xA;Можно использовать только английский язык, цифры и знаки &#xA;подчёркивания, не рекомендуется использовать китайский язык &#xA;и специальные символы.</Item>
+			
+			<Item Key="Setting_Account_Detail_Online_Email">Электронная почта</Item>
+			<Item Key="Setting_Account_Detail_Online_Email_Tips">Настройте электронную почту подлинного аккаунта Mojang.</Item>
+			<Item Key="Setting_Account_Detail_Online_Password">Пароль</Item>
+			<Item Key="Setting_Account_Detail_Online_Password_Tips">Введите пароль для входа в подлинный аккаунт Mojang. &#xD;&#xA;Лаунчер хранит эту информацию в зашифрованном виде.</Item>
+
+			<Item Key="Setting_Account_Detail_Online_Microsoft_LoginBtn">Вход через аккаунт Microsoft</Item>
+			<Item Key="Setting_Account_Detail_Online_Microsoft_LoginBtn_Relogin">Сменить аккаунт Microsoft</Item>
+			<Item Key="Setting_Account_Detail_Online_Microsoft_LoginBtn_Tips">Чтобы авторизироваться, введите свой логин и пароль Microsoft на &#xA;открывшейся странице. &#xD;&#xA;Лаунчер не записывает ваши логин и пароль. &#xD;&#xA;Используется технология Secure Sockets Layer (SSL) для всех соединений &#xA;с серверами Microsoft.</Item>
+			<Item Key="Setting_Account_Detail_Online_Microsoft_Logined_WithUsername">Выполнен вход как {0}</Item>
+			<Item Key="Setting_Account_Detail_Online_Microsoft_NotLogin">Вы ещё не вошли в свой аккаунт Microsoft.</Item>
+			<Item Key="Setting_Account_Detail_Online_Microsoft_Logined">Этот профиль был авторизован с помощью аккаунта Microsoft.</Item>
+			<Item Key="Setting_Account_Detail_Online_Microsoft_Logined_Time_Issued">Срок действия авторизации: {0}</Item>
+			<Item Key="Setting_Account_Detail_Online_Microsoft_Logined_Time_Expired">Срок действия авторизации: {0}</Item>
+
+			<Item Key="Setting_Account_Detail_Online_OnlineFunction_Title">Особенности подлинного аккаунта Minecraft</Item>
+			<Item Key="Setting_Account_Detail_Online_OnlineFunction_Tips">Если вы уже вошли, вы можете настроить свои скин Minecraft, &#xD;&#xA;плащ и т.д.</Item>
+
+			<Item Key="Setting_Account_Detail_Online_OnlineFunction_SkinCape_SaveSkin_DiagTitle">Сохранить персонажа Minecraft как</Item>
+			<Item Key="Setting_Account_Detail_Online_OnlineFunction_SkinCape_SaveSkin_DiagFilter">Файлы скина Minecraft</Item>
+			<Item Key="Setting_Account_Detail_Online_OnlineFunction_SkinCape_UploadSkin_DiagTitle">Выберите новый скин персонажу Minecraft</Item>
+
+			<Item Key="Setting_Account_Detail_ThirdParty_APIRoot">Проверьте адрес сервера (API Root)</Item>
+			<Item Key="Setting_Account_Detail_ThirdParty_APIRoot_Tips">Сервер авторизации (то есть сервер Yggdrasil) является ядром всей &#xA;системы авторизации. &#xD;&#xA;После настройки, запросы сделанные с помощью этого профиля будут &#xA;отправляться на этот адрес. &#xD;&#xA;Для быстрой настройки, можно перетащить конфигурацию, содержащую &#xA;информацию о сервере авторизации в лаунчер. &#xD;&#xA;&#xD;&#xA;Будьте осторожны при использовании серверов авторизации, не &#xA;относящихся к протоколу HTTPS, так как в этом случае ваш пароль будет &#xA;передан открытым текстом.</Item>
+
+			<Item Key="Setting_Account_Detail_ThirdParty_Email">Электронная почта</Item>
+			<Item Key="Setting_Account_Detail_ThirdParty_Email_Tips">Адрес электронной почты, который вы использовали для регистрации в этой сторонней службе авторизации.</Item>
+			<Item Key="Setting_Account_Detail_ThirdParty_EmailOrUsername">Имя пользователя / эл. почта</Item>
+			<Item Key="Setting_Account_Detail_ThirdParty_EmailOrUsername_Tips">Имя пользователя или адрес электронной почты, которые вы использовали для регистрации &#xA;в этой сторонней службе авторизации. &#xD;&#xA;Этот сервер авторизации поддерживает вход по имени пользователя.</Item>
+			<Item Key="Setting_Account_Detail_ThirdParty_Password">Пароль</Item>
+			<Item Key="Setting_Account_Detail_ThirdParty_Password_Tips">Пароль, который вы использовали при регистрации в сторонней службе &#xA;авторизации. &#xD;&#xA;BakaXL хранит эту информацию в зашифрованном виде.</Item>
+
+			<Item Key="Setting_Account_Detail_ThirdParty_ServerInfo_Title">Информация об идентификации сервера</Item>
+			<Item Key="Setting_Account_Detail_ThirdParty_ServerInfo_ServerName_Title">Название сервера: {0}</Item>
+			<Item Key="Setting_Account_Detail_ThirdParty_ServerInfo_ServerImplementationName_Title">Реализация сервера: {0}</Item>
+			<Item Key="Setting_Account_Detail_ThirdParty_ServerInfo_ServerImplementationVersion_Title">Версия реализации: {0}</Item>
+			<Item Key="Setting_Account_Detail_ThirdParty_ServerInfo_Tips">Если сервер содержит поддерживаемые метаданные ответа, они будут отображаться здесь. &#xD;&#xA;Версия реализации не является версией сервера Minecraft. &#xD;&#xA;Используйте эти проверки данных, чтобы проверить адрес и информацию сервера.</Item>
+
+			<Item Key="Setting_Account_Detail_ThirdParty_OnlineFunction_Title">Функция сторонней авторизации аккаунта</Item>
+			<Item Key="Setting_Account_Detail_ThirdParty_OnlineFunction_Tips">Если ваша сторонняя служба аутентификации отмечает свою поддержку в ответе сервера &#xD;&#xA;Здесь будут отображаться быстрые функции, такие как загрузка скинов или плащей через лаунчер.</Item>
+
+			<Item Key="Setting_Account_Detail_AccFeatures_FetchingProfile">Получение профиля персонажа...</Item>
+			<Item Key="Setting_Account_Detail_AccFeatures_FetchingProfileFailed">Лаунчер не имеет доступа к профилю этого персонажа. &#xD;&#xA;Если эта проблема остаётся, проверьте подключение к Интернету.</Item>
+
+			<Item Key="Setting_Account_Detail_AccFeatures_SkinCapes_Title">Скин и плащ</Item>
+			<Item Key="Setting_Account_Detail_AccFeatures_SkinCapes_Skin_SaveBtn">Сохранить мой скин персонажа</Item>
+			<Item Key="Setting_Account_Detail_AccFeatures_SkinCapes_Skin_UploadBtn">Скин моего персонажа</Item>
+			<Item Key="Setting_Account_Detail_AccFeatures_SkinCapes_Skin_UploadTips">Теперь вы можете изменить скин своего персонажа прямо из лаунчера. &#xD;&#xA;После смены скина вам нужно будет перезапустить игру.</Item>
+
+			<Item Key="Setting_Account_Detail_AccFeatures_SkinCapes_Skin_UploadBtn_Offline">Загрузить офлайн скин</Item>
+			<Item Key="Setting_Account_Detail_AccFeatures_SkinCapes_Skin_ClearBtn_Offline">Восстановить по умолчанию</Item>
+			<Item Key="Setting_Account_Detail_AccFeatures_SkinCapes_Skin_UploadTips_Offline">Установите офлайн скин для своего персонажа. &#xD;&#xA;После смены скина вам нужно будет &#xA;перезапустить игру. &#xD;&#xA;&#xD;&#xA;Если BakaXL Network SkinShare включен, после &#xA;настройки офлайн скина вы сможете видеть &#xA;скины друзей или других игроков в лобби.</Item>
+
+			<Item Key="Setting_Account_Detail_AccFeatures_SkinCapes_Capes_DisplayStatusBtn">Отображение плаща</Item>
+			<Item Key="Setting_Account_Detail_AccFeatures_SkinCapes_Capes_UploadBtn">Сменить плащ персонажа Minecraft</Item>
+			<Item Key="Setting_Account_Detail_AccFeatures_SkinCapes_Capes_UploadTips">Настройка отображения плаща позволяет выбрать, будет ли плащ отображаться в игре. &#xD;&#xA;Если у вас есть более одного плаща, то тут вы сможете выбрать, какой плащ отображать в игре.</Item>
+
+			<Item Key="Setting_Account_Detail_ProfileProtection">Защита и безопасность аккаунта</Item>
+			<Item Key="Setting_Account_Detail_ProfileProtection_Btn_Title">Не сохраняйте подлинную информацию</Item>
+			<Item Key="Setting_Account_Detail_DoNotSaveAuthInfo">Рекомендуется включить этот параметр, когда вы используете лаунчер на &#xA;общедоступном компьютере. &#xD;&#xA;Лаунчер сохранит только ваш никнейм.</Item>
+			<Item Key="Setting_Account_Detail_DoNotSaveAuthInfo_Tips">Лаунчер использует стандартное шифрование для обеспечения &#xA;безопасности информации вашего аккаунта. &#xD;&#xA;В целях безопасности, никому не сообщайте свой пароль.</Item>
+
+			<Item Key="Setting_Account_Detail_Delete">Удаление профиля из лаунчера</Item>
+			<Item Key="Setting_Account_Detail_Delete_Btn_Title">Удалить профиль</Item>
+			<Item Key="Setting_Account_Detail_Delete_Tips">Этот профиль и содержащиеся в нём данные будут безвозвратно &#xA;удалены из лаунчера. Этот процесс необратим.</Item>
+
+			<Item Key="Setting_Account_Detail_BackBtn_Back">Назад</Item>
+			<Item Key="Setting_Account_Detail_BackBtn_AuthBack">Войти и вернуться</Item>
+			<Item Key="Setting_Account_Detail_Tips_EmailInvaild">Введённая электронная почта не действительна</Item>
+			<Item Key="Setting_Account_Detail_Tips_AuthFailed">Не удалось получить подлинный никнейм, попробуйте ещё раз!</Item>
+			<Item Key="Setting_Account_Detail_Tips_Authenticating">Авторизация...</Item>
+			<Item Key="Setting_Account_Detail_Tips_AuthFailed_Username">Невозможно авторизироваться</Item>
+			<Item Key="Setting_Account_Detail_Tips_NeedAuth">Прежде чем вернуться, вам необходимо пройти авторизацию аккаунта</Item>
+			<Item Key="Setting_Account_Detail_Tips_NeedUsername">Необходимо установить никнейм</Item>
+			<Item Key="Setting_Account_Detail_Tips_ThirdPartAPIRoot">Нобходимо настроить сторонний сервер авторизации</Item>
+			<Item Key="Setting_Account_Detail_Tips_NeedReload">Вы изменили никнейм, некоторые материалы необходимо перезагрузить.</Item>
+
+			<Item Key="Setting_Java_CoreSetting_Warn">В выбранном в данный момент ядре включены автономные настройки. &#xD;&#xA;Если вы хотите сделать индивидуальные настройки для этого ядра, нажмите здесь.</Item>
+
+			<Item Key="Setting_Java_JVM_Title">Java</Item>
+			
+			<Item Key="Setting_Java_JVM_FullAuto">Автоопределение версии Java</Item>
+			<Item Key="Setting_Java_JVM_FullAuto_Tips">Если эта опция включена, лаунчер автоматически выбирет подходящую &#xD;&#xA;версию Java. &#xD;&#xA;Если у вас не установлена подходящая Java, лаунчер автоматически &#xD;&#xA;установит её за вас.</Item>
+
+			<Item Key="Setting_Java_JVM_Selector">Выберите версию Java</Item>
+			<Item Key="Setting_Java_JVM_Tips">Чтобы обеспечить себе игровой опыт, всегда выбирайте наиболее &#xD;&#xA;подходящую версию Java.</Item>
+
+			<Item Key="Setting_Java_JVM_Manual">Настроить</Item>
+			<Item Key="Setting_Java_JVM_Info_CanUpgradeTo64Bit">Может быть обновлён до 64-битной версии</Item>
+			<Item Key="Setting_Java_JVM_Info_BestMatch">Наиболее подходящая</Item>
+			<Item Key="Setting_Java_JVM_Info_CanUpgradeTo64BitJava8">Возможность обновления до версии Java 8 (64-бит)</Item>
+			<Item Key="Setting_Java_JVM_Info_OpticalChoice">Доступные варианты</Item>
+
+			<Item Key="Setting_Java_JVM_Advance">Расширенные настройки Java</Item>
+			<Item Key="Setting_Java_JVM_Advance_AutoJava">Автопоиск пути к Java</Item>
+			<Item Key="Setting_Java_JVM_Advance_ManualJava">Указать путь к Java вручную</Item>
+			<Item Key="Setting_Java_JVM_Advance_ManualJava_Selector_Title">Выберите расположение Javaw.exe</Item>
+
+			<Item Key="Setting_Java_JVM_Advance_AdvanceSearchPermission">Более подробный автопоиск расположения Java</Item>
+			<Item Key="Setting_Java_JVM_Advance_AdvanceSearchPermission_Tips">Разрешите лаунчеру перемещаться по папкам на диске вашего &#xD;&#xA;компьютера, чтобы найти расположение Java, которые не могут &#xD;&#xA;быть найдены обычным поиском. &#xD;&#xA;Прежде чем использовать этот метод поиска, выясните как &#xD;&#xA;работает эта функция.</Item>
+		
+			<Item Key="Setting_Java_JVM_Advance_Tips">При нормальных обстоятельствах лаунчер автоматически выберет &#xD;&#xA;наиболее подходящую версию Java для вашего компьютера. &#xD;&#xA;Если вы не понимаете что делает этот параметр, мы рекомендуем вам &#xD;&#xA;не трогать его.</Item>
+			
+			<Item Key="Setting_Java_JVM_Download">Получить Java 8</Item>
+			<Item Key="Setting_Java_JVM_Download_Tips">Java 8 требуется для запуска Minecraft 1.16 и ниже. &#xD;&#xA;Лаунчер перенаправит вас на страницу скачивания Java 8 из надёжного источника. &#xD;&#xA;</Item>
+
+			<Item Key="Setting_Java_JVM16_Download">Получить Java 16</Item>
+			<Item Key="Setting_Java_JVM16_Download_Tips">Java 16 требуется для запуска Minecraft 1.17 или выше. &#xD;&#xA;Лаунчер автоматически установит Java 16 из надёжных источников при подключении к Интернету. &#xD;&#xA;Этот процесс может занять несколько минут и может взымать плату, если вы используете платное подключение к Интернету.</Item>
+
+			<Item Key="Setting_Java_JVM17_Download">Получить Java 17</Item>
+			<Item Key="Setting_Java_JVM17_Download_Tips">Java 17 требуется для запуска Minecraft 1.17 или выше. &#xD;&#xA;Лаунчер автоматически установит Java 17 из надёжных источников при подключении к Интернету. &#xD;&#xA;Этот процесс может занять несколько минут и может взымать плату, если вы используете платное подключение к Интернету.</Item>
+
+			<Item Key="Setting_Java_JVM_AutoInstall_Tips">Java 8 требуется для запуска Minecraft 1.16 и ниже. &#xD;&#xA;Java 17 требуется для запуска Minecraft 1.17 или выше. &#xD;&#xA;Лаунчер автоматически устанавливает Java из надёжных источников. &#xD;&#xA;Этот процесс может занять несколько минут и может взымать плату, &#xD;&#xA;если вы используете платное подключение к Интернету.</Item>
+
+			<Item Key="Setting_Java_JVM_Installing_Pending">Установка Java {0}... &#xD;&#xA;Он будет отображаться здесь при обновлении хода установки.</Item>
+			<Item Key="Setting_Java_JVM_Installing_ProgressChanged">Установка Java {0}... &#xD;&#xA;Статус: {1} </Item>
+
+			<Item Key="Setting_Java_JVM_Installing_Successful">Лаунчер успешно установил Java {0}. &#xD;&#xA;Вы можете выбрать эту Java из списка.</Item>
+			<Item Key="Setting_Java_JVM_Installing_Failed">Лаунчер не может автоматически установить Java {0}. &#xD;&#xA;Это может быть связано с повреждённым файлом, предоставленным источником для скачивания, или с прерванным подключением к Интернету.</Item>
+
+			<Item Key="Setting_Java_JVM_InstallProgress_Preparing">Подготовка к установке Java {0}</Item>
+			<Item Key="Setting_Java_JVM_InstallProgress_FetchingFileList">Получение списка файлов для Java {0} ({1} бит)</Item>
+			<Item Key="Setting_Java_JVM_InstallProgress_Downloading">Скачивание Java {0} ({1} бит) </Item>
+
+			<Item Key="Setting_Java_JVM_InstallProgress_Finalizing">Завершение установки...</Item>
+			
+			<Item Key="Setting_Java_Memory_Title">Память</Item>
+			
+			<Item Key="Setting_Java_Memory">Оперативная память</Item>
+			<Item Key="Setting_Java_Memory_Installed">Всего {0} ГБ</Item>
+			<Item Key="Setting_Java_Memory_Used">Используется</Item>
+			<Item Key="Setting_Java_Memory_MinecraftUsed">Minecraft использует</Item>
+			<Item Key="Setting_Java_Memory_Global_MinecraftUsed">Используется (глобально)</Item>
+			<Item Key="Setting_Java_Memory_Override_MinecraftUsed">Используется (индивидуально)</Item>
+
+			<Item Key="Setting_Java_Memory_AutoMemory">Автоустановка памяти</Item>
+			<Item Key="Setting_Java_Memory_AdvanceMemory">Расширенные настройки памяти</Item>
+			<Item Key="Setting_Java_Memory_AdvanceMemory_Tips">Лаунчер обычно автоматически выделяет память, основываясь на текущей &#xD;&#xA;конфигурации вашего компьютера. &#xD;&#xA;Если вы не понимаете, что делает этот параметр, мы рекомендуем вам &#xD;&#xA;не трогать его.</Item>
+			<Item Key="Setting_Java_Memory_AdvanceMemory_ForceRelease">Принудительное освобождение памяти</Item>
+			<Item Key="Setting_Java_Memory_AdvanceMemory_ForceRelease_Tips">Не рекомендуется, лаунчер может попытаться принудительно &#xD;&#xA;освободить, чтобы увеличить доступную память.</Item>
+			<Item Key="Setting_Java_Memory_AdvanceMemory_ManualMemory">Вручную указать объём памяти</Item>
+			<Item Key="Setting_Java_Memory_AdvanceMemory_ManualMemory_AutoMode_Tips">Чтобы указать объем памяти вручную, необходимо отключить функцию «Автоустановка памяти».</Item>
+			<Item Key="Setting_Java_Memory_AdvanceMemory_ManualMemory_Tips">Вручную выделите объём памяти, который должен использовать &#xD;&#xA;Minecraft.</Item>
+
+			<Item Key="Setting_Language_DisplayLanguage">Язык лаунчера</Item>
+			<Item Key="Setting_Language_Translator">Переводчик</Item>
+			<Item Key="Setting_Language_TranslateProject">Проект перевода</Item>
+			<Item Key="Setting_Language_TranslationTools">Инструмент переводчика</Item>
+
+			<Item Key="Setting_Language_Selector_Watermark">Выберите язык, используемый в вашем регионе</Item>
+			<Item Key="Setting_Language_Selector_Tips">Лаунчер может поддерживать предпочитаемые языки многих стран &#xA;и регионов по всему миру. &#xD;&#xA;И всё это благодаря пользователям со всего мира. &#xD;&#xA;Переведённый текст нельзя использовать до тех пор, пока он не будет &#xA;протестирован.</Item>
+
+			<Item Key="Setting_Language_JoinLocalization">Присоединиться к проекту локализации</Item>
+			<Item Key="Setting_Language_JoinLocalization_Tips">Посетите домашнюю страницу проекта локализации, чтобы получить &#xA;последние текстовые файлы и принять участие в качестве переводчика.</Item>
+
+			<Item Key="Setting_Language_Utilities_Debugger_Title">Протестировать переведённый файл</Item>
+			<Item Key="Setting_Language_Utilities_Debugger_Tips">Во время запуска, заменяет отображаемый язык на переведённый текст, заданный &#xA;внешним файлом. &#xD;&#xA;Это поможет переводчику протестировать переведённый текст. &#xD;&#xA;&#xD;&#xA;Если вы не знаете, что делает этот параметр, не трогайте.</Item>
+			<Item Key="Setting_Language_Utilities_Debugger_Browser_Title">Выберите переведённый файл</Item>
+			<Item Key="Setting_Language_Utilities_Debugger_Browser_Filter">Файл перевода</Item>
+			
+			<Item Key="Setting_Network_Connected">Подключено</Item>
+			<Item Key="Setting_Network_Error">Ошибка подключения</Item>
+			<Item Key="Setting_Network_MojangError">Перерыв в обслуживании</Item>
+			<Item Key="Setting_Network_Maintenance">Сервисное обслуживание</Item>
+			<Item Key="Setting_Network_Timeout">Истекло время ожидания подключения</Item>
+			<Item Key="Setting_Network_ConnectedWithError">Подключено, одна ошибка</Item>
+
+			<Item Key="Setting_Network_InternetStatus_Title">Состояние сети</Item>
+			<Item Key="Setting_Network_InternetStatus_Connected">Лаунчер подключен к сети.</Item>
+			<Item Key="Setting_Network_InternetStatus_Disconnected">Лаунчер не подключен к сети.</Item>
+
+			<Item Key="Setting_Network_BakaServiceStatus_Title">Статус сервера BakaXL</Item>
+			<Item Key="Setting_Network_BakaServiceStatus_Plaza_API">Baka Plaza (API):</Item>
+			<Item Key="Setting_Network_BakaServiceStatus_Plaza_Qiniu">Baka Plaza (Kodo):</Item>
+			<Item Key="Setting_Network_BakaServiceStatus_Update_Main">Обновление лаунчера (канал Sloth):</Item>
+			<Item Key="Setting_Network_BakaServiceStatus_Update_Jenkins">Обновление лаунчера (канал Parrot / Pigeon):</Item>
+
+			<Item Key="Setting_Network_BakaServiceStatus_Network_BakaNetwork">Служба BakaXL Network:</Item>
+			<Item Key="Setting_Network_BakaServiceStatus_Network_Relay_Lanko_A">BakaXL Network Relay (Lanko-A):</Item>
+
+			<Item Key="Setting_Network_BakaServiceStatus_Third_Party_Title">Сторонние поставщики услуг</Item>
+			<Item Key="Setting_Network_BakaServiceStatus_Third_Party_CurseForgeApi">CurseForge API:</Item>
+			<Item Key="Setting_Network_BakaServiceStatus_Third_Party_CurseForgeCDN">CurseForge CDN:</Item>
+			<Item Key="Setting_Network_BakaServiceStatus_Third_Party_MCBBS">MCBBS:</Item>
+      
+			<Item Key="Setting_Network_MojangServiceStatus_Title">Состояние сервера Mojang</Item>
+			<Item Key="Setting_Network_MojangServiceStatus_MainServer">Состояние служб Mojang:</Item>
+			<Item Key="Setting_Network_MojangServiceStatus_MinecraftSite">Официальный сайт Minecraft</Item>
+			<Item Key="Setting_Network_MojangServiceStatus_MinecraftSession_Old">Служба многопользовательского онлайн-чата Minecraft (старая версия)</Item>
+			<Item Key="Setting_Network_MojangServiceStatus_MinecraftSession">Служба многопользовательского онлайн-чата Minecraft</Item>
+			<Item Key="Setting_Network_MojangServiceStatus_MojangAccount">Служба аккаунта Mojang</Item>
+			<Item Key="Setting_Network_MojangServiceStatus_MinecraftAuth">Служба подлинной авторизации Minecraft</Item>
+			<Item Key="Setting_Network_MojangServiceStatus_MojangAPI">Служба API Mojang</Item>
+			<Item Key="Setting_Network_MojangServiceStatus_MinecraftSkins">Служба скинов Minecraft</Item>
+			<Item Key="Setting_Network_MojangServiceStatus_MojangSite">Официальный сайт Mojang</Item>
+			<Item Key="Setting_Network_MojangServiceStatus_MicrosoftLive">Служба входа через Microsoft</Item>
+			<Item Key="Setting_Network_MojangServiceStatus_MicrosoftXBOXLive">Служба входа через XBOX</Item>
+
+			<Item Key="Setting_Network_Environment_Ping">Сетевое окружение</Item>
+			<Item Key="Setting_Network_Environment_NATType_Title">Тип NAT:</Item>
+			<Item Key="Setting_Network_Environment_Ping_ms_Title">Задержка сервера:</Item>
+			<Item Key="Setting_Network_Environment_Ping_ms">мс</Item>
+			<Item Key="Setting_Network_Environment_Ping_Package">Потеряно пакетов скорости:</Item>
+
+			<Item Key="Setting_Network_Environment_Proxy">Прокси для веб-запросов</Item>
+			<Item Key="Setting_Network_Environment_Proxy_Settings_Title">Целевой прокси-сервер:</Item>
+			<Item Key="Setting_Network_Environment_Proxy_Settings_ProxyPac">Без прокси-сервера</Item>
+			<Item Key="Setting_Network_Environment_Proxy_Settings_NoProxy">Прокси-сервер не установлен</Item>
+
+			<Item Key="Setting_Network_Environment_NATType_Unknown">Неизвестно</Item>
+			<Item Key="Setting_Network_Environment_NATType_Open">Открыть</Item>
+			<Item Key="Setting_Network_Environment_NATType_FullCone">Средний (полный конус)</Item>
+			<Item Key="Setting_Network_Environment_NATType_Restrict">Средний (ограниченный конус)</Item>
+			<Item Key="Setting_Network_Environment_NATType_PortRestrict">Средний (конус с ограниченным портом)</Item>
+			<Item Key="Setting_Network_Environment_NATType_Symmetric">Строгий (симметричный)</Item>
+			<Item Key="Setting_Network_Environment_NATType_SymmetricFirewall">Строгий (симметричный + брандмауэр)</Item>
+			<Item Key="Setting_Network_Environment_NATType_Error_DNS">Ошибка разрешения DNS</Item>
+			<Item Key="Setting_Network_Environment_NATType_Error_NULL">В настоящее время обнаружение не может быть завершено</Item>
+			<Item Key="Setting_Network_Environment_NATType_Error_RequestFailed">Сбой подключения к сети</Item>
+
+			<Item Key="Setting_Network_Environment_NATType_Checking">Проверка...</Item>
+			<Item Key="Setting_Network_Environment_NATType_Checking_Tips">Лаунчер отобразит результаты после завершения теста...</Item>
+
+			<Item Key="Setting_Network_Environment_NATType_Tips_Open">Текущая сетевая среда не влияет на работу в сети &#xD;&#xA;Это сетевое окружение подходит в качестве создателя лобби</Item>
+			<Item Key="Setting_Network_Environment_NATType_Tips_MayAffectOnlinePlay">Это может повлиять на вашу работу в сети</Item>
+			<Item Key="Setting_Network_Environment_NATType_Tips_MayAffectOnlinePlay_RouterOrFirewall">Некоторые настройки маршрутизатора и брандмауэра могут &#xA;повлиять на работу в сети</Item>
+			<Item Key="Setting_Network_Environment_NATType_Tips_MayAffectOnlinePlay_RouterOrFirewall_UPnP">Некоторые настройки маршрутизатора и брандмауэра могут повлиять на работу в сети &#xD;&#xA;Это может быть смягчено, если создатель лобби или ваше сетевое устройство поддерживает UPnP</Item>
+			<Item Key="Setting_Network_Environment_NATType_Tips_WillAffectOnlinePlay">Это серьезно повлияет на ваш опыт работы в сети</Item>
+			<Item Key="Setting_Network_Environment_NATType_Tips_WillAffectOnlinePlay_UPnP">Это серьезно повлияет на ваш опыт работы в сети &#xD;&#xA;Это может быть смягчено, если создатель лобби или ваша сетевая среда поддерживают UPnP</Item>
+
+			<Item Key="Setting_Network_Environment_UPnP_Unknown">Неизвестно</Item>
+			<Item Key="Setting_Network_Environment_UPnP_Unsupport">Несовместимо</Item>
+			<Item Key="Setting_Network_Environment_UPnP_Unsupport_Tips">Текущее сетевое устройство или система не поддерживает протокол UPnP &#xD;&#xA;Если вы включите UPnP в своём сетевом устройстве, лаунчер попытается улучшить ваш опыт работы в сети с помощью этого протокола</Item>
+			<Item Key="Setting_Network_Environment_UPnP_Unstable">Нестабильно [{0}]</Item>
+			<Item Key="Setting_Network_Environment_UPnP_Unstable_Tips">Ваше текущее сетевое устройство или система не поддерживает должным образом протокол UPnP &#xD;&#xA;Это может привести к тому, что лаунчер не сможет улучшить ваш опыт работы в сети &#xD;&#xA;Если вы считаете, что ваше сетевое устройство или система не имеют этой проблемы, то свяжитесь с рзработчиками BakaXL</Item>
+			<Item Key="Setting_Network_Environment_UPnP_Enabled">Автосопоставление включено</Item>
+			<Item Key="Setting_Network_Environment_UPnP_Enabled_Tips">Лаунчер запрашивает автоматическое сопоставление с вашими сетевыми устройствами, чтобы улучшить ваш опыт работы в сети</Item>
+			<Item Key="Setting_Network_Environment_UPnP_Pending">Тестирование ещё не началось</Item>
+			<Item Key="Setting_Network_Environment_UPnP_Pending_Tips">Лаунчер ещё не начал обнаруживать протоколы UPnP на сетевых устройствах &#xD;&#xA;Когда начнет устанавливаться одноранговое соединение, BakaXL начнёт обнаруживать и отображать результаты</Item>
+
+			<Item Key="Setting_Network_Environment_Retest">Повторить тест</Item>
+
+			<Item Key="Setting_Network_Troubleshooting">Поиск и устранение неисправностей сетевого подключения</Item>
+			<Item Key="Setting_Network_Troubleshooting_Tips">Если не можете нормально подключиться к подлинному серверу &#xA;авторизации Mojang или Microsoft, попытка заменить DNS-сервер на &#xA;стабильный и менее загрязнённый, обычно решает проблему. &#xA;&#xD;&#xA;Если эта проблема сохраняется, обратитесь к поставщику услуг Интернета &#xA;(ISP) и убедитесь, что ваш трафик не перехватывают.</Item>
+
+			<Item Key="Setting_Advance_AdvLaunch_Title">Расширенный запуск</Item>
+			<Item Key="Setting_Advance_AdvLaunch_Warn_1">Если не знаете что делают эти параметры, не изменяйте их.</Item>
+			<Item Key="Setting_Advance_AdvLaunch_Warn_SettingMoved">Что-то было перенесено в "Расширенные настройки ядра".</Item>
+			<Item Key="Setting_Advance_AdvLaunch_MinecraftTitle">Заголовок окна Minecraft</Item>
+			<Item Key="Setting_Advance_AdvLaunch_MinecraftTitle_Tips">Установите название окна Minecraft, запущенной BakaXL. &#xD;&#xA;Параметры могут быть использованы в заголовке для отображения &#xD;&#xA;динамического содержимого. &#xD;&#xA;{time} - отображает текущее системное время.</Item>
+			<Item Key="Setting_Advance_AdvLaunch_Args">Расширенные параметры запуска</Item>
+			<Item Key="Setting_Advance_AdvLaunch_Args_Tips">Установите расширенные параметры запуска для Minecraft. &#xD;&#xA;Используйте только в том случае, если у вас есть особая &#xD;&#xA;необходимость и вам нужно правильно заполнить параметры. &#xD;&#xA;Обычным игрокам нет необходимости использовать эту функцию, &#xD;&#xA;поэтому рекомендуется оставить её пустой.</Item>
+			<Item Key="Setting_Advance_AdvLaunch_AutoJoin">Автоприсоединение к серверу после запуска игры</Item>
+			<Item Key="Setting_Advance_AdvLaunch_AutoJoin_IPBox">Введите адрес сервера</Item>
+			<Item Key="Setting_Advance_AdvLaunch_AutoJoin_Tips">Автоматически присоединяется к серверу при запуске и &#xD;&#xA;завершении загрузки Minecraft.</Item>
+			<Item Key="Setting_Advance_AdvLaunch_CheckVersionFolder">Предпроверка существующего основного каталога игры</Item>
+			<Item Key="Setting_Advance_AdvLaunch_CheckVersionFolder_Tips">Перед запуском игры проверяет каталог .minecraft/versions/«версия ядра» &#xA;и отменяет запуск, если нет подтверждения существования этой папки. &#xD;&#xA;&#xD;&#xA;Отключите эту функцию в крайних случаях, если каталог ядра существует &#xA;и не может быть обнаружен. &#xD;&#xA;После закрытия лаунчер будет пытаться продолжать запуск, если не &#xA;сможет подтвердить существование папки, до следующего &#xA;подтверждения существования папки ядра. &#xD;&#xA;&#xD;&#xA;Может привести к ненормальному поведению лаунчера или даже к сбою &#xA;при запуске игры. &#xD;&#xA;Этот параметр не синхронизируется глобально с другими лаунчерами &#xA;BakaXL на компьютере.</Item>
+
+			<Item Key="Setting_Advance_AdvLaunch_AutoFixJsonId">Автовосстановление json с несоответствующим ID</Item>
+			<Item Key="Setting_Advance_AdvLaunch_AutoFixJsonId_Tips">Если лаунчер обнаружит, что ядро имеет неправильную запись ID &#xA;в Json-файле, он автоматически попытается исправить это. &#xD;&#xA;&#xD;&#xA;Иногда автовосстановление может вызвать ошибку. &#xD;&#xA;Если отключить эту функцию, лаунчер будет запрашивать вас в выборе &#xA;ядра только в том случае, если обнаружит неправильный json. &#xD;&#xA;Этот параметр не синхронизируется глобально с другими лаунчерами &#xA;BakaXL на компьютере.</Item>
+
+			<Item Key="Setting_Advance_AdvLaunch_GCMethod">Пользовательская Java GC</Item>
+			<Item Key="Setting_Advance_AdvLaunch_GCMethod_Tips">Установите сборщик мусора (GC), который будет использоваться &#xA;при использовании Java 9 или выше. &#xD;&#xA;Этот параметр не будет работать, если ваша версия Java ниже 9. &#xD;&#xA;&#xD;&#xA;«Z Collector (ZGC)» доступен только с Java 11 или выше, использование &#xA;этого сборщика с неправильной версией Java приведёт к сбою запуска &#xA;игры. &#xD;&#xA;&#xD;&#xA;Если вы не знаете что это делает, выберите «По умолчанию».</Item>
+			
+			<Item Key="Setting_Advance_GameResolution_Title">Размер окна Minecraft</Item>
+			<Item Key="Setting_Advance_GameResolution_SelectWindowSize">Выберите размер окна</Item>
+			<Item Key="Setting_Advance_GameResolution_Wdith">Ширина окна</Item>
+			<Item Key="Setting_Advance_GameResolution_Height">Высота окна</Item>
+			<Item Key="Setting_Advance_GameResolution_Tips">Устанавливает размер окна игры. &#xD;&#xA;Лаунчер перечислил некоторые из часто используемых размеров окон &#xA;для вас. &#xD;&#xA;Выберите «Пользовательский», чтобы вручную задать размер окна.</Item>
+
+			<Item Key="Setting_Advance_AutoFix_Title">Автоисправление</Item>
+			<Item Key="Setting_Advance_AutoFix_Btn_Title">Автоматический исправляет файлы ресурсов</Item>
+			<Item Key="Setting_Advance_AutoFix_Btn_Tips">Напоминает, когда вы переходите на версию Minecraft, в которой нет полного файла Assets.</Item>
+
+			<Item Key="Setting_Advance_Reset_Title">Восстановление настроек</Item>
+			<Item Key="Setting_Advance_Reset_Btn_Title">Сбросить по умолчанию</Item>
+			<Item Key="Setting_Advance_Reset_Btn_Tips">Если вы считаете, что всё испортили, вы можете восстановить все &#xA;расширенные параметры до значений по умолчанию.</Item>
+
+			<Item Key="Setting_Personalize_Background_Title">Фон приложения</Item>
+			<Item Key="Setting_Personalize_Background_Browse_Btn">Установить фоновое изображение</Item>
+			<Item Key="Setting_Personalize_Background_Default_Btn">Восстановить фон по умолчанию</Item>
+			<Item Key="Setting_Personalize_Background_Clear_Btn">Очистить фон</Item>
+			<Item Key="Setting_Personalize_Background_Browse_Btn_Tips">Установите изображение, которое будет отображаться в лаунчере. &#xD;Хотя ваши изображения не будут каким-либо образом загружены, мы &#xA;не рекомендуем вам использовать какие-либо изображения, содержащие &#xA;элемент эротики.</Item>
+			<Item Key="Setting_Personalize_Background_CustomImage_Title">Выберите своё фоновое изображение</Item>
+			<Item Key="Setting_Personalize_Background_CustomImage_Filter">Формат изображения</Item>
+			
+			<Item Key="Setting_Personalize_Background_Acrylic">Размытие фона</Item>
+			<Item Key="Setting_Personalize_Background_AcrylicType">Тип размытия</Item>
+			<Item Key="Setting_Personalize_Background_AcrylicType_Default">Акрил</Item>
+			<Item Key="Setting_Personalize_Background_AcrylicType_Blur">Матовое стекло</Item>
+			<Item Key="Setting_Personalize_Background_AcrylicManual">Установить уровень размытия вручную</Item>
+			<Item Key="Setting_Personalize_Background_AcrylicTips">Эффект размытия фона позволяет лаунчеру расфокусировать &#xA;содержимое фонового слоя, создавая комфортное и не противоречивое &#xA;визуальное восприятие. &#xD;&#xD;Уровень размытия нельзя отрегулировать вручную при использовании &#xA;живого фона или если фон не установлен. &#xD;Для использования акрилового эффекта требуется Windows 10 и выше.</Item>
+			
+			<Item Key="Setting_Personalize_Background_LiveBackground">Использовать живой фон (тестовая версия)</Item>
+			<Item Key="Setting_Personalize_Background_LiveBackground_Tips">Привяжите дополнительные оверлеи внизу лаунчера для &#xA;отображения расширенных динамических фонов. &#xD;Динамические фоны отображаются с помощью связки лаунчера и &#xA;Wallpaper Engine. &#xD;&#xD;Эта функция не работает должным образом в некоторых разрешениях и &#xA;средах масштабирования DPI. &#xD;Если вы не используете Wallpaper Engine, лаунчер будет использовать &#xA;обои вашего рабочего стола.</Item>
+
+			<Item Key="Setting_Personalize_Background_CustomWindowSize">Пользовательский размер окна (тестовая версия)</Item>
+			<Item Key="Setting_Personalize_Background_CustomWindowSize_Tips">Включение этого параметра позволит изменить размер окна лаунчера. &#xD;Это тестовая функция, некоторые интерфейсы и функции &#xA;лаунчера ещё не адаптированы к большим размерам окна. &#xD;Некоторые функции могут работать неправильно.</Item>
+
+			<Item Key="Setting_Personalize_Background_Parallax">Параллакс фонового изображения</Item>
+			<Item Key="Setting_Personalize_Background_Parallax_Mode">Режим параллакса</Item>
+			<Item Key="Setting_Personalize_Background_Parallax_Mode_Flat">Плоский</Item>
+			<Item Key="Setting_Personalize_Background_Parallax_Mode_3D">Многослойный (тестовая версия)</Item>
+			<Item Key="Setting_Personalize_Background_Parallax_Tips">Заставьте фоновое изображение следовать за движением мыши, чтобы создать эффект параллакса. &#xD; · Плоский: Панорамирует фон в 2D. &#xD; · Многослойный: Тестовая функция. Отображение параллакса в нескольких слоях, может потреблять больше памяти. &#xD;&#xD;Эта функция недоступна при использовании живого фона или фона по умолчанию.</Item>
+
+			<Item Key="Setting_Personalize_Color_Title">Цветовая схема приложения</Item>
+			<Item Key="Setting_Personalize_Color_Selector">Выберите цветовую схему</Item>
+			<Item Key="Setting_Personalize_Color_NightMode">Ночной режим</Item>
+			<Item Key="Setting_Personalize_Color_Tips">Установите цветовую схему, используемую окнами и элементами &#xA;управления лаунчером.</Item>
+			
+			<Item Key="Setting_Personalize_Tema_Title">Тема приложения</Item>
+			<Item Key="Setting_Personalize_Tema_Patch">Сохранить текущие настройки персонализации как тему</Item>
+			<Item Key="Setting_Personalize_Tema_List">Посмотреть список тем</Item>
+			<Item Key="Setting_Personalize_Tema_Folder">Открыть папку с темами</Item>
+
+			<Item Key="Setting_Personalize_Tema_Default">Тема по умолчанию</Item>
+			<Item Key="Setting_Personalize_Tema_Default_Desc">Стандартная тема лаунчера, очень по умолчанию и особенно по умолчанию.</Item>
+			<Item Key="Setting_Personalize_Tema_Custom">Пользовательская</Item>
+			<Item Key="Setting_Personalize_Tema_Custom_Desc">Пользовательская тема лаунчера, и она тоже не упакована, всё кажется таким тихим.</Item>
+
+			<Item Key="Setting_Personalize_Tema_Patcher_Title">Заполните информацию о теме</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_NoIcon">Без иконки</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_DefaultName">Новая тема для BakaXL</Item>
+			
+			<Item Key="Setting_Personalize_Tema_Patcher_Name">Название</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_Name_Watermark">Отображаемое название темы</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_Name_Tips">Будет использоваться в качестве названия файла и отображаемого названия темы. &#xD;Не включайте ничего, что вызывает дискомфорт у других.</Item>
+
+			<Item Key="Setting_Personalize_Tema_Patcher_Desc">Описание</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_Desc_Watermark">Описание темы</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_Desc_Tips">Когда эта тема будет загружена, в списке тем появится описание. &#xD;Пожалуйста, не включайте ничего, что вызывает дискомфорт у других. &#xD;&#xD;При использовании фоновых изображений и музыки, созданных не вами, пожалуйста, указывайте информацию о создателе, источнике, происхождении, композиторе, исполнителе, названии альбома и т.д.</Item>
+
+			<Item Key="Setting_Personalize_Tema_Patcher_Icon">Иконка</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_Icon_BtnTitle">Выбрать иконку</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_Icon_Tips">Лаунчер отобразит эту иконку в списке тем. &#xD;Рекомендуется, чтобы иконка соответствовала теме и не содержала эротики или чего-либо, что может вызвать дискомфорт у других.</Item>
+
+			<Item Key="Setting_Personalize_Tema_Patcher_Music">Фоновая музыка</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_Music_Tips">После загрузки темы, в лаунчере будет играть фоновая музыка на соответствующем экране. &#xD; · Глобально: На любом экране зацикливается только основная фоновая музыка &#xD; · Раздельный: Воспроизведение фоновой музыки отдельно на страницах «Настройки» и «Советы». &#xD;&#xD;Щелкните правой кнопкой мыши соответствующую кнопку, чтобы просмотреть установленную фоновую музыку. &#xD;Для предварительного просмотра музыкального эффекта, лаунчер автоматически включает фоновую музыку.</Item>
+
+			<Item Key="Setting_Personalize_Tema_Patcher_Music_Selector_Title">Выберите музыкальный файл</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_Music_Selector_Filter">Форматы аудио</Item>
+
+			<Item Key="Setting_Personalize_Tema_Patcher_Music_Type_BtnTitle">Музыкальный режим</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_Music_Type_Global">Глобальный</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_Music_Type_Split">Раздельный</Item>
+
+			<Item Key="Setting_Personalize_Tema_Patcher_Music_Pos_Main">Главная</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_Music_Pos_Settings">Настройки</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_Music_Pos_Tips">Советы</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_Music_Pos_Unset">Ещё не установлено</Item>
+
+			<Item Key="Setting_Personalize_Tema_Patcher_SoundEffects">Звуковые эффекты</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_SoundEffects_Unsupported_Tips">Текущая версия пакета тем не поддерживает пользовательские звуковые эффекты.</Item>
+
+			<Item Key="Setting_Personalize_Tema_Patcher_CustomColor">Пользовательская цветовая схема</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_CustomColor_Unsupported_Tips">Текущая версия пакета тем не поддерживает возможность настройки цветовых схем.</Item>
+
+			<Item Key="Setting_Personalize_Tema_Patcher_Creator">Создатель</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_Creator_UseAs">{0} используется в качестве автора темы.</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_Creator_NetworkLogined_Tips">В настоящее время вы вошли в BakaXL, и по умолчанию будет использоваться ваш идентификатор BakaXL в качестве автора темы.</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_Creator_Default_Tips">Если вы не вошли в BakaXL, то по умолчанию будет использоваться в качестве автора темы первый никнейм профиля в списке вашего аккаунта.</Item>
+
+			<Item Key="Setting_Personalize_Tema_Patcher_Creator_SetProfile_Tips">Чтобы использовать имя профиля вашего аккаунта Minecraft,</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_Creator_SetProfile_ClickHere">нажмите здесь</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_Creator_SetProfile_Selector_Title">Установите автора для этой темы</Item>
+
+			<Item Key="Setting_Personalize_Tema_Patcher_Safety_Legal">Безопасность и здоровье, защита авторских прав и отказ от ответственности</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_Safety_Legal_Content">При использовании системы тем, важно обратить внимание на лицензию используемых ресурсов. &#xD;Не используйте контент из неизвестных источников. &#xD;&#xD;Вы должны и обязаны указать источник и создателя фоновых изображений, иконок и музыки, используемых в теме. &#xD;&#xD;Вы не можете использовать темы, содержащие несанкционированный контент от третьих лиц, в каких-либо коммерческих целях. &#xD;&#xD;Для физического и психического здоровья субъекта пользователей, а также для защиты несовершеннолетних. &#xD;Не рекомендуется использовать какие-либо элементы или контент, содержащие эротику или вызывающие дискомфорт у других. &#xD;&#xD;Запрещается создавать и распространять темы, содержащие материалы, нарушающие национальные законы и политику. &#xD;Разработчики приложения примут соответствующие меры для запрета загрузки или распространения тем с политическим подтекстом. &#xD;В случае такого происшествия мы имеем право предоставить вашу информацию общественным или правительственным агентствам для помощи в расследовании в соответствии с Политикой конфиденциальности. &#xD;&#xD;Если вы создаёте тему с помощью этой функции, вы подтверждаете, что вы прочитали и понимаете, что будете нести ответственность за любые проблемы или потенциальные юридические последствия, которые могут возникнуть в результате создания или распространения этой темы, и что разработчики приложения не будут нести ответственность. &#xD;&#xD;Мы примим меры для защиты авторских прав создателей и будем ограничивать пользователей в распространении или использовании конкретной темы, если мы получим запрос от создателя, указывающий на то, что тема содержит контент из его творения и не лицензирована для этой цели. &#xD;&#xD;Вы всегда можете просмотреть полную версию этой политики на официальном сайте BakaXL.</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_Safety_Legal_Btn">Ознакомиться с полной политикой использования системы тем</Item>
+
+			<Item Key="Setting_Personalize_Tema_Patcher_Export">Экспорт темы</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_Export_Btn">Упаковать и экспортировать тему</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_Export_Tips">Экспорт темы означает, что вы прочитали и поняли политику использования системы тем. &#xD;Тема будет экспортирована в папку «BakaXL\Tema».</Item>
+
+			<Item Key="Setting_Accessibility_Info">«Доступность» позволяет настраивать функции приложения в &#xA;соответствии с вашими индивидуальными потребностями для &#xA;удовлетворения различных условий использования.</Item>
+			<Item Key="Setting_Accessibility_Vision_Title">Видимость</Item>
+			<Item Key="Setting_Accessibility_Home_DisplayMode_Btn">Режим отображения главного экрана</Item>
+			<Item Key="Setting_Accessibility_Home_DisplayMode_Tips">Определяет, будут ли отображаться все плитки и функции на домашней &#xA;странице лаунчера. &#xD; — Стандартный: на главном экране по умолчанию не отображается меню &#xA; «Пуск» и плитки компонентов &#xD; — Традиционный: на главном экране всегда будет отображаться меню &#xA; «Пуск» и плитки. При использовании стандартного режима вам нужно &#xA; нажать пробел или щёлкнуть и удерживать мышь на пустом месте &#xA; главного экрана и перетащить вверх, чтобы войти в меню «Пуск».</Item>
+			<Item Key="Setting_Accessibility_Home_SelectCore_Btn">Плитка смены ядра</Item>
+			<Item Key="Setting_Accessibility_Home_SelectCore_Tips">Определяет, отображается ли плитка «Сменить ядро» в меню «Пуск». &#xA;Вы всегда сможете переключать ядра через быстрое взаимодействие &#xA;на панели запуска. &#xD;Смотрите «Быстрое переключение ядра».</Item>
+			
+			<Item Key="Setting_Accessibility_Interaction_Title">Взаимодействие</Item>
+			<Item Key="Setting_Accessibility_SwitchCore_InteractMode_Btn">Быстрое переключение ядра</Item>
+			<Item Key="Setting_Accessibility_SwitchCore_InteractMode_Tips">Быстрое переключение ядра игры на панели запуска. &#xD; — Стандартный: на панели запуска не отображается дополнительная &#xA; кнопка переключения &#xD; — Традиционный: отображает отдельную кнопку для переключения &#xA; ядер на панели запуска. &#xD;&#xD;При использовании стандартного режима необходимо переключать &#xA;ядра, смещая кнопку «Запустить игру».</Item>			
+			
+			<Item Key="Setting_Audio_BGM_Title">Фоновая музыка</Item>
+			<Item Key="Setting_Audio_BGM_Btn_Title">Фоновая музыка лаунчера</Item>
+			<Item Key="Setting_Audio_BGM_LostFocusBehaviorBtn">Отключать фоновую музыку вне фокуса</Item>
+			<Item Key="Setting_Audio_BGM_Tips">Настроенная вами тема обеспечивает фоновую музыку для &#xA;воспроизведения. &#xD;&#xA;Если этот параметр выключен, приложение отключит фоновую музыку &#xA;на всех экранах.</Item>
+			
+			<Item Key="Setting_Audio_SE_Title">Звуковые эффекты</Item>
+			<Item Key="Setting_Audio_SE_Btn_Title">Звуковые эффекты лаунчера</Item>
+			<Item Key="Setting_Audio_SE_Btn_Tips">Если текущая тема содержит звуковые эффекты, приложение будет &#xA;использовать эти звуки. &#xD;&#xA; — Выкл: Звуковые эффекты выключаются на всех экранах.</Item>
+
+			<Item Key="Setting_Audio_EarProtection_Title">Защита слуха</Item>
+			<Item Key="Setting_Audio_EarProtection_Btn_Title">Уменьшать громкость в наушниках</Item>
+			<Item Key="Setting_Audio_EarProtection_Btn_Tips">При включении, лаунчер уменьшит выходную громкость всех элементов &#xA;управления звуком. &#xD;&#xA;Если громкость приложения остаётся очень низкой даже при установке &#xA;на максимум, этот параметр можно выключить. &#xD;&#xA;&#xD;&#xA;При использовании наушников, избегайте прослушивания на высокой &#xA;громкости, поскольку чрезмерная громкость может привести к ухудшению слуха. &#xD;&#xA;Отрегулируйте громкость до уровня, при котором вы можете слышать &#xA;окружающие звуки через наушники.</Item>
+
+			<Item Key="Setting_Audio_AutoControl_Behavior_Auto">Авто</Item>
+			<Item Key="Setting_Audio_AutoControl_Behavior_Mute">Заглушить</Item>
+			<Item Key="Setting_Audio_AutoControl_Behavior_Low">Низкая</Item>
+			
+			<Item Key="Setting_Audio_AutoControl_Title">Авторегулировка громкости</Item>
+			<Item Key="Setting_Audio_AutoControl_MainBtn_Title">Обнаружать программы для воспроизведения аудио</Item>
+			<Item Key="Setting_Audio_AutoControl_BehaviorBtn_Title">Поведение регулятора громкости</Item>
+			<Item Key="Setting_Audio_AutoControl_Tips">При запуске лаунчер определяет, запущено ли на компьютере &#xA;какое-либо программное обеспечение для вывода звука &#xA;(например: музыкальные проигрыватели, голосовой чат и т.д.) &#xD;&#xA;Если воспроизводится звук, лаунчер автоматически выключит или &#xA;уменьшит громкость фоновой музыки в зависимости от ситуации. &#xD;&#xA;Чтобы восстановить первоначально установленный уровень громкости, &#xA;просто нажмите и удерживайте Ctrl и прокрутите колёсико мыши.</Item>
+
+			<Item Key="Setting_Download_Source_Title">Источник для скачивания</Item>
+			<Item Key="Setting_Download_Source_BMCLAPI_Btn_Title">Сторонний источник для скачивания</Item>
+			
+			<Item Key="Setting_Download_Source_BMCLAPIMirror_Btn_Title">BMCLAPI</Item>		
+			<Item Key="Setting_Download_Source_BMCLAPIMirror_Mirror_Source">Основной</Item>
+			<Item Key="Setting_Download_Source_BMCLAPIMirror_Mirror_MCBBS">MCBBS</Item>
+
+			<Item Key="Setting_Download_Source_Official">Официальный</Item>
+			<Item Key="Setting_Download_Source_BMCLAPI_Traditional">BMCLAPI (Основной)</Item>
+			<Item Key="Setting_Download_Source_BMCLAPI_MCBBS">BMCLAPI (MCBBS)</Item>
+			
+			<Item Key="Setting_Download_Source_BMCLAPI_Tips">Используйте BMCLAPI от bangbang93, чтобы ускорить скачивание &#xA;ресурсов. &#xD;&#xA;&#xD;&#xA; — Выкл: Официальный источник для скачивания (медленнее) &#xD;&#xA; — Основной: Источник для скачивания от BMCLAPI (быстрое &#xA; обновление, скорость выше) &#xD;&#xA; — MCBBS: Зеркало MCBBS от BMCLAPI для скачивания (медленное &#xA; обновление, самый быстрый) &#xD;&#xA;&#xD;&#xA;Подробнее о BMCLAPI: https://bmclapidoc.bangbang93.com/</Item>
+
+			<Item Key="Setting_Download_Advance">Расширенные параметры скачивания</Item>
+
+			<Item Key="Setting_Download_Worker_Selector_Title">Количество потоков</Item>
+			<Item Key="Setting_Download_Worker_Type_Normal">Обычно (10 потоков / 2 попытки)</Item>
+			<Item Key="Setting_Download_Worker_Type_SemiFast">Немного быстрее (50 потоков / 2 попытки)</Item>
+			<Item Key="Setting_Download_Worker_Type_Fast">Быстро (128 потоков / 1 попытка)</Item>
+			<Item Key="Setting_Download_Worker_Type_Extreme">Очень быстро (512 потоков / без повтора)</Item>
+			<Item Key="Setting_Download_Worker_Type_LaunchMode">Режим запуска (2048 потоков / без повтора)</Item>
+			<Item Key="Setting_Download_Worker_Tips">Измените этот параметр в соответствии с конфигурацией вашей сети и &#xA;компьютера при длительном ожидании, чтобы восполнить ресурсы игры. &#xD;&#xA;Попытка повторного скачивания в случае сбоя займёт больше времени, &#xA;попробуйте настроить количество повторных скачиваний. &#xD;&#xA;&#xD;&#xA;При использовании «Режим запуска», перестаёт обновлять статус &#xA;скачивания (например: проценты). &#xD;&#xA;&#xD;&#xA;Теоретическая скорость достигается не во всех случаях (она может быть &#xA;ниже), выберите вариант соответствующий конфигурации вашей сети и &#xA;компьютера.</Item>
+
+			<Item Key="Setting_Download_Service_Providor">Служба поставщика</Item>
+			<Item Key="Setting_Download_Service_Providor_MCBBS_Tips">Некоторые файлы лаунчера используют службу скачивания файлов, &#xA;предоставляемую китайским форумом Minecraft. &#xD;&#xA;Посетите: https://www.mcbbs.net/</Item>
+			
+			<Item Key="Setting_Plaza_Setting_Title">Baka Plaza</Item>
+			<Item Key="Setting_Plaza_Setting_CellularNetwork">Экономьте трафик данных</Item>
+			<Item Key="Setting_Plaza_Setting_CellularNetwork_Tips">Включается при использовании лимитного интернет-соединения, после &#xA;чего Baka Plaza спросит вас перед воспроизведением и уменьшит качество &#xA;видео. &#xD;&#xA;Не все видео, доступные на Baka Plaza, поддерживают воспроизведение &#xA;с уменьшенным разрешением.</Item>
+			
+			<Item Key="Setting_Protocol_Btn_Title">Включение службы</Item>
+			<Item Key="Setting_Protocol_Btn_Tips">Позволяет быстро запускать лаунчер с помощью кнопки на сайте. &#xD;&#xA;В зависимости от параметров, задаваемых кнопкой сайта, лаунчер можно &#xA;заставить запускать определённые встроенные функции напрямую. &#xD;&#xA;Посетите центр разработчиков, чтобы узнать, как интегрировать службу &#xA;на свой сайт.</Item>
+
+			<Item Key="Setting_Insider_Desc">Описание</Item>
+			<Item Key="Setting_Insider_Info">Мы уже на пути к совершенно новой версии! Спасибо всем, кто принял &#xA;участие в инсайдерской программе! &#xD;&#xA;Преданность и упорный труд наших участников, без которых мы не &#xA;смогли бы создать такой замечательный лаунчер. &#xD;&#xA;&#xD;&#xA;Вы тоже можете присоединиться к нам, чтобы сделать лаунчер ещё лучше. &#xD;&#xA;&#xD;&#xA;Присоединяйтесь к инсайдерской программе прямо сейчас, чтобы &#xA; получать предварительную информацию и оставлять свой отзыв.</Item>
+			<Item Key="Setting_Insider_Warn_1">Здешние функции предназначены только для предварительного &#xA;просмотра и могут быть удалены или изменены без уведомления.</Item>
+			<Item Key="Setting_Insider_Warn_2">В пред-версии отсутствуют необходимые функции, не добавляйте в неё модпак для совместного использования. &#xD;&#xA;Процесс крупного обновления для Bunny ещё не начался.</Item>
+			<Item Key="Setting_Insider_Desc">Описание</Item>
+			<Item Key="Setting_Insider_TunnelTitle">Канал обновления</Item>
+			<Item Key="Setting_Insider_CurrentTunnel">Текущий канал</Item>
+			<Item Key="Setting_Insider_TunnelDescription">Мы ввели новый механизм канала обновлений для лаунчера, это &#xA;означает, что вы сможете получать обновления чаще! &#xA;&#xD;&#xA;Мы предлагаем несколько каналов для инсайдеров: &#xA; — Pigeon (основная ознакомительная версия с последними стабильными &#xA; обновлениями функций) &#xD;&#xA; — Parrot (ежедневные обновления в реальном времени с последними &#xA; обновлениями в коде репозитория) &#xD;&#xA; — Bunny (ранняя предварительная версия BakaXL 4.0, пока ничего) &#xD;&#xA;&#xD;&#xA;Обратите внимание: Канал Parrot содержит большое количество функций, &#xA;которые не были разработаны и очищены ранее, и могут быть изменены &#xA;в любое время, поэтому не полагайтесь на эту версию.</Item>
+			<Item Key="Setting_Insider_TunnelSelection">Выберите канал</Item>
+			<Item Key="Setting_Insider_ChangeTunnel_Btn">Изменить</Item>
+			<Item Key="Setting_Insider_StartBtn_Title">Пуск</Item>
+			<Item Key="Setting_Insider_LatestVersion">(Инсайдерская сборка на текущей ветке: {0})</Item>
+			<Item Key="Setting_Insider_Requirement">Для запуска лаунчера, на вашем компьютере должен быть установлен &#xA;.Net Framework 4.5. &#xA;Для использования инсайдерской версии, требуется Windows 7 или выше. &#xA;Рекомендуется использовать Windows 10, чтобы воспользоваться всеми &#xA;функциями лаунчера. &#xA;&#xA;Лаунчер больше не поддерживает Windows XP.</Item>
+
+			<Item Key="Setting_About_Info">Все разработчики BakaXL благодарят вас за использование лаунчера!</Item>
+			<Item Key="Setting_About_Version">Внутренняя версия</Item>
+			<Item Key="Setting_About_Version_TunnelTitle">Канал: </Item>
+			<Item Key="Setting_About_Version_BuildTime">Дата сборки и версия: </Item>
+			<Item Key="Setting_About_Developer">Разработчики</Item>
+			<Item Key="Setting_About_SpecialThanks">Отдельная благодарность</Item>
+			<Item Key="Setting_About_Inspiration">Вдохновил</Item>
+			<Item Key="Setting_About_OpenSourceLib">Используемые компоненты с открытым исходным кодом</Item>
+			<Item Key="Setting_About_IntellectualProperty">Представление прав интеллектуальной собственности</Item>
+			<Item Key="Setting_About_Copyright">Авторские права</Item>
+
+			<Item Key="Setting_Tunnel_DEBUG">Отладка</Item>
+			<Item Key="Setting_Tunnel_DEBUG_UpdateMethod">Будьте в курсе событий</Item>
+			<Item Key="Setting_Tunnel_PARROT">Parrot</Item>
+			<Item Key="Setting_Tunnel_PARROT_UpdateMethod">Ежедневные обновления</Item>
+			<Item Key="Setting_Tunnel_BUNNY">Bunny</Item>
+			<Item Key="Setting_Tunnel_BUNNY_UpdateMethod">Альфа версия BakaXL 4.0</Item>
+			<Item Key="Setting_Tunnel_PIGEON">Pigeon</Item>
+			<Item Key="Setting_Tunnel_PIGEON_UpdateMethod">Стабильные бета-версии</Item>
+			<Item Key="Setting_Tunnel_SLOTH">Sloth</Item>
+			<Item Key="Setting_Tunnel_SLOTH_UpdateMethod">Канал стабильных версий</Item>
+			
+			<Item Key="FileSelector_Java_Filter_Title">Выберите файл javaw.exe вручную</Item>
+			<Item Key="FileSelector_Java_Filter_Desc_Javaw">Запуск по умолчанию</Item>
+			<Item Key="FileSelector_Java_Filter_Desc_Java">Режим отладки</Item>
+
+			<Item Key="VolumeBar_Title">Громкость</Item>
+			<Item Key="VolumeBar_AppBehaviour_AutoMute">Автоотключение звука</Item>
+			<Item Key="VolumeBar_AppBehaviour_AutoLowVolume">Автоуменьшение громкости</Item>
+			<Item Key="VolumeBar_AppBehaviour_HasAudioOutput">&quot;{0}&quot; воспроизводит аудио</Item>
+
+			<Item Key="HomeMenu_Title">Главное меню</Item>
+			<Item Key="HomeMenu_CurrentPaused">Что в текущем перерыве</Item>		
+			<Item Key="HomeMenu_Continue_Tips">Вы можете нажать ДОМИК, чтобы продолжить просмотр текущего содержимого</Item>
+			
+			<Item Key="HomeMenu_WillClose">Завершение: {0}</Item>
+			
+			<Item Key="HomeMenu_Confirm">Продолжить?</Item>
+			<Item Key="HomeMenu_Confirm_Tips">Принудительное завершение существующего контента может привести к потере прогресса, этот процесс необратим.</Item>
+
+			<Item Key="HomeMenu_Btn_Close">Завершить и вернуться на главную</Item>
+			<Item Key="HomeMenu_Btn_Confirm">Подтвердить</Item>
+			<Item Key="HomeMenu_Btn_Closed">Закрыть</Item>
+
+			<Item Key="IconSelector_DefaultTitle">Выберите иконку</Item>
+			<Item Key="IconSelector_BrowseIcon">Выбрать иконку</Item>
+			<Item Key="IconSelector_Default">По умолчанию</Item>
+
+			<Item Key="IconSelector_Core_SetIcon_Title">Выберите иконку для ядра</Item>
+
+			<Item Key="TextInputer_DefaultTitle">Введите содержимое</Item>
+			<Item Key="TextInputer_Watermark">Введите здесь своё содержание...</Item>
+
+			<Item Key="TextInputer_Core_SetName_Title">Измените отображаемое имя этого ядра</Item>
+			<Item Key="TextInputer_Core_SetPublisher_Title">Измените издателя этого ядра</Item>
+			<Item Key="TextInputer_Core_SetDesc_Title">Измените профиль этого ядра</Item>
+
+			<Item Key="MessageBox_Launch_CheckOnline">Проверка, может ли пользователь запустить Minecraft...</Item>
+			<Item Key="MessageBox_Launch_RefreshMicrosoftToken">Получение нового токена авторизации Minecraft...</Item>
+			<Item Key="MessageBox_Launch_CheckThirdParty">Подключение к стороннему серверу авторизации...</Item>
+
+			<Item Key="MessageBox_Auth_Microsoft_Connecting_Title">Инициализация службы авторизации аккаунта Microsoft...</Item>
+
+			<Item Key="MessageBox_Auth_Microsoft_LoginFailed_Title">Ошибка входа</Item>
+			<Item Key="MessageBox_Auth_Microsoft_LoginFailed_ConnectFailed_Content">Невозможно подключиться к серверу авторизации Microsoft. &#xD;&#xA;Проверьте подключение к Интернету и повторите попытку.</Item>
+			<Item Key="MessageBox_Auth_Microsoft_LoginFailed_ServerRespondNull_Content">Невозможно завершить процесс подлинной авторизации аккаунта Microsoft, если эта проблема повторяется, свяжитесь с разработчиками BakaXL. &#xD;&#xA;Проверьте подключение к Интернету и повторите попытку.</Item>
+			<Item Key="MessageBox_Auth_Microsoft_LoginFailed_CheckOwnershipFailed_Content">Невозможно подключиться к серверу проверки магазина Minecraft для подтверждения владения аккаунтом. &#xD;&#xA;Проверьте подключение к Интернету и повторите попытку.</Item>
+			<Item Key="MessageBox_Auth_Microsoft_LoginFailed_XBLConnectFailed_Content">Невозможно подключиться к серверу проверки аккаунта Microsoft Xbox Live.&#xD;&#xA;Проверьте подключение к Интернету и повторите попытку.</Item>
+			<Item Key="MessageBox_Auth_Microsoft_LoginFailed_MojangAccountConnectFailed_Content">Невозможно подключиться к серверу авторизации аккаунта Minecraft. &#xD;&#xA;Проверьте подключение к Интернету и повторите попытку.</Item>
+
+			<Item Key="MessageBox_Auth_Microsoft_LoginFailed_APIChanged_Content">Интерфейс входа на сервер аккаунтов Microsoft изменился, и в настоящее время невозможно проверить исходную версию с помощью этого метода. &#xD;&#xA;Мы выпустим обновление лаунчера как можно скорее, чтобы адаптироваться к новым изменениям, и приносим извинения за доставленные неудобства.</Item>
+			<Item Key="MessageBox_Auth_Microsoft_LoginFailed_APIChanged_Tips">Дождитесь обновления от разработчиков BakaXL.</Item>
+
+			<Item Key="MessageBox_Auth_Microsoft_LoginFailed_NotOwnGame_Title">На этом аккаунте ещё нет Minecraft</Item>
+			<Item Key="MessageBox_Auth_Microsoft_LoginFailed_NotOwnGame_Content">Похоже, что на этом аккаунте Microsoft не приобретена Minecraft. &#xD;&#xA;Проверьте, не вошли ли вы на неправильный аккаунт, или подождите некоторое время и повторите попытку. &#xD;&#xA;&#xD;&#xA;Если вы приобрели Minecraft, используя аккаунт Mojang вместо Microsoft, вы возможно выбрали неправильный режим подлинной авторизации и должны выбрать «Подлинная авторизация (Mojang)». &#xD;&#xA;&#xD;&#xA;Если вы являетесь владельцем Xbox Game Pass, вам нужно будет использовать «Официальный лаунчер Minecraft» для одноразового входа в систему и настройки игрового идентификатора. Только в этом случае для подлинной авторизации можно использовать сторонние лаунчеры, такие как BakaXL.</Item>
+
+			<Item Key="MessageBox_Auth_Microsoft_LoginFailed_NoGameProfile_Title">У этого аккаунта нет профилей Minecraft.</Item>
+			<Item Key="MessageBox_Auth_Microsoft_LoginFailed_NoGameProfile_Content">На этом аккаунте Microsoft была приобретена Minecraft, но не созданы профили Minecraft. &#xD;&#xA;&#xD;&#xA;Если вы являетесь владельцем Xbox Game Pass или никогда не настраивали идентификатор игры Minecraft после покупки игры, вам нужно будет использовать «Официальный лаунчер Minecraft», чтобы один раз войти в систему и настроить свой идентификатор игры. Только в этом случае для подлинной авторизации можно использовать сторонние лаунчеры, такие как BakaXL.</Item>
+
+			<Item Key="MessageBox_Auth_Microsoft_LoginFailed_ChildAccount_Title">Ограничения на вход в аккаунт для несовершеннолетних</Item>
+			<Item Key="MessageBox_Auth_Microsoft_LoginFailed_ChildAccount_Content">Ваш аккаунт классифицируется корпорацией Microsoft как аккаунт несовершеннолетнего, и прежде чем вы сможете продолжить вход, вам необходимо связать этот аккаунт с аккаунтом взрослого пользователя. &#xD;&#xA;Обратитесь к своему опекуну, чтобы добавить этот аккаунт в Microsoft Family, прежде чем вы сможете использовать службу Xbox Live. &#xD;&#xA;&#xD;&#xA;(или измените возраст вашего аккаунта на 18 лет или старше...)</Item>
+			<Item Key="MessageBox_Auth_Microsoft_LoginFailed_ChildAccount_Tips">Перейдите на сайт https://account.xbox.com/, чтобы узнать как привязать аккаунт несовершеннолетнего.</Item>
+
+			<Item Key="MessageBox_Auth_Microsoft_LoginFailed_NoXboxProfile_Title">На аккаунте не был создан профиль Xbox</Item>
+			<Item Key="MessageBox_Auth_Microsoft_LoginFailed_NoXboxProfile_Content">На аккаунте в который вы вошли, ещё не создан профиль Xbox. &#xD;&#xA;Для входа в Minecraft через аккаунт Microsoft, необходимо создать профиль Xbox.</Item>
+			<Item Key="MessageBox_Auth_Microsoft_LoginFailed_NoXboxProfile_Tips">Перейдите на сайт https://account.xbox.com/, чтобы войти и зарегистрировать свой профиль Xbox.</Item>
+			<Item Key="MessageBox_Auth_Microsoft_LoginFailed_NoXboxProfile_Btn_GoCreate">Создать профиль</Item>
+
+			<Item Key="MessageBox_Auth_Microsoft_DeviceCode_Title">Используйте код {0}, чтобы продолжить</Item>
+			<Item Key="MessageBox_Auth_Microsoft_DeviceCode_Content">Используя браузер компьютера или мобильное устройство, зайдите в {0} и введите код {1}, чтобы завершить вход. &#xD;&#xA;После нажатия кнопки «ОК», лаунчер скопирует этот код и автоматически откроет страницу авторизации.</Item>
+			<Item Key="MessageBox_Auth_Microsoft_DeviceCode_Tips">Если страница не открывается автоматически, для продолжения посетите {0} вручную</Item>
+
+			<Item Key="MessageBox_Auth_Microsoft_DeviceCode_WaitingForAuth_Content">Ждём, когда вы завершите свои действия на странице авторизации... &#xD;&#xA;&#xD;&#xA;Код авторизации: {0}&#xD;&#xA;Адрес авторизации: {1}</Item>
+			<Item Key="MessageBox_Auth_Microsoft_DeviceCode_WaitingForAuth_Btn_Cancel">Отменить вход</Item>
+
+			<Item Key="MessageBox_Auth_Microsoft_DeviceCode_LoginTo_Content">Вход в аккаунт Microsoft...</Item>
+
+			<Item Key="MessageBox_Auth_ThirdParty_ProtocolFix_Title">Протокол связи был автоисправлен</Item>
+			<Item Key="MessageBox_Auth_ThirdParty_ProtocolFix_Content">Лаунчер обнаружил, что у вас не установлен протокол связи с сервером авторизации. &#xD;&#xA;Соединения с этим сервером авторизации будут автоматически выполняться с использованием безопасного протокола HTTPS.</Item>
+
+			<Item Key="MessageBox_Auth_ThirdParty_ServerUnsafe_Title">Подключайтесь к этому серверу авторизации с осторожностью</Item>
+			<Item Key="MessageBox_Auth_ThirdParty_ServerUnsafe_Content">Этот сервер авторизации не использует протокол безопасности HTTPS. &#xD;&#xA;Дальнейшее использование этого сервера авторизации приведет к тому, что ваш пароль будет передан открытым текстом.</Item>
+			<Item Key="MessageBox_Auth_ThirdParty_ServerUnsafe_Tips">Адреса серверов, использующих протокол безопасности, всегда начинаются с https://</Item>
+
+			<Item Key="MessageBox_Auth_ThirdParty_ConnectFailed_Title">Невозможно подключиться к данному серверу авторизации</Item>
+			<Item Key="MessageBox_Auth_ThirdParty_ConnectFailed_Content">Лаунчер не может подключиться к этому серверу авторизации. &#xD;&#xA;Проверьте правильность адреса службы и повторите попытку.</Item>
+			<Item Key="MessageBox_Auth_ThirdParty_ConnectFailed_Tips">Также обратите внимание на соответствующие уведомления от этого поставщика сервера авторизации.</Item>
+
+			<Item Key="MessageBox_Auth_ThirdParty_UnexpectedUUIDFormat_Title">Невозможно проанализировать профиль пользователя для этого сервера авторизации</Item>
+			<Item Key="MessageBox_Auth_ThirdParty_UnexpectedUUIDFormat_Content">Сервер проверки вернул содержимое, которое не соответствует спецификации. &#xD;&#xA;Лаунчер не может обработать это содержимое.</Item>
+			<Item Key="MessageBox_Auth_ThirdParty_UnexpectedUUIDFormat_Tips">Свяжитесь с разработчиком этого сервера авторизации для получения дополнительной информации</Item>
+
+			<Item Key="MessageBox_Auth_ThirdParty_NoProfile_Title">На этом аккаунте нет доступных ролей</Item>
+			<Item Key="MessageBox_Auth_ThirdParty_NoProfile_Content">Сервер авторизации сообщает, что на текущем аккаунте нет доступных ролей. &#xD;&#xA;Сначала создайте роль для этого аккаунта, а затем повторите попытку.</Item>
+			<Item Key="MessageBox_Auth_ThirdParty_NoProfile_Tips">Перейдите на платформу аккаунта для этого сервера авторизации для получения дополнительной информации.</Item>
+
+			<Item Key="MessageBox_Auth_ThirdParty_Login">Проверка аккаунта на этом сервере авторизации...</Item>
+
+			<Item Key="MessageBox_Auth_ThirdParty_LoginFailed_Title">Сбой авторизации</Item>
+			<Item Key="MessageBox_Auth_ThirdParty_LoginFailed_Content">Лаунчеру не удалось войти на этот сервер авторизации на основе предоставленной вами информации. &#xD;&#xA;Проверьте правильность своих данных для входа, пароль и т.д.</Item>
+			<Item Key="MessageBox_Auth_ThirdParty_LoginFailed_Tips">Если эта проблема остётся, обратитесь к поставщику сервера авторизации.</Item>
+
+			<Item Key="MessageBox_BakaPlaza_Installer_Title">Подготовка к установке Minecraft...</Item>
+			<Item Key="MessageBox_BakaPlaza_Installer_Content">Лаунчер начнёт установку ядра выбранной вами игры. &#xD;&#xA;Подождите несколько минут, не отключайтесь от Интернета и не &#xD;&#xA;закрывайте лаунчер в течение этого времени.</Item>
+			<Item Key="MessageBox_BakaPlaza_Installer_Tips">Подготовка</Item>
+
+			<Item Key="MessageBox_Java_AdvanceSearchPermission_Title">Вы уверены, что используете расширенный поиск?</Item>
+			<Item Key="MessageBox_Java_AdvanceSearchPermission_Message">Используя расширенный поиск, вы разрешаете лаунчеру просматривать файлы на диске вашего компьютера. &#xD;&#xA;Лаунчер выполнит поиск в корневом каталоге каждого диска, а затем перейдёт к папкам, содержащим следующие имена: &#xD;&#xA;&#xD;&#xA;Minecraft、Java、Jre、Jdk、MC、Runtime &#xD;&#xA;&#xD;&#xA;Если вы не понимаете, что делает эта функция, нажмите «Отмена».</Item>
+			<Item Key="MessageBox_Java_AdvanceSearchPermission_Tips">Лаунчер никоим образом не сохраняет индекс содержимого вашего диска</Item>
+
+			<Item Key="MessageBox_SkinPatcher_RequireProfile_Title">Для продолжения требуется хотя бы один профиль аккаунта Minecraft</Item>
+			<Item Key="MessageBox_SkinPatcher_RequireProfile_Content">Перед созданием темы, вам нужно будет создать хотя бы один профиль аккаунта Minecraft.</Item>
+
+			<Item Key="MessageBox_SkinPatcher_ImageDecodeFailed_Title">Иконка может быть повреждена</Item>
+			<Item Key="MessageBox_SkinPatcher_ImageDecodeFailed_Content">Иконка может быть повреждена, и лаунчер не может установить её в качестве иконки темы. &#xD;&#xA;Проверьте или замените файл иконки и повторите попытку.</Item>
+
+			<Item Key="MessageBox_SkinPatcher_ThemeNoName_Title">Отсутствует название темы</Item>
+			<Item Key="MessageBox_SkinPatcher_ThemeNoName_Content">Перед созданием темы, необходимо задать название.</Item>
+
+			<Item Key="MessageBox_SkinPatcher_ThemeNoDesc_Title">Отсутствует описание темы</Item>
+			<Item Key="MessageBox_SkinPatcher_ThemeNoDesc_Content">Перед созданием темы, необходимо задать описание.</Item>
+
+			<Item Key="MessageBox_SkinPatcher_ThemeNoIcon_Title">Отсутствует иконка темы</Item>
+
+			<Item Key="MessageBox_SkinPatcher_ThemeNoIcon_Content">Перед созданием темы, необходимо задать иконку.</Item>
+			<Item Key="MessageBox_SkinPatcher_ThemeNoCreator_Title">Отсутствует создатель темы</Item>
+			<Item Key="MessageBox_SkinPatcher_ThemeNoCreator_Content">Перед созданием темы, необходимо установить создателя. &#xD;&#xA;Проверьте правильность настроек вашего создателя в имени автора темы.</Item>
+
+			<Item Key="MessageBox_SkinPatcher_ThemeNoMusic_Main_Title">Отсутствует основная фоновая музыка</Item>
+			<Item Key="MessageBox_SkinPatcher_ThemeNoMusic_Main_Content">Вы не установили основную фоновую музыку для этой темы. &#xD;&#xA;Тема должна содержать хотя бы одну основную фоновую музыку.</Item>
+
+			<Item Key="MessageBox_SkinPatcher_ThemeNoMusic_Split_Title">Отсутствует раздельная фоновая музыка</Item>
+			<Item Key="MessageBox_SkinPatcher_ThemeNoMusic_Split_Content">Вы не установили раздельную фоновую музыку для этой темы. &#xD;&#xA;Если вы решите использовать режим раздельной музыки, необходимо установить раздельную фоновую музыку для интерфейса «Основные настройки» и «Советы».</Item>
+
+			<Item Key="MessageBox_SkinPatcher_ThemeExport_Successful_Title">Тема успешно создана</Item>
+			<Item Key="MessageBox_SkinPatcher_ThemeExport_Successful_Content">Тема {0} успешно создана и упакована. &#xD;&#xA;Файл темы созранён в «BakaXL\Tema».</Item>
+
+			<Item Key="MessageBox_SkinPatcher_ThemeExport_Failed_Title">Не удалось экспортировать тему</Item>
+			<Item Key="MessageBox_SkinPatcher_ThemeExport_Failed_Content">Лаунчер не смог успешно экспортировать тему в папку тем. &#xD;&#xA;Убедитесь, что лаунчер имеет достаточно прав доступа к папке тем, и повторите попытку.</Item>
+
+			<Item Key="MessageBox_PlazaError_UpdateRequire_Content">Прежде чем вы сможете продолжать пользоваться Baka Plaza, вам необходимо выполнить обновление лаунчера. &#xD;&#xA;Лаунчер необходимо обновить до версии {0}.</Item>
+			<Item Key="MessageBox_PlazaError_UpdateRequire_Tips">Если лаунчер не обновляется автоматически, тогда необходимо вручную скачать последнюю версию с сайта</Item>
+
+			<Item Key="MessageBox_LaunchError_ExitException_Title">Процесс Minecraft может неожиданно завершиться</Item>
+			<Item Key="MessageBox_LaunchError_ExitException_Content">Лаунчер обнаружил, что игра запущена всего {0} сек. с момента последнего успешного запуска Minecraft.</Item>
+			<Item Key="MessageBox_LaunchError_ExitException_Tips">Это может быть связано с отсутствием файлов библиотек</Item>
+
+			<Item Key="MessageBox_LaunchError_Base_Title">Невозможно запустить {0}</Item>
+			
+			<Item Key="MessageBox_PlazaError_WhenLaunch_Content">Произошло что-то необычное, что помешало нам подключиться к серверам Dumb Square. &#xD;&#xA;Попробуйте позже. Если проблема остаётся, обратитесь на сайт BakaXL.</Item>
+			<Item Key="MessageBox_PlazaError_WhenLaunch_Tips">Мы можем проводить техническое обслуживание наших серверов без уведомления</Item>
+
+			<Item Key="MessageBox_QuickSet_Title">Что такое «Быстрая настройка»?</Item>
+			<Item Key="MessageBox_QuickSet_Content">Быстрая настройка автоматически установит необходимую Java и память для запуска Minecraft, на основе текущего состояния вашей системы. &#xD;&#xA;&#xD;&#xA;Кроме того, быстрая настройка позволит: &#xD;&#xA;— Включить фоновую музыку и звуковые эффекты лаунчера &#xD;&#xA;— Разрешить Baka Plaza запрашивать информацию о вашем местоположении &#xD;&#xA;— Отправлять диагностические сообщения о сбоях и скачивание &#xD;&#xA;— Включить BMCLAPI, чтобы ускорить скачивание ресурсов в Китае &#xD;&#xA;— Автозагружать все установленные плагины (не все сторонние плагины безопасны)</Item>
+			<Item Key="MessageBox_QuickSet_Tips">Если вы не знаете, какой объём памяти требуется Java и игре, воспользуйтесь быстрой настройкой</Item>
+
+			<Item Key="MessageBox_Java_NotInstall_Title">Установите Java, чтобы продолжить</Item>
+			<Item Key="MessageBox_Java_NotInstall_Content">Похоже, что в настоящее время на вашем компьютере не установлена Java. &#xD;&#xA;Java является обязательным компонентом для запуска Minecraft, поэтому обязательно установите её.</Item>
+			<Item Key="MessageBox_Java_NotInstall_Tips">Если лаунчер не находит Java, вы можете указать путь к ней вручную</Item>
+
+			<Item Key="MessageBox_Java_NotInstall_ButFine_Title">Java не обнаружена...</Item>
+			<Item Key="MessageBox_Java_NotInstall_ButFine_Content">Похоже, что в настоящее время на вашем компьютере не установлена ​​Java. &#xD;&#xA;Вы можете продолжить через мастер установки, и лаунчер автоматически установит соответствующую Java при запуске игры. &#xD;&#xA;&#xD;&#xA;Если вы уверены что у вас установлена Java, не волнуйтесь. &#xD;&#xA;Перейдите в «Настройки — Java и память», чтобы попробовать использовать «точный поиск» для поиска Java.</Item>
+			<Item Key="MessageBox_Java_NotInstall_ButFine_Tips">Вы всегда можете изменить Java в настройках лаунчера</Item>
+
+			<Item Key="MessageBox_Guide_AuthLib_ReadPackInfo_Error_Title">Невозможно загрузить параметры учётных данных для этого ядра</Item>
+			<Item Key="MessageBox_Guide_AuthLib_ReadPackInfo_Error_Content">Произошло что-то неожиданное, из-за чего лаунчер не смог прочитать настройки учётных данных из установленного в данный момент модпака или ядра. &#xD;&#xA;Вы можете продолжить работу с мастером настройки, и лаунчер дважды проверит настройки учётных данных при запуске ядра.</Item>
+			<Item Key="MessageBox_Guide_AuthLib_ReadPackInfo_Error_Tips">Но разумно ли читать всё с самого начала?</Item>
+
+			<Item Key="MessageBox_Guide_AuthLib_NoInput_Title">Информация об аккаунте, необходимая для завершения входа</Item>
+			<Item Key="MessageBox_Guide_AuthLib_NoInput_Content">Прежде чем продолжить, лаунчер требует информацию об аккаунте, которую вы предоставили при регистрации в сторонней службе авторизации. &#xD;&#xA;Лаунчер будет хранить ваши данные локально с помощью стандартного шифрования, и ваша информация не будет загружаться на какой-либо сервер.</Item>
+
+			<Item Key="MessageBox_Memory_LowWarning_Title">Недостаточно памяти на компьютере</Item>
+			<Item Key="MessageBox_Memory_LowWarning_Content">Ваша текущая системная память меньше 512 МБ. Принудительный запуск MC может привести к некоторым ненормальным явлениям (например: он может не запуститься). Рекомендуется закрыть ненужное программное обеспечение (например: QQ, музыкальный проигрыватель, Thunder и т.д.) \n\nОбщая системная память: {0}МБ \nДоступно памяти: {1}МБ</Item>
+
+			<Item Key="MessageBox_Download_LaunchMode_Title">Режим запуска</Item>
+			<Item Key="MessageBox_Download_LaunchMode_Content">Вы уверены, что хотите расширить границы? Это позволит лаунчеру мобилизовать все ресурсы, доступные на вашем компьютере для скачивания Minecraft и его ресурсов.</Item>
+			<Item Key="MessageBox_Download_LaunchMode_Tips">Включение режима запуска автоматически изменяет некоторые настройки лаунчера и отключает отображение статуса скачивания.</Item>
+			<Item Key="MessageBox_Download_LaunchMode_Btn_Yes">Вперёд!</Item>
+			<Item Key="MessageBox_Download_LaunchMode_Btn_No">Ну, я хочу быть хорошим</Item>
+
+			<Item Key="MessageBox_CoreInstall_CoreFolderExist_Title">Папка ядра уже существует</Item>
+			<Item Key="MessageBox_CoreInstall_CoreFolderExist_Content">Лаунчер обнаружил, что ядро с именем {0} уже существует. &#xD;&#xA;Измените название или перезапишите это ядро, выполнив команду &quot;Установить ядро вручную&quot;.</Item>
+			<Item Key="MessageBox_CoreInstall_CoreFolderExist_Tips">Установка с перезаписью не перезапишет ваши архивы и другие данные</Item>
+
+			<Item Key="MessageBox_CoreInstall_CoreNameEmpty_Title">Название ядра пустое</Item>
+			<Item Key="MessageBox_CoreInstall_CoreNameEmpty_Content">Вы не задали отображаемое название для этого ядра. &#xD;&#xA;Боюсь, это не хорошо...</Item>
+			<Item Key="MessageBox_CoreInstall_CoreNameEmpty_Tips">(В этот момент в бар вошёл инженер по тестированию программного обеспечения...)</Item>
+			
+			<Item Key="MessageBox_MojangAccount_FogotPassword_Title">Получение пароля аккаунта Mojang</Item>
+			<Item Key="MessageBox_MojangAccount_FogotPassword_Content">Если вы не можете вспомнить пароль от аккаунта Mojang, не волнуйтесь, посетите официальный сайт Mojang. &#xD;&#xA;&#xD;&#xA;Введите адрес электронной почты своего аккаунта Mojang на странице «Сброс пароля» и нажмите кнопку «Запросить сброс пароля». &#xD;&#xA;&#xD;&#xA;После этого Mojang отправит вам электронное письмо, чтобы помочь вам сбросить пароль вашего аккаунта.</Item>
+			<Item Key="MessageBox_MojangAccount_FogotPassword_Tips">Убедитесь, что доменное имя - account.mojang.com и что соединение зашифровано по протоколу SSL</Item>
+
+			<Item Key="MessageBox_Minecraft_OnlineFeatures_SkinUpload_SkinType_Title">Какой формат у этого скина?</Item>
+			<Item Key="MessageBox_Minecraft_OnlineFeatures_SkinUpload_SkinType_Content">Прежде чем загрузить этот скин на своего персонажа Minecraft, сначала выберите модель персонажа, к которой относится скин.</Item>
+			<Item Key="MessageBox_Minecraft_OnlineFeatures_SkinUpload_SkinType_Tips">Мелочи! Руки Алекс тоньше, чем у Стива!</Item>
+
+			<Item Key="MessageBox_Minecraft_OnlineFeatures_SkinUpload_SkinSizeIncorrect_Title">Это не похоже на скин...</Item>
+			<Item Key="MessageBox_Minecraft_OnlineFeatures_SkinUpload_SkinSizeIncorrect_Content">Длина и ширина этого скина не соответствуют требованиям Minecraft, и лаунчер не может загрузить этот скин. &#xD;&#xA;Убедитесь что выбран правильный файл, и повторите попытку.</Item>
+			<Item Key="MessageBox_Minecraft_OnlineFeatures_SkinUpload_SkinSizeIncorrect_Tips">Мелочи! Чистый Minecraft не поддерживает HD скины!</Item>
+
+			<Item Key="MessageBox_Minecraft_OnlineFeatures_SkinUpload_Uploading_Title">Загрузка скина…</Item>
+
+			<Item Key="MessageBox_Bakaverse_Login_Error_Title">Не удалось войти</Item>
+			<Item Key="MessageBox_Bakaverse_Login_ConnectError_Content">Не удалось подключиться к серверу BakaXL Network. &#xD;&#xA;Проверьте своё интернет-соединение или следите за официальными объявлениями об обслуживании. &#xD;&#xA;Также может быть связано с ошибкой в имени пользователя или пароле.</Item>
+			<Item Key="MessageBox_Bakaverse_Login_VersionError_Content">Сервер BakaXL Network отказал вам в подключении. &#xD;&#xA;Соединение было разорвано, поскольку сервер требует последнюю версию лаунчера.</Item>
+			<Item Key="MessageBox_Bakaverse_Login_AuthError_Content">Невозможно войти в этот аккаунт BakaXL. &#xD;&#xA;Этого аккаунта не существует или пароль неверный, проверьте введённые данные и повторите попытку.</Item>
+			<Item Key="MessageBox_Bakaverse_Login_EAPermissionError_Content">Невозможно войти в этот аккаунт BakaXL. &#xD;&#xA;Ваш аккаунт BakaXL не участвовал в раннем тестировании, будьте терпеливы, пока служба не начнёт работать.</Item>
+			<Item Key="MessageBox_Bakaverse_Login_UnknownError_Content">Произошла неизвестная ошибка. &#xD;&#xA;Сообщите об этой ошибке разработчикам BakaXL, чтобы мы могли выяснить причину ошибки.</Item>
+
+			<Item Key="MessageBox_Bakaverse_AddFriends_Sent_Title">Запрос на дружбу отправлен</Item>
+			<Item Key="MessageBox_Bakaverse_AddFriends_Sent_Content">Ваш запрос на дружбу отправлен.</Item>
+
+			<Item Key="MessageBox_Bakaverse_AddFriends_AlreadyAdded_Title">Глупец</Item>
+			<Item Key="MessageBox_Bakaverse_AddFriends_AlreadyAdded_Content">Вы и другой человек уже друзья. &#xD;&#xA;Почему вы хотите добавить его снова?</Item>
+			<Item Key="MessageBox_Bakaverse_AddFriends_AlreadyAdded_Tips">Само собой разумеется, что вы не должны видеть эти вещи...</Item>
+
+			<Item Key="MessageBox_Bakaverse_AddFriends_Added_Title">Друг добавлен</Item>
+			<Item Key="MessageBox_Bakaverse_AddFriends_Added_Content">Друг успешно добавлен. &#xD;&#xA;Вы и другой человек добавили друг друга в друзья.</Item>
+			<Item Key="MessageBox_Bakaverse_AddFriends_Added_Tips">Вехи на траве также были исправлены</Item>
+
+			<Item Key="MessageBox_Bakaverse_AddFriends_AlreadySent_Title">Запрос на дружбу ожидается</Item>
+			<Item Key="MessageBox_Bakaverse_AddFriends_AlreadySent_Content">Вы уже отправили запрос на дружбу. &#xD;&#xA;Будьте терпеливы, пока ваш запрос на дружбу будет обработан.</Item>
+
+			<Item Key="MessageBox_Bakaverse_Lobby_Create_LobbyIDFormat_Title">Неверный формат номера лобби</Item>
+			<Item Key="MessageBox_Bakaverse_Lobby_Create_LobbyIDFormat_Content">Номер лобби, который вы хотите использовать, в настоящее время недоступен, проверьте формат ввода. &#xD;&#xA;Пользовательские номера лобби могут использовать только английские буквы, цифры и символы подчеркивания.</Item>
+			<Item Key="MessageBox_Bakaverse_Lobby_Create_LobbyIDFormat_Tips">+V-образный вырез BakaXL, большой зажим</Item>
+
+			<Item Key="MessageBox_Bakaverse_Lobby_Create_LobbyIDUsed_Title">Этот номер лобби в настоящее время используется</Item>
+			<Item Key="MessageBox_Bakaverse_Lobby_Create_LobbyIDUsed_Content">Номер лобби, который вы планируете использовать, в настоящее время недоступен, поскольку в BakaXL Network есть лобби, использующие этот номер. &#xD;&#xA;Используйте другой номер или подождите, пока лобби использующий этот номер освободится.</Item>
+			<Item Key="MessageBox_Bakaverse_Lobby_Create_LobbyIDUsed_Tips">Бледный!</Item>
+
+			<Item Key="MessageBox_Bakaverse_Lobby_FriendsInviteTo_Title">Приглашение в лобби от друга</Item>
+			<Item Key="MessageBox_Bakaverse_Lobby_FriendsInviteTo_Content">Ваш друг {0} пригласил вас присоединиться к созданному им лобби &lt;{1}&gt;. &#xD;&#xA;Хотите присоединиться сейчас?</Item>
+			<Item Key="MessageBox_Bakaverse_Lobby_FriendsInviteTo_Btn_Ok">Присоединиться</Item>
+			<Item Key="MessageBox_Bakaverse_Lobby_FriendsInviteTo_Btn_No">В следующий раз</Item>
+
+			<Item Key="MessageBox_Bakaverse_Lobby_FriendsRequestJoin_Title">Запрос на присоединение к лобби</Item>
+			<Item Key="MessageBox_Bakaverse_Lobby_FriendsRequestJoin_Content">Пользователь {0} запросил присоединение к лобби, в котором вы сейчас находитесь. Разрешить ему присоединиться к этому лобби?</Item>
+			<Item Key="MessageBox_Bakaverse_Lobby_FriendsRequestJoin_Btn_Ok">Разрешить</Item>
+			<Item Key="MessageBox_Bakaverse_Lobby_FriendsRequestJoin_Btn_No">Не сегодня</Item>
+
+			<Item Key="MessageBox_Bakaverse_Lobby_KickUser_Title">Выгнать этого пользователя из лобби?</Item>
+			<Item Key="MessageBox_Bakaverse_Lobby_KickUser_Content">Как владелец лобби с человеческими качествами, ваше следующее действие приведёт к тому, что этот пользователь будет выгнан из лобби. &#xD;&#xA;Если в данный момент он подключается к локальной сети Minecraft или передачей файлов, эти соединения также будут разорваны.</Item>
+			<Item Key="MessageBox_Bakaverse_Lobby_KickUser_Tips">Я остудил голову и раскаялся в своем порыве.</Item>
+			<Item Key="MessageBox_Bakaverse_Lobby_KickUser_Btn_Ok">Уберите его</Item>
+			<Item Key="MessageBox_Bakaverse_Lobby_KickUser_Btn_No">Подумать об этом</Item>
+
+			<Item Key="MessageBox_Bakaverse_Lobby_Join_NoLobbyID_Title">Запрос на присоединение к лобби отправлен...?</Item>
+			<Item Key="MessageBox_Bakaverse_Lobby_Join_NoLobbyID_Content">Лаунчер предоставляет лобби... &#xD;&#xA;А? Почему вы не ввели номер для лобби?</Item>
+			<Item Key="MessageBox_Bakaverse_Lobby_Join_NoLobbyID_Tips">Вы отложили этот стресс-тест?</Item>
+
+			<Item Key="MessageBox_Bakaverse_Lobby_Join_RequestSend_Title">Запрос на присоединение к лобби отправлен</Item>
+			<Item Key="MessageBox_Bakaverse_Lobby_Join_RequestSend_Content">Лаунчер отправил запрос создателю лобби {0}. &#xD;&#xA;Вы присоединитесь к лобби после того, как другая сторона даст согласие.</Item>
+			<Item Key="MessageBox_Bakaverse_Lobby_Join_RequestSend_Tips">Если лобби является только для друзей, сначала нужно подружиться с создателем.</Item>
+
+			<Item Key="MessageBox_Bakaverse_Lobby_HostLeave_Title">Хотите распустить лобби?</Item>
+			<Item Key="MessageBox_Bakaverse_Lobby_HostLeave_Content">Если вы решите распустить лобби, все установленные соединения будут разорваны. &#xD;&#xA;Если вы подключены к локальной сети Minecraft или передаёте файлы, эти соединения также будут разорваны.</Item>
+			<Item Key="MessageBox_Bakaverse_Lobby_HostLeave_Tips">Подорвите лобби одним щелчком мыши...</Item>
+			<Item Key="MessageBox_Bakaverse_Lobby_HostLeave_Btn_Ok">Распустить</Item>
+			<Item Key="MessageBox_Bakaverse_Lobby_HostLeave_Btn_No">Упс, моя рука соскользнула</Item>
+
+			<Item Key="MessageBox_Bakaverse_Lobby_JoinerLeave_Title">Покидаете лобби?</Item>
+			<Item Key="MessageBox_Bakaverse_Lobby_JoinerLeave_Content">Если вы решите покинуть это лобби, то вы покинете это лобби. &#xD;&#xA;Если вы вподключаетесь к локальной сети Minecraft или передаёте файлы, эти соединения также будут разорваны.</Item>
+			<Item Key="MessageBox_Bakaverse_Lobby_JoinerLeave_Tips">Слушать свои слова - всё равно что слушать свои слова</Item>
+			<Item Key="MessageBox_Bakaverse_Lobby_JoinerLeave_Btn_Ok">Ускользнуть</Item>
+			<Item Key="MessageBox_Bakaverse_Lobby_JoinerLeave_Btn_No">Упс, моя рука соскользнула</Item>
+
+			<Item Key="MessageBox_Bakaverse_Lobby_JoinerInfo_NotExist_Title">Пользователь Шрёдингера</Item>
+			<Item Key="MessageBox_Bakaverse_Lobby_JoinerInfo_NotExist_Content">Хотя этот пользователь существует в лобби, его нет в BakaXL Network. &#xD;&#xA;Это странно. Может быть, из-за того, что вы заметили это, его сейчас не существует.</Item>
+			<Item Key="MessageBox_Bakaverse_Lobby_JoinerInfo_NotExist_Tips">Честно говоря, возможно ли это на самом деле?</Item>
+
+			<Item Key="MessageBox_Bakaverse_Lobby_Create_NoLANGameDetected_Title">Подключение к локальной сети Minecraft ещё не запущено</Item>
+			<Item Key="MessageBox_Bakaverse_Lobby_Create_NoLANGameDetected_Content">Вам нужно запустить игру с уже работающим лаунчером и выбрать «Открыть для локальной сети» в одиночной игре. &#xD;&#xA;Если вы открыли локальную игру, вам придётся подождать не менее 10 секунд, прежде чем вы сможете создать лобби.</Item>
+			<Item Key="MessageBox_Bakaverse_Lobby_Create_NoLANGameDetected_Tips">Если обнаружения не происходит долгое время, попробуйте запустить лаунчер от имени администратора.</Item>
+
+			<Item Key="MessageBox_Bakaverse_Lobby_Create_LobbyIDUsed_Title">Не удалось создать лобби</Item>
+			<Item Key="MessageBox_Bakaverse_Lobby_Create_LobbyIDUsed_Content">Лаунчер в настоящее время не может создавать лобби. &#xD;&#xA;Это может быть связано с тем, что этот идентификатор лобби используется или недоступен. Замените его и повторите попытку.</Item>
+			<Item Key="MessageBox_Bakaverse_Lobby_Create_LobbyIDUsed_Tips">Сервер лобби приветствует вас и выражает замешательство</Item>
+
+			<Item Key="MessageBox_Bakaverse_Lobby_Relay_Notice_Title">Для того чтобы это работало, необходимо чтобы и создатель, и соединитель включили.</Item>
+			<Item Key="MessageBox_Bakaverse_Lobby_Relay_Notice_Content">Вы включаете функцию подключения BakaXL Network Relay. &#xD;&#xA;В целях обеспечения конфиденциальности и безопасности данных BakaXL будет подключаться через ретрансляцию только в том случае, если и создатель лобби, и присоединяющийся включили эту функцию.</Item>
+			<Item Key="MessageBox_Bakaverse_Lobby_Relay_Notice_Tips">Если вы всё ещё не можете играть, даже если вы включили реле, возможно что другая сторона не включила эту функцию.</Item>
+
+			<Item Key="MessageBox_Bakaverse_Lobby_GotKicked_Title">Убран создателем лобби</Item>
+			<Item Key="MessageBox_Bakaverse_Lobby_GotKicked_Content">Упс, похоже создатель лобби выгнал вас из лобби. &#xD;&#xA;Убедитесь что вы не нарушаете принципы сообщества и не создаёте неудобства для других в лобби.</Item>
+			<Item Key="MessageBox_Bakaverse_Lobby_GotKicked_Tips">Лаунчер тоже в растерянности</Item>
+
+			<Item Key="MessageBox_Bakaverse_Lobby_Cracked_Title">Лобби был распущен...</Item>
+			<Item Key="MessageBox_Bakaverse_Lobby_Cracked_Content">Создатель лобби расформировал его, и сейчас все находятся снаружи. &#xD;&#xA;Возможно создатель устал или его интернет-соединение прервалось.</Item>
+			<Item Key="MessageBox_Bakaverse_Lobby_Cracked_Tips">Подорвите своё лобби одним щелчком мыши! Да!</Item>
+
+			<Item Key="MessageBox_Tips_Channel_Locked_Title">Этот канал советов заблокирован</Item>
+			<Item Key="MessageBox_Tips_Channel_Locked_Content">Этот канал советов в настоящее время закрыт для публики, что может быть связано с: &#xD;&#xA;· Получен запрос от эмитента с просьбой приостановить доступ. &#xD;&#xA;· Автоматически заморожен из-за слишком большого количества пользовательских жалоб. &#xD;&#xA;· Нарушение условий использования системы советов BakaXL</Item>
+			<Item Key="MessageBox_Tips_Channel_Locked_Tips">Попробуйте снова посетить этот канал через некоторое время.</Item>
+
+			<Item Key="Notify_Bakaverse_FriendRequest_Title">Новый запрос на добавление в друзья</Item>
+			<Item Key="Notify_Bakaverse_FriendRequest_Content">Пользователь {0}#{1} запросил добавить вас в друзья.</Item>
+
+			<Item Key="Notify_Bakaverse_Lobby_JoinRequest_Title">Запрос на присоединение к лобби</Item>
+			<Item Key="Notify_Bakaverse_Lobby_JoinRequest_Content">Пользователь {0}#{1} запросил присоединение к вашему текущему лобби.</Item>
+
+			<Item Key="Notify_Bakaverse_Lobby_InviteTo_Title">Приглашает вас в лобби</Item>
+			<Item Key="Notify_Bakaverse_Lobby_InviteTo_Content">Ваш друг {0} пригласил вас присоединиться к созданному им лобби!</Item>
+
+			<Item Key="Notify_GameCore_JsonIdAutoFixed">Идентификатор Json для этого ядра неверен и был автоматически исправлен</Item>
+
+			<Item Key="Notify_MinecraftProfile_OnlineFeatures_SkinCape_SkinSaved_Title">Скин сохранён</Item>
+			<Item Key="Notify_MinecraftProfile_OnlineFeatures_SkinCape_SkinSaved_Content">Скин этого персонажа Minecraft сохранён</Item>
+
+			<Item Key="Notify_MinecraftProfile_OnlineFeatures_SkinCape_SkinUploaded_Title">Скин загружен</Item>
+			<Item Key="Notify_MinecraftProfile_OnlineFeatures_SkinCape_SkinUploaded_Content">Скин этого персонажа Minecraft загружен</Item>
+
+			<Item Key="Notify_MinecraftProfile_OnlineFeatures_SkinCape_SkinUploadedFailed_Title">Загрузка скина не удалась</Item>
+			<Item Key="Notify_MinecraftProfile_OnlineFeatures_SkinCape_SkinUploadedFailed_Content">Обнаружена ошибка при загрузке этого скина</Item>
+
+			<Item Key="ErrorCan_BakaXL_WindowThread_Title">Необработанное исключение (окно потока)</Item>
+			<Item Key="ErrorCan_BakaXL_NonWindowThread_Title">Необработанное исключение (без окна потока)</Item>
+			<Item Key="ErrorCan_BakaXL_Solution">Немедленно сообщите об этой ошибке разработчикам BakaXL, чтобы её можно было исправить как можно скорее.</Item>
+
+			<Item Key="ErrorCan_Network_ConnectionTimedOut_Title">Время ожидания подключения к удалённому серверу истекло.</Item>
+			<Item Key="ErrorCan_Network_ConnectionTimedOut_VanillaList_Solution">BakaXL не может получить последний список ядер Minecraft через BMCLAPI или официальные источники для скачивания. &#xD;&#xA;В некоторых случаях проблема может быть вызвана тем, что ваш интернет-провайдер (ISP) перехватывает ваш трафик. &#xD;&#xA;Пожалуйста, проверьте подключение к Интернету, чтобы убедиться, что сетевое соединение между вашим компьютером и источником для скачивания работает. \r\n\r\nЕсли эта проблема не устранена, вы можете сообщить о ней разработчикам BakaXL.</Item>
+
+			<Item Key="ErrorCan_Network_ErrorData_Title">Удалённый сервер выдал ошибку.</Item>
+			<Item Key="ErrorCan_Network_ErrorData_VanillaList_Solution">Подготовка основного списка не может быть завершена, поскольку официальный источник для скачивания Minecraft или BMCLAPI вернули информацию о версии, не распознаваемую лаунчером. &#xD;&#xA;В некоторых случаях проблема может быть связана с тем, что ваш поставщик интернет-услуг (ISP) перехватывает возвращаемые данные. &#xD;&#xA;Проверьте подключение к Интернету, чтобы убедиться, что сетевое соединение между вашим компьютером и источником для скачивания работает.&#xD;&#xA;&#xD;&#xA;Если эта проблема не устранена, вы можете сообщить о ней разработчикам BakaXL.</Item>
+
+			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Vanilla_Title">ULauncherCore сообщает об исключении при подготовке версии игры</Item>
+			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Vanilla_Solution">Обычно эта проблема возникает из-за того, что ULauncherCore не может правильно подготовить определённую версию Minecraft. &#xD;&#xA;Проверьте подключение к Интернету, чтобы убедиться, что сетевое соединение между вашим компьютером и источником для скачивания работает. &#xD;&#xA;&#xD;&#xA;Вы можете перейти в «Настройки» — «Скачивание» и переключить «Использовать сторонний источник для скачивания» для материковых регионов и повторить попытку. &#xD;&#xA;Если эта проблема не устранена, вы можете сообщить о ней разработчикам BakaXL.</Item>
+			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Vanilla_CoreFolderNotFound_Solution">Невозможно найти ядро лаунчера, созданное до версии Minecraft и необходимое для этой версии Forge: .minecraft/versions/{0}/{1}.jar &#xD;&#xA;&#xD;&#xA;Вы можете попробовать сначала установить оригинальное ядро для этой версии Minecraft, а затем повторить попытку.</Item>
+
+			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Forge_Title">Установщик Forge сообщил об исключении при установке.</Item>
+			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Forge_DownloadOrDamage_Solution">Версия Forge, которую пытались установить: Forge-{0}-{1} &#xD;&#xA;&#xD;&#xA;Эта проблема может быть вызвана невозможностью загрузить файл или случайностью при его распаковке. &#xD;&#xA;Во-первых, проверьте подключение к Интернету, чтобы убедиться, что сетевая связь между вашим компьютером и источником для скачивания работает. &#xD;&#xA;Затем попробуйте запустить лаунчер от имени администратора и повторите установку. &#xD;&#xA;&#xD;&#xA;Если эта проблема остаётся, вы можете сообщить о ней разработчикам BakaXL.</Item>
+			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Forge_NotSupported_Solution">Версия Forge, которую пытались установить: Forge-{0}-{1} &#xD;&#xA;&#xD;&#xA;Как правило, это может быть вызвано повреждённым загруженным файлом, недостаточным доступом к локальным файлам или неподдерживаемой версией Forge. &#xD;&#xA;Сначала попробуйте запустить лаунчер от имени администратора и повторите попытку установки. &#xD;&#xA;Во-вторых, проверьте сообщение об исключении в этом идиотском банке, и если в нем четко указано, что данная версия Forge не поддерживается, сообщите об этом идиотском банке разработчикам BakaXL. &#xD;&#xA;&#xD;&#xA;Если эта проблема не устранена, вы можете сообщить о ней разработчикам BakaXL.</Item>
+
+			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Forge_JsonNullException">Не удалось разобрать профиль установки Forge (install_profile), интерпретатор Json вернул пустой текст.</Item>
+			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Forge_JarNotFoundException">Не удалось найти ядро ​​Forge (universal.jar), включенное в эту версию установщика Forge. &#xD;&#xA;&#xD;&#xA;Несовместимая версия Forge, сообщите об этой версии Forge разработчикам BakaXL: Forge-{0}-{1}</Item>
+
+			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Fabric_Title">Установщик Fabric сообщил об исключении при установке.</Item>
+			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Fabric_DownloadOrDamage_Solution">Версия Fabric для установки: Fabric-{0}-{1} &#xD;&#xA;&#xD;&#xA;Эта проблема может быть вызвана невозможностью скачивания файла или несчастным случаем при распаковке. &#xD;&#xA;Во-первых, проверьте подключение к Интернету, чтобы убедиться, что сетевое соединение между вашим компьютером и источником для скачивания работает правильно. &#xD;&#xA;Во-вторых, попробуйте запустить лаунчер от имени администратора и повторите попытку установки. &#xD;&#xA;&#xD;&#xA;Если эта проблема не устранена, вы можете сообщить о ней разработчикам BakaXL.</Item>
+			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Fabric_NotSupported_Solution">Версия Fabric для установки: Fabric-{0}-{1} &#xD;&#xA;&#xD;&#xA;Как правило, это может быть вызвано повреждённым загруженным файлом, недостаточным доступом к локальным файлам или неподдерживаемой версией Fabric. &#xD;&#xA;Во-первых, попробуйте запустить лаунчер от имени администратора и повторите попытку установки. &#xD;&#xA;Во-вторых, проверьте сообщение об исключении в этом идиотском банке, и если в нем четко указано, что данная версия Fabric не поддерживается, сообщите об этом идиотском банке разработчикам BakaXL. &#xD;&#xA;&#xD;&#xA;Если эта проблема не устранена, вы можете сообщить о ней разработчикам BakaXL.</Item>
+
+			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Fabric_JsonNullException">Не удалось проанализировать установщик Fabric (json), интерпретатор Json вернул пустой текст.</Item>
+			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Fabric_CopyVanilla">Не удалось скопировать файл json из чистого Minecraft.</Item>
+
+			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Optifine_Title">Установщик Optifine сообщил об исключении при установке.</Item>
+			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Optifine_DownloadOrDamage_Solution">Версия Optifine для установки: Optifine-{0}-{1} &#xD;&#xA;&#xD;&#xA;Эта проблема может быть вызвана невозможностью скачивания файла или несчастным случаем при распаковке. &#xD;&#xA;Во-первых, проверьте подключение к Интернету, чтобы убедиться, что сетевое соединение между вашим компьютером и источником для скачивания работает. &#xD;&#xA;Во-вторых, попробуйте запустить лаунчер от имени администратора и повторите попытку установки. &#xD;&#xA;&#xD;&#xA;Если эта проблема не устранена, вы можете сообщить о ней команде разработчиков BakaXL.</Item>
+			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Optifine_NotSupported_Solution">Версия Optifine для установки: Optifine-{0}-{1} &#xD;&#xA;&#xD;&#xA;Обычно это может быть вызвано поврежденным загруженным файлом, недостаточным доступом к локальным файлам или неподдерживаемой версией Optifine. &#xD;&#xA;Сначала попробуйте запустить лаунчер от имени администратора и повторите попытку установки. &#xD;&#xA;Во-вторых, проверьте сообщение об исключении в этой фиктивной банке, если в нем четко указано, что эта версия Optifine не поддерживается, сообщите об этой фиктивной банке команде разработчиков BakaXL. &#xD;&#xA;&#xD;&#xA;Если эта проблема не устранена, вы можете сообщить о ней команде разработчиков BakaXL.</Item>
+
+			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_AutoInstaller_Title">ULauncherCore сообщил об ошибке при подготовке версии игры</Item>
+			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_AutoInstaller_Solution">Обычно эта проблема возникает из-за того, что ULauncherCore не может правильно подготовить определённую версию Minecraft. &#xD;&#xA;Проверьте подключение к сети, чтобы убедиться, что сетевое соединение между вашим компьютером и источником для скачивания работает. &#xD;&#xA;&#xD;&#xA;Вы можете перейти в «Настройки» — «Скачивание» и переключить «Использовать сторонний источник для скачивания» и повторить попытку.&#xD;&#xA;Если эта проблема не устранена, вы можете сообщить о ней команде разработчиков BakaXL.</Item>
+
+			<Item Key="AddGameCore_Title">Добавьте новое ядро или модпак</Item>
+			<Item Key="AddGameCore_Tips">Если вы не знаете, как импортировать или устанавливать модпаки, рекомендуется установить ядро Minecraft напрямую.</Item>
+			<Item Key="AddGameCore_Btn_PlazaInstall">Установить ядро Minecraft из Baka Plaza</Item>
+			<Item Key="AddGameCore_Btn_ImportExist">Импортировать Minecraft из другого каталога</Item>
+			<Item Key="AddGameCore_Btn_InstallModPack">Установить модпак MCBBS</Item>
+
+			<Item Key="AddGameCore_CoreInstaller_Title">Автоматическая установка ядра</Item>
+			<Item Key="AddGameCore_CoreInstaller_Minecraft_VerstionType">Тип версий</Item>
+			<Item Key="AddGameCore_CoreInstaller_CoreListTitle">Выбрана версия {0}</Item>
+			<Item Key="AddGameCore_CoreInstaller_RemoveAddon">Удалить компонент и вернуться</Item>
+
+			<Item Key="AddGameCore_CoreInstaller_CoreAddonConfig_Title">Знайте ядро, которое вы будете устанавливать</Item>
+			<Item Key="AddGameCore_CoreInstaller_CoreAddonConfig_Tips">Лаунчер отобразит компоненты, которые могут быть установлены для выбранной в данный момент версии Minecraft. &#xD;&#xA;Если компонент несовместим с текущей версией или другими компонентами, он будет отключен.</Item>
+
+			<Item Key="AddGameCore_CoreInstaller_CoreConfig_Title">Конфиг ядра</Item>
+			<Item Key="AddGameCore_CoreInstaller_CoreConfig_Tips">Не отключайтесь от сети во время установки. &#xD;&#xA;Если вы используете платное подключение к сети, в процессе установки будет взиматься плата за передачу данных.</Item>
+
+			<Item Key="AddGameCore_CoreInstaller_Optifine_Notice_ForgeMod">При использовании этой конфигурации установки, лаунчер установит OptiFine как мод.</Item>
+			<Item Key="AddGameCore_CoreInstaller_Optifine_Notice_FabricMod">При использовании этой конфигурации установки, лаунчер установит OptiFine как мод. &#xD;&#xA;Чтобы использовать Optifine в Fabric, вам необходимо вручную скачать и установить OptiFabric.</Item>
+			
+			<Item Key="AddGameCore_ManualCoreInstaller_Title">Установка ядра вручную</Item>
+			<Item Key="AddGameCore_ModPackImporter_Title">Импортирование модпаков</Item>
+			<Item Key="AddGameCore_AssetsInstall_Title">Скачать моды/модпаки</Item>
+
+			<Item Key="AddGameCore_CurseModPack_RemoveSoon">Защищая интересы авторов модпаков и модов, мы прекратили установку модпаков, &#xD;&#xA;совместимых с форматом CurseForge.</Item>
+
+			<Item Key="AddGameCore_DnD_Default_Title">Перетащите сюда сжатый пакет(.zip), содержащий модпак.</Item>
+			<Item Key="AddGameCore_DnD_Default_Tips">Лаунчер автоматически начнёт установку после распознавания содержимого модпака.</Item>
+			<Item Key="AddGameCore_DnD_DragEnter_Title">После отпускания мыши, лаунчер попытается прочитать этот файл</Item>
+			<Item Key="AddGameCore_DnD_DragEnter_Tips">Если это подходящий файл модпака, лаунчер позволит вам установить его.</Item>
+			<Item Key="AddGameCore_DnD_DropUnknownFile_Title">Что случилось?</Item>
+			<Item Key="AddGameCore_DnD_DropUnknownFile_Tips">Выглядишь так, будто притащил странную вещь</Item>
+			<Item Key="AddGameCore_DnD_DropChecking_Title">Подождите</Item>
+			<Item Key="AddGameCore_DnD_DropChecking_Tips">Проверка архива...</Item>
+			<Item Key="AddGameCore_DnD_DropNotZip_Title">Похоже, это не архив(.zip)</Item>
+			<Item Key="AddGameCore_DnD_DropNotZip_Tips">Убедитесь, что этот файл в формате .zip и имеет формат модпака MCBBS или Curse</Item>
+			<Item Key="AddGameCore_DnD_DropInstall_Title">Информация о модпаке была прочитана</Item>
+			<Item Key="AddGameCore_DnD_DropInstall_Tips">Вы собираетесь установить {0}</Item>
+
+			<Item Key="AddGameCore_DnD_Browse">Или щёлкните по этой области, чтобы посмотреть архива</Item>
+
+			<Item Key="Installer_InstallTimer">Время</Item>
+			<Item Key="Installer_InstallTimer_Pending">Дождитесь начала загрузки</Item>
+			<Item Key="Installer_InstallTimer_Counting">Расчёт времени...</Item>
+
+			<Item Key="Installer_InstallTaskStatus_PrepareInstaller">Подготовка к установке {0}...</Item>
+			
+			<Item Key="Installer_InstallTaskStatus_DownloadMinecraft">Скачивание Minecraft...</Item>
+			<Item Key="Installer_InstallTaskStatus_DownloadForge">Скачивание установщика Forge...</Item>	
+			<Item Key="Installer_InstallTaskStatus_InstallingForge">Установка Forge...</Item>
+			<Item Key="Installer_InstallTaskStatus_DownloadFabric">Скачивание установщика Fabric...</Item>
+			<Item Key="Installer_InstallTaskStatus_InstallingFabric">Установка Fabric...</Item>
+			<Item Key="Installer_InstallTaskStatus_DownloadOptifine">Скачивание Optifine...</Item>
+			<Item Key="Installer_InstallTaskStatus_InstallingOptifine">Установка Optifine...</Item>
+			<Item Key="Installer_InstallTaskStatus_DownloadAssets">Скачивание Assets...</Item>
+			<Item Key="Installer_InstallTaskStatus_UnzipFile">Распаковка файлов...</Item>
+			
+			<Item Key="Installer_InstallTaskStatus_DownloadLibs">Скачивание libraries...</Item>
+
+			<Item Key="Installer_InstallTaskStatus_DownloadLibsAndAssets">Скачивание assets и libraries...</Item>
+
+			<Item Key="Installer_InstallTaskStatus_Failed">Сбой установки</Item>
+			<Item Key="Installer_InstallTaskStatus_Successful">Установка выполнена успешно</Item>
+			
+			<Item Key="Installer_InstallTaskStatus_PrepareInstaller_Tips">Подготовка к установке выбранного вами ядра. &#xD;&#xA;Подождите несколько минут, не отключайтесь от Интернета и не &#xD;&#xA;закрывайте лаунчер в течение этого времени.</Item>
+			
+			<Item Key="Installer_InstallTaskStatus_DownloadMinecraft_Tips">Скачивание {0}. &#xD;&#xA;Подождите несколько минут, не отключайтесь от Интернета и не &#xD;&#xA;закрывайте лаунчер в течение этого времени.</Item>
+			<Item Key="Installer_InstallTaskStatus_DownloadForge_Tips">Скачивание Forge-{0}. &#xD;&#xA;Подождите несколько минут, не отключайтесь от Интернета и не &#xD;&#xA;закрывайте лаунчер в течение этого времени.</Item>
+			<Item Key="Installer_InstallTaskStatus_InstallingForge_Tips">Установка Forge {0}. &#xD;&#xA;Подождите несколько минут, не работайте с каталогом игры и не &#xD;&#xA;закрывайте лаунчер в течение этого времени.</Item>
+			<Item Key="Installer_InstallTaskStatus_DownloadFabric_Tips">Скачивание Fabric-{0}. &#xD;&#xA;Подождите несколько минут, не отключайтесь от Интернета и не &#xD;&#xA;закрывайте лаунчер в течение этого времени.</Item>
+			<Item Key="Installer_InstallTaskStatus_InstallingFabric_Tips">Установка Fabric-{0}. &#xD;&#xA;Подождите несколько минут, не работайте с каталогом игры и не &#xD;&#xA;закрывайте лаунчер в течение этого времени.</Item>
+			<Item Key="Installer_InstallTaskStatus_DownloadOptifine_Tips">Скачивание Optifine-{0}. &#xD;&#xA;Подождите несколько минут, не отключайтесь от Интернета и не &#xD;&#xA;закрывайте лаунчер в течение этого времени.</Item>
+			<Item Key="Installer_InstallTaskStatus_InstallingOptifine_Tips">Установка Optifine {0}. &#xD;&#xA;Подождите несколько минут, не работайте с каталогом игры и не &#xD;&#xA;закрывайте лаунчер в течение этого времени.</Item>
+
+			<Item Key="Installer_InstallTaskStatus_DownloadMinecraft_Tips_ModPack">Скачивание необходимого ядра ​​Minecraft для {0}. &#xD;&#xA;Подождите несколько минут, не отключайтесь от Интернета и не &#xD;&#xA;закрывайте лаунчер в течение этого времени.</Item>
+			<Item Key="Installer_InstallTaskStatus_DownloadForge_Tips_ModPack">Скачивание необходимого установщика Forge для {0}. &#xD;&#xA;Подождите несколько минут, не отключайтесь от Интернета и не &#xD;&#xA;закрывайте лаунчер в течение этого времени.</Item>
+			<Item Key="Installer_InstallTaskStatus_InstallingForge_Tips_ModPack">Установка Forge для {0}. &#xD;&#xA;Подождите несколько минут, не работайте с каталогом игры и не &#xD;&#xA;закрывайте лаунчер в течение этого времени.</Item>
+			<Item Key="Installer_InstallTaskStatus_DownloadFabric_Tips_ModPack">Скачивание необходимого установщика Fabric для {0}, локально.&#xD;&#xA;Подождите несколько минут, не отключайтесь от Интернета и не &#xD;&#xA;закрывайте лаунчер в течение этого времени.</Item>
+			<Item Key="Installer_InstallTaskStatus_InstallingFabric_Tips_ModPack">Установка Fabric для {0}. &#xD;&#xA;Подождите несколько минут, не работайте с каталогом игры и не &#xD;&#xA;закрывайте лаунчер в течение этого времени.</Item>
+			<Item Key="Installer_InstallTaskStatus_DownloadOptifine_Tips_ModPack">Скачивание необходимого Optifine для {0}.&#xD;&#xA;Подождите несколько минут, не отключайтесь от Интернета и не &#xD;&#xA;закрывайте лаунчер в течение этого времени.</Item>
+			<Item Key="Installer_InstallTaskStatus_InstallingOptifine_Tips_ModPack">Установка Optifine для {0}. &#xD;&#xA;Подождите несколько минут, не работайте с каталогом игры и не &#xD;&#xA;закрывайте лаунчер в течение этого времени.</Item>
+			
+			<Item Key="Installer_InstallTaskStatus_DownloadLibs_Tips">Завершение работы над необходимыми библиотеками(libraries) для этой версии. &#xD;&#xA;Подождите несколько минут, не отключайтесь от Интернета и не &#xD;&#xA;закрывайте лаунчер в течение этого времени.</Item>
+			<Item Key="Installer_InstallTaskStatus_DownloadAssets_Tips">Завершение работы над необходимыми активами(assets) для этой версии. &#xD;&#xA;Подождите несколько минут, не отключайтесь от Интернета и не &#xD;&#xA;закрывайте лаунчер в течение этого времени.</Item>
+			<Item Key="Installer_InstallTaskStatus_DownloadLibsAndAssets_Tips">Завершение работы над библиотеками и активами, необходимыми для этого релиза. &#xD;&#xA;Подождите несколько минут, не отключайтесь от Интернета и не &#xD;&#xA;закрывайте лаунчер в течение этого времени.</Item>
+			<Item Key="Installer_InstallTaskStatus_UnzipFile_Tips">Обработка архивов, необходимых для установки. &#xD;&#xA;Подождите несколько минут, не работайте с каталогом игры и не &#xD;&#xA;закрывайте лаунчер в течение этого времени.</Item>
+
+			<Item Key="Installer_InstallTaskStatus_Failed_Tips">Проверьте подключение к Интернету и повторите попытку. &#xD;&#xA;BakaXL превратил эту ошибку в банку, вы можете перейти к основным настройкам лаунчера, чтобы проверить. &#xD;&#xA;Нажмите в любом месте, чтобы вернуться.</Item>
+			<Item Key="Installer_InstallTaskStatus_Successful_Tips">Установлен: {0}. &#xD;&#xA;Вы можете найти его на главном экране - управление ядром. &#xD;&#xA;Нажмите в любом месте, чтобы вернуться.</Item>
+
+			<Item Key="DangerOperation_Title">Предупреждение</Item>
+			<Item Key="DangerOperation_ConfirmBtn_Default">Подтвердить</Item>
+			<Item Key="DangerOperation_CancelBtn_Default">Отменить и вернуться</Item>
+
+			<Item Key="ThemeTitle">Персонализация</Item>
+			<Item Key="ThemeSubtitle">Настройка фона, темы и других параметров персонализации BakaXL</Item>
+			<Item Key="ThemeDefaultName">Тема по умолчанию</Item>
+			<Item Key="ThemeDefaultDescription">Тема по умолчанию для BakaXL, которую нельзя удалить или заменить.</Item>
+			<Item Key="ThemeEmptyDescription">Автор настолько ленив, что не написал никакого введения...</Item>
+			<Item Key="ThemeTipInstall">Перетащите файлы темы BakaXL сюда или в папку [BakaXL\Themes].</Item>
+			<Item Key="ThemeTipInstallTitle">Это очень неприятно</Item>
+			<Item Key="ThemeTipInstallSubtitle">Да ладно, здесь нет ни одной темы. Почему бы вам не попытаться добавить несколько?</Item>
+			<Item Key="ThemeCustomMode">Режим настройки темы</Item>
+			<Item Key="ThemeNightMode">Ночной режим</Item>
+			<Item Key="ThemeBackground">Фоновые изображения</Item>
+			<Item Key="ThemeMenuOpenSource">Просмотр файлов темы</Item>
+
+			<Item Key="TapToSee">Нажмите, чтобы посмотреть</Item>
+			<Item Key="MenuDelete">Удалить</Item>
+			<Item Key="MenuRefresh">Обновить</Item>
+			<Item Key="MenuMore">Подробнее...</Item>
+
+			<Item Key="Minecraft_Dimension_Overworld">Основной мир</Item>
+			<Item Key="Minecraft_Dimension_Nether">Нижний мир</Item>
+			<Item Key="Minecraft_Dimension_TheEnd">Край</Item>
+
+			<Item Key="Minecraft_Weather_Clear">Солнечно</Item>
+			<Item Key="Minecraft_Weather_Thunderstorm">Гроза</Item>
+			<Item Key="Minecraft_Weather_Rain">Моросящий дождь</Item>
+
+			<Item Key="Minecraft_PlayerHealth_Healthy">Здоровый - Всё идёт хорошо</Item>
+			<Item Key="Minecraft_PlayerHealth_Injured">Травмирован - Ситуация не очень хорошая</Item>
+			<Item Key="Minecraft_PlayerHealth_BadlyInjured">Серьёзно травмирован – Борьба за выживание</Item>
+			<Item Key="Minecraft_PlayerHealth_Dead">Помер - В ожидании возрождения</Item>
+
+			<Item Key="Minecraft_DefaultPlayer_Steve">Стив</Item>
+			<Item Key="Minecraft_DefaultPlayer_Alex">Алекс</Item>
+
+			<Item Key="OK">Хорошо</Item>
+			<Item Key="No">Нет</Item>
+
+			<Item Key="Color_Auto">Автовыбор</Item>
+			<Item Key="Color_Red">Красный</Item>
+			<Item Key="Color_Green">Зелёный</Item>
+			<Item Key="Color_Blue">Синий</Item>
+			<Item Key="Color_Purple">Фиолетовый</Item>
+			<Item Key="Color_Orange">Оранжевый</Item>
+			<Item Key="Color_Lime">Тёмно-зелёный</Item>
+			<Item Key="Color_Emerald">Ярко-зелёный</Item>
+			<Item Key="Color_Teal">Сине-зелёный</Item>
+			<Item Key="Color_Cyan">Ядовито-синий</Item>
+			<Item Key="Color_Cobalt">Тёмно-синий</Item>
+			<Item Key="Color_Indigo">Ярко-синий</Item>
+			<Item Key="Color_Violet">Ярко-фиолетовый</Item>
+			<Item Key="Color_Pink">Розовый</Item>
+			<Item Key="Color_Magenta">Маджента</Item>
+			<Item Key="Color_Crimson">Тёмно-красный</Item>
+			<Item Key="Color_Amber">Салатовый</Item>
+			<Item Key="Color_Yellow">Жёлтый</Item>
+			<Item Key="Color_Brown">Коричневый</Item>
+			<Item Key="Color_Olive">Желтовато-зелёный</Item>
+			<Item Key="Color_Steel">Ярко-серый</Item>
+			<Item Key="Color_Mauve">Лиловый</Item>
+			<Item Key="Color_Taupe">Серо-коричневый</Item>
+			<Item Key="Color_Sienna">Жёлто-коричневый</Item>
+			<Item Key="Color_Gray">Серый</Item>
+
+			<Item Key="BakaXL.Pages.PageHome">Основной интерфейс BakaXL</Item>
+		</Items>
+	</Language>
+</Languages>
