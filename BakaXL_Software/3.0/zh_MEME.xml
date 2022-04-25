@@ -489,8 +489,8 @@
 			<Item Key="Bakaverse_Lobby_LobbyAction_Title">多人运动操作</Item>
 			<Item Key="Bakaverse_Lobby_LobbyAction_AutoAcceptJoin">自动同意加入多人运动请求</Item>
 			<Item Key="Bakaverse_Lobby_LobbyAction_AutoAcceptJoin_Tips">介绍自动同意来自其他多人运动加入者的加入请求。&#xD;&#xA;这在您打算懒得手动处理互联网朋友的请求时大概很有用吧。&#xD;&#xA;请注意。这将会允许所有知道多人运动编号的用户随意加入该多人运动。</Item>
-			<Item Key="Bakaverse_Lobby_LobbyAction_AllowRelay">在无法建立直接连接时使用中继连接</Item>
-			<Item Key="Bakaverse_Lobby_LobbyAction_AllowRelay_Tips">当 BakaXL 无法与对方建立直接连接时，&#xD;&#xA;通过 BakaXL Network Relay 中继服务进行连接。&#xD;&#xA;您的网络数据流量将通过受信任的BakaXL服务器进行安全中转。</Item>
+			<Item Key="Bakaverse_Lobby_LobbyAction_AllowRelay">在身体虚弱时使用辅助健身器材</Item>
+			<Item Key="Bakaverse_Lobby_LobbyAction_AllowRelay_Tips">当您身体虚弱无法大幅度运动时，&#xD;&#xA;通过辅助健身器材进行健身。&#xD;&#xA;您的网络数据流量将通过受信任的BakaXL服务器进行安全中转。</Item>
 			<Item Key="Bakaverse_Lobby_LobbyAction_LeaveLobby">离开多人运动</Item>
 			<Item Key="Bakaverse_Lobby_LobbyAction_LeaveLobby_Tips">若您当前正在参与 迈恩克拉夫特 本地局域网联机，&#xD;&#xA;离开该多人运动将导致与创建者主机的连接被断开。</Item>
 
@@ -506,11 +506,11 @@
 			<Item Key="Bakaverse_Lobby_UserStatus_Host">多人运动创建者</Item>
 			<Item Key="Bakaverse_Lobby_UserStatus_Joined">热身中</Item>
 			<Item Key="Bakaverse_Lobby_UserStatus_Punching">正在准备器材</Item>
-			<Item Key="Bakaverse_Lobby_UserStatus_WaitingRelay">正在调整器材提高运动强度</Item>
+			<Item Key="Bakaverse_Lobby_UserStatus_WaitingRelay">正在准备辅助健身器材</Item>
 			<Item Key="Bakaverse_Lobby_UserStatus_LeaveMinecraft">累瘫了，不动了</Item>
 			<Item Key="Bakaverse_Lobby_UserStatus_ConnectionEstablished">开始多人运动</Item>
-			<Item Key="Bakaverse_Lobby_UserStatus_RelayConnectionEstablished">开始高强度多人运动</Item>
-			<Item Key="Bakaverse_Lobby_UserStatus_NATRestrict">被NAT严格摁倒在地</Item>
+			<Item Key="Bakaverse_Lobby_UserStatus_RelayConnectionEstablished">使用辅助健身器材进行多人运动</Item>
+			<Item Key="Bakaverse_Lobby_UserStatus_NATRestrict">被 NAT 严格摁倒在地</Item>
 			<Item Key="Bakaverse_Lobby_UserStatus_FirewallReject">被防火墙摁倒在地</Item>
 			<Item Key="Bakaverse_Lobby_UserStatus_Unknown">抽筋了！</Item>
 
@@ -956,17 +956,17 @@
 			<Item Key="Setting_Network_ConnectedWithError">已连接，一个错误</Item>
 
 			<Item Key="Setting_Network_InternetStatus_Title">互联网状态</Item>
-			<Item Key="Setting_Network_InternetStatus_Connected">BakaXL已连接至互联网。</Item>
-			<Item Key="Setting_Network_InternetStatus_Disconnected">BakaXL未连接至互联网。</Item>
+			<Item Key="Setting_Network_InternetStatus_Connected">爷能上网了</Item>
+			<Item Key="Setting_Network_InternetStatus_Disconnected">爷连不上网</Item>
 
 			<Item Key="Setting_Network_BakaServiceStatus_Title">BakaXL服务器状态</Item>
 			<Item Key="Setting_Network_BakaServiceStatus_Plaza_API">BakaXL游泳圈(API):</Item>
 			<Item Key="Setting_Network_BakaServiceStatus_Plaza_Qiniu">BakaXL游泳圈(七牛云):</Item>
 
 			<Item Key="Setting_Network_BakaServiceStatus_Third_Party_Title">第三方服务提供商</Item>
-			<Item Key="Setting_Network_BakaServiceStatus_Third_Party_CurseForgeApi">CurseForge第三方API:</Item>
-			<Item Key="Setting_Network_BakaServiceStatus_Third_Party_CurseForgeCDN">CurseForge CDN:</Item>
-			<Item Key="Setting_Network_BakaServiceStatus_Third_Party_MCBBS">MCBBS下载源:</Item>
+			<Item Key="Setting_Network_BakaServiceStatus_Third_Party_CurseForgeApi">克斯第三方API:</Item>
+			<Item Key="Setting_Network_BakaServiceStatus_Third_Party_CurseForgeCDN">克斯 CDN:</Item>
+			<Item Key="Setting_Network_BakaServiceStatus_Third_Party_MCBBS">迈恩克拉夫特BBS下载源:</Item>
 
 			<Item Key="Setting_Network_MojangServiceStatus_Title">麻将服务器状态</Item>
 			<Item Key="Setting_Network_MojangServiceStatus_MainServer">麻将状态服务:</Item>
@@ -995,23 +995,23 @@
 			<Item Key="Setting_Network_Environment_NATType_Symmetric">严格 (板砖)</Item>
 			<Item Key="Setting_Network_Environment_NATType_SymmetricFirewall">严格 (几百块板砖筑成了墙)</Item>
 			<Item Key="Setting_Network_Environment_NATType_Error_DNS">DNS 炸了</Item>
-			<Item Key="Setting_Network_Environment_NATType_Error_NULL">当前无法完成检测</Item>
+			<Item Key="Setting_Network_Environment_NATType_Error_NULL">爷现在测不了</Item>
 			<Item Key="Setting_Network_Environment_NATType_Error_RequestFailed">爷上不了网</Item>
 
 			<Item Key="Setting_Network_Environment_NATType_Checking">正在运动…</Item>
 			<Item Key="Setting_Network_Environment_NATType_Checking_Tips">BakaXL 将在运动完成后显示结果…</Item>
 
-			<Item Key="Setting_Network_Environment_NATType_Tips_Open">我与NAT开放亲密无间.jpg&#xD;&#xA;该网络环境适合作为多人运动的创建者</Item>
+			<Item Key="Setting_Network_Environment_NATType_Tips_Open">老子 NAT 开放&#xD;&#xA;该网络环境适合作为多人运动的创建者</Item>
 			<Item Key="Setting_Network_Environment_NATType_Tips_MayAffectOnlinePlay">这可能会影响您的联机体验</Item>
 			<Item Key="Setting_Network_Environment_NATType_Tips_MayAffectOnlinePlay_RouterOrFirewall">部分路由器和防火墙设置可能会影响您的联机体验</Item>
 			<Item Key="Setting_Network_Environment_NATType_Tips_MayAffectOnlinePlay_RouterOrFirewall_UPnP">部分路由器和防火墙设置可能会影响您的联机体验&#xD;&#xA;若多人运动创建者或您的网络设备支持 UPnP，则将可能有所缓解</Item>
-			<Item Key="Setting_Network_Environment_NATType_Tips_WillAffectOnlinePlay">我与NAT严格不共戴天.jpg</Item>
-			<Item Key="Setting_Network_Environment_NATType_Tips_WillAffectOnlinePlay_UPnP">我与NAT严格不共戴天.jpg&#xD;&#xA;若多人运动创建者或您的网络环境支持 UPnP，则将可能有所缓解</Item>
+			<Item Key="Setting_Network_Environment_NATType_Tips_WillAffectOnlinePlay">我与 NAT 严格不共戴天.jpg</Item>
+			<Item Key="Setting_Network_Environment_NATType_Tips_WillAffectOnlinePlay_UPnP">我与 NAT 严格不共戴天.jpg&#xD;&#xA;若多人运动创建者或您的网络环境支持 UPnP，则将可能有所缓解</Item>
 
 			<Item Key="Setting_Network_Environment_UPnP_Unknown">爷不理解</Item>
 			<Item Key="Setting_Network_Environment_UPnP_Unsupport">炸了</Item>
 			<Item Key="Setting_Network_Environment_UPnP_Unsupport_Tips">您当前的网络设备或系统不支持 UPnP 协议&#xD;&#xA;若您在网络设备中启用 UPnP，则 BakaXL 将通过该协议尝试改善您的联机体验</Item>
-			<Item Key="Setting_Network_Environment_UPnP_Unstable">摇来摇去 [{0}]</Item>
+			<Item Key="Setting_Network_Environment_UPnP_Unstable">左右横跳 [{0}]</Item>
 			<Item Key="Setting_Network_Environment_UPnP_Unstable_Tips">您当前的网络设备或系统对 UPnP 协议的支持并不正常&#xD;&#xA;这可能导致 BakaXL 无法改善您的联机体验&#xD;&#xA;若您认为您的网络设备或系统不存在此问题，请和 BakaXL 开发团队对线</Item>
 			<Item Key="Setting_Network_Environment_UPnP_Enabled">没啥问题</Item>
 			<Item Key="Setting_Network_Environment_UPnP_Enabled_Tips">BakaXL 向您的网络设备请求自动映射以改善您的联机体验</Item>
@@ -1036,7 +1036,7 @@
 			<Item Key="Setting_Advance_AdvLaunch_CheckVersionFolder">预检查游戏核心目录是否存在</Item>
 			<Item Key="Setting_Advance_AdvLaunch_CheckVersionFolder_Tips">在启动游戏前对 .minecraft/versions/&lt;游戏核心&gt; 目录&#xD;&#xA;进行检查，并在无法确认此文件夹存在时取消启动。&#xD;&#xA;&#xD;&#xA;若核心目录存在也无法检测到的极端情况出现时，请关闭此功能。&#xD;&#xA;关闭后，BakaXL将会在无法确认文件夹存在时尝试继续启动，&#xD;&#xA;直至下一次确认核心文件夹的存在。&#xD;&#xA;&#xD;&#xA;可能导致BakaXL在启动游戏时出现异常，甚至是崩溃。&#xD;&#xA;此设置并不会全局同步至计算机中其他BakaXL。</Item>
 
-			<Item Key="Setting_Advance_AdvLaunch_GCMethod">自定义Java回收器</Item>
+			<Item Key="Setting_Advance_AdvLaunch_GCMethod">自定义茶杯回收器</Item>
 			<Item Key="Setting_Advance_AdvLaunch_GCMethod_Tips">设置在使用Java 9或更高级版本Java时使用的垃圾回收器(GC)。&#xD;&#xA;如果你的Java版本低于Java 9，则此选项不起作用。&#xD;&#xA;&#xD;&#xA;&quot;Z回收器(ZGC)&quot;仅可以Java 11或更高级版本使用，在错误的&#xD;&#xA;Java版本中使用此回收器将导致无法启动游戏。&#xD;&#xA;&#xD;&#xA;如果你不知道这是做什么的，请选择 &quot;默认&quot;。</Item>
 
 			<Item Key="Setting_Advance_GameResolution_Title">迈恩克拉夫特窗体大小</Item>
