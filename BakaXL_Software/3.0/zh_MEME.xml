@@ -1695,10 +1695,6 @@
 			<Item Key="MessageBox_Tips_Channel_Locked_Content">本贴士可能由于以下原因导致无法正常访问：&#xD;&#xA;· 贴士频道被大量举报。&#xD;&#xA;· 贴士频道内容不和谐。&#xD;&#xA;· 发行方是头山猪。</Item>
 			<Item Key="MessageBox_Tips_Channel_Locked_Tips">--BakaXL</Item>
 
-			<Item Key="ErrorCan_BakaXL_WindowThread_Title">一个未经处理的BakaXL异常(窗体线程)</Item>
-			<Item Key="ErrorCan_BakaXL_NonWindowThread_Title">一个未经处理的BakaXL异常(非窗体线程)</Item>
-			<Item Key="ErrorCan_BakaXL_Solution">请立即将此错误上报BakaXL开发团队以便尽快修复。</Item>
-
 			<Item Key="Notify_Bakaverse_FriendRequest_Title">新好友申请</Item>
 			<Item Key="Notify_Bakaverse_FriendRequest_Content">用户 &lt;{0}#{1}&gt; 申请添加您为 BakaXL 好友。</Item>
 
@@ -1718,6 +1714,10 @@
 
 			<Item Key="Notify_MinecraftProfile_OnlineFeatures_SkinCape_SkinUploadedFailed_Title">皮肤上传失败</Item>
 			<Item Key="Notify_MinecraftProfile_OnlineFeatures_SkinCape_SkinUploadedFailed_Content">BakaXL 在上传此皮肤时遇到了错误</Item>
+
+			<Item Key="ErrorCan_BakaXL_WindowThread_Title">一个未经处理的BakaXL异常(窗体线程)</Item>
+			<Item Key="ErrorCan_BakaXL_NonWindowThread_Title">一个未经处理的BakaXL异常(非窗体线程)</Item>
+			<Item Key="ErrorCan_BakaXL_Solution">请立即将此错误上报BakaXL开发团队以便尽快修复。</Item>
 
 			<Item Key="ErrorCan_Network_ConnectionTimedOut_Title">远程服务器连接超时。</Item>
 			<Item Key="ErrorCan_Network_ConnectionTimedOut_VanillaList_Solution">BakaXL无法通过BMCLAPI或官方下载源获取最新的迈恩克拉夫特核心列表。&#xD;&#xA;在某些情况下，该问题有可能是因为您的互联网服务提供商(ISP)劫持了您的流量。&#xD;&#xA;请检查您的互联网连接，确保计算机与下载源之间的网络通信是正常的。\r\n\r\n若此问题持续出现，您可以向BakaXL开发团队汇报此问题。</Item>
