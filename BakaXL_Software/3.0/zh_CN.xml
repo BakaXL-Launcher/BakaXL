@@ -1110,7 +1110,7 @@
 			<Item Key="Setting_Network_BakaServiceStatus_Third_Party_CurseForgeApi">CurseForge第三方API:</Item>
 			<Item Key="Setting_Network_BakaServiceStatus_Third_Party_CurseForgeCDN">CurseForge CDN:</Item>
 			<Item Key="Setting_Network_BakaServiceStatus_Third_Party_MCBBS">MCBBS下载源:</Item>
-      
+
 			<Item Key="Setting_Network_MojangServiceStatus_Title">Mojang服务器状态</Item>
 			<Item Key="Setting_Network_MojangServiceStatus_MainServer">Mojang状态服务:</Item>
 			<Item Key="Setting_Network_MojangServiceStatus_MinecraftSite">Minecraft官网</Item>
