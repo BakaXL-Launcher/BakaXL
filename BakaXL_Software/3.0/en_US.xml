@@ -426,7 +426,7 @@
 			<Item Key="Bakaverse_UserInfo_Milestone_Empty">The grass is empty. It seems that there is nothing. &#xA;If you send a friend request to others, then we will build a milestone here. </Item>
 			<Item Key="Bakaverse_UserInfo_Milestone_Visitor">There is a footprint on the grass. Who will it be?&#xA;We will build a milestone here after you accept a friend request. </Item>
 			<Item Key="Bakaverse_UserInfo_Milestone_Wreckage">The milestone was removed. There are only wreckages of the milestone on the grass. &#xA;If you want to clean the wreckages up, you need to remove the other side from your blacklist. </Item>
-			<Item Key="Bakaverse_UserInfo_Milestone_Self">You walked to this place, but there are all milestones around. &#xA;You looked around and didn't see your own milestone, this makes you be full of termination. </Item>
+			<Item Key="Bakaverse_UserInfo_Milestone_Self">You walked to this place, but there are all milestones around. &#xA;You looked around and didn't see your own milestone, it fills you with determination. </Item>
 
 			<Item Key="Bakaverse_UserInfo_Manage">Manage</Item>
 			<Item Key="Bakaverse_UserInfo_Manage_RemoveFriend">Remove Friend</Item>
