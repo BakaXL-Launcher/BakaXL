@@ -92,7 +92,7 @@
 			<Item Key="UserSelector_Launch_Title">Select a Minecraft Profile</Item>
 			<Item Key="UserSelector_Authlib_SelectProfile">Multiple profiles owned by this account, please select a profile</Item>
 			<Item Key="UserSelector_Default_Title">Select a User</Item>
-			<Item Key="UserSelector_AddProfile_Title">添加其他 Minecraft 用户档案</Item>
+			<Item Key="UserSelector_AddProfile_Title">Add Other Minecraft Profile</Item>
 
             <Item Key="UserProfile_ToolTip_Offline">Username:{0} &#xD;&#xA;This user profile will use offline authentication</Item>
 			<Item Key="UserProfile_ToolTip_Online">Username:{0} &#xD;&#xA;This user profile will use official Mojang authentication</Item>
@@ -174,25 +174,25 @@
 			<Item Key="CoreManagement_Info_PlayTime">Play Time</Item>
 			<Item Key="CoreManagement_Info_PlayTime_Text">This core has been run {0} times since {1} was last run.</Item>
 			<Item Key="CoreManagement_Info_PlayTime_NeverPlayed_Text">Unfortunately, this core hasn't been run since its install date.</Item>
-			<Item Key="CoreManagement_Info_PlayTime_Reset">重置统计数据</Item>
+			<Item Key="CoreManagement_Info_PlayTime_Reset">Reset</Item>
 			<Item Key="CoreManagement_Info_Version">Version</Item>
-			<Item Key="CoreManagement_Info_Version_Text">此核心的基础游戏版本为 Minecraft {0}</Item>
-			<Item Key="CoreManagement_Info_Links">参阅</Item>
-			<Item Key="CoreManagement_Info_Links_Tips">若此核心包含了来自核心发布者设置的链接，&#xD;&#xA;BakaXL 会将他们显示在这里。</Item>
-			<Item Key="CoreManagement_Info_Links_HomePage">访问核心主页</Item>
-			<Item Key="CoreManagement_Info_Links_HomePage_Tips">若要访问此核心发布者的主页，请点击此处。&#xD;&#xA;此页面由此核心发布者而非 BakaXL 提供。</Item>
-			<Item Key="CoreManagement_Info_Links_PrivacyPolicy">访问核心隐私政策</Item>
-			<Item Key="CoreManagement_Info_Links_PrivacyPolicy_Tips">若要了解此核心的隐私政策及其如何保护您的个人隐私，请点击此处。&#xD;&#xA;此页面由此核心发布者而非 BakaXL 提供。</Item>
+			<Item Key="CoreManagement_Info_Version_Text">The basic game version of this core is Minecraft {0}</Item>
+			<Item Key="CoreManagement_Info_Links">Refer to</Item>
+			<Item Key="CoreManagement_Info_Links_Tips">If the core includes a link from core publisher, &#xD;&#xA;BakaXL will show them. </Item>
+			<Item Key="CoreManagement_Info_Links_HomePage">Visit Core Homepage</Item>
+			<Item Key="CoreManagement_Info_Links_HomePage_Tips">If you want to visit the homepage of the core publisher, please click here. &#xD;&#xA;This page is provided by core publisher but not BakaXL. </Item>
+			<Item Key="CoreManagement_Info_Links_PrivacyPolicy">Visit the Privacy Policy of This Core</Item>
+			<Item Key="CoreManagement_Info_Links_PrivacyPolicy_Tips">If you want to learn about the privacy policy of this core and how it protect your privacy, please click here. &#xD;&#xA;This page is provided by core publisher but not BakaXL. </Item>
 
 			<Item Key="CoreManagement_Java_Tip">If you want to configure this core manually without affecting other cores, please do it here&#xD;&#xA;Don't change anything if you don't know what you're doing.</Item>
 			
 			<Item Key="CoreManagement_Java_JavaDefaultTip">BakaXL is currently using the globally configured Java settings.</Item>
-			<Item Key="CoreManagement_Java_JavaOverrideTip">您已经为此核心启用了单独的 Java 虚拟机设置。</Item>
-			<Item Key="CoreManagement_Java_JavaOverrideBtn">为此核心启用单独的 Java 虚拟机设定</Item>
+			<Item Key="CoreManagement_Java_JavaOverrideTip">You have enabled a separate Java setting for this core. </Item>
+			<Item Key="CoreManagement_Java_JavaOverrideBtn">Enable a separate Java setting for this core</Item>
 
 			<Item Key="CoreManagement_Java_MemoryDefaultTip">BakaXL is currently using the globally configured memory settings.</Item>
-			<Item Key="CoreManagement_Java_MemoryOverrideTip">您已经为此核心启用了单独的内存设置。</Item>
-			<Item Key="CoreManagement_Java_MemoryOverrideBtn">为此核心启用单独的内存设定</Item>
+			<Item Key="CoreManagement_Java_MemoryOverrideTip">You have enabled a separate memory setting for this core. </Item>
+			<Item Key="CoreManagement_Java_MemoryOverrideBtn">Enable a separate memory setting for this core</Item>
 
 
 			<Item Key="CoreManagement_Mods_Title">Mods</Item>
@@ -230,7 +230,7 @@
 			<Item Key="Core_HaveRun">Played: </Item>
 			<Item Key="Core_InstallTime">Installed on: </Item>
 			<Item Key="Core_NeverRun">Never Launched.</Item>
-			<Item Key="Core_RecentRun">最近运行于</Item>
+			<Item Key="Core_RecentRun">Last launch on: </Item>
 			<Item Key="Core_Default_Description">This core is too lazy to have a description.</Item>
 
 			<Item Key="HomeWelcome">Welcome</Item>
@@ -261,7 +261,7 @@
 			<Item Key="HomeAchievements">Achievements</Item>
 			<Item Key="HomePackTool">BakaXL Mod Pack[\n]Tool</Item>
 			<Item Key="HomePackToolName">Mod Pack Tool</Item>
-			<Item Key="HomeBakaverse">领域/联机大厅</Item>
+			<Item Key="HomeBakaverse">Bakaverse/Lobby</Item>
 
 			<Item Key="BakaXL.Pages.PageHome">BakaXL Home Menu</Item>
 			<Item Key="BakaXL.Pages.PageDownload">Update System</Item>
@@ -270,7 +270,7 @@
 			<Item Key="BakaXL.Pages.PageTips">BakaXL Tips</Item>
 			<Item Key="BakaXL.Pages.PagePlaza">BakaPlaza</Item>
 			<Item Key="BakaXL.Pages.PageAddGameCore">Add A Core</Item>
-			<Item Key="BakaXL.Pages.PageCrashReport">游戏错误追踪器</Item>
+			<Item Key="BakaXL.Pages.PageCrashReport">Game Crash Report</Item>
 
 			<Item Key="Minecraft_AuthMode_Offline">Offline Mode</Item>
 			<Item Key="Minecraft_AuthMode_Online">Authentication Mode (Mojang)</Item>
@@ -304,12 +304,12 @@
 			<Item Key="Traditional">Traditional</Item>
 			<Item Key="Preparing">Preparing</Item>
 			<Item Key="Refresh">Refresh</Item>
-			<Item Key="ReTry">再试一次</Item>
+			<Item Key="ReTry">Retry</Item>
 
-			<Item Key="Unset">尚未设置</Item>
-			<Item Key="NoVersion">无可用版本</Item>
-			<Item Key="InCompatible">不兼容</Item>
-			<Item Key="Unsupport">尚不支持</Item>
+			<Item Key="Unset">Unset</Item>
+			<Item Key="NoVersion">No versions available</Item>
+			<Item Key="InCompatible">Incompatible</Item>
+			<Item Key="Unsupport">Unsupport</Item>
 
 			<Item Key="Standard">Standard</Item>
 			<Item Key="Traditional">Traditional</Item>
@@ -328,13 +328,13 @@
 			<Item Key="BakaXL_Update_Btn_Yes">Update Now</Item>
 			<Item Key="BakaXL_Update_Btn_OrYes">Or Update</Item>
 
-			<Item Key="BakaXL_Update_NeedLogin_Title">登录至 BakaXL Network 以继续更新</Item>
+			<Item Key="BakaXL_Update_NeedLogin_Title">Login to BakaXL Network to update</Item>
 			<Item Key="BakaXL_Update_NeedLogin_Info">若要从当前设置的BakaXL预览体验通道中获取本体更新，则需要您登录至BakaXL Network。&#xD;&#xA;前往 &quot;本体设置 - 账户与档案&quot; 中登录您的BakaXL Account</Item>
 
-			<Item Key="BakaXL_Update_NotInsider_Title">需要成为预览体验计划成员</Item>
+			<Item Key="BakaXL_Update_NotInsider_Title">Need to be a member of Insider Program</Item>
 			<Item Key="BakaXL_Update_NotInsider_Info">诶呀，您当前好像还不是已登记的BakaXL预览体验计划成员呢。&#xD;&#xA;若要更新至此预览体验版本，您的账户需要被登记为BakaXL预览体验计划成员。&#xD;&#xA;&#xD;&#xA;在BakaXL 局外人用户群中参与交流讨论 亦或是通过 &quot;爱发电&quot; 支持BakaXL的开发工作，即可将您的BakaXL账户登记为预览体验计划成员！</Item>
 			<Item Key="BakaXL_Update_NotInsider_Tips">但实际上也有办法可以更新的啦，BakaXL不会做那种事的！</Item>
-			<Item Key="BakaXL_Update_NotInsider_Btn_Afdian">前往 &quot;爱发电&quot; 看看</Item>
+			<Item Key="BakaXL_Update_NotInsider_Btn_Afdian">Go to &quot;Afdian&quot; and take a look</Item>
 
 			<Item Key="LiveBackground_Prepare_Title">Preparing The Background</Item>
 			<Item Key="LiveBackground_Prepare_Tips">It might take a little while</Item>
@@ -343,9 +343,9 @@
 			<Item Key="Guide_Type_Language">Language</Item>
 			<Item Key="Guide_Type_System">System</Item>
 			<Item Key="Guide_Type_Profile">Profile</Item>
-			<Item Key="Guide_Type_Other">其他</Item>
-			<Item Key="Guide_Type_Personalize">个性化</Item>
-			<Item Key="Guide_Type_Accessibility">辅助功能</Item>
+			<Item Key="Guide_Type_Other">Others</Item>
+			<Item Key="Guide_Type_Personalize">Personalize</Item>
+			<Item Key="Guide_Type_Accessibility">Accessibility</Item>
 
 			<Item Key="Guide_Page_Welcome_Subtitle">Welcome to the New BakaXL!</Item>
 			<Item Key="Guide_Page_Welcome_Tips">We need some information before you can start.</Item>
@@ -356,17 +356,17 @@
 
 			<Item Key="Guide_Page_Language_Tips">Please Select Your Language</Item>
 
-            <Item Key="Guide_Page_DisplayMode_Subtitle">主屏幕显示模式</Item>
-			<Item Key="Guide_Page_DisplayMode_Tips">您随时可以在 '本体设置 - 辅助功能' 中修改这些设置</Item>
+            <Item Key="Guide_Page_DisplayMode_Subtitle">Display Mode</Item>
+			<Item Key="Guide_Page_DisplayMode_Tips">You can change it at 'Settings - Accessibility' any time</Item>
 
-			<Item Key="Guide_Page_DisplayMode_Standard_Tips">主屏幕上默认不显示开始菜单与磁贴</Item>
-			<Item Key="Guide_Page_DisplayMode_Traditional_Tips">主屏幕上将始终显示开始菜单与磁贴</Item>		
+			<Item Key="Guide_Page_DisplayMode_Standard_Tips">Do not show tiles by default</Item>
+			<Item Key="Guide_Page_DisplayMode_Traditional_Tips">Always show tiles</Item>		
 
-			<Item Key="Guide_Page_Audio_Subtitle">音乐与音效</Item>
-			<Item Key="Guide_Page_Audio_Tips">在使用部分功能或主题时，BakaXL可播放音乐或音效</Item>
+			<Item Key="Guide_Page_Audio_Subtitle">Music and Sound</Item>
+			<Item Key="Guide_Page_Audio_Tips">When you are using some features or themes, BakaXL can play musics or sounds. </Item>
 
-			<Item Key="Guide_Page_Audio_Off_Tips">BakaXL关闭所有声音输出</Item>
-			<Item Key="Guide_Page_Audio_On_Tips">BakaXL将根据主题和功能播放背景音乐和音效</Item>
+			<Item Key="Guide_Page_Audio_Off_Tips">BakaXL turns off all sound output</Item>
+			<Item Key="Guide_Page_Audio_On_Tips">BakaXL will play background musics and sounds</Item>
 
 			<Item Key="Guide_Page_QuickSet_Subtitle">Quick Setting</Item>
 			<Item Key="Guide_Page_QuickSet_Tips">You can always change these in 'Settings'</Item>
@@ -427,8 +427,8 @@
 			<Item Key="Guide_Page_Finished_Title">Finished!</Item>
 			<Item Key="Guide_Page_Finished_Content">Press the HOME button in the top left corner,&#xD;&#xA;or the HOME key on the keyboard to continue.</Item>
 
-			<Item Key="Guide_Page_Finished_AddGameCore_Title">需要继续安装新的 Minecraft 核心吗？</Item>
-			<Item Key="Guide_Page_Finished_AddGameCore_Tips">点击此处，安装 Minecraft 核心。</Item>
+			<Item Key="Guide_Page_Finished_AddGameCore_Title">Need to install a Minecraft Core?</Item>
+			<Item Key="Guide_Page_Finished_AddGameCore_Tips">Click here and install a Minecraft Core. </Item>
 
 			<Item Key="Bakaverse_Title">&quot;{0}&quot;'s Bakaverse</Item>
 			<Item Key="Bakaverse_Account_Title">Me</Item>
@@ -450,7 +450,7 @@
 
 			<Item Key="Bakaverse_UserInfo_Verification">BakaXL认证: {0}</Item>
 			<Item Key="Bakaverse_UserInfo_VerificationButNoInfo">该账户经过BakaXL认证</Item>
-			<Item Key="Bakaverse_UserInfo_IsInsider">BakaXL 预览体验计划成员</Item>
+			<Item Key="Bakaverse_UserInfo_IsInsider">BakaXL Insider Program Member</Item>
 			<Item Key="Bakaverse_UserInfo_SupporterPlan">BakaXL 赞助者计划: {0}</Item>
 
 			<Item Key="Bakaverse_UserInfo_AlreadyOnline">This friend is online now. &#xD;&#xA;If they are running Minecraft or using some BakaXL features, they will show here. </Item>
@@ -502,7 +502,7 @@
 			<Item Key="Bakaverse_AddFriends_Btn_Tips">Find your friends by using BakaXL online services. </Item>
 			<Item Key="Bakaverse_AddFriends_MinePass_Btn_Title">Add friends by using BakaXL Interlaced Communication</Item>
 
-			<Item Key="Bakaverse_AddFriends_Discovery_Title">发现</Item>
+			<Item Key="Bakaverse_AddFriends_Discovery_Title">Discovery</Item>
 			<Item Key="Bakaverse_AddFriends_Discovery_Tips">随着您不断使用 BakaXL 进行游戏或探索。&#xD;&#xA;BakaXL Network 将会在这里向您推荐一些与您志同道合的用户。</Item>
 			<Item Key="Bakaverse_AddFriends_Discovery_RecentPlayed">由于您最近游玩过 &quot;{0}&quot;。</Item>
 			<Item Key="Bakaverse_AddFriends_Discovery_RecentChangedTema">由于您最近使用过 &quot;{0}&quot; BakaXL 主题。</Item>
@@ -541,20 +541,20 @@
 			<Item Key="Bakaverse_Lobby_LobbyInfo_LobbyID_Title">Lobby ID</Item>
 			<Item Key="Bakaverse_Lobby_LobbyInfo_LobbyHost_Title">Lobby Creator</Item>
 
-			<Item Key="Bakaverse_Lobby_LobbyInfo_LobbyHost_GameStatus_Title">大厅游戏信息</Item>
-			<Item Key="Bakaverse_Lobby_LobbyInfo_LobbyHost_GameStatus_NotInGame">尚未开始游戏</Item>
+			<Item Key="Bakaverse_Lobby_LobbyInfo_LobbyHost_GameStatus_Title">Game Information</Item>
+			<Item Key="Bakaverse_Lobby_LobbyInfo_LobbyHost_GameStatus_NotInGame">Not In Game</Item>
 			<Item Key="Bakaverse_Lobby_LobbyInfo_LobbyHost_GameStatus_NotInGame_Tips">此大厅创建者尚未开始 Minecraft 游戏。&#xD;&#xA;在游戏启动后，版本信息将会同步显示在这里。</Item>
 			
 			<Item Key="Bakaverse_Lobby_LobbyInfo_LobbyHost_GameStatus_InGame_NoVersion_Tips">大厅创建者正在进行 Minecraft 游戏。&#xD;&#xA;您使用同样的 Minecraft 版本才可以加入游戏。&#xD;&#xA;若大厅创建者正在使用整合包，则您应当也使用一致的整合包。</Item>
 			<Item Key="Bakaverse_Lobby_LobbyInfo_LobbyHost_GameStatus_InGame_WithVersion_Tips">游戏中的 Minecraft 版本: {0}。&#xD;&#xA;您使用同样的 Minecraft 版本才可以加入游戏。&#xD;&#xA;若大厅创建者正在使用整合包，则您应当也使用一致的整合包。</Item>
 			
-			<Item Key="Bakaverse_Lobby_LobbyInfo_Network_Title">本地网络环境</Item>
+			<Item Key="Bakaverse_Lobby_LobbyInfo_Network_Title">Local Network</Item>
 			<Item Key="Bakaverse_Lobby_LobbyInfo_LocalNAT_Title">Local NAT Type</Item>
 			<Item Key="Bakaverse_Lobby_LobbyInfo_LocalUPnP_Title">Local UPnP Compatibility</Item>
 
-			<Item Key="Bakaverse_Lobby_LobbyInfo_LocalDiscoveryServerStatus_Title">BakaXL Network 探测服务可用性</Item>
-			<Item Key="Bakaverse_Lobby_LobbyInfo_LocalDiscoveryServerStatus_Connected">可用</Item>
-			<Item Key="Bakaverse_Lobby_LobbyInfo_LocalDiscoveryServerStatus_Failed">不可用</Item>
+			<Item Key="Bakaverse_Lobby_LobbyInfo_LocalDiscoveryServerStatus_Title">BakaXL Network Discovery Usability</Item>
+			<Item Key="Bakaverse_Lobby_LobbyInfo_LocalDiscoveryServerStatus_Connected">Available</Item>
+			<Item Key="Bakaverse_Lobby_LobbyInfo_LocalDiscoveryServerStatus_Failed">Unavailable</Item>
 			<Item Key="Bakaverse_Lobby_LobbyInfo_LocalDiscoveryServerStatus_Tips">BakaXL Network 探测服务确保了您是否可以正常使用&#xD;&#xA;大厅的相关功能，若服务不可用，将无法进行联机。</Item>
 
 			<Item Key="Bakaverse_Lobby_LobbyAction_Title">Lobby Action</Item>
@@ -589,18 +589,18 @@
 			<Item Key="Bakaverse_Lobby_CopyLobbyID_WithHostGameInfo_Template">我正在 BakaXL 的线上游戏大厅里游玩 [{0}]！快在 BakaXL 领域 里输入大厅编号: &lt;{1}&gt; 来加入吧！</Item>
 			<Item Key="Bakaverse_Lobby_CopyLobbyID_WithHostGameInfo_HasBaseVersion_Template">我正在 BakaXL 的线上游戏大厅里游玩 [{0}] (Minecraft {1})！快在 BakaXL 领域 里输入大厅编号: &lt;{2}&gt; 来加入吧！</Item>
 
-			<Item Key="Bakaverse_UserSettings_Title">用户设置</Item>
+			<Item Key="Bakaverse_UserSettings_Title">User Settings</Item>
 			<Item Key="Bakaverse_UserSettings_PersonalInfo">个人信息设置</Item>
 			<Item Key="Bakaverse_UserSettings_PersonalInfo_Status">切换我的在线状态</Item>
 			<Item Key="Bakaverse_UserSettings_PersonalInfo_Avatar">更换头像</Item>
 			<Item Key="Bakaverse_UserSettings_PersonalInfo_AccountSettings">前往 BakaXL Account 账户系统修改设置</Item>
 
-			<Item Key="Bakaverse_UserSettings_Privacy">隐私设置</Item>
+			<Item Key="Bakaverse_UserSettings_Privacy">Privacy Settings</Item>
 
-			<Item Key="Bakaverse_UserSettings_Privacy_SkinShare">BakaXL Network SkinShare 皮肤妙享</Item>
+			<Item Key="Bakaverse_UserSettings_Privacy_SkinShare">BakaXL Network SkinShare</Item>
 			<Item Key="Bakaverse_UserSettings_Privacy_SkinShare_Tips">皮肤妙享功能允许其他同样开启此功能的&#xD;&#xA;BakaXL Network 好友、服务器内玩家或大厅联机参与者&#xD;&#xA;看见您所设置的离线皮肤。&#xD;&#xA;&#xD;&#xA;关闭此功能后，BakaXL 将停止向 BakaXL Network 公开您的皮肤信息，&#xD;&#xA;您也无法看见其他用户设置的皮肤。&#xD;&#xA;此功能仅在使用离线验证模式启动 Minecraft 时生效。</Item>
 
-			<Item Key="Bakaverse_UserSettings_Privacy_GameRecord">允许 BakaXL Network 记录我的游戏状态</Item>
+			<Item Key="Bakaverse_UserSettings_Privacy_GameRecord">Let BakaXL Network record my game state</Item>
 			<Item Key="Bakaverse_UserSettings_Privacy_GameRecord_Tips">是否允许将您的游戏状态 (如游戏名称、版本) 记录至 BakaXL Network 中。&#xD;&#xA;BakaXL Network 服务器会定期清理游戏状态缓存。&#xD;&#xA;游戏状态不会包含您的敏感信息。&#xD;&#xA;&#xD;&#xA;关闭此功能后，BakaXL 将停止向 BakaXL Network 上报您的游戏状态。</Item>
 			<Item Key="Bakaverse_UserSettings_Privacy_GameRecord_Remove">从 BakaXL Network 中删除我的游戏状态缓存</Item>
 
@@ -621,13 +621,13 @@
 			<Item Key="Bakaverse_OnlineStatus_Using_Full">Browsing: {0}</Item>
 			<Item Key="Bakaverse_OnlineStatus_Gaming">Gaming</Item>
 			<Item Key="Bakaverse_OnlineStatus_Gaming_Full">Playing: {0}</Item>
-            <Item Key="Bakaverse_OnlineStatus_Gaming_InServer">正在第三方Minecraft服务器中游玩</Item>
-			<Item Key="Bakaverse_OnlineStatus_Gaming_InLANServer">本地局域网联机开放中</Item>
-			<Item Key="Bakaverse_OnlineStatus_Gaming_InSinglePlayWorld">正在独自探索 Minecraft 世界</Item>
+            <Item Key="Bakaverse_OnlineStatus_Gaming_InServer">Playing in third-party Minecraft server</Item>
+			<Item Key="Bakaverse_OnlineStatus_Gaming_InLANServer">LAN world opening</Item>
+			<Item Key="Bakaverse_OnlineStatus_Gaming_InSinglePlayWorld">界Playing Minecraft alone</Item>
 
-			<Item Key="Bakaverse_OnlineStatus_Gaming_InSinglePlayWorld_Dimension">维度：{0}</Item>
-			<Item Key="Bakaverse_OnlineStatus_Gaming_InSinglePlayWorld_Weather">天气：{0}</Item>
-			<Item Key="Bakaverse_OnlineStatus_Gaming_InSinglePlayWorld_Health">角色：{0}</Item>
+			<Item Key="Bakaverse_OnlineStatus_Gaming_InSinglePlayWorld_Dimension">Dimension: {0}</Item>
+			<Item Key="Bakaverse_OnlineStatus_Gaming_InSinglePlayWorld_Weather">Weather: {0}</Item>
+			<Item Key="Bakaverse_OnlineStatus_Gaming_InSinglePlayWorld_Health">Health: {0}</Item>
 
 			<Item Key="BakaPlaza_FullName">BakaXL BakaPlaza</Item>
 			<Item Key="BakaPlaza_Update">Update</Item>
@@ -654,16 +654,16 @@
 			<Item Key="BakaPlaza_MinecraftInstaller_Category_Fabric_Desc">A new Mod API</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Category_Optifine_Desc">Optifine</Item>
 
-            <Item Key="BakaPlaza_MinecraftInstaller_Core_Status_Release">正式版</Item>
-			<Item Key="BakaPlaza_MinecraftInstaller_Core_Status_Snapshot">快照版</Item>
-			<Item Key="BakaPlaza_MinecraftInstaller_Core_Status_Special">特别版</Item>
-			<Item Key="BakaPlaza_MinecraftInstaller_Core_Status_Stable">稳定版</Item>
-			<Item Key="BakaPlaza_MinecraftInstaller_Core_Status_Unstable">不稳定</Item>
-			<Item Key="BakaPlaza_MinecraftInstaller_Core_Status_Beta">测试版</Item>
-			<Item Key="BakaPlaza_MinecraftInstaller_Core_Status_Recommend">推荐版</Item>
+            <Item Key="BakaPlaza_MinecraftInstaller_Core_Status_Release">Release</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Core_Status_Snapshot">Snapshot</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Core_Status_Special">Special</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Core_Status_Stable">Stable</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Core_Status_Unstable">Unstable</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Core_Status_Beta">Beta</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Core_Status_Recommend">Recommend</Item>
 
-			<Item Key="BakaPlaza_MinecraftInstaller_Core_Optifine_InstallMethod_NewCore">以 创建新核心 的形式安装</Item>
-			<Item Key="BakaPlaza_MinecraftInstaller_Core_Optifine_InstallMethod_AsMod">以 模组 的形式安装</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Core_Optifine_InstallMethod_NewCore">Install as a new core</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Core_Optifine_InstallMethod_AsMod">Install as a Mod</Item>
 
 			<Item Key="BakaPlaza_MinecraftInstaller_Version">Version</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Category_Select">Select...</Item>
@@ -683,7 +683,7 @@
 
 			<Item Key="BakaPlaza_MinecraftInstaller_CoreDesc_Default">Downloaded from BakaPlaza - Vanilla Minecraft {0} </Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_CoreDesc_Forge">Downloaded from BakaPlaza - Minecraft {1} with Forge {0} </Item>
-			<Item Key="BakaPlaza_MinecraftInstaller_CoreDesc_Optifine">通过 BakaXL 下载的 - 带有 Optifine {0} 的 Minecraft {1} 核心</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_CoreDesc_Optifine">Downloaded from BakaPlaza - Minecraft {1} with OptiFine {0}</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_CoreDesc_Fabric">Downloaded from BakaPlaza - Minecraft {1} with Fabric {0} </Item>
 
 			<Item Key="BakaPlaza_MinecraftInstaller_Steps_Prepare">Preparing</Item>
