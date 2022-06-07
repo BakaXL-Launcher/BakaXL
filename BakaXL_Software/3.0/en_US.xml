@@ -754,7 +754,7 @@
 			
 			<Item Key="BakaPlaza_ItemDetail_ReleaseDate">Release Date</Item>		
 			<Item Key="BakaPlaza_ItemDetail_DownloadCount">Downloads</Item>
-			<Item Key="BakaPlaza_ItemDetail_DownloadCount_Unit">times</Item>
+			<Item Key="BakaPlaza_ItemDetail_DownloadCount_Unit">Times</Item>
 			<Item Key="BakaPlaza_ItemDetail_LastUpdate">Last Update</Item>
 			
 			<Item Key="BakaPlaza_ItemDetail_ButtonText_Get">Get</Item>
@@ -891,7 +891,7 @@
 			<Item Key="BakaPlaza_Item_Dependencie_Incompatible">Incompatible</Item>
 			<Item Key="BakaPlaza_Item_Dependencie_Included">Included</Item>
 			
-			<Item Key="BakaPlaza_Item_PlazaType_Tema">BakaXL Themes/Item>
+			<Item Key="BakaPlaza_Item_PlazaType_Tema">BakaXL Themes</Item>
 
 			<Item Key="BakaPlaza_Item_Types_Addons">Bedrock Addons or Java Data Packs</Item>
 			<Item Key="BakaPlaza_Item_Types_Customization">ShaderPacks and Personalization</Item>
@@ -1013,7 +1013,7 @@
 			<Item Key="Tips_Subscribed">Subscribed</Item>
 			<Item Key="Tips_Official">Official</Item>
 			<Item Key="Tips_New">New</Item>
-			<Item Key="Tips_Locked"Locked</Item>
+			<Item Key="Tips_Locked">Locked</Item>
 			<Item Key="Tips_Refresh">Refresh</Item>
 			<Item Key="Tips_Search">Search</Item>
 			<Item Key="Tips_ChannelList">Channel List</Item>
@@ -1530,7 +1530,7 @@
 			<Item Key="Setting_Personalize_Background_Parallax_Mode_3D">多维（实验版）</Item>
 			<Item Key="Setting_Personalize_Background_Parallax_Tips">让背景图片跟随鼠标移动，营造视差效果。&#xD;打开此功能时，BakaXL将会稍许放大当前背景图片。&#xD;&#xD;使用实况背景或者默认背景时，无法使用此功能。</Item>
 
-			<Item Key="Setting_Personalize_Color"Color</Item>
+			<Item Key="Setting_Personalize_Color">Color</Item>
 			<Item Key="Setting_Personalize_Color_Title">BakaXL Color Scheme</Item>
 			<Item Key="Setting_Personalize_Color_Selector">Select a color scheme</Item>
 			<Item Key="Setting_Personalize_Color_NightMode">Invert color scheme</Item>
