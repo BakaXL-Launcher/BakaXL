@@ -777,7 +777,7 @@
 			
 			<Item Key="BakaPlaza_ItemDetail_Source_Plaza">此资源来自 BakaXL 笨蛋广场，由用户向 BakaXL 笨蛋广场开放平台进行投递。</Item>
 			<Item Key="BakaPlaza_ItemDetail_Source_CurseForge">此资源来自 CurseForge，BakaXL 笨蛋广场通过由 CurseForge 授权的 API 接口进行访问。</Item>
-			<Item Key="BakaPlaza_ItemDetail_Source_Modrinth">此资源来自 Modrinth，BakaXL 笨蛋广场通过由 Modrinth 的公共 API 接口进行访问。</Item>
+			<Item Key="BakaPlaza_ItemDetail_Source_Modrinth">此资源来自 Modrinth，BakaXL 笨蛋广场通过由 Modrinth 提供的公共 API 接口进行访问。</Item>
 			<Item Key="BakaPlaza_ItemDetail_Source_MCMod">感谢 MC百科 (mcmod.cn) 的贡献者们为此资源提供了中文本地化信息，这些信息均通过 CC 协议 (BY-NC-SA 3.0) 进行共享。</Item>
 
 			<Item Key="BakaPlaza_ItemDetail_Privacy_AutoGenerateTips">{0} 可能并不适用于 BakaXL 的隐私政策。&#xD;&#xA;在使用此资源前，请参阅此资源发布者的隐私政策以了解其如何保护您的数据。</Item>
