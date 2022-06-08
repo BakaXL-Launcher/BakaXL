@@ -103,6 +103,10 @@
 			<Item Key="HomeIdentifier_Screen_Home">Home</Item>
 			<Item Key="HomeIdentifier_Screen_Menu">Start Menu</Item>
 
+			<Item Key="TaskList_Title">Notifications Center</Item>
+			<Item Key="TaskList_NoTaskTips">No tasks or notifications are in progress. </Item>
+			<Item Key="TaskList_HasTasks"> {0} tasks in progress</Item>
+
 			<Item Key="CoreSelector_Title">Minecraft Cores</Item>
 			<Item Key="CoreSelector_SelectCore_Title">Select a Core</Item>
 			<Item Key="CoreSelector_DisplayMode">Display: </Item>
@@ -136,6 +140,8 @@
 			<Item Key="CoreSelector_CoreProtocolMismatch_Tooltip">This core is created by HMCL, which includes parameters cannot read by Minecraft Official Launcher. &#xD;&#xA;BakaXL can still try to launch the core, but some features / Mod loading / game experience may not run as expected. </Item>
 
             <Item Key="CoreSelector_GetCore_Title">Add a new Minecraft Core or Mod Pack</Item>
+			<Item Key="CoreSelector_CancelSelection_Title">Cancel</Item>
+			<Item Key="CoreSelector_ConfirmSelection_Title">Confirm</Item>
 			
 			<Item Key="CoreManagement_Title">Advanced Core Management</Item>
 			<Item Key="CoreManagement_Publisher">Publisher: {0}</Item>
@@ -202,7 +208,8 @@
 			
 			<Item Key="CoreManagement_Mods_ModLoader_Scanning">Scanning the core for a mod API</Item>
 			<Item Key="CoreManagement_Mods_ModLoader_Forge">This core has Minecraft Forge installed, version{0}</Item>
-			<Item Key="CoreManagement_Mods_ModLoader_Fabric">This core has Fabric Loader/API installed, version{0}</Item>
+			<Item Key="CoreManagement_Mods_ModLoader_Fabric">This core has Fabric Loader installed, version{0}</Item>
+			<Item Key="CoreManagement_Mods_ModLoader_Quilt">This core has Quilt Loader installed, version{0}</Item>
 			<Item Key="CoreManagement_Mods_ModLoader_Liteloader">This core has Liteloader installed, version{0}</Item>
             <Item Key="CoreManagement_Mods_ModLoader_Optifine">This core has Optifine HD installed.</Item>
 
@@ -305,6 +312,7 @@
 			<Item Key="Preparing">Preparing</Item>
 			<Item Key="Refresh">Refresh</Item>
 			<Item Key="ReTry">Retry</Item>
+			<Item Key="Unknown">Unknown</Item>
 
 			<Item Key="Unset">Unset</Item>
 			<Item Key="NoVersion">No versions available</Item>
@@ -320,6 +328,25 @@
 			<Item Key="Small">Small </Item>
 			<Item Key="Default">Default </Item>
 			<Item Key="Custom">Custom </Item>
+
+			<Item Key="Collapse">Collapse</Item>
+			
+			<Item Key="Mod">Mod</Item>
+			<Item Key="Mods">Mods</Item>
+			<Item Key="Map">Map</Item>
+			<Item Key="Maps">Maps</Item>
+			<Item Key="Modpack">ModPack</Item>
+			<Item Key="ModPacks">ModPacks</Item>
+			<Item Key="ResourcePacks">ResourcePacks</Item>
+			<Item Key="ShadowPacks">ShadowPacks</Item>
+			<Item Key="BakaXLTema">BakaXL Themes</Item>
+			<Item Key="BakaXLPlugin">BakaXL Plugins</Item>
+			
+			<Item Key="AllCategory">All</Item>
+			<Item Key="AllType">All</Item>
+			<Item Key="AllPlazaSource">All</Item>
+			<Item Key="AllVersion">All</Item>		
+			<Item Key="AllModLoaderType">All</Item>
 
 			<Item Key="Error_CodeIs">Error Code is {0} if Needed.</Item>
 
@@ -552,6 +579,14 @@
 			<Item Key="Bakaverse_Lobby_LobbyInfo_LocalNAT_Title">Local NAT Type</Item>
 			<Item Key="Bakaverse_Lobby_LobbyInfo_LocalUPnP_Title">Local UPnP Compatibility</Item>
 
+			<Item Key="Bakaverse_Lobby_LobbyInfo_LocalIPv6_Title">IP Version</Item>
+			<Item Key="Bakaverse_Lobby_LobbyInfo_LocalIPv6_Checking">Checking</Item>
+			<Item Key="Bakaverse_Lobby_LobbyInfo_LocalIPv6_Checking_Tips">BakaXL will automatically choose connection&#xD;&#xA;way according to your network environment. </Item>
+			<Item Key="Bakaverse_Lobby_LobbyInfo_LocalIPv6_Support">IPv6 First</Item>
+			<Item Key="Bakaverse_Lobby_LobbyInfo_LocalIPv6_Support_Tips">Your network environment supports IPv6, BakaXL will#xD;&#xA;try to establish a faster connection by IPv6. </Item>
+			<Item Key="Bakaverse_Lobby_LobbyInfo_LocalIPv6_UnSupport">IPv4 Only</Item>
+			<Item Key="Bakaverse_Lobby_LobbyInfo_LocalIPv6_UnSupport_Tips">Your network environment only supports IPv4, but don't worry&#xD;&#xA;BakaXL will connect by IPv4. </Item>
+
 			<Item Key="Bakaverse_Lobby_LobbyInfo_LocalDiscoveryServerStatus_Title">BakaXL Network Discovery Usability</Item>
 			<Item Key="Bakaverse_Lobby_LobbyInfo_LocalDiscoveryServerStatus_Connected">Available</Item>
 			<Item Key="Bakaverse_Lobby_LobbyInfo_LocalDiscoveryServerStatus_Failed">Unavailable</Item>
@@ -580,14 +615,15 @@
 			<Item Key="Bakaverse_Lobby_UserStatus_WaitingRelay">Joined / Waiting for Relay</Item>
 			<Item Key="Bakaverse_Lobby_UserStatus_LeaveMinecraft">Joined / Game Disconnected</Item>
 			<Item Key="Bakaverse_Lobby_UserStatus_ConnectionEstablished">Joined / Connected</Item>
+			<Item Key="Bakaverse_Lobby_UserStatus_IPv6ConnectionEstablished">Joined / IPv6 Connected</Item>
 			<Item Key="Bakaverse_Lobby_UserStatus_RelayConnectionEstablished">Joined / Connected with Relay</Item>
 			<Item Key="Bakaverse_Lobby_UserStatus_NATRestrict">Failed / NAT Strict</Item>
-			<Item Key="Bakaverse_Lobby_UserStatus_FirewallReject">Failed / Firewall</Item>
+			<Item Key="Bakaverse_Lobby_UserStatus_FirewallReject">Failed / NAT Firewall Rejected</Item>
 			<Item Key="Bakaverse_Lobby_UserStatus_Unknown">Failed / Unknown</Item>
 
 			<Item Key="Bakaverse_Lobby_CopyLobbyID_Template">I'm now at BakaXL Online Game Lobby! Enter the lobby code: &lt;{0}&gt; in Bakaverse to join! </Item>
 			<Item Key="Bakaverse_Lobby_CopyLobbyID_WithHostGameInfo_Template">我正在 BakaXL 的线上游戏大厅里游玩 [{0}]！快在 BakaXL 领域 里输入大厅编号: &lt;{1}&gt; 来加入吧！</Item>
-			<Item Key="Bakaverse_Lobby_CopyLobbyID_WithHostGameInfo_HasBaseVersion_Template">我正在 BakaXL 的线上游戏大厅里游玩 [{0}] (Minecraft {1})！快在 BakaXL 领域 里输入大厅编号: &lt;{2}&gt; 来加入吧！</Item>
+			<Item Key="Bakaverse_Lobby_CopyLobbyID_WithHostGameInfo_HasBaseVersion_Template">I'm now at BakaXL Online Game Lobby playing [{0}] (Minecraft {1})！Enter the lobby code: &lt;{2}&gt; in Bakaverse to join!</Item>
 
 			<Item Key="Bakaverse_UserSettings_Title">User Settings</Item>
 			<Item Key="Bakaverse_UserSettings_PersonalInfo">个人信息设置</Item>
@@ -636,6 +672,9 @@
 
 			<Item Key="BakaPlaza_Category_Subtitle">Category</Item>
 
+			<Item Key="BakaPlaza_AutoTile_Loading_Title">Wait a moment…</Item>
+			<Item Key="BakaPlaza_AutoTile_Loading_Tips">Collectng electric wave from Atmosphere! </Item>
+
 			<Item Key="BakaPlaza_MinecraftInstaller_Title">Download</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Subtitle">Minecraft Cores</Item>
 
@@ -649,10 +688,11 @@
 			<Item Key="BakaPlaza_MinecraftInstaller_Category_Vanilla_Special">Special</Item>
 
 			<Item Key="BakaPlaza_MinecraftInstaller_Category_Vanilla_Desc">Minecraft</Item>
-			<Item Key="BakaPlaza_MinecraftInstaller_Category_Forge_Desc">Universal API</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Category_Forge_Desc">Hotest API</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Category_Liteloader_Desc">Light weight API</Item>
-			<Item Key="BakaPlaza_MinecraftInstaller_Category_Fabric_Desc">A new Mod API</Item>
-			<Item Key="BakaPlaza_MinecraftInstaller_Category_Optifine_Desc">Optifine</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Category_Fabric_Desc">A new Open-source API</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Category_Quilt_Desc">Modularization API</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Category_Optifine_Desc">OptiFine</Item>
 
             <Item Key="BakaPlaza_MinecraftInstaller_Core_Status_Release">Release</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Core_Status_Snapshot">Snapshot</Item>
@@ -660,6 +700,7 @@
 			<Item Key="BakaPlaza_MinecraftInstaller_Core_Status_Stable">Stable</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Core_Status_Unstable">Unstable</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Core_Status_Beta">Beta</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Core_Status_Alpha">Alpha</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Core_Status_Recommend">Recommend</Item>
 
 			<Item Key="BakaPlaza_MinecraftInstaller_Core_Optifine_InstallMethod_NewCore">Install as a new core</Item>
@@ -684,13 +725,14 @@
 			<Item Key="BakaPlaza_MinecraftInstaller_CoreDesc_Default">Downloaded from BakaPlaza - Vanilla Minecraft {0} </Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_CoreDesc_Forge">Downloaded from BakaPlaza - Minecraft {1} with Forge {0} </Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_CoreDesc_Optifine">Downloaded from BakaPlaza - Minecraft {1} with OptiFine {0}</Item>
-			<Item Key="BakaPlaza_MinecraftInstaller_CoreDesc_Fabric">Downloaded from BakaPlaza - Minecraft {1} with Fabric {0} </Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_CoreDesc_Fabric">Downloaded from BakaPlaza - Minecraft {1} with Fabric {0}</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_CoreDesc_Quilt">Downloaded from BakaPlaza - Minecraft {1} with Quilt {0}</Item>
 
 			<Item Key="BakaPlaza_MinecraftInstaller_Steps_Prepare">Preparing</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Steps_Successful">Success</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Steps_Downloading">Downloading</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Steps_DownloadingSuccessful">Download completed</Item>
-			<Item Key="BakaPlaza_MinecraftInstaller_Steps_CheckCoreEnv">检查当前核心环境</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Steps_CheckCoreEnv">Checking Environment</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Steps_UnZip">Unzip files needed</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Steps_ReadJson">Analyzing Json file</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Steps_CreateVersionFolder">Create directory for the version</Item>
@@ -698,14 +740,265 @@
 			<Item Key="BakaPlaza_MinecraftInstaller_Steps_WriteJson">Write Json information</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Steps_GenBakaCoreConfig">Generate configuration files</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Steps_CopyForgeFile">Copy Forge files</Item>
-			<Item Key="BakaPlaza_MinecraftInstaller_Steps_PrepareProcessor">初始化Forge文件处理器</Item>
-			<Item Key="BakaPlaza_MinecraftInstaller_Steps_GenerateForgeFile">生成Forge文件</Item>
-			<Item Key="BakaPlaza_MinecraftInstaller_Steps_GenerateOptifineFile">生成 Optifine 文件</Item>
-			<Item Key="BakaPlaza_MinecraftInstaller_Steps_CopyOptifineFile">复制 Optifine 文件</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Steps_PrepareProcessor">Preparing Forge File Processor</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Steps_GenerateForgeFile">Generating Forge Files</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Steps_GenerateOptifineFile">Generating OptiFine Files</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Steps_CopyOptifineFile">Copying Optifine Files</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Steps_PrepareVanilla">Prepare Vanilla Minecraft</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Steps_CopyVanilla">Copy Vanilla Minecraft core</Item>
-			<Item Key="BakaPlaza_MinecraftInstaller_Steps_CleanUp">准备结束安装</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Steps_CleanUp">Preparing to finish</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Steps_InstallSuccessful">Install completed</Item>
+
+			<Item Key="BakaPlaza_ItemDetail_Author">Created by {0}</Item>
+			<Item Key="BakaPlaza_ItemDetail_Author_Unknown">Unknown Author</Item>
+			
+			<Item Key="BakaPlaza_ItemDetail_ReleaseDate">Release Date</Item>		
+			<Item Key="BakaPlaza_ItemDetail_DownloadCount">Downloads</Item>
+			<Item Key="BakaPlaza_ItemDetail_DownloadCount_Unit">Times</Item>
+			<Item Key="BakaPlaza_ItemDetail_LastUpdate">Last Update</Item>
+			
+			<Item Key="BakaPlaza_ItemDetail_ButtonText_Get">Get</Item>
+			<Item Key="BakaPlaza_ItemDetail_ButtonText_Download">Download</Item>
+			<Item Key="BakaPlaza_ItemDetail_ButtonText_View">View</Item>
+			
+			<Item Key="BakaPlaza_ItemDetail_Favorite_Add">Add to Favorite List</Item>
+			<Item Key="BakaPlaza_ItemDetail_Favorite_Remove">Remove from Favorite List</Item>
+			
+			<Item Key="BakaPlaza_ItemDetail_Sections_Preview">Preview</Item>
+			<Item Key="BakaPlaza_ItemDetail_Sections_Description">Description</Item>
+			<Item Key="BakaPlaza_ItemDetail_Sections_Compatibility">Compatibility</Item>
+			<Item Key="BakaPlaza_ItemDetail_Sections_Source">Source</Item>
+			<Item Key="BakaPlaza_ItemDetail_Sections_CopyrightAndPrivacy">Copyright and Privacy</Item>
+			
+			<Item Key="BakaPlaza_ItemDetail_ReportItem">Report this to BakaXL</Item>
+
+			<Item Key="BakaPlaza_ItemDetail_Compatible_VersionWithCounts">This resource is compatiable with {1} version(s) including {0}. </Item>
+			<Item Key="BakaPlaza_ItemDetail_Compatible_WithSomething">This resource is compatiable with {0}. </Item>
+			
+			<Item Key="BakaPlaza_ItemDetail_Source_Plaza">This resource is from BakaXL BakaPlaza, delivered to BakaXL BakaPlaza Open Platform by users. </Item>
+			<Item Key="BakaPlaza_ItemDetail_Source_CurseForge">This resource is from CurseForge, BakaXL BakaPlaza visits it by API interface authorized by CurseForge. </Item>
+			<Item Key="BakaPlaza_ItemDetail_Source_Modrinth">This resource is from Modrinth, BakaXL BakaPlaza visits it by public API interface provided by Modrinth. </Item>
+			<Item Key="BakaPlaza_ItemDetail_Source_MCMod">Thanks to contributors at mcmod.cn for providing Chinese localization information for this resource, these information are shared with CC (BY-NC-SA 3.0). </Item>
+
+			<Item Key="BakaPlaza_ItemDetail_Privacy_AutoGenerateTips">{0} may not be applicable to BakaXL's Privacy Policy. &#xD;&#xA;Before using this resource, please visit the publisher's Privacy Policy to learn about how it protect your data. </Item>
+
+			<Item Key="BakaPlaza_ItemDetail_Copyright_AutoGenerateTips">The Copyright information is generated by BakaXL automatically, contents not from the author may be contained in the resource. &#xD;&#xA;This information may not be accurate, please visit the original publish website to learn about the Copyright. </Item>
+			<Item Key="BakaPlaza_ItemDetail_Copyright_AuthorIdentifyTips">此资源的著作权信息由创作者声明。&#xD;&#xA;若要了解更多与此资源著作权的有关信息，请参阅与资源创作者联系。</Item>
+
+			<Item Key="BakaPlaza_ItemDetail_Copyright_AutoGenerateEnd">All right reserved by the original author. </Item>
+			
+			<Item Key="BakaPlaza_ItemDetail_Copyright_Tips">BakaXL 展现的资源来自用户提交以及自动化的数据收集，若您认为此资源侵犯了您的著作权，请联系我们。</Item>
+
+			<Item Key="BakaPlaza_ItemDetail_CurseForge_ReleaseType_Release">Release</Item>
+			<Item Key="BakaPlaza_ItemDetail_CurseForge_ReleaseType_Beta">Beta</Item>
+			<Item Key="BakaPlaza_ItemDetail_CurseForge_ReleaseType_Alpha">Alpha</Item>
+
+			<Item Key="BakaPlaza_ItemDetail_Link_websiteUrl">Visit Website</Item>
+			<Item Key="BakaPlaza_ItemDetail_Link_wikiUrl">Visit Wiki</Item>
+			<Item Key="BakaPlaza_ItemDetail_Link_issuesUrl">Report Issues to author</Item>
+			<Item Key="BakaPlaza_ItemDetail_Link_sourceUrl">Visit the Mainpage of the Open-source Project</Item>
+			<Item Key="BakaPlaza_ItemDetail_Link_mcmodUrl">Visit MCMod for this resource's information (Chinese)</Item>
+			<Item Key="BakaPlaza_ItemDetail_Link_mcbbsUrl">Visit MCBBS for this resource's information (Chinese)</Item>
+			
+			<Item Key="BakaPlaza_ItemDetail_Loading_Title">Loading</Item>
+			<Item Key="BakaPlaza_ItemDetail_Loading_SubTitle">Please wait a moment, I promise it will be done in a minute</Item>
+			
+			<Item Key="BakaPlaza_ItemDetail_LoadFailed_Title">Huh? This is a little tricky. </Item>
+			<Item Key="BakaPlaza_ItemDetail_LoadFailed_SubTitle">Please check your Internet connection, then try again. </Item>
+			<Item Key="BakaPlaza_ItemDetail_LoadFailed_Tips">Of course, current BakaXL may not support the resource. </Item>
+
+			<Item Key="BakaPlaza_ItemVersionList_DownloadCount">Downloaded {0} Times</Item>
+			<Item Key="BakaPlaza_ItemVersionList_ModloaderName">Compatible with {0}</Item>
+			<Item Key="BakaPlaza_ItemVersionList_Version">Version {0}</Item>
+			<Item Key="BakaPlaza_ItemVersionList_Filter_Watermark">Select One...</Item>
+			<Item Key="BakaPlaza_ItemVersionList_Filter_All">All</Item>
+			
+			<Item Key="BakaPlaza_ItemVersionList_Dependencies_CurrentVersion_NotSelected">Dependency information will be showed here after selecting a version. </Item>
+			<Item Key="BakaPlaza_ItemVersionList_Dependencies_CurrentVersion">Version Selected: {0}. </Item>
+			
+			<Item Key="BakaPlaza_ItemVersionList_Dependencies_Btn_View">Visit the {0} dependencies needed for this version</Item>
+			<Item Key="BakaPlaza_ItemVersionList_Dependencies_Btn_None">无No dependencies needed</Item>
+			
+			<Item Key="BakaPlaza_ItemVersionList_Dependencies_Has">Depended with other {0} resources. </Item>
+			<Item Key="BakaPlaza_ItemVersionList_Dependencies_Has_MoreInfoBtn">Learn More</Item>
+			<Item Key="BakaPlaza_ItemVersionList_Dependencies_None">Not depended with other resources. </Item>
+
+			<Item Key="BakaPlaza_ItemVersionList_UnableDownload">The author does not allow third-party Apps to download directly</Item>
+			
+			<Item Key="BakaPlaza_ItemVersionList_Download">Download</Item>
+			
+			<Item Key="BakaPlaza_ItemVersionList_SaveAs">Save As...</Item>
+			<Item Key="BakaPlaza_ItemVersionList_SaveAs_DiagTitle">Save the resource to...</Item>
+			<Item Key="BakaPlaza_ItemVersionList_SaveAs_DiagFilter">All Resource Type (*.*)|*.*</Item>
+
+			<Item Key="BakaPlaza_ItemVersionList_Download_Task_Title">Downloading {0} from BakaPlaza</Item>
+			<Item Key="BakaPlaza_ItemVersionList_Download_Task_Desc">BakaXL is downloading {0} to local</Item>
+			
+			<Item Key="BakaPlaza_ItemVersionList_Loading_Title">Loading Versions</Item>
+			<Item Key="BakaPlaza_ItemVersionList_Loading_SubTitle">It's not we don't want to hurry up, but it gave too much. </Item>
+			
+			<Item Key="BakaPlaza_ItemVersionList_LoadFailed_Title">Hey, what are you finding? </Item>
+			<Item Key="BakaPlaza_ItemVersionList_LoadFailed_SubTitle">It seems that no conforming results, we're sad too</Item>
+			<Item Key="BakaPlaza_ItemVersionList_LoadFailed_Tips">Check your filters, or maybe there is really no results. </Item>
+
+			<Item Key="BakaPlaza_ItemCollection_Dependencies_Summary">For resource &quot;{0}&quot; </Item>
+			<Item Key="BakaPlaza_ItemCollection_Dependencies_Title">List of Predependent Mods</Item>
+			<Item Key="BakaPlaza_ItemCollection_Dependencies_Explain">You are now visiting list of predependent Mods for &quot;{0}&quot;. &#xD;According to the author's definition, BakaXL has made a list of these dependency resources. &#xD;Resources marked as &quot;Must to Install&quot; must be installed! Otherwise, some weird problems may appeared...&#xA; &#xA;|[Color:Accent]Not all the dependencies support the main resource's Minecraft version|&#xA;|[Color:Accent]Make sure you have checked the compatiable Minecraft version before installing!! |&#xA; &#xA;If Minecraft fail to start up because you didn't install all the dependencies, BakaXL will be very sad. You must not want BakaXL to be sad, right? </Item>
+			
+			<Item Key="BakaPlaza_ItemCollection_NotInit_Summary">This page turned into a teapot and refused to load content</Item>
+			<Item Key="BakaPlaza_ItemCollection_NotInit_Title">HTTP/418 I'm a Teapot</Item>
+			<Item Key="BakaPlaza_ItemCollection_NotInit_Explain">There seems to be something wrong, self-awareness is prudoced when the page is loading. &#xD;And it thinks it is a teapot. &#xD;You can leave this damn place, find a true coffee pot, then let developers of BakaXL solve this problem. &#xD;&#xA; &#xD;&#xA;Hypertext Coffee Pot Control Protocol(HTCPCP/1.0): RFC 2324, section 2.3.2: 418 I'm a teapot</Item>
+			
+			<Item Key="BakaPlaza_ItemCollection_Source_Plaza">This list is from BakaXL BakaPlaza</Item>
+			<Item Key="BakaPlaza_ItemCollection_Source_ThirdParty">This list is from a third-party provider</Item>
+			<Item Key="BakaPlaza_ItemCollection_Source_ThirdParty_WithName">This list is from a third-party provider called &quot;{0}&quot;</Item>
+			
+			<Item Key="BakaPlaza_ItemList_Filter">Filters</Item>
+			<Item Key="BakaPlaza_ItemList_Filter_Source">Source</Item>
+			<Item Key="BakaPlaza_ItemList_Filter_Type">Type</Item>
+			<Item Key="BakaPlaza_ItemList_Filter_Category">Category</Item>
+			<Item Key="BakaPlaza_ItemList_Filter_Version">Version</Item>
+			<Item Key="BakaPlaza_ItemList_Filter_Modloader">Mod Loader</Item>
+			
+			<Item Key="BakaPlaza_ItemList_SearchFrom_AllSource">Search in All Sources</Item>
+			<Item Key="BakaPlaza_ItemList_SearchFrom_PlazaOnly">Search in BakaXL BakaPlaza</Item>
+			<Item Key="BakaPlaza_ItemList_SearchFrom_CurseForgeOnly">Search in CurseForge</Item>
+			<Item Key="BakaPlaza_ItemList_SearchFrom_ModrinthOnly">Search in Modrinth</Item>
+
+			<Item Key="BakaPlaza_ItemList_PresetList_BakaTema_Title">Browse all BakaXL Themes</Item>
+			<Item Key="BakaPlaza_ItemList_PresetList_BakaTema_SubTitle">Personalize your BakaXL by using Themes! </Item>
+
+			<Item Key="BakaPlaza_ItemList_PresetList_CurseForge_Hottest_24hr_Title">Hotest Resources in Recent 24H</Item>
+			<Item Key="BakaPlaza_ItemList_PresetList_CurseForge_Hottest_24hr_SubTitle">CurseForge Ranking</Item>
+			
+			<Item Key="BakaPlaza_ItemList_PresetList_CurseForge_Featured_ModPacks">ModPacks Popular now</Item>
+			<Item Key="BakaPlaza_ItemList_PresetList_CurseForge_Featured_ModPacks_SubTitle">Ranking from CurseForge</Item>
+			
+			<Item Key="BakaPlaza_ItemList_SearchResult_WithKeyWord">Search results of &quot;{0}&quot; </Item>
+			<Item Key="BakaPlaza_ItemList_SearchResult">Search Results</Item>
+			
+			<Item Key="BakaPlaza_ItemList_Searching_Title">Getting Results</Item>
+			<Item Key="BakaPlaza_ItemList_Searching_SubTitle">Wait a moment, Soon™</Item>
+			
+			<Item Key="BakaPlaza_ItemList_SearchingFailed_Title">Failed</Item>
+			<Item Key="BakaPlaza_ItemList_SearchingFailed_SubTitle">Nothing finded, please try again! </Item>
+			<Item Key="BakaPlaza_ItemList_SearchingFailed_Tips">Maybe you made an error. </Item>
+			
+			<Item Key="BakaPlaza_Item_Dependencie_MustInstall">Must be Installed</Item>
+			<Item Key="BakaPlaza_Item_Dependencie_OptionalInstall">Optional</Item>
+			<Item Key="BakaPlaza_Item_Dependencie_Libraries">Libraries</Item>
+			<Item Key="BakaPlaza_Item_Dependencie_Tools">Tools and Extensions</Item>
+			<Item Key="BakaPlaza_Item_Dependencie_Incompatible">Incompatible</Item>
+			<Item Key="BakaPlaza_Item_Dependencie_Included">Included</Item>
+			
+			<Item Key="BakaPlaza_Item_PlazaType_Tema">BakaXL Themes</Item>
+
+			<Item Key="BakaPlaza_Item_Types_Addons">Bedrock Addons or Java Data Packs</Item>
+			<Item Key="BakaPlaza_Item_Types_Customization">ShaderPacks and Personalization</Item>
+			<Item Key="BakaPlaza_Item_Types_Modpacks">ModPacks</Item>
+			<Item Key="BakaPlaza_Item_Types_Mods">Mods</Item>
+			<Item Key="BakaPlaza_Item_Types_Resource_Packs">Resource Packs</Item>
+			<Item Key="BakaPlaza_Item_Types_Worlds">Maps</Item>
+
+			<Item Key="BakaPlaza_Item_Tags_World_Gen">World Generating</Item>
+			<Item Key="BakaPlaza_Item_Tags_Biomes">Biomes</Item>
+			<Item Key="BakaPlaza_Item_Tags_Ores_and_Resources">Ores and Resources</Item>
+			<Item Key="BakaPlaza_Item_Tags_Structures">Structures</Item>
+			<Item Key="BakaPlaza_Item_Tags_Dimensions">Dimensions</Item>
+			<Item Key="BakaPlaza_Item_Tags_Mobs">Mobs</Item>
+			<Item Key="BakaPlaza_Item_Tags_Technology">Technology</Item>
+			<Item Key="BakaPlaza_Item_Tags_Processing">Resource Processing</Item>
+			<Item Key="BakaPlaza_Item_Tags_Player_Transport">Player Transport</Item>
+			<Item Key="BakaPlaza_Item_Tags_Energy_Fluid_and_Item_Transport">Energy Fluid and Item Transport</Item>
+			<Item Key="BakaPlaza_Item_Tags_Farming">Farming</Item>
+			<Item Key="BakaPlaza_Item_Tags_Energy">Energy</Item>
+			<Item Key="BakaPlaza_Item_Tags_Genetics">Genetics</Item>
+			<Item Key="BakaPlaza_Item_Tags_Automation">Automation</Item>
+			<Item Key="BakaPlaza_Item_Tags_Magic">Magic</Item>
+			<Item Key="BakaPlaza_Item_Tags_Storage">Storage</Item>
+			<Item Key="BakaPlaza_Item_Tags_API_and_Library">API and Library</Item>
+			<Item Key="BakaPlaza_Item_Tags_Adventure_and_RPG">Adventure and RPG</Item>
+			<Item Key="BakaPlaza_Item_Tags_Map_and_Information">Map and Information</Item>
+			<Item Key="BakaPlaza_Item_Tags_Cosmetic">Cosmetic</Item>
+			<Item Key="BakaPlaza_Item_Tags_Miscellaneous">Miscellaneous</Item>
+			<Item Key="BakaPlaza_Item_Tags_Addons">Extensions</Item>
+			<Item Key="BakaPlaza_Item_Tags_Thermal_Expansion">Thermal Expansion</Item>
+			<Item Key="BakaPlaza_Item_Tags_Tinker's_Construct">Tinker's Construct</Item>
+			<Item Key="BakaPlaza_Item_Tags_Industrial_Craft">Industrial Craft</Item>
+			<Item Key="BakaPlaza_Item_Tags_Thaumcraft">Thaumcraft</Item>
+			<Item Key="BakaPlaza_Item_Tags_Buildcraft">Buildcraft</Item>
+			<Item Key="BakaPlaza_Item_Tags_Forestry">Forestry</Item>
+			<Item Key="BakaPlaza_Item_Tags_Blood_Magic">Blood Magic</Item>
+			<Item Key="BakaPlaza_Item_Tags_Applied_Energistics_2">Applied Energistics 2</Item>
+			<Item Key="BakaPlaza_Item_Tags_CraftTweaker">CraftTweaker</Item>
+			<Item Key="BakaPlaza_Item_Tags_Galacticraft">Galacticraft</Item>
+			<Item Key="BakaPlaza_Item_Tags_CubeJS">CubeJS</Item>
+			<Item Key="BakaPlaza_Item_Tags_Armor_Tools_and_Weapons">Armor, Tools and Weapons</Item>
+			<Item Key="BakaPlaza_Item_Tags_Server_Utility">Server Utility</Item>
+			<Item Key="BakaPlaza_Item_Tags_Food">Food</Item>
+			<Item Key="BakaPlaza_Item_Tags_Redstone">Redstone</Item>
+			<Item Key="BakaPlaza_Item_Tags_Twitch_Integration">Twitch Intergration</Item>
+			<Item Key="BakaPlaza_Item_Tags_MCreator">MCreator</Item>
+			<Item Key="BakaPlaza_Item_Tags_Utility_QoL">Utility QoL</Item>
+			<Item Key="BakaPlaza_Item_Tags_Education">Education</Item>
+			<Item Key="BakaPlaza_Item_Tags_QoL">QoL</Item>
+			<Item Key="BakaPlaza_Item_Tags_Lucky_Blocks">Lucky Blocks</Item>
+			<Item Key="BakaPlaza_Item_Tags_FancyMenu">Fancy Menu</Item>
+
+			<Item Key="BakaPlaza_Item_Tags_Tech">Tech</Item>
+			<Item Key="BakaPlaza_Item_Tags_Sci-Fi">Sci-Fi</Item>
+			<Item Key="BakaPlaza_Item_Tags_Exploration">Exploration</Item>
+			<Item Key="BakaPlaza_Item_Tags_Mini_Game">Mini Games</Item>
+			<Item Key="BakaPlaza_Item_Tags_Quests">Quests</Item>
+			<Item Key="BakaPlaza_Item_Tags_Hardcore">Hardcore</Item>
+			<Item Key="BakaPlaza_Item_Tags_Map_Based">Map Based</Item>
+			<Item Key="BakaPlaza_Item_Tags_Small_Light">Small Light</Item>
+			<Item Key="BakaPlaza_Item_Tags_Extra_Large">Extra Large</Item>
+			<Item Key="BakaPlaza_Item_Tags_Combat_PvP">Combat and PvP</Item>
+			<Item Key="BakaPlaza_Item_Tags_Multiplayer">MultiPlayer</Item>
+			<Item Key="BakaPlaza_Item_Tags_FTB_Official_Pack">FTB Official</Item>
+			<Item Key="BakaPlaza_Item_Tags_Skyblock">Skyblock</Item>
+			<Item Key="BakaPlaza_Item_Tags_Vanilla+">Vanilla Plus</Item>
+
+			<Item Key="BakaPlaza_Item_Tags_16x">16x</Item>
+			<Item Key="BakaPlaza_Item_Tags_32x">32x</Item>
+			<Item Key="BakaPlaza_Item_Tags_64x">64x</Item>
+			<Item Key="BakaPlaza_Item_Tags_128x">128x</Item>
+			<Item Key="BakaPlaza_Item_Tags_256x">256x</Item>
+			<Item Key="BakaPlaza_Item_Tags_512x_and_Higher">512x or higher</Item>
+			<Item Key="BakaPlaza_Item_Tags_Steampunk">Steampunk</Item>
+			<Item Key="BakaPlaza_Item_Tags_Photo_Realistic">Realistic</Item>
+			<Item Key="BakaPlaza_Item_Tags_Modern">Modern</Item>
+			<Item Key="BakaPlaza_Item_Tags_Medieval">Medieval</Item>
+			<Item Key="BakaPlaza_Item_Tags_Traditional">Traditional</Item>
+			<Item Key="BakaPlaza_Item_Tags_Animated">Animated</Item>
+			<Item Key="BakaPlaza_Item_Tags_Miscell">Miscell</Item>
+			<Item Key="BakaPlaza_Item_Tags_Mod_Support">Mod Supported</Item>
+			<Item Key="BakaPlaza_Item_Tags_Data_Packs">Data Packs</Item>
+			<Item Key="BakaPlaza_Item_Tags_Font_Packs">Font Packs</Item>
+			
+			<Item Key="BakaPlaza_Item_Tags_Adventure">Adventure</Item>
+			<Item Key="BakaPlaza_Item_Tags_Creation">Creation</Item>
+			<Item Key="BakaPlaza_Item_Tags_Game_Map">Game Maps</Item>
+			<Item Key="BakaPlaza_Item_Tags_Parkour">Parkour</Item>
+			<Item Key="BakaPlaza_Item_Tags_Puzzle">Puzzle</Item>	
+			<Item Key="BakaPlaza_Item_Tags_Survival">Survival</Item>
+			<Item Key="BakaPlaza_Item_Tags_Modded_World">Based on Modded World</Item>
+
+			<Item Key="BakaPlaza_Item_Tags_Adventure">Adventure</Item>
+			<Item Key="BakaPlaza_Item_Tags_Cursed">Cursed</Item>
+			<Item Key="BakaPlaza_Item_Tags_Decoration">Decoration</Item>
+			<Item Key="BakaPlaza_Item_Tags_Equipment">Equipment</Item>
+			<Item Key="BakaPlaza_Item_Tags_Library">Library</Item>
+			<Item Key="BakaPlaza_Item_Tags_Misc">Misc</Item>
+			<Item Key="BakaPlaza_Item_Tags_Optimization">Optimization</Item>
+			<Item Key="BakaPlaza_Item_Tags_Utility">Utility</Item>
+			<Item Key="BakaPlaza_Item_Tags_Worldgen">World Generating</Item>
+
+			<Item Key="BakaPlaza_Item_Tags_Challenging">Challenging</Item>
+			<Item Key="BakaPlaza_Item_Tags_Combat">Combat</Item>
+			<Item Key="BakaPlaza_Item_Tags_Kitchen-sink">Kitchen-Sink</Item>
+			<Item Key="BakaPlaza_Item_Tags_Lightweight">LightWeight</Item>
 
 			<Item Key="Protocol_Ani_Tips">Browse this resource in BakaPlaza</Item>
 
@@ -716,17 +1009,17 @@
 			<Item Key="Tips_Title">BakaXL Tips</Item>
 			<Item Key="Tips_Subtitles">Follow your favourite channels and learn about the news about them. </Item>
 
-			<Item Key="Tips_Subscribe">订阅此频道</Item>
-			<Item Key="Tips_Subscribed">已订阅</Item>
-			<Item Key="Tips_Official">官方贴士频道</Item>
-			<Item Key="Tips_New">新开通</Item>
-			<Item Key="Tips_Locked">锁定</Item>
-			<Item Key="Tips_Refresh">刷新</Item>
-			<Item Key="Tips_Search">搜索频道</Item>
-			<Item Key="Tips_ChannelList">贴士频道列表</Item>
-			<Item Key="Tips_VisitInPlaza">在笨蛋广场中查看</Item>
-			<Item Key="Tips_Publisher">发行方</Item>
-			<Item Key="Tips_Publisher_WithName">发行方: {0}</Item>
+			<Item Key="Tips_Subscribe">Subscribe</Item>
+			<Item Key="Tips_Subscribed">Subscribed</Item>
+			<Item Key="Tips_Official">Official</Item>
+			<Item Key="Tips_New">New</Item>
+			<Item Key="Tips_Locked">Locked</Item>
+			<Item Key="Tips_Refresh">Refresh</Item>
+			<Item Key="Tips_Search">Search</Item>
+			<Item Key="Tips_ChannelList">Channel List</Item>
+			<Item Key="Tips_VisitInPlaza">Visit In BakaPlaza</Item>
+			<Item Key="Tips_Publisher">Publisher</Item>
+			<Item Key="Tips_Publisher_WithName">Publisher: {0}</Item>
 
 			<Item Key="Tips_Home_Loading">集合啦！贴士们！</Item>
 			<Item Key="Tips_Home_Loading_Tips">一二一，一二一，列队！</Item>
@@ -779,6 +1072,7 @@
 			<Item Key="Setting_Protocol_Title">BakaXL Protocol</Item>
 			<Item Key="Setting_Plaza_Title">BakaPlaza</Item>
 			<Item Key="Setting_Insider_Title">Insider Preview</Item>
+			<Item Key="Setting_Sponsor_Title">Sponsors</Item>
 			<Item Key="Setting_About_Title">About</Item>
 
 			<Item Key="Setting_Support_Tips">Welcome to BakaXL Settings! We are working to add more wonderful features for BakaXL! &#xD;&#xA;Some options not available are the features BakaXL 3.0 not develop completed. &#xA;Now, we're adjusting features in the interface according to your needs. Hope you can like it! </Item>
@@ -975,6 +1269,10 @@
 			<Item Key="Setting_Account_Detail_AccFeatures_SkinCapes_Skin_UploadBtn">为我的 Minecraft 角色更换皮肤</Item>
 			<Item Key="Setting_Account_Detail_AccFeatures_SkinCapes_Skin_UploadTips">您现在可以直接通过 BakaXL 更换角色的皮肤。&#xD;&#xA;更换皮肤后需要重新启动 Minecraft。</Item>
 
+			<Item Key="Setting_Account_Detail_AccFeatures_SkinShare_Btn">使用此正版档案时加入皮肤妙享网络</Item>
+			<Item Key="Setting_Account_Detail_AccFeatures_SkinShare_PerferOffline_Btn">优先显示离线皮肤</Item>
+			<Item Key="Setting_Account_Detail_AccFeatures_SkinShare_Tips">开启此功能，您将可以在联机时看见通过离线验证&#xD;&#xA;BakaXL 用户设置的离线皮肤。&#xD;&#xA;若开启此功能，则需要经由 BakaXL 中转和处理&#xD;&#xA;所有 Mojang 正版验证请求。</Item>
+
 			<Item Key="Setting_Account_Detail_AccFeatures_SkinCapes_Skin_UploadBtn_Offline">为我的 Minecraft 角色设置离线皮肤</Item>
 			<Item Key="Setting_Account_Detail_AccFeatures_SkinCapes_Skin_ClearBtn_Offline">恢复至默认皮肤</Item>
 			<Item Key="Setting_Account_Detail_AccFeatures_SkinCapes_Skin_UploadTips_Offline">为您的角色设置离线皮肤。&#xD;&#xA;更换皮肤后需要重新启动 Minecraft。&#xD;&#xA;&#xD;&#xA;若开启了 BakaXL Network SkinShare 皮肤妙享，&#xD;&#xA;设置离线皮肤后，就可以看见好友或大厅内&#xD;&#xA;其他玩家设置的离线皮肤。</Item>
@@ -1106,10 +1404,11 @@
 			<Item Key="Setting_Network_BakaServiceStatus_Network_BakaNetwork">BakaXL Network 主服务:</Item>
 			<Item Key="Setting_Network_BakaServiceStatus_Network_Relay_Lanko_A">BakaXL Network Relay (Lanko-A):</Item>
 
-			<Item Key="Setting_Network_BakaServiceStatus_Third_Party_Title">第三方服务提供商</Item>
-			<Item Key="Setting_Network_BakaServiceStatus_Third_Party_CurseForgeApi">CurseForge第三方API:</Item>
+			<Item Key="Setting_Network_BakaServiceStatus_Third_Party_Title">Third-Party Services Providers</Item>
+			<Item Key="Setting_Network_BakaServiceStatus_Third_Party_ModrinthCDN">Modrinth CDN:</Item>
+			<Item Key="Setting_Network_BakaServiceStatus_Third_Party_CurseForgeApi">CurseForge API:</Item>
 			<Item Key="Setting_Network_BakaServiceStatus_Third_Party_CurseForgeCDN">CurseForge CDN:</Item>
-			<Item Key="Setting_Network_BakaServiceStatus_Third_Party_MCBBS">MCBBS下载源:</Item>
+			<Item Key="Setting_Network_BakaServiceStatus_Third_Party_MCBBS">MCBBS Download Source:</Item>
 
 			<Item Key="Setting_Network_MojangServiceStatus_Title">Mojang服务器状态</Item>
 			<Item Key="Setting_Network_MojangServiceStatus_MainServer">Mojang状态服务:</Item>
@@ -1231,15 +1530,29 @@
 			<Item Key="Setting_Personalize_Background_Parallax_Mode_3D">多维（实验版）</Item>
 			<Item Key="Setting_Personalize_Background_Parallax_Tips">让背景图片跟随鼠标移动，营造视差效果。&#xD;打开此功能时，BakaXL将会稍许放大当前背景图片。&#xD;&#xD;使用实况背景或者默认背景时，无法使用此功能。</Item>
 
+			<Item Key="Setting_Personalize_Color">Color</Item>
 			<Item Key="Setting_Personalize_Color_Title">BakaXL Color Scheme</Item>
 			<Item Key="Setting_Personalize_Color_Selector">Select a color scheme</Item>
 			<Item Key="Setting_Personalize_Color_NightMode">Invert color scheme</Item>
 			<Item Key="Setting_Personalize_Color_Tips">Sets the color scheme used by BakaXL forms and buttons.</Item>
 
 			<Item Key="Setting_Personalize_Tema_Title">BakaXL Theme</Item>
+			<Item Key="Setting_Personalize_Tema_Tips">BakaXL 主题是一套存有个性化设置的打包文件，&#xD;允许您保存配色方案、背景及音乐音效，并与好友分享该个性化设置。&#xD;&#xD;BakaXL 主题单独存储于每一个 BakaXL 实例的运行时目录下，&#xD;已设置生效的 BakaXL 主题将会在这台计算机上同步。</Item>
+
 		    <Item Key="Setting_Personalize_Tema_Patch">Save the current personalization settings as a theme</Item>
-            <Item Key="Setting_Personalize_Tema_List">Browse the list of themes</Item>
+            
+			<Item Key="Setting_Personalize_Tema_List">Browse the list of themes</Item>
             <Item Key="Setting_Personalize_Tema_Folder">Open theme folder</Item>
+
+			<Item Key="Setting_Personalize_Tema_Browser_GetTema_Title">获取 BakaXL 主题</Item>
+			<Item Key="Setting_Personalize_Tema_Browser_GetTema_Plaza_Title">在 BakaXL 笨蛋广场中获取更多主题</Item>
+			<Item Key="Setting_Personalize_Tema_Browser_GetTema_Plaza_Tips">在 BakaXL 笨蛋广场上查看来自其他 BakaXL 使用者提交的&#xD;&#xA;自制主题或者来自 BakaXL 官方制作的主题。</Item>
+
+			<Item Key="Setting_Personalize_Tema_Browser_Installed_Title">已安装的 BakaXL 主题</Item>
+
+			<Item Key="Setting_Personalize_Tema_Browser_Manage_Title">管理 BakaXL 主题</Item>
+
+			<Item Key="Setting_Personalize_Tema_Browser_TemaDesc_Title">主题介绍</Item>
 
 			<Item Key="Setting_Personalize_Tema_Default">BakaXL 默认主题</Item>
 			<Item Key="Setting_Personalize_Tema_Default_Desc">这是一个来自BakaXL的默认主题，非常默认，特别默认。</Item>
@@ -1380,6 +1693,14 @@
 			<Item Key="Setting_Insider_LatestVersion">(Insider Preview Build on current channel: {0})</Item>
 			<Item Key="Setting_Insider_Requirement">您的计算机需要安装.Net Framework 4.5才可以运行BakaXL 3.0。&#xA;使用BakaXL 3.0的预览体验版本需要您使用Windows 7或更高级操作系统。&#xA;推荐您使用Windows 10操作系统以体验BakaXL 3.0的全部功能。&#xA;&#xA;BakaXL 3.0已不再支持Windows XP操作系统。</Item>
 
+			<Item Key="Setting_Sponsor_GoAfdian">立即通过 爱发电 支持开发者</Item>
+			<Item Key="Setting_Sponsor_List_Title">赞助者列表</Item>
+			<Item Key="Setting_Sponsor_List_Desc">不论您赞助与否，我们都感谢您使用 BakaXL！&#xD;&#xA;但若您通过爱发电赞助了 BakaXL，您的爱发电用户名将会显示在这里！&#xD;&#xA;&#xD;&#xA;按照发电时间进行排序，最近发电的将最先显示。&#xD;&#xA;本列表将会每 6 小时自动进行更新。</Item>
+
+			<Item Key="Setting_Sponsor_List_Loading">正在集结鸽子大军…</Item>
+			<Item Key="Setting_Sponsor_List_NoSponsor">太遗憾了，看上去没有任何赞助者…</Item>
+			<Item Key="Setting_Sponsor_List_Sponsor">赞助者</Item>
+
 			<Item Key="Setting_About_Info">All the members of BakaXL Developerment Team thank you&#xA;for using BakaXL sincerely! </Item>
 			<Item Key="Setting_About_Version">Version</Item>
 			<Item Key="Setting_About_Version_TunnelTitle">Build Channel: </Item>
@@ -1506,6 +1827,19 @@
 			<Item Key="MessageBox_BakaPlaza_Installer_Content">BakaXL将要开始安装您所选定的游戏核心。&#xD;&#xA;请稍等片刻，并在此期间不要断开互联网连接或关闭BakaXL。</Item>
 			<Item Key="MessageBox_BakaPlaza_Installer_Tips">正在准备</Item>
 
+			<Item Key="MessageBox_BakaPlaza_ItemVersionList_FileNameEmpty_Title">请输入合适的文件名</Item>
+			<Item Key="MessageBox_BakaPlaza_ItemVersionList_FileNameEmpty_Content">若您要将此资源下载至本地，则您应当为此资源设置一个文件名。</Item>
+			<Item Key="MessageBox_BakaPlaza_ItemVersionList_FileNameEmpty_Tips">留空我们就很难办事了…</Item>
+
+			<Item Key="MessageBox_BakaPlaza_ItemVersionList_NoDownloadUrl_Title">BakaXL 无法直接安装此资源</Item>
+			<Item Key="MessageBox_BakaPlaza_ItemVersionList_NoDownloadUrl_Content">很抱歉，由于此资源创作者禁止第三方 Minecraft 软件直接下载此资源，BakaXL 无法下载并自动安装此内容。&#xD;&#xA;BakaXL 将帮您导向 CurseForge 网页版下载页面，您需要手动进行下载。</Item>
+			<Item Key="MessageBox_BakaPlaza_ItemVersionList_NoDownloadUrl_NoBackup_Content">很抱歉，由于此资源创作者禁止第三方 Minecraft 软件直接下载此资源，BakaXL 无法下载并自动安装此内容。</Item>
+			<Item Key="MessageBox_BakaPlaza_ItemVersionList_NoDownloadUrl_Tips">我们试过了，但是他不愿意给我们下载地址 :(</Item>
+			
+			<Item Key="MessageBox_BakaPlaza_ItemVersionList_NoDownloadUrl_PlazaItem_Title">BakaXL 无法下载此资源</Item>
+			<Item Key="MessageBox_BakaPlaza_ItemVersionList_NoDownloadUrl_PlazaItem_Content">很抱歉，由于此资源创作者尚未在 BakaXL 开放平台中配置该版本的下载地址，BakaXL 当前无法下载并安装此内容。</Item>
+			<Item Key="MessageBox_BakaPlaza_ItemVersionList_NoDownloadUrl_PlazaItem_Tips">现在尴尬了，但是我们可以帮您催一催创作者！</Item>
+
 			<Item Key="MessageBox_Java_AdvanceSearchPermission_Title">确认使用细致搜索？</Item>
 			<Item Key="MessageBox_Java_AdvanceSearchPermission_Message">若使用细致搜索，则代表您授权BakaXL对您计算机磁盘内的文件进行遍历。&#xD;&#xA;BakaXL将搜索每个磁盘的根目录，随后继续遍历包含以下名称的文件夹：&#xD;&#xA;&#xD;&#xA;Minecraft、Java、Jre、Jdk、MC、Runtime&#xD;&#xA;&#xD;&#xA;若您不了解此功能的作用，请点击 &quot;取消&quot;。</Item>
 			<Item Key="MessageBox_Java_AdvanceSearchPermission_Tips">BakaXL不会以任何方式保留您的磁盘内容索引</Item>
@@ -1551,6 +1885,11 @@
 
 			<Item Key="MessageBox_PlazaError_WhenLaunch_Content">出现了异常情况，导致我们无法连接至BakaXL笨蛋广场服务器。&#xD;&#xA;请稍后再试。若问题持续存在，请参阅BakaXL官网。</Item>
 			<Item Key="MessageBox_PlazaError_WhenLaunch_Tips">我们可能会在未经通知的情况下对服务器进行维护</Item>
+
+			<Item Key="MessageBox_Plaza_InstallModPack_Title">要将此整合包安装至 BakaXL 吗？</Item>
+			<Item Key="MessageBox_Plaza_InstallModPack_Content">&quot;{0}&quot; 将会被安装至当前 BakaXL 实例的所在文件夹中。&#xD;&#xA;整合包安装一旦开始，就根本停不下来了~！&#xD;&#xA;要开始安装吗？</Item>
+			<Item Key="MessageBox_Plaza_InstallModPack_Tips">若只是想获取此整合包的安装档案，请点击右侧另存为按钮。</Item>
+			<Item Key="MessageBox_Plaza_InstallModPack_Tips_Btn_No">等一等！</Item>
 
 			<Item Key="MessageBox_QuickSet_Title">什么是 "快速设置" ？</Item>
 			<Item Key="MessageBox_QuickSet_Content">快速设置可以帮助您根据系统当前的状态自动设置Minecraft运行所需的Java虚拟机及内存。&#xD;&#xA;&#xD;&#xA;除此之外，快速设置还将会：&#xD;&#xA;· 开启 BakaXL的背景音乐和音效&#xD;&#xA;· 允许 笨蛋广场请求您的位置信息&#xD;&#xA;· 向BakaXL发送崩溃和启动诊断信息&#xD;&#xA;· 开启 BMCLAPI 以加快在中国大陆地区的资源下载速度&#xD;&#xA;· 自动加载所有已安装的BakaXL插件（并非所有的第三方插件都是安全的）</Item>
@@ -1743,6 +2082,13 @@
 			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Fabric_JsonNullException">无法解析Fabric的安装档案(json)，Json解释器返回了空的文本。</Item>
 			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Fabric_CopyVanilla">无法拷贝原版Minecraft的json文件。</Item>
 
+			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Quilt_Title">BakaXL Quilt安装器报告在安装时出现异常。</Item>
+			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Quilt_DownloadOrDamage_Solution">尝试安装的 Quilt 版本： Quilt-{0}-{1}&#xD;&#xA;&#xD;&#xA;造成此问题的原因可能是无法下载文件，或是解压时出现意外。&#xD;&#xA;首先，请检查您的互联网连接，确保计算机与下载源之间的网络通信是正常的。&#xD;&#xA;其次，尝试以管理员身份运行 BakaXL，并再试一次安装。&#xD;&#xA;&#xD;&#xA;若此问题持续出现，您可以向 BakaXL 开发团队汇报此问题。</Item>
+			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Quilt_NotSupported_Solution">尝试安装的 Quilt 版本： Quilt-{0}-{1}&#xD;&#xA;&#xD;&#xA;通常，这可能由于下载的文件受损、访问本地文件权限不足，亦或是此版本的 Quilt 不受支持造成的。&#xD;&#xA;首先，尝试以管理员身份运行 BakaXL，再试一次安装。&#xD;&#xA;其次，检查此笨蛋罐头中的异常信息，若其中明确说明了该版本的 Quilt 不受支持，请将此笨蛋罐头汇报至 BakaXL 开发团队。&#xD;&#xA;&#xD;&#xA;若此问题持续出现，您可以向BakaXL开发团队汇报此问题。</Item>
+
+			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Quilt_JsonNullException">无法解析 Fabric 的安装档案(json)，Json 解释器返回了空的文本。</Item>
+			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Quilt_CopyVanilla">无法拷贝原版 Minecraft 的 json 文件。</Item>
+
 			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Optifine_Title">BakaXL Optifine安装器报告在安装时出现异常。</Item>
 			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Optifine_DownloadOrDamage_Solution">尝试安装的 Optifine 版本：Optifine-{0}-{1}&#xD;&#xA;&#xD;&#xA;造成此问题的原因可能是无法下载文件，或是解压时出现意外。&#xD;&#xA;首先，请检查您的互联网连接，确保计算机与下载源之间的网络通信是正常的。&#xD;&#xA;其次，尝试以管理员身份运行 BakaXL，并再试一次安装。&#xD;&#xA;&#xD;&#xA;若此问题持续出现，您可以向 BakaXL 开发团队汇报此问题。</Item>
 			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Optifine_NotSupported_Solution">尝试安装的 Optifine 版本：Optifine-{0}-{1}&#xD;&#xA;&#xD;&#xA;通常，这可能由于下载的文件受损、访问本地文件权限不足，亦或是此版本的 Optifine 不受支持造成的。&#xD;&#xA;首先，尝试以管理员身份运行 BakaXL，再试一次安装。&#xD;&#xA;其次，检查此笨蛋罐头中的异常信息，若其中明确说明了该版本的 Optifine 不受支持，请将此笨蛋罐头汇报至 BakaXL 开发团队。&#xD;&#xA;&#xD;&#xA;若此问题持续出现，您可以向 BakaXL 开发团队汇报此问题。</Item>
@@ -1772,7 +2118,9 @@
 
 			<Item Key="AddGameCore_ManualCoreInstaller_Title">Install Core Manually</Item>
 			<Item Key="AddGameCore_ModPackImporter_Title">Import Modpack</Item>
-			<Item Key="AddGameCore_AssetsInstall_Title">Download Mods / Modpacks</Item>
+			<Item Key="AddGameCore_ModPackInstall_Title">Get Hotest ModPacks</Item>
+			
+			<Item Key="AddGameCore_ModPackImporter_Tips">BakaXL supports to install a packed ModPack config file. &#xD;&#xA;&#xD;&#xA;ModPacks that BakaXL supports to install: &#xD;&#xA;· MCBBS ModPacks ( v2 , .zip)&#xD;&#xA;· CurseForge ModPacks (.zip)&#xD;&#xA;· Modrinth ModPack Profiles (.mrpack)&#xD;&#xA;· Some traditional ModPacks with a launcher (.zip)&#xD;&#xA;&#xD;&#xA;整合包存在个体差异，有时即使是上述格式也可能无法正常导入，若您在导入整合包时出现错误、崩溃 或是导入后无法启动、缺失文件的情况，&#xD;&#xA;请将此整合包提交给 BakaXL 进行分析。</Item>
 
 			<Item Key="AddGameCore_CurseModPack_RemoveSoon">为了保护 Curse 整合包作者及 Mod 作者的利益。&#xD;&#xA;我们现已停止兼容 CurseForge 格式整合包的安装。</Item>
 
@@ -1791,28 +2139,44 @@
 
 			<Item Key="AddGameCore_DnD_Browse">Or click here to browse for a Modpack file</Item>
 
-			<Item Key="Installer_InstallTimer">耗时</Item>
+			<Item Key="Installer_InstallTimer">Timer</Item>
 			<Item Key="Installer_InstallTimer_Pending">等待下载启动</Item>
 			<Item Key="Installer_InstallTimer_Counting">正在计时...</Item>
 
-			<Item Key="Installer_InstallTaskStatus_PrepareInstaller">准备安装 {0} ...</Item>
-			
-			<Item Key="Installer_InstallTaskStatus_DownloadMinecraft">正在下载 Minecraft...</Item>
-			<Item Key="Installer_InstallTaskStatus_DownloadForge">正在下载 Forge...</Item>	
-			<Item Key="Installer_InstallTaskStatus_InstallingForge">正在安装 Forge...</Item>
-			<Item Key="Installer_InstallTaskStatus_DownloadFabric">正在获取 Fabric 安装档案...</Item>
-			<Item Key="Installer_InstallTaskStatus_InstallingFabric">正在安装 Fabric...</Item>
-			<Item Key="Installer_InstallTaskStatus_DownloadOptifine">正在下载 Optifine...</Item>
-			<Item Key="Installer_InstallTaskStatus_InstallingOptifine">正在安装 Optifine...</Item>
-			<Item Key="Installer_InstallTaskStatus_DownloadAssets">正在补全 Assets...</Item>
-			<Item Key="Installer_InstallTaskStatus_UnzipFile">正在解压缩文件...</Item>
-			
-			<Item Key="Installer_InstallTaskStatus_DownloadLibs">正在补全 Libraries...</Item>
+			<Item Key="Installer_AddonSection_From">From</Item>
 
-			<Item Key="Installer_InstallTaskStatus_DownloadLibsAndAssets">正在补全 Assets 与 Libraries...</Item>
+			<Item Key="Installer_AddonSection_Forge_Title">Do not know what to play? Try these Mods! </Item>
+			<Item Key="Installer_AddonSection_Forge_Tips">Update regularly! Forge Mods that recommended by BakaXL! </Item>
 
-			<Item Key="Installer_InstallTaskStatus_Failed">安装失败</Item>
-			<Item Key="Installer_InstallTaskStatus_Successful">安装成功</Item>
+			<Item Key="Installer_AddonSection_Fabric_Title">Install Fabric API and recommended essential Mods! </Item>
+			<Item Key="Installer_AddonSection_Fabric_Tips">Fabric needs to install basic API to load Mods, click to learn more and download! </Item>
+
+			<Item Key="Installer_AddonSection_Fabric_Optifine_Title">More Mods are needed to run OptiFine on Fabric! </Item>
+			<Item Key="Installer_AddonSection_Fabric_Optifine_Tips">Click to install Fabric API and OptiFabric , or OptiFine doesn't work! </Item>
+
+			<Item Key="Installer_AddonSection_Quilt_Title">Install Quilt basic libraries and recommended essential Mods! </Item>
+			<Item Key="Installer_AddonSection_Quilt_Tips">Quilt needs basic libraries to load Mods, click to learn more and download! </Item>
+
+			<Item Key="Installer_InstallTaskStatus_PrepareInstaller">Preparing to install {0} ...</Item>
+			
+			<Item Key="Installer_InstallTaskStatus_DownloadMinecraft">Downloading Minecraft...</Item>
+			<Item Key="Installer_InstallTaskStatus_DownloadForge">Downloading Forge...</Item>	
+			<Item Key="Installer_InstallTaskStatus_InstallingForge">Installing Forge...</Item>
+			<Item Key="Installer_InstallTaskStatus_DownloadFabric">Getting Fabric Installtion Profile...</Item>
+			<Item Key="Installer_InstallTaskStatus_InstallingFabric">Installing Fabric...</Item>
+			<Item Key="Installer_InstallTaskStatus_DownloadQuilt">Getting Quilt Installtion Profile...</Item>
+			<Item Key="Installer_InstallTaskStatus_InstallingQuilt">Installing Quilt...</Item>
+			<Item Key="Installer_InstallTaskStatus_DownloadOptifine">Downloading Optifine...</Item>
+			<Item Key="Installer_InstallTaskStatus_InstallingOptifine">Installing Optifine...</Item>
+			<Item Key="Installer_InstallTaskStatus_DownloadAssets">Downloading Assets...</Item>
+			<Item Key="Installer_InstallTaskStatus_UnzipFile">Unzipping files...</Item>
+			
+			<Item Key="Installer_InstallTaskStatus_DownloadLibs">Downloading Libraries...</Item>
+
+			<Item Key="Installer_InstallTaskStatus_DownloadLibsAndAssets">Downloading Assets and Libraries...</Item>
+
+			<Item Key="Installer_InstallTaskStatus_Failed">Failed</Item>
+			<Item Key="Installer_InstallTaskStatus_Successful">Successed</Item>
 			
 			<Item Key="Installer_InstallTaskStatus_PrepareInstaller_Tips">BakaXL将要开始安装您所选定的游戏核心。&#xD;&#xA;请稍等片刻，并在此期间不要断开互联网连接或关闭BakaXL。</Item>
 			
@@ -1821,6 +2185,8 @@
 			<Item Key="Installer_InstallTaskStatus_InstallingForge_Tips">BakaXL正在安装 Forge {0}。&#xD;&#xA;请稍等片刻，并在此期间不要操作游戏目录或关闭BakaXL。</Item>
 			<Item Key="Installer_InstallTaskStatus_DownloadFabric_Tips">BakaXL正在将 Fabric-{0} 下载至本地。&#xD;&#xA;请稍等片刻，并在此期间不要断开互联网连接或关闭BakaXL。</Item>
 			<Item Key="Installer_InstallTaskStatus_InstallingFabric_Tips">BakaXL正在处理 Fabric-{0} 的安装档案。&#xD;&#xA;请稍等片刻，并在此期间不要操作游戏目录或关闭BakaXL。</Item>
+			<Item Key="Installer_InstallTaskStatus_DownloadQuilt_Tips">BakaXL 正在将 Quilt-{0} 下载至本地。&#xD;&#xA;请稍等片刻，并在此期间不要断开互联网连接或关闭BakaXL。</Item>
+			<Item Key="Installer_InstallTaskStatus_InstallingQuilt_Tips">BakaXL 正在处理 Quilt-{0} 的安装档案。&#xD;&#xA;请稍等片刻，并在此期间不要操作游戏目录或关闭BakaXL。</Item>
 			<Item Key="Installer_InstallTaskStatus_DownloadOptifine_Tips">BakaXL 正在将 Optifine-{0} 下载至本地。&#xD;&#xA;请稍等片刻，并在此期间不要断开互联网连接或关闭BakaXL。</Item>
 			<Item Key="Installer_InstallTaskStatus_InstallingOptifine_Tips">BakaXL 正在安装 Optifine {0}。&#xD;&#xA;请稍等片刻，并在此期间不要操作游戏目录或关闭BakaXL。</Item>
 
@@ -1829,6 +2195,8 @@
 			<Item Key="Installer_InstallTaskStatus_InstallingForge_Tips_ModPack">BakaXL正在为 {0} 安装 Forge。&#xD;&#xA;请稍等片刻，并在此期间不要操作游戏目录或关闭BakaXL。</Item>
 			<Item Key="Installer_InstallTaskStatus_DownloadFabric_Tips_ModPack">BakaXL正在将 {0} 所需的 Fabric 安装档案 下载至本地。&#xD;&#xA;请稍等片刻，并在此期间不要断开互联网连接或关闭BakaXL。</Item>
 			<Item Key="Installer_InstallTaskStatus_InstallingFabric_Tips_ModPack">BakaXL正在为 {0} 处理 Fabric 安装档案。&#xD;&#xA;请稍等片刻，并在此期间不要操作游戏目录或关闭BakaXL。</Item>
+			<Item Key="Installer_InstallTaskStatus_DownloadQuilt_Tips_ModPack">BakaXL 正在将 {0} 所需的 Quilt 安装档案 下载至本地。&#xD;&#xA;请稍等片刻，并在此期间不要断开互联网连接或关闭BakaXL。</Item>
+			<Item Key="Installer_InstallTaskStatus_InstallingQuilt_Tips_ModPack">BakaXL 正在为 {0} 处理 Quilt 安装档案。&#xD;&#xA;请稍等片刻，并在此期间不要操作游戏目录或关闭BakaXL。</Item>
 			<Item Key="Installer_InstallTaskStatus_DownloadOptifine_Tips_ModPack">BakaXL 正在将 {0} 所需的 Optifine 下载至本地。&#xD;&#xA;请稍等片刻，并在此期间不要断开互联网连接或关闭BakaXL。</Item>
 			<Item Key="Installer_InstallTaskStatus_InstallingOptifine_Tips_ModPack">BakaXL 正在为 {0} 安装 Optifine。&#xD;&#xA;请稍等片刻，并在此期间不要操作游戏目录或关闭BakaXL。</Item>
 
@@ -1880,6 +2248,15 @@
 
 			<Item Key="OK">OK</Item>
 			<Item Key="No">No</Item>
+
+			<Item Key="FriendlyTime_JustNow">Just Now</Item>
+			<Item Key="FriendlyTime_MinueAgo">{0} Minute(s) Ago</Item>
+			<Item Key="FriendlyTime_HourAgo">{0} Hour(s) Ago</Item>
+			<Item Key="FriendlyTime_Yesterday">Yesterday</Item>
+			<Item Key="FriendlyTime_DaysAgo">{0} Day(s) Ago</Item>
+			<Item Key="FriendlyTime_WeeksAgo">{0} Week(s) Ago</Item>
+			<Item Key="FriendlyTime_MonthAgo">{0} Month(s) Ago</Item>
+			<Item Key="FriendlyTime_YearsAgo">{0} Year(s) Ago</Item>
 
 			<Item Key="Color_Auto">自动检测</Item>
 			<Item Key="Color_Red">中国红</Item>
