@@ -103,7 +103,7 @@
 			<Item Key="HomeIdentifier_Screen_Home">Home</Item>
 			<Item Key="HomeIdentifier_Screen_Menu">Start Menu</Item>
 
-			<Item Key="TaskList_Title">Notifications Center</Item>
+			<Item Key="TaskList_Title">Notifications</Item>
 			<Item Key="TaskList_NoTaskTips">No tasks or notifications are in progress. </Item>
 			<Item Key="TaskList_HasTasks"> {0} tasks in progress</Item>
 
@@ -268,7 +268,7 @@
 			<Item Key="HomeAchievements">Achievements</Item>
 			<Item Key="HomePackTool">BakaXL Mod Pack[\n]Tool</Item>
 			<Item Key="HomePackToolName">Mod Pack Tool</Item>
-			<Item Key="HomeBakaverse">Bakaverse/Lobby</Item>
+			<Item Key="HomeBakaverse">Bakaverse</Item>
 
 			<Item Key="BakaXL.Pages.PageHome">BakaXL Home Menu</Item>
 			<Item Key="BakaXL.Pages.PageDownload">Update System</Item>
@@ -470,10 +470,10 @@
 			<Item Key="Bakaverse_NeedLogin_LoginRequired">You need to login</Item>
 			<Item Key="Bakaverse_NeedLogin_Method">Go to &quot;Settings - Profiles&quot; and then Login To Your BakaXL Account</Item>
 
-			<Item Key="Bakaverse_CurrentUser_Tips">Your friends can search for your account by using your BakaXL Network ID. &#xD;&#xA;Please include the tag that follows your username when you are telling &#xD;&#xA;your friends your BakaXL Network ID. </Item>
+			<Item Key="Bakaverse_CurrentUser_Tips">Your friends can search for your account by using your &#xD;&#xA;BakaXL Network ID. &#xD;&#xA;Please include the tag that follows your username when you are telling &#xD;&#xA;your friends your BakaXL Network ID. </Item>
 
 			<Item Key="Bakaverse_UserInfo_VerificationAndPlan">Certifications and Programs</Item>
-			<Item Key="Bakaverse_UserInfo_VerificationAndPlan_Tips">If you are enrolled in a BakaXL program or are BakaXL certified, they will appear here.</Item>
+			<Item Key="Bakaverse_UserInfo_VerificationAndPlan_Tips">If you are enrolled in a BakaXL program or are BakaXL certified,&#xD;&#xA; they will appear here.</Item>
 
 			<Item Key="Bakaverse_UserInfo_Verification">BakaXL Certificate: {0}</Item>
 			<Item Key="Bakaverse_UserInfo_VerificationButNoInfo">This account is certified by BakaXL</Item>
@@ -506,7 +506,7 @@
 			<Item Key="Bakaverse_UserInfo_AboutYourSelf">About yourself</Item>
 			<Item Key="Bakaverse_UserInfo_AboutYourSelf_Tips">This interface has your own information. &#xA;You stand here, but don't know what to do. &#xA;&#xA;&#xA;&#xA;&#xA;&#xA;You looked behind to BakaXL, but we don't know what to do either. &#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;Oh, by the way:&#xA;In the new version of BakaXL, we have changed the behavior that BakaXL performs a friend search,&#xA;so keeping searching about yourself will have no impact on the server performance. </Item>
 
-			<Item Key="Bakaverse_FriendList_Tips">Your friends see your online status and name of the mod pack you are playing. &#xD;&#xA;You can go to the Privacy Settings to modify related options, or change your &#xD;&#xA;online status to &quot;Stealth&quot;。</Item>
+			<Item Key="Bakaverse_FriendList_Tips">Your friends see your online status and name of the mod pack you&#xD;&#xA; are playing. You can go to the Privacy Settings to modify related &#xD;&#xA;options, or change your online status to &quot;Stealth&quot;。</Item>
 
             <Item Key="Bakaverse_UserInfo_InviteToLobby">Invite friend to your lobby</Item>
 			<Item Key="Bakaverse_UserInfo_InviteToLobby_Tips">If you are the lobby's creator, then you can invite your friend to your lobby here.</Item>
@@ -551,18 +551,18 @@
 			<Item Key="Bakaverse_Lobby_CreateLobby_CustomLobbyID_TextBox_Tips">Thanks for supporting BakaXL! As a member of the Insider Program, &#xD;&#xA;You can choose a custom BakaXL Lobby Code when creating a lobby! &#xD;&#xA;Please don't violate BakaXL ToS when using this feature.&#xD;&#xA;Using this feature incorrectly will cancel your Insider status.</Item>
 			<Item Key="Bakaverse_Lobby_CreateLobby_AllowStrangers_Btn_Title">Only open to my friends</Item>
 			<Item Key="Bakaverse_Lobby_CreateLobby_Create_Btn_Title">Create a lobby</Item>
-			<Item Key="Bakaverse_Lobby_CreateLobby_Create_Btn_Tips">Start Minecraft and choose &quot;Open to LAN&quot; in a single game, &#xD;&#xA;then you can create a lobby. &#xD;&#xA;If detecting fails for a long time, try to start Minecraft after running BakaXL as administrator. </Item>
+			<Item Key="Bakaverse_Lobby_CreateLobby_Create_Btn_Tips">Start Minecraft and choose &quot;Open to LAN&quot; in a single game, &#xD;&#xA;then you can create a lobby. &#xD;&#xA;If detecting fails for a long time, try to start Minecraft after&#xD;&#xA; running BakaXL as administrator. </Item>
 			
 			<Item Key="Bakaverse_Lobby_JoinLobby_Title">Join a friend or public lobby</Item>
 			<Item Key="Bakaverse_Lobby_JoinLobby_LobbyID_TextBox_Watermark">Enter the Lobby Code (e.g. 01509230)</Item>
 			<Item Key="Bakaverse_Lobby_JoinLobby_Join_Btn_Title">Join lobby</Item>
-			<Item Key="Bakaverse_Lobby_JoinLobby_Join_Btn_Tips">Enter the Lobby Code that told to you by a friend or someone else to join the lobby.&#xD;&#xA;If the lobby is set to friend-only, you must be a friend of the creator to join lobby.</Item>
+			<Item Key="Bakaverse_Lobby_JoinLobby_Join_Btn_Tips">Enter the Lobby Code that told to you by a friend or someone &#xD;&#xA;else to join the lobby.&#xD;&#xA;If the lobby is set to friend-only, you must be a friend of the creator&#xD;&#xA; to join lobby.</Item>
 			
 			<Item Key="Bakaverse_Lobby_FriendInvites_Title">Invites from friends</Item>
 			<Item Key="Bakaverse_Lobby_FriendInvites_Tips">If your friends invite you to join their lobby, they will appear here.</Item>
 
 			<Item Key="Bakaverse_Lobby_CrossLauncherPlay_Title">Join a third-party launcher's connect platform</Item>
-			<Item Key="Bakaverse_Lobby_CrossLauncherPlay_Tips">To join an online service created by a third-party launchers (e.g. PCL2, HMCL),&#xD;&#xA;then you'll need to install the Multi-Launcher Online Service Plugin in BakaPlaza first.&#xD;&#xA;&#xD;&#xA;The service is Coming Soon™</Item>
+			<Item Key="Bakaverse_Lobby_CrossLauncherPlay_Tips">To join an online service created by a third-party launchers &#xD;&#xA;(e.g. PCL2, HMCL), then you'll need to install the &#xD;&#xA;Multi-Launcher Online Service Plugin in&#xD;&#xA; BakaPlaza first.&#xD;&#xA;&#xD;&#xA;This service is Coming Soon™</Item>
 			
 			<Item Key="Bakaverse_Lobby_LobbyInfo_Title">Lobby Information</Item>
 			<Item Key="Bakaverse_Lobby_LobbyInfo_LobbyID_Title">Lobby </Item>
@@ -634,14 +634,14 @@
 			<Item Key="Bakaverse_UserSettings_Privacy">Privacy Settings</Item>
 
 			<Item Key="Bakaverse_UserSettings_Privacy_SkinShare">BakaXL Network SkinShare</Item>
-			<Item Key="Bakaverse_UserSettings_Privacy_SkinShare_Tips">The SkinShare feature allows other BakaXL Network friends,&#xD;&#xA;in-server players or online lobby participants who also have this feature enabled to see your offline skins.&#xD;&#xA;When this feature is turned off,&#xD;&#xA;&#xD;&#xA;BakaXL will stop sharing your skin information to BakaXL Network,&#xD;&#xA;and you will not be able to see skins set by other players.&#xD;&#xA;This feature only works when launching Minecraft in Offile Mode.</Item>
+			<Item Key="Bakaverse_UserSettings_Privacy_SkinShare_Tips">The SkinShare feature allows other BakaXL Network friends,&#xD;&#xA;in-server players or online lobby participants who also have this &#xD;&#xA;feature enabled to see your offline skins.&#xD;&#xA;When this feature is turned off, BakaXL will stop sharing&#xD;&#xA; your skin information to BakaXL Network, and you will not be able&#xD;&#xA; to see skins set by other players.&#xD;&#xA;&#xD;&#xA;This feature only works when launching Minecraft in Offile Mode.</Item>
 
 			<Item Key="Bakaverse_UserSettings_Privacy_GameRecord">Let BakaXL Network record my game state</Item>
-			<Item Key="Bakaverse_UserSettings_Privacy_GameRecord_Tips">Whether to allow your game status (e.g. game name, version) to be recorded in BakaXL Network.&#xD;&#xA;The BakaXL Network server periodically clears the game state cache.&#xD;&#xA;Game state will not contain your sensitive information.&#xD;&#xA;&#xD;&#xA;When this feature is turned off, BakaXL will stop reporting your game status to the BakaXL Network.</Item>
+			<Item Key="Bakaverse_UserSettings_Privacy_GameRecord_Tips">Whether to allow your game status (e.g. game name, version)&#xD;&#xA; to be recorded in BakaXL Network.&#xD;&#xA;The BakaXL Network server periodically clears the game state cache.&#xD;&#xA;Game state will not contain your sensitive information.&#xD;&#xA;&#xD;&#xA;When this feature is turned off, BakaXL will stop reporting your&#xD;&#xA; game status to the BakaXL Network.</Item>
 			<Item Key="Bakaverse_UserSettings_Privacy_GameRecord_Remove">Delete my game state cache from BakaXL Network</Item>
 
 			<Item Key="Bakaverse_UserSettings_Privacy_FriendRecommend">Allow BakaXL to recommend friends to me</Item>
-			<Item Key="Bakaverse_UserSettings_Privacy_FriendRecommend_Tips">BakaXL will recommend some like-minded friends to you based on your most recent game status&#xD;&#xA;(e.g. modpack name launched, third-party Minecraft servers you've joined,&#xD;&#xA;BakaSkins you've used, or mods you've installed).&#xD;&#xA;&#xD;&#xA;When this feature is turned off, BakaXL will stop recommending you and will not recommend you to others.&#xD;&#xA;If you turn referrals on after a period of time, it may take a while for&#xD;&#xA;BakaXL Network to completely stop recommending you to others.</Item>
+			<Item Key="Bakaverse_UserSettings_Privacy_FriendRecommend_Tips">BakaXL will recommend some like-minded friends to you based on &#xD;&#xA;your most recent game status  (e.g. modpack name launched,&#xD;&#xA; third-party Minecraft servers you've joined,BakaSkins you've used,&#xD;&#xA; or mods you've installed).&#xD;&#xA;&#xD;&#xA;When this feature is turned off, BakaXL will stop recommending&#xD;&#xA; you and will not recommend you to others.&#xD;&#xA;If you turn referrals on after a period of time, it may take a while for&#xD;&#xA;BakaXL Network to completely stop recommending you to others.</Item>
 
 			<Item Key="Bakaverse_UserSettings_Tips">Here you can view and modify some of your account settings.</Item>
 
@@ -770,7 +770,7 @@
 			<Item Key="BakaPlaza_ItemDetail_Sections_Source">Source</Item>
 			<Item Key="BakaPlaza_ItemDetail_Sections_CopyrightAndPrivacy">Copyright and Privacy</Item>
 			
-			<Item Key="BakaPlaza_ItemDetail_ReportItem">Report this to BakaXL</Item>
+			<Item Key="BakaPlaza_ItemDetail_ReportItem">Report to BakaXL</Item>
 
 			<Item Key="BakaPlaza_ItemDetail_Compatible_VersionWithCounts">This resource is compatiable with {1} version(s) including {0}. </Item>
 			<Item Key="BakaPlaza_ItemDetail_Compatible_WithSomething">This resource is compatiable with {0}. </Item>
@@ -1077,7 +1077,7 @@
 
 			<Item Key="Setting_Support_Tips">Welcome to BakaXL Settings! We are working to add more wonderful features for BakaXL! &#xD;&#xA;Some options not available are the features BakaXL 3.0 not develop completed. &#xA;Now, we're adjusting features in the interface according to your needs. Hope you can like it! </Item>
 			<Item Key="Setting_Support_Website">BakaXL Help and Support Website</Item>
-			<Item Key="Setting_Support_WebsiteTips">If you want to learn how to use BakaXL and its features, or get help, &#xD;&#xA;you can visit the BakaXL Help and Support Website with your computer or smart device. </Item>
+			<Item Key="Setting_Support_WebsiteTips">If you want to learn how to use BakaXL and its features,&#xD;&#xA; or get help, you can visit the BakaXL Help and Support Website&#xD;&#xA; with your computer or smart device. </Item>
 			<Item Key="Setting_Support_SafeUse">Safe Use Guidelines</Item>
 			<Item Key="Setting_Support_ErrorHistory">BakaCan History</Item>
 			<Item Key="Setting_Support_Troubleshooting">Troubleshooting Guide</Item>
@@ -1175,7 +1175,7 @@
 			<Item Key="Setting_Account_ManageCredential">Manage credential files used by third-party modpacks or servers</Item>
 			<Item Key="Setting_Account_ImportProfile">Import user profile from other launcher</Item>
 			<Item Key="Setting_Account_ExportProfile">Export BakaXL user profile to other launcher</Item>
-			<Item Key="Setting_Account_ProfileTips">After importing other launcher's settings, limited by it's security &#xA;restrictions, if you have a genuine Minecraft account, you have to enter &#xA;the login password again. If you export the user profile from BakaXL, the profile will delete from BakaXL. &#xD;&#xA;You may still need to set some contents after importing. </Item>
+			<Item Key="Setting_Account_ProfileTips">After importing other launcher's settings, limited by it's security &#xA;restrictions, if you have a genuine Minecraft account, you have to enter &#xA;the login password again. If you export the user profile from BakaXL, &#xA;the profile will delete from BakaXL. &#xD;&#xA;You may still need to set some contents after importing. </Item>
 
 			<Item Key="Setting_Account_BakaAccount_Title">BakaXL Account</Item>
 			<Item Key="Setting_Account_BakaAccount_Login">Sign in to a BakaXL Account</Item>
@@ -1306,10 +1306,10 @@
 			<Item Key="Setting_Java_JVM_Title">Java Virtual Machine</Item>
 			
 			<Item Key="Setting_Java_JVM_FullAuto">Let BakaXL automatically determine Java version</Item>
-			<Item Key="Setting_Java_JVM_FullAuto_Tips">When this option is enabled, BakaXL will automatically select the appropriate &#xD;&#xA;JVM version that's require to run Minecraft. Select the appropriate JVM version.&#xD;&#xA;If you do not have the correct JVM version installed, BakaXL will automatically &#xD;&#xA;install it for you.</Item>
+			<Item Key="Setting_Java_JVM_FullAuto_Tips">When this option is enabled, BakaXL will automatically select &#xD;&#xA;the appropriate JVM version that's require to run Minecraft.  &#xD;&#xA;Select the appropriateJVM version. If you do not have the correct JVM &#xD;&#xA;version installed, BakaXL will automatically install it for you.</Item>
 
 			<Item Key="Setting_Java_JVM_Selector">Please select the Java version</Item>
-			<Item Key="Setting_Java_JVM_Tips">To ensure the best experience possible, please always select the most optimal &#xD;&#xA;version of Java for the version of Minecraft you are playing.</Item>
+			<Item Key="Setting_Java_JVM_Tips">To ensure the best experience possible, please always select the &#xD;&#xA;most optimal version of Java for the version of Minecraft&#xD;&#xA; you are playing.</Item>
 
 			<Item Key="Setting_Java_JVM_Manual">Java Customization</Item>
 			<Item Key="Setting_Java_JVM_Info_CanUpgradeTo64Bit">Upgradable to 64-bit version</Item>
@@ -1325,18 +1325,18 @@
 			<Item Key="Setting_Java_JVM_Advance_AdvanceSearchPermission">More granular automatic finding of Java locations</Item>
 			<Item Key="Setting_Java_JVM_Advance_AdvanceSearchPermission_Tips">Authorize BakaXL to traverse folders on your computer's disk for Java locations&#xD;&#xA;that may not be found by normal searches.&#xD;&#xA;Before using this search method, please understand how this feature works.</Item>
 
-			<Item Key="Setting_Java_JVM_Advance_Tips">Under normal circumstances, BakaXL will automatically choose the most suitable Java for your current computer.&#xD;&#xA;If you don't know what are you doing, we recommend that you do not modify the value of this option.</Item>
+			<Item Key="Setting_Java_JVM_Advance_Tips">Under normal circumstances, BakaXL will automatically choose the&#xD;&#xA; most suitable Java for your current computer.&#xD;&#xA;If you don't know what are you doing,&#xD;&#xA; we recommend that you do not modify the value of this option.</Item>
 
 			<Item Key="Setting_Java_JVM_Download">Get Java 8</Item>
 			<Item Key="Setting_Java_JVM_Download_Tips">Java 8 is recommended for Minecraft running Minecraft 1.16 and lower.&#xD;&#xA;BakaXL will redirect to the Java 8 download address provided from a trusted download source.&#xD;&#xA;</Item>
 
 			<Item Key="Setting_Java_JVM16_Download">Get Java 16</Item>
-			<Item Key="Setting_Java_JVM16_Download_Tips">Java 16 is required to run Minecraft 1.17 or higher.&#xD;&#xA;BakaXL will automatically install Java 16 from trusted sources by connecting to the Internet.&#xD;&#xA;This process may take several minutes,&#xD;&#xA;and you may be charged for network data when using a billed internet connection.</Item>
+			<Item Key="Setting_Java_JVM16_Download_Tips">Java 16 is required to run Minecraft 1.17 or higher.&#xD;&#xA;BakaXL will automatically install Java 16 from &#xD;&#xA;trusted sources by connecting to the Internet.&#xD;&#xA;This process may take several minutes,&#xD;&#xA;and you may be charged for network data when using cellular data connection.</Item>
 			
 			<Item Key="Setting_Java_JVM17_Download">Get Java 17</Item>
-			<Item Key="Setting_Java_JVM17_Download_Tips">Java 17 is required to run Minecraft 1.17 or higher.&#xD;&#xA;BakaXL will automatically install Java 17 from trusted sources by connecting to the Internet.&#xD;&#xA;This process may take several minutes,&#xD;&#xA;and you may be charged for network data when using a billed internet connection.</Item>
+			<Item Key="Setting_Java_JVM17_Download_Tips">Java 17 is required to run Minecraft 1.17 or higher.&#xD;&#xA;BakaXL will automatically install Java 17 from trusted sources by connecting to the Internet.&#xD;&#xA;This process may take several minutes,&#xD;&#xA;and you may be charged for network data when using cellular data connection.</Item>
 
-			<Item Key="Setting_Java_JVM_AutoInstall_Tips">Java 8 is recommended for Minecraft version 1.16 and lower.&#xD;&#xA;Java 16 is required to run Minecraft version 1.17 or higher. &#xD;&#xA;BakaXL will connect to the internet to automatically install Java from trusted &#xD;&#xA;sources. This process may take several minutes and you may have to pay a fee &#xD;&#xA;if you use a billed internet connection.</Item>
+			<Item Key="Setting_Java_JVM_AutoInstall_Tips">Java 8 is recommended for Minecraft version 1.16 and lower.&#xD;&#xA;Java 16 is required to run Minecraft version 1.17 or higher. &#xD;&#xA;BakaXL will connect to the internet to automatically install Java  &#xD;&#xA;from trustedsources. This process may take several minutes and you &#xD;&#xA;may have to pay a fee when using cellular data connection.</Item>
 
 			<Item Key="Setting_Java_JVM_Installing_Pending">BakaXL is currently installing Java {0}...&#xD;&#xA;it will be displayed here when the installation progress is updated.</Item>
 			<Item Key="Setting_Java_JVM_Installing_ProgressChanged">BakaXL is currently installing Java {0}...&#xD;&#xA;Status: {1} </Item>
@@ -1361,7 +1361,7 @@
 
 			<Item Key="Setting_Java_Memory_AutoMemory">Automatically Configure Memory Settings</Item>
 			<Item Key="Setting_Java_Memory_AdvanceMemory">Advanced Memory Settings</Item>
-			<Item Key="Setting_Java_Memory_AdvanceMemory_Tips">BakaXL will normally allocate memory automatically based on your computer's &#xD;&#xA;configuration. If you don't understand what this option does, we recommend &#xD;&#xA;that you don't change these values.</Item>
+			<Item Key="Setting_Java_Memory_AdvanceMemory_Tips">BakaXL will normally allocate memory automatically based on &#xD;&#xA;your computer's configuration. If you don't understand what this &#xD;&#xA;option does, we recommend that you don't change these values.</Item>
 			<Item Key="Setting_Java_Memory_AdvanceMemory_ForceRelease">Force Release Memory</Item>
 			<Item Key="Setting_Java_Memory_AdvanceMemory_ForceRelease_Tips">Not recommended, BakaXL can attempt to force release memory to increase available memory.</Item>
 			<Item Key="Setting_Java_Memory_AdvanceMemory_ManualMemory">Manually Specify Memory Size</Item>
@@ -1374,13 +1374,13 @@
 			<Item Key="Setting_Language_TranslationTools">本地化实用工具 / Localization Utilities</Item>
 
 			<Item Key="Setting_Language_Selector_Watermark">Select the language used in your region</Item>
-			<Item Key="Setting_Language_Selector_Tips">BakaXL supports languages used by many countries and regions worldwide.&#xD;&#xA;This is all thanks to BakaXL users from all over the world. &#xD;&#xA;Until translated text is tested, it won't be available.</Item>
+			<Item Key="Setting_Language_Selector_Tips">BakaXL supports languages used by many countries&#xD;&#xA; and regions worldwide. This is all thanks to BakaXL users from &#xD;&#xA;all over the world. Until translated text is tested, it won't be available.</Item>
 
 			<Item Key="Setting_Language_JoinLocalization">Visit the localization project homepage</Item>
-			<Item Key="Setting_Language_JoinLocalization_Tips">Go to the BakaXL Localization Project homepage to get the latest text entries &#xD;&#xA;and participate as a translator.</Item>
+			<Item Key="Setting_Language_JoinLocalization_Tips">Go to the BakaXL Localization Project homepage to get the latest &#xD;&#xA;text entries and participate as a translator.</Item>
 
 			<Item Key="Setting_Language_Utilities_Debugger_Title">Temporarily Mount Localized Text</Item>
-			<Item Key="Setting_Language_Utilities_Debugger_Tips">Replace the display language with localized text from a specified file during &#xD;&#xA;this run. This will help translators debug text.&#xD;&#xA;&#xD;&#xA;Don't use this option if you don't know what it does.</Item>
+			<Item Key="Setting_Language_Utilities_Debugger_Tips">Replace the display language with localized text from &#xD;&#xA;a specified file during this run. This will help translators debug text.&#xD;&#xA;&#xD;&#xA;Don't use this option if you don't know what it does.</Item>
 			<Item Key="Setting_Language_Utilities_Debugger_Browser_Title">Select a BakaXL Language File</Item>
 			<Item Key="Setting_Language_Utilities_Debugger_Browser_Filter">BakaXL Language Files</Item>
 
@@ -1468,11 +1468,11 @@
 			<Item Key="Setting_Network_Environment_Retest">Retest</Item>
 
 			<Item Key="Setting_Network_Troubleshooting">Network Connections Troubleshooting</Item>
-			<Item Key="Setting_Network_Troubleshooting_Tips">If you cannot connect to the Mojang Authentication Server normally,&#xD;&#xA;Trying to change a DNS server that is stable and less prone to contamination usually resolves the issue.&#xA;&#xD;&#xA;If this problem persists, please contact your Internet Service Provider (ISP),&#xD;&#xA;also make sure your internet isn't hijacked.</Item>
+			<Item Key="Setting_Network_Troubleshooting_Tips">If you cannot connect to the Mojang Authentication Server normally,&#xD;&#xA;Trying to change a DNS server that is stable and less prone to &#xD;&#xA;contamination usually resolves the issue.&#xA;&#xD;&#xA;If this problem persists, please contact your &#xD;&#xA;Internet Service Provider (ISP), also make sure &#xD;&#xA;your internet isn't hijacked.</Item>
 
 			<Item Key="Setting_Advance_AdvLaunch_Title">Advanced Launch</Item>
-			<Item Key="Setting_Advance_AdvLaunch_Warn_1">If you're not sure what these options do, don't change these settings!</Item>
-			<Item Key="Setting_Advance_AdvLaunch_Warn_SettingMoved">Some settings have been moved to Advanced Core Settings, click me!</Item>
+			<Item Key="Setting_Advance_AdvLaunch_Warn_1">If you're not sure what these options do, don't change it!</Item>
+			<Item Key="Setting_Advance_AdvLaunch_Warn_SettingMoved">Some settings have been moved to Core Settings, Click me!</Item>
 			<Item Key="Setting_Advance_AdvLaunch_MinecraftTitle">Minecraft window title</Item>
 			<Item Key="Setting_Advance_AdvLaunch_MinecraftTitle_Tips">Sets the title of the Minecraft form launched by BakaXL.&#xD;&#xA;Parameters can be used in the header to display dynamic content.&#xD;&#xA;ex) {time}: Displays the current system time.</Item>
 			<Item Key="Setting_Advance_AdvLaunch_Args">Advanced Startup Parameters</Item>
@@ -1481,13 +1481,13 @@
 			<Item Key="Setting_Advance_AdvLaunch_AutoJoin_IPBox">Enter server address</Item>
 			<Item Key="Setting_Advance_AdvLaunch_AutoJoin_Tips">Automatically join the server after Minecraft starts and loads.</Item>
 			<Item Key="Setting_Advance_AdvLaunch_CheckVersionFolder">Pre-check if the game core directory exists</Item>
-			<Item Key="Setting_Advance_AdvLaunch_CheckVersionFolder_Tips">Check the .minecraft/versions/&lt;game core&gt; directory&#xD;&#xA;before launching the game, and cancel launching if this folder cannot be confirmed to exist.&#xD;&#xA;&#xD;&#xA;If the core directory exists and cannot be detected, please turn off this function.&#xD;&#xA;After turning it off, BakaXL will try to continue launching if it cannot confirm the existence of the folder,&#xD;&#xA;until the next time the existence of the core folder is confirmed.&#xD;&#xA;&#xD;&#xA;This may cause BakaXL to appear abnormal when launching the game, or even crash.&#xD;&#xA;This setting is not globally synced to other BakaXLs on your computer.</Item>
+			<Item Key="Setting_Advance_AdvLaunch_CheckVersionFolder_Tips">Check the .minecraft/versions/&lt;game core&gt; directory&#xD;&#xA;before launching the game, and cancel launching if this folder &#xD;&#xA;cannot be confirmed to exist.&#xD;&#xA;&#xD;&#xA;If the core directory exists and cannot be detected,&#xD;&#xA; please turn off this function.&#xD;&#xA;After turning it off, BakaXL will try to continue launching&#xD;&#xA; if it cannot confirm the existence of the folder,&#xD;&#xA;until the next time the existence of the core folder is confirmed.&#xD;&#xA;&#xD;&#xA;This may cause BakaXL to appear abnormal when launching the game,&#xD;&#xA; or even crash.&#xD;&#xA;This setting is not globally synced to other BakaXLs on your computer.</Item>
 
 			<Item Key="Setting_Advance_AdvLaunch_AutoFixJsonId">Auto fix Json with ID setting not conforming to spec</Item>
-			<Item Key="Setting_Advance_AdvLaunch_AutoFixJsonId_Tips">If BakaXL detects that a core ID item in the Json file is not set properly,&#xD;&#xA;will automatically attempt to fix it.&#xD;&#xA;&#xD;&#xA;In rare cases, automatic repair may cause an exception.&#xD;&#xA;After turning it off, BakaXL will only prompt you within the core selector when it detects bad Json.&#xD;&#xA;This setting is not globally synced to other BakaXLs on your computer.</Item>
+			<Item Key="Setting_Advance_AdvLaunch_AutoFixJsonId_Tips">If BakaXL detects that a core ID item in the Json file is not set properly,&#xD;&#xA;will automatically attempt to fix it.&#xD;&#xA;&#xD;&#xA;In rare cases, automatic repair may cause an exception.&#xD;&#xA;After turning it off, BakaXL will only prompt you within the &#xD;&#xA;core selector when it detects bad Json.&#xD;&#xA;This setting is not globally synced to other BakaXLs on your computer.</Item>
 
 			<Item Key="Setting_Advance_AdvLaunch_GCMethod">Custom Java GC</Item>
-			<Item Key="Setting_Advance_AdvLaunch_GCMethod_Tips">Sets the garbage collector (GC) to use when using Java 9 or later Java.&#xD;&#xA;This option has no effect if your Java version is lower than Java 9.&#xD;&#xA;&#xD;&#xA;&quot;Z garbage collector(ZGC)&quot;Only available with Java 11 or higher, using this recycler with the wrong&#xD;&#xA;Java version will cause the game to fail to launch.&#xD;&#xA;&#xD;&#xA;If you don't know what this does, just leave it  &quot;Default&quot;.</Item>
+			<Item Key="Setting_Advance_AdvLaunch_GCMethod_Tips">Sets the garbage collector (GC) to use when using Java 9 or later Java.&#xD;&#xA;This option has no effect if your Java version is lower than Java 9.&#xD;&#xA;&#xD;&#xA;&quot;Z garbage collector(ZGC)&quot;Only available with Java 11 or higher, &#xD;&#xA;using this recycler with the wrong&#xD;&#xA;Java version will cause the game to fail to launch.&#xD;&#xA;&#xD;&#xA;If you don't know what this does, just leave it  &quot;Default&quot;.</Item>
 			
 			<Item Key="Setting_Advance_GameResolution_Title">Minecraft Windows Size</Item>
 			<Item Key="Setting_Advance_GameResolution_SelectWindowSize">Select Window Size</Item>
@@ -1501,13 +1501,13 @@
 
 			<Item Key="Setting_Advance_Reset_Title">RESET</Item>
 			<Item Key="Setting_Advance_Reset_Btn_Title">Restore default settings</Item>
-			<Item Key="Setting_Advance_Reset_Btn_Tips">If you think you messed up something, you can restore all advanced options to their default values.</Item>
+			<Item Key="Setting_Advance_Reset_Btn_Tips">If you think you messed up something, you can restore &#xD;&#xA;all advanced options to their default values.</Item>
 
 			<Item Key="Setting_Personalize_Background_Title">BakaXL Background</Item>
 			<Item Key="Setting_Personalize_Background_Browse_Btn">Set background image</Item>
-			<Item Key="Setting_Personalize_Background_Default_Btn">Restore default background (also resets transparency settings)</Item>
+			<Item Key="Setting_Personalize_Background_Default_Btn">Restore default background (Include transparency settings)</Item>
 			<Item Key="Setting_Personalize_Background_Clear_Btn">Enable transparency</Item>
-			<Item Key="Setting_Personalize_Background_Browse_Btn_Tips">Sets the image displayed in the background of the BakaXL window.&#xD;While your image will not be uploaded, we recommend that you don't use any images that contain elements that may be &#xD;considered inappropriate.</Item>
+			<Item Key="Setting_Personalize_Background_Browse_Btn_Tips">Sets the image displayed in the background of the BakaXL window.&#xD;While your image will not be uploaded, we recommend that&#xD; you don't use any images that contain elements that may be &#xD;considered inappropriate.</Item>
 			<Item Key="Setting_Personalize_Background_CustomImage_Title">Select a custom background image</Item>
 			<Item Key="Setting_Personalize_Background_CustomImage_Filter">Image Files</Item>
 
@@ -1516,19 +1516,19 @@
 			<Item Key="Setting_Personalize_Background_AcrylicType_Default">Acrylic</Item>
 			<Item Key="Setting_Personalize_Background_AcrylicType_Blur">Rough Glass</Item>
 			<Item Key="Setting_Personalize_Background_AcrylicManual">Manually set blur level</Item>
-			<Item Key="Setting_Personalize_Background_AcrylicTips">The background blur effect allows BakaXL to blur the content of the background, creating a comfortable and non-conflicting &#xD;visual experience.&#xD;&#xD;The blur level cannot be manually adjusted when using a live background or if there is no background image.&#xD;Windows 10 is required to use blur effects.</Item>
+			<Item Key="Setting_Personalize_Background_AcrylicTips">The background blur effect allows BakaXL to blur the content &#xD;of the background, creating a comfortable and non-conflicting &#xD;visual experience.&#xD;&#xD;The blur level cannot be manually adjusted when using a&#xD; live background or if there is no background image.&#xD;Windows 10 or higher is required to use blur effects.</Item>
 
 			<Item Key="Setting_Personalize_Background_LiveBackground">Live Background (Experimental)</Item>
-			<Item Key="Setting_Personalize_Background_LiveBackground_Tips">Bind additional overlays at the bottom of BakaXL to display advanced dynamic backgrounds.&#xD;Display dynamic backgrounds linked by BakaXL x Wallpaper Engine.&#xD;&#xD;This feature does not work properly in some resolutions and DPI scaling environments.&#xD;If you are not currently using Wallpaper Engine, BakaXL will use your&#xD;desktop wallpaper.</Item>
+			<Item Key="Setting_Personalize_Background_LiveBackground_Tips">Bind additional overlays at the bottom of BakaXL to&#xD; display advanced dynamic backgrounds.&#xD;Display dynamic backgrounds linked by BakaXL x Wallpaper Engine.&#xD;&#xD;This feature does not work properly in some resolutions and&#xD; DPI scaling environments.&#xD;If you are not currently using Wallpaper Engine, BakaXL will use your&#xD;desktop wallpaper.</Item>
 
 			<Item Key="Setting_Personalize_Background_CustomWindowSize">Custom BakaXL Window Size (Experimental)</Item>
-			<Item Key="Setting_Personalize_Background_CustomWindowSize_Tips">Turning this option on will allow the BakaXL window to be resized.&#xD;Experimental feature, some of BakaXL's interface and functions have not yet adapted to larger form sizes.&#xD;Some functions may not work properly.</Item>
+			<Item Key="Setting_Personalize_Background_CustomWindowSize_Tips">Turning this option on will allow the BakaXL window to be resized.&#xD;Experimental feature, some of BakaXL's interface and functions &#xD;have not yet adapted to larger form sizes.&#xD;Some functions may not work properly.</Item>
 
 			<Item Key="Setting_Personalize_Background_Parallax">Background Image Parallax</Item>
 			<Item Key="Setting_Personalize_Background_Parallax_Mode">Parallax mode</Item>
 			<Item Key="Setting_Personalize_Background_Parallax_Mode_Flat">Flat</Item>
 			<Item Key="Setting_Personalize_Background_Parallax_Mode_3D">3D(Experimental)</Item>
-			<Item Key="Setting_Personalize_Background_Parallax_Tips">Make the background image move with the cursor to create a parallax effect.&#xD;When this feature is turned on, BakaXL will slightly enlarge the current background image.&#xD;&#xD;This feature is not available when using the Live Background or Default background.</Item>
+			<Item Key="Setting_Personalize_Background_Parallax_Tips">Make the background image move with the cursor to create &#xD;a parallax effect. When this feature is turned on, BakaXL will slightly&#xD; enlarge the current background image.&#xD;&#xD;This feature is not available when using the Live Background &#xD;or Default background.</Item>
 
 			<Item Key="Setting_Personalize_Color">Coloring Scheme</Item>
 			<Item Key="Setting_Personalize_Color_Title">BakaXL Color Scheme</Item>
@@ -1537,7 +1537,7 @@
 			<Item Key="Setting_Personalize_Color_Tips">Sets the color scheme used by BakaXL forms and buttons.</Item>
 
 			<Item Key="Setting_Personalize_Tema_Title">BakaSkin</Item>
-			<Item Key="Setting_Personalize_Tema_Tips">BakaSkin is a packaged file with personalized settings,&#xD;allows you to save the color scheme, background and music sound effects, and share the personalized settings with your friends.&#xD;&#xD;BakaSkins are stored separately in the runtime directory of each BakaXL instance,&#xD;the BakaSkins that have been set to take effect will be synchronized on this computer.</Item>
+			<Item Key="Setting_Personalize_Tema_Tips">BakaSkin is a packaged file with personalized settings,&#xD;allows you to save the color scheme, background and &#xD;music sound effects, and share the personalized settings&#xD; with your friends.&#xD;&#xD;BakaSkins are stored separately in the runtime directory of &#xD;each BakaXL instance, the BakaSkins that have been set to take effect&#xD; will be synchronized on this computer.</Item>
 			
 			<Item Key="Setting_Personalize_Tema_Patch">Save current personalization settings as BakaSkin</Item>
 			
@@ -1569,14 +1569,14 @@
 
 			<Item Key="Setting_Personalize_Tema_Patcher_Desc">Description</Item>
 			<Item Key="Setting_Personalize_Tema_Patcher_Desc_Watermark">Bakaskin Description</Item>
-			<Item Key="Setting_Personalize_Tema_Patcher_Desc_Tips">When BakaSkin loaded, the description will be displayed in the BakaSkin list.&#xD;Please don't include anything that makes others uncomfortable.&#xD;&#xD;When using background images and background music not created by you, please indicate the image creator,&#xD;source, music composer, singer, album title, etc.</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_Desc_Tips">When BakaSkin loaded, the description will be displayed&#xD;&#xA; in the BakaSkin list.&#xD;Please don't include anything that makes others uncomfortable.&#xD;&#xD;When using background images and background music not &#xD;&#xA;created by you, please indicate the image creator,&#xD;source, music composer, singer, album title, etc.</Item>
 
 			<Item Key="Setting_Personalize_Tema_Patcher_Icon">Icon</Item>
 			<Item Key="Setting_Personalize_Tema_Patcher_Icon_BtnTitle">Select Icon</Item>
-			<Item Key="Setting_Personalize_Tema_Patcher_Icon_Tips">BakaXL will display this icon in the BakaSkin list.&#xD;It is suggested that the icon should match the theme and should not contain sextual content &#xD;or anything that would make others uncomfortable.</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_Icon_Tips">BakaXL will display this icon in the BakaSkin list.&#xD;It is suggested that the icon should match the theme and &#xD;&#xA;should not contain sextual content &#xD;or anything that would make others uncomfortable.</Item>
 
 			<Item Key="Setting_Personalize_Tema_Patcher_Music">Background Music</Item>
-			<Item Key="Setting_Personalize_Tema_Patcher_Music_Tips">After loading BakaSkin, BakaXL will play background music in following interfaces.&#xD; · Global: Loop only the main background music in any interface&#xD; · Split: Play different background music in &quot;BakaXL Settings&quot; and &quot;BakaXL Tips&quot;&#xD;&#xD;Right-click the corresponding button to preview the set background music.&#xD;To preview the music effect, BakaXL will automatically turns on the background music.</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_Music_Tips">After loading BakaSkin, BakaXL will play background music in &#xD;&#xA;following interfaces.&#xD; · Global: Loop only the main background music in any interface&#xD; · Split: Play different background music in &quot;BakaXL Settings&quot;&#xD;&#xA; and &quot;BakaXL Tips&quot;&#xD;&#xD;Right-click the corresponding button to preview the&#xD;&#xA; background music you choosed.&#xD;To preview the music effect, BakaXL will automatically turns on&#xD;&#xA; the background music.</Item>
 
 			<Item Key="Setting_Personalize_Tema_Patcher_Music_Selector_Title">Select a music file</Item>
 			<Item Key="Setting_Personalize_Tema_Patcher_Music_Selector_Filter">Music format</Item>
@@ -1591,10 +1591,10 @@
 			<Item Key="Setting_Personalize_Tema_Patcher_Music_Pos_Unset">Not yet set</Item>
 
 			<Item Key="Setting_Personalize_Tema_Patcher_SoundEffects">Sound Effect</Item>
-			<Item Key="Setting_Personalize_Tema_Patcher_SoundEffects_Unsupported_Tips">The current version of BakaSkin does not support custom sound effects.</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_SoundEffects_Unsupported_Tips">The current version of BakaSkin does not support &#xD;&#xA;custom sound effects.</Item>
 
 			<Item Key="Setting_Personalize_Tema_Patcher_CustomColor">Custom Color Scheme</Item>
-			<Item Key="Setting_Personalize_Tema_Patcher_CustomColor_Unsupported_Tips">The current version of BakaSKin does not support the custom color scheme feature.</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_CustomColor_Unsupported_Tips">The current version of BakaSKin does not support the custom &#xD;&#xA;color scheme feature.</Item>
 
 			<Item Key="Setting_Personalize_Tema_Patcher_Creator">Creator</Item>
 			<Item Key="Setting_Personalize_Tema_Patcher_Creator_UseAs">BakaXL will use {0} as this BakaSkin Creator.</Item>
@@ -1606,36 +1606,36 @@
 			<Item Key="Setting_Personalize_Tema_Patcher_Creator_SetProfile_Selector_Title">Set the creator for this BakaSkin</Item>
 
 			<Item Key="Setting_Personalize_Tema_Patcher_Safety_Legal">Safety and Health, Copyright Protection and Disclaimer</Item>
-			<Item Key="Setting_Personalize_Tema_Patcher_Safety_Legal_Content">When using the BakaSkin system, be sure to pay attention to the license of the resources you use.&#xD;Please do not use content from unknown sources.&#xD;&#xD;You should and must credit the source of background images, icons, and music used in your theme&#xD;and creator information.&#xD;&#xD;You may not use BakaSkins containing unauthorized content&#xD;from third parties for any commercial purpose.&#xD;&#xD;For the physical and mental health of theme users and the protection of underages.&#xD;BakaXL does not recommend that you use any elements or content that contain eroticism or cause discomfort to others.&#xD;&#xD;You are not allowed to produce and disseminate any topics that violate national laws and related policies.&#xD;BakaXL will take relevant measures to prohibit the loading or distribution of politically charged BakaSkins.&#xD;In the event of the above, BakaXL has the right in accordance with the Privacy Policy&#xD; to provide your information to public or government agencies to assist in investigations.&#xD;&#xD;If you create a BakaSkin through this page, it means that you have read and understand that you will be responsible for&#xD;problems or potential legal consequences that may arise from making or sharing the BakaSkin,&#xD;BakaXL and its development team will not be responsible.&#xD;&#xD;BakaXL takes steps to protect creators' copyrights if BakaXL receives a request from a creator &#xD;indicating that a particular BakaSkin contains content from their &#xD;creation without the relevant authorization,&#xD;BakaXL will restrict users from distributing or using BakaSkin.&#xD;&#xD;You can always view full version of this policy on the official BakaXL website.</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_Safety_Legal_Content">When using the BakaSkin system, be sure to pay attention &#xD;&#xA;to the license of the resources you use.&#xD;Please do not use content from unknown sources.&#xD;&#xD;You should and must credit the source of background images,&#xD;&#xA; icons, and music used in your theme&#xD;and creator information.&#xD;&#xD;You may not use BakaSkins containing unauthorized content&#xD;from third parties for any commercial purpose.&#xD;&#xD;For the physical and mental health of theme users and the &#xD;&#xA;protection of underages.&#xD;BakaXL does not recommend that you use any elements or&#xD;&#xA; content that contain sexual contents or cause discomfort to others.&#xD;&#xD;You are not allowed to produce and disseminate any topics&#xD;&#xA; that violate national laws and related policies.&#xD;BakaXL will take relevant measures to prohibit the loading or&#xD;&#xA; distribution of politically charged BakaSkins.&#xD;In the event of the above, BakaXL has the right in accordance with &#xD;&#xA;the Privacy Policy to provide your information to public or &#xD;&#xA;government agencies to assist in investigations.&#xD;&#xD;If you create a BakaSkin through this page, it means that you have &#xD;&#xA;read and understand that you will be responsible for&#xD;problems or potential legal consequences that may arise from&#xD;&#xA; making or sharing the BakaSkin,&#xD;BakaXL and its development team &#xD;&#xA;will not be responsible.&#xD;&#xD;BakaXL takes steps to protect creators' copyrights if BakaXL&#xD;&#xA; receives a request from a creator indicating that a particular&#xD;&#xA; BakaSkin contains content from their creation without the&#xD;&#xA; relevant authorization,&#xD;BakaXL will restrict users from distributing or using BakaSkin.&#xD;&#xD;You can always view full version of this policy on official BakaXL website.</Item>
 			<Item Key="Setting_Personalize_Tema_Patcher_Safety_Legal_Btn">Read full BakaSkin system usage policy</Item>
 
 			<Item Key="Setting_Personalize_Tema_Patcher_Export">Export BakaSkin</Item>
 			<Item Key="Setting_Personalize_Tema_Patcher_Export_Btn">Pack &amp; Export BakaSkin</Item>
-			<Item Key="Setting_Personalize_Tema_Patcher_Export_Tips">Exporting a theme means that you have read and understood the BakaSkin system usage policy.&#xD;BakaSkin will be exported to the BakaXL instance's &quot;BakaXL\Tema&quot; folder.</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_Export_Tips">Exporting a theme means that you have read and understood the&#xD;&#xA; BakaSkin system usage policy.&#xD;BakaSkin will be exported to the BakaXL instance's&#xD;&#xA; &quot;BakaXL\Tema&quot; folder.</Item>
 
-			<Item Key="Setting_Accessibility_Info">&quot;Accessibility&quot; Allows you to customize the functions of BakaXL according to your personal needs&#xD;to meet different usage conditions.</Item>
+			<Item Key="Setting_Accessibility_Info">&quot;Accessibility&quot; Allows you to customize the functions of BakaXL &#xD;according to your personal needsto meet different&#xD; usage conditions.</Item>
 			<Item Key="Setting_Accessibility_Vision_Title">Vision</Item>
 			<Item Key="Setting_Accessibility_Home_DisplayMode_Btn">Home screen display mode</Item>
-			<Item Key="Setting_Accessibility_Home_DisplayMode_Tips">&quot;Home screen display mode&quot; will determine whether or not the BakaXL home page displays all tiles and features.&#xD; · Standard: Home screen does not show start menu and feature tiles by default &#xD; · Traditional: Home screen will always show the start menu and feature tiles&#xD;&#xD;While using Standard mode, you need to press the space or click the blank space of the main screen&#xD;and drag up to enter the Start Menu.</Item>
+			<Item Key="Setting_Accessibility_Home_DisplayMode_Tips">&quot;Home screen display mode&quot; will determine whether or not the &#xD;BakaXL home page displays all tiles and features.&#xD; · Standard: Home screen does not show start menu and feature tiles &#xD;by default &#xD; · Traditional: Home screen will always show the start menu and &#xD;feature tiles&#xD;&#xD;While using Standard mode, you need to press the space or click the&#xD; blank space of the main screen and drag up to enter the Start Menu.</Item>
 			<Item Key="Setting_Accessibility_Home_SelectCore_Btn">Toggle &quot;Core&quot; Tile</Item>
-			<Item Key="Setting_Accessibility_Home_SelectCore_Tips">&quot;Toggle &quot;Core&quot; Tile&quot; Will determine whether the &quot;Core&quot; tile is displayed in the start menu or not.&#xD;&#xD;You can always switch cores with a quick interaction from the launch bar.&#xD;See &quot;Quick Switch Core&quot;.</Item>
+			<Item Key="Setting_Accessibility_Home_SelectCore_Tips">&quot;Toggle &quot;Core&quot; Tile&quot; Will determine whether the &quot;Core&quot; tile is &#xD;displayed in the start menu or not.&#xD;&#xD;You can always switch cores with a quick interaction from&#xD; the launch bar.&#xD;See &quot;Quick Switch Core&quot;.</Item>
 			
 			<Item Key="Setting_Accessibility_Interaction_Title">Interaction</Item>
 			<Item Key="Setting_Accessibility_SwitchCore_InteractMode_Btn">Quick Switch Core</Item>
-			<Item Key="Setting_Accessibility_SwitchCore_InteractMode_Tips">&quot;Quick Switch Core&quot; Provides an operation to quickly switch Minecraft cores on the launch bar&#xD; · Standard: Don't show extra toggle core button on launch bar &#xD; · Traditional: Display a extra button to switch cores on the launch bar&#xD;&#xD;While using standard mode, you need to switch cores by dragging the &quot;Launch!&quot; button.</Item>			
+			<Item Key="Setting_Accessibility_SwitchCore_InteractMode_Tips">&quot;Quick Switch Core&quot; Provides an operation to quickly switch &#xD;Minecraft cores on the launch bar&#xD; · Standard: Don't show extra toggle core button on launch bar &#xD; · Traditional: Display a extra button to switch cores on the launch bar&#xD;&#xD;While using standard mode, you need to switch cores by &#xD;dragging the &quot;Launch!&quot; button.</Item>			
 
-			<Item Key="Setting_Audio_BGM_Title">Background Music</Item>
+			<Item Key="Setting_Audio_BGM_Title">Background Music(BGM)</Item>
 			<Item Key="Setting_Audio_BGM_Btn_Title">BakaXL Background Music</Item>
-			<Item Key="Setting_Audio_BGM_LostFocusBehaviorBtn">Automatically stop background music when losing focus</Item>
-			<Item Key="Setting_Audio_BGM_Tips">The BakaSkin you currently set up provides the BakaSkin background music for playback.&#xD;&#xA;When this option is off, BakaXL will turn off all background music in the interface.</Item>
+			<Item Key="Setting_Audio_BGM_LostFocusBehaviorBtn">Automatically stop BGM when losing focus</Item>
+			<Item Key="Setting_Audio_BGM_Tips">The BakaSkin you currently set up provides the BakaSkin background &#xD;music for playback.&#xD;&#xA;When this option is off, BakaXL will turn off all background music &#xD;in the interface.</Item>
 
 			<Item Key="Setting_Audio_SE_Title">Sound Effect</Item>
 			<Item Key="Setting_Audio_SE_Btn_Title">BakaXL Sound Effect</Item>
-			<Item Key="Setting_Audio_SE_Btn_Tips">BakaXL will use sound effects if your current BakaSkin includes sound packs.&#xD;&#xA;When this option is off, BakaXL will turn off all sound effects in the interface.</Item>
+			<Item Key="Setting_Audio_SE_Btn_Tips">BakaXL will use sound effects if your current BakaSkin &#xD;includes sound packs.&#xD;&#xA;When this option is off, BakaXL will turn off all sound effects &#xD;in the interface.</Item>
 
 			<Item Key="Setting_Audio_EarProtection_Title">Hearing Protection</Item>
 			<Item Key="Setting_Audio_EarProtection_Btn_Title">Lower the volume when using headphones</Item>
-			<Item Key="Setting_Audio_EarProtection_Btn_Tips">When this option is on, BakaXL will reduce the output volume of all audio controls.&#xD;&#xA;This option can be turned off if the volume of the BakaXL is still very low even when adjusted to maximum.&#xD;&#xA;&#xD;&#xA;When using headphones, please avoid listening at high volume. Excessive volume will cause poor hearing.&#xD;&#xA;When you use headphones, adjust the volume to a level where you can hear surrounding sounds through the headphones.</Item>
+			<Item Key="Setting_Audio_EarProtection_Btn_Tips">When this option is on, BakaXL will reduce the output volume of&#xD; all audio controls.&#xD;&#xA;This option can be turned off if the volume of the BakaXL is still &#xD;very low even when adjusted to maximum.&#xD;&#xA;&#xD;&#xA;When using headphones, please avoid listening at high volume. &#xD;Excessive volume will cause poor hearing.&#xD;&#xA;When you use headphones, adjust the volume to a level where you &#xD;can hear surrounding sounds through the headphones.</Item>
 
 			<Item Key="Setting_Audio_AutoControl_Behavior_Auto">Auto</Item>
 			<Item Key="Setting_Audio_AutoControl_Behavior_Mute">Mute</Item>
@@ -1644,7 +1644,7 @@
 			<Item Key="Setting_Audio_AutoControl_Title">Automatic volume control</Item>
 			<Item Key="Setting_Audio_AutoControl_MainBtn_Title">Automatically detect music player software</Item>
 			<Item Key="Setting_Audio_AutoControl_BehaviorBtn_Title">Volume Control Behavior</Item>
-			<Item Key="Setting_Audio_AutoControl_Tips">When BakaXL starts, it will detect whether there is any audio output software running on the current computer.&#xA;(Such as music players, voice chat software, etc.)&#xA;When there is audio playing, BakaXL will automatically turn off or reduce the volume of the background music depends what are you doing.&#xA;To restore the original volume level, simply hold down Ctrl and scroll the mouse wheel.</Item>
+			<Item Key="Setting_Audio_AutoControl_Tips">When BakaXL starts, it will detect whether there is any &#xD;audio output software running on the current computer.&#xA;(Such as music players, voice chat software, etc.)&#xA;When there is audio playing, BakaXL will automatically turn off &#xD;or reduce the volume of the background music depends &#xD;what are you doing.&#xA;To restore the original volume level, simply hold down Ctrl and &#xD;scroll the mouse wheel.</Item>
 
 			<Item Key="Setting_Download_Source_Title">Download Source</Item>
 			<Item Key="Setting_Download_Source_BMCLAPI_Btn_Title">Use mirror source in mainland China</Item>
@@ -1657,7 +1657,7 @@
 			<Item Key="Setting_Download_Source_BMCLAPI_Traditional">BMCLAPI (Traditional)</Item>
 			<Item Key="Setting_Download_Source_BMCLAPI_MCBBS">BMCLAPI (MCBBS)</Item>
 
-			<Item Key="Setting_Download_Source_BMCLAPI_Tips">Use BMCLAPI from bangbang93 to speed up resource downloads for BakaXL.(In China)&#xD;&#xA;To learn more about BMCLAPI, see:&#xD;&#xA;https://bmclapidoc.bangbang93.com/</Item>
+			<Item Key="Setting_Download_Source_BMCLAPI_Tips">Use BMCLAPI from bangbang93 to speed up resource downloads&#xD; for BakaXL.(In China)&#xD;&#xA;To learn more about BMCLAPI, see:&#xD;&#xA;https://bmclapidoc.bangbang93.com/</Item>
 
 			<Item Key="Setting_Download_Advance">Advanced</Item>
 
@@ -1667,31 +1667,31 @@
 			<Item Key="Setting_Download_Worker_Type_Fast">Fast (128 Threads / Retry Once)</Item>
 			<Item Key="Setting_Download_Worker_Type_Extreme">Very Fast (512 Threads / Do not Retry)</Item>
 			<Item Key="Setting_Download_Worker_Type_LaunchMode">Launch Mode (2048 Threads / Do not Retry)</Item>
-			<Item Key="Setting_Download_Worker_Tips">When waiting for a long time for BakaXL to complete Minecraft resources,&#xD;&#xA;change this option according to your network and desktop configuration.&#xD;&#xA;Attempting to re-download when the download fails will consume more time,&#xD;&#xA;try adjusting the number of retrys.&#xD;&#xA;&#xD;&#xA;While using&quot;Launch Mode&quot;,will stop updating the status of the download (e.g. download percentage)&#xD;&#xA;&#xD;&#xA;The theoretical speed is not achieved in all cases. (maybe even slower)&#xD;&#xA;Please choose according to the network and desktop configuration.</Item>
+			<Item Key="Setting_Download_Worker_Tips">When waiting for a long time for BakaXL to complete &#xD;&#xA;Minecraft resources,&#xD;&#xA;change this option according to your network and &#xD;&#xA;desktop configuration.&#xD;&#xA;Attempting to re-download when the download fails will &#xD;&#xA;use more time, try adjusting the number of retrys.&#xD;&#xA;&#xD;&#xA;While using&quot;Launch Mode&quot;,will stop updating the status &#xD;&#xA;of the download (e.g. download percentage)&#xD;&#xA;&#xD;&#xA;The theoretical speed is not achieved in all cases. (maybe even slower)&#xD;&#xA;Please choose according to the network and desktop configuration.</Item>
 
 			<Item Key="Setting_Download_Service_Providor">Service Provider</Item>
 			<Item Key="Setting_Download_Service_Providor_MCBBS_Tips">Some of BakaXL's files use the file download service &#xD;&#xA;provided by Minecraft Chinese Forum(McBBS)&#xD;&#xA;See: https://www.mcbbs.net/</Item>
 
 			<Item Key="Setting_Plaza_Setting_Title">BakaPlaza Settings</Item>
 			<Item Key="Setting_Plaza_Setting_CellularNetwork">Cellular Data Saver</Item>
-			<Item Key="Setting_Plaza_Setting_CellularNetwork_Tips">Turn on when using a cellular data connection,&#xD;&#xA;When turned on, BakaPlaza will ask you and reduce the clarity of video playback before playback.&#xD;&#xA;Not all videos available in BakaPlaza supports reduced definition playback.</Item>
+			<Item Key="Setting_Plaza_Setting_CellularNetwork_Tips">Turn on when using a cellular data connection,&#xD;&#xA;When turned on, BakaPlaza will ask you and reduce the clarity of&#xD;&#xA; video playback before playback.&#xD;&#xA;Not all videos available in BakaPlaza supports reduced &#xD;&#xA;definition playback.</Item>
 
 			<Item Key="Setting_Protocol_Btn_Title">BakaXL Protocol</Item>
-			<Item Key="Setting_Protocol_Btn_Tips">The BakaXL protocol allows you to quickly launch BakaXL through a button provided by the website.&#xD;&#xA;Depending on the parameters provided by the website buttons, BakaXL can directly activate certain built-in functions.&#xD;&#xA;See BakaXL Developer Center to learn how to integrate your website into the BakaXL protocol.</Item>
+			<Item Key="Setting_Protocol_Btn_Tips">The BakaXL protocol allows you to quickly launch BakaXL through &#xD;&#xA;a button provided by the website.&#xD;&#xA;Depending on the parameters provided by the website buttons, &#xD;&#xA;BakaXL can directly activate certain built-in functions.&#xD;&#xA;See BakaXL Developer Center to learn how to integrate your website&#xD;&#xA; into the BakaXL protocol.</Item>
 
 			<Item Key="Setting_Insider_Desc">Introduction</Item>
-			<Item Key="Setting_Insider_Info">BakaXL comes to a new version! Thanks to all of the members who joined the&#xD;&#xA;BakaXL Insider Preview Program. Without their help, we wouldn't be able to &#xD;&#xA;make BakaXL as great as it is. &#xD;&#xA;&#xD;&#xA;Now you too can join us in making BakaXL even better.&#xD;&#xA;&#xD;&#xA;Join the BakaXL Insider Preview Program now! Get early access and help &#xD;&#xA;provide feedback.</Item>
-			<Item Key="Setting_Insider_Warn_1">The features in the BakaXL Insider Preview are for preview purposes &#xD;&#xA;only and may be removed or changed in the future without notice.</Item>
-			<Item Key="Setting_Insider_Warn_2">The Preview version of BakaXL lacks necessary features and functions, &#xD;&#xA;please do not add it to packages for sharing.</Item>
+			<Item Key="Setting_Insider_Info">BakaXL comes to a new version! Thanks to all of the members &#xD;&#xA;who joined BakaXL Insider Preview Program. Without their help, &#xD;&#xA;we wouldn't be able to make BakaXL as great as it is. &#xD;&#xA;&#xD;&#xA;Now you too can join us in making BakaXL even better.&#xD;&#xA;&#xD;&#xA;Join the BakaXL Insider Preview Program now! Get early access &#xD;&#xA;and help provide feedback.</Item>
+			<Item Key="Setting_Insider_Warn_1">Features in BakaXL Insider Preview are for PREVIEW only &#xD;&#xA;and may removed or changed in future without notice.</Item>
+			<Item Key="Setting_Insider_Warn_2">The Preview version of BakaXL lacks key features and functions, &#xD;&#xA;please do not add it to modpack for sharing.</Item>
 			<Item Key="Setting_Insider_Desc">Introduction</Item>
 			<Item Key="Setting_Insider_TunnelTitle">Change Update Channel</Item>
 			<Item Key="Setting_Insider_CurrentTunnel">Current Channel</Item>
-			<Item Key="Setting_Insider_TunnelDescription">We've introduced a new update channel mechanism for BakaXL, which means &#xD;&#xA;you can get updates more often!&#xA;&#xD;&#xA;Currently, we offer two channels for the BakaXL Insider Program:&#xD;&#xA;Pigeon Channel(The main evaluation version, providing the most stable feature updates in the near future)&#xD;&#xA;Parrot Channel(Daily real-time updates, providing the latest updates to the BakaXL code repository)&#xD;&#xA;&#xD;&#xA;CAUTION: Parrot channel contains a lot of early undeveloped and cleaned up features and is subject to change,&#xD;&#xA; do not rely on this channel.</Item>
+			<Item Key="Setting_Insider_TunnelDescription">We've introduced a new update channel mechanism for BakaXL, &#xD;&#xA;which means you can get updates more often!&#xA;&#xD;&#xA;Currently, we offer two channels for the BakaXL Insider Program:&#xD;&#xA;Pigeon Channel (The main evaluation version, providing &#xD;&#xA;the most stable feature updates in the near future)&#xD;&#xA;Parrot Channel (Daily real-time updates, providing the latest updates&#xD;&#xA; to the BakaXL code repository)&#xD;&#xA;&#xD;&#xA;CAUTION: Parrot channel contains a lot of early undeveloped and &#xD;&#xA;cleaned up features and is subject to change,&#xD;&#xA; do not rely on this channel.</Item>
 			<Item Key="Setting_Insider_TunnelSelection">Select a preview channel</Item>
 			<Item Key="Setting_Insider_ChangeTunnel_Btn">Change</Item>
 			<Item Key="Setting_Insider_StartBtn_Title">Start</Item>
 			<Item Key="Setting_Insider_LatestVersion">(Insider Preview Build on current channel: {0})</Item>
-			<Item Key="Setting_Insider_Requirement">Your computer needs to have .Net Framework 4.5 installed to run BakaXL 3.0.&#xA;Using the Insider version of BakaXL 3.0 requires you to use Windows 7 or higher.&#xA;It is recommended that you use the Windows 10 operating system to experience the full functionality of BakaXL 3.0.&#xA;&#xA;BakaXL 3.0 no longer supports the Windows XP operating system.</Item>
+			<Item Key="Setting_Insider_Requirement">Your computer needs to have .Net Framework 4.5 installed to run BakaXL 3.0.&#xA;Using the Insider version of BakaXL 3.0 requires you to use Windows 7 &#xA;or higher. &#xA;It is recommended that you use the Windows 10 operating system to &#xA;experience the full functionality of BakaXL 3.0.&#xA;&#xA;BakaXL 3.0 no longer supports the Windows XP operating system.</Item>
 
 			<Item Key="Setting_Sponsor_GoAfdian">Support the developer now with Afdian</Item>
 			<Item Key="Setting_Sponsor_List_Title">Sponsor List</Item>
@@ -2178,32 +2178,32 @@
 			<Item Key="Installer_InstallTaskStatus_Failed">Failed</Item>
 			<Item Key="Installer_InstallTaskStatus_Successful">Successed</Item>
 			
-			<Item Key="Installer_InstallTaskStatus_PrepareInstaller_Tips">BakaXL will start installing the game core that you choosed.&#xD;&#xA;Please wait for a while and do not disconnect from the internet or turn off BakaXL during this time.</Item>
+			<Item Key="Installer_InstallTaskStatus_PrepareInstaller_Tips">BakaXL will start installing the game core that you choosed.&#xD;&#xA;Please wait for a while and do not disconnect from the internet &#xD;&#xA;or turn off BakaXL during this time.</Item>
 			
-			<Item Key="Installer_InstallTaskStatus_DownloadMinecraft_Tips">BakaXL is downloading {0}.&#xD;&#xA;Please sit and relax, do not disconnect from the internet or turn off BakaXL during this time.</Item>
-			<Item Key="Installer_InstallTaskStatus_DownloadForge_Tips">BakaXL is downloading Forge-{0}.&#xD;&#xA;Please sit and relax, do not disconnect from the internet or turn off BakaXL during this time.</Item>
-			<Item Key="Installer_InstallTaskStatus_InstallingForge_Tips">BakaXL is installing Forge {0}.&#xD;&#xA;Please sit and relax, do not operate the game directory or close BakaXL during this time.</Item>
-			<Item Key="Installer_InstallTaskStatus_DownloadFabric_Tips">BakaXL is downloading Fabric-{0}.&#xD;&#xA;Please sit and relax, do not disconnect from the internet or turn off BakaXL during this time.</Item>
-			<Item Key="Installer_InstallTaskStatus_InstallingFabric_Tips">BakaXL is installing Fabric-{0}.&#xD;&#xA;Please sit and relax, do not operate the game directory or close BakaXL during this time.</Item>
-			<Item Key="Installer_InstallTaskStatus_DownloadQuilt_Tips">BakaXL is downloading Quilt-{0}.&#xD;&#xA;Please sit and relax, do not disconnect from the internet or turn off BakaXL during this time.</Item>
-			<Item Key="Installer_InstallTaskStatus_InstallingQuilt_Tips">BakaXL is installing Quilt-{0}'s installation files.&#xD;&#xA;Please sit and relax, do not operate the game directory or close BakaXL during this time.</Item>
-			<Item Key="Installer_InstallTaskStatus_DownloadOptifine_Tips">BakaXL is downloading Optifine-{0}.&#xD;&#xA;Please sit and relax, do not disconnect from the internet or turn off BakaXL during this time.</Item>
-			<Item Key="Installer_InstallTaskStatus_InstallingOptifine_Tips">BakaXL is installing Optifine {0}.&#xD;&#xA;Please sit and relax, do not operate the game directory or close BakaXL during this time.</Item>
+			<Item Key="Installer_InstallTaskStatus_DownloadMinecraft_Tips">BakaXL is downloading {0}.&#xD;&#xA;Please sit and relax, do not disconnect from the internet &#xD;&#xA;or turn off BakaXL during this time.</Item>
+			<Item Key="Installer_InstallTaskStatus_DownloadForge_Tips">BakaXL is downloading Forge-{0}.&#xD;&#xA;Please sit and relax, do not disconnect from the internet &#xD;&#xA;or turn off BakaXL during this time.</Item>
+			<Item Key="Installer_InstallTaskStatus_InstallingForge_Tips">BakaXL is installing Forge {0}.&#xD;&#xA;Please sit and relax, do not operate the game directory &#xD;&#xA;or close BakaXL during this time.</Item>
+			<Item Key="Installer_InstallTaskStatus_DownloadFabric_Tips">BakaXL is downloading Fabric-{0}.&#xD;&#xA;Please sit and relax, do not disconnect from the internet &#xD;&#xA;or turn off BakaXL during this time.</Item>
+			<Item Key="Installer_InstallTaskStatus_InstallingFabric_Tips">BakaXL is installing Fabric-{0}.&#xD;&#xA;Please sit and relax, do not operate the game directory &#xD;&#xA;or close BakaXL during this time.</Item>
+			<Item Key="Installer_InstallTaskStatus_DownloadQuilt_Tips">BakaXL is downloading Quilt-{0}.&#xD;&#xA;Please sit and relax, do not disconnect from the internet &#xD;&#xA;or turn off BakaXL during this time.</Item>
+			<Item Key="Installer_InstallTaskStatus_InstallingQuilt_Tips">BakaXL is installing Quilt-{0}'s installation files.&#xD;&#xA;Please sit and relax, do not operate the game directory &#xD;&#xA;or close BakaXL during this time.</Item>
+			<Item Key="Installer_InstallTaskStatus_DownloadOptifine_Tips">BakaXL is downloading Optifine-{0}.&#xD;&#xA;Please sit and relax, do not disconnect from the internet &#xD;&#xA;or turn off BakaXL during this time.</Item>
+			<Item Key="Installer_InstallTaskStatus_InstallingOptifine_Tips">BakaXL is installing Optifine {0}.&#xD;&#xA;Please sit and relax, do not operate the game directory &#xD;&#xA;or close BakaXL during this time.</Item>
 
-			<Item Key="Installer_InstallTaskStatus_DownloadMinecraft_Tips_ModPack">BakaXL is downloading the Minecraft core required by {0}.&#xD;&#xA;Please sit and relax, do not disconnect from the internet or turn off BakaXL during this time.</Item>
-			<Item Key="Installer_InstallTaskStatus_DownloadForge_Tips_ModPack">BakaXL is downloading the Forge required by {0}.&#xD;&#xA;Please sit and relax, do not disconnect from the internet or turn off BakaXL during this time.</Item>
-			<Item Key="Installer_InstallTaskStatus_InstallingForge_Tips_ModPack">BakaXL is installing Forge for {0}.&#xD;&#xA;Please sit and relax, do not operate the game directory or close BakaXL during this time.</Item>
-			<Item Key="Installer_InstallTaskStatus_DownloadFabric_Tips_ModPack">BakaXL is downloading the Fabric installation files required by {0}.&#xD;&#xA;Please sit and relax, do not disconnect from the internet or turn off BakaXL during this time.</Item>
-			<Item Key="Installer_InstallTaskStatus_InstallingFabric_Tips_ModPack">BakaXL is installing Fabric installation files for {0}.&#xD;&#xA;Please sit and relax, do not operate the game directory or close BakaXL during this time.</Item>
-			<Item Key="Installer_InstallTaskStatus_DownloadQuilt_Tips_ModPack">BakaXL Downloading Quilt installation files required by {0}.&#xD;&#xA;Please sit and relax, do not disconnect from the internet or turn off BakaXL during this time.</Item>
-			<Item Key="Installer_InstallTaskStatus_InstallingQuilt_Tips_ModPack">BakaXL is installing Quilt installation files for {0}.&#xD;&#xA;Please sit and relax, do not operate the game directory or close BakaXL during this time.</Item>
-			<Item Key="Installer_InstallTaskStatus_DownloadOptifine_Tips_ModPack">BakaXL is downloading the Optifine required by {0}.&#xD;&#xA;Please sit and relax, do not disconnect from the internet or turn off BakaXL during this time.</Item>
-			<Item Key="Installer_InstallTaskStatus_InstallingOptifine_Tips_ModPack">BakaXL is installing Optifine installation files for {0}.&#xD;&#xA;Please sit and relax, do not operate the game directory or close BakaXL during this time.</Item>
+			<Item Key="Installer_InstallTaskStatus_DownloadMinecraft_Tips_ModPack">BakaXL is downloading the Minecraft core required by {0}.&#xD;&#xA;Please sit and relax, do not disconnect from the internet &#xD;&#xA;or turn off BakaXL during this time.</Item>
+			<Item Key="Installer_InstallTaskStatus_DownloadForge_Tips_ModPack">BakaXL is downloading the Forge required by {0}.&#xD;&#xA;Please sit and relax, do not disconnect from the internet &#xD;&#xA;or turn off BakaXL during this time.</Item>
+			<Item Key="Installer_InstallTaskStatus_InstallingForge_Tips_ModPack">BakaXL is installing Forge for {0}.&#xD;&#xA;Please sit and relax, do not operate the game directory &#xD;&#xA;or close BakaXL during this time.</Item>
+			<Item Key="Installer_InstallTaskStatus_DownloadFabric_Tips_ModPack">BakaXL is downloading the Fabric installation files required by {0}.&#xD;&#xA;Please sit and relax, do not disconnect from the internet &#xD;&#xA;or turn off BakaXL during this time.</Item>
+			<Item Key="Installer_InstallTaskStatus_InstallingFabric_Tips_ModPack">BakaXL is installing Fabric installation files for {0}.&#xD;&#xA;Please sit and relax, do not operate the game directory &#xD;&#xA;or close BakaXL during this time.</Item>
+			<Item Key="Installer_InstallTaskStatus_DownloadQuilt_Tips_ModPack">BakaXL Downloading Quilt installation files required by {0}.&#xD;&#xA;Please sit and relax, do not disconnect from the internet &#xD;&#xA;or turn off BakaXL during this time.</Item>
+			<Item Key="Installer_InstallTaskStatus_InstallingQuilt_Tips_ModPack">BakaXL is installing Quilt installation files for {0}.&#xD;&#xA;Please sit and relax, do not operate the game directory &#xD;&#xA;or close BakaXL during this time.</Item>
+			<Item Key="Installer_InstallTaskStatus_DownloadOptifine_Tips_ModPack">BakaXL is downloading the Optifine required by {0}.&#xD;&#xA;Please sit and relax, do not disconnect from the internet &#xD;&#xA;or turn off BakaXL during this time.</Item>
+			<Item Key="Installer_InstallTaskStatus_InstallingOptifine_Tips_ModPack">BakaXL is installing Optifine installation files for {0}.&#xD;&#xA;Please sit and relax, do not operate the game directory &#xD;&#xA;or close BakaXL during this time.</Item>
 
-			<Item Key="Installer_InstallTaskStatus_DownloadLibs_Tips">BakaXL is fixing the Runtime Libraries required for this version.&#xD;&#xA;Please sit and relax, do not disconnect from the internet or turn off BakaXL during this time.</Item>
-			<Item Key="Installer_InstallTaskStatus_DownloadAssets_Tips">BakaXL is fixing the Assets required for this release.&#xD;&#xA;Please sit and relax, do not disconnect from the internet or turn off BakaXL during this time.</Item>
-			<Item Key="Installer_InstallTaskStatus_DownloadLibsAndAssets_Tips">BakaXL is fixing the Libraries and Assets required for this release.&#xD;&#xA;Please sit and relax, do not disconnect from the internet or turn off BakaXL during this time.</Item>
-			<Item Key="Installer_InstallTaskStatus_UnzipFile_Tips">BakaXL is processing the compressed files required for installation.&#xD;&#xA;Please sit and relax, do not operate the game directory or close BakaXL during this time.</Item>
+			<Item Key="Installer_InstallTaskStatus_DownloadLibs_Tips">BakaXL is fixing the Runtime Libraries required for this version.&#xD;&#xA;Please sit and relax, do not disconnect from the internet &#xD;&#xA;or turn off BakaXL during this time.</Item>
+			<Item Key="Installer_InstallTaskStatus_DownloadAssets_Tips">BakaXL is fixing the Assets required for this release.&#xD;&#xA;Please sit and relax, do not disconnect from the internet &#xD;&#xA;or turn off BakaXL during this time.</Item>
+			<Item Key="Installer_InstallTaskStatus_DownloadLibsAndAssets_Tips">BakaXL is fixing the Libraries and Assets required for this release.&#xD;&#xA;Please sit and relax, do not disconnect from the internet &#xD;&#xA;or turn off BakaXL during this time.</Item>
+			<Item Key="Installer_InstallTaskStatus_UnzipFile_Tips">BakaXL is processing the compressed files required for installation.&#xD;&#xA;Please sit and relax, do not operate the game directory &#xD;&#xA;or close BakaXL during this time.</Item>
 
 			<Item Key="Installer_InstallTaskStatus_Failed_Tips">Please check your internet connection and try again.&#xD;&#xA;BakaXL has made this bug into a Baka Can, you can go to BakaXL Settings to check.&#xD;&#xA;Click anywhere to go back</Item>
 			<Item Key="Installer_InstallTaskStatus_Successful_Tips">{0} has been successfully installed to BakaXL.&#xD;&#xA;You can find it in BakaXL Start page - Core Management.&#xD;&#xA;Click anywhere to go back</Item>
