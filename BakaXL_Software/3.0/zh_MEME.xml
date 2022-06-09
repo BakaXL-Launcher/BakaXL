@@ -59,7 +59,7 @@
 			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_CheckAuthlib">正在检查Authlib-Injector</Item>
 			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_CheckAuthlib_GetInfo">正在获取Authlib-Injector下载信息</Item>
 			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_CheckAuthlib_Download">正在下载Authlib-Injector</Item>
-			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_CheckPlugin">正在执行BakaXL插件定义的操作</Item>
+			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_CheckPlugin">正在执行BakaXL插件自定义的操作</Item>
 
 			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_DownloadJava">正在下载 {0} 虚拟机 ({1} 位)</Item>
 			<Item Key="LaunchBar_LaunchBtn_Launching_Steps_DownloadJava_Prepare">正在获取 Java 虚拟机列表</Item>
