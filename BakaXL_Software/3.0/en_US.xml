@@ -3,7 +3,7 @@
 	<Type>
 		<Key>en_US</Key>
 		<Name>English (US, UK, Canada, New Zealand)</Name>
-		<Author>pinballmanfan、BWTX、杰帕斯Japerz</Author>
+		<Author>TT702 / pinballmanfan / bwtx1981 / Japerz</Author>
 	</Type>
 	<Language Key="en_US">
 		<Items>
@@ -1167,7 +1167,7 @@
 
 			<Item Key="Setting_Support_ErrorHistory_Solution_ContactUs">Please contact the BakaXL Development Team to get the solution for this problem. </Item>
 
-			<!-- Example: 发生于 {YYYY/MM/DD} {MM:SS} 的错误-->
+			<!-- Example: An error happened at {YYYY/MM/DD} {MM:SS} -->
 			<Item Key="Setting_Support_ErrorHistory_HappedOn">An error happened at {0} {1} </Item>
 			<Item Key="Setting_Support_ErrorHistory_ErrorCode_Full">Error Code: {0}</Item>
 
@@ -2166,8 +2166,8 @@
 			<Item Key="Installer_InstallTaskStatus_InstallingFabric">Installing Fabric...</Item>
 			<Item Key="Installer_InstallTaskStatus_DownloadQuilt">Downloading Quilt...</Item>
 			<Item Key="Installer_InstallTaskStatus_InstallingQuilt">Installing Quilt...</Item>
-			<Item Key="Installer_InstallTaskStatus_DownloadOptifine">Downloading Optifine...</Item>
-			<Item Key="Installer_InstallTaskStatus_InstallingOptifine">Installing Optifine...</Item>
+			<Item Key="Installer_InstallTaskStatus_DownloadOptifine">Downloading OptiFine...</Item>
+			<Item Key="Installer_InstallTaskStatus_InstallingOptifine">Installing OptiFine...</Item>
 			<Item Key="Installer_InstallTaskStatus_DownloadAssets">Downloading Assets...</Item>
 			<Item Key="Installer_InstallTaskStatus_UnzipFile">Unzipping files...</Item>
 			
