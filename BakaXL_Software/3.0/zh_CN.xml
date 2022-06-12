@@ -295,7 +295,7 @@
 			<Item Key="Cancel">取消</Item>
 			<Item Key="Off">关</Item>
 			<Item Key="On">开</Item>
-			<Item Key=" ">返回</Item>
+			<Item Key="Back">返回</Item>
 			<Item Key="Continue">继续</Item>
 			<Item Key="NextStep">下一步</Item>
 			<Item Key="PreviousStep">上一步</Item>
