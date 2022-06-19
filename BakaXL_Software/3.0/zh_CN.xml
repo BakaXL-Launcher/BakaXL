@@ -669,6 +669,10 @@
 			<Item Key="BakaPlaza_Update">更新</Item>
 
 			<Item Key="BakaPlaza_SearchBar_Watermark">搜索一些内容…</Item>
+			<Item Key="BakaPlaza_SearchBar_SourceTarget_Plaza">在 笨蛋广场 中搜索此关键词</Item>
+			<Item Key="BakaPlaza_SearchBar_SourceTarget_CurseForge">在 CurseForge 中搜索此关键词</Item>
+			<Item Key="BakaPlaza_SearchBar_SourceTarget_Modrinth">在 Modrinth 中搜索此关键词</Item>
+			<Item Key="BakaPlaza_SearchBar_Tips_EnterToSearch">按下 Enter 将直接在所有数据服务中进行搜索</Item>
 
 			<Item Key="BakaPlaza_Category_Subtitle">分类浏览</Item>
 
