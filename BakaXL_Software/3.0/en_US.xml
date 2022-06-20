@@ -668,7 +668,11 @@
 			<Item Key="BakaPlaza_FullName">BakaXL BakaPlaza</Item>
 			<Item Key="BakaPlaza_Update">Update</Item>
 
-            <Item Key="BakaPlaza_SearchBar_Watermark">Search for something...</Item>
+                        <Item Key="BakaPlaza_SearchBar_Watermark">Search for something...</Item>
+			<Item Key="BakaPlaza_SearchBar_SourceTarget_Plaza">Search keyword in BakaPlaza</Item>
+			<Item Key="BakaPlaza_SearchBar_SourceTarget_CurseForge">Search keyword in CurseForge</Item>
+			<Item Key="BakaPlaza_SearchBar_SourceTarget_Modrinth">Search keyword in Modrinth</Item>
+			<Item Key="BakaPlaza_SearchBar_Tips_EnterToSearch">Hit Enter will search directly across all sources</Item>
 
 			<Item Key="BakaPlaza_Category_Subtitle">Category</Item>
 
