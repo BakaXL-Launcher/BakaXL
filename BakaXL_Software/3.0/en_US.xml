@@ -123,7 +123,7 @@
 			<Item Key="CoreSelector_DisplayMode_Forge">Forge</Item>
 			<Item Key="CoreSelector_DisplayMode_Fabric">Fabric</Item>
 			<Item Key="CoreSelector_DisplayMode_Liteloader">Liteloader</Item>
-			<Item Key="CoreSelector_DisplayMode_Optifine">Optifine</Item>
+			<Item Key="CoreSelector_DisplayMode_Optifine">OptiFine</Item>
 			<Item Key="CoreSelector_DisplayMode_Other">Other</Item>
 
 			<Item Key="CoreSelector_Requirement_Java_NoVersionNeeded">No JVM Requirement</Item>
@@ -161,7 +161,7 @@
 			
 			<Item Key="CoreManagement_Tips_Suggest_Reset">This core needs to be reset to work properly, go to&quot;Restore > Reset this core&quot;.</Item>
 			<Item Key="CoreManagement_Tips_Suggest_AutoRepare">BakaXL can attempt to repair this core by going to&quot;Recovery > Auto repair&quot;.</Item>
-			<Item Key="CoreManagement_Tips_Suggest_Shader">To load Minecraft shader files, you may need to install&quot;Optifine&quot;.</Item>
+			<Item Key="CoreManagement_Tips_Suggest_Shader">To load Minecraft shader files, you may need to install&quot;OptiFine&quot;.</Item>
 			
 			<Item Key="CoreManagement_Tips_Warn_Mod_Unsupported">This core does not support the installation of mods.</Item>
 			
@@ -211,7 +211,7 @@
 			<Item Key="CoreManagement_Mods_ModLoader_Fabric">This core has Fabric Loader installed, version{0}</Item>
 			<Item Key="CoreManagement_Mods_ModLoader_Quilt">This core has Quilt Loader installed, version{0}</Item>
 			<Item Key="CoreManagement_Mods_ModLoader_Liteloader">This core has Liteloader installed, version{0}</Item>
-            <Item Key="CoreManagement_Mods_ModLoader_Optifine">This core has Optifine HD installed.</Item>
+            <Item Key="CoreManagement_Mods_ModLoader_Optifine">This core has OptiFine HD installed.</Item>
 
 			<Item Key="CoreManagement_Mods_ModList_Title">Mods Folder</Item>
 			<Item Key="CoreManagement_Mods_ModList_DargTips">Drag mods into this area to quickly install them.</Item>
@@ -669,6 +669,10 @@
 			<Item Key="BakaPlaza_Update">Update</Item>
 
             <Item Key="BakaPlaza_SearchBar_Watermark">Search for something...</Item>
+			<Item Key="BakaPlaza_SearchBar_SourceTarget_Plaza">Search the keyword in BakaPlaza</Item>
+			<Item Key="BakaPlaza_SearchBar_SourceTarget_CurseForge">Search the keyword in CurseForge</Item>
+			<Item Key="BakaPlaza_SearchBar_SourceTarget_Modrinth">Search the keyword in Modrinth</Item>
+			<Item Key="BakaPlaza_SearchBar_Tips_EnterToSearch">Press Enter to Search in All Sources</Item>
 
 			<Item Key="BakaPlaza_Category_Subtitle">Category</Item>
 
@@ -2125,9 +2129,9 @@
 			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Quilt_JsonNullException">Unable to parse the Quilt installation archive (json), the Json interpreter returned empty text.</Item>
 			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Quilt_CopyVanilla">Unable to copy json file from vanilla Minecraft.</Item>
 
-			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Optifine_Title">The BakaXL Optifine installer reported an exception while installing.</Item>
-			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Optifine_DownloadOrDamage_Solution">Optifine version tried to install: Optifine-{0}-{1}&#xD;&#xA;&#xD;&#xA;This problem may be caused by the inability to download the file, or an accident when unzipping.&#xD;&#xA;First, please check your internet connection to make sure that the network communication between your computer and the download source is working properly.&#xD;&#xA;Second, try running BakaXL as administrator and try the installation again.&#xD;&#xA;&#xD;&#xA;If this issue persists, you can report the issue to the BakaXL development team.</Item>
-			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Optifine_NotSupported_Solution">Optifine version trying to install: Optifine-{0}-{1}&#xD;&#xA;&#xD;&#xA;Usually, this can be caused by a corrupted downloaded file, insufficient access to local files, or an unsupported version of Optifine.&#xD;&#xA;First, try running BakaXL as an administrator and try the installation again.&#xD;&#xA;Second, check the exception message in this dummy can, if it clearly states that this version of Optifine is not supported, please report this dummy can to the BakaXL development team.&#xD;&#xA;&#xD;&#xA;If this issue persists, you can report the issue to the BakaXL development team.</Item>
+			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Optifine_Title">The BakaXL OptiFine installer reported an exception while installing.</Item>
+			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Optifine_DownloadOrDamage_Solution">OptiFine version tried to install: OptiFine-{0}-{1}&#xD;&#xA;&#xD;&#xA;This problem may be caused by the inability to download the file, or an accident when unzipping.&#xD;&#xA;First, please check your internet connection to make sure that the network communication between your computer and the download source is working properly.&#xD;&#xA;Second, try running BakaXL as administrator and try the installation again.&#xD;&#xA;&#xD;&#xA;If this issue persists, you can report the issue to the BakaXL development team.</Item>
+			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Optifine_NotSupported_Solution">OptiFine version trying to install: OptiFine-{0}-{1}&#xD;&#xA;&#xD;&#xA;Usually, this can be caused by a corrupted downloaded file, insufficient access to local files, or an unsupported version of OptiFine.&#xD;&#xA;First, try running BakaXL as an administrator and try the installation again.&#xD;&#xA;Second, check the exception message in this dummy can, if it clearly states that this version of OptiFine is not supported, please report this dummy can to the BakaXL development team.&#xD;&#xA;&#xD;&#xA;If this issue persists, you can report the issue to the BakaXL development team.</Item>
 
 			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_AutoInstaller_Title">ULauncherCore reported exception when preparing game version</Item>
 			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_AutoInstaller_Solution">Usually, this problem occurs because ULauncherCore cannot properly prepare a specific Minecraft version.&#xD;&#xA;Please check your internet connection to make sure the network communication between your computer and the download source is working.&#xD;&#xA;&#xD;&#xA;You can visit BakaXL Settings - Download and switch Use mirror source in mainland china button and try again.&#xD;&#xA;If this issue persists, you can report the issue to the BakaXL development team.</Item>
@@ -2152,7 +2156,7 @@
 			<Item Key="AddGameCore_CoreInstaller_CoreConfig_Tips">BakaXL Please maintain an internet connection while installing Minecraft.&#xD;&#xA;If you are currently using cellular data connection, the installation process may charge extra fee.</Item>
 
 			<Item Key="AddGameCore_CoreInstaller_Optifine_Notice_ForgeMod">When using this installation configuration, BakaXL will install OptiFine as a MOD.</Item>
-			<Item Key="AddGameCore_CoreInstaller_Optifine_Notice_FabricMod">When using this installation configuration, BakaXL will install OptiFine as a MOD.&#xD;&#xA;To use Optifine in Fabric, you need to additionally install OptiFabric by yourself.</Item>
+			<Item Key="AddGameCore_CoreInstaller_Optifine_Notice_FabricMod">When using this installation configuration, BakaXL will install OptiFine as a MOD.&#xD;&#xA;To use OptiFine in Fabric, you need to additionally install OptiFabric by yourself.</Item>
 
 			<Item Key="AddGameCore_ManualCoreInstaller_Title">Install Core Manually</Item>
 			<Item Key="AddGameCore_ModPackImporter_Title">Import Modpack</Item>
@@ -2225,8 +2229,8 @@
 			<Item Key="Installer_InstallTaskStatus_InstallingFabric_Tips">BakaXL is installing Fabric-{0}.&#xD;&#xA;Please sit and relax, do not operate the game directory &#xD;&#xA;or close BakaXL during this time.</Item>
 			<Item Key="Installer_InstallTaskStatus_DownloadQuilt_Tips">BakaXL is downloading Quilt-{0}.&#xD;&#xA;Please sit and relax, do not disconnect from the internet &#xD;&#xA;or turn off BakaXL during this time.</Item>
 			<Item Key="Installer_InstallTaskStatus_InstallingQuilt_Tips">BakaXL is installing Quilt-{0}'s installation files.&#xD;&#xA;Please sit and relax, do not operate the game directory &#xD;&#xA;or close BakaXL during this time.</Item>
-			<Item Key="Installer_InstallTaskStatus_DownloadOptifine_Tips">BakaXL is downloading Optifine-{0}.&#xD;&#xA;Please sit and relax, do not disconnect from the internet &#xD;&#xA;or turn off BakaXL during this time.</Item>
-			<Item Key="Installer_InstallTaskStatus_InstallingOptifine_Tips">BakaXL is installing Optifine {0}.&#xD;&#xA;Please sit and relax, do not operate the game directory &#xD;&#xA;or close BakaXL during this time.</Item>
+			<Item Key="Installer_InstallTaskStatus_DownloadOptifine_Tips">BakaXL is downloading OptiFine-{0}.&#xD;&#xA;Please sit and relax, do not disconnect from the internet &#xD;&#xA;or turn off BakaXL during this time.</Item>
+			<Item Key="Installer_InstallTaskStatus_InstallingOptifine_Tips">BakaXL is installing OptiFine {0}.&#xD;&#xA;Please sit and relax, do not operate the game directory &#xD;&#xA;or close BakaXL during this time.</Item>
 
 			<Item Key="Installer_InstallTaskStatus_DownloadMinecraft_Tips_ModPack">BakaXL is downloading the Minecraft core required by {0}.&#xD;&#xA;Please sit and relax, do not disconnect from the internet &#xD;&#xA;or turn off BakaXL during this time.</Item>
 			<Item Key="Installer_InstallTaskStatus_DownloadForge_Tips_ModPack">BakaXL is downloading the Forge required by {0}.&#xD;&#xA;Please sit and relax, do not disconnect from the internet &#xD;&#xA;or turn off BakaXL during this time.</Item>
@@ -2235,8 +2239,8 @@
 			<Item Key="Installer_InstallTaskStatus_InstallingFabric_Tips_ModPack">BakaXL is installing Fabric installation files for {0}.&#xD;&#xA;Please sit and relax, do not operate the game directory &#xD;&#xA;or close BakaXL during this time.</Item>
 			<Item Key="Installer_InstallTaskStatus_DownloadQuilt_Tips_ModPack">BakaXL Downloading Quilt installation files required by {0}.&#xD;&#xA;Please sit and relax, do not disconnect from the internet &#xD;&#xA;or turn off BakaXL during this time.</Item>
 			<Item Key="Installer_InstallTaskStatus_InstallingQuilt_Tips_ModPack">BakaXL is installing Quilt installation files for {0}.&#xD;&#xA;Please sit and relax, do not operate the game directory &#xD;&#xA;or close BakaXL during this time.</Item>
-			<Item Key="Installer_InstallTaskStatus_DownloadOptifine_Tips_ModPack">BakaXL is downloading the Optifine required by {0}.&#xD;&#xA;Please sit and relax, do not disconnect from the internet &#xD;&#xA;or turn off BakaXL during this time.</Item>
-			<Item Key="Installer_InstallTaskStatus_InstallingOptifine_Tips_ModPack">BakaXL is installing Optifine installation files for {0}.&#xD;&#xA;Please sit and relax, do not operate the game directory &#xD;&#xA;or close BakaXL during this time.</Item>
+			<Item Key="Installer_InstallTaskStatus_DownloadOptifine_Tips_ModPack">BakaXL is downloading the OptiFine required by {0}.&#xD;&#xA;Please sit and relax, do not disconnect from the internet &#xD;&#xA;or turn off BakaXL during this time.</Item>
+			<Item Key="Installer_InstallTaskStatus_InstallingOptifine_Tips_ModPack">BakaXL is installing OptiFine installation files for {0}.&#xD;&#xA;Please sit and relax, do not operate the game directory &#xD;&#xA;or close BakaXL during this time.</Item>
 
 			<Item Key="Installer_InstallTaskStatus_DownloadLibs_Tips">BakaXL is fixing the Runtime Libraries required for this version.&#xD;&#xA;Please sit and relax, do not disconnect from the internet &#xD;&#xA;or turn off BakaXL during this time.</Item>
 			<Item Key="Installer_InstallTaskStatus_DownloadAssets_Tips">BakaXL is fixing the Assets required for this release.&#xD;&#xA;Please sit and relax, do not disconnect from the internet &#xD;&#xA;or turn off BakaXL during this time.</Item>
