@@ -2060,7 +2060,7 @@
 
 			<Item Key="MessageBox_Bakaverse_Lobby_Relay_Notice_Title">需要创建者与加入者均开启才会生效</Item>
 			<Item Key="MessageBox_Bakaverse_Lobby_Relay_Notice_Content">您正在打开 BakaXL Network Relay 中继连接功能。&#xD;&#xA;出于数据隐私安全的考虑，当大厅创建者和加入者均开启此功能时，BakaXL 才会通过中继进行连接。</Item>
-			<Item Key="MessageBox_Bakaverse_Lobby_Relay_Notice_Tips">若您开启了中继缺依旧无法游戏，说不定对方还没有开启此功能</Item>
+			<Item Key="MessageBox_Bakaverse_Lobby_Relay_Notice_Tips">若您开启了中继却依旧无法游戏，说不定对方还没有开启此功能</Item>
 
 			<Item Key="MessageBox_Bakaverse_Lobby_GotKicked_Title">被大厅创建者移出</Item>
 			<Item Key="MessageBox_Bakaverse_Lobby_GotKicked_Content">诶呀，看上去大厅创建者将您从大厅中踢出了。&#xD;&#xA;请确保您在大厅里没有违反社区守则，或做出令他人感到不适的行为。</Item>
