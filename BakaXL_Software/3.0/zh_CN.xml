@@ -123,7 +123,7 @@
 			<Item Key="CoreSelector_DisplayMode_Forge">仅Forge</Item>
 			<Item Key="CoreSelector_DisplayMode_Fabric">仅Fabric</Item>
 			<Item Key="CoreSelector_DisplayMode_Liteloader">仅Liteloader</Item>
-			<Item Key="CoreSelector_DisplayMode_Optifine">仅OptiFine</Item>
+			<Item Key="CoreSelector_DisplayMode_Optifine">仅Optifine</Item>
 			<Item Key="CoreSelector_DisplayMode_Other">其他</Item>
 
 			<Item Key="CoreSelector_Requirement_Java_NoVersionNeeded">无版本限制</Item>
@@ -161,7 +161,7 @@
 
 			<Item Key="CoreManagement_Tips_Suggest_Reset">此核心需要重置才可以正常使用，前往 &quot;恢复 > 重置此核心&quot;。</Item>
 			<Item Key="CoreManagement_Tips_Suggest_AutoRepare">BakaXL可尝试修复此核心，前往 &quot;恢复 > 自动修复&quot;。</Item>
-			<Item Key="CoreManagement_Tips_Suggest_Shader">若要加载Minecraft光影文件，则可能需要安装 &quot;OptiFine&quot;。</Item>
+			<Item Key="CoreManagement_Tips_Suggest_Shader">若要加载Minecraft光影文件，则可能需要安装 &quot;Optifine&quot;。</Item>
 
 			<Item Key="CoreManagement_Tips_Warn_Mod_Unsupported">此核心不支持安装模组(Mods)。</Item>
 
@@ -211,7 +211,7 @@
 			<Item Key="CoreManagement_Mods_ModLoader_Fabric">此核心安装了 Fabric Loader。版本：{0}</Item>
 			<Item Key="CoreManagement_Mods_ModLoader_Quilt">此核心安装了 Quilt Loader。版本：{0}</Item>
 			<Item Key="CoreManagement_Mods_ModLoader_Liteloader">此核心安装了 Liteloader。版本：{0}</Item>
-			<Item Key="CoreManagement_Mods_ModLoader_Optifine">此核心安装了 OptiFine 高清修复。</Item>
+			<Item Key="CoreManagement_Mods_ModLoader_Optifine">此核心安装了 Optifine 高清修复。</Item>
 
 			<Item Key="CoreManagement_Mods_ModList_Title">位于Mods文件夹</Item>
 			<Item Key="CoreManagement_Mods_ModList_DargTips">将模组拖入至此区域快速安装模组。</Item>
@@ -313,6 +313,8 @@
 			<Item Key="Refresh">刷新</Item>
 			<Item Key="ReTry">再试一次</Item>
 			<Item Key="Unknown">未知</Item>
+			<Item Key="Copy">复制</Item>
+			<Item Key="Paste">粘贴</Item>
 
 			<Item Key="Unset">尚未设置</Item>
 			<Item Key="NoVersion">无可用版本</Item>
@@ -327,6 +329,7 @@
 			<Item Key="Middle">中</Item>
 			<Item Key="Small">小</Item>
 			<Item Key="Default">默认</Item>
+			<Item Key="Default_Enhanced">默认+ 增强模式 (适用于部分 Minecraft 版本)</Item>
 			<Item Key="Custom">自定义</Item>
 
 			<Item Key="Collapse">折叠</Item>
@@ -542,6 +545,7 @@
 			<Item Key="Bakaverse_Lobby_Introduction_Content">加入好友的本地局域网游戏，亦或是共享客户端。&#xD;&#xA;请让所有要参与的好友都进入此画面。</Item>
 
 			<Item Key="Bakaverse_Lobby_LAN_Motd_Header">BakaXL 大厅</Item>
+			<Item Key="Bakaverse_Lobby_LAN_Assist_Motd_Header">BakaXL 大厅连接助理</Item>
 
 			<Item Key="Bakaverse_Lobby_Error_Title">大厅服务异常</Item>
 			<Item Key="Bakaverse_Lobby_Error_Detail_Relogin">请重新登录此 BakaXL 账户</Item>
@@ -619,7 +623,22 @@
 			<Item Key="Bakaverse_Lobby_UserStatus_RelayConnectionEstablished">大厅中 / 已通过中继建立连接</Item>
 			<Item Key="Bakaverse_Lobby_UserStatus_NATRestrict">连接失败 / NAT 严格</Item>
 			<Item Key="Bakaverse_Lobby_UserStatus_FirewallReject">连接失败 / NAT 防火墙拒绝</Item>
+			<Item Key="Bakaverse_Lobby_UserStatus_RelayFailed">连接失败 / 无法连接中继服务器</Item>
+			<Item Key="Bakaverse_Lobby_UserStatus_WaitingJoinerAction">大厅中 / 连接助理正在等待操作</Item>
 			<Item Key="Bakaverse_Lobby_UserStatus_Unknown">连接失败 / 未知错误</Item>
+
+			<Item Key="Bakaverse_Lobby_LocalPeerStatus_None">尚未开始连接</Item>
+			<Item Key="Bakaverse_Lobby_LocalPeerStatus_Initing">正在初始化</Item>
+			<Item Key="Bakaverse_Lobby_LocalPeerStatus_Inited">初始化完成</Item>
+			<Item Key="Bakaverse_Lobby_LocalPeerStatus_InitFailed">初始化失败</Item>
+			<Item Key="Bakaverse_Lobby_LocalPeerStatus_Punching">正在建立连接</Item>
+			<Item Key="Bakaverse_Lobby_LocalPeerStatus_ReversePunching">正在建立反向连接</Item>
+			<Item Key="Bakaverse_Lobby_LocalPeerStatus_NATRestrict">NAT 严格</Item>
+			<Item Key="Bakaverse_Lobby_LocalPeerStatus_FirewallReject">NAT 防火墙拒绝</Item>
+			<Item Key="Bakaverse_Lobby_LocalPeerStatus_WaitingRelay">等待中继服务器响应</Item>
+			<Item Key="Bakaverse_Lobby_LocalPeerStatus_WaitingMinecraftConnect">等待 Minecraft 连接</Item>
+			<Item Key="Bakaverse_Lobby_LocalPeerStatus_Connected">连接已建立</Item>
+			<Item Key="Bakaverse_Lobby_LocalPeerStatus_RelayConnected">已通过中继建立连接</Item>			
 
 			<Item Key="Bakaverse_Lobby_CopyLobbyID_Template">我正在 BakaXL 的线上游戏大厅！快在 BakaXL 领域 里输入大厅编号: &lt;{0}&gt; 来加入吧！</Item>
 			<Item Key="Bakaverse_Lobby_CopyLobbyID_WithHostGameInfo_Template">我正在 BakaXL 的线上游戏大厅里游玩 [{0}]！快在 BakaXL 领域 里输入大厅编号: &lt;{1}&gt; 来加入吧！</Item>
@@ -728,7 +747,7 @@
 
 			<Item Key="BakaPlaza_MinecraftInstaller_CoreDesc_Default">通过 BakaXL 下载的 - Minecraft {0} 原版核心</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_CoreDesc_Forge">通过 BakaXL 下载的 - 带有 Forge {0} 的 Minecraft {1} 核心</Item>
-			<Item Key="BakaPlaza_MinecraftInstaller_CoreDesc_Optifine">通过 BakaXL 下载的 - 带有 OptiFine {0} 的 Minecraft {1} 核心</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_CoreDesc_Optifine">通过 BakaXL 下载的 - 带有 Optifine {0} 的 Minecraft {1} 核心</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_CoreDesc_Fabric">通过 BakaXL 下载的 - 带有 Fabric {0} 的 Minecraft {1} 核心</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_CoreDesc_Quilt">通过 BakaXL 下载的 - 带有 Quilt {0} 的 Minecraft {1} 核心</Item>
 
@@ -746,8 +765,8 @@
 			<Item Key="BakaPlaza_MinecraftInstaller_Steps_CopyForgeFile">复制 Forge 文件</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Steps_PrepareProcessor">初始化 Forge 文件处理器</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Steps_GenerateForgeFile">生成 Forge 文件</Item>
-			<Item Key="BakaPlaza_MinecraftInstaller_Steps_GenerateOptifineFile">生成 OptiFine 文件</Item>
-			<Item Key="BakaPlaza_MinecraftInstaller_Steps_CopyOptifineFile">复制 OptiFine 文件</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Steps_GenerateOptifineFile">生成 Optifine 文件</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Steps_CopyOptifineFile">复制 Optifine 文件</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Steps_PrepareVanilla">准备原版 Minecraft</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Steps_CopyVanilla">复制原版 Minecraft 核心</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Steps_CleanUp">准备结束安装</Item>
@@ -1283,13 +1302,13 @@
 
 			<Item Key="Setting_Account_Detail_AccFeatures_FetchingProfile">BakaXL 正在获取 Minecraft 角色档案…</Item>
 			<Item Key="Setting_Account_Detail_AccFeatures_FetchingProfileFailed">BakaXL 无法获得此 Minecraft 角色的档案。&#xD;&#xA;若您此问题持续出现，请检查您的互联网连接。</Item>
-
+			
 			<Item Key="Setting_Account_Detail_AccFeatures_SkinCapes_Title">皮肤与披风</Item>
 			<Item Key="Setting_Account_Detail_AccFeatures_SkinCapes_Skin_SaveBtn">保存我的 Minecraft 角色皮肤</Item>
 			<Item Key="Setting_Account_Detail_AccFeatures_SkinCapes_Skin_UploadBtn">为我的 Minecraft 角色更换皮肤</Item>
 			<Item Key="Setting_Account_Detail_AccFeatures_SkinCapes_Skin_UploadTips">您现在可以直接通过 BakaXL 更换角色的皮肤。&#xD;&#xA;更换皮肤后需要重新启动 Minecraft。</Item>
 
-			<Item Key="Setting_Account_Detail_AccFeatures_SkinShare_Btn">使用此正版档案时加入皮肤妙享网络</Item>
+			<Item Key="Setting_Account_Detail_AccFeatures_SkinShare_Btn">加入 BakaXL 皮肤妙享网络</Item>
 			<Item Key="Setting_Account_Detail_AccFeatures_SkinShare_PerferOffline_Btn">优先显示离线皮肤</Item>
 			<Item Key="Setting_Account_Detail_AccFeatures_SkinShare_Tips">开启此功能，您将可以在联机时看见通过离线验证&#xD;&#xA;BakaXL 用户设置的离线皮肤。&#xD;&#xA;若开启此功能，则需要经由 BakaXL 中转和处理&#xD;&#xA;所有 Mojang 正版验证请求。</Item>
 
@@ -1301,6 +1320,11 @@
 			<Item Key="Setting_Account_Detail_AccFeatures_SkinCapes_Capes_UploadBtn">为我的 Minecraft 角色更换披风</Item>
 			<Item Key="Setting_Account_Detail_AccFeatures_SkinCapes_Capes_UploadTips">设置披风显示状态允许您选择披风是否在游戏中显示。&#xD;&#xA;若您拥有多个披风，则可以在这里选择在游戏中所展示的披风。</Item>
 
+			<Item Key="Setting_Account_Detail_AccFeatures_Security_Title">隐私与安全性</Item>
+			<Item Key="Setting_Account_Detail_AccFeatures_DisableProfileKey_Btn">禁用 Minecraft 聊天文本追踪与举报</Item>
+			<Item Key="Setting_Account_Detail_AccFeatures_DisableProfileKey_NotApplicable_Mojang">在使用 Mojang 账户时，Minecraft 的 &quot;聊天文本追踪与举报&quot; 功能不会开启。</Item>
+			<Item Key="Setting_Account_Detail_AccFeatures_DisableProfileKey_Tips">该功能需要开启 &quot;加入 BakaXL 皮肤妙享网络&quot;。&#xD;&#xA;&#xD;&#xA;在 Minecraft 1.19.1 及后续版本中禁用 &quot;聊天文本追踪与举报&quot; 机制。&#xD;&#xA;开启后，BakaXL 会过滤 Minecraft 在发送聊天文本时附带的正版账户标识符，使文本无法追踪至您的 Minecraft 账户。&#xD;&#xA;&#xD;&#xA;若某个 Minecraft 服务器强制启用了举报功能，则该功能启用时，您将无法加入它。</Item>
+			
 			<Item Key="Setting_Account_Detail_ProfileProtection">账号保护及安全</Item>
 			<Item Key="Setting_Account_Detail_ProfileProtection_Btn_Title">不保存正版信息</Item>
 			<Item Key="Setting_Account_Detail_DoNotSaveAuthInfo">当您在公共计算机上使用 BakaXL 时，建议打开此选项。&#xD;&#xA;BakaXL 将仅会保存您的游戏ID。</Item>
@@ -1908,6 +1932,9 @@
 			<Item Key="MessageBox_SkinPatcher_ThemeNoMusic_Split_Title">缺少分离背景音乐</Item>
 			<Item Key="MessageBox_SkinPatcher_ThemeNoMusic_Split_Content">您尚未设置该 BakaXL 主题的分离背景音乐。&#xD;&#xA;若您选择使用分离音乐模式，则需要为 &quot;本体设置&quot; 及 &quot;贴士&quot; 界面单独设置背景音乐。</Item>
 
+			<Item Key="MessageBox_SkinPatcher_ThemeMusicTooBig_Title">该背景音乐文件体积过大</Item>
+			<Item Key="MessageBox_SkinPatcher_ThemeMusicTooBig_Content">该主题背景音乐超过限制大小，请尝试压缩音频或更换音频。&#xD;&#xA;限制的文件大小为 6 MB，请不要使用高比特率或无损类音频。</Item>
+
 			<Item Key="MessageBox_SkinPatcher_ThemeExport_Successful_Title">主题制作成功</Item>
 			<Item Key="MessageBox_SkinPatcher_ThemeExport_Successful_Content">{0} BakaXL 主题已经制作并打包成功。&#xD;&#xA;BakaXL 已将该主题文件保存在  &quot;BakaXL\Tema &quot; 中。</Item>
 
@@ -2060,7 +2087,7 @@
 
 			<Item Key="MessageBox_Bakaverse_Lobby_Relay_Notice_Title">需要创建者与加入者均开启才会生效</Item>
 			<Item Key="MessageBox_Bakaverse_Lobby_Relay_Notice_Content">您正在打开 BakaXL Network Relay 中继连接功能。&#xD;&#xA;出于数据隐私安全的考虑，当大厅创建者和加入者均开启此功能时，BakaXL 才会通过中继进行连接。</Item>
-			<Item Key="MessageBox_Bakaverse_Lobby_Relay_Notice_Tips">若您开启了中继却依旧无法游戏，说不定对方还没有开启此功能</Item>
+			<Item Key="MessageBox_Bakaverse_Lobby_Relay_Notice_Tips">若您开启了中继但依旧无法游戏，说不定对方还没有开启此功能</Item>
 
 			<Item Key="MessageBox_Bakaverse_Lobby_GotKicked_Title">被大厅创建者移出</Item>
 			<Item Key="MessageBox_Bakaverse_Lobby_GotKicked_Content">诶呀，看上去大厅创建者将您从大厅中踢出了。&#xD;&#xA;请确保您在大厅里没有违反社区守则，或做出令他人感到不适的行为。</Item>
@@ -2070,6 +2097,8 @@
 			<Item Key="MessageBox_Bakaverse_Lobby_Cracked_Content">大厅创建者已解散了该大厅，现在大家都在外面了。&#xD;&#xA;有可能创建者累了，或者创建者的互联网连接炸了。</Item>
 			<Item Key="MessageBox_Bakaverse_Lobby_Cracked_Tips">一键炸房! Yes!</Item>
 
+			<Item Key="MessageBox_Bakaverse_Management_ServerNotice_Tips">此通知来自 BakaXL 开发团队的 {0}，面向所有在线用户广播！</Item>
+			
 			<Item Key="MessageBox_Tips_Channel_Locked_Title">此贴士频道被锁定</Item>
 			<Item Key="MessageBox_Tips_Channel_Locked_Content">此贴士频道当前暂停对外开放，这可能是由于：&#xD;&#xA;· 受到来自发行方要求暂停访问的请求。&#xD;&#xA;· 遭到过多用户举报而自动冻结。&#xD;&#xA;· 违反BakaXL贴士系统使用条款</Item>
 			<Item Key="MessageBox_Tips_Channel_Locked_Tips">请尝试过段时间再来访问此频道</Item>
@@ -2129,9 +2158,9 @@
 			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Quilt_JsonNullException">无法解析 Fabric 的安装档案(json)，Json 解释器返回了空的文本。</Item>
 			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Quilt_CopyVanilla">无法拷贝原版 Minecraft 的 json 文件。</Item>
 
-			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Optifine_Title">BakaXL OptiFine安装器报告在安装时出现异常。</Item>
-			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Optifine_DownloadOrDamage_Solution">尝试安装的 OptiFine 版本：OptiFine-{0}-{1}&#xD;&#xA;&#xD;&#xA;造成此问题的原因可能是无法下载文件，或是解压时出现意外。&#xD;&#xA;首先，请检查您的互联网连接，确保计算机与下载源之间的网络通信是正常的。&#xD;&#xA;其次，尝试以管理员身份运行 BakaXL，并再试一次安装。&#xD;&#xA;&#xD;&#xA;若此问题持续出现，您可以向 BakaXL 开发团队汇报此问题。</Item>
-			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Optifine_NotSupported_Solution">尝试安装的 OptiFine 版本：OptiFine-{0}-{1}&#xD;&#xA;&#xD;&#xA;通常，这可能由于下载的文件受损、访问本地文件权限不足，亦或是此版本的 OptiFine 不受支持造成的。&#xD;&#xA;首先，尝试以管理员身份运行 BakaXL，再试一次安装。&#xD;&#xA;其次，检查此笨蛋罐头中的异常信息，若其中明确说明了该版本的 OptiFine 不受支持，请将此笨蛋罐头汇报至 BakaXL 开发团队。&#xD;&#xA;&#xD;&#xA;若此问题持续出现，您可以向 BakaXL 开发团队汇报此问题。</Item>
+			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Optifine_Title">BakaXL Optifine安装器报告在安装时出现异常。</Item>
+			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Optifine_DownloadOrDamage_Solution">尝试安装的 Optifine 版本：Optifine-{0}-{1}&#xD;&#xA;&#xD;&#xA;造成此问题的原因可能是无法下载文件，或是解压时出现意外。&#xD;&#xA;首先，请检查您的互联网连接，确保计算机与下载源之间的网络通信是正常的。&#xD;&#xA;其次，尝试以管理员身份运行 BakaXL，并再试一次安装。&#xD;&#xA;&#xD;&#xA;若此问题持续出现，您可以向 BakaXL 开发团队汇报此问题。</Item>
+			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Optifine_NotSupported_Solution">尝试安装的 Optifine 版本：Optifine-{0}-{1}&#xD;&#xA;&#xD;&#xA;通常，这可能由于下载的文件受损、访问本地文件权限不足，亦或是此版本的 Optifine 不受支持造成的。&#xD;&#xA;首先，尝试以管理员身份运行 BakaXL，再试一次安装。&#xD;&#xA;其次，检查此笨蛋罐头中的异常信息，若其中明确说明了该版本的 Optifine 不受支持，请将此笨蛋罐头汇报至 BakaXL 开发团队。&#xD;&#xA;&#xD;&#xA;若此问题持续出现，您可以向 BakaXL 开发团队汇报此问题。</Item>
 
 			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_AutoInstaller_Title">ULauncherCore汇报在准备游戏版本时出现异常</Item>
 			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_AutoInstaller_Solution">通常，出现此问题是因为ULauncherCore无法正确准备特定的Minecraft版本。&#xD;&#xA;请检查您的互联网连接，确保计算机与下载源之间的网络通信是正常的。&#xD;&#xA;&#xD;&#xA;您可以前往 BakaXL本体设置 - 下载 并切换 大陆地区使用第三方下载源 开关的状态后再试一次。&#xD;&#xA;若此问题持续出现，您可以向BakaXL开发团队汇报此问题。</Item>
@@ -2156,7 +2185,7 @@
 			<Item Key="AddGameCore_CoreInstaller_CoreConfig_Tips">BakaXL 在安装 Minecraft 期间，请保持互联网连接。&#xD;&#xA;若您当前正在使用计费互联网连接，安装过程会产生数据流量费用。</Item>
 
 			<Item Key="AddGameCore_CoreInstaller_Optifine_Notice_ForgeMod">当使用此安装配置时，BakaXL 会将 OptiFine 以模组的形式安装。</Item>
-			<Item Key="AddGameCore_CoreInstaller_Optifine_Notice_FabricMod">当使用此安装配置时，BakaXL 会将 OptiFine 以模组的形式安装。&#xD;&#xA;若要在 Fabric 中使用 OptiFine，则需要额外自行安装 OptiFabric。</Item>
+			<Item Key="AddGameCore_CoreInstaller_Optifine_Notice_FabricMod">当使用此安装配置时，BakaXL 会将 OptiFine 以模组的形式安装。&#xD;&#xA;若要在 Fabric 中使用 Optifine，则需要额外自行安装 OptiFabric。</Item>
 
 			<Item Key="AddGameCore_ManualCoreInstaller_Title">手动安装核心</Item>
 			<Item Key="AddGameCore_ModPackImporter_Title">导入整合包</Item>
@@ -2193,7 +2222,7 @@
 			<Item Key="Installer_AddonSection_Fabric_Title">安装 Fabric API 和 推荐必备模组！</Item>
 			<Item Key="Installer_AddonSection_Fabric_Tips">Fabric 需要安装基础 API 才能加载模组，点击了解更多并下载！</Item>
 
-			<Item Key="Installer_AddonSection_Fabric_Optifine_Title">在 Fabric 上运行 OptiFine 还需要额外组件！</Item>
+			<Item Key="Installer_AddonSection_Fabric_Optifine_Title">在 Fabric 上运行 Optifine 还需要额外组件！</Item>
 			<Item Key="Installer_AddonSection_Fabric_Optifine_Tips">点击安装 Fabric API 及 OptiFabric 组件，否则它将无法工作！</Item>
 
 			<Item Key="Installer_AddonSection_Quilt_Title">安装 Quilt 基础库 和 推荐必备模组！</Item>
@@ -2208,8 +2237,8 @@
 			<Item Key="Installer_InstallTaskStatus_InstallingFabric">正在安装 Fabric...</Item>
 			<Item Key="Installer_InstallTaskStatus_DownloadQuilt">正在获取 Quilt 安装档案...</Item>
 			<Item Key="Installer_InstallTaskStatus_InstallingQuilt">正在安装 Quilt...</Item>
-			<Item Key="Installer_InstallTaskStatus_DownloadOptifine">正在下载 OptiFine...</Item>
-			<Item Key="Installer_InstallTaskStatus_InstallingOptifine">正在安装 OptiFine...</Item>
+			<Item Key="Installer_InstallTaskStatus_DownloadOptifine">正在下载 Optifine...</Item>
+			<Item Key="Installer_InstallTaskStatus_InstallingOptifine">正在安装 Optifine...</Item>
 			<Item Key="Installer_InstallTaskStatus_DownloadAssets">正在补全 Assets...</Item>
 			<Item Key="Installer_InstallTaskStatus_UnzipFile">正在解压缩文件...</Item>
 
@@ -2229,8 +2258,8 @@
 			<Item Key="Installer_InstallTaskStatus_InstallingFabric_Tips">BakaXL 正在处理 Fabric-{0} 的安装档案。&#xD;&#xA;请稍等片刻，并在此期间不要操作游戏目录或关闭BakaXL。</Item>
 			<Item Key="Installer_InstallTaskStatus_DownloadQuilt_Tips">BakaXL 正在将 Quilt-{0} 下载至本地。&#xD;&#xA;请稍等片刻，并在此期间不要断开互联网连接或关闭BakaXL。</Item>
 			<Item Key="Installer_InstallTaskStatus_InstallingQuilt_Tips">BakaXL 正在处理 Quilt-{0} 的安装档案。&#xD;&#xA;请稍等片刻，并在此期间不要操作游戏目录或关闭BakaXL。</Item>
-			<Item Key="Installer_InstallTaskStatus_DownloadOptifine_Tips">BakaXL 正在将 OptiFine-{0} 下载至本地。&#xD;&#xA;请稍等片刻，并在此期间不要断开互联网连接或关闭BakaXL。</Item>
-			<Item Key="Installer_InstallTaskStatus_InstallingOptifine_Tips">BakaXL 正在安装 OptiFine {0}。&#xD;&#xA;请稍等片刻，并在此期间不要操作游戏目录或关闭BakaXL。</Item>
+			<Item Key="Installer_InstallTaskStatus_DownloadOptifine_Tips">BakaXL 正在将 Optifine-{0} 下载至本地。&#xD;&#xA;请稍等片刻，并在此期间不要断开互联网连接或关闭BakaXL。</Item>
+			<Item Key="Installer_InstallTaskStatus_InstallingOptifine_Tips">BakaXL 正在安装 Optifine {0}。&#xD;&#xA;请稍等片刻，并在此期间不要操作游戏目录或关闭BakaXL。</Item>
 
 			<Item Key="Installer_InstallTaskStatus_DownloadMinecraft_Tips_ModPack">BakaXL 正在将 {0} 所需的 Minecraft核心 下载至本地。&#xD;&#xA;请稍等片刻，并在此期间不要断开互联网连接或关闭BakaXL。</Item>
 			<Item Key="Installer_InstallTaskStatus_DownloadForge_Tips_ModPack">BakaXL 正在将 {0} 所需的 Forge 下载至本地。&#xD;&#xA;请稍等片刻，并在此期间不要断开互联网连接或关闭BakaXL。</Item>
@@ -2239,8 +2268,8 @@
 			<Item Key="Installer_InstallTaskStatus_InstallingFabric_Tips_ModPack">BakaXL 正在为 {0} 处理 Fabric 安装档案。&#xD;&#xA;请稍等片刻，并在此期间不要操作游戏目录或关闭BakaXL。</Item>
 			<Item Key="Installer_InstallTaskStatus_DownloadQuilt_Tips_ModPack">BakaXL 正在将 {0} 所需的 Quilt 安装档案 下载至本地。&#xD;&#xA;请稍等片刻，并在此期间不要断开互联网连接或关闭BakaXL。</Item>
 			<Item Key="Installer_InstallTaskStatus_InstallingQuilt_Tips_ModPack">BakaXL 正在为 {0} 处理 Quilt 安装档案。&#xD;&#xA;请稍等片刻，并在此期间不要操作游戏目录或关闭BakaXL。</Item>
-			<Item Key="Installer_InstallTaskStatus_DownloadOptifine_Tips_ModPack">BakaXL 正在将 {0} 所需的 OptiFine 下载至本地。&#xD;&#xA;请稍等片刻，并在此期间不要断开互联网连接或关闭BakaXL。</Item>
-			<Item Key="Installer_InstallTaskStatus_InstallingOptifine_Tips_ModPack">BakaXL 正在为 {0} 安装 OptiFine。&#xD;&#xA;请稍等片刻，并在此期间不要操作游戏目录或关闭BakaXL。</Item>
+			<Item Key="Installer_InstallTaskStatus_DownloadOptifine_Tips_ModPack">BakaXL 正在将 {0} 所需的 Optifine 下载至本地。&#xD;&#xA;请稍等片刻，并在此期间不要断开互联网连接或关闭BakaXL。</Item>
+			<Item Key="Installer_InstallTaskStatus_InstallingOptifine_Tips_ModPack">BakaXL 正在为 {0} 安装 Optifine。&#xD;&#xA;请稍等片刻，并在此期间不要操作游戏目录或关闭BakaXL。</Item>
 
 			<Item Key="Installer_InstallTaskStatus_DownloadLibs_Tips">BakaXL 正在补全该版本所需的 运行库文件(Libraries)。&#xD;&#xA;请稍等片刻，并在此期间不要断开互联网连接或关闭BakaXL。</Item>
 			<Item Key="Installer_InstallTaskStatus_DownloadAssets_Tips">BakaXL 正在补全该版本所需的 资源文件(Assets)。&#xD;&#xA;请稍等片刻，并在此期间不要断开互联网连接或关闭BakaXL。</Item>
