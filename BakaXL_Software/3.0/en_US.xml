@@ -231,8 +231,8 @@
 
 			<Item Key="StartMenuTipper_Title">Swipe Up to Start Menu</Item>
 
-			<Item Key="Minute">Minutes</Item>
-			<Item Key="Hour">Hours</Item>
+			<Item Key="Minute">Minute(s)</Item>
+			<Item Key="Hour">Hour(s)</Item>
 
 			<Item Key="Core_HaveRun">Played: </Item>
 			<Item Key="Core_InstallTime">Installed on: </Item>
