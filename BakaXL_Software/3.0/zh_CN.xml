@@ -1748,7 +1748,7 @@
 			<Item Key="Setting_Insider_ChangeTunnel_Btn">变更</Item>
 			<Item Key="Setting_Insider_StartBtn_Title">开始</Item>
 			<Item Key="Setting_Insider_LatestVersion">（当前分支上的预览体验版本：{0}）</Item>
-			<Item Key="Setting_Insider_Requirement">您的计算机需要安装.Net Framework 4.5才可以运行BakaXL。&#xA;使用BakaXL的预览体验版本需要您使用Windows 7或更高级操作系统。&#xA;推荐您使用Windows 10操作系统以体验BakaXL的全部功能。&#xA;&#xA;BakaXL 已不再支持Windows XP操作系统。</Item>
+			<Item Key="Setting_Insider_Requirement">您的计算机需要安装.Net Framework 4.5才可以运行BakaXL。&#xA;使用BakaXL的预览体验版本需要您使用Windows 7或更高级操作系统。&#xA;推荐您使用Windows 11或Windows 10操作系统以体验BakaXL的全部功能。&#xA;&#xA;BakaXL 已不再支持Windows XP操作系统。</Item>
 
 			<Item Key="Setting_Sponsor_SupportOnAfdian_Title">在 爱发电 上支持 BakaXL 的开发。</Item>
 			<Item Key="Setting_Sponsor_SupportOnAfdian_Desc">感谢您选择并使用 BakaXL 启动器！&#xD;&#xA;您对我们的支持是让我们继续成长和发展的动力！</Item>
