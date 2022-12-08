@@ -3,7 +3,7 @@
 	<Type>
 		<Key>zh_MEME</Key>
 		<Name>梗体中文 (天朝)</Name>
-		<Author>Sheep-realms</Author>
+		<Author>Sheep-realms、HaiHome</Author>
 	</Type>
 	<Language Key="zh_MEME">
 		<Items>
@@ -332,9 +332,9 @@
 			<Item Key="BakaXL_Update_NeedLogin_Info">若要从当前设置的BakaXL预览体验通道中获取本体更新，则需要您登录至BakaXL Network。&#xD;&#xA;前往 &quot;本体设置 - 账户与档案&quot; 中登录您的BakaXL Account</Item>
 
 			<Item Key="BakaXL_Update_NotInsider_Title">需要成为预览体验计划成员</Item>
-			<Item Key="BakaXL_Update_NotInsider_Info">诶呀，您当前好像还不是已登记的BakaXL预览体验计划成员呢。&#xD;&#xA;若要更新至此预览体验版本，您的账户需要被登记为BakaXL预览体验计划成员。&#xD;&#xA;&#xD;&#xA;在BakaXL 局外人用户群中参与交流讨论 亦或是通过 &quot;爱发电&quot; 支持BakaXL的开发工作，即可将您的BakaXL账户登记为预览体验计划成员！</Item>
+			<Item Key="BakaXL_Update_NotInsider_Info">诶呀，您当前好像还不是已登记的BakaXL预览体验计划成员呢。&#xD;&#xA;若要更新至此预览体验版本，您的账户需要被登记为BakaXL预览体验计划成员。&#xD;&#xA;&#xD;&#xA;在BakaXL 局外人用户群中参与交流讨论 亦或是通过 &quot;电鳗&quot; 支持BakaXL的开发工作，即可将您的BakaXL账户登记为预览体验计划成员！</Item>
 			<Item Key="BakaXL_Update_NotInsider_Tips">但实际上也有办法可以更新的啦，BakaXL不会做那种事的！</Item>
-			<Item Key="BakaXL_Update_NotInsider_Btn_Afdian">前往 &quot;爱发电&quot; 看看</Item>
+			<Item Key="BakaXL_Update_NotInsider_Btn_Afdian">前往 &quot;电鳗&quot; 看看</Item>
 
 			<Item Key="LiveBackground_Prepare_Title">BakaXL正在准备背景</Item>
 			<Item Key="LiveBackground_Prepare_Tips">这可能需要一点点时间</Item>
@@ -780,6 +780,17 @@
 			<Item Key="Setting_Plaza_Title">游泳圈</Item>
 			<Item Key="Setting_Insider_Title">BUG！</Item>
 			<Item Key="Setting_About_Title">对话气泡</Item>
+			<Item Key="Setting_Sponsor_List_Title">赞助者列表</Item>
+
+			<Item Key="Setting_Sponsor_SupportOnAfdian_Title">在 电鳗 上支持 BakaXL 的开发。</Item>
+			<Item Key="Setting_Sponsor_SupportOnAfdian_Desc">感谢您选择并使用 BakaXL 启动器！&#xD;&#xA;您对我们的支持是让我们继续成长和发展的动力！</Item>
+			<Item Key="Setting_Sponsor_GoAfdian">立即通过 电鳗 支持开发者</Item>
+			
+			<Item Key="Setting_Sponsor_List_Desc">不论您赞助与否，我们都感谢您使用 BakaXL！&#xD;&#xA;但若您通过电鳗赞助了 BakaXL，您的电鳗用户名将会显示在这里！&#xD;&#xA;&#xD;&#xA;按照发电时间进行排序，最近发电的将最先显示。&#xD;&#xA;本列表将会每 6 小时自动进行更新。</Item>
+
+			<Item Key="Setting_Sponsor_List_Loading">正在集结鸽子大军…</Item>
+			<Item Key="Setting_Sponsor_List_NoSponsor">太遗憾了，看上去没有任何赞助者…</Item>
+			<Item Key="Setting_Sponsor_List_Sponsor">赞助者</Item>
 
 			<Item Key="Setting_Support_Tips">欢迎来到BakaXL本体设置！我们正在努力为BakaXL添加更多精彩的功&#xD;&#xA;能！部分不可用的选项是BakaXL 3.0尚未开发完善的功能。目前，我们正在&#xA;根据各位的需求调整此界面中的功能。希望您能喜欢！</Item>
 			<Item Key="Setting_Support_Website">BakaXL帮助与支持网站</Item>
