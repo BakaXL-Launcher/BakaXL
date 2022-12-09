@@ -780,8 +780,9 @@
 			<Item Key="Setting_Plaza_Title">游泳圈</Item>
 			<Item Key="Setting_Insider_Title">BUG！</Item>
 			<Item Key="Setting_About_Title">对话气泡</Item>
-			<Item Key="Setting_Sponsor_List_Title">叉子和饮料</Item>
-
+			<Item Key="Setting_Sponsor_Title">叉子和饮料</Item>
+	
+		<Item Key="Setting_Sponsor_List_Title">叉子和饮料</Item>
 			<Item Key="Setting_Sponsor_SupportOnAfdian_Title">在 电鳗 上支持 BakaXL 的开发。</Item>
 			<Item Key="Setting_Sponsor_SupportOnAfdian_Desc">感谢您选择并使用 BakaXL 启动器！&#xD;&#xA;您对我们的支持是让我们继续成长和发展的动力！</Item>
 			<Item Key="Setting_Sponsor_GoAfdian">立即通过 电鳗 支持开发者</Item>
