@@ -480,7 +480,7 @@
 			<Item Key="Bakaverse_UserInfo_FriendRequest">好友申请</Item>
 
 			<Item Key="Bakaverse_UserInfo_AboutYourSelf">有关你自己</Item>
-			<Item Key="Bakaverse_UserInfo_AboutYourSelf_Tips">这个界面粘贴着你自己的信息。&#xA;你站在这里，但并不知道应该做些什么。&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;你转头看向了BakaXL，但我们也不知道做些什么。&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;对了，顺便一说：&#xA;在新的BakaXL中，我们对搜索行为做了优化，&#xA;这样您并不会浪费服务器资源。</Item>
+			<Item Key="Bakaverse_UserInfo_AboutYourSelf_Tips">这个界面粘贴着你自己的信息。&#xA;你站在这里，但并不知道应该做些什么。&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;你转头看向了BugXL，但我们也不知道做些什么。&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;对了，顺便一说：&#xA;在新的BugXL中，我们对搜索行为做了优化，&#xA;这样您并不会浪费服务器资源。</Item>
 
 			<Item Key="Bakaverse_FriendList_Tips">您的好友查看您的在线状态和正在游戏中的整活包名称。&#xD;&#xA;您可以前往隐私设置修改相关设置，或将您的在线状态设置为 &quot;隐身&quot;。</Item>
 
@@ -784,36 +784,36 @@
 	
 		<Item Key="Setting_Sponsor_List_Title">叉子和饮料</Item>
 			<Item Key="Setting_Sponsor_SupportOnAfdian_Title">在 电鳗 上支持 BugXL 的开发。</Item>
-			<Item Key="Setting_Sponsor_SupportOnAfdian_Desc">感谢您选择并使用 BakaXL 启动器！&#xD;&#xA;您对我们的支持是让我们继续成长和发展的动力！</Item>
+			<Item Key="Setting_Sponsor_SupportOnAfdian_Desc">感谢您选择并使用 BugXL 启动器！&#xD;&#xA;您对我们的支持是让我们继续成长和发展的动力！</Item>
 			<Item Key="Setting_Sponsor_GoAfdian">立即通过 电鳗 支持开发者</Item>
 			
-			<Item Key="Setting_Sponsor_List_Desc">不论您赞助与否，我们都感谢您使用 BakaXL！&#xD;&#xA;但若您通过电鳗赞助了 BakaXL，您的电鳗用户名将会显示在这里！&#xD;&#xA;&#xD;&#xA;按照发电时间进行排序，最近发电的将最先显示。&#xD;&#xA;本列表将会每 6 小时自动进行更新。</Item>
+			<Item Key="Setting_Sponsor_List_Desc">不论您赞助与否，我们都感谢您使用 BugXL！&#xD;&#xA;但若您通过电鳗赞助了 BugXL，您的电鳗用户名将会显示在这里！&#xD;&#xA;&#xD;&#xA;按照发电时间进行排序，最近发电的将最先显示。&#xD;&#xA;本列表将会每 6 小时自动进行更新。</Item>
 
 			<Item Key="Setting_Sponsor_List_Loading">正在集结鸽子大军…</Item>
 			<Item Key="Setting_Sponsor_List_NoSponsor">太遗憾了，看上去没有任何赞助者…</Item>
 			<Item Key="Setting_Sponsor_List_Sponsor">赞助者</Item>
 
-			<Item Key="Setting_Support_Tips">欢迎来到BakaXL本体设置！我们正在努力为BakaXL添加更多精彩的功&#xD;&#xA;能！部分不可用的选项是BakaXL 3.0尚未开发完善的功能。目前，我们正在&#xA;根据各位的需求调整此界面中的功能。希望您能喜欢！</Item>
-			<Item Key="Setting_Support_Website">BakaXL帮助与支持网站</Item>
-			<Item Key="Setting_Support_WebsiteTips">若要了解如何更好的使用BakaXL及其功能，或取得帮助，您可以通过您的&#xD;&#xA;电脑或者智能设备访问BakaXL帮助与支持网站。</Item>
+			<Item Key="Setting_Support_Tips">欢迎来到BugXL本体设置！我们正在努力为BugXL添加更多精彩的功&#xD;&#xA;能！部分不可用的选项是BugXL 3.0尚未开发完善的功能。目前，我们正在&#xA;根据各位的需求调整此界面中的功能。希望您能喜欢！</Item>
+			<Item Key="Setting_Support_Website">BugXL帮助与支持网站</Item>
+			<Item Key="Setting_Support_WebsiteTips">若要了解如何更好的使用BugXL及其功能，或取得帮助，您可以通过您的&#xD;&#xA;电脑或者智能设备访问BugXL帮助与支持网站。</Item>
 			<Item Key="Setting_Support_SafeUse">安全使用指引</Item>
 			<Item Key="Setting_Support_ErrorHistory">笨蛋罐头历史</Item>
 			<Item Key="Setting_Support_Troubleshooting">疑难解答向导</Item>
 			<Item Key="Setting_Support_PrivacyPolicy">隐私政策</Item>
 
 			<Item Key="Setting_Support_ErrorHistory_RightPannel_Title">查看遇到的错误</Item>
-			<Item Key="Setting_Support_ErrorHistory_RightPannel_Tips1">BakaXL会自动记录在运行时遇到的错误，您可以点击某个错误以查看所有被记录的信息。</Item>
+			<Item Key="Setting_Support_ErrorHistory_RightPannel_Tips1">BugXL会自动记录在运行时遇到的错误，您可以点击某个错误以查看所有被记录的信息。</Item>
 			<Item Key="Setting_Support_ErrorHistory_RightPannel_Tips2">这些信息只会在本地存储，不会被上传或保存至云端服务器。</Item>
 
-			<Item Key="Setting_Support_ErrorHistory_RightPannel_DataCollection_Title">了解BakaXL收集的数据？</Item>
+			<Item Key="Setting_Support_ErrorHistory_RightPannel_DataCollection_Title">了解BugXL收集的数据？</Item>
 			<Item Key="Setting_Support_ErrorHistory_RightPannel_DataCollection_Btn">获取详情</Item>
 
 			<Item Key="Setting_Support_ErrorHistory_Searching">翻箱倒柜</Item>
 			<Item Key="Setting_Support_ErrorHistory_Searching_Tips">正在寻找存放在附近的笨蛋罐头</Item>
 
-			<Item Key="Setting_Support_ErrorHistory_NoCan">太棒了！</Item>
-			<Item Key="Setting_Support_ErrorHistory_NoCan_Tips1">这个柜子里目前还没有任何BakaXL笨蛋罐头</Item>
-			<Item Key="Setting_Support_ErrorHistory_NoCan_Tips2">我敢保证这里很快就会有不少罐头。</Item>
+			<Item Key="Setting_Support_ErrorHistory_NoCan">太棒了！（确信）</Item>
+			<Item Key="Setting_Support_ErrorHistory_NoCan_Tips1">这个柜子里目前还没有任何BugXL笨蛋罐头</Item>
+			<Item Key="Setting_Support_ErrorHistory_NoCan_Tips2">我敢保证这里很快就会有不少罐头。（偷笑）</Item>
 
 			<Item Key="Setting_Support_ErrorHistory_ErrorCode">错误代码</Item>
 			<Item Key="Setting_Support_ErrorHistory_ErrorTitle">错误标题</Item>
@@ -878,12 +878,12 @@
 			<Item Key="Setting_Support_ErrorHistory_Config_HomeScrollValue">主界面滚动函数</Item>
 			<Item Key="Setting_Support_ErrorHistory_Config_CellularNetwork">省流量模式</Item>
 
-			<Item Key="Setting_Support_ErrorHistory_BakaVer">BakaXL版本</Item>
+			<Item Key="Setting_Support_ErrorHistory_BakaVer">BugXL版本</Item>
 
 			<Item Key="Setting_Support_ErrorHistory_ReportCan">提交笨蛋罐头</Item>
 			<Item Key="Setting_Support_ErrorHistory_OpenFilePath">在资源管理器中显示此文件</Item>
 
-			<Item Key="Setting_Support_ErrorHistory_Solution_ContactUs">请及时联系BakaXL开发团队以获得此问题的解决方案。</Item>
+			<Item Key="Setting_Support_ErrorHistory_Solution_ContactUs">请及时联系BugXL开发团队以获得此问题的解决方案。</Item>
 
 			<!-- Example: 发生于 {YYYY/MM/DD} {MM:SS} 的错误-->
 			<Item Key="Setting_Support_ErrorHistory_HappedOn">发生于 {0} {1} 的错误</Item>
@@ -892,29 +892,29 @@
 			<Item Key="Setting_Account_NewProfile">新增一个档案</Item>
 			<Item Key="Setting_Account_ManageCredential">管理整活包或服务器使用的凭证档案</Item>
 			<Item Key="Setting_Account_ImportProfile">从其他启动器导入用户档案</Item>
-			<Item Key="Setting_Account_ExportProfile">将BakaXL用户档案导出至其他启动器</Item>
-			<Item Key="Setting_Account_ProfileTips">在导入其他启动器的设置之后，受限于其他启动器的安全限制，&#xD;&#xA;若您拥有正版迈恩克拉夫特账号，则需要您再次输入登录密码。&#xD;&#xA;若您将用户档案从BakaXL中导出，则此档案将会从BakaXL中删除。&#xD;&#xA;在导入之后您可能仍需要设置部分内容。</Item>
+			<Item Key="Setting_Account_ExportProfile">将BugXL用户档案导出至其他启动器</Item>
+			<Item Key="Setting_Account_ProfileTips">在导入其他启动器的设置之后，受限于其他启动器的安全限制，&#xD;&#xA;若您拥有正版迈恩克拉夫特账号，则需要您再次输入登录密码。&#xD;&#xA;若您将用户档案从BugXL中导出，则此档案将会从BugXL中删除。&#xD;&#xA;在导入之后您可能仍需要设置部分内容。</Item>
 
-			<Item Key="Setting_Account_BakaAccount_Title">BakaXL 账户</Item>
-			<Item Key="Setting_Account_BakaAccount_Login">登录至现有的BakaXL账户</Item>
-			<Item Key="Setting_Account_BakaAccount_Register">注册BakaXL账户</Item>
+			<Item Key="Setting_Account_BakaAccount_Title">BugXL 账户</Item>
+			<Item Key="Setting_Account_BakaAccount_Login">登录至现有的BugXL账户</Item>
+			<Item Key="Setting_Account_BakaAccount_Register">注册BugXL账户</Item>
 			<Item Key="Setting_Account_BakaAccount_Logout">退出登录</Item>
 			<Item Key="Setting_Account_BakaAccount_CancelLogin">取消登录</Item>
-			<Item Key="Setting_Account_BakaAccount_LoginAs">BakaXL 已使用 {0} 的身份登录。</Item>
+			<Item Key="Setting_Account_BakaAccount_LoginAs">BugXL 已使用 {0} 的身份登录。</Item>
 			<Item Key="Setting_Account_BakaAccount_AccountEmail">账户邮箱：{0}</Item>
 			<Item Key="Setting_Account_BakaAccount_AccountStatus">账户状态：{0}</Item>
-			<Item Key="Setting_Account_BakaAccount_Connecting">正在连接至 BakaXL Network 服务器…</Item>
-			<Item Key="Setting_Account_BakaAccount_Tips">注册BakaXL账户(BakaXL Account)并领取一个账户网络ID&#xA;(BakaXL Network ID)，即可享受精彩的BakaXL线上功能。&#xA;&#xA;将此游戏ID添加至您的BakaXL账户后，您就可以添加好友、&#xA;查看彼此的在线状态、分享游戏客户端或快速加入彼此当前&#xA;所在的游戏。</Item>
-			<Item Key="Setting_Account_BakaAccount_LoginedTips">当前该计算机中所有的BakaXL实例均会登录至此账户。&#xA;BakaXL 线上服务的部分功能并非在所有地区都适用。&#xA;&#xA;若您违反了BakaXL账户守则，则账户将会被限制使用。</Item>
+			<Item Key="Setting_Account_BakaAccount_Connecting">正在连接至 BugXL Network 服务器…</Item>
+			<Item Key="Setting_Account_BakaAccount_Tips">注册BugXL账户(BugXL Account)并领取一个账户网络ID&#xA;(BugXL Network ID)，即可享受精彩的BugXL线上功能。&#xA;&#xA;将此游戏ID添加至您的BugXL账户后，您就可以添加好友、&#xA;查看彼此的在线状态、分享游戏客户端或快速加入彼此当前&#xA;所在的游戏。</Item>
+			<Item Key="Setting_Account_BakaAccount_LoginedTips">当前该计算机中所有的BugXL实例均会登录至此账户。&#xA;BugXL 线上服务的部分功能并非在所有地区都适用。&#xA;&#xA;若您违反了BugXL账户守则，则账户将会被限制使用。</Item>
 
 			<Item Key="Setting_Account_BakaAccount_AccountStatus_Normal">正常</Item>
 			<Item Key="Setting_Account_BakaAccount_AccountStatus_Restricted">受到限制</Item>
 
-			<Item Key="Setting_Account_BakaAccount_Login_AccountEmail">输入您的BakaXL账户邮箱</Item>
-			<Item Key="Setting_Account_BakaAccount_Login_AccountEmail_Tips">输入您注册BakaXL账户时所使用的的电子邮件地址</Item>
-			<Item Key="Setting_Account_BakaAccount_Login_AccountPassword_Tips">输入此BakaXL账户的登录密码。&#xD;&#xA;BakaXL会加密保存这些信息。</Item>
+			<Item Key="Setting_Account_BakaAccount_Login_AccountEmail">输入您的BugXL账户邮箱</Item>
+			<Item Key="Setting_Account_BakaAccount_Login_AccountEmail_Tips">输入您注册BugXL账户时所使用的的电子邮件地址</Item>
+			<Item Key="Setting_Account_BakaAccount_Login_AccountPassword_Tips">输入此BugXL账户的登录密码。&#xD;&#xA;BugXL会加密保存这些信息。</Item>
 			<Item Key="Setting_Account_BakaAccount_Login_Options">登录选项</Item>
-			<Item Key="Setting_Account_BakaAccount_Login_Options_AutoLogin">让BakaXL自动为我登录</Item>
+			<Item Key="Setting_Account_BakaAccount_Login_Options_AutoLogin">让BugXL自动为我登录</Item>
 			<Item Key="Setting_Account_BakaAccount_Login_Options_VanishLogin">登录后自动隐身</Item>
 
 			<Item Key="Setting_Account_Minecraft_Title">迈恩克拉夫特用户档案</Item>
@@ -939,14 +939,14 @@
 			<Item Key="Setting_Account_Detail_Offline_Username">填个游戏ID</Item>
 			<Item Key="Setting_Account_Detail_Offline_Username_Tips">设置你在运行迈恩克拉夫特时想使用的游戏ID。&#xD;&#xA;只能使用英文、数字和下划线，不建议使用中文和特殊符号。</Item>
 
-			<Item Key="Setting_Account_Detail_Online_Email">Bugjump账户邮箱</Item>
-			<Item Key="Setting_Account_Detail_Online_Email_Tips">设置您的Bugjump正版账户邮箱。</Item>
+			<Item Key="Setting_Account_Detail_Online_Email">麻将账户邮箱</Item>
+			<Item Key="Setting_Account_Detail_Online_Email_Tips">设置您的麻将正版账户邮箱。</Item>
 			<Item Key="Setting_Account_Detail_Online_Password">输入您的密码</Item>
-			<Item Key="Setting_Account_Detail_Online_Password_Tips">输入您的Bugjump正版账户登录密码。&#xD;&#xA;BakaXL会加密保存这些信息。</Item>
+			<Item Key="Setting_Account_Detail_Online_Password_Tips">输入您的麻将正版账户登录密码。&#xD;&#xA;BugXL会加密保存这些信息。</Item>
 
 			<Item Key="Setting_Account_Detail_Online_Microsoft_LoginBtn">通过巨硬账户登录</Item>
 			<Item Key="Setting_Account_Detail_Online_Microsoft_LoginBtn_Relogin">切换至其他巨硬账户</Item>
-			<Item Key="Setting_Account_Detail_Online_Microsoft_LoginBtn_Tips">在打开的新页面中输入您的巨硬账户和密码进行登录授权。&#xD;&#xA;BakaXL不会记录您的巨硬账户和密码。&#xD;&#xA;BakaXL与巨硬服务器的连接均使用安全套接字层(SSL)技术。</Item>
+			<Item Key="Setting_Account_Detail_Online_Microsoft_LoginBtn_Tips">在打开的新页面中输入您的巨硬账户和密码进行登录授权。&#xD;&#xA;BugXL不会记录您的巨硬账户和密码。&#xD;&#xA;BugXL与巨硬服务器的连接均使用安全套接字层(SSL)技术。</Item>
 			<Item Key="Setting_Account_Detail_Online_Microsoft_Logined_WithUsername">已使用 {0} 的身份登录</Item>
 			<Item Key="Setting_Account_Detail_Online_Microsoft_NotLogin">您还尚未登录至巨硬账户。</Item>
 			<Item Key="Setting_Account_Detail_Online_Microsoft_Logined">此用户档案已通过巨硬账户授权。</Item>
@@ -954,21 +954,21 @@
 			<Item Key="Setting_Account_Detail_Online_Microsoft_Logined_Time_Expired">授权失效时间: {0}</Item>
 
 			<Item Key="Setting_Account_Detail_Online_OnlineFunction_Title">迈恩克拉夫特正版账户功能</Item>
-			<Item Key="Setting_Account_Detail_Online_OnlineFunction_Tips">若您已经完成登录，则您可以通过 BakaXL 调整您的迈恩克拉夫特皮肤、&#xD;&#xA;披风等信息。</Item>
+			<Item Key="Setting_Account_Detail_Online_OnlineFunction_Tips">若您已经完成登录，则您可以通过 BugXL 调整您的迈恩克拉夫特皮肤、&#xD;&#xA;披风等信息。</Item>
 
 			<Item Key="Setting_Account_Detail_Online_OnlineFunction_SkinCape_SaveSkin_DiagTitle">将迈恩克拉夫特角色另存为</Item>
 			<Item Key="Setting_Account_Detail_Online_OnlineFunction_SkinCape_SaveSkin_DiagFilter">迈恩克拉夫特皮肤文件</Item>
 			<Item Key="Setting_Account_Detail_Online_OnlineFunction_SkinCape_UploadSkin_DiagTitle">选择新的迈恩克拉夫特角色皮肤</Item>
 
 			<Item Key="Setting_Account_Detail_ThirdParty_APIRoot">验证服务器地址(API Root)</Item>
-			<Item Key="Setting_Account_Detail_ThirdParty_APIRoot_Tips">验证服务器（即 Yggdrasil 服务器）是整个验证系统的核心。&#xD;&#xA;在设置后，使用此档案进行的请求都将被发往此地址。&#xD;&#xA;您可以将包含了验证服务器信息的配置拖拽至BakaXL进行快速配置。&#xD;&#xA;&#xD;&#xA;请谨慎使用非HTTPS的验证服务器，这将导致您的密码被明文传输。</Item>
+			<Item Key="Setting_Account_Detail_ThirdParty_APIRoot_Tips">验证服务器（即 Yggdrasil 服务器）是整个验证系统的核心。&#xD;&#xA;在设置后，使用此档案进行的请求都将被发往此地址。&#xD;&#xA;您可以将包含了验证服务器信息的配置拖拽至BugXL进行快速配置。&#xD;&#xA;&#xD;&#xA;请谨慎使用非HTTPS的验证服务器，这将导致您的密码被明文传输。</Item>
 
 			<Item Key="Setting_Account_Detail_ThirdParty_Email">注册此服务时的邮箱</Item>
 			<Item Key="Setting_Account_Detail_ThirdParty_Email_Tips">您在注册此第三方验证服务时所使用的邮箱。</Item>
 			<Item Key="Setting_Account_Detail_ThirdParty_EmailOrUsername">注册此服务时的角色名 / 邮箱</Item>
 			<Item Key="Setting_Account_Detail_ThirdParty_EmailOrUsername_Tips">您在注册此第三方验证服务时所使用的角色名或者邮箱。&#xD;&#xA;此验证服务器支持通过角色名进行登录。</Item>
 			<Item Key="Setting_Account_Detail_ThirdParty_Password">输入您的密码</Item>
-			<Item Key="Setting_Account_Detail_ThirdParty_Password_Tips">您在注册第三方验证服务时所使用的密码。&#xD;&#xA;BakaXL 会加密保存这些信息。</Item>
+			<Item Key="Setting_Account_Detail_ThirdParty_Password_Tips">您在注册第三方验证服务时所使用的密码。&#xD;&#xA;BugXL 会加密保存这些信息。</Item>
 
 			<Item Key="Setting_Account_Detail_ThirdParty_ServerInfo_Title">服务器身份信息</Item>
 			<Item Key="Setting_Account_Detail_ThirdParty_ServerInfo_ServerName_Title">服务器名称：{0}</Item>
@@ -979,17 +979,17 @@
 			<Item Key="Setting_Account_Detail_ThirdParty_OnlineFunction_Title">第三方验证账户功能</Item>
 			<Item Key="Setting_Account_Detail_ThirdParty_OnlineFunction_Tips">若您的第三方验证服务在服务器响应中标记其支持&#xD;&#xA;通过启动器上传皮肤或披风等快捷功能，则将会显示在这里。</Item>
 
-			<Item Key="Setting_Account_Detail_AccFeatures_FetchingProfile">BakaXL 正在获取迈恩克拉夫特角色档案…</Item>
-			<Item Key="Setting_Account_Detail_AccFeatures_FetchingProfileFailed">BakaXL 无法获得此迈恩克拉夫特角色的档案。&#xD;&#xA;若您此问题持续出现，请检查您的互联网连接。</Item>
+			<Item Key="Setting_Account_Detail_AccFeatures_FetchingProfile">BugXL 正在获取迈恩克拉夫特角色档案…</Item>
+			<Item Key="Setting_Account_Detail_AccFeatures_FetchingProfileFailed">BugXL 无法获得此迈恩克拉夫特角色的档案。&#xD;&#xA;若您此问题持续出现，请检查您的互联网连接。</Item>
 
 			<Item Key="Setting_Account_Detail_AccFeatures_SkinCapes_Title">皮肤与披风</Item>
 			<Item Key="Setting_Account_Detail_AccFeatures_SkinCapes_Skin_SaveBtn">保存我的迈恩克拉夫特角色皮肤</Item>
 			<Item Key="Setting_Account_Detail_AccFeatures_SkinCapes_Skin_UploadBtn">为我的迈恩克拉夫特角色更换皮肤</Item>
-			<Item Key="Setting_Account_Detail_AccFeatures_SkinCapes_Skin_UploadTips">您现在可以直接通过 BakaXL 更换角色的皮肤。&#xD;&#xA;更换皮肤后需要重新启动迈恩克拉夫特。</Item>
+			<Item Key="Setting_Account_Detail_AccFeatures_SkinCapes_Skin_UploadTips">您现在可以直接通过 BugXL换角色的皮肤。&#xD;&#xA;更换皮肤后需要重新启动迈恩克拉夫特。</Item>
 
 			<Item Key="Setting_Account_Detail_AccFeatures_SkinCapes_Skin_UploadBtn_Offline">为我的迈恩克拉夫特角色设置离线皮肤</Item>
 			<Item Key="Setting_Account_Detail_AccFeatures_SkinCapes_Skin_ClearBtn_Offline">恢复至默认皮肤</Item>
-			<Item Key="Setting_Account_Detail_AccFeatures_SkinCapes_Skin_UploadTips_Offline">为您的角色设置离线皮肤。&#xD;&#xA;更换皮肤后需要重新启动迈恩克拉夫特。&#xD;&#xA;&#xD;&#xA;若开启了 BakaXL Network SkinShare 皮肤妙享，&#xD;&#xA;设置离线皮肤后，就可以看见好友或多人运动内&#xD;&#xA;其他玩家设置的离线皮肤。</Item>
+			<Item Key="Setting_Account_Detail_AccFeatures_SkinCapes_Skin_UploadTips_Offline">为您的角色设置离线皮肤。&#xD;&#xA;更换皮肤后需要重新启动迈恩克拉夫特。&#xD;&#xA;&#xD;&#xA;若开启了 BugXL Network SkinShare 皮肤妙享，&#xD;&#xA;设置离线皮肤后，就可以看见好友或多人运动内&#xD;&#xA;其他玩家设置的离线皮肤。</Item>
 
 			<Item Key="Setting_Account_Detail_AccFeatures_SkinCapes_Capes_DisplayStatusBtn">设置披风的显示状态</Item>
 			<Item Key="Setting_Account_Detail_AccFeatures_SkinCapes_Capes_UploadBtn">为我的迈恩克拉夫特角色更换披风</Item>
@@ -997,12 +997,12 @@
 
 			<Item Key="Setting_Account_Detail_ProfileProtection">账号保护及安全</Item>
 			<Item Key="Setting_Account_Detail_ProfileProtection_Btn_Title">不保存正版信息</Item>
-			<Item Key="Setting_Account_Detail_DoNotSaveAuthInfo">当您在公共计算机上使用 BakaXL 时，建议打开此选项。&#xD;&#xA;BakaXL 将仅会保存您的游戏ID。</Item>
-			<Item Key="Setting_Account_Detail_DoNotSaveAuthInfo_Tips">BakaXL 使用符合业界标准的加密措施来保护您的账户信息安全。&#xD;&#xA;为了安全，请不要向任何人透露您的密码。</Item>
+			<Item Key="Setting_Account_Detail_DoNotSaveAuthInfo">当您在公共计算机上使用 BugXL 时，建议打开此选项。&#xD;&#xA;BugXL 将仅会保存您的游戏ID。</Item>
+			<Item Key="Setting_Account_Detail_DoNotSaveAuthInfo_Tips">BugXL 使用符合业界标准的加密措施来保护您的账户信息安全。&#xD;&#xA;为了安全，请不要向任何人透露您的密码。</Item>
 
 			<Item Key="Setting_Account_Detail_Delete">删除账户档案</Item>
-			<Item Key="Setting_Account_Detail_Delete_Btn_Title">从 BakaXL 中删除此档案</Item>
-			<Item Key="Setting_Account_Detail_Delete_Tips">执行后将从 BakaXL 中永久删除此档案及其包含的数据。&#xD;此操作过程不可逆。</Item>
+			<Item Key="Setting_Account_Detail_Delete_Btn_Title">从 BugXL 中删除此档案</Item>
+			<Item Key="Setting_Account_Detail_Delete_Tips">执行后将从 BugXL 中永久删除此档案及其包含的数据。&#xD;此操作过程不可逆。</Item>
 
 			<Item Key="Setting_Account_Detail_BackBtn_Back">返回</Item>
 			<Item Key="Setting_Account_Detail_BackBtn_AuthBack">进行验证并返回</Item>
@@ -1019,8 +1019,8 @@
 
 			<Item Key="Setting_Java_JVM_Title">Java虚拟机</Item>
 
-			<Item Key="Setting_Java_JVM_FullAuto">让 BakaXL 自动决定 Java 版本</Item>
-			<Item Key="Setting_Java_JVM_FullAuto_Tips">当开启此选项时，BakaXL 将会自动根据运行的 Minecraft&#xD;&#xA;版本选定合适的 Java 虚拟机版本。&#xD;&#xA;若您没有安装对应的 Java 虚拟机，则 BakaXL 会自动为您安装。</Item>
+			<Item Key="Setting_Java_JVM_FullAuto">让 BugXL 自动决定 Java 版本</Item>
+			<Item Key="Setting_Java_JVM_FullAuto_Tips">当开启此选项时，BugXL 将会自动根据运行的 Minecraft&#xD;&#xA;版本选定合适的 Java 虚拟机版本。&#xD;&#xA;若您没有安装对应的 Java 虚拟机，则 BugXL 会自动为您安装。</Item>
 
 			<Item Key="Setting_Java_JVM_Selector">请选择Java版本</Item>
 			<Item Key="Setting_Java_JVM_Tips">为了确保您的游戏体验，请始终选择最佳适配版本的Java。</Item>
@@ -1037,26 +1037,26 @@
 			<Item Key="Setting_Java_JVM_Advance_ManualJava_Selector_Title">选择您的 Javaw.exe 位置</Item>
 
 			<Item Key="Setting_Java_JVM_Advance_AdvanceSearchPermission">更细致的自动寻找 Java 位置</Item>
-			<Item Key="Setting_Java_JVM_Advance_AdvanceSearchPermission_Tips">授权 BakaXL 遍历您计算机磁盘上的文件夹以&#xD;&#xA;寻找可能无法通过普通搜索无法寻找到的 Java 位置。&#xD;&#xA;在使用该搜索方式前，请了解此功能如何运作。</Item>
+			<Item Key="Setting_Java_JVM_Advance_AdvanceSearchPermission_Tips">授权 BugXL 遍历您计算机磁盘上的文件夹以&#xD;&#xA;寻找可能无法通过普通搜索无法寻找到的 Java 位置。&#xD;&#xA;在使用该搜索方式前，请了解此功能如何运作。</Item>
 
-			<Item Key="Setting_Java_JVM_Advance_Tips">在通常情况下，BakaXL会自动选择您当前计算机中最合适的Java。&#xD;&#xA;如果您不了解此选项的作用，我们建议您不要修改此选项的值。</Item>
+			<Item Key="Setting_Java_JVM_Advance_Tips">在通常情况下，BugXL会自动选择您当前计算机中最合适的Java。&#xD;&#xA;如果您不了解此选项的作用，我们建议您不要修改此选项的值。</Item>
 
 			<Item Key="Setting_Java_JVM_Download">获取Java 8</Item>
-			<Item Key="Setting_Java_JVM_Download_Tips">运行迈恩克拉夫特 1.16 及更低版本的迈恩克拉夫特推荐使用 Java 8。&#xD;&#xA;BakaXL将会跳转至来自可信下载源提供的 Java 8 下载地址。&#xD;&#xA;</Item>
+			<Item Key="Setting_Java_JVM_Download_Tips">运行迈恩克拉夫特 1.16 及更低版本的迈恩克拉夫特推荐使用 Java 8。&#xD;&#xA;BugXL将会跳转至来自可信下载源提供的 Java 8 下载地址。&#xD;&#xA;</Item>
 
 			<Item Key="Setting_Java_JVM16_Download">获取Java 16</Item>
-			<Item Key="Setting_Java_JVM16_Download_Tips">运行迈恩克拉夫特 1.17 或更高级版本的迈恩克拉夫特需要使用 Java 16。&#xD;&#xA;BakaXL会连接至互联网自动安装来自可信来源的 Java 16。&#xD;&#xA;这个过程可能需要数分钟，在您使用计费互联网连接时可能&#xD;&#xA;需要支付网络数据费用。</Item>
+			<Item Key="Setting_Java_JVM16_Download_Tips">运行迈恩克拉夫特 1.17 或更高级版本的迈恩克拉夫特需要使用 Java 16。&#xD;&#xA;BugXL会连接至互联网自动安装来自可信来源的 Java 16。&#xD;&#xA;这个过程可能需要数分钟，在您使用计费互联网连接时可能&#xD;&#xA;需要支付网络数据费用。</Item>
 
 			<Item Key="Setting_Java_JVM17_Download">获取Java 17</Item>
-			<Item Key="Setting_Java_JVM17_Download_Tips">运行迈恩克拉夫特 1.17 或更高级版本的迈恩克拉夫特 需要使用 Java 17。&#xD;&#xA;BakaXL会连接至互联网自动安装来自可信来源的 Java 17。&#xD;&#xA;这个过程可能需要数分钟，在您使用计费互联网连接时可能&#xD;&#xA;需要支付网络数据费用。</Item>
+			<Item Key="Setting_Java_JVM17_Download_Tips">运行迈恩克拉夫特 1.17 或更高级版本的迈恩克拉夫特 需要使用 Java 17。&#xD;&#xA;BugXL会连接至互联网自动安装来自可信来源的 Java 17。&#xD;&#xA;这个过程可能需要数分钟，在您使用计费互联网连接时可能&#xD;&#xA;需要支付网络数据费用。</Item>
 
-			<Item Key="Setting_Java_JVM_AutoInstall_Tips">运行迈恩克拉夫特 1.16 及更低版本的迈恩克拉夫特推荐使用 Java 8。&#xD;&#xA;运行迈恩克拉夫特 1.17 或更高级版本的迈恩克拉夫特需要使用 Java 16。&#xD;&#xA;BakaXL 会连接至互联网自动安装来自可信来源的 Java。&#xD;&#xA;这个过程可能需要数分钟，在您使用计费互联网连接时可能&#xD;&#xA;需要支付网络数据费用。</Item>
+			<Item Key="Setting_Java_JVM_AutoInstall_Tips">运行迈恩克拉夫特 1.16 及更低版本的迈恩克拉夫特推荐使用 Java 8。&#xD;&#xA;运行迈恩克拉夫特 1.17 或更高级版本的迈恩克拉夫特需要使用 Java 16。&#xD;&#xA;BugXL 会连接至互联网自动安装来自可信来源的 Java。&#xD;&#xA;这个过程可能需要数分钟，在您使用计费互联网连接时可能&#xD;&#xA;需要支付网络数据费用。</Item>
 
-			<Item Key="Setting_Java_JVM_Installing_Pending">BakaXL 当前正在进行 Java {0} 的安装…&#xD;&#xA;待安装进度更新后，它将会显示在这里。</Item>
-			<Item Key="Setting_Java_JVM_Installing_ProgressChanged">BakaXL 当前正在进行 Java {0} 的安装…&#xD;&#xA;状态: {1} </Item>
+			<Item Key="Setting_Java_JVM_Installing_Pending">BugXL 当前正在进行 Java {0} 的安装…&#xD;&#xA;待安装进度更新后，它将会显示在这里。</Item>
+			<Item Key="Setting_Java_JVM_Installing_ProgressChanged">BugXL 当前正在进行 Java {0} 的安装…&#xD;&#xA;状态: {1} </Item>
 
-			<Item Key="Setting_Java_JVM_Installing_Successful">BakaXL 已成功安装了 Java {0}。&#xD;&#xA;您可以在 Java 虚拟机列表中选择此虚拟机。</Item>
-			<Item Key="Setting_Java_JVM_Installing_Failed">BakaXL 无法自动安装 Java {0}。&#xD;&#xA;这可能是由于下载源提供的文件受损或互联网连接中断。</Item>
+			<Item Key="Setting_Java_JVM_Installing_Successful">BugXL 已成功安装了 Java {0}。&#xD;&#xA;您可以在 Java 虚拟机列表中选择此虚拟机。</Item>
+			<Item Key="Setting_Java_JVM_Installing_Failed">BugXL 无法自动安装 Java {0}。&#xD;&#xA;这可能是由于下载源提供的文件受损或互联网连接中断。</Item>
 
 			<Item Key="Setting_Java_JVM_InstallProgress_Preparing">准备安装 Java {0}</Item>
 			<Item Key="Setting_Java_JVM_InstallProgress_FetchingFileList">获取 Java {0} ({1} 位) 的文件列表</Item>
@@ -1075,28 +1075,28 @@
 
 			<Item Key="Setting_Java_Memory_AutoMemory">自动设置内存</Item>
 			<Item Key="Setting_Java_Memory_AdvanceMemory">内存高级设置</Item>
-			<Item Key="Setting_Java_Memory_AdvanceMemory_Tips">BakaXL在通常情况下会根据您当前计算机的配置自动分配内存。&#xD;&#xA;如果您不了解此选项的作用，我们建议您不要修改此选项的值。</Item>
+			<Item Key="Setting_Java_Memory_AdvanceMemory_Tips">BugXL在通常情况下会根据您当前计算机的配置自动分配内存。&#xD;&#xA;如果您不了解此选项的作用，我们建议您不要修改此选项的值。</Item>
 			<Item Key="Setting_Java_Memory_AdvanceMemory_ForceRelease">强制释放内存</Item>
-			<Item Key="Setting_Java_Memory_AdvanceMemory_ForceRelease_Tips">不建议使用，BakaXL可尝试立即强制释放以增加可用内存。</Item>
+			<Item Key="Setting_Java_Memory_AdvanceMemory_ForceRelease_Tips">不建议使用，BugXL可尝试立即强制释放以增加可用内存。</Item>
 			<Item Key="Setting_Java_Memory_AdvanceMemory_ManualMemory">手动指定内存大小</Item>
 			<Item Key="Setting_Java_Memory_AdvanceMemory_ManualMemory_AutoMode_Tips">若要手动指定内存大小，则需要关闭“自动内存设置”功能。</Item>
 			<Item Key="Setting_Java_Memory_AdvanceMemory_ManualMemory_Tips">手动分配您希望迈恩克拉夫特所使用的内存大小。</Item>
 
 			<Item Key="Setting_Language_DisplayLanguage">显示语言 / Display Language</Item>
 			<Item Key="Setting_Language_Translator">整活官 / Memer</Item>
-			<Item Key="Setting_Language_TranslateProject">BakaXL 异域计划 / BakaXL Localization Project</Item>
+			<Item Key="Setting_Language_TranslateProject">BugXL 异域计划 / BugXL Localization Project</Item>
 			<Item Key="Setting_Language_TranslationTools">本地化实用工具 / Localization Utilities</Item>
 
 			<Item Key="Setting_Language_Selector_Watermark">选择您所在区域的使用语言</Item>
-			<Item Key="Setting_Language_Selector_Tips">BakaXL可以支持全球多个国家和地区所偏好使用的语言。&#xD;&#xA;而这全都要归功于来自全球各地的BakaXL用户。&#xD;&#xA;在翻译文本经过测试前，无法使用。</Item>
+			<Item Key="Setting_Language_Selector_Tips">BugXL可以支持全球多个国家和地区所偏好使用的语言。&#xD;&#xA;而这全都要归功于来自全球各地的BugXL用户。&#xD;&#xA;在翻译文本经过测试前，无法使用。</Item>
 
 			<Item Key="Setting_Language_JoinLocalization">访问本地化项目主页</Item>
-			<Item Key="Setting_Language_JoinLocalization_Tips">前往BakaXL 异域计划主页，获取最新文本词条，参与翻译官工作。</Item>
+			<Item Key="Setting_Language_JoinLocalization_Tips">前往BugXL 异域计划主页，获取最新文本词条，参与翻译官工作。</Item>
 
 			<Item Key="Setting_Language_Utilities_Debugger_Title">临时挂载本地化文本</Item>
 			<Item Key="Setting_Language_Utilities_Debugger_Tips">在本次运行期间将显示语言替换为外部文件所指定的本地化文本。&#xD;&#xA;这将有助于翻译官对翻译文本进行调试。&#xD;&#xA;&#xD;&#xA;若您不知道此选项的作用，请不要使用。</Item>
-			<Item Key="Setting_Language_Utilities_Debugger_Browser_Title">选择一个BakaXL语言文件</Item>
-			<Item Key="Setting_Language_Utilities_Debugger_Browser_Filter">BakaXL语言文件</Item>
+			<Item Key="Setting_Language_Utilities_Debugger_Browser_Title">选择一个BugXL语言文件</Item>
+			<Item Key="Setting_Language_Utilities_Debugger_Browser_Filter">BugXL语言文件</Item>
 
 			<Item Key="Setting_Network_Connected">已连接</Item>
 			<Item Key="Setting_Network_Error">连接错误</Item>
@@ -1109,14 +1109,14 @@
 			<Item Key="Setting_Network_InternetStatus_Connected">爷能上网了。</Item>
 			<Item Key="Setting_Network_InternetStatus_Disconnected">爷连不上网。</Item>
 
-			<Item Key="Setting_Network_BakaServiceStatus_Title">BakaXL服务器状态</Item>
-			<Item Key="Setting_Network_BakaServiceStatus_Plaza_API">BakaXL 笨蛋广场 (API):</Item>
-			<Item Key="Setting_Network_BakaServiceStatus_Plaza_Qiniu">BakaXL 笨蛋广场 (Kodo):</Item>
+			<Item Key="Setting_Network_BakaServiceStatus_Title">BugXL服务器状态</Item>
+			<Item Key="Setting_Network_BakaServiceStatus_Plaza_API">BugXL 笨蛋广场 (API):</Item>
+			<Item Key="Setting_Network_BakaServiceStatus_Plaza_Qiniu">BugXL 笨蛋广场 (Kodo):</Item>
 			<Item Key="Setting_Network_BakaServiceStatus_Update_Main">本体更新 (Sloth 树懒通道):</Item>
 			<Item Key="Setting_Network_BakaServiceStatus_Update_Jenkins">本体更新 (Parrot 鹦鹉通道 / Pigeon 鸽子通道):</Item>
 
-			<Item Key="Setting_Network_BakaServiceStatus_Network_BakaNetwork">BakaXL Network 主服务:</Item>
-			<Item Key="Setting_Network_BakaServiceStatus_Network_Relay_Lanko_A">BakaXL Network Relay (Lanko-A):</Item>
+			<Item Key="Setting_Network_BakaServiceStatus_Network_BakaNetwork">BugXL Network 主服务:</Item>
+			<Item Key="Setting_Network_BakaServiceStatus_Network_Relay_Lanko_A">BugXL Network Relay (Lanko-A):</Item>
 
 			<Item Key="Setting_Network_BakaServiceStatus_Third_Party_Title">第三方服务提供商</Item>
 			<Item Key="Setting_Network_BakaServiceStatus_Third_Party_CurseForgeApi">克斯第三方API:</Item>
@@ -1159,7 +1159,7 @@
 			<Item Key="Setting_Network_Environment_NATType_Error_RequestFailed">爷上不了网</Item>
 
 			<Item Key="Setting_Network_Environment_NATType_Checking">正在运动…</Item>
-			<Item Key="Setting_Network_Environment_NATType_Checking_Tips">BakaXL 将在运动完成后显示结果…</Item>
+			<Item Key="Setting_Network_Environment_NATType_Checking_Tips">BugXL 将在运动完成后显示结果…</Item>
 
 			<Item Key="Setting_Network_Environment_NATType_Tips_Open">老子 NAT 开放&#xD;&#xA;该网络环境适合作为多人运动的创建者</Item>
 			<Item Key="Setting_Network_Environment_NATType_Tips_MayAffectOnlinePlay">这可能会影响您的联机体验</Item>
@@ -1170,13 +1170,13 @@
 
 			<Item Key="Setting_Network_Environment_UPnP_Unknown">爷不理解</Item>
 			<Item Key="Setting_Network_Environment_UPnP_Unsupport">炸了</Item>
-			<Item Key="Setting_Network_Environment_UPnP_Unsupport_Tips">您当前的网络设备或系统不支持 UPnP 协议&#xD;&#xA;若您在网络设备中启用 UPnP，则 BakaXL 将通过该协议尝试改善您的联机体验</Item>
+			<Item Key="Setting_Network_Environment_UPnP_Unsupport_Tips">您当前的网络设备或系统不支持 UPnP 协议&#xD;&#xA;若您在网络设备中启用 UPnP，则 BugXL 将通过该协议尝试改善您的联机体验</Item>
 			<Item Key="Setting_Network_Environment_UPnP_Unstable">左右横跳 [{0}]</Item>
-			<Item Key="Setting_Network_Environment_UPnP_Unstable_Tips">您当前的网络设备或系统对 UPnP 协议的支持并不正常&#xD;&#xA;这可能导致 BakaXL 无法改善您的联机体验&#xD;&#xA;若您认为您的网络设备或系统不存在此问题，请和 BakaXL 开发团队对线</Item>
+			<Item Key="Setting_Network_Environment_UPnP_Unstable_Tips">您当前的网络设备或系统对 UPnP 协议的支持并不正常&#xD;&#xA;这可能导致 BugXL 无法改善您的联机体验&#xD;&#xA;若您认为您的网络设备或系统不存在此问题，请和 BugXL 开发团队对线</Item>
 			<Item Key="Setting_Network_Environment_UPnP_Enabled">没啥问题</Item>
-			<Item Key="Setting_Network_Environment_UPnP_Enabled_Tips">BakaXL 向您的网络设备请求自动映射以改善您的联机体验</Item>
+			<Item Key="Setting_Network_Environment_UPnP_Enabled_Tips">BugXL 向您的网络设备请求自动映射以改善您的联机体验</Item>
 			<Item Key="Setting_Network_Environment_UPnP_Pending">还没测呢</Item>
-			<Item Key="Setting_Network_Environment_UPnP_Pending_Tips">BakaXL 尚未开始检测网络设备的 UPnP 协议&#xD;&#xA;当开始一对一运动时，BakaXL 将会开始检测并显示结果</Item>
+			<Item Key="Setting_Network_Environment_UPnP_Pending_Tips">BugXL 尚未开始检测网络设备的 UPnP 协议&#xD;&#xA;当开始一对一运动时，BugXL 将会开始检测并显示结果</Item>
 
 			<Item Key="Setting_Network_Environment_Retest">重来</Item>
 
@@ -1187,17 +1187,17 @@
 			<Item Key="Setting_Advance_AdvLaunch_Warn_1">如果您不确定这些选项的作用，请不要改动这些设置。</Item>
 			<Item Key="Setting_Advance_AdvLaunch_Warn_SettingMoved">部分设置已经移动至高级核心设置内，点击此处前往。</Item>
 			<Item Key="Setting_Advance_AdvLaunch_MinecraftTitle">迈恩克拉夫特窗口标题</Item>
-			<Item Key="Setting_Advance_AdvLaunch_MinecraftTitle_Tips">设置由BakaXL启动的迈恩克拉夫特窗体标题。&#xD;&#xA;可在标题中使用参数来显示动态内容。&#xD;&#xA;{time}: 显示当前系统时间。</Item>
+			<Item Key="Setting_Advance_AdvLaunch_MinecraftTitle_Tips">设置由BugXL启动的迈恩克拉夫特窗体标题。&#xD;&#xA;可在标题中使用参数来显示动态内容。&#xD;&#xA;{time}: 显示当前系统时间。</Item>
 			<Item Key="Setting_Advance_AdvLaunch_Args">高级启动参数</Item>
 			<Item Key="Setting_Advance_AdvLaunch_Args_Tips">设置迈恩克拉夫特的高级启动参数。&#xD;&#xA;仅在有特殊需要时使用，需要正确填写参数。&#xD;&#xA;普通玩家无需使用此功能，建议留空。</Item>
 			<Item Key="Setting_Advance_AdvLaunch_AutoJoin">启动游戏后自动加入服务器</Item>
 			<Item Key="Setting_Advance_AdvLaunch_AutoJoin_IPBox">输入服务器地址</Item>
 			<Item Key="Setting_Advance_AdvLaunch_AutoJoin_Tips">在迈恩克拉夫特启动并加载完成后自动加入服务器。</Item>
 			<Item Key="Setting_Advance_AdvLaunch_CheckVersionFolder">预检查游戏核心目录是否存在</Item>
-			<Item Key="Setting_Advance_AdvLaunch_CheckVersionFolder_Tips">在启动游戏前对 .minecraft/versions/&lt;游戏核心&gt; 目录&#xD;&#xA;进行检查，并在无法确认此文件夹存在时取消启动。&#xD;&#xA;&#xD;&#xA;若核心目录存在也无法检测到的极端情况出现时，请关闭此功能。&#xD;&#xA;关闭后，BakaXL将会在无法确认文件夹存在时尝试继续启动，&#xD;&#xA;直至下一次确认核心文件夹的存在。&#xD;&#xA;&#xD;&#xA;可能导致BakaXL在启动游戏时出现异常，甚至是崩溃。&#xD;&#xA;此设置并不会全局同步至计算机中其他BakaXL。</Item>
+			<Item Key="Setting_Advance_AdvLaunch_CheckVersionFolder_Tips">在启动游戏前对 .minecraft/versions/&lt;游戏核心&gt; 目录&#xD;&#xA;进行检查，并在无法确认此文件夹存在时取消启动。&#xD;&#xA;&#xD;&#xA;若核心目录存在也无法检测到的极端情况出现时，请关闭此功能。&#xD;&#xA;关闭后，BugXL将会在无法确认文件夹存在时尝试继续启动，&#xD;&#xA;直至下一次确认核心文件夹的存在。&#xD;&#xA;&#xD;&#xA;可能导致BugXL在启动游戏时出现异常，甚至是崩溃。&#xD;&#xA;此设置并不会全局同步至计算机中其他BugXL。</Item>
 
 			<Item Key="Setting_Advance_AdvLaunch_AutoFixJsonId">自动修复 ID 设置不符合规范的 Json</Item>
-			<Item Key="Setting_Advance_AdvLaunch_AutoFixJsonId_Tips">若 BakaXL 检测到某个核心位于 Json 文件内的 ID 项设置不规范，&#xD;&#xA;将会自动尝试对其进行修复。&#xD;&#xA;&#xD;&#xA;在极少数情况下，自动修复可能会导致异常。&#xD;&#xA;关闭后，BakaXL 在检测到错误的 Json 时仅会在核心选择器内提示您。&#xD;&#xA;此设置并不会全局同步至计算机中其他BakaXL。</Item>
+			<Item Key="Setting_Advance_AdvLaunch_AutoFixJsonId_Tips">若 BugXL 检测到某个核心位于 Json 文件内的 ID 项设置不规范，&#xD;&#xA;将会自动尝试对其进行修复。&#xD;&#xA;&#xD;&#xA;在极少数情况下，自动修复可能会导致异常。&#xD;&#xA;关闭后，BugXL 在检测到错误的 Json 时仅会在核心选择器内提示您。&#xD;&#xA;此设置并不会全局同步至计算机中其他BugXL。</Item>
 
 			<Item Key="Setting_Advance_AdvLaunch_GCMethod">自定义茶杯回收器</Item>
 			<Item Key="Setting_Advance_AdvLaunch_GCMethod_Tips">设置在使用Java 9或更高级版本Java时使用的垃圾回收器(GC)。&#xD;&#xA;如果你的Java版本低于Java 9，则此选项不起作用。&#xD;&#xA;&#xD;&#xA;&quot;Z回收器(ZGC)&quot;仅可以Java 11或更高级版本使用，在错误的&#xD;&#xA;Java版本中使用此回收器将导致无法启动游戏。&#xD;&#xA;&#xD;&#xA;如果你不知道这是做什么的，请选择 &quot;默认&quot;。</Item>
@@ -1206,7 +1206,7 @@
 			<Item Key="Setting_Advance_GameResolution_SelectWindowSize">选择窗体大小</Item>
 			<Item Key="Setting_Advance_GameResolution_Wdith">窗体宽度</Item>
 			<Item Key="Setting_Advance_GameResolution_Height">窗体高度</Item>
-			<Item Key="Setting_Advance_GameResolution_Tips">设置迈恩克拉夫特在启动后窗体的大小。&#xD;&#xA;BakaXL已为您列出部分常用的窗体大小。&#xD;&#xA;选择“自定义”可以手动设置窗体大小。</Item>
+			<Item Key="Setting_Advance_GameResolution_Tips">设置迈恩克拉夫特在启动后窗体的大小。&#xD;&#xA;BugXL已为您列出部分常用的窗体大小。&#xD;&#xA;选择“自定义”可以手动设置窗体大小。</Item>
 
 			<Item Key="Setting_Advance_AutoFix_Title">自动补全</Item>
 			<Item Key="Setting_Advance_AutoFix_Btn_Title">自动补全资源文件</Item>
@@ -1216,11 +1216,11 @@
 			<Item Key="Setting_Advance_Reset_Btn_Title">恢复默认设置</Item>
 			<Item Key="Setting_Advance_Reset_Btn_Tips">如果您觉得您搞砸了，可恢复所有高级选项至默认值。</Item>
 
-			<Item Key="Setting_Personalize_Background_Title">BakaXL背景</Item>
+			<Item Key="Setting_Personalize_Background_Title">BugXL背景</Item>
 			<Item Key="Setting_Personalize_Background_Browse_Btn">设置背景图片</Item>
 			<Item Key="Setting_Personalize_Background_Default_Btn">恢复默认背景</Item>
 			<Item Key="Setting_Personalize_Background_Clear_Btn">清空背景</Item>
-			<Item Key="Setting_Personalize_Background_Browse_Btn_Tips">设置BakaXL窗体背景显示的图片。&#xD;虽然您的图片不会以任何方式上传，但我们不建议&#xD;您使用任何包含工口元素的图片。</Item>
+			<Item Key="Setting_Personalize_Background_Browse_Btn_Tips">设置BugXL窗体背景显示的图片。&#xD;虽然您的图片不会以任何方式上传，但我们不建议&#xD;您使用任何包含工口元素的图片。</Item>
 			<Item Key="Setting_Personalize_Background_CustomImage_Title">选择您的自定义背景图</Item>
 			<Item Key="Setting_Personalize_Background_CustomImage_Filter">图片格式</Item>
 
@@ -1229,13 +1229,13 @@
 			<Item Key="Setting_Personalize_Background_AcrylicType_Default">亚克力</Item>
 			<Item Key="Setting_Personalize_Background_AcrylicType_Blur">毛玻璃</Item>
 			<Item Key="Setting_Personalize_Background_AcrylicManual">手动设定虚化程度</Item>
-			<Item Key="Setting_Personalize_Background_AcrylicTips">背景虚化效果可让BakaXL虚化背景层的内容，营造舒适且不冲突的&#xD;视觉体验。&#xD;&#xD;使用实况背景或未设置背景时，无法手动调整虚化程度。&#xD;使用亚克力效果需要Windows 10。</Item>
+			<Item Key="Setting_Personalize_Background_AcrylicTips">背景虚化效果可让BugXL虚化背景层的内容，营造舒适且不冲突的&#xD;视觉体验。&#xD;&#xD;使用实况背景或未设置背景时，无法手动调整虚化程度。&#xD;使用亚克力效果需要Windows 10。</Item>
 
 			<Item Key="Setting_Personalize_Background_LiveBackground">使用实况背景功能（实验版）</Item>
-			<Item Key="Setting_Personalize_Background_LiveBackground_Tips">在BakaXL底部绑定额外的叠层以显示高级动态背景。&#xD;通过BakaXL x Wallpaper Engine联动显示动态背景。&#xD;&#xD;该功能在部分分辨率和DPI缩放环境下无法正常工作。&#xD;若未您当前未在使用Wallpaper Engine，则BakaXL将会使用&#xD;你的桌面壁纸。</Item>
+			<Item Key="Setting_Personalize_Background_LiveBackground_Tips">在BugXL底部绑定额外的叠层以显示高级动态背景。&#xD;通过BugXL x Wallpaper Engine联动显示动态背景。&#xD;&#xD;该功能在部分分辨率和DPI缩放环境下无法正常工作。&#xD;若未您当前未在使用Wallpaper Engine，则BugXL将会使用&#xD;你的桌面壁纸。</Item>
 			
 			<Item Key="Setting_Personalize_Background_CustomWindowSize">自定义窗体大小（实验版）</Item>
-			<Item Key="Setting_Personalize_Background_CustomWindowSize_Tips">开启此选项将允许调整 BakaXL 的窗体大小。&#xD;实验性功能，BakaXL 的部分界面和功能尚未适配更大的窗体大小。&#xD;可能会有部分功能无法正常运作。</Item>
+			<Item Key="Setting_Personalize_Background_CustomWindowSize_Tips">开启此选项将允许调整 BugXL 的窗体大小。&#xD;实验性功能，BugXL 的部分界面和功能尚未适配更大的窗体大小。&#xD;可能会有部分功能无法正常运作。</Item>
 
 			<Item Key="Setting_Personalize_Background_Parallax">背景图片视差</Item>
 			<Item Key="Setting_Personalize_Background_Parallax_Mode">视差展现方式</Item>
@@ -1243,24 +1243,24 @@
 			<Item Key="Setting_Personalize_Background_Parallax_Mode_3D">多维（实验版）</Item>
 			<Item Key="Setting_Personalize_Background_Parallax_Tips">让背景图片跟随鼠标移动，营造视差效果。&#xD; · 平面: 以二维方式平移背景。 &#xD; · 多维: 实验性功能。以多维度等方式展现视差，可能消耗更多内存。&#xD;&#xD;使用实况背景或者默认背景时，无法使用此功能。</Item>
 
-			<Item Key="Setting_Personalize_Color_Title">BakaXL配色方案</Item>
+			<Item Key="Setting_Personalize_Color_Title">BugXL配色方案</Item>
 			<Item Key="Setting_Personalize_Color_Selector">选择一个配色方案</Item>
 			<Item Key="Setting_Personalize_Color_NightMode">反转颜色模式</Item>
-			<Item Key="Setting_Personalize_Color_Tips">设置BakaXL窗体和控件所使用的配色方案。</Item>
+			<Item Key="Setting_Personalize_Color_Tips">设置BugXL窗体和控件所使用的配色方案。</Item>
 
-			<Item Key="Setting_Personalize_Tema_Title">BakaXL主题</Item>
+			<Item Key="Setting_Personalize_Tema_Title">BugXL主题</Item>
 			<Item Key="Setting_Personalize_Tema_Patch">将当前个性化设置保存为主题</Item>
 			<Item Key="Setting_Personalize_Tema_List">浏览主题列表</Item>
 			<Item Key="Setting_Personalize_Tema_Folder">打开主题文件夹</Item>
 
-			<Item Key="Setting_Personalize_Tema_Default">BakaXL 默认主题</Item>
-			<Item Key="Setting_Personalize_Tema_Default_Desc">这是一个来自BakaXL的默认主题，非常默认，特别默认。</Item>
+			<Item Key="Setting_Personalize_Tema_Default">BugXL 默认主题</Item>
+			<Item Key="Setting_Personalize_Tema_Default_Desc">这是一个来自BugXL的默认主题，非常默认，特别默认。</Item>
 			<Item Key="Setting_Personalize_Tema_Custom">自定义</Item>
-			<Item Key="Setting_Personalize_Tema_Custom_Desc">这是一个自定义的BakaXL主题，也没有被打包起来，一切都显得那么的安静。</Item>
+			<Item Key="Setting_Personalize_Tema_Custom_Desc">这是一个自定义的BugXL主题，也没有被打包起来，一切都显得那么的安静。</Item>
 
 			<Item Key="Setting_Personalize_Tema_Patcher_Title">完善主题信息</Item>
 			<Item Key="Setting_Personalize_Tema_Patcher_NoIcon">没图标呢</Item>
-			<Item Key="Setting_Personalize_Tema_Patcher_DefaultName">新BakaXL主题</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_DefaultName">新BugXL主题</Item>
 
 			<Item Key="Setting_Personalize_Tema_Patcher_Name">名称</Item>
 			<Item Key="Setting_Personalize_Tema_Patcher_Name_Watermark">主题的显示名称</Item>
@@ -1268,14 +1268,14 @@
 
 			<Item Key="Setting_Personalize_Tema_Patcher_Desc">介绍</Item>
 			<Item Key="Setting_Personalize_Tema_Patcher_Desc_Watermark">主题的介绍</Item>
-			<Item Key="Setting_Personalize_Tema_Patcher_Desc_Tips">当加载了该BakaXL主题后，将会在主题列表中显示介绍。&#xD;请不要包含任何令他人感到不适的内容。&#xD;&#xD;使用了并非由您创作的背景图片和背景音乐时，请注明图片创作者、&#xD;出处、来源、音乐作曲家、歌手、专辑名等信息。</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_Desc_Tips">当加载了该BugXL主题后，将会在主题列表中显示介绍。&#xD;请不要包含任何令他人感到不适的内容。&#xD;&#xD;使用了并非由您创作的背景图片和背景音乐时，请注明图片创作者、&#xD;出处、来源、音乐作曲家、歌手、专辑名等信息。</Item>
 
 			<Item Key="Setting_Personalize_Tema_Patcher_Icon">图标</Item>
 			<Item Key="Setting_Personalize_Tema_Patcher_Icon_BtnTitle">选择图标</Item>
-			<Item Key="Setting_Personalize_Tema_Patcher_Icon_Tips">BakaXL将会在主题列表中显示该图标。&#xD;建议图标应当与主题内容相符，且不要包含工口或任何令他人感到&#xD;不适的内容。</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_Icon_Tips">BugXL将会在主题列表中显示该图标。&#xD;建议图标应当与主题内容相符，且不要包含工口或任何令他人感到&#xD;不适的内容。</Item>
 
 			<Item Key="Setting_Personalize_Tema_Patcher_Music">背景音乐</Item>
-			<Item Key="Setting_Personalize_Tema_Patcher_Music_Tips">BakaXL在加载主题后，会在对应的界面中播放背景音乐。&#xD; · 全局: 在任何界面均只循环播放主要背景音乐 &#xD; · 分离: 在&quot;本体设置&quot;及&quot;贴士&quot;页中播放独立的背景音乐。&#xD;&#xD;右键对应的按钮可以预览已设置的背景音乐。&#xD;为了预览音乐效果，BakaXL会自动打开背景音乐。</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_Music_Tips">BugXL在加载主题后，会在对应的界面中播放背景音乐。&#xD; · 全局: 在任何界面均只循环播放主要背景音乐 &#xD; · 分离: 在&quot;本体设置&quot;及&quot;贴士&quot;页中播放独立的背景音乐。&#xD;&#xD;右键对应的按钮可以预览已设置的背景音乐。&#xD;为了预览音乐效果，BugXL会自动打开背景音乐。</Item>
 
 			<Item Key="Setting_Personalize_Tema_Patcher_Music_Selector_Title">选择一个音乐文件</Item>
 			<Item Key="Setting_Personalize_Tema_Patcher_Music_Selector_Filter">音乐格式</Item>
@@ -1290,51 +1290,51 @@
 			<Item Key="Setting_Personalize_Tema_Patcher_Music_Pos_Unset">尚未设置</Item>
 
 			<Item Key="Setting_Personalize_Tema_Patcher_SoundEffects">音效</Item>
-			<Item Key="Setting_Personalize_Tema_Patcher_SoundEffects_Unsupported_Tips">当前版本的BakaXL主题包不支持自定义音效功能。</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_SoundEffects_Unsupported_Tips">当前版本的BugXL主题包不支持自定义音效功能。</Item>
 
 			<Item Key="Setting_Personalize_Tema_Patcher_CustomColor">自定义配色方案</Item>
-			<Item Key="Setting_Personalize_Tema_Patcher_CustomColor_Unsupported_Tips">当前版本的BakaXL主题包不支持自定义配色方案功能。</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_CustomColor_Unsupported_Tips">当前版本的BugXL主题包不支持自定义配色方案功能。</Item>
 
 			<Item Key="Setting_Personalize_Tema_Patcher_Creator">制作者</Item>
-			<Item Key="Setting_Personalize_Tema_Patcher_Creator_UseAs">BakaXL将会使用 {0} 作为主题作者。</Item>
-			<Item Key="Setting_Personalize_Tema_Patcher_Creator_NetworkLogined_Tips">您当前已经登录 BakaXL Network，BakaXL默认将&#xD;使用您的 BakaXL Network ID 做为主题作者。</Item>
-			<Item Key="Setting_Personalize_Tema_Patcher_Creator_Default_Tips">您尚未登录至 BakaXL Network，BakaXL默认将&#xD;使用您账户档案列表中的首个档案用户名作为主题作者。</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_Creator_UseAs">BugXL将会使用 {0} 作为主题作者。</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_Creator_NetworkLogined_Tips">您当前已经登录 BugXL Network，BugXL默认将&#xD;使用您的 BugXL Network ID 做为主题作者。</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_Creator_Default_Tips">您尚未登录至 BugXL Network，BugXL默认将&#xD;使用您账户档案列表中的首个档案用户名作为主题作者。</Item>
 
 			<Item Key="Setting_Personalize_Tema_Patcher_Creator_SetProfile_Tips">若要使用您的Minecraft账户档案名称，请</Item>
 			<Item Key="Setting_Personalize_Tema_Patcher_Creator_SetProfile_ClickHere">点击这里</Item>
-			<Item Key="Setting_Personalize_Tema_Patcher_Creator_SetProfile_Selector_Title">为该BakaXL主题设置作者</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_Creator_SetProfile_Selector_Title">为该BugXL主题设置作者</Item>
 
 			<Item Key="Setting_Personalize_Tema_Patcher_Safety_Legal">安全健康、版权保护及免责声明</Item>
-			<Item Key="Setting_Personalize_Tema_Patcher_Safety_Legal_Content">在使用BakaXL主题系统时，请务必注意所使用资源的使用许可。&#xD;请不要使用来自未知来源的内容。&#xD;&#xD;您应当且必须标注在主题中使用的背景图片、图标及音乐的来源&#xD;及创作者信息。&#xD;&#xD;您不可以将包含来自第三方未经授权内容所制作的BakaXL主题&#xD;用于任何商业用途。&#xD;&#xD;为了主题使用者的身心健康，以及对于未成年人的保护。&#xD;BakaXL不建议您使用任何包含工口或令他人引起不适的元素或内容。&#xD;&#xD;您不可以制作及传播任何包含违反国家法律及相关政策的主题。&#xD;BakaXL会采取相关措施禁止加载或传播含有政治意味的主题。&#xD;若发生上述情况，BakaXL有权利根据隐私政策向公共或政府机构&#xD;提供您的信息以协助调查。&#xD;&#xD;若您通过该功能制作BakaXL主题，则代表您已阅读并了解您将承担&#xD;任何由制作或分享该BakaXL主题可能会产生问题或潜在的法律后果，&#xD;BakaXL及其开发团队将不负责任。&#xD;&#xD;BakaXL采取措施以保护创作者的版权，若BakaXL收到来自创作者&#xD;的请求表明特定BakaXL主题含有来自其创作的内容且未获得相关&#xD;授权，则BakaXL将会限制用户传播或使用该主题。&#xD;&#xD;您始终可以在BakaXL官方网站上查看该政策的完整版本。</Item>
-			<Item Key="Setting_Personalize_Tema_Patcher_Safety_Legal_Btn">阅读完整BakaXL主题系统使用政策</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_Safety_Legal_Content">在使用BugXL主题系统时，请务必注意所使用资源的使用许可。&#xD;请不要使用来自未知来源的内容。&#xD;&#xD;您应当且必须标注在主题中使用的背景图片、图标及音乐的来源&#xD;及创作者信息。&#xD;&#xD;您不可以将包含来自第三方未经授权内容所制作的BugXL主题&#xD;用于任何商业用途。&#xD;&#xD;为了主题使用者的身心健康，以及对于未成年人的保护。&#xD;BugXL不建议您使用任何包含工口或令他人引起不适的元素或内容。&#xD;&#xD;您不可以制作及传播任何包含违反国家法律及相关政策的主题。&#xD;BugXL会采取相关措施禁止加载或传播含有政治意味的主题。&#xD;若发生上述情况，BugXL有权利根据隐私政策向公共或政府机构&#xD;提供您的信息以协助调查。&#xD;&#xD;若您通过该功能制作BugXL主题，则代表您已阅读并了解您将承担&#xD;任何由制作或分享该BugXL主题可能会产生问题或潜在的法律后果，&#xD;BugXL及其开发团队将不负责任。&#xD;&#xD;BugXL采取措施以保护创作者的版权，若BugXL收到来自创作者&#xD;的请求表明特定BugXL主题含有来自其创作的内容且未获得相关&#xD;授权，则BugXL将会限制用户传播或使用该主题。&#xD;&#xD;您始终可以在BugXL官方网站上查看该政策的完整版本。</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_Safety_Legal_Btn">阅读完整BugXL主题系统使用政策</Item>
 
 			<Item Key="Setting_Personalize_Tema_Patcher_Export">导出主题</Item>
-			<Item Key="Setting_Personalize_Tema_Patcher_Export_Btn">打包并导出BakaXL主题</Item>
-			<Item Key="Setting_Personalize_Tema_Patcher_Export_Tips">导出主题则代表您已阅读并了解BakaXL主题系统使用政策。&#xD;该主题将会被导出至该BakaXL实例的 &quot;BakaXL\Tema&quot; 文件夹中。</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_Export_Btn">打包并导出BugXL主题</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_Export_Tips">导出主题则代表您已阅读并了解BugXL主题系统使用政策。&#xD;该主题将会被导出至该BugXL实例的 &quot;BugXL\Tema&quot; 文件夹中。</Item>
 
-			<Item Key="Setting_Accessibility_Info">&quot;飞奔的轮椅人&quot; 可让您让您根据个人需求自定义BakaXL的功能，&#xD;以满足不同的使用条件。</Item>
+			<Item Key="Setting_Accessibility_Info">&quot;飞奔的轮椅人&quot; 可让您让您根据个人需求自定义BugXL的功能，&#xD;以满足不同的使用条件。</Item>
 			<Item Key="Setting_Accessibility_Vision_Title">视觉</Item>
 			<Item Key="Setting_Accessibility_Home_DisplayMode_Btn">主屏幕显示模式</Item>
-			<Item Key="Setting_Accessibility_Home_DisplayMode_Tips">&quot;主屏幕显示模式&quot; 将决定BakaXL的主页面是否展示所有的磁贴和功能。&#xD; · 标准: 主屏幕默认不显示开始菜单和功能磁贴 &#xD; · 传统: 主屏幕将始终显示开始菜单和功能磁贴&#xD;&#xD;使用标准模式时，需要按下空格或鼠标点击主屏幕空白位置向上&#xD;拖拽进入开始菜单。</Item>
+			<Item Key="Setting_Accessibility_Home_DisplayMode_Tips">&quot;主屏幕显示模式&quot; 将决定BugXL的主页面是否展示所有的磁贴和功能。&#xD; · 标准: 主屏幕默认不显示开始菜单和功能磁贴 &#xD; · 传统: 主屏幕将始终显示开始菜单和功能磁贴&#xD;&#xD;使用标准模式时，需要按下空格或鼠标点击主屏幕空白位置向上&#xD;拖拽进入开始菜单。</Item>
 			<Item Key="Setting_Accessibility_Home_SelectCore_Btn">切换核心磁贴</Item>
-			<Item Key="Setting_Accessibility_Home_SelectCore_Tips">&quot;切换核心磁贴&quot; 将决定BakaXL的开始菜单中是否显示切换核心磁贴&#xD;&#xD;您始终可以通过启动条的快捷交互来切换核心。&#xD;参见 &quot;快捷切换核心&quot;。</Item>
+			<Item Key="Setting_Accessibility_Home_SelectCore_Tips">&quot;切换核心磁贴&quot; 将决定BugXL始菜单中是否显示切换核心磁贴&#xD;&#xD;您始终可以通过启动条的快捷交互来切换核心。&#xD;参见 &quot;快捷切换核心&quot;。</Item>
 
 			<Item Key="Setting_Accessibility_Interaction_Title">交互</Item>
 			<Item Key="Setting_Accessibility_SwitchCore_InteractMode_Btn">快捷切换核心</Item>
 			<Item Key="Setting_Accessibility_SwitchCore_InteractMode_Tips">&quot;快捷切换核心&quot; 可提供在启动条上快捷切换迈恩克拉夫特核心的操作&#xD; · 标准: 在启动条上不显示额外的切换核心按钮 &#xD; · 传统: 在启动条上单独显示切换核心的按钮 &#xD;&#xD;使用标准模式时，需要通过拖拽&quot;启动游戏&quot;按钮切换核心。</Item>
 
 			<Item Key="Setting_Audio_BGM_Title">背景音乐</Item>
-			<Item Key="Setting_Audio_BGM_Btn_Title">BakaXL背景音乐</Item>
+			<Item Key="Setting_Audio_BGM_Btn_Title">BugXL背景音乐</Item>
 			<Item Key="Setting_Audio_BGM_LostFocusBehaviorBtn">失去焦点时自动停止背景音乐</Item>
-			<Item Key="Setting_Audio_BGM_Tips">您当前设置的BakaXL主题会提供用于播放的BakaXL主题背景音乐。&#xD;&#xA;当此选项为关闭时，BakaXL将会关闭所有界面下背景音乐。</Item>
+			<Item Key="Setting_Audio_BGM_Tips">您当前设置的BugXL主题会提供用于播放的BugXL主题背景音乐。&#xD;&#xA;当此选项为关闭时，BugXL将会关闭所有界面下背景音乐。</Item>
 
 			<Item Key="Setting_Audio_SE_Title">音效</Item>
-			<Item Key="Setting_Audio_SE_Btn_Title">BakaXL音效</Item>
-			<Item Key="Setting_Audio_SE_Btn_Tips">若您当前使用的主题包含音效包，则BakaXL会使用这些音效。&#xD;&#xA;当此选项为关闭时，BakaXL将会关闭所有界面下的音效。</Item>
+			<Item Key="Setting_Audio_SE_Btn_Title">BugXL音效</Item>
+			<Item Key="Setting_Audio_SE_Btn_Tips">若您当前使用的主题包含音效包，则BugXL会使用这些音效。&#xD;&#xA;当此选项为关闭时，BugXL将会关闭所有界面下的音效。</Item>
 
 			<Item Key="Setting_Audio_EarProtection_Title">听力保护</Item>
 			<Item Key="Setting_Audio_EarProtection_Btn_Title">降低使用耳机时的音量</Item>
-			<Item Key="Setting_Audio_EarProtection_Btn_Tips">当此选项为开启时，BakaXL将会降低所有音频控件的输出音量。&#xD;&#xA;若BakaXL的音量即使在调整至最大时依旧很小声，可关闭此选项。&#xD;&#xA;&#xD;&#xA;在使用耳机时，请避免使用大音量聆听，过大的音量会导致听力变差。&#xD;&#xA;在您使用耳机时请将音量调整至可透过耳机听见周围声音的大小。</Item>
+			<Item Key="Setting_Audio_EarProtection_Btn_Tips">当此选项为开启时，BugXL将会降低所有音频控件的输出音量。&#xD;&#xA;若BugXL的音量即使在调整至最大时依旧很小声，可关闭此选项。&#xD;&#xA;&#xD;&#xA;在使用耳机时，请避免使用大音量聆听，过大的音量会导致听力变差。&#xD;&#xA;在您使用耳机时请将音量调整至可透过耳机听见周围声音的大小。</Item>
 
 			<Item Key="Setting_Audio_AutoControl_Behavior_Auto">自动</Item>
 			<Item Key="Setting_Audio_AutoControl_Behavior_Mute">静音</Item>
@@ -1343,7 +1343,7 @@
 			<Item Key="Setting_Audio_AutoControl_Title">自动音量控制</Item>
 			<Item Key="Setting_Audio_AutoControl_MainBtn_Title">自动侦测音频播放软件</Item>
 			<Item Key="Setting_Audio_AutoControl_BehaviorBtn_Title">音量控制行为</Item>
-			<Item Key="Setting_Audio_AutoControl_Tips">BakaXL在启动时会侦测当前计算机中是否有正在运行的音频输出软件。&#xA;（如音乐播放器、语音聊天软件等）&#xA;在有音频播放时，BakaXL将会视情况自动关闭或降低背景音乐的音量。&#xA;若要恢复原先设置的音量大小，只需按住Ctrl并滚动鼠标滚轮。</Item>
+			<Item Key="Setting_Audio_AutoControl_Tips">BugXL在启动时会侦测当前计算机中是否有正在运行的音频输出软件。&#xA;（如音乐播放器、语音聊天软件等）&#xA;在有音频播放时，BugXL将会视情况自动关闭或降低背景音乐的音量。&#xA;若要恢复原先设置的音量大小，只需按住Ctrl并滚动鼠标滚轮。</Item>
 
 			<Item Key="Setting_Download_Source_Title">下载源</Item>
 			<Item Key="Setting_Download_Source_BMCLAPI_Btn_Title">中国大陆地区使用第三方下载源加速</Item>
@@ -1356,7 +1356,7 @@
 			<Item Key="Setting_Download_Source_BMCLAPI_Traditional">BMCLAPI (传统源)</Item>
 			<Item Key="Setting_Download_Source_BMCLAPI_MCBBS">BMCLAPI (MCBBS源)</Item>
 
-			<Item Key="Setting_Download_Source_BMCLAPI_Tips">使用来自bangbang93的BMCLAPI来为BakaXL的资源下载加速。&#xD;&#xA;&#xD;&#xA;关：使用文件的原始下载地址进行下载 (速度较慢)&#xD;&#xA;传统：使用BMCLAPI传统服务器进行下载 (更新快，速度较快)&#xD;&#xA;MCBBS源：BMCLAPI的MCBBS镜像源进行下载 (更新较慢，速度最快)&#xD;&#xA;&#xD;&#xA;若要了解更多有关BMCLAPI的详情，请参阅：&#xD;&#xA;https://bmclapidoc.bangbang93.com/</Item>
+			<Item Key="Setting_Download_Source_BMCLAPI_Tips">使用来自bangbang93的BMCLAPI来为BugXL的资源下载加速。&#xD;&#xA;&#xD;&#xA;关：使用文件的原始下载地址进行下载 (速度较慢)&#xD;&#xA;传统：使用BMCLAPI传统服务器进行下载 (更新快，速度较快)&#xD;&#xA;MCBBS源：BMCLAPI的MCBBS镜像源进行下载 (更新较慢，速度最快)&#xD;&#xA;&#xD;&#xA;若要了解更多有关BMCLAPI的详情，请参阅：&#xD;&#xA;https://bmclapidoc.bangbang93.com/</Item>
 
 			<Item Key="Setting_Download_Advance">高级下载选项</Item>
 
@@ -1366,33 +1366,33 @@
 			<Item Key="Setting_Download_Worker_Type_Fast">快速 (128 个线程 / 重试 1 次)</Item>
 			<Item Key="Setting_Download_Worker_Type_Extreme">极快 (512 个线程 / 不重试)</Item>
 			<Item Key="Setting_Download_Worker_Type_LaunchMode">芜湖起飞 (2048 个线程 / 不重试)</Item>
-			<Item Key="Setting_Download_Worker_Tips">长时间等待BakaXL对迈恩克拉夫特资源进行补全时，&#xD;&#xA;按照网络和计算机配置修改此选项。&#xD;&#xA;试图在下载失败时重新下载则会消耗更多时间，可尝&#xD;&#xA;试调整BakaXL重新下载的次数。&#xD;&#xA;&#xD;&#xA;使用&quot;芜湖起飞&quot;时，会停止更新下载的状态（例如百分比）。&#xD;&#xA;&#xD;&#xA;并不是在所有情况下都能达到理论速度。(说不定会更慢)&#xD;&#xA;请根据网络与计算机配置酌情选择。</Item>
+			<Item Key="Setting_Download_Worker_Tips">长时间等待BugXL对迈恩克拉夫特资源进行补全时，&#xD;&#xA;按照网络和计算机配置修改此选项。&#xD;&#xA;试图在下载失败时重新下载则会消耗更多时间，可尝&#xD;&#xA;试调整BugXL重新下载的次数。&#xD;&#xA;&#xD;&#xA;使用&quot;芜湖起飞&quot;时，会停止更新下载的状态（例如百分比）。&#xD;&#xA;&#xD;&#xA;并不是在所有情况下都能达到理论速度。(说不定会更慢)&#xD;&#xA;请根据网络与计算机配置酌情选择。</Item>
 
 			<Item Key="Setting_Download_Service_Providor">服务提供者</Item>
-			<Item Key="Setting_Download_Service_Providor_MCBBS_Tips">BakaXL的部分文件使用了来自 Minecraft(我的世界)中文论坛&#xD;&#xA;所提供文件下载服务。&#xD;&#xA;请参阅：https://www.mcbbs.net/</Item>
+			<Item Key="Setting_Download_Service_Providor_MCBBS_Tips">BugXL的部分文件使用了来自 Minecraft(我的世界)中文论坛&#xD;&#xA;所提供文件下载服务。&#xD;&#xA;请参阅：https://www.mcbbs.net/</Item>
 
 			<Item Key="Setting_Plaza_Setting_Title">游泳圈设置</Item>
 			<Item Key="Setting_Plaza_Setting_CellularNetwork">节省数据流量</Item>
 			<Item Key="Setting_Plaza_Setting_CellularNetwork_Tips">在使用计费互联网连接时开启，&#xD;&#xA;开启后，游泳圈将在播放前询问您并降低视频播放的清晰度。&#xD;&#xA;并不是所有在游泳圈提供的视频都支持降低清晰度播放。</Item>
 
-			<Item Key="Setting_Protocol_Btn_Title">BakaXL协议</Item>
-			<Item Key="Setting_Protocol_Btn_Tips">BakaXL协议可以让您通过网站提供的按钮快速启动BakaXL。&#xD;&#xA;根据网站按钮提供的参数，可使BakaXL直接启动特定内建功能。&#xD;&#xA;参阅BakaXL开发人员中心了解如何将您的网站接入BakaXL协议。</Item>
+			<Item Key="Setting_Protocol_Btn_Title">BugXL协议</Item>
+			<Item Key="Setting_Protocol_Btn_Tips">BugXL协议可以让您通过网站提供的按钮快速启动BugXL。&#xD;&#xA;根据网站按钮提供的参数，可使BugXL直接启动特定内建功能。&#xD;&#xA;参阅BugXL开发人员中心了解如何将您的网站接入BugXL协议。</Item>
 
 			<Item Key="Setting_Insider_Desc">简介</Item>
-			<Item Key="Setting_Insider_Info">BakaXL现已迈向全新的版本！这得感谢于所有参与了 BakaXL 预览体验计划   &#xD;&#xA;(BakaXL Insider Preview) 的成员们的付出和努力，没有了他们的帮助，我&#xD;&#xA;们就无法打造出如此出色的BakaXL。&#xD;&#xA;&#xD;&#xA;现在，你也可以加入我们让BakaXL变得更好。&#xD;&#xA;&#xD;&#xA;现在就加入 BakaXL 预览体验计划吧！抢先体验，给予反馈。</Item>
-			<Item Key="Setting_Insider_Warn_1">BakaXL Insider Preview中包含的功能，仅供预览体验，且在未来可&#xA;能会在未经提示的情况下被移除或修改。</Item>
-			<Item Key="Setting_Insider_Warn_2">预览版本的BakaXL因缺少必备功能，请勿加入整活包内进行分享。</Item>
+			<Item Key="Setting_Insider_Info">BugXL现已迈向全新的版本！这得感谢于所有参与了 BugXL 预览体验计划   &#xD;&#xA;(BugXL Insider Preview) 的成员们的付出和努力，没有了他们的帮助，我&#xD;&#xA;们就无法打造出如此出色的BugXL。&#xD;&#xA;&#xD;&#xA;现在，你也可以加入我们让BugXL变得更好。&#xD;&#xA;&#xD;&#xA;现在就加入 BugXL 预览体验计划吧！抢先体验，给予反馈。</Item>
+			<Item Key="Setting_Insider_Warn_1">BugXL Insider Preview中包含的功能，仅供预览体验，且在未来可&#xA;能会在未经提示的情况下被移除或修改。</Item>
+			<Item Key="Setting_Insider_Warn_2">预览版本的BugXL因缺少必备功能，请勿加入整活包内进行分享。&#xD;&#xA;Bunny 兔兔通道的主要更新流程尚未开始，且大量落后于当前版本。</Item>
 			<Item Key="Setting_Insider_Desc">简介</Item>
 			<Item Key="Setting_Insider_TunnelTitle">修改更新通道</Item>
 			<Item Key="Setting_Insider_CurrentTunnel">当前通道</Item>
-			<Item Key="Setting_Insider_TunnelDescription">我们为BakaXL引入了全新的更新通道机制，这意味着您可以更加频繁&#xD;&#xA;的获得更新！&#xA;&#xD;&#xA;目前，我们为 BakaXL 预览体验计划 提供两种通道：&#xD;&#xA;Pigeon 鸽子通道（用于掩饰TT是个鸽子的事实的通道）&#xD;&#xA;Parrot 鹦鹉通道（这就把鸽子杀了！）&#xD;&#xA;&#xD;&#xA;请注意：Parrot 鹦鹉通道 包含大量早期未开发完善和清理的功能且会随&#xD;&#xA;时作出修改，请勿依赖于此版本。</Item>
+			<Item Key="Setting_Insider_TunnelDescription">我们为BugXL引入了全新的更新通道机制，这意味着您可以更加频繁&#xD;&#xA;的获得更新！&#xA;&#xD;&#xA;目前，我们为 BugXL 预览体验计划 提供两种通道：&#xD;&#xA;Pigeon 鸽子通道（用于掩饰TT是个鸽子的事实的通道）&#xD;&#xA;Parrot 鹦鹉通道（这就把鸽子杀了！）&#xD;&#xA;Bunny 兔兔通道（Jump,jump,jump,jump,jump）&#xD;&#xA;&#xD;&#xA;请注意：Parrot 鹦鹉通道 包含大量早期未开发完善和清理的功能且会随&#xD;&#xA;时作出修改，请勿依赖于此版本。</Item>
 			<Item Key="Setting_Insider_TunnelSelection">选择一个预览通道</Item>
 			<Item Key="Setting_Insider_ChangeTunnel_Btn">变更</Item>
 			<Item Key="Setting_Insider_StartBtn_Title">开始</Item>
 			<Item Key="Setting_Insider_LatestVersion">（当前分支上的预览体验版本：{0}）</Item>
-			<Item Key="Setting_Insider_Requirement">您的计算机需要安装.Net Framework 4.5才可以运行BakaXL 3.0。&#xA;使用BakaXL 3.0的预览体验版本需要您使用Windows 7或更高级操作系统。&#xA;推荐您使用Windows 10操作系统以体验BakaXL 3.0的全部功能。&#xA;&#xA;BakaXL 3.0已不再支持Windows XP操作系统。</Item>
+			<Item Key="Setting_Insider_Requirement">您的计算机需要安装.Net Framework 4.5才可以运行BugXL 3.0。&#xA;使用BugXL 3.0的预览体验版本需要您使用Windows 7或更高级操作系统。&#xA;推荐您使用Windows 10操作系统以体验BugXL 3.0的全部功能。&#xA;&#xA;BugXL 3.0已不再支持Windows XP操作系统。</Item>
 
-			<Item Key="Setting_About_Info">BakaXL开发团队全体成员在这里诚挚的感谢您使用BakaXL！</Item>
+			<Item Key="Setting_About_Info">BugXL开发团队全体成员在这里诚挚的感谢您使用BugXL！</Item>
 			<Item Key="Setting_About_Version">内部版本</Item>
 			<Item Key="Setting_About_Version_TunnelTitle">构建通道：</Item>
 			<Item Key="Setting_About_Version_BuildTime">构建日期及版本：</Item>
@@ -1408,13 +1408,13 @@
 			<Item Key="Setting_Tunnel_PARROT">Parrot 鹦鹉通道</Item>
 			<Item Key="Setting_Tunnel_PARROT_UpdateMethod">每日更新</Item>
 			<Item Key="Setting_Tunnel_BUNNY">Bunny 兔兔通道</Item>
-			<Item Key="Setting_Tunnel_BUNNY_UpdateMethod">BakaXL 4.0 早期预览版本</Item>
+			<Item Key="Setting_Tunnel_BUNNY_UpdateMethod">BugXL 4.0 早期预览版本</Item>
 			<Item Key="Setting_Tunnel_PIGEON">Pigeon 鸽子通道</Item>
 			<Item Key="Setting_Tunnel_PIGEON_UpdateMethod">仅推送最稳定测试版本</Item>
 			<Item Key="Setting_Tunnel_SLOTH">Sloth 树懒通道</Item>
 			<Item Key="Setting_Tunnel_SLOTH_UpdateMethod">正式版本更新通道</Item>
 
-			<Item Key="FileSelector_Java_Filter_Title">BakaXL - 请手动定位Javaw.exe文件</Item>
+			<Item Key="FileSelector_Java_Filter_Title">BugXL - 请手动定位Javaw.exe文件</Item>
 			<Item Key="FileSelector_Java_Filter_Desc_Javaw">默认启动</Item>
 			<Item Key="FileSelector_Java_Filter_Desc_Java">Debug模式</Item>
 
@@ -1423,7 +1423,7 @@
 			<Item Key="VolumeBar_AppBehaviour_AutoLowVolume">已自动小声bb</Item>
 			<Item Key="VolumeBar_AppBehaviour_HasAudioOutput">&quot;{0}&quot; 正在播放音频</Item>
 
-			<Item Key="HomeMenu_Title">BakaXL / Home菜单</Item>
+			<Item Key="HomeMenu_Title">BugXL / Home菜单</Item>
 			<Item Key="HomeMenu_CurrentPaused">当前中断中的内容</Item>
 			<Item Key="HomeMenu_Continue_Tips">您可以按下HOME键继续当前内容</Item>
 
@@ -1432,7 +1432,7 @@
 			<Item Key="HomeMenu_Confirm">确定要继续吗？</Item>
 			<Item Key="HomeMenu_Confirm_Tips">强制结束现有内容可能会导致进度丢失，并且此过程不可逆。</Item>
 
-			<Item Key="HomeMenu_Btn_Close">结束并返回BakaXL主界面</Item>
+			<Item Key="HomeMenu_Btn_Close">结束并返回BugXL主界面</Item>
 			<Item Key="HomeMenu_Btn_Confirm">确认结束</Item>
 			<Item Key="HomeMenu_Btn_Closed">已结束</Item>
 
@@ -1457,19 +1457,19 @@
 
 			<Item Key="MessageBox_Auth_Microsoft_LoginFailed_Title">登录失败</Item>
 			<Item Key="MessageBox_Auth_Microsoft_LoginFailed_ConnectFailed_Content">无法连接至巨硬登录验证服务器。&#xD;&#xA;请检查您的互联网连接，然后再试一次。</Item>
-			<Item Key="MessageBox_Auth_Microsoft_LoginFailed_ServerRespondNull_Content">无法完成巨硬账户的正版验证流程，若此问题反复出现，请联系BakaXL开发团队。&#xD;&#xA;请检查您的互联网连接，然后再试一次。</Item>
+			<Item Key="MessageBox_Auth_Microsoft_LoginFailed_ServerRespondNull_Content">无法完成巨硬账户的正版验证流程，若此问题反复出现，请联系BugXL开发团队。&#xD;&#xA;请检查您的互联网连接，然后再试一次。</Item>
 			<Item Key="MessageBox_Auth_Microsoft_LoginFailed_CheckOwnershipFailed_Content">无法连接至迈恩克拉夫特商店验证服务器校验您的账户所有权。&#xD;&#xA;请检查您的互联网连接，然后再试一次。</Item>
 			<Item Key="MessageBox_Auth_Microsoft_LoginFailed_XBLConnectFailed_Content">无法连接至巨硬 Xbox Live 账户验证服务器。&#xD;&#xA;请检查您的互联网连接，然后再试一次。</Item>
 			<Item Key="MessageBox_Auth_Microsoft_LoginFailed_MojangAccountConnectFailed_Content">无法连接至迈恩克拉夫特账户验证服务器。&#xD;&#xA;请检查您的互联网连接，然后再试一次。</Item>
 
 			<Item Key="MessageBox_Auth_Microsoft_LoginFailed_APIChanged_Content">巨硬账户服务器登录接口发生变化，目前无法通过此方式进行正版验证。&#xD;&#xA;我们将尽快发布本体更新以适配新的变化，给您带来的不便深表歉意。</Item>
-			<Item Key="MessageBox_Auth_Microsoft_LoginFailed_APIChanged_Tips">请等待BakaXL开发团队的更新</Item>
+			<Item Key="MessageBox_Auth_Microsoft_LoginFailed_APIChanged_Tips">请等待BugXL开发团队的更新</Item>
 
 			<Item Key="MessageBox_Auth_Microsoft_LoginFailed_NotOwnGame_Title">此账户尚未拥有迈恩克拉夫特</Item>
-			<Item Key="MessageBox_Auth_Microsoft_LoginFailed_NotOwnGame_Content">此巨硬账户看上去没有购入迈恩克拉夫特。&#xD;&#xA;请检查您是否登录了错误的账户，或稍等一会再试。&#xD;&#xA;&#xD;&#xA;如果您是使用麻将账户而非巨硬账户购买的迈恩克拉夫特，&#xD;&#xA;则您可能选错了正版验证模式，应当选择 &quot;正版验证(麻将)&quot;。&#xD;&#xA;&#xD;&#xA;如果您是 Xbox Game Pass 持有者，则需要使用 &quot;迈恩克拉夫特官方启动器&quot; 进行一次登录并进行游戏 ID 设置。随后才可以使用 BakaXL 等第三方启动器进行正版验证。</Item>
+			<Item Key="MessageBox_Auth_Microsoft_LoginFailed_NotOwnGame_Content">此巨硬账户看上去没有购入迈恩克拉夫特。&#xD;&#xA;请检查您是否登录了错误的账户，或稍等一会再试。&#xD;&#xA;&#xD;&#xA;如果您是使用麻将账户而非巨硬账户购买的迈恩克拉夫特，&#xD;&#xA;则您可能选错了正版验证模式，应当选择 &quot;正版验证(麻将)&quot;。&#xD;&#xA;&#xD;&#xA;如果您是 Xbox Game Pass 持有者，则需要使用 &quot;迈恩克拉夫特官方启动器&quot; 进行一次登录并进行游戏 ID 设置。随后才可以使用 BugXL 等第三方启动器进行正版验证。</Item>
 
 			<Item Key="MessageBox_Auth_Microsoft_LoginFailed_NoGameProfile_Title">此账户没有迈恩克拉夫特档案</Item>
-			<Item Key="MessageBox_Auth_Microsoft_LoginFailed_NoGameProfile_Content">此巨硬账户已经购入了迈恩克拉夫特，但并没有包含迈恩克拉夫特账户档案。&#xD;&#xA;&#xD;&#xA;如果您是 Xbox Game Pass 持有者，或在购买游戏之后从未设置过迈恩克拉夫特游戏ID，则需要使用 &quot;迈恩克拉夫特官方启动器&quot; 进行一次登录并进行游戏 ID 设置。随后才可以使用 BakaXL 等第三方启动器进行正版验证。</Item>
+			<Item Key="MessageBox_Auth_Microsoft_LoginFailed_NoGameProfile_Content">此巨硬账户已经购入了迈恩克拉夫特，但并没有包含迈恩克拉夫特账户档案。&#xD;&#xA;&#xD;&#xA;如果您是 Xbox Game Pass 持有者，或在购买游戏之后从未设置过迈恩克拉夫特游戏ID，则需要使用 &quot;迈恩克拉夫特官方启动器&quot; 进行一次登录并进行游戏 ID 设置。随后才可以使用 BugXL 等第三方启动器进行正版验证。</Item>
 
 			<Item Key="MessageBox_Auth_Microsoft_LoginFailed_ChildAccount_Title">未成年账户登录限制</Item>
 			<Item Key="MessageBox_Auth_Microsoft_LoginFailed_ChildAccount_Content">您的账户被巨硬划分为未成年账户，在继续登录前，需要由成年人的巨硬账户对此账户进行关联。&#xD;&#xA;联系您的监护人，将此账户添加至巨硬家庭后，才可以使用 Xbox Live 服务。&#xD;&#xA;&#xD;&#xA;（或将账户年龄修改为 18 岁或以上…）</Item>
@@ -1481,7 +1481,7 @@
 			<Item Key="MessageBox_Auth_Microsoft_LoginFailed_NoXboxProfile_Btn_GoCreate">前往创建档案</Item>
 
 			<Item Key="MessageBox_Auth_Microsoft_DeviceCode_Title">使用代码 {0} 以继续</Item>
-			<Item Key="MessageBox_Auth_Microsoft_DeviceCode_Content">请使用您的电脑浏览器或智慧型移动设备，&#xD;&#xA;访问 {0} 并输入代码 {1} 以完成登录。&#xD;&#xA;轻点 &quot;好&quot; 按钮后，BakaXL 将复制此代码并自动打开验证页面。</Item>
+			<Item Key="MessageBox_Auth_Microsoft_DeviceCode_Content">请使用您的电脑浏览器或智慧型移动设备，&#xD;&#xA;访问 {0} 并输入代码 {1} 以完成登录。&#xD;&#xA;轻点 &quot;好&quot; 按钮后，BugXL 将复制此代码并自动打开验证页面。</Item>
 			<Item Key="MessageBox_Auth_Microsoft_DeviceCode_Tips">若页面未自动打开，请手动访问 {0} 以继续</Item>
 
 			<Item Key="MessageBox_Auth_Microsoft_DeviceCode_WaitingForAuth_Content">等待您在验证页面中完成操作…&#xD;&#xA;&#xD;&#xA;验证代码为: {0}&#xD;&#xA;验证地址为: {1}</Item>
@@ -1490,18 +1490,18 @@
 			<Item Key="MessageBox_Auth_Microsoft_DeviceCode_LoginTo_Content">正在登录至 Microsoft 账户…</Item>
 
 			<Item Key="MessageBox_Auth_ThirdParty_ProtocolFix_Title">已经自动补全通信协议</Item>
-			<Item Key="MessageBox_Auth_ThirdParty_ProtocolFix_Content">BakaXL检测到您未设置验证服务器通信协议。&#xD;&#xA;将自动使用HTTPS安全协议连接至此验证服务器。</Item>
+			<Item Key="MessageBox_Auth_ThirdParty_ProtocolFix_Content">BugXL检测到您未设置验证服务器通信协议。&#xD;&#xA;将自动使用HTTPS安全协议连接至此验证服务器。</Item>
 
 			<Item Key="MessageBox_Auth_ThirdParty_ServerUnsafe_Title">请谨慎连接至此验证服务器</Item>
 			<Item Key="MessageBox_Auth_ThirdParty_ServerUnsafe_Content">此验证服务器并未使用HTTPS安全协议。&#xD;&#xA;继续使用此验证服务器将导致您的密码被明文传输。</Item>
 			<Item Key="MessageBox_Auth_ThirdParty_ServerUnsafe_Tips">使用了安全协议的服务器地址始终会以 https:// 开头</Item>
 
 			<Item Key="MessageBox_Auth_ThirdParty_ConnectFailed_Title">无法连接至此验证服务器</Item>
-			<Item Key="MessageBox_Auth_ThirdParty_ConnectFailed_Content">BakaXL无法连接至此验证服务器。&#xD;&#xA;请检查此服务地址是否正确，并再试一次。</Item>
+			<Item Key="MessageBox_Auth_ThirdParty_ConnectFailed_Content">BugXL无法连接至此验证服务器。&#xD;&#xA;请检查此服务地址是否正确，并再试一次。</Item>
 			<Item Key="MessageBox_Auth_ThirdParty_ConnectFailed_Tips">也请留意此验证服务器提供商的相关通知</Item>
 
 			<Item Key="MessageBox_Auth_ThirdParty_UnexpectedUUIDFormat_Title">无法解析该验证服务器的用户档案</Item>
-			<Item Key="MessageBox_Auth_ThirdParty_UnexpectedUUIDFormat_Content">该验证服务器返回了不符合规范的内容。&#xD;&#xA;BakaXL无法解析此内容。</Item>
+			<Item Key="MessageBox_Auth_ThirdParty_UnexpectedUUIDFormat_Content">该验证服务器返回了不符合规范的内容。&#xD;&#xA;BugXL无法解析此内容。</Item>
 			<Item Key="MessageBox_Auth_ThirdParty_UnexpectedUUIDFormat_Tips">请联系该验证服务器开发者以了解更多信息</Item>
 
 			<Item Key="MessageBox_Auth_ThirdParty_NoProfile_Title">该账户没有任何可用的角色</Item>
@@ -1511,89 +1511,89 @@
 			<Item Key="MessageBox_Auth_ThirdParty_Login">正在通过此验证服务器进行账户验证…</Item>
 
 			<Item Key="MessageBox_Auth_ThirdParty_LoginFailed_Title">验证失败</Item>
-			<Item Key="MessageBox_Auth_ThirdParty_LoginFailed_Content">BakaXL 无法根据您提供的信息登录至此验证服务器。&#xD;&#xA;请检查您的登录信息及密码等信息是否正确。</Item>
+			<Item Key="MessageBox_Auth_ThirdParty_LoginFailed_Content">BugXL 无法根据您提供的信息登录至此验证服务器。&#xD;&#xA;请检查您的登录信息及密码等信息是否正确。</Item>
 			<Item Key="MessageBox_Auth_ThirdParty_LoginFailed_Tips">若此问题持续出现，请联系您的验证服务器提供商</Item>
 
 			<Item Key="MessageBox_BakaPlaza_Installer_Title">准备安装迈恩克拉夫特...</Item>
-			<Item Key="MessageBox_BakaPlaza_Installer_Content">BakaXL将要开始安装您所选定的游戏核心。&#xD;&#xA;请稍等片刻，并在此期间不要断开互联网连接或关闭BakaXL。</Item>
+			<Item Key="MessageBox_BakaPlaza_Installer_Content">BugXL将要开始安装您所选定的游戏核心。&#xD;&#xA;请稍等片刻，并在此期间不要断开互联网连接或关闭BugXL。</Item>
 			<Item Key="MessageBox_BakaPlaza_Installer_Tips">正在准备</Item>
 
 			<Item Key="MessageBox_Java_AdvanceSearchPermission_Title">确认使用细致搜索？</Item>
-			<Item Key="MessageBox_Java_AdvanceSearchPermission_Message">若使用细致搜索，则代表您授权BakaXL对您计算机磁盘内的文件进行遍历。&#xD;&#xA;BakaXL将搜索每个磁盘的根目录，随后继续遍历包含以下名称的文件夹：&#xD;&#xA;&#xD;&#xA;Minecraft、Java、Jre、Jdk、MC、Runtime&#xD;&#xA;&#xD;&#xA;若您不了解此功能的作用，请点击 &quot;取消&quot;。</Item>
-			<Item Key="MessageBox_Java_AdvanceSearchPermission_Tips">BakaXL不会以任何方式保留您的磁盘内容索引</Item>
+			<Item Key="MessageBox_Java_AdvanceSearchPermission_Message">若使用细致搜索，则代表您授权BugXL对您计算机磁盘内的文件进行遍历。&#xD;&#xA;BugXL将搜索每个磁盘的根目录，随后继续遍历包含以下名称的文件夹：&#xD;&#xA;&#xD;&#xA;Minecraft、Java、Jre、Jdk、MC、Runtime&#xD;&#xA;&#xD;&#xA;若您不了解此功能的作用，请点击 &quot;取消&quot;。</Item>
+			<Item Key="MessageBox_Java_AdvanceSearchPermission_Tips">BugXL不会以任何方式保留您的磁盘内容索引</Item>
 
 			<Item Key="MessageBox_SkinPatcher_RequireProfile_Title">需要至少一个迈恩克拉夫特账户档案以继续</Item>
-			<Item Key="MessageBox_SkinPatcher_RequireProfile_Content">制作BakaXL主题之前，您至少需要创建一个迈恩克拉夫特账户档案。</Item>
+			<Item Key="MessageBox_SkinPatcher_RequireProfile_Content">制作BugXL主题之前，您至少需要创建一个迈恩克拉夫特账户档案。</Item>
 
 			<Item Key="MessageBox_SkinPatcher_ImageDecodeFailed_Title">图标文件可能受损</Item>
-			<Item Key="MessageBox_SkinPatcher_ImageDecodeFailed_Content">该图标文件可能不完整或受损，BakaXL无法将其设为主题图标。&#xD;&#xA;请检查或更换一个图标文件，然后再试一次。</Item>
+			<Item Key="MessageBox_SkinPatcher_ImageDecodeFailed_Content">该图标文件可能不完整或受损，BugXL无法将其设为主题图标。&#xD;&#xA;请检查或更换一个图标文件，然后再试一次。</Item>
 
 			<Item Key="MessageBox_SkinPatcher_ThemeNoName_Title">缺少主题名称</Item>
-			<Item Key="MessageBox_SkinPatcher_ThemeNoName_Content">在生成BakaXL主题之前，您需要为该主题包设置一个不为空的显示名称。</Item>
+			<Item Key="MessageBox_SkinPatcher_ThemeNoName_Content">在生成BugXL主题之前，您需要为该主题包设置一个不为空的显示名称。</Item>
 
 			<Item Key="MessageBox_SkinPatcher_ThemeNoDesc_Title">缺少主题介绍</Item>
-			<Item Key="MessageBox_SkinPatcher_ThemeNoDesc_Content">在生成BakaXL主题之前，您需要为该主题包设置一个不为空的介绍。</Item>
+			<Item Key="MessageBox_SkinPatcher_ThemeNoDesc_Content">在生成BugXL主题之前，您需要为该主题包设置一个不为空的介绍。</Item>
 
 			<Item Key="MessageBox_SkinPatcher_ThemeNoIcon_Title">缺少主题图标</Item>
 
-			<Item Key="MessageBox_SkinPatcher_ThemeNoIcon_Content">在生成BakaXL主题之前，您需要为该主题包设置一个图标。</Item>
+			<Item Key="MessageBox_SkinPatcher_ThemeNoIcon_Content">在生成BugXL主题之前，您需要为该主题包设置一个图标。</Item>
 			<Item Key="MessageBox_SkinPatcher_ThemeNoCreator_Title">缺少主题制作者</Item>
-			<Item Key="MessageBox_SkinPatcher_ThemeNoCreator_Content">在生成BakaXL主题之前，您需要为该主题包设置一个制作者。&#xD;&#xA;在主题作者名称区域检查您的制作者设置是否正确。</Item>
+			<Item Key="MessageBox_SkinPatcher_ThemeNoCreator_Content">在生成BugXL主题之前，您需要为该主题包设置一个制作者。&#xD;&#xA;在主题作者名称区域检查您的制作者设置是否正确。</Item>
 
 			<Item Key="MessageBox_SkinPatcher_ThemeNoMusic_Main_Title">缺少主要背景音乐</Item>
-			<Item Key="MessageBox_SkinPatcher_ThemeNoMusic_Main_Content">您尚未设置该BakaXL主题的主要背景音乐。&#xD;&#xA;BakaXL主题至少需要包含一个主要背景音乐。</Item>
+			<Item Key="MessageBox_SkinPatcher_ThemeNoMusic_Main_Content">您尚未设置该BugXL主题的主要背景音乐。&#xD;&#xA;BugXL主题至少需要包含一个主要背景音乐。</Item>
 
 			<Item Key="MessageBox_SkinPatcher_ThemeNoMusic_Split_Title">缺少分离背景音乐</Item>
-			<Item Key="MessageBox_SkinPatcher_ThemeNoMusic_Split_Content">您尚未设置该BakaXL主题的分离背景音乐。&#xD;&#xA;若您选择使用分离音乐模式，则需要为 &quot;本体设置&quot; 及 &quot;贴士&quot; 界面单独设置背景音乐。</Item>
+			<Item Key="MessageBox_SkinPatcher_ThemeNoMusic_Split_Content">您尚未设置该BugXL主题的分离背景音乐。&#xD;&#xA;若您选择使用分离音乐模式，则需要为 &quot;本体设置&quot; 及 &quot;贴士&quot; 界面单独设置背景音乐。</Item>
 
 			<Item Key="MessageBox_SkinPatcher_ThemeExport_Successful_Title">主题制作成功</Item>
-			<Item Key="MessageBox_SkinPatcher_ThemeExport_Successful_Content">{0} BakaXL主题已经制作并打包成功。&#xD;&#xA;BakaXL 已将该主题文件保存在  &quot;BakaXL\Tema &quot; 中。</Item>
+			<Item Key="MessageBox_SkinPatcher_ThemeExport_Successful_Content">{0} BugXL主题已经制作并打包成功。&#xD;&#xA;BugXL 已将该主题文件保存在  &quot;BugXL\Tema &quot; 中。</Item>
 
 			<Item Key="MessageBox_SkinPatcher_ThemeExport_Failed_Title">主题导出失败</Item>
-			<Item Key="MessageBox_SkinPatcher_ThemeExport_Failed_Content">BakaXL无法顺利将主题文件导出至主题文件夹中。&#xD;&#xA;请确保BakaXL有足够权限访问主题文件夹，然后再试一次。</Item>
+			<Item Key="MessageBox_SkinPatcher_ThemeExport_Failed_Content">BugXL无法顺利将主题文件导出至主题文件夹中。&#xD;&#xA;请确保BugXL有足够权限访问主题文件夹，然后再试一次。</Item>
 
-			<Item Key="MessageBox_PlazaError_UpdateRequire_Content">在继续使用BakaXL笨蛋广场的服务前，您需要进行本体更新。&#xD;&#xA;BakaXL需要更新至版本 {0}。</Item>
-			<Item Key="MessageBox_PlazaError_UpdateRequire_Tips">若BakaXL没有提示自动更新，则您需要在官网手动下载最新版本</Item>
+			<Item Key="MessageBox_PlazaError_UpdateRequire_Content">在继续使用BugXL笨蛋广场的服务前，您需要进行本体更新。&#xD;&#xA;BugXL需要更新至版本 {0}。</Item>
+			<Item Key="MessageBox_PlazaError_UpdateRequire_Tips">若BugXL没有提示自动更新，则您需要在官网手动下载最新版本</Item>
 
 			<Item Key="MessageBox_LaunchError_ExitException_Title">迈恩克拉夫特进程可能意外退出</Item>
-			<Item Key="MessageBox_LaunchError_ExitException_Content">BakaXL检测到上一次成功启动迈恩克拉夫特后，游戏只运行了 {0} 秒。</Item>
+			<Item Key="MessageBox_LaunchError_ExitException_Content">BugXL检测到上一次成功启动迈恩克拉夫特后，游戏只运行了 {0} 秒。</Item>
 			<Item Key="MessageBox_LaunchError_ExitException_Tips">这可能是由于Libraries文件缺失造成的</Item>
 
 			<Item Key="MessageBox_LaunchError_Base_Title">无法启动 {0}</Item>
 
-			<Item Key="MessageBox_PlazaError_WhenLaunch_Content">出现了异常情况，导致我们无法连接至BakaXL游泳圈服务器。&#xD;&#xA;请稍后再试。若问题持续存在，请参阅BakaXL官网。</Item>
+			<Item Key="MessageBox_PlazaError_WhenLaunch_Content">出现了异常情况，导致我们无法连接至BugXL游泳圈服务器。&#xD;&#xA;请稍后再试。若问题持续存在，请参阅BugXL官网。</Item>
 			<Item Key="MessageBox_PlazaError_WhenLaunch_Tips">我们可能会在未经通知的情况下对服务器进行维护</Item>
 
 			<Item Key="MessageBox_QuickSet_Title">什么是 "快速设置" ？</Item>
-			<Item Key="MessageBox_QuickSet_Content">快速设置可以帮助您根据系统当前的状态自动设置迈恩克拉夫特运行所需的Java虚拟机及内存。&#xD;&#xA;&#xD;&#xA;除此之外，快速设置还将会：&#xD;&#xA;· 开启 BakaXL的背景音乐和音效&#xD;&#xA;· 允许 游泳圈请求您的位置信息&#xD;&#xA;· 向BakaXL发送崩溃和启动诊断信息&#xD;&#xA;· 开启 BMCLAPI 以加快在中国大陆地区的资源下载速度&#xD;&#xA;· 自动加载所有已安装的BakaXL插件（并非所有的第三方插件都是安全的）</Item>
+			<Item Key="MessageBox_QuickSet_Content">快速设置可以帮助您根据系统当前的状态自动设置迈恩克拉夫特运行所需的Java虚拟机及内存。&#xD;&#xA;&#xD;&#xA;除此之外，快速设置还将会：&#xD;&#xA;· 开启 BugXL的背景音乐和音效&#xD;&#xA;· 允许 游泳圈请求您的位置信息&#xD;&#xA;· 向BugXL发送崩溃和启动诊断信息&#xD;&#xA;· 开启 BMCLAPI 以加快在中国大陆地区的资源下载速度&#xD;&#xA;· 自动加载所有已安装的BugXL插件（并非所有的第三方插件都是安全的）</Item>
 			<Item Key="MessageBox_QuickSet_Tips">若您不了解Java虚拟机及游戏所需的内存大小，请使用快速设置</Item>
 
 			<Item Key="MessageBox_Java_NotInstall_Title">安装Java以继续</Item>
 			<Item Key="MessageBox_Java_NotInstall_Content">看上去您目前并未在计算机中安装Java。&#xD;&#xA;Java虚拟机是运行Minecraft的必备组件，请务必安装。</Item>
-			<Item Key="MessageBox_Java_NotInstall_Tips">若BakaXL未搜索到您的Java，您也可以手动定位其路径</Item>
+			<Item Key="MessageBox_Java_NotInstall_Tips">若BugXL未搜索到您的Java，您也可以手动定位其路径</Item>
 
 			<Item Key="MessageBox_Java_NotInstall_ButFine_Title">没有检测到 Java 虚拟机…</Item>
-			<Item Key="MessageBox_Java_NotInstall_ButFine_Content">看上去您目前并未在计算机中安装Java。&#xD;&#xA;您可以继续进行设置向导，BakaXL 将会在您启动游戏时自动安装合适的 Java。&#xD;&#xA;&#xD;&#xA;如果您相信您安装了 Java，也不必担心。&#xD;&#xA;前往 &quot;本体设置 - Java 虚拟机与内存&quot; 中试试使用 &quot;细致搜索&quot; 来查找 Java。 </Item>
+			<Item Key="MessageBox_Java_NotInstall_ButFine_Content">看上去您目前并未在计算机中安装Java。&#xD;&#xA;您可以继续进行设置向导，BugXL 将会在您启动游戏时自动安装合适的 Java。&#xD;&#xA;&#xD;&#xA;如果您相信您安装了 Java，也不必担心。&#xD;&#xA;前往 &quot;本体设置 - Java 虚拟机与内存&quot; 中试试使用 &quot;细致搜索&quot; 来查找 Java。 </Item>
 			<Item Key="MessageBox_Java_NotInstall_ButFine_Tips">您始终可以在本体设置中修改 Java 虚拟机设置</Item>
 
 			<Item Key="MessageBox_Guide_AuthLib_ReadPackInfo_Error_Title">无法加载该核心的凭证设置</Item>
-			<Item Key="MessageBox_Guide_AuthLib_ReadPackInfo_Error_Content">出现了一些意外的情况，导致 BakaXL 无法从当前设置的整合包或核心中读取凭证设置。&#xD;&#xA;您可以继续设置向导，BakaXL 会在启动该核心时再次检查凭证设置。</Item>
+			<Item Key="MessageBox_Guide_AuthLib_ReadPackInfo_Error_Content">出现了一些意外的情况，导致 BugXL 无法从当前设置的整合包或核心中读取凭证设置。&#xD;&#xA;您可以继续设置向导，BugXL 会在启动该核心时再次检查凭证设置。</Item>
 			<Item Key="MessageBox_Guide_AuthLib_ReadPackInfo_Error_Tips">可是明明一开始都读到了，这合理吗？</Item>
 
 			<Item Key="MessageBox_Guide_AuthLib_NoInput_Title">需要账户信息以完成登录</Item>
-			<Item Key="MessageBox_Guide_AuthLib_NoInput_Content">在继续之前，BakaXL 需要您在第三方验证服务注册时提供的账户信息。&#xD;&#xA;BakaXL 将会以符合业界标准的加密方式在本地保存您的数据，您的信息不会被上传至任何服务器。</Item>
+			<Item Key="MessageBox_Guide_AuthLib_NoInput_Content">在继续之前，BugXL 需要您在第三方验证服务注册时提供的账户信息。&#xD;&#xA;BugXL 将会以符合业界标准的加密方式在本地保存您的数据，您的信息不会被上传至任何服务器。</Item>
 
 			<Item Key="MessageBox_Memory_LowWarning_Title">内存要炸了！</Item>
 			<Item Key="MessageBox_Memory_LowWarning_Content">你目前的系统内存不足512MB，强制启动MC可能造成一些异常现象（例如可能启动失败），建议你关闭无关紧要的软件（例如QQ、音乐播放器，迅雷等）\n\n系统总共内存：{0} MB\n目前可用内存：{1} MB</Item>
 
 			<Item Key="MessageBox_Download_LaunchMode_Title">芜湖起飞</Item>
-			<Item Key="MessageBox_Download_LaunchMode_Content">您确定要挑战极限吗？这将使BakaXL在下载迈恩克拉夫特及其资源时调动计算机所有可以使用的资源进行下载。</Item>
-			<Item Key="MessageBox_Download_LaunchMode_Tips">启用芜湖起飞会自动修改BakaXL的部分设置，并停用下载状态显示。</Item>
+			<Item Key="MessageBox_Download_LaunchMode_Content">您确定要挑战极限吗？这将使BugXL在下载迈恩克拉夫特及其资源时调动计算机所有可以使用的资源进行下载。</Item>
+			<Item Key="MessageBox_Download_LaunchMode_Tips">启用芜湖起飞会自动修改BugXL的部分设置，并停用下载状态显示。</Item>
 			<Item Key="MessageBox_Download_LaunchMode_Btn_Yes">冲鸭！</Item>
 			<Item Key="MessageBox_Download_LaunchMode_Btn_No">唔，我想当个乖孩子</Item>
 
 			<Item Key="MessageBox_CoreInstall_CoreFolderExist_Title">该核心文件夹已存在</Item>
-			<Item Key="MessageBox_CoreInstall_CoreFolderExist_Content">BakaXL 检测到使用 {0} 作为名字的核心已经存在。&#xD;&#xA;请更换一个名字，或通过 &quot;手动安装核心&quot; 覆盖此核心内容。</Item>
+			<Item Key="MessageBox_CoreInstall_CoreFolderExist_Content">BugXL测到使用 {0} 作为名字的核心已经存在。&#xD;&#xA;请更换一个名字，或通过 &quot;手动安装核心&quot; 覆盖此核心内容。</Item>
 			<Item Key="MessageBox_CoreInstall_CoreFolderExist_Tips">覆盖安装不会覆盖您的存档等数据</Item>
 
 			<Item Key="MessageBox_CoreInstall_CoreNameEmpty_Title">核心名称为空</Item>
@@ -1609,17 +1609,17 @@
 			<Item Key="MessageBox_Minecraft_OnlineFeatures_SkinUpload_SkinType_Tips">冷知识！Alex 的手臂比 Steve 细！</Item>
 
 			<Item Key="MessageBox_Minecraft_OnlineFeatures_SkinUpload_SkinSizeIncorrect_Title">看上去好像不是个皮肤…</Item>
-			<Item Key="MessageBox_Minecraft_OnlineFeatures_SkinUpload_SkinSizeIncorrect_Content">此皮肤文件的长度和宽度并不符合迈恩克拉夫特对于皮肤文件的要求，BakaXL 无法上传此皮肤。&#xD;&#xA;请检查是否选择了正确的文件，然后再试一次。</Item>
+			<Item Key="MessageBox_Minecraft_OnlineFeatures_SkinUpload_SkinSizeIncorrect_Content">此皮肤文件的长度和宽度并不符合迈恩克拉夫特对于皮肤文件的要求，BugXL法上传此皮肤。&#xD;&#xA;请检查是否选择了正确的文件，然后再试一次。</Item>
 			<Item Key="MessageBox_Minecraft_OnlineFeatures_SkinUpload_SkinSizeIncorrect_Tips">冷知识！迈恩克拉夫特原版并不支持高清皮肤文件！</Item>
 
-			<Item Key="MessageBox_Minecraft_OnlineFeatures_SkinUpload_Uploading_Title">BakaXL 正在上传您的皮肤…</Item>
+			<Item Key="MessageBox_Minecraft_OnlineFeatures_SkinUpload_Uploading_Title">BugXL正在上传您的皮肤…</Item>
 
 			<Item Key="MessageBox_Bakaverse_Login_Error_Title">登录失败</Item>
-			<Item Key="MessageBox_Bakaverse_Login_ConnectError_Content">无法连接至BakaXL Network服务器。&#xD;&#xA;请检查您的互联网连接，或者留意BakaXL官方的维护公告。&#xD;&#xA;这也有可能是由于用户名或密码错误。</Item>
-			<Item Key="MessageBox_Bakaverse_Login_VersionError_Content">BakaXL Network服务器拒绝了您的连接。&#xD;&#xA;由于服务器要求使用最新版本的BakaXL，连接被终止。</Item>
-			<Item Key="MessageBox_Bakaverse_Login_AuthError_Content">无法登录至此BakaXL账户。&#xD;&#xA;此账户不存在或密码错误，请检查您输入的内容然后再试一次。</Item>
-			<Item Key="MessageBox_Bakaverse_Login_EAPermissionError_Content">无法登录至此BakaXL账户。&#xD;&#xA;您的BakaXL账户没有参与早期体验测试。请耐心等待此服务正式上线。</Item>
-			<Item Key="MessageBox_Bakaverse_Login_UnknownError_Content">发生未知错误。&#xD;&#xA;请将此错误汇报给BakaXL官方以便我们核查错误原因。</Item>
+			<Item Key="MessageBox_Bakaverse_Login_ConnectError_Content">无法连接至BugXLtwork服务器。&#xD;&#xA;请检查您的互联网连接，或者留意BugXL官方的维护公告。&#xD;&#xA;这也有可能是由于用户名或密码错误。</Item>
+			<Item Key="MessageBox_Bakaverse_Login_VersionError_Content">BugXL Network服务器拒绝了您的连接。&#xD;&#xA;由于服务器要求使用最新版本的BugXL，连接被终止。</Item>
+			<Item Key="MessageBox_Bakaverse_Login_AuthError_Content">无法登录至此BugXL账户。&#xD;&#xA;此账户不存在或密码错误，请检查您输入的内容然后再试一次。</Item>
+			<Item Key="MessageBox_Bakaverse_Login_EAPermissionError_Content">无法登录至此BugXL账户。&#xD;&#xA;您的BugXL账户没有参与早期体验测试。请耐心等待此服务正式上线。</Item>
+			<Item Key="MessageBox_Bakaverse_Login_UnknownError_Content">发生未知错误。&#xD;&#xA;请将此错误汇报给BugXL官方以便我们核查错误原因。</Item>
 
 			<Item Key="MessageBox_Bakaverse_AddFriends_Sent_Title">好友申请已发送</Item>
 			<Item Key="MessageBox_Bakaverse_AddFriends_Sent_Content">您的好友申请已经发送。</Item>
@@ -1636,11 +1636,11 @@
 			<Item Key="MessageBox_Bakaverse_AddFriends_AlreadySent_Content">您已经发送过好友申请了。&#xD;&#xA;请耐心等待对方处理您的好友请求。</Item>
 
 			<Item Key="MessageBox_Bakaverse_Lobby_Create_LobbyIDFormat_Title">多人运动编号格式不正确</Item>
-			<Item Key="MessageBox_Bakaverse_Lobby_Create_LobbyIDFormat_Content">您期望使用的多人运动编号当前无法被使用，请检查输入格式。&#xD;&#xA;自定义 BakaXL 多人运动编号仅可使用 英文字母、数字、下划线。</Item>
-			<Item Key="MessageBox_Bakaverse_Lobby_Create_LobbyIDFormat_Tips">+V 领 BakaXL 大夹子</Item>
+			<Item Key="MessageBox_Bakaverse_Lobby_Create_LobbyIDFormat_Content">您期望使用的多人运动编号当前无法被使用，请检查输入格式。&#xD;&#xA;自定义 BugXL 多人运动编号仅可使用 英文字母、数字、下划线。</Item>
+			<Item Key="MessageBox_Bakaverse_Lobby_Create_LobbyIDFormat_Tips">+V 领 BugXL 大夹子</Item>
 
 			<Item Key="MessageBox_Bakaverse_Lobby_Create_LobbyIDUsed_Title">该多人运动编号当前正在使用中</Item>
-			<Item Key="MessageBox_Bakaverse_Lobby_Create_LobbyIDUsed_Content">您期望使用的多人运动编号当前无法被使用，因为 BakaXL Network 中有多人运动&#xD;&#xA;正在使用此多人运动编号。&#xD;&#xA;请更换一个编号，或等待使用此编号的多人运动解散。</Item>
+			<Item Key="MessageBox_Bakaverse_Lobby_Create_LobbyIDUsed_Content">您期望使用的多人运动编号当前无法被使用，因为 BugXL Network 中有多人运动&#xD;&#xA;正在使用此多人运动编号。&#xD;&#xA;请更换一个编号，或等待使用此编号的多人运动解散。</Item>
 			<Item Key="MessageBox_Bakaverse_Lobby_Create_LobbyIDUsed_Tips">焯！</Item>
 
 			<Item Key="MessageBox_Bakaverse_Lobby_FriendsInviteTo_Title">来自好友的多人运动邀请</Item>
@@ -1660,11 +1660,11 @@
 			<Item Key="MessageBox_Bakaverse_Lobby_KickUser_Btn_No">考虑一下</Item>
 
 			<Item Key="MessageBox_Bakaverse_Lobby_Join_NoLobbyID_Title">多人运动加入申请发送了…？</Item>
-			<Item Key="MessageBox_Bakaverse_Lobby_Join_NoLobbyID_Content">BakaXL 已向多人…&#xD;&#xA;诶？您怎么没有输入多人运动编号？</Item>
+			<Item Key="MessageBox_Bakaverse_Lobby_Join_NoLobbyID_Content">BugXL 已向多人…&#xD;&#xA;诶？您怎么没有输入多人运动编号？</Item>
 			<Item Key="MessageBox_Bakaverse_Lobby_Join_NoLobbyID_Tips">您搁这压测呢？</Item>
 
 			<Item Key="MessageBox_Bakaverse_Lobby_Join_RequestSend_Title">已发送多人运动加入申请</Item>
-			<Item Key="MessageBox_Bakaverse_Lobby_Join_RequestSend_Content">BakaXL 已向多人运动 {0} 的创建者发送请求。&#xD;&#xA;在对方允许后，您将加入该多人运动。</Item>
+			<Item Key="MessageBox_Bakaverse_Lobby_Join_RequestSend_Content">BugXL 已向多人运动 {0} 的创建者发送请求。&#xD;&#xA;在对方允许后，您将加入该多人运动。</Item>
 			<Item Key="MessageBox_Bakaverse_Lobby_Join_RequestSend_Tips">若该多人运动为好友多人运动，则需要先与创建者成为好友</Item>
 
 			<Item Key="MessageBox_Bakaverse_Lobby_HostLeave_Title">确定要解散多人运动吗？</Item>
@@ -1680,24 +1680,24 @@
 			<Item Key="MessageBox_Bakaverse_Lobby_JoinerLeave_Btn_No">手滑</Item>
 
 			<Item Key="MessageBox_Bakaverse_Lobby_JoinerInfo_NotExist_Title">薛定谔的用户</Item>
-			<Item Key="MessageBox_Bakaverse_Lobby_JoinerInfo_NotExist_Content">虽然这个用户存在在多人运动里，但是他不存在在 BakaXL Network 中。&#xD;&#xA;这很奇怪。可能因为你观测到了这个情况，所以他现在不存在了。</Item>
+			<Item Key="MessageBox_Bakaverse_Lobby_JoinerInfo_NotExist_Content">虽然这个用户存在在多人运动里，但是他不存在在 BugXL Network 中。&#xD;&#xA;这很奇怪。可能因为你观测到了这个情况，所以他现在不存在了。</Item>
 			<Item Key="MessageBox_Bakaverse_Lobby_JoinerInfo_NotExist_Tips">说实话这种情况真的有可能发生吗？？</Item>
 
 			<Item Key="MessageBox_Bakaverse_Lobby_Create_NoLANGameDetected_Title">尚未开始迈恩克拉夫特局域网联机</Item>
-			<Item Key="MessageBox_Bakaverse_Lobby_Create_NoLANGameDetected_Content">您需要使用当前运行的BakaXL启动游戏，并在单人游戏中选择 &quot;向局域网开放&quot;。&#xD;&#xA;若您已经开放了局域网游戏，则需要稍等至少10秒钟才可以创建多人运动。</Item>
-			<Item Key="MessageBox_Bakaverse_Lobby_Create_NoLANGameDetected_Tips">若长时间无法检测，请尝试使用管理员身份运行 BakaXL</Item>
+			<Item Key="MessageBox_Bakaverse_Lobby_Create_NoLANGameDetected_Content">您需要使用当前运行的BugXL启动游戏，并在单人游戏中选择 &quot;向局域网开放&quot;。&#xD;&#xA;若您已经开放了局域网游戏，则需要稍等至少10秒钟才可以创建多人运动。</Item>
+			<Item Key="MessageBox_Bakaverse_Lobby_Create_NoLANGameDetected_Tips">若长时间无法检测，请尝试使用管理员身份运行 BugXL</Item>
 
 			<Item Key="MessageBox_Bakaverse_Lobby_Create_LobbyIDUsed_Title">多人运动创建失败</Item>
-			<Item Key="MessageBox_Bakaverse_Lobby_Create_LobbyIDUsed_Content">BakaXL当前无法创建多人运动。&#xD;&#xA;这可能是由于此的多人运动ID已被使用或不可用，请更换一个并再试一次。</Item>
+			<Item Key="MessageBox_Bakaverse_Lobby_Create_LobbyIDUsed_Content">BugXL当前无法创建多人运动。&#xD;&#xA;这可能是由于此的多人运动ID已被使用或不可用，请更换一个并再试一次。</Item>
 			<Item Key="MessageBox_Bakaverse_Lobby_Create_LobbyIDUsed_Tips">多人运动协会向你问好，并表示困惑</Item>
 
 			<Item Key="MessageBox_Bakaverse_Lobby_Relay_Notice_Title">需要创建者与加入者均开启才会生效</Item>
-			<Item Key="MessageBox_Bakaverse_Lobby_Relay_Notice_Content">您正在打开 BakaXL Network Relay 中继连接功能。&#xD;&#xA;出于数据隐私安全的考虑，当多人运动创建者和加入者均开启此功能时，BakaXL 才会通过中继进行连接。</Item>
+			<Item Key="MessageBox_Bakaverse_Lobby_Relay_Notice_Content">您正在打开 BugXL Network Relay 中继连接功能。&#xD;&#xA;出于数据隐私安全的考虑，当多人运动创建者和加入者均开启此功能时，BugXL 才会通过中继进行连接。</Item>
 			<Item Key="MessageBox_Bakaverse_Lobby_Relay_Notice_Tips">若您开启了中继缺依旧无法游戏，说不定对方还没有开启此功能</Item>
 
 			<Item Key="MessageBox_Bakaverse_Lobby_GotKicked_Title">被多人运动创建者移出</Item>
 			<Item Key="MessageBox_Bakaverse_Lobby_GotKicked_Content">诶呀，看上去多人运动创建者将您从多人运动中踢出了。&#xD;&#xA;请确保您在多人运动里没有违反社区守则，或做出令他人感到不适的行为。</Item>
-			<Item Key="MessageBox_Bakaverse_Lobby_GotKicked_Tips">BakaXL看上去也没有什么好办法</Item>
+			<Item Key="MessageBox_Bakaverse_Lobby_GotKicked_Tips">BugXL看上去也没有什么好办法</Item>
 
 			<Item Key="MessageBox_Bakaverse_Lobby_Cracked_Title">多人运动被解散了…</Item>
 			<Item Key="MessageBox_Bakaverse_Lobby_Cracked_Content">多人运动创建者已解散了该多人运动，现在大家都在外面了。&#xD;&#xA;有可能创建者累了，或者创建者的互联网连接炸了。</Item>
@@ -1705,62 +1705,62 @@
 
 			<Item Key="MessageBox_Tips_Channel_Locked_Title">肥  肠  抱  歉</Item>
 			<Item Key="MessageBox_Tips_Channel_Locked_Content">本贴士可能由于以下原因导致无法正常访问：&#xD;&#xA;· 贴士频道被大量举报。&#xD;&#xA;· 贴士频道内容不和谐。&#xD;&#xA;· 发行方是头山猪。</Item>
-			<Item Key="MessageBox_Tips_Channel_Locked_Tips">--BakaXL</Item>
+			<Item Key="MessageBox_Tips_Channel_Locked_Tips">--BugXL</Item>
 
 			<Item Key="Notify_Bakaverse_FriendRequest_Title">新好友申请</Item>
-			<Item Key="Notify_Bakaverse_FriendRequest_Content">用户 &lt;{0}#{1}&gt; 申请添加您为 BakaXL 好友。</Item>
+			<Item Key="Notify_Bakaverse_FriendRequest_Content">用户 &lt;{0}#{1}&gt; 申请添加您为 BugXL 好友。</Item>
 
 			<Item Key="Notify_Bakaverse_Lobby_JoinRequest_Title">多人运动加入申请</Item>
-			<Item Key="Notify_Bakaverse_Lobby_JoinRequest_Content">用户 &lt;{0}#{1}&gt; 请求加入您当前所在的BakaXL多人运动。</Item>
+			<Item Key="Notify_Bakaverse_Lobby_JoinRequest_Content">用户 &lt;{0}#{1}&gt; 请求加入您当前所在的BugXL多人运动。</Item>
 
 			<Item Key="Notify_Bakaverse_Lobby_InviteTo_Title">邀请您加入多人运动</Item>
-			<Item Key="Notify_Bakaverse_Lobby_InviteTo_Content">您的好友 &lt;{0}&gt; 邀请您加入其创建的BakaXL多人运动！</Item>
+			<Item Key="Notify_Bakaverse_Lobby_InviteTo_Content">您的好友 &lt;{0}&gt; 邀请您加入其创建的BugXL多人运动！</Item>
 
-			<Item Key="Notify_GameCore_JsonIdAutoFixed">该核心的 Json ID 不正确，BakaXL 已自动进行修复</Item>
+			<Item Key="Notify_GameCore_JsonIdAutoFixed">该核心的 Json ID 不正确，BugXL 已自动进行修复</Item>
 
 			<Item Key="Notify_MinecraftProfile_OnlineFeatures_SkinCape_SkinSaved_Title">皮肤已保存</Item>
-			<Item Key="Notify_MinecraftProfile_OnlineFeatures_SkinCape_SkinSaved_Content">BakaXL 已将此迈恩克拉夫特角色的皮肤保存</Item>
+			<Item Key="Notify_MinecraftProfile_OnlineFeatures_SkinCape_SkinSaved_Content">BugXL 已将此迈恩克拉夫特角色的皮肤保存</Item>
 
 			<Item Key="Notify_MinecraftProfile_OnlineFeatures_SkinCape_SkinUploaded_Title">皮肤已上传</Item>
-			<Item Key="Notify_MinecraftProfile_OnlineFeatures_SkinCape_SkinUploaded_Content">BakaXL 已将皮肤上传至此迈恩克拉夫特角色</Item>
+			<Item Key="Notify_MinecraftProfile_OnlineFeatures_SkinCape_SkinUploaded_Content">BugXL 已将皮肤上传至此迈恩克拉夫特角色</Item>
 
 			<Item Key="Notify_MinecraftProfile_OnlineFeatures_SkinCape_SkinUploadedFailed_Title">皮肤上传失败</Item>
-			<Item Key="Notify_MinecraftProfile_OnlineFeatures_SkinCape_SkinUploadedFailed_Content">BakaXL 在上传此皮肤时遇到了错误</Item>
+			<Item Key="Notify_MinecraftProfile_OnlineFeatures_SkinCape_SkinUploadedFailed_Content">BugXL 在上传此皮肤时遇到了错误</Item>
 
-			<Item Key="ErrorCan_BakaXL_WindowThread_Title">一个未经处理的BakaXL异常(窗体线程)</Item>
-			<Item Key="ErrorCan_BakaXL_NonWindowThread_Title">一个未经处理的BakaXL异常(非窗体线程)</Item>
-			<Item Key="ErrorCan_BakaXL_Solution">请立即将此错误上报BakaXL开发团队以便尽快修复。</Item>
+			<Item Key="ErrorCan_BakaXL_WindowThread_Title">一个未经处理的BugXL异常(窗体线程)</Item>
+			<Item Key="ErrorCan_BakaXL_NonWindowThread_Title">一个未经处理的BugXL异常(非窗体线程)</Item>
+			<Item Key="ErrorCan_BakaXL_Solution">请立即将此错误上报BugXL开发团队以便尽快修复。</Item>
 
 			<Item Key="ErrorCan_Network_ConnectionTimedOut_Title">远程服务器连接超时。</Item>
-			<Item Key="ErrorCan_Network_ConnectionTimedOut_VanillaList_Solution">BakaXL无法通过BMCLAPI或官方下载源获取最新的迈恩克拉夫特核心列表。&#xD;&#xA;在某些情况下，该问题有可能是因为您的互联网服务提供商(ISP)劫持了您的流量。&#xD;&#xA;请检查您的互联网连接，确保计算机与下载源之间的网络通信是正常的。\r\n\r\n若此问题持续出现，您可以向BakaXL开发团队汇报此问题。</Item>
+			<Item Key="ErrorCan_Network_ConnectionTimedOut_VanillaList_Solution">BugXL无法通过BMCLAPI或官方下载源获取最新的迈恩克拉夫特核心列表。&#xD;&#xA;在某些情况下，该问题有可能是因为您的互联网服务提供商(ISP)劫持了您的流量。&#xD;&#xA;请检查您的互联网连接，确保计算机与下载源之间的网络通信是正常的。\r\n\r\n若此问题持续出现，您可以向BugXL开发团队汇报此问题。</Item>
 
 			<Item Key="ErrorCan_Network_ErrorData_Title">远程服务器返回了一个错误的数据。</Item>
-			<Item Key="ErrorCan_Network_ErrorData_VanillaList_Solution">由于迈恩克拉夫特官方下载源或BMCLAPI返回了一个当前BakaXL无法识别的版本信息，因此无法完成核心列表的准备。&#xD;&#xA;在某些情况下，该问题有可能是因为您的互联网服务提供商(ISP)劫持了返回的数据。&#xD;&#xA;请检查您的互联网连接，确保计算机与下载源之间的网络通信是正常的。&#xD;&#xA;&#xD;&#xA;若此问题持续出现，您可以向BakaXL开发团队汇报此问题。</Item>
+			<Item Key="ErrorCan_Network_ErrorData_VanillaList_Solution">由于迈恩克拉夫特官方下载源或BMCLAPI返回了一个当前BugXL无法识别的版本信息，因此无法完成核心列表的准备。&#xD;&#xA;在某些情况下，该问题有可能是因为您的互联网服务提供商(ISP)劫持了返回的数据。&#xD;&#xA;请检查您的互联网连接，确保计算机与下载源之间的网络通信是正常的。&#xD;&#xA;&#xD;&#xA;若此问题持续出现，您可以向BugXL开发团队汇报此问题。</Item>
 
 			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Vanilla_Title">ULauncherCore汇报在准备游戏版本时出现异常</Item>
-			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Vanilla_Solution">通常，出现此问题是因为ULauncherCore无法正确准备特定的迈恩克拉夫特版本。&#xD;&#xA;请检查您的互联网连接，确保计算机与下载源之间的网络通信是正常的。&#xD;&#xA;&#xD;&#xA;您可以前往 BakaXL本体设置 - 下载 并切换 大陆地区使用第三方下载源 开关的状态后再试一次。&#xD;&#xA;若此问题持续出现，您可以向BakaXL开发团队汇报此问题。</Item>
+			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Vanilla_Solution">通常，出现此问题是因为ULauncherCore无法正确准备特定的迈恩克拉夫特版本。&#xD;&#xA;请检查您的互联网连接，确保计算机与下载源之间的网络通信是正常的。&#xD;&#xA;&#xD;&#xA;您可以前往 BugXL本体设置 - 下载 并切换 大陆地区使用第三方下载源 开关的状态后再试一次。&#xD;&#xA;若此问题持续出现，您可以向BugXL开发团队汇报此问题。</Item>
 			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Vanilla_CoreFolderNotFound_Solution">无法定位此版本Forge所需要的前置迈恩克拉夫特本体核心：.minecraft/versions/{0}/{1}.jar。&#xD;&#xA;&#xD;&#xA;您可以尝试先安装此迈恩克拉夫特版本的原版核心后，再试一次。</Item>
 
-			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Forge_Title">BakaXL Forge安装器报告在安装时出现异常。</Item>
-			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Forge_DownloadOrDamage_Solution">尝试安装的Forge版本： Forge-{0}-{1}&#xD;&#xA;&#xD;&#xA;造成此问题的原因可能是无法下载文件，或是解压时出现意外。&#xD;&#xA;首先，请检查您的互联网连接，确保计算机与下载源之间的网络通信是正常的。&#xD;&#xA;其次，尝试以管理员身份运行BakaXL，并再试一次安装。&#xD;&#xA;&#xD;&#xA;若此问题持续出现，您可以向BakaXL开发团队汇报此问题。</Item>
-			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Forge_NotSupported_Solution">尝试安装的Forge版本： Forge-{0}-{1}&#xD;&#xA;&#xD;&#xA;通常，这可能由于下载的文件受损、访问本地文件权限不足，亦或是此版本的Forge不受支持造成的。&#xD;&#xA;首先，尝试以管理员身份运行BakaXL，再试一次安装。&#xD;&#xA;其次，检查此笨蛋罐头中的异常信息，若其中明确说明了该版本的Forge不受支持，请将此笨蛋罐头汇报至BakaXL开发团队。&#xD;&#xA;&#xD;&#xA;若此问题持续出现，您可以向BakaXL开发团队汇报此问题。</Item>
+			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Forge_Title">BugXL Forge安装器报告在安装时出现异常。</Item>
+			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Forge_DownloadOrDamage_Solution">尝试安装的Forge版本： Forge-{0}-{1}&#xD;&#xA;&#xD;&#xA;造成此问题的原因可能是无法下载文件，或是解压时出现意外。&#xD;&#xA;首先，请检查您的互联网连接，确保计算机与下载源之间的网络通信是正常的。&#xD;&#xA;其次，尝试以管理员身份运行BugXL，并再试一次安装。&#xD;&#xA;&#xD;&#xA;若此问题持续出现，您可以向BugXL开发团队汇报此问题。</Item>
+			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Forge_NotSupported_Solution">尝试安装的Forge版本： Forge-{0}-{1}&#xD;&#xA;&#xD;&#xA;通常，这可能由于下载的文件受损、访问本地文件权限不足，亦或是此版本的Forge不受支持造成的。&#xD;&#xA;首先，尝试以管理员身份运行BugXL，再试一次安装。&#xD;&#xA;其次，检查此笨蛋罐头中的异常信息，若其中明确说明了该版本的Forge不受支持，请将此笨蛋罐头汇报至BugXL开发团队。&#xD;&#xA;&#xD;&#xA;若此问题持续出现，您可以向BugXL开发团队汇报此问题。</Item>
 
 			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Forge_JsonNullException">无法解析Forge的安装档案(install_profile)，Json解释器返回了空的文本。</Item>
-			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Forge_JarNotFoundException">无法找到此版本Forge安装器包含的Forge核心(universal.jar)。&#xD;&#xA;&#xD;&#xA;无法兼容的Forge版本，请向BakaXL开发团队反馈此Forge版本：Forge-{0}-{1}</Item>
+			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Forge_JarNotFoundException">无法找到此版本Forge安装器包含的Forge核心(universal.jar)。&#xD;&#xA;&#xD;&#xA;无法兼容的Forge版本，请向BugXL开发团队反馈此Forge版本：Forge-{0}-{1}</Item>
 
-			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Fabric_Title">BakaXL Fabric安装器报告在安装时出现异常。</Item>
-			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Fabric_DownloadOrDamage_Solution">尝试安装的Fabric版本： Fabric-{0}-{1}&#xD;&#xA;&#xD;&#xA;造成此问题的原因可能是无法下载文件，或是解压时出现意外。&#xD;&#xA;首先，请检查您的互联网连接，确保计算机与下载源之间的网络通信是正常的。&#xD;&#xA;其次，尝试以管理员身份运行BakaXL，并再试一次安装。&#xD;&#xA;&#xD;&#xA;若此问题持续出现，您可以向BakaXL开发团队汇报此问题。</Item>
-			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Fabric_NotSupported_Solution">尝试安装的Fabric版本： Fabric-{0}-{1}&#xD;&#xA;&#xD;&#xA;通常，这可能由于下载的文件受损、访问本地文件权限不足，亦或是此版本的Fabric不受支持造成的。&#xD;&#xA;首先，尝试以管理员身份运行BakaXL，再试一次安装。&#xD;&#xA;其次，检查此笨蛋罐头中的异常信息，若其中明确说明了该版本的Fabric不受支持，请将此笨蛋罐头汇报至BakaXL开发团队。&#xD;&#xA;&#xD;&#xA;若此问题持续出现，您可以向BakaXL开发团队汇报此问题。</Item>
+			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Fabric_Title">BugXL Fabric安装器报告在安装时出现异常。</Item>
+			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Fabric_DownloadOrDamage_Solution">尝试安装的Fabric版本： Fabric-{0}-{1}&#xD;&#xA;&#xD;&#xA;造成此问题的原因可能是无法下载文件，或是解压时出现意外。&#xD;&#xA;首先，请检查您的互联网连接，确保计算机与下载源之间的网络通信是正常的。&#xD;&#xA;其次，尝试以管理员身份运行BugXL，并再试一次安装。&#xD;&#xA;&#xD;&#xA;若此问题持续出现，您可以向BugXL开发团队汇报此问题。</Item>
+			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Fabric_NotSupported_Solution">尝试安装的Fabric版本： Fabric-{0}-{1}&#xD;&#xA;&#xD;&#xA;通常，这可能由于下载的文件受损、访问本地文件权限不足，亦或是此版本的Fabric不受支持造成的。&#xD;&#xA;首先，尝试以管理员身份运行BugXL，再试一次安装。&#xD;&#xA;其次，检查此笨蛋罐头中的异常信息，若其中明确说明了该版本的Fabric不受支持，请将此笨蛋罐头汇报至BugXL开发团队。&#xD;&#xA;&#xD;&#xA;若此问题持续出现，您可以向BugXL开发团队汇报此问题。</Item>
 
 			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Fabric_JsonNullException">无法解析Fabric的安装档案(json)，Json解释器返回了空的文本。</Item>
 			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Fabric_CopyVanilla">无法拷贝原版迈恩克拉夫特的json文件。</Item>
 
-			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Optifine_Title">BakaXL Optifine安装器报告在安装时出现异常。</Item>
-			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Optifine_DownloadOrDamage_Solution">尝试安装的 Optifine 版本：Optifine-{0}-{1}&#xD;&#xA;&#xD;&#xA;造成此问题的原因可能是无法下载文件，或是解压时出现意外。&#xD;&#xA;首先，请检查您的互联网连接，确保计算机与下载源之间的网络通信是正常的。&#xD;&#xA;其次，尝试以管理员身份运行 BakaXL，并再试一次安装。&#xD;&#xA;&#xD;&#xA;若此问题持续出现，您可以向 BakaXL 开发团队汇报此问题。</Item>
-			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Optifine_NotSupported_Solution">尝试安装的 Optifine 版本：Optifine-{0}-{1}&#xD;&#xA;&#xD;&#xA;通常，这可能由于下载的文件受损、访问本地文件权限不足，亦或是此版本的 Optifine 不受支持造成的。&#xD;&#xA;首先，尝试以管理员身份运行 BakaXL，再试一次安装。&#xD;&#xA;其次，检查此笨蛋罐头中的异常信息，若其中明确说明了该版本的 Optifine 不受支持，请将此笨蛋罐头汇报至 BakaXL 开发团队。&#xD;&#xA;&#xD;&#xA;若此问题持续出现，您可以向 BakaXL 开发团队汇报此问题。</Item>
+			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Optifine_Title">BugXL Optifine安装器报告在安装时出现异常。</Item>
+			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Optifine_DownloadOrDamage_Solution">尝试安装的 Optifine 版本：Optifine-{0}-{1}&#xD;&#xA;&#xD;&#xA;造成此问题的原因可能是无法下载文件，或是解压时出现意外。&#xD;&#xA;首先，请检查您的互联网连接，确保计算机与下载源之间的网络通信是正常的。&#xD;&#xA;其次，尝试以管理员身份运行 BugXL，并再试一次安装。&#xD;&#xA;&#xD;&#xA;若此问题持续出现，您可以向 BugXL 开发团队汇报此问题。</Item>
+			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Optifine_NotSupported_Solution">尝试安装的 Optifine 版本：Optifine-{0}-{1}&#xD;&#xA;&#xD;&#xA;通常，这可能由于下载的文件受损、访问本地文件权限不足，亦或是此版本的 Optifine 不受支持造成的。&#xD;&#xA;首先，尝试以管理员身份运行 BugXL，再试一次安装。&#xD;&#xA;其次，检查此笨蛋罐头中的异常信息，若其中明确说明了该版本的 Optifine 不受支持，请将此笨蛋罐头汇报至 BugXL 开发团队。&#xD;&#xA;&#xD;&#xA;若此问题持续出现，您可以向 BugXL 开发团队汇报此问题。</Item>
 
 			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_AutoInstaller_Title">ULauncherCore汇报在准备游戏版本时出现异常</Item>
-			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_AutoInstaller_Solution">通常，出现此问题是因为ULauncherCore无法正确准备特定的Minecraft版本。&#xD;&#xA;请检查您的互联网连接，确保计算机与下载源之间的网络通信是正常的。&#xD;&#xA;&#xD;&#xA;您可以前往 BakaXL本体设置 - 下载 并切换 大陆地区使用第三方下载源 开关的状态后再试一次。&#xD;&#xA;若此问题持续出现，您可以向BakaXL开发团队汇报此问题。</Item>
+			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_AutoInstaller_Solution">通常，出现此问题是因为ULauncherCore无法正确准备特定的Minecraft版本。&#xD;&#xA;请检查您的互联网连接，确保计算机与下载源之间的网络通信是正常的。&#xD;&#xA;&#xD;&#xA;您可以前往 BugXL本体设置 - 下载 并切换 大陆地区使用第三方下载源 开关的状态后再试一次。&#xD;&#xA;若此问题持续出现，您可以向BugXL开发团队汇报此问题。</Item>
 
 			<Item Key="AddGameCore_Title">添加新的 迈恩克拉夫特 本体 或 整活包</Item>
 			<Item Key="AddGameCore_Tips">若您不了解如何导入或安装整活包，推荐您直接安装 迈恩克拉夫特 核心</Item>
@@ -1774,13 +1774,13 @@
 			<Item Key="AddGameCore_CoreInstaller_RemoveAddon">移除该组件并返回</Item>
 
 			<Item Key="AddGameCore_CoreInstaller_CoreAddonConfig_Title">了解你将要安装的核心</Item>
-			<Item Key="AddGameCore_CoreInstaller_CoreAddonConfig_Tips">BakaXL 将显示当前选择的 迈恩克拉夫特 版本可以安装的附加组件。&#xD;&#xA;若某个组件不兼容与当前版本或其他组件，它将被禁用。</Item>
+			<Item Key="AddGameCore_CoreInstaller_CoreAddonConfig_Tips">BugXL 将显示当前选择的 迈恩克拉夫特 版本可以安装的附加组件。&#xD;&#xA;若某个组件不兼容与当前版本或其他组件，它将被禁用。</Item>
 
 			<Item Key="AddGameCore_CoreInstaller_CoreConfig_Title">核心配置文件</Item>
-			<Item Key="AddGameCore_CoreInstaller_CoreConfig_Tips">BakaXL 在安装 迈恩克拉夫特 期间，请保持互联网连接。&#xD;&#xA;若您当前正在使用计费互联网连接，安装过程会产生数据流量费用。</Item>
+			<Item Key="AddGameCore_CoreInstaller_CoreConfig_Tips">BugXL 在安装 迈恩克拉夫特 期间，请保持互联网连接。&#xD;&#xA;若您当前正在使用计费互联网连接，安装过程会产生数据流量费用。</Item>
 
-			<Item Key="AddGameCore_CoreInstaller_Optifine_Notice_ForgeMod">当使用此安装配置时，BakaXL 会将 OptiFine 以模组的形式安装。</Item>
-			<Item Key="AddGameCore_CoreInstaller_Optifine_Notice_FabricMod">当使用此安装配置时，BakaXL 会将 OptiFine 以模组的形式安装。&#xD;&#xA;若要在 Fabric 中使用 Optifine，则需要额外自行安装 OptiFabric。</Item>
+			<Item Key="AddGameCore_CoreInstaller_Optifine_Notice_ForgeMod">当使用此安装配置时，BugXL 会将 OptiFine 以模组的形式安装。</Item>
+			<Item Key="AddGameCore_CoreInstaller_Optifine_Notice_FabricMod">当使用此安装配置时，BugXL 会将 OptiFine 以模组的形式安装。&#xD;&#xA;若要在 Fabric 中使用 Optifine，则需要额外自行安装 OptiFabric。</Item>
 			
 			<Item Key="AddGameCore_ManualCoreInstaller_Title">手动安装核心</Item>
 			<Item Key="AddGameCore_ModPackImporter_Title">导入整合包</Item>
@@ -1789,17 +1789,17 @@
 			<Item Key="AddGameCore_CurseModPack_RemoveSoon">为了保护 Curse 整合包作者及 Mod 作者的利益。&#xD;&#xA;我们现已停止兼容 CurseForge 格式整合包的安装。</Item>
 
 			<Item Key="AddGameCore_DnD_Default_Title">将含有整活包的压缩包 (.zip) 拖放至此</Item>
-			<Item Key="AddGameCore_DnD_Default_Tips">BakaXL将在识别整活包内容后自动开始安装</Item>
-			<Item Key="AddGameCore_DnD_DragEnter_Title">松开鼠标后 BakaXL将尝试读取此文件</Item>
-			<Item Key="AddGameCore_DnD_DragEnter_Tips">若这是一个合适的整活包文件，BakaXL将允许您进行安装</Item>
+			<Item Key="AddGameCore_DnD_Default_Tips">BugXL将在识别整活包内容后自动开始安装</Item>
+			<Item Key="AddGameCore_DnD_DragEnter_Title">松开鼠标后 BugXL将尝试读取此文件</Item>
+			<Item Key="AddGameCore_DnD_DragEnter_Tips">若这是一个合适的整活包文件，BugXL将允许您进行安装</Item>
 			<Item Key="AddGameCore_DnD_DropUnknownFile_Title">发生甚么事？</Item>
 			<Item Key="AddGameCore_DnD_DropUnknownFile_Tips">您看上去拖入了一个怪东西</Item>
 			<Item Key="AddGameCore_DnD_DropChecking_Title">请稍等一下</Item>
-			<Item Key="AddGameCore_DnD_DropChecking_Tips">BakaXL当前正在检查此压缩包...</Item>
+			<Item Key="AddGameCore_DnD_DropChecking_Tips">BugXL当前正在检查此压缩包...</Item>
 			<Item Key="AddGameCore_DnD_DropNotZip_Title">这看似不是一个 (.zip) 压缩包</Item>
 			<Item Key="AddGameCore_DnD_DropNotZip_Tips">请确保此文件是 .zip 格式，并且为 MCBBS 或 Curse 整活包格式</Item>
 			<Item Key="AddGameCore_DnD_DropInstall_Title">整活包信息已读取</Item>
-			<Item Key="AddGameCore_DnD_DropInstall_Tips">您将要安装 {0} 至 BakaXL 中</Item>
+			<Item Key="AddGameCore_DnD_DropInstall_Tips">您将要安装 {0} 至 BugXL 中</Item>
 
 			<Item Key="AddGameCore_DnD_Browse">或点击此区域浏览压缩包</Item>
 
@@ -1826,42 +1826,42 @@
 			<Item Key="Installer_InstallTaskStatus_Failed">安装失败</Item>
 			<Item Key="Installer_InstallTaskStatus_Successful">安装成功</Item>
 
-			<Item Key="Installer_InstallTaskStatus_PrepareInstaller_Tips">BakaXL将要开始安装您所选定的游戏核心。&#xD;&#xA;请稍等片刻，并在此期间不要断开互联网连接或关闭BakaXL。</Item>
+			<Item Key="Installer_InstallTaskStatus_PrepareInstaller_Tips">BugXL将要开始安装您所选定的游戏核心。&#xD;&#xA;请稍等片刻，并在此期间不要断开互联网连接或关闭BugXL。</Item>
 
-			<Item Key="Installer_InstallTaskStatus_DownloadMinecraft_Tips">BakaXL正在将 {0} 下载至本地。&#xD;&#xA;请稍等片刻，并在此期间不要断开互联网连接或关闭BakaXL。</Item>
-			<Item Key="Installer_InstallTaskStatus_DownloadForge_Tips">BakaXL正在将 Forge-{0} 下载至本地。&#xD;&#xA;请稍等片刻，并在此期间不要断开互联网连接或关闭BakaXL。</Item>
-			<Item Key="Installer_InstallTaskStatus_InstallingForge_Tips">BakaXL正在安装 Forge {0}。&#xD;&#xA;请稍等片刻，并在此期间不要操作游戏目录或关闭BakaXL。</Item>
-			<Item Key="Installer_InstallTaskStatus_DownloadFabric_Tips">BakaXL正在将 Fabric-{0} 下载至本地。&#xD;&#xA;请稍等片刻，并在此期间不要断开互联网连接或关闭BakaXL。</Item>
-			<Item Key="Installer_InstallTaskStatus_InstallingFabric_Tips">BakaXL正在处理 Fabric-{0} 的安装档案。&#xD;&#xA;请稍等片刻，并在此期间不要操作游戏目录或关闭BakaXL。</Item>
-			<Item Key="Installer_InstallTaskStatus_DownloadOptifine_Tips">BakaXL 正在将 Optifine-{0} 下载至本地。&#xD;&#xA;请稍等片刻，并在此期间不要断开互联网连接或关闭BakaXL。</Item>
-			<Item Key="Installer_InstallTaskStatus_InstallingOptifine_Tips">BakaXL 正在安装 Optifine {0}。&#xD;&#xA;请稍等片刻，并在此期间不要操作游戏目录或关闭BakaXL。</Item>
+			<Item Key="Installer_InstallTaskStatus_DownloadMinecraft_Tips">BugXL正在将 {0} 下载至本地。&#xD;&#xA;请稍等片刻，并在此期间不要断开互联网连接或关闭BugXL。</Item>
+			<Item Key="Installer_InstallTaskStatus_DownloadForge_Tips">BugXL正在将 Forge-{0} 下载至本地。&#xD;&#xA;请稍等片刻，并在此期间不要断开互联网连接或关闭BugXL。</Item>
+			<Item Key="Installer_InstallTaskStatus_InstallingForge_Tips">BugXL正在安装 Forge {0}。&#xD;&#xA;请稍等片刻，并在此期间不要操作游戏目录或关闭BugXL。</Item>
+			<Item Key="Installer_InstallTaskStatus_DownloadFabric_Tips">BugXL正在将 Fabric-{0} 下载至本地。&#xD;&#xA;请稍等片刻，并在此期间不要断开互联网连接或关闭BugXL。</Item>
+			<Item Key="Installer_InstallTaskStatus_InstallingFabric_Tips">BugXL正在处理 Fabric-{0} 的安装档案。&#xD;&#xA;请稍等片刻，并在此期间不要操作游戏目录或关闭BugXL。</Item>
+			<Item Key="Installer_InstallTaskStatus_DownloadOptifine_Tips">BugXL 正在将 Optifine-{0} 下载至本地。&#xD;&#xA;请稍等片刻，并在此期间不要断开互联网连接或关闭BugXL。</Item>
+			<Item Key="Installer_InstallTaskStatus_InstallingOptifine_Tips">BugXL 正在安装 Optifine {0}。&#xD;&#xA;请稍等片刻，并在此期间不要操作游戏目录或关闭BugXL。</Item>
 
-			<Item Key="Installer_InstallTaskStatus_DownloadMinecraft_Tips_ModPack">BakaXL正在将 {0} 所需的 迈恩克拉夫特核心 下载至本地。&#xD;&#xA;请稍等片刻，并在此期间不要断开互联网连接或关闭BakaXL。</Item>
-			<Item Key="Installer_InstallTaskStatus_DownloadForge_Tips_ModPack">BakaXL正在将 {0} 所需的 Forge 下载至本地。&#xD;&#xA;请稍等片刻，并在此期间不要断开互联网连接或关闭BakaXL。</Item>
-			<Item Key="Installer_InstallTaskStatus_InstallingForge_Tips_ModPack">BakaXL正在为 {0} 安装 Forge。&#xD;&#xA;请稍等片刻，并在此期间不要操作游戏目录或关闭BakaXL。</Item>
-			<Item Key="Installer_InstallTaskStatus_DownloadFabric_Tips_ModPack">BakaXL正在将 {0} 所需的 Fabric 安装档案 下载至本地。&#xD;&#xA;请稍等片刻，并在此期间不要断开互联网连接或关闭BakaXL。</Item>
-			<Item Key="Installer_InstallTaskStatus_InstallingFabric_Tips_ModPack">BakaXL正在为 {0} 处理 Fabric 安装档案。&#xD;&#xA;请稍等片刻，并在此期间不要操作游戏目录或关闭BakaXL。</Item>
-			<Item Key="Installer_InstallTaskStatus_DownloadOptifine_Tips_ModPack">BakaXL 正在将 {0} 所需的 Optifine 下载至本地。&#xD;&#xA;请稍等片刻，并在此期间不要断开互联网连接或关闭BakaXL。</Item>
-			<Item Key="Installer_InstallTaskStatus_InstallingOptifine_Tips_ModPack">BakaXL 正在为 {0} 安装 Optifine。&#xD;&#xA;请稍等片刻，并在此期间不要操作游戏目录或关闭BakaXL。</Item>
+			<Item Key="Installer_InstallTaskStatus_DownloadMinecraft_Tips_ModPack">BugXL正在将 {0} 所需的 迈恩克拉夫特核心 下载至本地。&#xD;&#xA;请稍等片刻，并在此期间不要断开互联网连接或关闭BugXL。</Item>
+			<Item Key="Installer_InstallTaskStatus_DownloadForge_Tips_ModPack">BugXL正在将 {0} 所需的 Forge 下载至本地。&#xD;&#xA;请稍等片刻，并在此期间不要断开互联网连接或关闭BugXL。</Item>
+			<Item Key="Installer_InstallTaskStatus_InstallingForge_Tips_ModPack">BugXL正在为 {0} 安装 Forge。&#xD;&#xA;请稍等片刻，并在此期间不要操作游戏目录或关闭BugXL。</Item>
+			<Item Key="Installer_InstallTaskStatus_DownloadFabric_Tips_ModPack">BugXL正在将 {0} 所需的 Fabric 安装档案 下载至本地。&#xD;&#xA;请稍等片刻，并在此期间不要断开互联网连接或关闭BugXL。</Item>
+			<Item Key="Installer_InstallTaskStatus_InstallingFabric_Tips_ModPack">BugXL正在为 {0} 处理 Fabric 安装档案。&#xD;&#xA;请稍等片刻，并在此期间不要操作游戏目录或关闭BugXL。</Item>
+			<Item Key="Installer_InstallTaskStatus_DownloadOptifine_Tips_ModPack">BugXL 正在将 {0} 所需的 Optifine 下载至本地。&#xD;&#xA;请稍等片刻，并在此期间不要断开互联网连接或关闭BugXL。</Item>
+			<Item Key="Installer_InstallTaskStatus_InstallingOptifine_Tips_ModPack">BugXL 正在为 {0} 安装 Optifine。&#xD;&#xA;请稍等片刻，并在此期间不要操作游戏目录或关闭BugXL。</Item>
 
-			<Item Key="Installer_InstallTaskStatus_DownloadLibs_Tips">BakaXL正在补全该版本所需的 运行库文件(Libraries)。&#xD;&#xA;请稍等片刻，并在此期间不要断开互联网连接或关闭BakaXL。</Item>
-			<Item Key="Installer_InstallTaskStatus_DownloadAssets_Tips">BakaXL正在补全该版本所需的 资源文件(Assets)。&#xD;&#xA;请稍等片刻，并在此期间不要断开互联网连接或关闭BakaXL。</Item>
-			<Item Key="Installer_InstallTaskStatus_DownloadLibsAndAssets_Tips">BakaXL正在补全该版本所需的 运行库文件(Libraries) 和 资源文件(Assets)。&#xD;&#xA;请稍等片刻，并在此期间不要断开互联网连接或关闭BakaXL。</Item>
-			<Item Key="Installer_InstallTaskStatus_UnzipFile_Tips">BakaXL正在处理安装时所需的压缩文件。&#xD;&#xA;请稍等片刻，并在此期间不要操作游戏目录或关闭BakaXL。</Item>
+			<Item Key="Installer_InstallTaskStatus_DownloadLibs_Tips">BugXL正在补全该版本所需的 运行库文件(Libraries)。&#xD;&#xA;请稍等片刻，并在此期间不要断开互联网连接或关闭BugXL。</Item>
+			<Item Key="Installer_InstallTaskStatus_DownloadAssets_Tips">BugXL正在补全该版本所需的 资源文件(Assets)。&#xD;&#xA;请稍等片刻，并在此期间不要断开互联网连接或关闭BugXL。</Item>
+			<Item Key="Installer_InstallTaskStatus_DownloadLibsAndAssets_Tips">BugXL正在补全该版本所需的 运行库文件(Libraries) 和 资源文件(Assets)。&#xD;&#xA;请稍等片刻，并在此期间不要断开互联网连接或关闭BugXL。</Item>
+			<Item Key="Installer_InstallTaskStatus_UnzipFile_Tips">BugXL正在处理安装时所需的压缩文件。&#xD;&#xA;请稍等片刻，并在此期间不要操作游戏目录或关闭BugXL。</Item>
 
-			<Item Key="Installer_InstallTaskStatus_Failed_Tips">请检查您的互联网连接，然后再试一次。&#xD;&#xA;BakaXL已将此错误制作成笨蛋罐头，您可以前往本体设置查看。&#xD;&#xA;点击任意位置即可返回。</Item>
-			<Item Key="Installer_InstallTaskStatus_Successful_Tips">{0} 已成功安装至BakaXL。&#xD;&#xA;您可以在 BakaXL主界面 - 核心管理 中找到它。&#xD;&#xA;点击任意位置即可返回。</Item>
+			<Item Key="Installer_InstallTaskStatus_Failed_Tips">请检查您的互联网连接，然后再试一次。&#xD;&#xA;BugXL已将此错误制作成笨蛋罐头，您可以前往本体设置查看。&#xD;&#xA;点击任意位置即可返回。</Item>
+			<Item Key="Installer_InstallTaskStatus_Successful_Tips">{0} 已成功安装至BugXL。&#xD;&#xA;您可以在 BugXL主界面 - 核心管理 中找到它。&#xD;&#xA;点击任意位置即可返回。</Item>
 
 			<Item Key="DangerOperation_Title">注意</Item>
 			<Item Key="DangerOperation_ConfirmBtn_Default">确认进行此操作</Item>
 			<Item Key="DangerOperation_CancelBtn_Default">取消此操作并返回</Item>
 
 			<Item Key="ThemeTitle">个性化设置</Item>
-			<Item Key="ThemeSubtitle">自定义您的BakaXL背景、主题等个性化设置</Item>
+			<Item Key="ThemeSubtitle">自定义您的BugXL背景、主题等个性化设置</Item>
 			<Item Key="ThemeDefaultName">默认主题</Item>
-			<Item Key="ThemeDefaultDescription">BakaXL的默认主题，无法被删除或者被替换。</Item>
+			<Item Key="ThemeDefaultDescription">BugXL的默认主题，无法被删除或者被替换。</Item>
 			<Item Key="ThemeEmptyDescription">这个作者也是有够懒的，居然啥介绍都没写…</Item>
-			<Item Key="ThemeTipInstall">将BakaXL主题文件拖入至此或放入 [BakaXL\Themes] 文件夹内</Item>
+			<Item Key="ThemeTipInstall">将BugXL主题文件拖入至此或放入 [BugXL\Themes] 文件夹内</Item>
 			<Item Key="ThemeTipInstallTitle">这真是令人感到不愉快</Item>
 			<Item Key="ThemeTipInstallSubtitle">我发誓，这里干净的连个主题都没有，您为何不尝试来添加几个？</Item>
 			<Item Key="ThemeCustomMode">主题自定义模式</Item>
@@ -1919,7 +1919,7 @@
 			<Item Key="Color_Sienna">木棕色</Item>
 			<Item Key="Color_Gray">沉默灰</Item>
 
-			<Item Key="BakaXL.Pages.PageHome">BakaXL主界面</Item>
+			<Item Key="BakaXL.Pages.PageHome">BugXL主界面</Item>
 		</Items>
 	</Language>
 </Languages>
