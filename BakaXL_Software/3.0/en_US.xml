@@ -622,8 +622,8 @@
 			<Item Key="Bakaverse_Lobby_UserStatus_Unknown">Failed / Unknown</Item>
 
 			<Item Key="Bakaverse_Lobby_CopyLobbyID_Template">I'm now at BakaXL Online Game Lobby! Enter the lobby code: &lt;{0}&gt; in Bakaverse to join! </Item>
-			<Item Key="Bakaverse_Lobby_CopyLobbyID_WithHostGameInfo_Template">I'm now at BakaXL Online Game Lobby playing [{0}]! Enter the lobby code: &lt;{0}&gt; in Bakaverse to join!</Item>
-			<Item Key="Bakaverse_Lobby_CopyLobbyID_WithHostGameInfo_HasBaseVersion_Template">I'm now at BakaXL Online Game Lobby playing [{0}] (Minecraft {1})! Enter the lobby code: &lt;{0}&gt; in Bakaverse to join!</Item>
+			<Item Key="Bakaverse_Lobby_CopyLobbyID_WithHostGameInfo_Template">I'm now at BakaXL Online Game Lobby playing [{0}]! Enter the lobby code: &lt;{1}&gt; in Bakaverse to join!</Item>
+			<Item Key="Bakaverse_Lobby_CopyLobbyID_WithHostGameInfo_HasBaseVersion_Template">I'm now at BakaXL Online Game Lobby playing [{0}] (Minecraft {1})! Enter the lobby code: &lt;{2}&gt; in Bakaverse to join!</Item>
 
 			<Item Key="Bakaverse_UserSettings_Title">User Settings</Item>
 			<Item Key="Bakaverse_UserSettings_PersonalInfo">Personal Information Settings</Item>
