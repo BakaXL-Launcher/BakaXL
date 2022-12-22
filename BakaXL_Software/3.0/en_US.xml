@@ -178,7 +178,7 @@
 			<Item Key="CoreManagement_Info_Description">Information</Item>
 			<Item Key="CoreManagement_Info_Description_None">No information available.</Item>
 			<Item Key="CoreManagement_Info_PlayTime">Play Time</Item>
-			<Item Key="CoreManagement_Info_PlayTime_Text">This core has been run {0} times since {1} was last run.</Item>
+			<Item Key="CoreManagement_Info_PlayTime_Text">This core has been run {1} times since {0} was last run.</Item>
 			<Item Key="CoreManagement_Info_PlayTime_NeverPlayed_Text">Unfortunately, this core hasn't been run since its install date.</Item>
 			<Item Key="CoreManagement_Info_PlayTime_Reset">Reset</Item>
 			<Item Key="CoreManagement_Info_Version">Version</Item>
