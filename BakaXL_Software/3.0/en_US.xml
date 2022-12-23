@@ -178,7 +178,7 @@
 			<Item Key="CoreManagement_Info_Description">Information</Item>
 			<Item Key="CoreManagement_Info_Description_None">No information available.</Item>
 			<Item Key="CoreManagement_Info_PlayTime">Play Time</Item>
-			<Item Key="CoreManagement_Info_PlayTime_Text">This core has been run {0} times since {1} was last run.</Item>
+			<Item Key="CoreManagement_Info_PlayTime_Text">This core has been run {1} times since {0} was last run.</Item>
 			<Item Key="CoreManagement_Info_PlayTime_NeverPlayed_Text">Unfortunately, this core hasn't been run since its install date.</Item>
 			<Item Key="CoreManagement_Info_PlayTime_Reset">Reset</Item>
 			<Item Key="CoreManagement_Info_Version">Version</Item>
@@ -622,8 +622,8 @@
 			<Item Key="Bakaverse_Lobby_UserStatus_Unknown">Failed / Unknown</Item>
 
 			<Item Key="Bakaverse_Lobby_CopyLobbyID_Template">I'm now at BakaXL Online Game Lobby! Enter the lobby code: &lt;{0}&gt; in Bakaverse to join! </Item>
-			<Item Key="Bakaverse_Lobby_CopyLobbyID_WithHostGameInfo_Template">I'm now at BakaXL Online Game Lobby playing [{0}]! Enter the lobby code: &lt;{0}&gt; in Bakaverse to join!</Item>
-			<Item Key="Bakaverse_Lobby_CopyLobbyID_WithHostGameInfo_HasBaseVersion_Template">I'm now at BakaXL Online Game Lobby playing [{0}] (Minecraft {1})! Enter the lobby code: &lt;{0}&gt; in Bakaverse to join!</Item>
+			<Item Key="Bakaverse_Lobby_CopyLobbyID_WithHostGameInfo_Template">I'm now at BakaXL Online Game Lobby playing [{0}]! Enter the lobby code: &lt;{1}&gt; in Bakaverse to join!</Item>
+			<Item Key="Bakaverse_Lobby_CopyLobbyID_WithHostGameInfo_HasBaseVersion_Template">I'm now at BakaXL Online Game Lobby playing [{0}] (Minecraft {1})! Enter the lobby code: &lt;{2}&gt; in Bakaverse to join!</Item>
 
 			<Item Key="Bakaverse_UserSettings_Title">User Settings</Item>
 			<Item Key="Bakaverse_UserSettings_PersonalInfo">Personal Information Settings</Item>
