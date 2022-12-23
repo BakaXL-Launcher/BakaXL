@@ -3,7 +3,7 @@
 	<Type>
 		<Key>zh_MEME</Key>
 		<Name>梗体中文 (天朝)</Name>
-		<Author>Sheep-realms</Author>
+		<Author>Sheep-realms / HaiHome</Author>
 	</Type>
 	<Language Key="zh_MEME">
 		<Items>
@@ -36,13 +36,13 @@
 			<Item Key="LaunchBar_SelectCore_Title">这是原子？</Item>
 			<Item Key="LaunchBar_SelectCore_Management">核心管理</Item>
 			<Item Key="LaunchBar_SelectCore_Management_Tips">选择、调整和管理你的游戏核心</Item>
-			<Item Key="LaunchBar_SelectCore_DragEasterEgg">别拽啦！</Item>
+			<Item Key="LaunchBar_SelectCore_DragEasterEgg">拽个毛！</Item>
 
-			<Item Key="LaunchBar_LaunchBtn_Error_Title">无法启动游戏</Item>
-			<Item Key="LaunchBar_LaunchBtn_Error_NoProfile">未设置用户档案</Item>
-			<Item Key="LaunchBar_LaunchBtn_Error_NoCore">尚未设置游戏核心</Item>
-			<Item Key="LaunchBar_LaunchBtn_Error_NoCoreFolder">核心文件夹不存在</Item>
-			<Item Key="LaunchBar_LaunchBtn_Error_AuthError">账户验证错误</Item>
+			<Item Key="LaunchBar_LaunchBtn_Error_Title">游戏打不开了！</Item>
+			<Item Key="LaunchBar_LaunchBtn_Error_NoProfile">你没设置用户</Item>
+			<Item Key="LaunchBar_LaunchBtn_Error_NoCore">你没设置游戏核心</Item>
+			<Item Key="LaunchBar_LaunchBtn_Error_NoCoreFolder">核心文件夹无了</Item>
+			<Item Key="LaunchBar_LaunchBtn_Error_AuthError">人格验证错误</Item>
 
 			<Item Key="LaunchBar_LaunchBtn_Error_UnknownError_Title">遇到错误</Item>
 			<Item Key="LaunchBar_LaunchBtn_Error_UnknownError_Tips">启动中出现了错误</Item>
@@ -132,7 +132,7 @@
 			<Item Key="CoreSelector_CoreError_NoJsonFile">异常 - Json文件缺失或文件名错误</Item>
 			<Item Key="CoreSelector_CoreError_NotCompatible">错误 - 损毁、不受兼容的核心或整活包</Item>
 
-			<Item Key="CoreSelector_CoreProtocolMismatch_Title">这是非标准的 Minecraft 核心。</Item>
+			<Item Key="CoreSelector_CoreProtocolMismatch_Title">这是非标准的 迈恩克拉夫特 核心。</Item>
 			<Item Key="CoreSelector_CoreProtocolMismatch_Tooltip">这个核心由 HMCL 启动器创建，包含了官方启动器无法识别的参数。&#xD;&#xA;BakaXL 可尝试启动此核心，但部分功能、Mod 加载或游戏体验可能不会按照预期方式运行。</Item>
 
 			<Item Key="CoreSelector_GetCore_Title">添加新的 迈恩克拉夫特 核心 或 整活包</Item>
@@ -176,7 +176,7 @@
 			<Item Key="CoreManagement_Info_PlayTime_NeverPlayed_Text">此核心自安装日以来就从来没有运行过，真难过。</Item>
 			<Item Key="CoreManagement_Info_PlayTime_Reset">重置统计数据</Item>
 			<Item Key="CoreManagement_Info_Version">版本</Item>
-			<Item Key="CoreManagement_Info_Version_Text">此核心的基础游戏版本为 Minecraft {0}</Item>
+			<Item Key="CoreManagement_Info_Version_Text">此核心的基础游戏版本为 迈恩克拉夫特 {0}</Item>
 			<Item Key="CoreManagement_Info_Links">参阅</Item>
 			<Item Key="CoreManagement_Info_Links_Tips">若此核心包含了来自核心发布者设置的链接，&#xD;&#xA;BakaXL 会将他们显示在这里。</Item>
 			<Item Key="CoreManagement_Info_Links_HomePage">访问核心主页</Item>
@@ -202,9 +202,9 @@
 
 			<Item Key="CoreManagement_Mods_ModLoader_Scanning">正在扫描核心的模组API...</Item>
 			<Item Key="CoreManagement_Mods_ModLoader_Forge">此核心安装了 迈恩克拉夫特 Forge，版本：{0}</Item>
-			<Item Key="CoreManagement_Mods_ModLoader_Fabric">此核心安装了 Fabric Loader/API。版本：{0}</Item>
+			<Item Key="CoreManagement_Mods_ModLoader_Fabric">此核心安装了 法不瑞克 Loader/API。版本：{0}</Item>
 			<Item Key="CoreManagement_Mods_ModLoader_Liteloader">此核心安装了 Liteloader。版本：{0}</Item>
-			<Item Key="CoreManagement_Mods_ModLoader_Optifine">此核心安装了 Optifine 高清修复。</Item>
+			<Item Key="CoreManagement_Mods_ModLoader_Optifine">此核心安装了 Optifine 低清修复。</Item>
 
 			<Item Key="CoreManagement_Mods_ModList_Title">位于Mods文件夹</Item>
 			<Item Key="CoreManagement_Mods_ModList_DargTips">将模组拖入至此区域快速安装模组。</Item>
@@ -244,7 +244,7 @@
 			<Item Key="Home_Task_HasTask">BakaXL任务队列 >> {0} 项任务, {1} 项通知</Item>
 
 			<Item Key="Home_StartMenu_Title">开始</Item>
-			<Item Key="Home_StartMenu_Tips">点击下面的磁贴以使用更多BakaXL精彩功能</Item>
+			<Item Key="Home_StartMenu_Tips">点击下面的磁贴以使用更多BakaXL没用功能</Item>
 
 			<Item Key="Tips">叽里呱啦</Item>
 
@@ -332,12 +332,12 @@
 			<Item Key="BakaXL_Update_NeedLogin_Info">若要从当前设置的BakaXL预览体验通道中获取本体更新，则需要您登录至BakaXL Network。&#xD;&#xA;前往 &quot;本体设置 - 账户与档案&quot; 中登录您的BakaXL Account</Item>
 
 			<Item Key="BakaXL_Update_NotInsider_Title">需要成为预览体验计划成员</Item>
-			<Item Key="BakaXL_Update_NotInsider_Info">诶呀，您当前好像还不是已登记的BakaXL预览体验计划成员呢。&#xD;&#xA;若要更新至此预览体验版本，您的账户需要被登记为BakaXL预览体验计划成员。&#xD;&#xA;&#xD;&#xA;在BakaXL 局外人用户群中参与交流讨论 亦或是通过 &quot;爱发电&quot; 支持BakaXL的开发工作，即可将您的BakaXL账户登记为预览体验计划成员！</Item>
+			<Item Key="BakaXL_Update_NotInsider_Info">诶呀，您当前好像还不是已登记的BakaXL预览体验计划成员呢。&#xD;&#xA;若要更新至此预览体验版本，您的账户需要被登记为BakaXL预览体验计划成员。&#xD;&#xA;&#xD;&#xA;在BakaXL 局外人用户群中参与交流讨论 亦或是通过 &quot;电鳗&quot; 支持BakaXL的开发工作，即可将您的BakaXL账户登记为预览体验计划成员！</Item>
 			<Item Key="BakaXL_Update_NotInsider_Tips">但实际上也有办法可以更新的啦，BakaXL不会做那种事的！</Item>
-			<Item Key="BakaXL_Update_NotInsider_Btn_Afdian">前往 &quot;爱发电&quot; 看看</Item>
+			<Item Key="BakaXL_Update_NotInsider_Btn_Afdian">前往 &quot;电鳗&quot; 看看</Item>
 
 			<Item Key="LiveBackground_Prepare_Title">BakaXL正在准备背景</Item>
-			<Item Key="LiveBackground_Prepare_Tips">这可能需要一点点时间</Item>
+			<Item Key="LiveBackground_Prepare_Tips">这可能需要亿点点时间，坐和放宽</Item>
 
 			<Item Key="Guide_Type_Base">设置向导</Item>
 			<Item Key="Guide_Type_Language">语言</Item>
@@ -597,8 +597,8 @@
 
 			<Item Key="Bakaverse_UserSettings_Privacy">隐私设置</Item>
 
-			<Item Key="Bakaverse_UserSettings_Privacy_SkinShare">BakaXL Network SkinShare 皮肤妙享</Item>
-			<Item Key="Bakaverse_UserSettings_Privacy_SkinShare_Tips">皮肤妙享功能允许其他同样开启此功能的&#xD;&#xA;BakaXL Network 好友、服务器内玩家或大厅联机参与者&#xD;&#xA;看见您所设置的离线皮肤。&#xD;&#xA;&#xD;&#xA;关闭此功能后，BakaXL 将停止向 BakaXL Network 公开您的皮肤信息，&#xD;&#xA;您也无法看见其他用户设置的皮肤。&#xD;&#xA;此功能仅在使用离线验证模式启动迈恩克拉夫特时生效。</Item>
+			<Item Key="Bakaverse_UserSettings_Privacy_SkinShare">BakaXL Network SkinShare 皮肤妙!享</Item>
+			<Item Key="Bakaverse_UserSettings_Privacy_SkinShare_Tips">皮肤妙!享功能允许其他同样开启此功能的&#xD;&#xA;BakaXL Network 好友、服务器内玩家或大厅联机参与者&#xD;&#xA;看见您所设置的离线皮肤。&#xD;&#xA;&#xD;&#xA;关闭此功能后，BakaXL 将停止向 BakaXL Network 公开您的皮肤信息，&#xD;&#xA;您也无法看见其他用户设置的皮肤。&#xD;&#xA;此功能仅在使用离线验证模式启动迈恩克拉夫特时生效。</Item>
 
 			<Item Key="Bakaverse_UserSettings_Privacy_GameRecord">允许 BakaXL Network 记录我的游戏状态</Item>
 			<Item Key="Bakaverse_UserSettings_Privacy_GameRecord_Tips">是否允许将您的游戏状态 (如游戏名称、版本) 记录至 BakaXL Network 中。&#xD;&#xA;BakaXL Network 服务器会定期清理游戏状态缓存。&#xD;&#xA;游戏状态不会包含您的敏感信息。&#xD;&#xA;&#xD;&#xA;关闭此功能后，BakaXL 将停止向 BakaXL Network 上报您的游戏状态。</Item>
@@ -630,7 +630,7 @@
 			<Item Key="Bakaverse_OnlineStatus_Gaming_InSinglePlayWorld_Health">角色：{0}</Item>
 
 			<Item Key="BakaPlaza_FullName">BakaXL 游泳圈</Item>
-			<Item Key="BakaPlaza_Update">更新</Item>
+			<Item Key="BakaPlaza_Update">更新（？）</Item>
 
 			<Item Key="BakaPlaza_SearchBar_Watermark">搜索一些内容…</Item>
 
@@ -780,6 +780,18 @@
 			<Item Key="Setting_Plaza_Title">游泳圈</Item>
 			<Item Key="Setting_Insider_Title">BUG！</Item>
 			<Item Key="Setting_About_Title">对话气泡</Item>
+			<Item Key="Setting_Sponsor_Title">叉子和饮料</Item>
+	
+		<Item Key="Setting_Sponsor_List_Title">叉子和饮料</Item>
+			<Item Key="Setting_Sponsor_SupportOnAfdian_Title">在 电鳗 上支持 BakaXL 的开发。</Item>
+			<Item Key="Setting_Sponsor_SupportOnAfdian_Desc">感谢您选择并使用 BakaXL 启动器！&#xD;&#xA;您对我们的支持是让我们继续成长和发展的动力！</Item>
+			<Item Key="Setting_Sponsor_GoAfdian">立即通过 电鳗 支持开发者</Item>
+			
+			<Item Key="Setting_Sponsor_List_Desc">不论您赞助与否，我们都感谢您使用 BakaXL！&#xD;&#xA;但若您通过电鳗赞助了 BakaXL，您的电鳗用户名将会显示在这里！&#xD;&#xA;&#xD;&#xA;按照发电时间进行排序，最近发电的将最先显示。&#xD;&#xA;本列表将会每 6 小时自动进行更新。</Item>
+
+			<Item Key="Setting_Sponsor_List_Loading">正在集结鸽子大军…</Item>
+			<Item Key="Setting_Sponsor_List_NoSponsor">太遗憾了，看上去没有任何赞助者…</Item>
+			<Item Key="Setting_Sponsor_List_Sponsor">赞助者</Item>
 
 			<Item Key="Setting_Support_Tips">欢迎来到BakaXL本体设置！我们正在努力为BakaXL添加更多精彩的功&#xD;&#xA;能！部分不可用的选项是BakaXL 3.0尚未开发完善的功能。目前，我们正在&#xA;根据各位的需求调整此界面中的功能。希望您能喜欢！</Item>
 			<Item Key="Setting_Support_Website">BakaXL帮助与支持网站</Item>
@@ -799,9 +811,9 @@
 			<Item Key="Setting_Support_ErrorHistory_Searching">翻箱倒柜</Item>
 			<Item Key="Setting_Support_ErrorHistory_Searching_Tips">正在寻找存放在附近的笨蛋罐头</Item>
 
-			<Item Key="Setting_Support_ErrorHistory_NoCan">太棒了！</Item>
+			<Item Key="Setting_Support_ErrorHistory_NoCan">太棒了！（确信）</Item>
 			<Item Key="Setting_Support_ErrorHistory_NoCan_Tips1">这个柜子里目前还没有任何BakaXL笨蛋罐头</Item>
-			<Item Key="Setting_Support_ErrorHistory_NoCan_Tips2">我敢保证这里很快就会有不少罐头。</Item>
+			<Item Key="Setting_Support_ErrorHistory_NoCan_Tips2">我敢保证这里很快就会有不少罐头。（偷笑）</Item>
 
 			<Item Key="Setting_Support_ErrorHistory_ErrorCode">错误代码</Item>
 			<Item Key="Setting_Support_ErrorHistory_ErrorTitle">错误标题</Item>
@@ -927,10 +939,10 @@
 			<Item Key="Setting_Account_Detail_Offline_Username">填个游戏ID</Item>
 			<Item Key="Setting_Account_Detail_Offline_Username_Tips">设置你在运行迈恩克拉夫特时想使用的游戏ID。&#xD;&#xA;只能使用英文、数字和下划线，不建议使用中文和特殊符号。</Item>
 
-			<Item Key="Setting_Account_Detail_Online_Email">Bugjump账户邮箱</Item>
-			<Item Key="Setting_Account_Detail_Online_Email_Tips">设置您的Bugjump正版账户邮箱。</Item>
+			<Item Key="Setting_Account_Detail_Online_Email">麻将账户邮箱</Item>
+			<Item Key="Setting_Account_Detail_Online_Email_Tips">设置您的麻将正版账户邮箱。</Item>
 			<Item Key="Setting_Account_Detail_Online_Password">输入您的密码</Item>
-			<Item Key="Setting_Account_Detail_Online_Password_Tips">输入您的Bugjump正版账户登录密码。&#xD;&#xA;BakaXL会加密保存这些信息。</Item>
+			<Item Key="Setting_Account_Detail_Online_Password_Tips">输入您的麻将正版账户登录密码。&#xD;&#xA;BakaXL会加密保存这些信息。</Item>
 
 			<Item Key="Setting_Account_Detail_Online_Microsoft_LoginBtn">通过巨硬账户登录</Item>
 			<Item Key="Setting_Account_Detail_Online_Microsoft_LoginBtn_Relogin">切换至其他巨硬账户</Item>
@@ -973,7 +985,7 @@
 			<Item Key="Setting_Account_Detail_AccFeatures_SkinCapes_Title">皮肤与披风</Item>
 			<Item Key="Setting_Account_Detail_AccFeatures_SkinCapes_Skin_SaveBtn">保存我的迈恩克拉夫特角色皮肤</Item>
 			<Item Key="Setting_Account_Detail_AccFeatures_SkinCapes_Skin_UploadBtn">为我的迈恩克拉夫特角色更换皮肤</Item>
-			<Item Key="Setting_Account_Detail_AccFeatures_SkinCapes_Skin_UploadTips">您现在可以直接通过 BakaXL 更换角色的皮肤。&#xD;&#xA;更换皮肤后需要重新启动迈恩克拉夫特。</Item>
+			<Item Key="Setting_Account_Detail_AccFeatures_SkinCapes_Skin_UploadTips">您现在可以直接通过 BakaXL换角色的皮肤。&#xD;&#xA;更换皮肤后需要重新启动迈恩克拉夫特。</Item>
 
 			<Item Key="Setting_Account_Detail_AccFeatures_SkinCapes_Skin_UploadBtn_Offline">为我的迈恩克拉夫特角色设置离线皮肤</Item>
 			<Item Key="Setting_Account_Detail_AccFeatures_SkinCapes_Skin_ClearBtn_Offline">恢复至默认皮肤</Item>
@@ -1305,7 +1317,7 @@
 			<Item Key="Setting_Accessibility_Home_DisplayMode_Btn">主屏幕显示模式</Item>
 			<Item Key="Setting_Accessibility_Home_DisplayMode_Tips">&quot;主屏幕显示模式&quot; 将决定BakaXL的主页面是否展示所有的磁贴和功能。&#xD; · 标准: 主屏幕默认不显示开始菜单和功能磁贴 &#xD; · 传统: 主屏幕将始终显示开始菜单和功能磁贴&#xD;&#xD;使用标准模式时，需要按下空格或鼠标点击主屏幕空白位置向上&#xD;拖拽进入开始菜单。</Item>
 			<Item Key="Setting_Accessibility_Home_SelectCore_Btn">切换核心磁贴</Item>
-			<Item Key="Setting_Accessibility_Home_SelectCore_Tips">&quot;切换核心磁贴&quot; 将决定BakaXL的开始菜单中是否显示切换核心磁贴&#xD;&#xD;您始终可以通过启动条的快捷交互来切换核心。&#xD;参见 &quot;快捷切换核心&quot;。</Item>
+			<Item Key="Setting_Accessibility_Home_SelectCore_Tips">&quot;切换核心磁贴&quot; 将决定BakaXL始菜单中是否显示切换核心磁贴&#xD;&#xD;您始终可以通过启动条的快捷交互来切换核心。&#xD;参见 &quot;快捷切换核心&quot;。</Item>
 
 			<Item Key="Setting_Accessibility_Interaction_Title">交互</Item>
 			<Item Key="Setting_Accessibility_SwitchCore_InteractMode_Btn">快捷切换核心</Item>
@@ -1369,11 +1381,11 @@
 			<Item Key="Setting_Insider_Desc">简介</Item>
 			<Item Key="Setting_Insider_Info">BakaXL现已迈向全新的版本！这得感谢于所有参与了 BakaXL 预览体验计划   &#xD;&#xA;(BakaXL Insider Preview) 的成员们的付出和努力，没有了他们的帮助，我&#xD;&#xA;们就无法打造出如此出色的BakaXL。&#xD;&#xA;&#xD;&#xA;现在，你也可以加入我们让BakaXL变得更好。&#xD;&#xA;&#xD;&#xA;现在就加入 BakaXL 预览体验计划吧！抢先体验，给予反馈。</Item>
 			<Item Key="Setting_Insider_Warn_1">BakaXL Insider Preview中包含的功能，仅供预览体验，且在未来可&#xA;能会在未经提示的情况下被移除或修改。</Item>
-			<Item Key="Setting_Insider_Warn_2">预览版本的BakaXL因缺少必备功能，请勿加入整活包内进行分享。</Item>
+			<Item Key="Setting_Insider_Warn_2">预览版本的BakaXL因缺少必备功能，请勿加入整活包内进行分享。&#xD;&#xA;Bunny 兔兔通道的主要更新流程尚未开始，且大量落后于当前版本。</Item>
 			<Item Key="Setting_Insider_Desc">简介</Item>
 			<Item Key="Setting_Insider_TunnelTitle">修改更新通道</Item>
 			<Item Key="Setting_Insider_CurrentTunnel">当前通道</Item>
-			<Item Key="Setting_Insider_TunnelDescription">我们为BakaXL引入了全新的更新通道机制，这意味着您可以更加频繁&#xD;&#xA;的获得更新！&#xA;&#xD;&#xA;目前，我们为 BakaXL 预览体验计划 提供两种通道：&#xD;&#xA;Pigeon 鸽子通道（用于掩饰TT是个鸽子的事实的通道）&#xD;&#xA;Parrot 鹦鹉通道（这就把鸽子杀了！）&#xD;&#xA;&#xD;&#xA;请注意：Parrot 鹦鹉通道 包含大量早期未开发完善和清理的功能且会随&#xD;&#xA;时作出修改，请勿依赖于此版本。</Item>
+			<Item Key="Setting_Insider_TunnelDescription">我们为BakaXL引入了全新的更新通道机制，这意味着您可以更加频繁&#xD;&#xA;的获得更新！&#xA;&#xD;&#xA;目前，我们为 BakaXL 预览体验计划 提供两种通道：&#xD;&#xA;Pigeon 鸽子通道（用于掩饰TT是个鸽子的事实的通道）&#xD;&#xA;Parrot 鹦鹉通道（这就把鸽子杀了！）&#xD;&#xA;Bunny 兔兔通道（Jump,jump,jump,jump,jump）&#xD;&#xA;&#xD;&#xA;请注意：Parrot 鹦鹉通道 包含大量早期未开发完善和清理的功能且会随&#xD;&#xA;时作出修改，请勿依赖于此版本。</Item>
 			<Item Key="Setting_Insider_TunnelSelection">选择一个预览通道</Item>
 			<Item Key="Setting_Insider_ChangeTunnel_Btn">变更</Item>
 			<Item Key="Setting_Insider_StartBtn_Title">开始</Item>
@@ -1581,7 +1593,7 @@
 			<Item Key="MessageBox_Download_LaunchMode_Btn_No">唔，我想当个乖孩子</Item>
 
 			<Item Key="MessageBox_CoreInstall_CoreFolderExist_Title">该核心文件夹已存在</Item>
-			<Item Key="MessageBox_CoreInstall_CoreFolderExist_Content">BakaXL 检测到使用 {0} 作为名字的核心已经存在。&#xD;&#xA;请更换一个名字，或通过 &quot;手动安装核心&quot; 覆盖此核心内容。</Item>
+			<Item Key="MessageBox_CoreInstall_CoreFolderExist_Content">BakaXL测到使用 {0} 作为名字的核心已经存在。&#xD;&#xA;请更换一个名字，或通过 &quot;手动安装核心&quot; 覆盖此核心内容。</Item>
 			<Item Key="MessageBox_CoreInstall_CoreFolderExist_Tips">覆盖安装不会覆盖您的存档等数据</Item>
 
 			<Item Key="MessageBox_CoreInstall_CoreNameEmpty_Title">核心名称为空</Item>
@@ -1597,13 +1609,13 @@
 			<Item Key="MessageBox_Minecraft_OnlineFeatures_SkinUpload_SkinType_Tips">冷知识！Alex 的手臂比 Steve 细！</Item>
 
 			<Item Key="MessageBox_Minecraft_OnlineFeatures_SkinUpload_SkinSizeIncorrect_Title">看上去好像不是个皮肤…</Item>
-			<Item Key="MessageBox_Minecraft_OnlineFeatures_SkinUpload_SkinSizeIncorrect_Content">此皮肤文件的长度和宽度并不符合迈恩克拉夫特对于皮肤文件的要求，BakaXL 无法上传此皮肤。&#xD;&#xA;请检查是否选择了正确的文件，然后再试一次。</Item>
+			<Item Key="MessageBox_Minecraft_OnlineFeatures_SkinUpload_SkinSizeIncorrect_Content">此皮肤文件的长度和宽度并不符合迈恩克拉夫特对于皮肤文件的要求，BakaXL法上传此皮肤。&#xD;&#xA;请检查是否选择了正确的文件，然后再试一次。</Item>
 			<Item Key="MessageBox_Minecraft_OnlineFeatures_SkinUpload_SkinSizeIncorrect_Tips">冷知识！迈恩克拉夫特原版并不支持高清皮肤文件！</Item>
 
-			<Item Key="MessageBox_Minecraft_OnlineFeatures_SkinUpload_Uploading_Title">BakaXL 正在上传您的皮肤…</Item>
+			<Item Key="MessageBox_Minecraft_OnlineFeatures_SkinUpload_Uploading_Title">BakaXL正在上传您的皮肤…</Item>
 
 			<Item Key="MessageBox_Bakaverse_Login_Error_Title">登录失败</Item>
-			<Item Key="MessageBox_Bakaverse_Login_ConnectError_Content">无法连接至BakaXL Network服务器。&#xD;&#xA;请检查您的互联网连接，或者留意BakaXL官方的维护公告。&#xD;&#xA;这也有可能是由于用户名或密码错误。</Item>
+			<Item Key="MessageBox_Bakaverse_Login_ConnectError_Content">无法连接至BakaXLtwork服务器。&#xD;&#xA;请检查您的互联网连接，或者留意BakaXL官方的维护公告。&#xD;&#xA;这也有可能是由于用户名或密码错误。</Item>
 			<Item Key="MessageBox_Bakaverse_Login_VersionError_Content">BakaXL Network服务器拒绝了您的连接。&#xD;&#xA;由于服务器要求使用最新版本的BakaXL，连接被终止。</Item>
 			<Item Key="MessageBox_Bakaverse_Login_AuthError_Content">无法登录至此BakaXL账户。&#xD;&#xA;此账户不存在或密码错误，请检查您输入的内容然后再试一次。</Item>
 			<Item Key="MessageBox_Bakaverse_Login_EAPermissionError_Content">无法登录至此BakaXL账户。&#xD;&#xA;您的BakaXL账户没有参与早期体验测试。请耐心等待此服务正式上线。</Item>
