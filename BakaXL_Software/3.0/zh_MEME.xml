@@ -103,6 +103,10 @@
 			<Item Key="HomeIdentifier_Screen_Home">主页</Item>
 			<Item Key="HomeIdentifier_Screen_Menu">开始</Item>
 
+			<Item Key="TaskList_Title">大铃铛</Item>
+			<Item Key="TaskList_NoTaskTips">当前无任何进行中的任务或通知。</Item>
+			<Item Key="TaskList_HasTasks">当前队列中有 {0} 个任务。</Item>
+
 			<Item Key="CoreSelector_Title">核心</Item>
 			<Item Key="CoreSelector_SelectCore_Title">选择一个核心</Item>
 			<Item Key="CoreSelector_DisplayMode">显示：</Item>
@@ -136,12 +140,15 @@
 			<Item Key="CoreSelector_CoreProtocolMismatch_Tooltip">这个核心由友商 HMCL 启动器创建，包含了官方启动器无法识别的参数。&#xD;&#xA;BakaXL 可尝试启动此核心，但部分功能、Mod 加载或游戏体验可能不会按照预期方式运行。</Item>
 
 			<Item Key="CoreSelector_GetCore_Title">添加新的 迈恩克拉夫特 核心 或 整活包</Item>
+			<Item Key="CoreSelector_CancelSelection_Title">取消选择</Item>
+			<Item Key="CoreSelector_ConfirmSelection_Title">确认选择此核心</Item>
 
 			<Item Key="CoreManagement_Title">高级核心管理</Item>
 			<Item Key="CoreManagement_Publisher">发行者: {0}</Item>
 			<Item Key="CoreManagement_Publisher_None">尚无发行者</Item>
 			<Item Key="CoreManagement_LastPlayed">最近游玩于 {0}</Item>
 			<Item Key="CoreManagement_LastPlayed_None">尚未运行过</Item>
+			<Item Key="CoreManagement_Version">核心标识版本: {0}</Item>
 
 			<Item Key="CoreManagement_Tips_Locked_MCVersion">某些选项不可用，因为迈恩克拉夫特版本过低。</Item>
 			<Item Key="CoreManagement_Tips_Locked_ModPack">某些选项不可用，因为它们由您的整活包提供者管理。</Item>
@@ -203,6 +210,7 @@
 			<Item Key="CoreManagement_Mods_ModLoader_Scanning">正在扫描核心的模组API...</Item>
 			<Item Key="CoreManagement_Mods_ModLoader_Forge">此核心安装了 迈恩克拉夫特 Forge，版本：{0}</Item>
 			<Item Key="CoreManagement_Mods_ModLoader_Fabric">此核心安装了 法不瑞克 Loader/API。版本：{0}</Item>
+			<Item Key="CoreManagement_Mods_ModLoader_Quilt">此核心安装了 被子 Loader。版本：{0}</Item>
 			<Item Key="CoreManagement_Mods_ModLoader_Liteloader">此核心安装了 Liteloader。版本：{0}</Item>
 			<Item Key="CoreManagement_Mods_ModLoader_Optifine">此核心安装了 OptiNOTfine 低清修复。</Item>
 
@@ -347,7 +355,7 @@
 			<Item Key="Error_CodeIs">错误代码是 {0}， 可在有需要时使用。</Item>
 
 			<Item Key="BakaXL_Update_Title">BakaXL 惊现新版本 {0}</Item>
-			<Item Key="BakaXL_Update_Info">早上好BakaXL。昨天爆出的TT罐头是满打满算的30个，多亏了酒吧点炒饭的找茬怪，光是动画BUG就出了10个。TT快要累死了，我看找茬怪们全得赔钱，因为小笨蛋们肯定咽不下这口气。&#xD;&#xA;联机多人运动又有人被拒之门外，又是NAT严格干的好事。与此同时，TT正在收拾摊了一地的TT罐头。&#xD;&#xA;而在笨蛋广场呢？好吧……笨蛋广场还是那个笨蛋广场。&#xD;&#xA;我是你们的绿色毛茸茸，和我一起，开始逐梦BakaXL的新一天吧。</Item>
+			<Item Key="BakaXL_Update_Info">早上好BakaXL。昨天爆出的TT罐头是满打满算的30个，多亏了酒吧点炒饭的找茬怪，光是动画BUG就出了10个。TT快要累死了，我看找茬怪们全得赔钱，因为小笨蛋们肯定咽不下这口气。&#xD;&#xA;联机多人运动不能用，小笨蛋们等的好急。与此同时，TT正在收拾摊了一地的TT罐头。&#xD;&#xA;而在笨蛋广场呢？好吧……笨蛋广场还是那个笨蛋广场。&#xD;&#xA;我是你们的绿色毛茸茸，和我一起，开始逐梦BakaXL的新一天吧。</Item>
 			<Item Key="BakaXL_Update_Btn_Yes">立即更新</Item>
 			<Item Key="BakaXL_Update_Btn_OrYes">不许断网</Item>
 
@@ -506,7 +514,7 @@
 
 			<Item Key="Bakaverse_UserInfo_Manage">管理</Item>
 			<Item Key="Bakaverse_UserInfo_Manage_RemoveFriend">你是个好人</Item>
-			<Item Key="Bakaverse_UserInfo_Manage_RemoveFriend_Tips">当您对此好友发送好人卡之后，您也将从对方的好友列表里移除。&#xA;如果您要重新添加此好友，则需要重新发起好友申请。</Item>
+			<Item Key="Bakaverse_UserInfo_Manage_RemoveFriend_Tips">当您对此好友发送好人卡之后，您两位的里程碑会被一脚踹飞。&#xA;如果您要重新添加此好友，则需要重新发起好友申请。</Item>
 			<Item Key="Bakaverse_UserInfo_Manage_BlackList_Remove">将对方从黑名单中移除</Item>
 			<Item Key="Bakaverse_UserInfo_Manage_BlackList_Remove_BtnTitle">我选择原谅他/她</Item>
 			<Item Key="Bakaverse_UserInfo_Manage_BlackList_Remove_Tips">在您从黑名单移除对方后，你们将成为陌生人。&#xA;若需要重新添加好友，则需要重新发送好友申请。</Item>
@@ -531,7 +539,7 @@
 			<Item Key="Bakaverse_AddFriends_RecivedRequest_Tips">查看您收到的所有待批准的好友申请。</Item>
 
 			<Item Key="Bakaverse_AddFriends_SearchOnline_Title">在互联网上搜索好友</Item>
-			<Item Key="Bakaverse_AddFriends_SearchTips">输入好友的BakaXL Network ID (例如：Username#1234)</Item>
+			<Item Key="Bakaverse_AddFriends_SearchTips">输入好友的BakaXL Network ID (例如：Username#1145)</Item>
 			<Item Key="Bakaverse_AddFriends_Btn_Title">通过 BakaXL Network ID 搜索好友</Item>
 			<Item Key="Bakaverse_AddFriends_Btn_Tips">通过BakaXL线上服务寻找您的好友。</Item>
 			<Item Key="Bakaverse_AddFriends_MinePass_Btn_Title">通过 BakaXL瞬间交错通讯 添加好友</Item>
@@ -554,7 +562,11 @@
 			<Item Key="Bakaverse_Lobby_Error_Title">多人运动服务异常</Item>
 			<Item Key="Bakaverse_Lobby_Error_Detail_Relogin">请重新登录此BakaXL账户</Item>
 
-			<Item Key="Bakaverse_Lobby_CreateLobby_Title">创建新的多人运动</Item>
+			<Item Key="Bakaverse_Lobby_Maintenance_Title">天哪噜，我们正在维护中</Item>
+			<Item Key="Bakaverse_Lobby_Maintenance_Detail">BakaXL 多人运动暂不可用</Item>
+			<Item Key="Bakaverse_Lobby_Maintenance_Tips">阅读 BakaXL 多人运动功能暂时下线维护的声明，请参阅: &#xD;&#xA;https://www.BakaXL.com/</Item>
+
+      <Item Key="Bakaverse_Lobby_CreateLobby_Title">创建新的多人运动</Item>
 			<Item Key="Bakaverse_Lobby_CreateLobby_CustomLobbyID_TextBox_Watermark">自定义多人运动编号 (25个字符以内)</Item>
 			<Item Key="Bakaverse_Lobby_CreateLobby_CustomLobbyID_TextBox_Tips">感谢您对 BakaXL 的支持！作为预览体验计划的成员，&#xD;&#xA;您将可以在创建时自定义 BakaXL 多人运动的编号！&#xD;&#xA;在使用此功能时，请不要违反BakaXL的使用守则。&#xD;&#xA;滥用此功能将会导致您的预览体验计划身份被取消。</Item>
 			<Item Key="Bakaverse_Lobby_CreateLobby_LocalTarget_Watermark">尚未检测到任何 迈恩克拉夫特 多人运动实例</Item>
@@ -571,7 +583,7 @@
 			<Item Key="Bakaverse_Lobby_FriendInvites_Tips">若您的好友邀请您加入其所在的多人运动，他们将会显示在这里。</Item>
 
 			<Item Key="Bakaverse_Lobby_CrossLauncherPlay_Title">加入第三方启动器的联机平台</Item>
-			<Item Key="Bakaverse_Lobby_CrossLauncherPlay_Tips">若要加入由第三方启动器 (PCL2、HMCL) 创建的联机服务房间，&#xD;&#xA;则您需要先在 BakaXL 游泳圈 安装跨启动器联机插件。&#xD;&#xA;&#xD;&#xA;该项服务尚未开放，敬请期待。</Item>
+			<Item Key="Bakaverse_Lobby_CrossLauncherPlay_Tips">若要加入由友商启动器 (PCL2、HMCL) 创建的联机服务房间，&#xD;&#xA;则您需要等待Bakaxl Network接入Octo Network。&#xD;&#xA;&#xD;&#xA;该项服务尚未开放，敬请期待。</Item>
 
 			<Item Key="Bakaverse_Lobby_LobbyInfo_Title">多人运动信息</Item>
 			<Item Key="Bakaverse_Lobby_LobbyInfo_LobbyID_Title">多人运动编号</Item>
@@ -609,10 +621,10 @@
 			<Item Key="Bakaverse_Lobby_LobbyAction_LeaveLobby_Tips">若您当前正在参与 迈恩克拉夫特 本地局域网联机，&#xD;&#xA;离开该多人运动将导致与创建者主机的连接被断开。</Item>
 
 			<Item Key="Bakaverse_Lobby_Relay">BakaXL Network 节点</Item>
-			<Item Key="Bakaverse_Lobby_Relay_Status_On">{0}，中继已启用</Item>
-			<Item Key="Bakaverse_Lobby_Relay_Status_On_Tips">在需要时，BakaXL 将通过此服务商提供的节点建立稳定且安全的连接。</Item>
-			<Item Key="Bakaverse_Lobby_Relay_Status_Off">{0}，未启用中继</Item>
-			<Item Key="Bakaverse_Lobby_Relay_Status_Off_Tips">尚未开启中继，BakaXL 将始终尝试建立直接连接。</Item>
+			<Item Key="Bakaverse_Lobby_Relay_Status_On">{0}，辅助健身器材已启用</Item>
+			<Item Key="Bakaverse_Lobby_Relay_Status_On_Tips">在需要时，BakaXL 将通过此服务商提供的辅助健身器材让您建立稳定且安全的运动。</Item>
+			<Item Key="Bakaverse_Lobby_Relay_Status_Off">{0}，未启用辅助健身器材</Item>
+			<Item Key="Bakaverse_Lobby_Relay_Status_Off_Tips">尚未开启辅助健身器材，BakaXL 将始终尝试直接让您运动。</Item>
 			<Item Key="Bakaverse_Lobby_Relay_Status_Unavailable">节点不可用，无法联机</Item>
 			<Item Key="Bakaverse_Lobby_Relay_Status_Unavailable_Tips">当前暂时没有合适的 BakaXL Network 节点可供使用，多人运动将无法进行联机。敬请留意维护公告。</Item>
 			<Item Key="Bakaverse_Lobby_Relay_Status_Unsupported">不支持的节点，无法联机</Item>
@@ -641,9 +653,12 @@
 			<Item Key="Bakaverse_Lobby_UserStatus_WaitingRelay">正在准备辅助健身器材</Item>
 			<Item Key="Bakaverse_Lobby_UserStatus_LeaveMinecraft">累瘫了，不动了</Item>
 			<Item Key="Bakaverse_Lobby_UserStatus_ConnectionEstablished">开始多人运动</Item>
-			<Item Key="Bakaverse_Lobby_UserStatus_RelayConnectionEstablished">使用辅助健身器材进行多人运动</Item>
+			<Item Key="Bakaverse_Lobby_UserStatus_IPv6ConnectionEstablished"> IPv6 运动已建立</Item>
+      <Item Key="Bakaverse_Lobby_UserStatus_RelayConnectionEstablished">使用辅助健身器材进行多人运动</Item>
 			<Item Key="Bakaverse_Lobby_UserStatus_NATRestrict">被 NAT 严格摁倒在地</Item>
 			<Item Key="Bakaverse_Lobby_UserStatus_FirewallReject">被防火墙摁倒在地</Item>
+			<Item Key="Bakaverse_Lobby_UserStatus_RelayFailed">无法摸到辅助健身服务器</Item>
+			<Item Key="Bakaverse_Lobby_UserStatus_WaitingJoinerAction">运动教练正在等待操作</Item>
 			<Item Key="Bakaverse_Lobby_UserStatus_Unknown">抽筋了！</Item>
 			
 			<Item Key="Bakaverse_Lobby_LocalPeerStatus_None">尚未开始多人运动</Item>
@@ -652,12 +667,12 @@
 			<Item Key="Bakaverse_Lobby_LocalPeerStatus_InitFailed">准备失败</Item>
 			<Item Key="Bakaverse_Lobby_LocalPeerStatus_Punching">正在建立多人运动</Item>
 			<Item Key="Bakaverse_Lobby_LocalPeerStatus_ReversePunching">正在建立反向多人运动</Item>
-			<Item Key="Bakaverse_Lobby_LocalPeerStatus_NATRestrict">NAT 严格</Item>
-			<Item Key="Bakaverse_Lobby_LocalPeerStatus_FirewallReject">NAT 防火墙拒绝</Item>
-			<Item Key="Bakaverse_Lobby_LocalPeerStatus_WaitingRelay">等待中继服务器响应</Item>
+			<Item Key="Bakaverse_Lobby_LocalPeerStatus_NATRestrict">被 NAT 严格摁倒在地</Item>
+			<Item Key="Bakaverse_Lobby_LocalPeerStatus_FirewallReject">被防火墙摁倒在地</Item>
+			<Item Key="Bakaverse_Lobby_LocalPeerStatus_WaitingRelay">等待辅助健身服务器响应</Item>
 			<Item Key="Bakaverse_Lobby_LocalPeerStatus_WaitingMinecraftConnect">等待 迈恩克拉夫特 连接</Item>
-			<Item Key="Bakaverse_Lobby_LocalPeerStatus_Connected">连接已建立</Item>
-			<Item Key="Bakaverse_Lobby_LocalPeerStatus_RelayConnected">已通过中继建立连接</Item>			
+			<Item Key="Bakaverse_Lobby_LocalPeerStatus_Connected">运动已建立</Item>
+			<Item Key="Bakaverse_Lobby_LocalPeerStatus_RelayConnected">已通过辅助健身器材建立运动</Item>			
 
 
 			<Item Key="Bakaverse_Lobby_CopyLobbyID_Template">我正在 BakaXL 的线上多人运动健身房！快在 BakaXL 妙妙屋 里输入多人运动编号: &lt;{0}&gt; 来加入吧！</Item>
@@ -1487,7 +1502,8 @@
 			<Item Key="Setting_Network_BakaServiceStatus_Network_Relay_Lanko_A">BakaXL Network Relay (Lanko-A):</Item>
 
 			<Item Key="Setting_Network_BakaServiceStatus_Third_Party_Title">第三方服务提供商</Item>
-			<Item Key="Setting_Network_BakaServiceStatus_Third_Party_CurseForgeApi">克斯第三方API:</Item>
+			<Item Key="Setting_Network_BakaServiceStatus_Third_Party_ModrinthCDN">默德瑞斯 CDN:</Item>
+      <Item Key="Setting_Network_BakaServiceStatus_Third_Party_CurseForgeApi">克斯第三方API:</Item>
 			<Item Key="Setting_Network_BakaServiceStatus_Third_Party_CurseForgeCDN">克斯 CDN:</Item>
 			<Item Key="Setting_Network_BakaServiceStatus_Third_Party_MCBBS">迈恩克拉夫特BBS下载源:</Item>
 
@@ -2350,7 +2366,7 @@
 			<Item Key="ThemeMenuOpenSource">查看主题文件</Item>
 
 			<Item Key="TapToSee">点开查看</Item>
-			<Item Key="MenuDelete">删掉</Item>
+			<Item Key="MenuDelete">扔掉</Item>
 			<Item Key="MenuRefresh">刷新</Item>
 			<Item Key="MenuMore">更多...</Item>
 
@@ -2396,7 +2412,7 @@
 			<Item Key="Color_Indigo">量子紫</Item>
 			<Item Key="Color_Violet">紫罗兰</Item>
 			<Item Key="Color_Pink">樱花色</Item>
-			<Item Key="Color_Magenta">叔叔红</Item>
+			<Item Key="Color_Magenta">鼠鼠红</Item>
 			<Item Key="Color_Crimson">酒心红</Item>
 			<Item Key="Color_Amber">土狗黄</Item>
 			<Item Key="Color_Yellow">皮卡黄</Item>
