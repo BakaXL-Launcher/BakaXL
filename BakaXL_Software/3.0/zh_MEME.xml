@@ -104,8 +104,8 @@
 			<Item Key="HomeIdentifier_Screen_Menu">开始</Item>
 
 			<Item Key="TaskList_Title">大铃铛</Item>
-			<Item Key="TaskList_NoTaskTips">当前无任何进行中的任务或通知。</Item>
-			<Item Key="TaskList_HasTasks">当前队列中有 {0} 个任务。</Item>
+			<Item Key="TaskList_NoTaskTips">当前无任何进行中的内卷或噔噔咚。</Item>
+			<Item Key="TaskList_HasTasks">当前队列中有 {0} 个内卷。</Item>
 
 			<Item Key="CoreSelector_Title">核心</Item>
 			<Item Key="CoreSelector_SelectCore_Title">选择一个核心</Item>
