@@ -748,7 +748,8 @@
 			<Item Key="BakaPlaza_MinecraftInstaller_Category_Forge_Desc">通用模组API</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Category_Liteloader_Desc">轻量模组API</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Category_Fabric_Desc">新兴模组API</Item>
-			<Item Key="BakaPlaza_MinecraftInstaller_Category_Optifine_Desc">低清修复</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Category_Quilt_Desc">模块化开源 API</Item>
+      <Item Key="BakaPlaza_MinecraftInstaller_Category_Optifine_Desc">低清修复</Item>
 
 			<Item Key="BakaPlaza_MinecraftInstaller_Core_Status_Release">正式版</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Core_Status_Snapshot">快照版</Item>
@@ -1139,11 +1140,6 @@
 			<Item Key="Setting_Insider_Title">BUG！</Item>
 			<Item Key="Setting_About_Title">对话气泡</Item>
 			<Item Key="Setting_Sponsor_Title">叉子和饮料</Item>
-			<Item Key="Setting_Sponsor_List_Desc">不论您赞助与否，我们都感谢您使用 BakaXL！&#xD;&#xA;但若您通过电鳗赞助了 BakaXL，您的电鳗用户名将会显示在这里！&#xD;&#xA;&#xD;&#xA;按照发电时间进行排序，最近发电的将最先显示。&#xD;&#xA;本列表将会每 6 小时自动进行更新。</Item>
-
-			<Item Key="Setting_Sponsor_List_Loading">正在集结鸽子大军…</Item>
-			<Item Key="Setting_Sponsor_List_NoSponsor">太遗憾了，看上去没有任何赞助者…</Item>
-			<Item Key="Setting_Sponsor_List_Sponsor">赞助者</Item>
 
 			<Item Key="Setting_Support_Tips">欢迎来到BakaXL本体设置！我们正在努力为BakaXL添加更多精彩的功&#xD;&#xA;能！部分不可用的选项是BakaXL 3.0尚未开发完善的功能。目前，我们正在&#xA;根据各位的需求调整此界面中的功能。希望您能喜欢！</Item>
 			<Item Key="Setting_Support_Website">BakaXL帮助与支持网站</Item>
