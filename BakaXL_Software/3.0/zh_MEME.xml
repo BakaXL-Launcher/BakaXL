@@ -205,7 +205,7 @@
 			<Item Key="CoreManagement_Mods_Title">模组(Mods)</Item>
 
 			<Item Key="CoreManagement_Mods_Supported">此核心或整活包安装了支持的模组API。</Item>
-			<Item Key="CoreManagement_Mods_Unsupported">此核心或整活包好像并未使用支持加载模组的模组API。&#xD;&#xA;若您要使用模组，则应当先安装Forge、Farbic或其他模组API。&#xD;&#xA;&#xD;&#xA;若您认为BakaXL错误的认为该核心或整活包没有安装模组API，请联系我们。</Item>
+			<Item Key="CoreManagement_Mods_Unsupported">此核心或整活包好像并未使用支持加载模组的模组API。&#xD;&#xA;若您要使用模组，则应当先安装Forge、法不瑞克或其他模组API。&#xD;&#xA;&#xD;&#xA;若您认为BakaXL错误的认为该核心或整活包没有安装模组API，请联系我们。</Item>
 
 			<Item Key="CoreManagement_Mods_ModLoader_Scanning">正在扫描核心的模组API...</Item>
 			<Item Key="CoreManagement_Mods_ModLoader_Forge">此核心安装了 迈恩克拉夫特 Forge，版本：{0}</Item>
@@ -245,7 +245,7 @@
 			<Item Key="HomePreview">预览版本不代表最终体验</Item>
 
 			<Item Key="Home_Title">BakaXL被我们镐蜂啦！</Item>
-			<Item Key="Home_SubTitle">BakaXL现已焕然一新。不太一样，大不一样！</Item>
+			<Item Key="Home_SubTitle">BakaXL现已被TT洗刷干净。不太一样，大不一样！</Item>
 			<Item Key="Home_SubTitle_Insider">BakaXL Insider Preview 预览体验版本</Item>
 
 			<Item Key="Home_Task_NoTask">BakaXL任务队列 >> 当前无任何任务和通知</Item>
@@ -368,7 +368,7 @@
 			<Item Key="BakaXL_Update_NotInsider_Btn_Afdian">前往 &quot;电鳗&quot; 看看</Item>
 
 			<Item Key="LiveBackground_Prepare_Title">BakaXL正在准备背景</Item>
-			<Item Key="LiveBackground_Prepare_Tips">这可能需要亿点点时间，坐和放宽</Item>
+			<Item Key="LiveBackground_Prepare_Tips">这可能需要亿点点时间，请坐和放宽</Item>
 
 			<Item Key="Guide_Type_Base">设置向导</Item>
 			<Item Key="Guide_Type_Language">语言</Item>
@@ -566,7 +566,7 @@
 			<Item Key="Bakaverse_Lobby_Maintenance_Detail">BakaXL 多人运动暂不可用</Item>
 			<Item Key="Bakaverse_Lobby_Maintenance_Tips">阅读 BakaXL 多人运动功能暂时下线维护的声明，请参阅: &#xD;&#xA;https://www.BakaXL.com/</Item>
 
-      <Item Key="Bakaverse_Lobby_CreateLobby_Title">创建新的多人运动</Item>
+      		<Item Key="Bakaverse_Lobby_CreateLobby_Title">创建新的多人运动</Item>
 			<Item Key="Bakaverse_Lobby_CreateLobby_CustomLobbyID_TextBox_Watermark">自定义多人运动编号 (25个字符以内)</Item>
 			<Item Key="Bakaverse_Lobby_CreateLobby_CustomLobbyID_TextBox_Tips">感谢您对 BakaXL 的支持！作为预览体验计划的成员，&#xD;&#xA;您将可以在创建时自定义 BakaXL 多人运动的编号！&#xD;&#xA;在使用此功能时，请不要违反BakaXL的使用守则。&#xD;&#xA;滥用此功能将会导致您的预览体验计划身份被取消。</Item>
 			<Item Key="Bakaverse_Lobby_CreateLobby_LocalTarget_Watermark">尚未检测到任何 迈恩克拉夫特 多人运动实例</Item>
