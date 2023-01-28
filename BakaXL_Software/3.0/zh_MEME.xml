@@ -2031,7 +2031,7 @@
 			<Item Key="MessageBox_Guide_AuthLib_NoInput_Content">在继续之前，BakaXL 需要您在第三方验证服务注册时提供的账户信息。&#xD;&#xA;BakaXL 将会以符合业界标准的加密方式在本地保存您的数据，您的信息不会被上传至任何服务器。</Item>
 
 			<Item Key="MessageBox_Memory_LowWarning_Title">内存要炸了！</Item>
-			<Item Key="MessageBox_Memory_LowWarning_Content">你目前的系统内存不足512MB，强制启动MC可能造成一些异常现象（例如可能启动失败），建议你关闭无关紧要的软件（例如QQ、音乐播放器，迅雷等）\n\n系统总共内存：{0} MB\n目前可用内存：{1} MB</Item>
+			<Item Key="MessageBox_Memory_LowWarning_Content">你目前的系统内存不足512MB，强制启动 迈恩克拉夫特 可能造成一些异常现象（例如可能启动失败），建议你关闭无关紧要的软件（例如QQ、音乐播放器，Chrome等）\n\n系统总共内存：{0} MB\n目前可用内存：{1} MB</Item>
 
 			<Item Key="MessageBox_Download_LaunchMode_Title">芜湖起飞</Item>
 			<Item Key="MessageBox_Download_LaunchMode_Content">您确定要挑战极限吗？这将使BakaXL在下载迈恩克拉夫特及其资源时调动计算机所有可以使用的资源进行下载。</Item>
@@ -2367,7 +2367,7 @@
 			<Item Key="MenuMore">更多...</Item>
 
 			<Item Key="Minecraft_Dimension_Overworld">主世界</Item>
-			<Item Key="Minecraft_Dimension_Nether">下界</Item>
+			<Item Key="Minecraft_Dimension_Nether">尼德兰</Item>
 			<Item Key="Minecraft_Dimension_TheEnd">末路之地</Item>
 
 			<Item Key="Minecraft_Weather_Clear">天气晴朗</Item>
