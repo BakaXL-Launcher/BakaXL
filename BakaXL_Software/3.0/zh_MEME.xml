@@ -654,7 +654,7 @@
 			<Item Key="Bakaverse_Lobby_UserStatus_LeaveMinecraft">累瘫了，不动了</Item>
 			<Item Key="Bakaverse_Lobby_UserStatus_ConnectionEstablished">开始多人运动</Item>
 			<Item Key="Bakaverse_Lobby_UserStatus_IPv6ConnectionEstablished"> IPv6 运动已建立</Item>
-      <Item Key="Bakaverse_Lobby_UserStatus_RelayConnectionEstablished">使用辅助健身器材进行多人运动</Item>
+      		<Item Key="Bakaverse_Lobby_UserStatus_RelayConnectionEstablished">使用辅助健身器材进行多人运动</Item>
 			<Item Key="Bakaverse_Lobby_UserStatus_NATRestrict">被 NAT 严格摁倒在地</Item>
 			<Item Key="Bakaverse_Lobby_UserStatus_FirewallReject">被防火墙摁倒在地</Item>
 			<Item Key="Bakaverse_Lobby_UserStatus_RelayFailed">无法摸到辅助健身服务器</Item>
@@ -749,7 +749,7 @@
 			<Item Key="BakaPlaza_MinecraftInstaller_Category_Liteloader_Desc">轻量模组API</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Category_Fabric_Desc">新兴模组API</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Category_Quilt_Desc">模块化开源 API</Item>
-      <Item Key="BakaPlaza_MinecraftInstaller_Category_Optifine_Desc">低清修复</Item>
+      		<Item Key="BakaPlaza_MinecraftInstaller_Category_Optifine_Desc">低清修复</Item>
 
 			<Item Key="BakaPlaza_MinecraftInstaller_Core_Status_Release">正式版</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Core_Status_Snapshot">快照版</Item>
@@ -1499,7 +1499,7 @@
 
 			<Item Key="Setting_Network_BakaServiceStatus_Third_Party_Title">第三方服务提供商</Item>
 			<Item Key="Setting_Network_BakaServiceStatus_Third_Party_ModrinthCDN">默德瑞斯 CDN:</Item>
-      <Item Key="Setting_Network_BakaServiceStatus_Third_Party_CurseForgeApi">克斯第三方API:</Item>
+      		<Item Key="Setting_Network_BakaServiceStatus_Third_Party_CurseForgeApi">克斯第三方API:</Item>
 			<Item Key="Setting_Network_BakaServiceStatus_Third_Party_CurseForgeCDN">克斯 CDN:</Item>
 			<Item Key="Setting_Network_BakaServiceStatus_Third_Party_MCBBS">迈恩克拉夫特BBS下载源:</Item>
 
