@@ -155,12 +155,12 @@
 			<Item Key="CoreManagement_Tips_Locked_Server">某些选项不可用，因为它们由此整活包对应的服务器管理。</Item>
 
 			<Item Key="CoreManagement_Tips_Error_Json">此核心所使用的Json文件不是规范的迈恩克拉夫特游戏核心标识文件。</Item>
-			<Item Key="CoreManagement_Tips_Error_Json_Broken">此核心的Json文件损坏，BakaXL无法读取。</Item>
-			<Item Key="CoreManagement_Tips_Error_Unsupported">此核心使用了其他启动器特有的标识格式，BakaXL无法读取。</Item>
+			<Item Key="CoreManagement_Tips_Error_Json_Broken">此核心的Json文件裂开了，BakaXL无法读取这个怪东西。</Item>
+			<Item Key="CoreManagement_Tips_Error_Unsupported">此核心使用了友商启动器特有的标识格式，BakaXL无法读取。</Item>
 			<Item Key="CoreManagement_Tips_Error_Jar_Missing">此核心所需的Jar文件不存在。</Item>
 			<Item Key="CoreManagement_Tips_Error_Inherits_Missing">此核心所依赖的迈恩克拉夫特核心不存在。</Item>
 
-			<Item Key="CoreManagement_Tips_Suggest_Reset">此核心需要重置才可以正常使用，前往 &quot;恢复 > 重置此核心&quot;。</Item>
+			<Item Key="CoreManagement_Tips_Suggest_Reset">此核心需要重置才可以正常使用，前往 &quot;就地转一转 > 重置此核心&quot;。</Item>
 			<Item Key="CoreManagement_Tips_Suggest_AutoRepare">BakaXL可尝试修复此核心，前往 &quot;恢复 > 自动修复&quot;。</Item>
 			<Item Key="CoreManagement_Tips_Suggest_Shader">若要加载迈恩克拉夫特光影文件，则可能需要安装 &quot;OptiNOTfine&quot;。</Item>
 
