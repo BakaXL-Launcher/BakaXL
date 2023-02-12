@@ -658,11 +658,11 @@
 			<Item Key="Bakaverse_Lobby_UserStatus_RelayConnectionEstablished">Joined / Connected with Relay</Item>
 			<Item Key="Bakaverse_Lobby_UserStatus_NATRestrict">Failed / NAT Strict</Item>
 			<Item Key="Bakaverse_Lobby_UserStatus_FirewallReject">Failed / NAT Firewall Rejected</Item>
-			<Item Key="Bakaverse_Lobby_UserStatus_RelayFailed">Failed / Unable to connect to relay server</Item>
-			<Item Key="Bakaverse_Lobby_UserStatus_WaitingJoinerAction">Joined / Connection assistant waiting for action</Item>
+			<Item Key="Bakaverse_Lobby_UserStatus_RelayFailed">Failed / Unable to Connect to Relay Server</Item>
+			<Item Key="Bakaverse_Lobby_UserStatus_WaitingJoinerAction">Joined / Connection Assistant Waiting for Action</Item>
 			<Item Key="Bakaverse_Lobby_UserStatus_Unknown">Failed / Unknown</Item>
 			
-			<Item Key="Bakaverse_Lobby_LocalPeerStatus_None">Not yet connected</Item>
+			<Item Key="Bakaverse_Lobby_LocalPeerStatus_None">Not Yet Connected</Item>
 			<Item Key="Bakaverse_Lobby_LocalPeerStatus_Initing">Initializing...</Item>
 			<Item Key="Bakaverse_Lobby_LocalPeerStatus_Inited">Initialized!</Item>
 			<Item Key="Bakaverse_Lobby_LocalPeerStatus_InitFailed">Initialization Failed</Item>
@@ -711,9 +711,9 @@
 			<Item Key="Bakaverse_OnlineStatus_Using_Full">Browsing: {0}</Item>
 			<Item Key="Bakaverse_OnlineStatus_Gaming">Gaming</Item>
 			<Item Key="Bakaverse_OnlineStatus_Gaming_Full">Playing: {0}</Item>
-            <Item Key="Bakaverse_OnlineStatus_Gaming_InServer">Playing in third-party Minecraft server</Item>
-			<Item Key="Bakaverse_OnlineStatus_Gaming_InLANServer">LAN world opening</Item>
-			<Item Key="Bakaverse_OnlineStatus_Gaming_InSinglePlayWorld">Playing Minecraft alone</Item>
+            <Item Key="Bakaverse_OnlineStatus_Gaming_InServer">Playing in Third-Party Minecraft Server</Item>
+			<Item Key="Bakaverse_OnlineStatus_Gaming_InLANServer">LAN World Opening</Item>
+			<Item Key="Bakaverse_OnlineStatus_Gaming_InSinglePlayWorld">Playing Minecraft Alone</Item>
 
 			<Item Key="Bakaverse_OnlineStatus_Gaming_InSinglePlayWorld_Dimension">Dimension: {0}</Item>
 			<Item Key="Bakaverse_OnlineStatus_Gaming_InSinglePlayWorld_Weather">Weather: {0}</Item>
@@ -722,7 +722,7 @@
 			<Item Key="BakaPlaza_FullName">BakaXL BakaPlaza</Item>
 			<Item Key="BakaPlaza_Update">Update</Item>
 
-            <Item Key="BakaPlaza_SearchBar_Watermark">Search for something...</Item>
+            <Item Key="BakaPlaza_SearchBar_Watermark">Search for Something...</Item>
 			<Item Key="BakaPlaza_SearchBar_SourceTarget_Plaza">Search the keyword in BakaPlaza</Item>
 			<Item Key="BakaPlaza_SearchBar_SourceTarget_CurseForge">Search the keyword in CurseForge</Item>
 			<Item Key="BakaPlaza_SearchBar_SourceTarget_Modrinth">Search the keyword in Modrinth</Item>
@@ -747,8 +747,8 @@
 
 			<Item Key="BakaPlaza_MinecraftInstaller_Category_Vanilla_Desc">Minecraft</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Category_Forge_Desc">Hotest API</Item>
-			<Item Key="BakaPlaza_MinecraftInstaller_Category_Liteloader_Desc">Light weight API</Item>
-			<Item Key="BakaPlaza_MinecraftInstaller_Category_Fabric_Desc">A new Open-source API</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Category_Liteloader_Desc">Light Weight API</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Category_Fabric_Desc">A new Open-Source API</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Category_Quilt_Desc">Modularization API</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Category_OptiFine_Desc">OptiFine</Item>
 
@@ -761,7 +761,7 @@
 			<Item Key="BakaPlaza_MinecraftInstaller_Core_Status_Alpha">Alpha</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Core_Status_Recommend">Recommend</Item>
 
-			<Item Key="BakaPlaza_MinecraftInstaller_Core_OptiFine_InstallMethod_NewCore">Install as a new core</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Core_OptiFine_InstallMethod_NewCore">Install as a New Core</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Core_OptiFine_InstallMethod_AsMod">Install as a Mod</Item>
 
 			<Item Key="BakaPlaza_MinecraftInstaller_Version">Version</Item>
@@ -775,7 +775,7 @@
 			<Item Key="BakaPlaza_MinecraftInstaller_Settings_InstallNow">Install Now</Item>
 
 			<Item Key="BakaPlaza_MinecraftInstaller_ListBox_Loading_Title">On my way!</Item>
-			<Item Key="BakaPlaza_MinecraftInstaller_ListBox_Loading_Subtitle">They a waiting the traffic light.</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_ListBox_Loading_Subtitle">They are waiting the traffic light.</Item>
 
 			<Item Key="BakaPlaza_MinecraftInstaller_ListBox_None_Title">Ohh, they got lost...</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_ListBox_None_Subtitle">This is really frustrating</Item>
@@ -789,21 +789,21 @@
 			<Item Key="BakaPlaza_MinecraftInstaller_Steps_Prepare">Preparing</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Steps_Successful">Success</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Steps_Downloading">Downloading</Item>
-			<Item Key="BakaPlaza_MinecraftInstaller_Steps_DownloadingSuccessful">Download completed</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Steps_DownloadingSuccessful">Download Completed</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Steps_CheckCoreEnv">Checking Environment</Item>
-			<Item Key="BakaPlaza_MinecraftInstaller_Steps_UnZip">Unzip files needed</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Steps_UnZip">Unzip Files Needed</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Steps_ReadJson">Analyzing Json file</Item>
-			<Item Key="BakaPlaza_MinecraftInstaller_Steps_CreateVersionFolder">Create directory for the version</Item>
-			<Item Key="BakaPlaza_MinecraftInstaller_Steps_PrepareJson">Pre-process Json information</Item>
-			<Item Key="BakaPlaza_MinecraftInstaller_Steps_WriteJson">Write Json information</Item>
-			<Item Key="BakaPlaza_MinecraftInstaller_Steps_GenBakaCoreConfig">Generate configuration files</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Steps_CreateVersionFolder">Creating Directory for the Version</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Steps_PrepareJson">Pre-Processing Json information</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Steps_WriteJson">Writing Json Information</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Steps_GenBakaCoreConfig">Generating Configuration Files</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Steps_CopyForgeFile">Copy Forge files</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Steps_PrepareProcessor">Preparing Forge File Processor</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Steps_GenerateForgeFile">Generating Forge Files</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Steps_GenerateOptiFineFile">Generating OptiFine Files</Item>
-			<Item Key="BakaPlaza_MinecraftInstaller_Steps_CopyOptiFineFile">Copying Optifine Files</Item>
-			<Item Key="BakaPlaza_MinecraftInstaller_Steps_PrepareVanilla">Prepare Vanilla Minecraft</Item>
-			<Item Key="BakaPlaza_MinecraftInstaller_Steps_CopyVanilla">Copy Vanilla Minecraft core</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Steps_CopyOptiFineFile">Copying OptiFine Files</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Steps_PrepareVanilla">Preparing Vanilla Minecraft</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Steps_CopyVanilla">Copying Vanilla Minecraft Core</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Steps_CleanUp">Preparing to finish</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Steps_InstallSuccessful">Install completed</Item>
 
