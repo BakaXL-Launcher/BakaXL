@@ -189,7 +189,7 @@
 			<Item Key="CoreManagement_Info_Links_HomePage">访问核心主页</Item>
 			<Item Key="CoreManagement_Info_Links_HomePage_Tips">若要访问此核心发布者的主页，请点击此处。&#xD;&#xA;此页面由此核心发布者而非 BakaXL 提供。</Item>
 			<Item Key="CoreManagement_Info_Links_PrivacyPolicy">访问核心隐私政策</Item>
-			<Item Key="CoreManagement_Info_Links_PrivacyPolicy_Tips">若要了解此核心的隐私政策及其如何保护您的个人隐私，请点击此处。&#xD;&#xA;此页面由此核心发布者而非 BakaXL 提供。</Item>
+			<Item Key="CoreManagement_Info_Links_PrivacyPolicy_Tips">若不想了解此核心的隐私政策及其如何保护您的个人隐私，请不要点击此处。&#xD;&#xA;此页面由此核心发布者而非 BakaXL 提供。</Item>
 
 			<Item Key="CoreManagement_Java_Tip">若想对该核心进行单独设置而不希望影响其他核心，请在这里设置。&#xD;&#xA;如果您不知道您在做什么，请不要修改任何内容。</Item>
 			
@@ -242,7 +242,7 @@
 			<Item Key="Core_Default_Description">这个核心中暑了，不如我们把它吃了吧！</Item>
 
 			<Item Key="HomeWelcome">欢迎</Item>
-			<Item Key="HomePreview">预览版本不代表最终体验</Item>
+			<Item Key="HomePreview">预览版本不代表最终体验，但第一版可能会</Item>
 
 			<Item Key="Home_Title">BakaXL被我们镐蜂啦！</Item>
 			<Item Key="Home_SubTitle">BakaXL现已被TT洗刷干净。不太一样，大不一样！</Item>
@@ -256,7 +256,7 @@
 
 			<Item Key="Tips">叽里呱啦</Item>
 
-			<Item Key="HomeHello">您好</Item>
+			<Item Key="HomeHello">恁好</Item>
 			<Item Key="HomeNewFeature">新特性</Item>
 			<Item Key="HomeTheme">个性化</Item>
 			<Item Key="HomePlugin">插件管理</Item>
@@ -363,7 +363,7 @@
 			<Item Key="BakaXL_Update_NeedLogin_Info">若要从当前设置的BakaXL预览体验通道中获取本体更新，则需要您登录至BakaXL Network。&#xD;&#xA;前往 &quot;本体设置 - 账户与档案&quot; 中登录您的BakaXL Account</Item>
 
 			<Item Key="BakaXL_Update_NotInsider_Title">需要成为预览体验计划成员</Item>
-			<Item Key="BakaXL_Update_NotInsider_Info">诶呀，您当前好像还不是已登记的BakaXL预览体验计划成员呢。&#xD;&#xA;若要更新至此预览体验版本，您的账户需要被登记为BakaXL预览体验计划成员。&#xD;&#xA;&#xD;&#xA;在BakaXL 局外人用户群中参与交流讨论 亦或是通过 &quot;电鳗&quot; 支持BakaXL的开发工作，即可将您的BakaXL账户登记为预览体验计划成员！</Item>
+			<Item Key="BakaXL_Update_NotInsider_Info">嗯？有不是鸽子的人进来了！。&#xD;&#xA;乖孩子需要先登记成预览成员才可以哦~&#xD;&#xA;&#xD;&#xA;在BakaXL 局外人用户群中参与交流讨论 亦或是通过 &quot;电鳗&quot; 支持BakaXL的开发工作，即可将您的BakaXL账户登记为预览体验计划成员！</Item>
 			<Item Key="BakaXL_Update_NotInsider_Tips">但实际上也有办法可以更新的啦，BakaXL不会做那种事的！</Item>
 			<Item Key="BakaXL_Update_NotInsider_Btn_Afdian">前往 &quot;电鳗&quot; 看看</Item>
 
@@ -393,8 +393,8 @@
 			<Item Key="Guide_Page_DisplayMode_Standard_Tips">主屏幕上默认不显示开始菜单与磁贴</Item>
 			<Item Key="Guide_Page_DisplayMode_Traditional_Tips">主屏幕上将始终显示开始菜单与磁贴</Item>
 
-			<Item Key="Guide_Page_Audio_Subtitle">音乐与音效</Item>
-			<Item Key="Guide_Page_Audio_Tips">在使用部分功能或主题时，BakaXL可播放音乐或音效</Item>
+			<Item Key="Guide_Page_Audio_Subtitle">TT音乐</Item>
+			<Item Key="Guide_Page_Audio_Tips">在使用部分功能或主题时，BakaXL可播放TT音乐或音效</Item>
 
 			<Item Key="Guide_Page_Audio_Off_Tips">关掉！关掉！一定要关掉！</Item>
 			<Item Key="Guide_Page_Audio_On_Tips">BakaXL将根据主题和功能播放背景音乐和音效</Item>
@@ -402,7 +402,7 @@
 			<Item Key="Guide_Page_QuickSet_Subtitle">快速设置</Item>
 			<Item Key="Guide_Page_QuickSet_Tips">您随时可以在'大齿轮'中修改这些设置</Item>
 
-			<Item Key="Guide_Page_QuickSet_Title">让BakaXL自动进行部分设置</Item>
+			<Item Key="Guide_Page_QuickSet_Title">让BakaXL进行全自动设置</Item>
 			<Item Key="Guide_Page_QuickSet_Manual">手动进行设置</Item>
 			<Item Key="Guide_Page_QuickSet_QuickSet">使用快速设置</Item>
 			<Item Key="Guide_Page_QuickSet_AboutQuickSet">了解快速设置会设置的内容</Item>
@@ -420,7 +420,7 @@
 			<Item Key="Guide_Page_Java_ManualLocate">手动定位</Item>
 
 			<Item Key="Guide_Page_Memory_Subtitle">迈恩克拉夫特运行内存</Item>
-			<Item Key="Guide_Page_Memory_Tips">建议使用至少 1024 MB 内存来启动游戏</Item>
+			<Item Key="Guide_Page_Memory_Tips">建议使用至少 1个1个GB 内存啊来启动游戏</Item>
 
 			<Item Key="Guide_Page_Profile_Title">创建属于您的用户档案</Item>
 			<Item Key="Guide_Page_Profile_Tips">用户档案将存储您的迈恩克拉夫特游戏昵称。&#xD;&#xA;在登录至您的BakaXL Account之后，与您一同游戏&#xD;&#xA;的好友们将可以在他们的BakaXL中看见您的头像和昵称。</Item>
@@ -434,7 +434,7 @@
 			<Item Key="Guide_Page_ProfileCreate_Tips">BakaXL使用符合业界标准的加密方式存储您的信息</Item>
 			<Item Key="Guide_Page_ProfileCreate_EnterUsername">输入您的用户名</Item>
 			<Item Key="Guide_Page_ProfileCreate_FogotPassword">忘记密码</Item>
-			<Item Key="Guide_Page_ProfileCreate_BuyMinecraft">购买正版迈恩克拉夫特</Item>
+			<Item Key="Guide_Page_ProfileCreate_BuyMinecraft">火速购买迈恩克拉夫特</Item>
 			<Item Key="Guide_Page_ProfileCreate_Hey">嗨! {0}!</Item>
 			<Item Key="Guide_Page_ProfileCreate_Online">我购买了正版迈恩克拉夫特</Item>
 			<Item Key="Guide_Page_ProfileCreate_Offline">我没有购买正版迈恩克拉夫特</Item>
@@ -477,9 +477,9 @@
 			<Item Key="Bakaverse_FriendsList_Title">康康好友</Item>
 			<Item Key="Bakaverse_AddFriends_Title">进来坐坐</Item>
 			<Item Key="Bakaverse_NotLogin">未登录</Item>
-			<Item Key="Bakaverse_CheckAfterLogin">在登录后查看您的线上ID</Item>
+			<Item Key="Bakaverse_CheckAfterLogin">在登录后查看您的明信片</Item>
 
-			<Item Key="Bakaverse_UserInfo">账户信息</Item>
+			<Item Key="Bakaverse_UserInfo">明信片</Item>
 
 			<Item Key="Bakaverse_NeedLogin_BeforeUse">在使用此功能之前</Item>
 			<Item Key="Bakaverse_NeedLogin_LoginRequired">需要登录</Item>
@@ -807,7 +807,7 @@
 			<Item Key="BakaPlaza_MinecraftInstaller_Steps_InstallSuccessful">安装成功</Item>
 
 			<Item Key="BakaPlaza_ItemDetail_Author">由 {0} 创作</Item>
-			<Item Key="BakaPlaza_ItemDetail_Author_Unknown">未知作者</Item>
+			<Item Key="BakaPlaza_ItemDetail_Author_Unknown">我不道啊，这是谁？</Item>
 
 			<Item Key="BakaPlaza_ItemDetail_ReleaseDate">发布日期</Item>
 			<Item Key="BakaPlaza_ItemDetail_DownloadCount">下载数</Item>
@@ -1149,7 +1149,7 @@
 			<Item Key="Setting_Support_Troubleshooting">疑难解答向导</Item>
 			<Item Key="Setting_Support_PrivacyPolicy">隐私政策</Item>
 
-			<Item Key="Setting_Support_ErrorHistory_RightPannel_Title">查看遇到的错误</Item>
+			<Item Key="Setting_Support_ErrorHistory_RightPannel_Title">查看遇到的特性</Item>
 			<Item Key="Setting_Support_ErrorHistory_RightPannel_Tips1">BakaXL会自动记录在运行时遇到的错误，您可以点击某个错误以查看所有被记录的信息。</Item>
 			<Item Key="Setting_Support_ErrorHistory_RightPannel_Tips2">这些信息只会在本地存储，不会被上传或保存至云端服务器。</Item>
 
@@ -1477,12 +1477,12 @@
 			<Item Key="Setting_Language_Utilities_Debugger_Browser_Title">选择一个BakaXL语言文件</Item>
 			<Item Key="Setting_Language_Utilities_Debugger_Browser_Filter">BakaXL语言文件</Item>
 
-			<Item Key="Setting_Network_Connected">已连接</Item>
-			<Item Key="Setting_Network_Error">连接错误</Item>
-			<Item Key="Setting_Network_MojangError">服务中断</Item>
+			<Item Key="Setting_Network_Connected">连上了</Item>
+			<Item Key="Setting_Network_Error">网炸了</Item>
+			<Item Key="Setting_Network_MojangError">网断了</Item>
 			<Item Key="Setting_Network_Maintenance">服务维护</Item>
-			<Item Key="Setting_Network_Timeout">连接超时</Item>
-			<Item Key="Setting_Network_ConnectedWithError">已连接，一个错误</Item>
+			<Item Key="Setting_Network_Timeout">503 Time-out</Item>
+			<Item Key="Setting_Network_ConnectedWithError">连了但没完全连</Item>
 
 			<Item Key="Setting_Network_InternetStatus_Title">互联网状态</Item>
 			<Item Key="Setting_Network_InternetStatus_Connected">爷能上网了。</Item>
@@ -1629,47 +1629,47 @@
 			<Item Key="Setting_Personalize_Color_NightMode">反转颜色模式</Item>
 			<Item Key="Setting_Personalize_Color_Tips">设置BakaXL窗体和控件所使用的配色方案。</Item>
 
-			<Item Key="Setting_Personalize_Tema_Title">BakaXL主题</Item>
-			<Item Key="Setting_Personalize_Tema_Tips">BakaXL 主题是一套存有个性化设置的打包文件，&#xD;允许您保存配色方案、背景及音乐音效，并与好友分享该个性化设置。&#xD;&#xD;BakaXL 主题单独存储于每一个 BakaXL 实例的运行时目录下，&#xD;已设置生效的 BakaXL 主题将会在这台计算机上同步。</Item>
+			<Item Key="Setting_Personalize_Tema_Title">BakaXL衣服</Item>
+			<Item Key="Setting_Personalize_Tema_Tips">BakaXL 衣服是一套存有个性化设置的打包文件，&#xD;允许您保存配色方案、背景及音乐音效，并与好友分享该个性化设置。&#xD;&#xD;BakaXL 主题单独存储于每一个 BakaXL 实例的运行时目录下，&#xD;已设置生效的 BakaXL 主题将会在这台计算机上同步。</Item>
 
-			<Item Key="Setting_Personalize_Tema_Patch">将当前个性化设置保存为主题</Item>
+			<Item Key="Setting_Personalize_Tema_Patch">将当前个性化设置保存为衣服</Item>
 
-			<Item Key="Setting_Personalize_Tema_List">浏览已安装的 BakaXL 主题</Item>
-			<Item Key="Setting_Personalize_Tema_Folder">打开主题文件夹</Item>
+			<Item Key="Setting_Personalize_Tema_List">浏览已安装的 BakaXL 衣服</Item>
+			<Item Key="Setting_Personalize_Tema_Folder">打开衣柜文件夹·</Item>
 
-			<Item Key="Setting_Personalize_Tema_Browser_GetTema_Title">获取 BakaXL 主题</Item>
-			<Item Key="Setting_Personalize_Tema_Browser_GetTema_Plaza_Title">在 BakaXL 游泳圈中获取更多主题</Item>
-			<Item Key="Setting_Personalize_Tema_Browser_GetTema_Plaza_Tips">在 BakaXL 游泳圈上查看来自其他 BakaXL 使用者提交的&#xD;&#xA;自制主题或者来自 BakaXL 官方制作的主题。</Item>
+			<Item Key="Setting_Personalize_Tema_Browser_GetTema_Title">获取 BakaXL 衣柜</Item>
+			<Item Key="Setting_Personalize_Tema_Browser_GetTema_Plaza_Title">在 BakaXL 游泳圈衣柜中获取更多主题</Item>
+			<Item Key="Setting_Personalize_Tema_Browser_GetTema_Plaza_Tips">在 BakaXL 游泳圈衣柜上查看来自其他 BakaXL 使用者提交的&#xD;&#xA;自制衣服或者来自 BakaXL 官方制作的衣服。</Item>
 
-			<Item Key="Setting_Personalize_Tema_Browser_Installed_Title">已安装的 BakaXL 主题</Item>
+			<Item Key="Setting_Personalize_Tema_Browser_Installed_Title">已放在衣柜的 BakaXL 衣服</Item>
 
-			<Item Key="Setting_Personalize_Tema_Browser_Manage_Title">管理 BakaXL 主题</Item>
+			<Item Key="Setting_Personalize_Tema_Browser_Manage_Title">管理 BakaXL 衣服</Item>
 
-			<Item Key="Setting_Personalize_Tema_Browser_TemaDesc_Title">主题介绍</Item>
+			<Item Key="Setting_Personalize_Tema_Browser_TemaDesc_Title">衣服介绍</Item>
 
-			<Item Key="Setting_Personalize_Tema_Default">BakaXL 默认主题</Item>
-			<Item Key="Setting_Personalize_Tema_Default_Desc">这是一个来自BakaXL的默认主题，非常默认，特别默认。</Item>
+			<Item Key="Setting_Personalize_Tema_Default">BakaXL 默认衣服</Item>
+			<Item Key="Setting_Personalize_Tema_Default_Desc">这是一个来自BakaXL的默认衣服，非常默认，特别默认，有一种默认的美。</Item>
 			<Item Key="Setting_Personalize_Tema_Custom">自定义</Item>
-			<Item Key="Setting_Personalize_Tema_Custom_Desc">这是一个自定义的BakaXL主题，也没有被打包起来，一切都显得那么的安静。</Item>
+			<Item Key="Setting_Personalize_Tema_Custom_Desc">这是一个自定义的BakaXL衣服，也没有被打包起来，一切都显得那么的安静。</Item>
 
-			<Item Key="Setting_Personalize_Tema_Patcher_Title">完善主题信息</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_Title">完善衣服信息</Item>
 			<Item Key="Setting_Personalize_Tema_Patcher_NoIcon">没图标呢</Item>
-			<Item Key="Setting_Personalize_Tema_Patcher_DefaultName">新BakaXL主题</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_DefaultName">新BakaXL衣服</Item>
 
 			<Item Key="Setting_Personalize_Tema_Patcher_Name">名称</Item>
-			<Item Key="Setting_Personalize_Tema_Patcher_Name_Watermark">主题的显示名称</Item>
-			<Item Key="Setting_Personalize_Tema_Patcher_Name_Tips">会作为主题文件的文件名及显示名称。&#xD;请不要包含任何令他人感到不适的内容。</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_Name_Watermark">衣服的显示名称</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_Name_Tips">会作为衣服文件的文件名及显示名称。&#xD;请不要包含任何令他人感到不适的内容。</Item>
 
 			<Item Key="Setting_Personalize_Tema_Patcher_Desc">介绍</Item>
-			<Item Key="Setting_Personalize_Tema_Patcher_Desc_Watermark">主题的介绍</Item>
-			<Item Key="Setting_Personalize_Tema_Patcher_Desc_Tips">当加载了该BakaXL主题后，将会在主题列表中显示介绍。&#xD;请不要包含任何令他人感到不适的内容。&#xD;&#xD;使用了并非由您创作的背景图片和背景音乐时，请注明图片创作者、&#xD;出处、来源、音乐作曲家、歌手、专辑名等信息。</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_Desc_Watermark">衣服的介绍</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_Desc_Tips">当加载了该BakaXL衣服后，将会在主题列表中显示介绍。&#xD;请不要包含任何令他人感到不适的内容。&#xD;&#xD;使用了并非由您创作的背景图片和背景音乐时，请注明图片创作者、&#xD;出处、来源、音乐作曲家、歌手、专辑名等信息。</Item>
 
 			<Item Key="Setting_Personalize_Tema_Patcher_Icon">图标</Item>
 			<Item Key="Setting_Personalize_Tema_Patcher_Icon_BtnTitle">选择图标</Item>
-			<Item Key="Setting_Personalize_Tema_Patcher_Icon_Tips">BakaXL将会在主题列表中显示该图标。&#xD;建议图标应当与主题内容相符，且不要包含工口或任何令他人感到&#xD;不适的内容。</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_Icon_Tips">BakaXL将会在衣柜中显示该图标。&#xD;建议图标应当与衣服内容相符，且不要包含工口或任何令他人感到&#xD;不适的内容。</Item>
 
 			<Item Key="Setting_Personalize_Tema_Patcher_Music">背景音乐</Item>
-			<Item Key="Setting_Personalize_Tema_Patcher_Music_Tips">BakaXL在加载主题后，会在对应的界面中播放背景音乐。&#xD; · 全局: 在任何界面均只循环播放主要背景音乐 &#xD; · 分离: 在&quot;本体设置&quot;及&quot;叽里呱啦&quot;页中播放独立的背景音乐。&#xD;&#xD;右键对应的按钮可以预览已设置的背景音乐。&#xD;为了预览音乐效果，BakaXL会自动打开背景音乐。</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_Music_Tips">BakaXL在加载衣服后，会在对应的界面中播放背景音乐。&#xD; · 全局: 在任何界面均只循环播放主要背景音乐 &#xD; · 分离: 在&quot;本体设置&quot;及&quot;叽里呱啦&quot;页中播放独立的背景音乐。&#xD;&#xD;右键对应的按钮可以预览已设置的背景音乐。&#xD;为了预览音乐效果，BakaXL会自动打开背景音乐。</Item>
 
 			<Item Key="Setting_Personalize_Tema_Patcher_Music_Selector_Title">选择一个音乐文件</Item>
 			<Item Key="Setting_Personalize_Tema_Patcher_Music_Selector_Filter">音乐格式</Item>
@@ -1684,27 +1684,27 @@
 			<Item Key="Setting_Personalize_Tema_Patcher_Music_Pos_Unset">尚未设置</Item>
 
 			<Item Key="Setting_Personalize_Tema_Patcher_SoundEffects">音效</Item>
-			<Item Key="Setting_Personalize_Tema_Patcher_SoundEffects_Unsupported_Tips">当前版本的BakaXL主题包不支持自定义音效功能。</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_SoundEffects_Unsupported_Tips">当前版本的BakaXL衣服不支持自定义音效功能。</Item>
 
 			<Item Key="Setting_Personalize_Tema_Patcher_CustomColor">自定义配色方案</Item>
-			<Item Key="Setting_Personalize_Tema_Patcher_CustomColor_Unsupported_Tips">当前版本的BakaXL主题包不支持自定义配色方案功能。</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_CustomColor_Unsupported_Tips">当前版本的BakaXL衣服不支持自定义配色方案功能。</Item>
 
 			<Item Key="Setting_Personalize_Tema_Patcher_Creator">制作者</Item>
-			<Item Key="Setting_Personalize_Tema_Patcher_Creator_UseAs">BakaXL将会使用 {0} 作为主题作者。</Item>
-			<Item Key="Setting_Personalize_Tema_Patcher_Creator_NetworkLogined_Tips">您当前已经登录 BakaXL Network，BakaXL默认将&#xD;使用您的 BakaXL Network ID 做为主题作者。</Item>
-			<Item Key="Setting_Personalize_Tema_Patcher_Creator_Default_Tips">您尚未登录至 BakaXL Network，BakaXL默认将&#xD;使用您账户档案列表中的首个档案用户名作为主题作者。</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_Creator_UseAs">BakaXL将会使用 {0} 作为衣服作者。</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_Creator_NetworkLogined_Tips">您当前已经登录 BakaXL Network，BakaXL默认将&#xD;使用您的 BakaXL Network ID 做为衣服作者。</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_Creator_Default_Tips">您尚未登录至 BakaXL Network，BakaXL默认将&#xD;使用您账户档案列表中的首个档案用户名作为衣服作者。</Item>
 
 			<Item Key="Setting_Personalize_Tema_Patcher_Creator_SetProfile_Tips">若要使用您的Minecraft账户档案名称，请</Item>
 			<Item Key="Setting_Personalize_Tema_Patcher_Creator_SetProfile_ClickHere">点击这里</Item>
-			<Item Key="Setting_Personalize_Tema_Patcher_Creator_SetProfile_Selector_Title">为该BakaXL主题设置作者</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_Creator_SetProfile_Selector_Title">为该BakaXL衣服设置作者</Item>
 
 			<Item Key="Setting_Personalize_Tema_Patcher_Safety_Legal">安全健康、版权保护及免责声明</Item>
-			<Item Key="Setting_Personalize_Tema_Patcher_Safety_Legal_Content">在使用BakaXL主题系统时，请务必注意所使用资源的使用许可。&#xD;请不要使用来自未知来源的内容。&#xD;&#xD;您应当且必须标注在主题中使用的背景图片、图标及音乐的来源&#xD;及创作者信息。&#xD;&#xD;您不可以将包含来自第三方未经授权内容所制作的BakaXL主题&#xD;用于任何商业用途。&#xD;&#xD;为了主题使用者的身心健康，以及对于未成年人的保护。&#xD;BakaXL不建议您使用任何包含工口或令他人引起不适的元素或内容。&#xD;&#xD;您不可以制作及传播任何包含违反国家法律及相关政策的主题。&#xD;BakaXL会采取相关措施禁止加载或传播含有政治意味的主题。&#xD;若发生上述情况，BakaXL有权利根据隐私政策向公共或政府机构&#xD;提供您的信息以协助调查。&#xD;&#xD;若您通过该功能制作BakaXL主题，则代表您已阅读并了解您将承担&#xD;任何由制作或分享该BakaXL主题可能会产生问题或潜在的法律后果，&#xD;BakaXL及其开发团队将不负责任。&#xD;&#xD;BakaXL采取措施以保护创作者的版权，若BakaXL收到来自创作者&#xD;的请求表明特定BakaXL主题含有来自其创作的内容且未获得相关&#xD;授权，则BakaXL将会限制用户传播或使用该主题。&#xD;&#xD;您始终可以在BakaXL官方网站上查看该政策的完整版本。</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_Safety_Legal_Content">在使用BakaXL衣服系统时，请务必注意所使用资源的使用许可。&#xD;请不要使用来自未知来源的内容。&#xD;&#xD;您应当且必须标注在衣服中使用的背景图片、图标及音乐的来源&#xD;及创作者信息。&#xD;&#xD;您不可以将包含来自第三方未经授权内容所制作的BakaXL衣服&#xD;用于任何商业用途。&#xD;&#xD;为了衣服使用者的身心健康，以及对于未成年人的保护。&#xD;BakaXL不建议您使用任何包含工口或令他人引起不适的元素或内容。&#xD;&#xD;您不可以制作及传播任何包含违反国家法律及相关政策的衣服。&#xD;BakaXL会采取相关措施禁止加载或传播含有政治意味的衣服。&#xD;若发生上述情况，BakaXL有权利根据隐私政策向公共或政府机构&#xD;提供您的信息以协助调查。&#xD;&#xD;若您通过该功能制作BakaXL衣服，则代表您已阅读并了解您将承担&#xD;任何由制作或分享该BakaXL衣服可能会产生问题或潜在的法律后果，&#xD;BakaXL及其开发团队将不负责任。&#xD;&#xD;BakaXL采取措施以保护创作者的版权，若BakaXL收到来自创作者&#xD;的请求表明特定BakaXL主题含有来自其创作的内容且未获得相关&#xD;授权，则BakaXL将会限制用户传播或使用该主题。&#xD;&#xD;您始终可以在BakaXL官方网站上查看该政策的完整版本。</Item>
 			<Item Key="Setting_Personalize_Tema_Patcher_Safety_Legal_Btn">阅读完整BakaXL主题系统使用政策</Item>
 
-			<Item Key="Setting_Personalize_Tema_Patcher_Export">导出主题</Item>
-			<Item Key="Setting_Personalize_Tema_Patcher_Export_Btn">打包并导出BakaXL主题</Item>
-			<Item Key="Setting_Personalize_Tema_Patcher_Export_Tips">导出主题则代表您已阅读并了解BakaXL主题系统使用政策。&#xD;该主题将会被导出至该BakaXL实例的 &quot;BakaXL\Tema&quot; 文件夹中。</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_Export">打包衣服</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_Export_Btn">打包并导出BakaXL衣服</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_Export_Tips">导出主题则代表您已阅读并了解BakaXL衣服系统使用政策。&#xD;该衣服将会被导出至该BakaXL实例的 &quot;BakaXL\Tema&quot; 文件夹中。</Item>
 
 			<Item Key="Setting_Accessibility_Info">&quot;飞奔的轮椅人&quot; 可让您让您根据个人需求自定义BakaXL的功能，&#xD;以满足不同的使用条件。</Item>
 			<Item Key="Setting_Accessibility_Vision_Title">视觉</Item>
@@ -1742,8 +1742,8 @@
 			<Item Key="Setting_Download_Source_Title">下载源</Item>
 			<Item Key="Setting_Download_Source_BMCLAPI_Btn_Title">中国大陆地区使用第三方下载源加速</Item>
 
-			<Item Key="Setting_Download_Source_BMCLAPIMirror_Btn_Title">BMCLAPI镜像服务器</Item>		
-			<Item Key="Setting_Download_Source_BMCLAPIMirror_Mirror_Source">传统</Item>
+			<Item Key="Setting_Download_Source_BMCLAPIMirror_Btn_Title">BMCLAPI镜像服务器(超快的辣)</Item>		
+			<Item Key="Setting_Download_Source_BMCLAPIMirror_Mirror_Source">传统(爱来自巨硬)</Item>
 			<Item Key="Setting_Download_Source_BMCLAPIMirror_Mirror_MCBBS">MCBBS源</Item>
 
 			<Item Key="Setting_Download_Source_Official">官方源</Item>
@@ -1767,7 +1767,7 @@
 
 			<Item Key="Setting_Plaza_Setting_Title">游泳圈设置</Item>
 			<Item Key="Setting_Plaza_Setting_AllowGeoIP">允许游泳圈感知我所处的位置</Item>
-			<Item Key="Setting_Plaza_Setting_AllowGeoIP_Tips">BakaXL 可以感知用户当前所处的位置 (仅包含至所在国家或城市)，&#xD;&#xA;并上报至游泳圈以提供更加本地化的服务。&#xD;&#xA;&#xD;&#xA;该信息不会与您的账户或计算机关联，&#xD;&#xA;若要了解我们如何保护您的隐私，请参阅 BakaXL 隐私政策。</Item>
+			<Item Key="Setting_Plaza_Setting_AllowGeoIP_Tips">BakaXL 可以感知用户当前所处的位置 (仅包含至所在国家或城市)，&#xD;&#xA;并上报至游泳圈以提供更加本地化的服务。&#xD;&#xA;&#xD;&#xA;该信息不会与您的账户或计算机关联，&#xD;&#xA;我们绝对不会拿您的位置信息突击，详情请参阅 BakaXL 隐私政策。</Item>
 			<Item Key="Setting_Plaza_Setting_CellularNetwork">节省数据流量</Item>
 			<Item Key="Setting_Plaza_Setting_CellularNetwork_Tips">在使用计费互联网连接时开启，&#xD;&#xA;开启后，游泳圈将在播放前询问您并降低视频播放的清晰度。&#xD;&#xA;并不是所有在游泳圈提供的视频都支持降低清晰度播放。</Item>
 
@@ -1775,7 +1775,7 @@
 			<Item Key="Setting_Protocol_Btn_Tips">BakaXL协议可以让您通过网站提供的按钮快速启动BakaXL。&#xD;&#xA;根据网站按钮提供的参数，可使BakaXL直接启动特定内建功能。&#xD;&#xA;参阅BakaXL开发人员中心了解如何将您的网站接入BakaXL协议。</Item>
 
 			<Item Key="Setting_Insider_Desc">简介</Item>
-			<Item Key="Setting_Insider_Info">BakaXL现已迈向全新的版本！这得感谢于所有参与了 BakaXL 预览体验计划   &#xD;&#xA;(BakaXL Insider Preview) 的成员们的付出和努力，没有了他们的帮助，我&#xD;&#xA;们就无法打造出如此出色的BakaXL。&#xD;&#xA;&#xD;&#xA;现在，你也可以加入我们让BakaXL变得更好。&#xD;&#xA;&#xD;&#xA;现在就加入 BakaXL 预览体验计划吧！抢先体验，给予反馈。</Item>
+			<Item Key="Setting_Insider_Info">BakaXL现已迈向全新的版本！这得感谢于所有参与了 BakaXL 预览体验计划   &#xD;&#xA;(BakaXL Insider Preview) 的鸽子们的付出和努力，没有了他们的帮助，我&#xD;&#xA;们就无法打造出如此出色的BakaXL。&#xD;&#xA;&#xD;&#xA;现在，你也可以加入我们让BakaXL变得更好。&#xD;&#xA;&#xD;&#xA;现在就加入 BakaXL 预览体验计划吧！抢先体验，给予反馈。</Item>
 			<Item Key="Setting_Insider_Warn_1">BakaXL Insider Preview中包含的功能，仅供预览体验，且在未来可&#xA;能会在未经提示的情况下被移除或修改。</Item>
 			<Item Key="Setting_Insider_Warn_2">预览版本的BakaXL因缺少必备功能，请勿加入整活包内进行分享。&#xD;&#xA;Bunny 兔兔通道的主要更新流程尚未开始，且大量落后于当前版本。</Item>
 			<Item Key="Setting_Insider_Desc">简介</Item>
@@ -1796,7 +1796,7 @@
 			<Item Key="Setting_Sponsor_List_Desc">不论您赞助与否，我们都感谢您使用 BakaXL！&#xD;&#xA;但若您通过电鳗赞助了 BakaXL，您的电鳗用户名将会显示在这里！&#xD;&#xA;&#xD;&#xA;按照发电时间进行排序，最近发电的将最先显示。&#xD;&#xA;本列表将会每 6 小时自动进行更新。</Item>
 
 			<Item Key="Setting_Sponsor_List_Loading">正在集结鸽子大军…</Item>
-			<Item Key="Setting_Sponsor_List_NoSponsor">太遗憾了，看上去没有任何赞助者…</Item>
+			<Item Key="Setting_Sponsor_List_NoSponsor">太遗憾了，看上去没有任何鸽子…</Item>
 			<Item Key="Setting_Sponsor_List_Sponsor">赞助者</Item>
 
 			<Item Key="Setting_About_Info">BakaXL开发团队全体成员在这里诚挚的感谢您使用BakaXL！</Item>
@@ -1841,7 +1841,7 @@
 			<Item Key="VolumeBar_Status_Paused">音频已暂停</Item>
 			<Item Key="VolumeBar_Status_Paused_Inactivity">BakaXL 在闲置时将自动闭嘴</Item>
 
-			<Item Key="VolumeBar_Status_Disabled">音频输出已被停用</Item>
+			<Item Key="VolumeBar_Status_Disabled">音频输出已爆炸</Item>
 			<Item Key="VolumeBar_Status_Error_NoDefaultDevice">无法获得当前设备的默认瞎bb设备</Item>
 			<Item Key="VolumeBar_Status_Error_InitializeFailed">在设置当前计算机的音频硬件时出现错误</Item>
 
@@ -1849,14 +1849,14 @@
 			<Item Key="HomeMenu_CurrentPaused">当前中断中的内容</Item>
 			<Item Key="HomeMenu_Continue_Tips">您可以按下HOME键继续当前内容</Item>
 
-			<Item Key="HomeMenu_WillClose">将要结束：{0}</Item>
+			<Item Key="HomeMenu_WillClose">将要干掉：{0}</Item>
 
 			<Item Key="HomeMenu_Confirm">确定要继续吗？</Item>
 			<Item Key="HomeMenu_Confirm_Tips">强制结束现有内容可能会导致进度丢失，并且此过程不可逆。</Item>
 
 			<Item Key="HomeMenu_Btn_Close">结束并返回BakaXL主界面</Item>
 			<Item Key="HomeMenu_Btn_Confirm">确认结束</Item>
-			<Item Key="HomeMenu_Btn_Closed">已结束</Item>
+			<Item Key="HomeMenu_Btn_Closed">已暴毙</Item>
 
 			<Item Key="IconSelector_DefaultTitle">选择一个图标</Item>
 			<Item Key="IconSelector_BrowseIcon">浏览自定义图标</Item>
@@ -1894,7 +1894,7 @@
 			<Item Key="MessageBox_Auth_Microsoft_LoginFailed_NoGameProfile_Content">此巨硬账户已经购入了迈恩克拉夫特，但并没有包含迈恩克拉夫特账户档案。&#xD;&#xA;&#xD;&#xA;如果您是 Xbox Game Pass 持有者，或在购买游戏之后从未设置过迈恩克拉夫特游戏ID，则需要使用 &quot;迈恩克拉夫特官方启动器&quot; 进行一次登录并进行游戏 ID 设置。随后才可以使用 BakaXL 等第三方启动器进行正版验证。</Item>
 
 			<Item Key="MessageBox_Auth_Microsoft_LoginFailed_ChildAccount_Title">未成年账户登录限制</Item>
-			<Item Key="MessageBox_Auth_Microsoft_LoginFailed_ChildAccount_Content">您的账户被巨硬划分为未成年账户，在继续登录前，需要由成年人的巨硬账户对此账户进行关联。&#xD;&#xA;联系您的监护人，将此账户添加至巨硬家庭后，才可以使用 Xbox Live 服务。&#xD;&#xA;&#xD;&#xA;（或将账户年龄修改为 18 岁或以上…）</Item>
+			<Item Key="MessageBox_Auth_Microsoft_LoginFailed_ChildAccount_Content">您的账户被巨硬划分为未成年账户(首先排除防沉迷)，在继续登录前，需要由成年人的巨硬账户对此账户进行关联。&#xD;&#xA;联系您的监护人，将此账户添加至巨硬家庭后，才可以使用 Xbox Live 服务。&#xD;&#xA;&#xD;&#xA;（或将账户年龄修改为 18 岁或以上…）</Item>
 			<Item Key="MessageBox_Auth_Microsoft_LoginFailed_ChildAccount_Tips">前往 https://account.xbox.com/ 了解如何关联未成年人账户</Item>
 
 			<Item Key="MessageBox_Auth_Microsoft_LoginFailed_NoXboxProfile_Title">账户尚未创建 Xbox 档案</Item>
@@ -1965,34 +1965,34 @@
 			<Item Key="MessageBox_SkinPatcher_RequireProfile_Content">制作BakaXL主题之前，您至少需要创建一个迈恩克拉夫特账户档案。</Item>
 
 			<Item Key="MessageBox_SkinPatcher_ImageDecodeFailed_Title">图标文件可能受损</Item>
-			<Item Key="MessageBox_SkinPatcher_ImageDecodeFailed_Content">该图标文件可能不完整或受损，BakaXL无法将其设为主题图标。&#xD;&#xA;请检查或更换一个图标文件，然后再试一次。</Item>
+			<Item Key="MessageBox_SkinPatcher_ImageDecodeFailed_Content">该图标文件可能不完整或受损，BakaXL无法将其设为衣服图标。&#xD;&#xA;请检查或更换一个图标文件，然后再试一次。</Item>
 
-			<Item Key="MessageBox_SkinPatcher_ThemeNoName_Title">缺少主题名称</Item>
-			<Item Key="MessageBox_SkinPatcher_ThemeNoName_Content">在生成BakaXL主题之前，您需要为该主题包设置一个不为空的显示名称。</Item>
+			<Item Key="MessageBox_SkinPatcher_ThemeNoName_Title">缺少衣服名称</Item>
+			<Item Key="MessageBox_SkinPatcher_ThemeNoName_Content">在生成BakaXL衣服之前，您需要为该衣服包装设置一个不为空的显示名称。</Item>
 
-			<Item Key="MessageBox_SkinPatcher_ThemeNoDesc_Title">缺少主题介绍</Item>
-			<Item Key="MessageBox_SkinPatcher_ThemeNoDesc_Content">在生成BakaXL主题之前，您需要为该主题包设置一个不为空的介绍。</Item>
+			<Item Key="MessageBox_SkinPatcher_ThemeNoDesc_Title">缺少衣服介绍</Item>
+			<Item Key="MessageBox_SkinPatcher_ThemeNoDesc_Content">在生成BakaXL衣服之前，您需要为该衣服包装设置一个不为空的介绍。</Item>
 
-			<Item Key="MessageBox_SkinPatcher_ThemeNoIcon_Title">缺少主题图标</Item>
+			<Item Key="MessageBox_SkinPatcher_ThemeNoIcon_Title">缺少衣服图标</Item>
 
-			<Item Key="MessageBox_SkinPatcher_ThemeNoIcon_Content">在生成BakaXL主题之前，您需要为该主题包设置一个图标。</Item>
-			<Item Key="MessageBox_SkinPatcher_ThemeNoCreator_Title">缺少主题制作者</Item>
-			<Item Key="MessageBox_SkinPatcher_ThemeNoCreator_Content">在生成BakaXL主题之前，您需要为该主题包设置一个制作者。&#xD;&#xA;在主题作者名称区域检查您的制作者设置是否正确。</Item>
+			<Item Key="MessageBox_SkinPatcher_ThemeNoIcon_Content">在打包BakaXL衣服之前，您需要为该衣服包装设置一个图标。</Item>
+			<Item Key="MessageBox_SkinPatcher_ThemeNoCreator_Title">缺少衣服制作者</Item>
+			<Item Key="MessageBox_SkinPatcher_ThemeNoCreator_Content">在生成BakaXL衣服之前，您需要为该衣服包装设置一个制作者。&#xD;&#xA;在衣服作者名称区域检查您的制作者设置是否正确。</Item>
 
 			<Item Key="MessageBox_SkinPatcher_ThemeNoMusic_Main_Title">缺少主要背景音乐</Item>
-			<Item Key="MessageBox_SkinPatcher_ThemeNoMusic_Main_Content">您尚未设置该BakaXL主题的主要背景音乐。&#xD;&#xA;BakaXL主题至少需要包含一个主要背景音乐。</Item>
+			<Item Key="MessageBox_SkinPatcher_ThemeNoMusic_Main_Content">您尚未设置该BakaXL衣服的主要背景音乐。&#xD;&#xA;BakaXL衣服至少需要包含一个主要背景音乐。</Item>
 
 			<Item Key="MessageBox_SkinPatcher_ThemeNoMusic_Split_Title">缺少分离背景音乐</Item>
-			<Item Key="MessageBox_SkinPatcher_ThemeNoMusic_Split_Content">您尚未设置该BakaXL主题的分离背景音乐。&#xD;&#xA;若您选择使用分离音乐模式，则需要为 &quot;本体设置&quot; 及 &quot;叽里呱啦&quot; 界面单独设置背景音乐。</Item>
+			<Item Key="MessageBox_SkinPatcher_ThemeNoMusic_Split_Content">您尚未设置该BakaXL衣服的分离背景音乐。&#xD;&#xA;若您选择使用分离音乐模式，则需要为 &quot;本体设置&quot; 及 &quot;叽里呱啦&quot; 界面单独设置背景音乐。</Item>
 
 			<Item Key="MessageBox_SkinPatcher_ThemeMusicTooBig_Title">该背景音乐文件体积过大</Item>
 			<Item Key="MessageBox_SkinPatcher_ThemeMusicTooBig_Content">该主题背景音乐超过限制大小，请尝试压缩音频或更换音频。&#xD;&#xA;限制的文件大小为 6 MB，请不要使用高比特率或无损类音频。</Item>
 
-			<Item Key="MessageBox_SkinPatcher_ThemeExport_Successful_Title">主题制作成功</Item>
-			<Item Key="MessageBox_SkinPatcher_ThemeExport_Successful_Content">{0} BakaXL主题已经制作并打包成功。&#xD;&#xA;BakaXL 已将该主题文件保存在  &quot;BakaXL\Tema &quot; 中。</Item>
+			<Item Key="MessageBox_SkinPatcher_ThemeExport_Successful_Title">衣服制作成功</Item>
+			<Item Key="MessageBox_SkinPatcher_ThemeExport_Successful_Content">{0} BakaXL衣服已经制作并打包成功。&#xD;&#xA;BakaXL 已将该衣服包装保存在  &quot;BakaXL\Tema &quot; 中。</Item>
 
-			<Item Key="MessageBox_SkinPatcher_ThemeExport_Failed_Title">主题导出失败</Item>
-			<Item Key="MessageBox_SkinPatcher_ThemeExport_Failed_Content">BakaXL无法顺利将主题文件导出至主题文件夹中。&#xD;&#xA;请确保BakaXL有足够权限访问主题文件夹，然后再试一次。</Item>
+			<Item Key="MessageBox_SkinPatcher_ThemeExport_Failed_Title">衣服导出失败</Item>
+			<Item Key="MessageBox_SkinPatcher_ThemeExport_Failed_Content">BakaXL无法顺利将衣服导出至衣柜文件夹中。&#xD;&#xA;请确保BakaXL有足够权限访问衣柜文件夹，然后再试一次。</Item>
 
 			<Item Key="MessageBox_PlazaError_UpdateRequire_Content">在继续使用BakaXL游泳圈的服务前，您需要进行本体更新。&#xD;&#xA;BakaXL需要更新至版本 {0}。</Item>
 			<Item Key="MessageBox_PlazaError_UpdateRequire_Tips">若BakaXL没有提示自动更新，则您需要在官网手动下载最新版本</Item>
@@ -2006,10 +2006,10 @@
 			<Item Key="MessageBox_PlazaError_WhenLaunch_Content">出现了异常情况，导致我们无法连接至BakaXL游泳圈服务器。&#xD;&#xA;请稍后再试。若问题持续存在，请参阅BakaXL官网。</Item>
 			<Item Key="MessageBox_PlazaError_WhenLaunch_Tips">我们可能会在未经通知的情况下对服务器进行维护</Item>
 
-			<Item Key="MessageBox_Plaza_InstallModPack_Title">要将此整合包安装至 BakaXL 吗？</Item>
+			<Item Key="MessageBox_Plaza_InstallModPack_Title">要将此整活包安装至 BakaXL 吗？</Item>
 			<Item Key="MessageBox_Plaza_InstallModPack_Content">&quot;{0}&quot; 将会被安装至当前 BakaXL 实例的所在文件夹中。&#xD;&#xA;整合包安装一旦开始，就根本停不下来了~！&#xD;&#xA;要开始安装吗？</Item>
 			<Item Key="MessageBox_Plaza_InstallModPack_Tips">若只是想获取此整合包的安装档案，请点击右侧另存为按钮。</Item>
-			<Item Key="MessageBox_Plaza_InstallModPack_Tips_Btn_No">等一等！</Item>
+			<Item Key="MessageBox_Plaza_InstallModPack_Tips_Btn_No">别急！</Item>
 
 			<Item Key="MessageBox_QuickSet_Title">什么是 "快速设置" ？</Item>
 			<Item Key="MessageBox_QuickSet_Content">快速设置可以帮助您根据系统当前的状态自动设置迈恩克拉夫特运行所需的Java虚拟机及内存。&#xD;&#xA;&#xD;&#xA;除此之外，快速设置还将会：&#xD;&#xA;· 开启 BakaXL的背景音乐和音效&#xD;&#xA;· 允许 游泳圈请求您的位置信息&#xD;&#xA;· 向BakaXL发送崩溃和启动诊断信息&#xD;&#xA;· 开启 BMCLAPI 以加快在中国大陆地区的资源下载速度&#xD;&#xA;· 自动加载所有已安装的BakaXL插件（并非所有的第三方插件都是安全的）</Item>
