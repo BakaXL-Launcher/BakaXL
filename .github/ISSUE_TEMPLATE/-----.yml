@@ -13,26 +13,26 @@ body:
 - type: textarea
   id: "yml-2"
   attributes:
-    label: 这个新功能是可以解决目前存在的某个问题或BUG吗？:monocle_face:
+    label: 这个新功能是可以解决目前存在的某个问题或BUG吗？
     placeholder: "-（请在这里回答）-"
   validations:
     required: true
 - type: textarea
   id: "yml-3"
   attributes:
-    label: 期望的功能描述 :thought_balloon:
+    label: 期望的功能描述
     placeholder: "-（请在这里回答）-"
   validations:
     required: true
 - type: textarea
   id: "yml-4"
   attributes:
-    label: 这个功能对于你来说是继续使用BakaXL的理由吗？:bellhop_bell:
+    label: 这个功能对于你来说是继续使用BakaXL的理由吗？
     placeholder: "-（请在这里回答）-"
   validations:
     required: true
 - type: textarea
   id: "yml-5"
   attributes:
-    label: 补充信息 :wind_chime:
+    label: 补充信息
     placeholder: "-（请在这里回答）-"
