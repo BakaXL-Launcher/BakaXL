@@ -48,8 +48,9 @@ body:
   id: "yml-7"
   attributes:
     label: 启动器版本
-    placeholder: "前往 “BakaXL本体设置 - 关于” 查看当前所使用的BakaXL版本和构建编号 
-例如：BakaXL 公众版 3.0.1.2 Build.2020.05.26.2135 / BakaXL Insider Preview 3.0.1.5 鹦鹉通道 Build.2020.5.30.2343"
+    placeholder: "前往 “BakaXL本体设置 - 关于” 查看当前所使用的BakaXL版本和构建编号
+    
+    例如：BakaXL 公众版 3.0.1.2 Build.2020.05.26.2135 / BakaXL Insider Preview 3.0.1.5 鹦鹉通道 Build.2020.5.30.2343"
   validations:
     required: true
 - type: textarea
