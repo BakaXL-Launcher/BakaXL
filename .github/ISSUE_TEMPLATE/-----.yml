@@ -1,0 +1,38 @@
+name: 新功能提案
+description: 你想要点啥新功能可以提一提
+labels: ["bug", "triage"]
+body:
+- type: checkboxes
+  id: "yml-1"
+  attributes:
+    label: "检查项"
+    description: "请逐个检查下列项目，并勾选确认。"
+    options:
+    - label: "我确认在Issues列表中并无其他人已经建议过相似的功能"
+      required: true
+- type: textarea
+  id: "yml-2"
+  attributes:
+    label: ## 这个新功能是可以解决目前存在的某个问题或BUG吗？:monocle_face:
+    placeholder: "-（请在这里回答）-"
+  validations:
+    required: true
+- type: textarea
+  id: "yml-3"
+  attributes:
+    label: ## 期望的功能描述 :thought_balloon:
+    placeholder: "-（请在这里回答）-"
+  validations:
+    required: true
+- type: textarea
+  id: "yml-4"
+  attributes:
+    label: ## 这个功能对于你来说是继续使用BakaXL的理由吗？:bellhop_bell:
+    placeholder: "-（请在这里回答）-"
+  validations:
+    required: true
+- type: textarea
+  id: "yml-5"
+  attributes:
+    label: ## 补充信息 :wind_chime:
+    placeholder: "-（请在这里回答）-"
