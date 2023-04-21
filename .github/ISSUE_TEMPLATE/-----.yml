@@ -1,6 +1,6 @@
 name: 新功能提案
 description: 你想要点啥新功能可以提一提
-labels: ["bug", "triage"]
+labels: ["新功能提案"]
 body:
 - type: checkboxes
   id: "yml-1"
