@@ -1,0 +1,60 @@
+name: BUG提交
+description: 如果你觉得这个东西好像不对劲，就提交给我们
+labels: ["BUG"  ]
+body:
+- type: checkboxes
+  id: "yml-1"
+  attributes:
+    label: "检查项"
+    description: "请逐个检查下列项目，并勾选确认。"
+    options:
+    - label: "我确认此问题在最新版本的BakaXL中依旧存在（Parrot 鹦鹉通道的最新构建版本）"
+    - label: "我确认在Issues列表中并无其他人已经提出过与此问题相同或相似的问题"
+      required: true
+- type: textarea
+  id: "yml-2"
+  attributes:
+    label: 遇到的问题
+    placeholder: "-（请在这里回答）-"
+  validations:
+    required: true
+- type: textarea
+  id: "yml-3"
+  attributes:
+    label: 期望的结果
+    placeholder: "-（请在这里回答）-"
+  validations:
+    required: true
+- type: textarea
+  id: "yml-4"
+  attributes:
+    label: 如何重现此问题？
+    placeholder: "-（请在这里回答）-"
+  validations:
+    required: true
+- type: textarea
+  id: "yml-5"
+  attributes:
+    label: 可能造成问题的原因
+    placeholder: "-（若不知道，请填写 “不知道”）-"
+- type: textarea
+  id: "yml-6"
+  attributes:
+    label: 系统环境 
+    placeholder: "例如：Windows 7 64位 SP1、Windows 10 专业版 64位 1909、Windows 10 家庭版 32位 2002"
+  validations:
+    required: true
+- type: textarea
+  id: "yml-7"
+  attributes:
+    label: 启动器版本
+    placeholder: "前往 “BakaXL本体设置 - 关于” 查看当前所使用的BakaXL版本和构建编号
+    
+    例如：BakaXL 公众版 3.0.1.2 Build.2020.05.26.2135 / BakaXL Insider Preview 3.0.1.5 鹦鹉通道 Build.2020.5.30.2343"
+  validations:
+    required: true
+- type: textarea
+  id: "yml-8"
+  attributes:
+    label: 附注
+    placeholder: "-（请在这里回答）-"
