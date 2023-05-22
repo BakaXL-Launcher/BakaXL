@@ -15,16 +15,16 @@ on:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
-  build:
-    # The type of runner that the job will run on
-    runs-on: windows-latest
+  build-binaries:
+    strategy:
+      fail-fast: false
+      matrix:
+        platform: [macos-latest, ubuntu-latest, windows-latest]
 
-    # Steps represent a sequence of tasks that will be executed as part of the job
+    runs-on: ${{ matrix.platform }}
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v3
-      
+      - uses: actions/checkout@v2
+
       - name: Checkout GitLab
         # You may pin to the exact commit or the version.
         # uses: Repositorios-Actions/checkout-gitLab@4ed5381833d99905cbe37192bb9c7926016a1374
@@ -41,27 +41,28 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 18
-          
+
       - name: install Rust stable
         uses: actions-rs/toolchain@v1
         with:
           toolchain: stable
-          
+
       - name: install dependencies (ubuntu only)
         if: matrix.platform == 'ubuntu-latest'
         run: |
           sudo apt-get update
           sudo apt-get install -y libgtk-3-dev webkit2gtk-4.0 libappindicator3-dev librsvg2-dev patchelf
-      
+
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: |
           cd bakaxl-rs
           ls
+          npm install pnpm -g
 
       - uses: JonasKruckenberg/tauri-build@v1
         id: tauri_build
-        
+
       - name: Run a multi-line script
         run: |
           ls
