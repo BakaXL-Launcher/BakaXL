@@ -67,6 +67,8 @@ jobs:
       
       - name: pnpm install
         run: |
+          cd bakaxl-rs
+          ls
           pnpm install
       
       - uses: JonasKruckenberg/tauri-build@v1
