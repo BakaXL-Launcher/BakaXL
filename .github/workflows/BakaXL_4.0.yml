@@ -61,7 +61,8 @@ jobs:
       
       - name: Setup pnpm
         uses: pnpm/action-setup@v2.2.4
-        
+        with:
+          dest: "${{ github.workspace }}/bakaxl-rs"
       - uses: JonasKruckenberg/tauri-build@v1
         id: tauri_build
 
