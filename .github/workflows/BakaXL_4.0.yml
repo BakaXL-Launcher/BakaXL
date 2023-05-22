@@ -60,15 +60,10 @@ jobs:
           ls
           npm install
       
-      - name: GitHub Action for pnpm
-        # You may pin to the exact commit or the version.
-        # uses: znck/pnpm@aa6c9dc74df684c62617db39734aa897f1859f61
-        uses: znck/pnpm@v0.1.0-alpha.1
-        
       - uses: JonasKruckenberg/tauri-build@v1
         id: tauri_build
         with:
-          projectPath: "$GITHUB_WORKSPACE/bakaxl-rs"
+          projectPath: "bakaxl-rs"
 
       - name: Run a multi-line script
         run: |
