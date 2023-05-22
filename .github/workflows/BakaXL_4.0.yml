@@ -52,13 +52,14 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y libgtk-3-dev webkit2gtk-4.0 libappindicator3-dev librsvg2-dev patchelf
+          sudo apt-get install pnpm
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: |
           cd bakaxl-rs
           ls
-          npm install
+          npm install -g pnpm
       
       - uses: JonasKruckenberg/tauri-build@v1
         id: tauri_build
