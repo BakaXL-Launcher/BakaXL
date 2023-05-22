@@ -58,6 +58,7 @@ jobs:
         run: |
           cd bakaxl-rs
           ls
+          npm install
       
       - name: GitHub Action for pnpm
         # You may pin to the exact commit or the version.
@@ -66,6 +67,8 @@ jobs:
         
       - uses: JonasKruckenberg/tauri-build@v1
         id: tauri_build
+        with:
+          projectPath: "$GITHUB_WORKSPACE/bakaxl-rs"
 
       - name: Run a multi-line script
         run: |
