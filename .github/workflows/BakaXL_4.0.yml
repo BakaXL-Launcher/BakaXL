@@ -58,7 +58,7 @@ jobs:
         run: |
           cd bakaxl-rs
           ls
-          npm install pnpm -g
+          npm install pnpm
 
       - uses: JonasKruckenberg/tauri-build@v1
         id: tauri_build
