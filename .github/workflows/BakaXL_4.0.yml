@@ -28,7 +28,7 @@ jobs:
           - os: windows-latest
             rust_target: x86_64-pc-windows-msvc
 
-    runs-on: ${{ matrix.platform.os }}
+    runs-on: ${{ matrix.platform }}
     steps:
       - uses: actions/checkout@v2
 
