@@ -26,15 +26,10 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Checkout GitLab
-        # You may pin to the exact commit or the version.
-        # uses: Repositorios-Actions/checkout-gitLab@4ed5381833d99905cbe37192bb9c7926016a1374
         uses: Repositorios-Actions/checkout-gitLab@1.0.3
         with:
-          # Usuario del repositorio
           user_repo: "${{ secrets.GITLAB_USER }}"
-          # contraseña del repositorio
           pass_repo: "${{ secrets.GITLAB_TOKEN }}"
-          # URL del repositorio
           url_repo: "${{ secrets.GITLAB_BAKAXL_V4_GIT }}"
 
       - name: setup node
@@ -42,6 +37,7 @@ jobs:
         with:
           node-version: 18
           cache: 'pnpm'
+          cache-dependency-path: 'bakaxl-rs/package-lock.json'
 
       - name: install Rust stable
         uses: actions-rs/toolchain@v1
