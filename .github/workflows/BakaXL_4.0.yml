@@ -36,7 +36,6 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 18
-          cache: 'pnpm'
           cache-dependency-path: 'bakaxl-rs/package-lock.json'
 
       - name: install Rust stable
