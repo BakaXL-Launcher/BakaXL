@@ -79,10 +79,14 @@ jobs:
 
       - name: Run a multi-line script
         run: |
+          cd bakaxl-rs/src-tauri/target/release
           ls
           
       - name: Upload Artifact
         uses: actions/upload-artifact@v3
         with:
           name: BakaXL 4.0
-          path: "bakaxl-rs/src-tauri/target/release/bundle"
+          path: |
+            "bakaxl-rs/src-tauri/target/release/bundle"
+            "bakaxl-rs/src-tauri/target/release/BakaXL.exe"
+            
