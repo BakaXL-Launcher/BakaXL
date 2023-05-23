@@ -20,8 +20,15 @@ jobs:
       fail-fast: false
       matrix:
         platform: [macos-latest, ubuntu-latest, windows-latest]
+        include:
+          - os: ubuntu-latest
+            rust_target: x86_64-unknown-linux-gnu
+          - os: macos-latest
+            rust_target: universal-apple-darwin
+          - os: windows-latest
+            rust_target: x86_64-pc-windows-msvc
 
-    runs-on: ${{ matrix.platform }}
+    runs-on: ${{ matrix.platform.os }}
     steps:
       - uses: actions/checkout@v2
 
@@ -82,11 +89,18 @@ jobs:
           cd bakaxl-rs/src-tauri/target/release
           ls
           
-      - name: Upload Artifact
+      - name: Upload Artifact (windows only)
+        if: matrix.platform == 'windows-latest'
         uses: actions/upload-artifact@v3
         with:
-          name: BakaXL 4.0
+          name: BakaXL 4.0 Windows
           path: |
-            "bakaxl-rs/src-tauri/target/release/bundle"
-            "bakaxl-rs/src-tauri/target/release/BakaXL.exe"
+            bakaxl-rs/src-tauri/target/release/bundle
+            bakaxl-rs/src-tauri/target/release/BakaXL.exe
             
+      - name: Upload Artifact (macos and linux only)
+        if: matrix.platform != 'windows-latest'
+        uses: actions/upload-artifact@v3
+        with:
+          name: BakaXL 4.0 Other
+          path: bakaxl-rs/src-tauri/target/release/bundle
