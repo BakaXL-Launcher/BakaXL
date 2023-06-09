@@ -9,7 +9,7 @@ body:
     description: "请逐个检查下列项目，并勾选确认。"
     options:
     - label: "我确认此问题在最新版本的BakaXL中依旧存在（Parrot 鹦鹉通道的最新构建版本）"
-    - label: "我确认此问题在当前通道的最新版本的BakaXL中依旧存在（当前通道通道的最新构建版本）"
+    - label: "我确认此问题在当前通道的最新版本的BakaXL中依旧存在（当前通道的最新构建版本）"
       required: true
     - label: "我确认在Issues列表中并无其他人已经提出过与此问题相同或相似的问题"
       required: true
