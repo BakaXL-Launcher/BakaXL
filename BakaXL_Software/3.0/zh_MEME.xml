@@ -248,7 +248,7 @@
 			<Item Key="Home_SubTitle">BakaXL现已被TT洗刷干净。不太一样，大不一样！</Item>
 			<Item Key="Home_SubTitle_Insider">BakaXL Insider Preview 预览体验版本</Item>
 
-			<Item Key="Home_Task_NoTask">BakaXL任务队列 >> 当前无任何任务和通知</Item>
+			<Item Key="Home_Task_NoTask">BakaXL任务队列 >> 当前无任何生产指标和通知</Item>
 			<Item Key="Home_Task_HasTask">BakaXL任务队列 >> {0} 项任务, {1} 项通知</Item>
 
 			<Item Key="Home_StartMenu_Title">开始</Item>
