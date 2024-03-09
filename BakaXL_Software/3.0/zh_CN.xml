@@ -1974,10 +1974,10 @@
 			<Item Key="Setting_Plaza_Setting_CellularNetwork_Tips">在使用计费互联网连接时开启，&#xD;&#xA;开启后，笨蛋广场将在播放前询问您并降低视频播放的清晰度。&#xD;&#xA;并不是所有在笨蛋广场提供的视频都支持降低清晰度播放。</Item>
 
 			<Item Key="Setting_Protocol_Btn_Title">BakaXL 协议</Item>
-			<Item Key="Setting_Protocol_Btn_Tips">BakaXL 协议可以让您通过网站提供的按钮快速启动 BakaXL。&#xD;&#xA;根据网站按钮提供的参数，可使 BakaXL 直接启动特定内建功能。&#xD;&#xA;参阅BakaXL开发人员中心了解如何将您的网站接入BakaXL协议。</Item>
+			<Item Key="Setting_Protocol_Btn_Tips">BakaXL 协议可以让您通过网站提供的按钮快速启动 BakaXL。&#xD;&#xA;根据网站按钮提供的参数，可使 BakaXL 直接启动特定内建功能。&#xD;&#xA;参阅 BakaXL 开发人员中心了解如何将您的网站接入 BakaXL 协议。</Item>
 
 			<Item Key="Setting_Insider_Desc">简介</Item>
-			<Item Key="Setting_Insider_Info">BakaXL 现已迈向全新的版本！这得感谢于所有参与了 BakaXL 预览体验计划   &#xD;&#xA;(BakaXL Insider Preview) 的成员们的付出和努力，没有了他们的帮助，我&#xD;&#xA;们就无法打造出如此出色的BakaXL。&#xD;&#xA;&#xD;&#xA;现在，你也可以加入我们让 BakaXL 变得更好。&#xD;&#xA;&#xD;&#xA;现在就加入 BakaXL 预览体验计划吧！抢先体验，给予反馈。</Item>
+			<Item Key="Setting_Insider_Info">BakaXL 现已迈向全新的版本！这得感谢于所有参与了 BakaXL 预览体验计划   &#xD;&#xA;(BakaXL Insider Preview) 的成员们的付出和努力，没有了他们的帮助，我&#xD;&#xA;们就无法打造出如此出色的 BakaXL。&#xD;&#xA;&#xD;&#xA;现在，你也可以加入我们让 BakaXL 变得更好。&#xD;&#xA;&#xD;&#xA;现在就加入 BakaXL 预览体验计划吧！抢先体验，给予反馈。</Item>
 			<Item Key="Setting_Insider_Warn_1">BakaXL Insider Preview 中包含的功能，仅供预览体验，且在未来可&#xA;能会在未经提示的情况下被移除或修改。</Item>
 			<Item Key="Setting_Insider_Warn_2">预览版本的 BakaXL 因缺少必备功能，请勿加入整合包内进行分享。</Item>
 			<Item Key="Setting_Insider_Desc">简介</Item>
@@ -1988,7 +1988,7 @@
 			<Item Key="Setting_Insider_ChangeTunnel_Btn">变更</Item>
 			<Item Key="Setting_Insider_StartBtn_Title">开始</Item>
 			<Item Key="Setting_Insider_LatestVersion">（当前分支上的预览体验版本：{0}）</Item>
-			<Item Key="Setting_Insider_Requirement">您的计算机需要安装 .Net Framework 4.5 才可以运行 BakaXL。&#xA;使用 BakaXL 的预览体验版本需要您使用 Windows 7或更高级操作系统。&#xA;推荐您使用Windows 10操作系统以体验BakaXL的全部功能。&#xA;&#xA;BakaXL 已不再支持 Windows XP 操作系统。</Item>
+			<Item Key="Setting_Insider_Requirement">您的计算机需要安装 .Net Framework 4.5 才可以运行 BakaXL。&#xA;使用 BakaXL 的预览体验版本需要您使用 Windows 7 或更高级操作系统。&#xA;推荐您使用 Windows 10 操作系统以体验 BakaXL 的全部功能。&#xA;&#xA;BakaXL 已不再支持 Windows XP 操作系统。</Item>
 
 			<Item Key="Setting_Sponsor_SupportOnAfdian_Title">在 爱发电 上支持 BakaXL 的开发。</Item>
 			<Item Key="Setting_Sponsor_SupportOnAfdian_Desc">感谢您选择并使用 BakaXL 启动器！&#xD;&#xA;您对我们的支持是让我们继续成长和发展的动力！</Item>
@@ -2031,7 +2031,7 @@
 			<Item Key="Setting_Tunnel_SLOTH">Sloth 树懒通道</Item>
 			<Item Key="Setting_Tunnel_SLOTH_UpdateMethod">正式版本更新通道</Item>
 
-			<Item Key="FileSelector_Java_Filter_Title">BakaXL - 请手动定位javaw.exe文件</Item>
+			<Item Key="FileSelector_Java_Filter_Title">BakaXL - 请手动定位 javaw.exe 文件</Item>
 			<Item Key="FileSelector_Java_Filter_Desc_Javaw">默认启动</Item>
 			<Item Key="FileSelector_Java_Filter_Desc_Java">Debug 模式</Item>
 
