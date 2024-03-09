@@ -3,7 +3,7 @@
 	<Type>
 		<Key>en_US</Key>
 		<Name>English (US, UK, Canada, New Zealand)</Name>
-		<Author>TT702 / pinballmanfan / bwtx1981 / Japerz</Author>
+		<Author>TT702 / pinballmanfan / Pigeon0v0 / Japerz</Author>
 	</Type>
 	<Language Key="en_US">
 		<Items>
@@ -107,6 +107,14 @@
 			<Item Key="TaskList_NoTaskTips">No tasks or notifications are in progress. </Item>
 			<Item Key="TaskList_HasTasks"> {0} tasks in progress</Item>
 
+			<Item Key="Spotlight_Title">BakaXL Spotlight</Item>
+			<Item Key="Spotlight_Tips">BakaXL Spotlight can help you find contents in settings, cores or BakaPlaza easily</Item>
+
+			<Item Key="Spotlight_SearchExamples">To search for specific versions of Minecraft, use "[Optional keywords] v= 1.19.3 +1.16 +1.10.2"&#xD;&#xA;To exclude specific versions, use "[Optional keywords] v= 1.20.1 -1.16.5"&#xD;&#xA;&#xD;&#xA;To search for cores using specific Mod Loaders, use "[Optional keywords] l= quilt +fabric"&#xD;&#xA;To exclude specific Mod Loaders, use "[Optional keywords] l= optifine -forge"&#xD;&#xA;&#xD;&#xA;Fuzzy pinyin and initial are supported in Chinese</Item>
+
+			<Item Key="Spotlight_NoResult_Title">No result found...</Item>
+			<Item Key="Spotlight_NoResult_Tips">Don't be sad... Try to change the keyword and search again?</Item>
+
 			<Item Key="CoreSelector_Title">Minecraft Cores</Item>
 			<Item Key="CoreSelector_SelectCore_Title">Select a Core</Item>
 			<Item Key="CoreSelector_DisplayMode">Display: </Item>
@@ -121,6 +129,7 @@
 			<Item Key="CoreSelector_DisplayMode_Favorite">Favorite</Item>
 			<Item Key="CoreSelector_DisplayMode_Vanilla">Vanilla</Item>
 			<Item Key="CoreSelector_DisplayMode_Forge">Forge</Item>
+			<Item Key="CoreSelector_DisplayMode_NeoForge">NeoForge</Item>
 			<Item Key="CoreSelector_DisplayMode_Fabric">Fabric</Item>
 			<Item Key="CoreSelector_DisplayMode_Liteloader">Liteloader</Item>
 			<Item Key="CoreSelector_DisplayMode_OptiFine">OptiFine</Item>
@@ -130,10 +139,11 @@
 			<Item Key="CoreSelector_Type_Major">Release</Item>
 			<Item Key="CoreSelector_Type_Snapshot">Snapshot</Item>
 
-			<Item Key="CoreSelector_CoreError_JsonError">Warning - JSON File Format Error</Item>
+			<Item Key="CoreSelector_CoreError_JsonError">Warning - Json File Format Error</Item>
 			<Item Key="CoreSelector_CoreError_NoinheritsFrom">Warning - Inherits Missing</Item>
 			<Item Key="CoreSelector_CoreError_NoJarFile">Warning - Core Jar Missing</Item>
 			<Item Key="CoreSelector_CoreError_NoJsonFile">Warning - JSON File Does Not Exist</Item>
+			<Item Key="CoreSelector_CoreError_BadJsonIdFormat">Warning - Core ID in Json Inconsistent with Folder Name</Item>
 			<Item Key="CoreSelector_CoreError_NotCompatible">Error - Format Not Compatible</Item>
 
 			<Item Key="CoreSelector_CoreProtocolMismatch_Title">This is NOT a standard Minecraft Core. </Item>
@@ -143,21 +153,34 @@
 			<Item Key="CoreSelector_CancelSelection_Title">Cancel</Item>
 			<Item Key="CoreSelector_ConfirmSelection_Title">Confirm</Item>
 			
+			<Item Key="CoreSelector_SetAsLaunchCore">Set As Launch Core</Item>
+			<Item Key="CoreSelector_CurrentLaunchCore">Already Set As Launch Core</Item>
+
+			<Item Key="CoreSelector_UnableToLaunch">Unable to Launch</Item>
+			<Item Key="CoreSelector_Warning">Warning</Item>
+			<Item Key="CoreSelector_CachedInfo">Cached Info Used</Item>
+
+			<Item Key="CoreSelector_LaunchCore">Launch the Core Directly</Item>
+
 			<Item Key="CoreManagement_Title">Advanced Core Management</Item>
 			<Item Key="CoreManagement_Publisher">Publisher: {0}</Item>
 			<Item Key="CoreManagement_Publisher_None">Publisher not available</Item>
 			<Item Key="CoreManagement_LastPlayed">Last played on {0}</Item>
 			<Item Key="CoreManagement_LastPlayed_None">Never played</Item>
-			<Item Key="CoreManagement_Version">核心标识版本: {0}</Item>
+			<Item Key="CoreManagement_Version">Core Identification Version: {0}</Item>
 
 			<Item Key="CoreManagement_Tips_Locked_MCVersion">Some options are unavailable because the Minecraft version is too old.</Item>
 			<Item Key="CoreManagement_Tips_Locked_ModPack">Some options are unavailable because they are managed by a mod pack provider.</Item>
 			<Item Key="CoreManagement_Tips_Locked_Server">Some options are unavailable because they are managed by the server corresponding to this mod pack.</Item>
 			
-			<Item Key="CoreManagement_Tips_Error_Json">The JSON file used by this core is not a standard Minecraft core file.</Item>
-			<Item Key="CoreManagement_Tips_Error_Json_Broken">The JSON file for this core is corrupt and can't be read by BakaXL.</Item>
+			<Item Key="CoreManagement_Tips_Error_NotCompatible">Critical files of the core may be damaged, or used a way to storage that BakaXL cannot identify. </Item>
+			<Item Key="CoreManagement_Tips_Error_Json">The Json file used by this core is not a standard Minecraft core file.</Item>
+			<Item Key="CoreManagement_Tips_Error_Json_BadIdFormat">The core ID in the Json file doesn't meet the specification. It should be the name of the core folder. &#xD;&#xA;Usually, BakaXL can correct the issue automatically. However, if you see this tip, it represents that you disabled the &quot;Auto fix Json with ID setting not conforming to spec&quot; feature in &quot;Settings - Advanced&quot; . </Item>
+			<Item Key="CoreManagement_Tips_Error_Json_Broken">The Json file for this core is corrupt and can't be read by BakaXL.</Item>
+			<Item Key="CoreManagement_Tips_Error_Json_Missing">The Json file for this core is missing, and BakaXL cannot use it. </Item>
 			<Item Key="CoreManagement_Tips_Error_Unsupported">This core uses a launcher-specific logo format, which can't be read by BakaXL.</Item>
 			<Item Key="CoreManagement_Tips_Error_Jar_Missing">The required Jar file for this core does not exist.</Item>
+			<Item Key="CoreManagement_Tips_Error_MissingPackageInfo">The config file for this core (Package.BakaCoreInfo) is removed externally, and the info showing here is from cache. &#xD;&#xA;The next time you open BakaXL, we will reinit the file. </Item>
 			<Item Key="CoreManagement_Tips_Error_Inherits_Missing">A Minecraft core that this core depends on does not exist.</Item>
 			
 			<Item Key="CoreManagement_Tips_Suggest_Reset">This core needs to be reset to work properly, go to&quot;Restore > Reset this core&quot;.</Item>
@@ -208,10 +231,11 @@
 			<Item Key="CoreManagement_Mods_Unsupported">This core or package does not a have an API that supports installing mods.&#xD;&#xA;If you want to use mods, you should install Forge, Fabric, or another mod API.&#xD;&#xA;&#xD;&#xA;If you believe that BakaXL incorrectly thinks that a core or package does not have an API that supports installing mods, please contact us.</Item>
 			
 			<Item Key="CoreManagement_Mods_ModLoader_Scanning">Scanning the core for a mod API</Item>
-			<Item Key="CoreManagement_Mods_ModLoader_Forge">This core has Minecraft Forge installed, version{0}</Item>
-			<Item Key="CoreManagement_Mods_ModLoader_Fabric">This core has Fabric Loader installed, version{0}</Item>
-			<Item Key="CoreManagement_Mods_ModLoader_Quilt">This core has Quilt Loader installed, version{0}</Item>
-			<Item Key="CoreManagement_Mods_ModLoader_Liteloader">This core has Liteloader installed, version{0}</Item>
+			<Item Key="CoreManagement_Mods_ModLoader_Forge">This core has Minecraft Forge installed, version {0}</Item>
+			<Item Key="CoreManagement_Mods_ModLoader_NeoForge">This core has NeoForge installed, version {0}</Item>
+			<Item Key="CoreManagement_Mods_ModLoader_Fabric">This core has Fabric Loader installed, version {0}</Item>
+			<Item Key="CoreManagement_Mods_ModLoader_Quilt">This core has Quilt Loader installed, version {0}</Item>
+			<Item Key="CoreManagement_Mods_ModLoader_Liteloader">This core has Liteloader installed, version {0}</Item>
             <Item Key="CoreManagement_Mods_ModLoader_OptiFine">This core has OptiFine HD installed.</Item>
 
 			<Item Key="CoreManagement_Mods_ModList_Title">Mods Folder</Item>
@@ -219,6 +243,20 @@
 			<Item Key="CoreManagement_Mods_ModList_Desc">BakaXL will scan this core's 'Mods' folder and display all supported mod files in this list.</Item>
 			<Item Key="CoreManagement_Mods_ModList_Scanning">Scanning...</Item>
 			<Item Key="CoreManagement_Mods_ModList_NoMods">BakaXL did not find any mod files in this core or package.</Item>
+
+			<Item Key="CoreManagement_Mods_ModList_Links_WebsiteUrl">Website</Item>
+			<Item Key="CoreManagement_Mods_ModList_Links_WikiUrl">Wiki</Item>
+			<Item Key="CoreManagement_Mods_ModList_Links_IssuesUrl">Feedback</Item>
+			<Item Key="CoreManagement_Mods_ModList_Links_SourceUrl">Source Code</Item>
+			<Item Key="CoreManagement_Mods_ModList_Links_Mcmod">MCMOD (Chinese)</Item>
+			<Item Key="CoreManagement_Mods_ModList_Links_Mcbbs">MCBBS (Chinese)</Item>
+
+			<Item Key="CoreManagement_Mods_ModList_RelationType_RequiredDependency">[Required]</Item>
+			<Item Key="CoreManagement_Mods_ModList_RelationType_OptionalDependency">[Optional]</Item>
+			<Item Key="CoreManagement_Mods_ModList_RelationType_EmbeddedLibrary">[Embedded]</Item>
+			<Item Key="CoreManagement_Mods_ModList_RelationType_Tool">[Tool]</Item>
+			<Item Key="CoreManagement_Mods_ModList_RelationType_Incompatible">[Incompatible]</Item>
+			<Item Key="CoreManagement_Mods_ModList_RelationType_Include">[Included]</Item>
 
 			<Item Key="CoreManagement_Restore_Title">Restore</Item>
 			<Item Key="CoreManagement_Restore_Button">Reset this core</Item>
@@ -240,6 +278,10 @@
 			<Item Key="Core_NeverRun">Never Launched.</Item>
 			<Item Key="Core_RecentRun">Last launch on: </Item>
 			<Item Key="Core_Default_Description">This core is too lazy to have a description.</Item>
+			<Item Key="Core_BaseMinecraftVersion">Minecraft Version</Item>
+			<Item Key="Core_Modloaders">Mod Loader Installed</Item>
+			<Item Key="Core_Modloaders_Empty">None</Item>
+			<Item Key="Core_InstancePath">Instance Directory</Item>
 
 			<Item Key="HomeWelcome">Welcome</Item>
 			<Item Key="HomePreview">Insider Preview Build</Item>
@@ -341,7 +383,10 @@
 			<Item Key="Maps">Maps</Item>
 			<Item Key="Modpack">ModPack</Item>
 			<Item Key="ModPacks">ModPacks</Item>
+			<Item Key="Resourcepack">ResourcePacks</Item>
 			<Item Key="ResourcePacks">ResourcePacks</Item>
+			<Item Key="Shader">ShadowPacks</Item>
+			<Item Key="ShaderPacks">ShadowPacks</Item>
 			<Item Key="ShadowPacks">ShadowPacks</Item>
 			<Item Key="BakaXLTema">BakaXL Themes</Item>
 			<Item Key="BakaXLPlugin">BakaXL Plugins</Item>
@@ -465,11 +510,11 @@
 			<Item Key="Bakaverse_Provider_Base_Tips">BakaXL Network Basic Service</Item>
 			<Item Key="Bakaverse_Provider_BaseIPv6">BakaXL Network (IPv6)</Item>
 			<Item Key="Bakaverse_Provider_BaseIPv6_Tips">BakaXL Network Basic Service (IPv6)</Item>
-			<Item Key="Bakaverse_Provider_LankoData_Alpha">LankoData (Alpha)</Item>
-			<Item Key="Bakaverse_Provider_LankoData_Alpha_Tips">BakaXL Network Probe and Relay Service provided by LankoData (Alpha)</Item>
-			<Item Key="Bakaverse_Provider_LankoData_Bravo">LankoData (Bravo)</Item>
-			<Item Key="Bakaverse_Provider_LankoData_Bravo_Tips">BakaXL Network Probe and Relay Service provided by LankoData (Bravo)</Item>
-			<Item Key="Bakaverse_Provider_Backup_Alpha">BakaXL Network Backup Node (Alpha)</Item>
+			<Item Key="Bakaverse_Provider_LankoData_Alpha">LankoData (Octo, Alpha)</Item>
+			<Item Key="Bakaverse_Provider_LankoData_Alpha_Tips">BakaXL Network Probe and Relay Service provided by LankoData (Alpha, now in Octo Network Technology)</Item>
+			<Item Key="Bakaverse_Provider_LankoData_Bravo">LankoData (Octo, Bravo)</Item>
+			<Item Key="Bakaverse_Provider_LankoData_Bravo_Tips">BakaXL Network Probe and Relay Service provided by LankoData (Bravo, now in Octo Network Technology)</Item>
+			<Item Key="Bakaverse_Provider_Backup_Alpha">BakaXL Network Backup Node (Legacy, Alpha)</Item>
 			<Item Key="Bakaverse_Provider_Backup_Alpha_Tips">BakaXL Network Backup Probe and Relay Server (Alpha)</Item>
 
 			<Item Key="Bakaverse_Title">&quot;{0}&quot;'s Bakaverse</Item>
@@ -560,14 +605,14 @@
 			<Item Key="Bakaverse_Lobby_LAN_Assist_Motd_Header">BakaXL Lobby Connection Assistant</Item>
 
 			<Item Key="Bakaverse_Lobby_Error_Title">Lobby Service Error</Item>
-			<Item Key="Bakaverse_Lobby_Error_Detail_Relogin">Please login to this BakaXL Account again</Item>
+			<Item Key="Bakaverse_Lobby_Error_Detail_Relogin">Please relogin to this BakaXL Account</Item>
 
 			<Item Key="Bakaverse_Lobby_Maintenance_Title">Planned Maintenance</Item>
 			<Item Key="Bakaverse_Lobby_Maintenance_Detail">BakaXL Lobby is currently unavailable</Item>
 			<Item Key="Bakaverse_Lobby_Maintenance_Tips">For more information about BakaXL Lobby maintenance, please visit: &#xD;&#xA;https://www.BakaXL.com/</Item>
 
 			<Item Key="Bakaverse_Lobby_CreateLobby_Title">Create a new lobby</Item>
-			<Item Key="Bakaverse_Lobby_CreateLobby_CustomLobbyID_TextBox_Watermark">Custom Code(in 25 letters)</Item>
+			<Item Key="Bakaverse_Lobby_CreateLobby_CustomLobbyID_TextBox_Watermark">Custom Code (in 25 letters)</Item>
 			<Item Key="Bakaverse_Lobby_CreateLobby_CustomLobbyID_TextBox_Tips">Thanks for supporting BakaXL! As a member of the Insider Program, &#xD;&#xA;You can choose a custom BakaXL Lobby Code when creating a lobby! &#xD;&#xA;Please don't violate BakaXL ToS when using this feature.&#xD;&#xA;Using this feature incorrectly will cancel your Insider status.</Item>
 			<Item Key="Bakaverse_Lobby_CreateLobby_LocalTarget_Watermark">No Minecraft multiplayer instances detected yet</Item>
 			<Item Key="Bakaverse_Lobby_CreateLobby_AllowStrangers_Btn_Title">Only open to my friends</Item>
@@ -591,20 +636,20 @@
 
 			<Item Key="Bakaverse_Lobby_LobbyInfo_LobbyHost_GameStatus_Title">Game Information</Item>
 			<Item Key="Bakaverse_Lobby_LobbyInfo_LobbyHost_GameStatus_NotInGame">Not In Game</Item>
-			<Item Key="Bakaverse_Lobby_LobbyInfo_LobbyHost_GameStatus_NotInGame_Tips">This lobby creator has not started Minecraft.&#xD;&#xA;After the game is launched, the version information will be displayed here synchronously.</Item>
+			<Item Key="Bakaverse_Lobby_LobbyInfo_LobbyHost_GameStatus_NotInGame_Tips">The Minecraft status of the lobby creator cannot be detected. &#xD;&#xA;Probably the lobby creator is NOT using BakaXL to launch the game, and some features will be restricted. &#xD;&#xA;After the game is launched, the version info will be displayed here synchronously. </Item>
 			
 			<Item Key="Bakaverse_Lobby_LobbyInfo_LobbyHost_GameStatus_InGame_NoVersion_Tips">Lobby creator is playing Minecraft.&#xD;&#xA;You must be on the same Minecraft version to join the game.&#xD;&#xA;If the lobby creator is using a modpack, you should also use the exact same modpack.</Item>
 			<Item Key="Bakaverse_Lobby_LobbyInfo_LobbyHost_GameStatus_InGame_WithVersion_Tips">Minecraft version: {0}.&#xD;&#xA;You must be on the same Minecraft version to join the game.&#xD;&#xA;If the lobby creator is using a modpack, you should also use the exact same modpack.</Item>
 			
 			<Item Key="Bakaverse_Lobby_LobbyInfo_Network_Title">Local Network</Item>
-			<Item Key="Bakaverse_Lobby_LobbyInfo_LocalNAT_Title">Local NAT Type</Item>
-			<Item Key="Bakaverse_Lobby_LobbyInfo_LocalUPnP_Title">Local UPnP Compatibility</Item>
+			<Item Key="Bakaverse_Lobby_LobbyInfo_LocalNAT_Title">NAT Type</Item>
+			<Item Key="Bakaverse_Lobby_LobbyInfo_LocalUPnP_Title">UPnP Compatibility</Item>
 
 			<Item Key="Bakaverse_Lobby_LobbyInfo_LocalIPv6_Title">IP Version</Item>
 			<Item Key="Bakaverse_Lobby_LobbyInfo_LocalIPv6_Checking">Checking</Item>
 			<Item Key="Bakaverse_Lobby_LobbyInfo_LocalIPv6_Checking_Tips">BakaXL will automatically choose connection&#xD;&#xA;way according to your network environment. </Item>
 			<Item Key="Bakaverse_Lobby_LobbyInfo_LocalIPv6_Support">IPv6 First</Item>
-			<Item Key="Bakaverse_Lobby_LobbyInfo_LocalIPv6_Support_Tips">Your network environment supports IPv6, BakaXL will#xD;&#xA;try to establish a faster connection by IPv6. </Item>
+			<Item Key="Bakaverse_Lobby_LobbyInfo_LocalIPv6_Support_Tips">Your network environment supports IPv6, BakaXL will&#xD;&#xA;try to establish a faster connection by IPv6. </Item>
 			<Item Key="Bakaverse_Lobby_LobbyInfo_LocalIPv6_UnSupport">IPv4 Only</Item>
 			<Item Key="Bakaverse_Lobby_LobbyInfo_LocalIPv6_UnSupport_Tips">Your network environment only supports IPv4, but don't worry&#xD;&#xA;BakaXL will connect by IPv4. </Item>
 
@@ -627,19 +672,27 @@
 			<Item Key="Bakaverse_Lobby_Relay_Status_Off">{0}, relay not enabled</Item>
 			<Item Key="Bakaverse_Lobby_Relay_Status_Off_Tips">If relay service has not been turned on, BakaXL will always try to establish a direct connection.</Item>
 			<Item Key="Bakaverse_Lobby_Relay_Status_Unavailable">Node is unavailable</Item>
-			<Item Key="Bakaverse_Lobby_Relay_Status_Unavailable_Tips">There is currently no suitable BakaXL Network Node, and the lobby will not be able to go online. Please check for maintenance announcements.</Item>
+			<Item Key="Bakaverse_Lobby_Relay_Status_Unavailable_Tips">There is currently no suitable BakaXL Network or Octo Network Node, and the lobby will not be able to go online. Please check for maintenance announcements.</Item>
 			<Item Key="Bakaverse_Lobby_Relay_Status_Unsupported">Unsupported Node</Item>
 			<Item Key="Bakaverse_Lobby_Relay_Status_Unsupported_Tips">The current version of BakaXL does not yet support this node, and the lobby will not be able to go online. Please try recreate the lobby.</Item>
 
 			<Item Key="Bakaverse_Lobby_Status_Info">Lobby Info</Item>
 			<Item Key="Bakaverse_Lobby_Status_Properties">Network properties</Item>
 
+			<Item Key="Bakaverse_Lobby_Status_Octo_Status">Octo Network</Item>
+
+			<Item Key="Bakaverse_Lobby_Status_Octo_Status_Enabled">Enabled</Item>		
+			<Item Key="Bakaverse_Lobby_Status_Octo_Status_Enabled_Tips">BakaXL will use Octo Network for connections</Item>
+
+			<Item Key="Bakaverse_Lobby_Status_Octo_Status_Error">Error</Item>
+			<Item Key="Bakaverse_Lobby_Status_Octo_Status_Error">Some problems occurred to Octo Network, and it's unavaliable</Item>
+
 			<Item Key="Bakaverse_Lobby_OverallRank_Excellent">Excellent</Item>
 			<Item Key="Bakaverse_Lobby_OverallRank_Good">Good</Item>
 			<Item Key="Bakaverse_Lobby_OverallRank_Normal">Normal</Item>
-			<Item Key="Bakaverse_Lobby_OverallRank_Bad">BAD</Item>
+			<Item Key="Bakaverse_Lobby_OverallRank_Bad">Bad</Item>
 
-			<Item Key="Bakaverse_Lobby_LobbyJoinRequest_Title">Join lobby request</Item>
+			<Item Key="Bakaverse_Lobby_LobbyJoinRequest_Title">Join Lobby Request</Item>
 			<Item Key="Bakaverse_Lobby_LobbyJoinRequest_Tips">If there are users requesting to join the current lobby, they will be displayed here.</Item>
 
 			<Item Key="Bakaverse_Lobby_OnlineUsers_Title">Online User List</Item>
@@ -656,10 +709,10 @@
 			<Item Key="Bakaverse_Lobby_UserStatus_ConnectionEstablished">Joined / Connected</Item>
 			<Item Key="Bakaverse_Lobby_UserStatus_IPv6ConnectionEstablished">Joined / IPv6 Connected</Item>
 			<Item Key="Bakaverse_Lobby_UserStatus_RelayConnectionEstablished">Joined / Connected with Relay</Item>
-			<Item Key="Bakaverse_Lobby_UserStatus_NATRestrict">Failed / NAT Strict</Item>
+			<Item Key="Bakaverse_Lobby_UserStatus_NATRestrict">Failed / Strict NAT</Item>
 			<Item Key="Bakaverse_Lobby_UserStatus_FirewallReject">Failed / NAT Firewall Rejected</Item>
-			<Item Key="Bakaverse_Lobby_UserStatus_RelayFailed">Failed / Unable to connect to relay server</Item>
-			<Item Key="Bakaverse_Lobby_UserStatus_WaitingJoinerAction">Joined / Connection assistant waiting for action</Item>
+			<Item Key="Bakaverse_Lobby_UserStatus_RelayFailed">Failed / Unable to Connect to Relay</Item>
+			<Item Key="Bakaverse_Lobby_UserStatus_WaitingJoinerAction">Joined / Connection Assistant Waiting for Action</Item>
 			<Item Key="Bakaverse_Lobby_UserStatus_Unknown">Failed / Unknown</Item>
 			
 			<Item Key="Bakaverse_Lobby_LocalPeerStatus_None">Not yet connected</Item>
@@ -668,7 +721,7 @@
 			<Item Key="Bakaverse_Lobby_LocalPeerStatus_InitFailed">Initialization Failed</Item>
 			<Item Key="Bakaverse_Lobby_LocalPeerStatus_Punching">Establishing Connection</Item>
 			<Item Key="Bakaverse_Lobby_LocalPeerStatus_ReversePunching">Establishing Reverse Connection</Item>
-			<Item Key="Bakaverse_Lobby_LocalPeerStatus_NATRestrict">NAT Restrict</Item>
+			<Item Key="Bakaverse_Lobby_LocalPeerStatus_NATRestrict">Strict NAT</Item>
 			<Item Key="Bakaverse_Lobby_LocalPeerStatus_FirewallReject">NAT Firewall Rejected</Item>
 			<Item Key="Bakaverse_Lobby_LocalPeerStatus_WaitingRelay">Waiting for Relay Server</Item>
 			<Item Key="Bakaverse_Lobby_LocalPeerStatus_WaitingMinecraftConnect">Waiting for Minecraft Connection</Item>
@@ -682,7 +735,17 @@
 			<Item Key="Bakaverse_UserSettings_Title">User Settings</Item>
 			<Item Key="Bakaverse_UserSettings_PersonalInfo">Personal Information Settings</Item>
 			<Item Key="Bakaverse_UserSettings_PersonalInfo_Status">Change my online status</Item>
+
 			<Item Key="Bakaverse_UserSettings_PersonalInfo_Avatar">Change avatar</Item>
+			<Item Key="Bakaverse_UserSettings_PersonalInfo_Avatar_Tips">BakaXL will cut and compress the picture. &#xD;&#xA;Do NOT upload any content that violates laws, or your account will be banned. &#xD;&#xA;&#xD;&#xA;The avatar can only be changed at regular intervals. &#xD;&#xA;Usually, the interval is 30 mins. </Item>
+
+			<Item Key="Bakaverse_UserSettings_PersonalInfo_Avatar_Browse_Title">Choose a picture as your account avatar</Item>
+			<Item Key="Bakaverse_UserSettings_PersonalInfo_Avatar_Browse_Filter">Picture Format</Item>
+
+			<Item Key="Bakaverse_UserSettings_PersonalInfo_Avatar_Upload_Confirm">Comfirm to change</Item>
+			<Item Key="Bakaverse_UserSettings_PersonalInfo_Avatar_Upload_Cancel">Cancel</Item>
+			<Item Key="Bakaverse_UserSettings_PersonalInfo_Avatar_Upload_Tips">The last warn! Uploading any content that violates laws will make your account to be banned. &#xD;&#xA;After you comfirm, the avatar will be uploaded to BakaXL Network. </Item>
+
 			<Item Key="Bakaverse_UserSettings_PersonalInfo_AccountSettings">Go to BakaXL Account to modify settings</Item>
 
 			<Item Key="Bakaverse_UserSettings_Privacy">Privacy Settings</Item>
@@ -747,6 +810,7 @@
 
 			<Item Key="BakaPlaza_MinecraftInstaller_Category_Vanilla_Desc">Minecraft</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Category_Forge_Desc">Hotest API</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Category_NeoForge_Desc">Hotest API</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Category_Liteloader_Desc">Light weight API</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Category_Fabric_Desc">A new Open-source API</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Category_Quilt_Desc">Modularization API</Item>
@@ -780,11 +844,12 @@
 			<Item Key="BakaPlaza_MinecraftInstaller_ListBox_None_Title">Ohh, they got lost...</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_ListBox_None_Subtitle">This is really frustrating</Item>
 
-			<Item Key="BakaPlaza_MinecraftInstaller_CoreDesc_Default">Downloaded from BakaPlaza - Vanilla Minecraft {0} </Item>
-			<Item Key="BakaPlaza_MinecraftInstaller_CoreDesc_Forge">Downloaded from BakaPlaza - Minecraft {1} with Forge {0} </Item>
-			<Item Key="BakaPlaza_MinecraftInstaller_CoreDesc_OptiFine">Downloaded from BakaPlaza - Minecraft {1} with OptiFine {0}</Item>
-			<Item Key="BakaPlaza_MinecraftInstaller_CoreDesc_Fabric">Downloaded from BakaPlaza - Minecraft {1} with Fabric {0}</Item>
-			<Item Key="BakaPlaza_MinecraftInstaller_CoreDesc_Quilt">Downloaded from BakaPlaza - Minecraft {1} with Quilt {0}</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_CoreDesc_Default">Downloaded from BakaXL - Vanilla Minecraft {0} </Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_CoreDesc_Forge">Downloaded from BakaXL - Minecraft {1} with Forge {0} </Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_CoreDesc_NeoForge">Downloaded from BakaXL - Minecraft {1} with NeoForge {0} </Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_CoreDesc_OptiFine">Downloaded from BakaXL - Minecraft {1} with OptiFine {0}</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_CoreDesc_Fabric">Downloaded from BakaXL - Minecraft {1} with Fabric {0}</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_CoreDesc_Quilt">Downloaded from BakaXL - Minecraft {1} with Quilt {0}</Item>
 
 			<Item Key="BakaPlaza_MinecraftInstaller_Steps_Prepare">Preparing</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Steps_Successful">Success</Item>
@@ -800,8 +865,10 @@
 			<Item Key="BakaPlaza_MinecraftInstaller_Steps_CopyForgeFile">Copy Forge files</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Steps_PrepareProcessor">Preparing Forge File Processor</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Steps_GenerateForgeFile">Generating Forge Files</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Steps_CopyNeoForgeFile">Copying NeoForge Files</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Steps_GenerateNeoForgeFile">Generating NeoForge Files</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Steps_GenerateOptiFineFile">Generating OptiFine Files</Item>
-			<Item Key="BakaPlaza_MinecraftInstaller_Steps_CopyOptiFineFile">Copying Optifine Files</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Steps_CopyOptiFineFile">Copying OptiFine Files</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Steps_PrepareVanilla">Prepare Vanilla Minecraft</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Steps_CopyVanilla">Copy Vanilla Minecraft core</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Steps_CleanUp">Preparing to finish</Item>
@@ -821,6 +888,9 @@
 			
 			<Item Key="BakaPlaza_ItemDetail_Favorite_Add">Add to Favorite List</Item>
 			<Item Key="BakaPlaza_ItemDetail_Favorite_Remove">Remove from Favorite List</Item>
+
+			<Item Key="BakaPlaza_ItemDetail_ShareItem_Add">Share</Item>
+			<Item Key="BakaPlaza_ItemDetail_ShareItem_Clipboard_Template">I'm sharing &quot;{0}&quot; to you in BakaXL! &#xD;&#xA;Copy the link &quot;{1}&quot; of the resource, and press &quot;Ctrl + V&quot; in BakaXL to open it! </Item>
 			
 			<Item Key="BakaPlaza_ItemDetail_Sections_Preview">Preview</Item>
 			<Item Key="BakaPlaza_ItemDetail_Sections_Description">Description</Item>
@@ -855,7 +925,7 @@
 			<Item Key="BakaPlaza_ItemDetail_Link_wikiUrl">Visit Wiki</Item>
 			<Item Key="BakaPlaza_ItemDetail_Link_issuesUrl">Report Issues to author</Item>
 			<Item Key="BakaPlaza_ItemDetail_Link_sourceUrl">Visit the Mainpage of the Open-source Project</Item>
-			<Item Key="BakaPlaza_ItemDetail_Link_mcmodUrl">Visit MCMod for this resource's information (Chinese)</Item>
+			<Item Key="BakaPlaza_ItemDetail_Link_mcmodUrl">Visit MCMOD for this resource's information (Chinese)</Item>
 			<Item Key="BakaPlaza_ItemDetail_Link_mcbbsUrl">Visit MCBBS for this resource's information (Chinese)</Item>
 			
 			<Item Key="BakaPlaza_ItemDetail_Loading_Title">Loading</Item>
@@ -931,6 +1001,9 @@
 			<Item Key="BakaPlaza_ItemList_SearchFrom_PlazaOnly">Search in BakaXL BakaPlaza</Item>
 			<Item Key="BakaPlaza_ItemList_SearchFrom_CurseForgeOnly">Search in CurseForge</Item>
 			<Item Key="BakaPlaza_ItemList_SearchFrom_ModrinthOnly">Search in Modrinth</Item>
+			
+			<Item Key="BakaPlaza_ItemList_SearchFrom_WithSource">Searching in {0}</Item>
+
 
 			<Item Key="BakaPlaza_ItemList_PresetList_BakaTema_Title">Browse all BakaXL Themes</Item>
 			<Item Key="BakaPlaza_ItemList_PresetList_BakaTema_SubTitle">Personalize your BakaXL by using Themes! </Item>
@@ -963,8 +1036,14 @@
 			<Item Key="BakaPlaza_Item_Types_Addons">Bedrock Addons or Java Data Packs</Item>
 			<Item Key="BakaPlaza_Item_Types_Customization">ShaderPacks and Personalization</Item>
 			<Item Key="BakaPlaza_Item_Types_Modpacks">ModPacks</Item>
+			<Item Key="BakaPlaza_Item_Types_ModPack">ModPacks</Item>
 			<Item Key="BakaPlaza_Item_Types_Mods">Mods</Item>
 			<Item Key="BakaPlaza_Item_Types_Resource_Packs">Resource Packs</Item>
+			<Item Key="BakaPlaza_Item_Types_Resourcepack">Resource Packs</Item>
+			<Item Key="BakaPlaza_Item_Types_Shader_Packs">Shader Packs</Item>
+			<Item Key="BakaPlaza_Item_Types_ShaderPacks">Shader Packs</Item>
+			<Item Key="BakaPlaza_Item_Types_Shaders">Shader Packs</Item>
+			<Item Key="BakaPlaza_Item_Types_Data_Packs">Data Packs for Java</Item>
 			<Item Key="BakaPlaza_Item_Types_Worlds">Maps</Item>
 
 			<Item Key="BakaPlaza_Item_Tags_World_Gen">World Generating</Item>
@@ -1011,6 +1090,13 @@
 			<Item Key="BakaPlaza_Item_Tags_QoL">QoL</Item>
 			<Item Key="BakaPlaza_Item_Tags_Lucky_Blocks">Lucky Blocks</Item>
 			<Item Key="BakaPlaza_Item_Tags_FancyMenu">Fancy Menu</Item>
+			<Item Key="BakaPlaza_Item_Tags_Create">Create</Item>
+			<Item Key="BakaPlaza_Item_Tags_KubeJS">KubeJS</Item>
+			<Item Key="BakaPlaza_Item_Tags_Thermal_Expansion">Thermal Expansion</Item>
+			<Item Key="BakaPlaza_Item_Tags_Configuration">Configuration</Item>
+			<Item Key="BakaPlaza_Item_Tags_Scripts">Scripts</Item>
+			<Item Key="BakaPlaza_Item_Tags_Recipes">Recipes</Item>
+
 
 			<Item Key="BakaPlaza_Item_Tags_Tech">Tech</Item>
 			<Item Key="BakaPlaza_Item_Tags_Sci-Fi">Sci-Fi</Item>
@@ -1042,6 +1128,7 @@
 			<Item Key="BakaPlaza_Item_Tags_Miscell">Miscell</Item>
 			<Item Key="BakaPlaza_Item_Tags_Mod_Support">Mod Supported</Item>
 			<Item Key="BakaPlaza_Item_Tags_Data_Packs">Data Packs</Item>
+			<Item Key="BakaPlaza_Item_Tags_Datapack">Data Packs</Item>
 			<Item Key="BakaPlaza_Item_Tags_Font_Packs">Font Packs</Item>
 			
 			<Item Key="BakaPlaza_Item_Tags_Adventure">Adventure</Item>
@@ -1055,17 +1142,59 @@
 			<Item Key="BakaPlaza_Item_Tags_Adventure">Adventure</Item>
 			<Item Key="BakaPlaza_Item_Tags_Cursed">Cursed</Item>
 			<Item Key="BakaPlaza_Item_Tags_Decoration">Decoration</Item>
+			<Item Key="BakaPlaza_Item_Tags_Economy">Economy</Item>
 			<Item Key="BakaPlaza_Item_Tags_Equipment">Equipment</Item>
+			<Item Key="BakaPlaza_Item_Tags_Game-mechanics">Game Mechanics</Item>
 			<Item Key="BakaPlaza_Item_Tags_Library">Library</Item>
 			<Item Key="BakaPlaza_Item_Tags_Misc">Misc</Item>
 			<Item Key="BakaPlaza_Item_Tags_Optimization">Optimization</Item>
 			<Item Key="BakaPlaza_Item_Tags_Utility">Utility</Item>
 			<Item Key="BakaPlaza_Item_Tags_Worldgen">World Generating</Item>
+			<Item Key="BakaPlaza_Item_Tags_Management">Management</Item>
+			<Item Key="BakaPlaza_Item_Tags_Minigame">Mini-Game</Item>
+			<Item Key="BakaPlaza_Item_Tags_Social">Social</Item>
+			<Item Key="BakaPlaza_Item_Tags_Transportation">Transportation</Item>
 
 			<Item Key="BakaPlaza_Item_Tags_Challenging">Challenging</Item>
 			<Item Key="BakaPlaza_Item_Tags_Combat">Combat</Item>
 			<Item Key="BakaPlaza_Item_Tags_Kitchen-sink">Kitchen-Sink</Item>
 			<Item Key="BakaPlaza_Item_Tags_Lightweight">LightWeight</Item>
+
+			<Item Key="BakaPlaza_Item_Tags_Audio">Audio</Item>
+			<Item Key="BakaPlaza_Item_Tags_Blocks">Blocks</Item>
+			<Item Key="BakaPlaza_Item_Tags_Core-shaders">Basic Shader</Item>
+			<Item Key="BakaPlaza_Item_Tags_Entities">Entities</Item>
+			<Item Key="BakaPlaza_Item_Tags_Environment">Environment</Item>
+			<Item Key="BakaPlaza_Item_Tags_Fonts">Fonts</Item>
+			<Item Key="BakaPlaza_Item_Tags_Gui">GUI</Item>
+			<Item Key="BakaPlaza_Item_Tags_Items">Items</Item>
+			<Item Key="BakaPlaza_Item_Tags_Locale">Locale</Item>
+			<Item Key="BakaPlaza_Item_Tags_Modded">Modded</Item>
+			<Item Key="BakaPlaza_Item_Tags_Models">Models</Item>
+			<Item Key="BakaPlaza_Item_Tags_Realistic">Realistic</Item>
+			<Item Key="BakaPlaza_Item_Tags_Simplistic">Simplistic</Item>
+			<Item Key="BakaPlaza_Item_Tags_Themed">Themed</Item>
+			<Item Key="BakaPlaza_Item_Tags_Tweaks">Tweaks</Item>
+			<Item Key="BakaPlaza_Item_Tags_Vanilla-like">Vanilla-Like</Item>
+
+			<Item Key="BakaPlaza_Item_Tags_Atmosphere">Atmosphere</Item>
+			<Item Key="BakaPlaza_Item_Tags_Bloom">Bloom</Item>
+			<Item Key="BakaPlaza_Item_Tags_Colored-lighting">Colored-Lighting</Item>
+			<Item Key="BakaPlaza_Item_Tags_Foliage">Foliage</Item>
+			<Item Key="BakaPlaza_Item_Tags_Path-tracing">Path-Tracing</Item>
+			<Item Key="BakaPlaza_Item_Tags_Pbr">PBR</Item>
+			<Item Key="BakaPlaza_Item_Tags_Reflections">Reflections</Item>
+			<Item Key="BakaPlaza_Item_Tags_Shadows">Shadows</Item>
+
+			<Item Key="BakaPlaza_Item_Tags_Cartoon">Cartoon</Item>
+			<Item Key="BakaPlaza_Item_Tags_Fantasy">Fantasy</Item>
+			<Item Key="BakaPlaza_Item_Tags_Semi-realistic">Semi-Realistic</Item>
+
+			<Item Key="BakaPlaza_Item_Tags_Potato">Potato</Item>
+			<Item Key="BakaPlaza_Item_Tags_Low">Low</Item>
+			<Item Key="BakaPlaza_Item_Tags_Medium">Medium</Item>
+			<Item Key="BakaPlaza_Item_Tags_High">High</Item>
+			<Item Key="BakaPlaza_Item_Tags_Screenshot">Extreme</Item>
 
 			<Item Key="Protocol_Ani_Tips">Browse this resource in BakaPlaza</Item>
 
@@ -1133,6 +1262,7 @@
 			<Item Key="Setting_Language_Title">语言 / Language</Item>
 			<Item Key="Setting_Network_Title">Network</Item>
 			<Item Key="Setting_Personalize_Title">Personalize</Item>
+			<Item Key="Setting_GameDirectory_Title">Directory</Item>
 			<Item Key="Setting_Accessibility_Title">Accessibility</Item>
 			<Item Key="Setting_Audio_Title">Audio</Item>
 			<Item Key="Setting_Download_Title">Download</Item>
@@ -1141,6 +1271,13 @@
 			<Item Key="Setting_Insider_Title">Insider Preview</Item>
 			<Item Key="Setting_Sponsor_Title">Sponsors</Item>
 			<Item Key="Setting_About_Title">About</Item>
+
+			<Item Key="Setting_Account_Spotlight_Tips">Manage your Minecraft profiles and BakaXL Account</Item>
+			<Item Key="Setting_Java_Spotlight_Tips">Adjust Java settings and RAM used by Minecraft</Item>
+			<Item Key="Setting_Language_Spotlight_Tips">Localize BakaXL</Item>
+			<Item Key="Setting_Network_Spotlight_Tips">Check statuses of BakaXL online services</Item>
+			<Item Key="Setting_Personalize_Spotlight_Tips">Personalize your BakaXL experience, set color, background and theme! </Item>
+			<Item Key="Setting_GameDirectory_Spotlight_Tips">Check and modify Minecraft directories for current BakaXL instance</Item>
 
 			<Item Key="Setting_Support_Tips">Welcome to BakaXL Settings! We are working to add more wonderful features for BakaXL! &#xD;&#xA;Some options not available are the features BakaXL 3.0 not develop completed. &#xA;Now, we're adjusting features in the interface according to your needs. Hope you can like it! </Item>
 			<Item Key="Setting_Support_Website">BakaXL Help and Support Website</Item>
@@ -1184,7 +1321,7 @@
 			<Item Key="Setting_Support_ErrorHistory_Network_InterfaceName">Device Name</Item>
 			<Item Key="Setting_Support_ErrorHistory_Network_InterfaceHardwareName">Hardware Name</Item>
 			<Item Key="Setting_Support_ErrorHistory_Network_SSID">SSID</Item>
-			<Item Key="Setting_Support_ErrorHistory_Network_Proxy">Proxy/VPN</Item>
+			<Item Key="Setting_Support_ErrorHistory_Network_Proxy">Proxy / VPN</Item>
 
 			<Item Key="Setting_Support_ErrorHistory_Software">Software</Item>
 			<Item Key="Setting_Support_ErrorHistory_Software_Name">Software Name</Item>
@@ -1194,7 +1331,7 @@
 			<Item Key="Setting_Support_ErrorHistory_Environment">Environment</Item>
 			<Item Key="Setting_Support_ErrorHistory_Environment_Language">Language</Item>
 			<Item Key="Setting_Support_ErrorHistory_Environment_TimeZone">Timezone</Item>
-			<Item Key="Setting_Support_ErrorHistory_Environment_Region">Country/Region</Item>
+			<Item Key="Setting_Support_ErrorHistory_Environment_Region">Country / Region</Item>
 
 			<Item Key="Setting_Support_ErrorHistory_MinecraftCore">Minecraft Core</Item>
 			<Item Key="Setting_Support_ErrorHistory_MinecraftCore_Selected">Minecraft Core</Item>
@@ -1256,6 +1393,15 @@
 			<Item Key="Setting_Account_BakaAccount_Tips">Sign up a BakaXL Account and get a BakaXL Network ID, &#xA;then you can enjoy the wonderful BakaXL online features. &#xA;&#xA;After adding this game ID to your BakaXL account, you can add friends, &#xA;check online status between each other, share game clients or join in&#xA;each other's current games quickly. </Item>
 			<Item Key="Setting_Account_BakaAccount_LoginedTips">All BakaXL instances on this computer will log in to this account. Some of BakaXL's online services and features are not available in all countries or regions. &#xA;&#xA;If you violate BakaXL's account rules, your account will be restricted. </Item>
 
+			<Item Key="Setting_Account_BakaAccount_AccountSession">Account Session: </Item>
+			<Item Key="Setting_Account_BakaAccount_AccountSession_Pending">Not yet obtained</Item>
+			<Item Key="Setting_Account_BakaAccount_AccountSession_Failed">Failed to obtain the session</Item>
+
+			<Item Key="Setting_Account_BakaAccount_AccountWebPortal_Title">BakaXL Account Authorize</Item>
+			<Item Key="Setting_Account_BakaAccount_AccountWebPortal_Text_Authenticated">Login Authorized</Item>
+			<Item Key="Setting_Account_BakaAccount_AccountWebPortal_Text_Authenticated_Tips">BakaXL has already gotten your login session&lt;br /&gt;You can turn off this page now. </Item>
+			<Item Key="Setting_Account_BakaAccount_AccountWebPortal_Text_ReturnToBakaXL">Back to BakaXL to continue</Item>
+
 			<Item Key="Setting_Account_BakaAccount_AccountStatus_Normal">OK</Item>
 			<Item Key="Setting_Account_BakaAccount_AccountStatus_Restricted">Restricted</Item>
 
@@ -1274,6 +1420,7 @@
 
 			<Item Key="Setting_Account_Detail_Notice_Credential">Some settings are hidden or managed by your server or modpack.</Item>
 			<Item Key="Setting_Account_Detail_Notice_MojangAccount">After March 10, 2022, Mojang accounts may not be authenticated</Item>
+			<Item Key="Setting_Account_Detail_Notice_BuyMinecraft">Please always consider to buy a genuine Minecraft copy</Item>
 
 			<Item Key="Setting_Account_Detail_Type">Account Type</Item>
 			<Item Key="Setting_Account_Detail_AuthMode">Game Authentication Mode</Item>
@@ -1287,6 +1434,7 @@
 
 			<Item Key="Setting_Account_Detail_Offline_Username">Enter your username </Item>
 			<Item Key="Setting_Account_Detail_Offline_Username_Tips">Set the username you want to use while running Minecraft.&#xD;&#xA;Only English characters, numbers, and underscores can be used, Chinese and &#xD;&#xA;special symbols are not recommended.</Item>
+			<Item Key="Setting_Account_Detail_Offline_BuyMinecraft_Tips">Some features of Minecraft cannot be experienced with offline profiles. &#xD;&#xA;You cannot use offline profiles to join a server enabling genuine authentication. &#xD;&#xA;To experience all the features of Minecraft, please buy a genuine copy of Minecraft. </Item>
 
 			<Item Key="Setting_Account_Detail_Online_Email">Mojang Account</Item>
 			<Item Key="Setting_Account_Detail_Online_Email_Tips">Enter your Mojang Account Email Address.</Item>
@@ -1352,6 +1500,9 @@
 			<Item Key="Setting_Account_Detail_AccFeatures_SkinCapes_Skin_UploadBtn_Offline">Set up offline skins for my Minecraft character</Item>
 			<Item Key="Setting_Account_Detail_AccFeatures_SkinCapes_Skin_ClearBtn_Offline">Set back to default skin</Item>
 			<Item Key="Setting_Account_Detail_AccFeatures_SkinCapes_Skin_UploadTips_Offline">Set offline skins for your characters.&#xD;&#xA;Minecraft needs to be restarted after changing skins.&#xD;&#xA;&#xD;&#xA;If BakaXL Network SkinShare is turned on,&#xD;&#xA;after setting offline skins, you can see offline skins&#xD;&#xA;set by friends or other players in the lobby.</Item>
+
+			<Item Key="Setting_Account_Detail_AccFeatures_SkinCapes_Skin_BuyOnline_Tips">This feature cannot replace genuine Minecraft skins. &#xD;&#xA;Players using other launchers or disabling BakaXL SkinShare &#xD;&#xA;cannot see your skin. &#xD;&#xA;&#xD;&#xA;Please always consider to buy a genuine copy of Minecraft. </Item>
+			<Item Key="Setting_Account_Detail_AccFeatures_SkinCapes_Skin_BuyOnline_AuthLib_Tips">This feature cannot replace genuine Minecraft skins. &#xD;&#xA;Players using genuine profiles or other third-party auth servers &#xD;&#xA;cannot see your skin. &#xD;&#xA;&#xD;&#xA;Please always consider to buy a genuine copy of Minecraft. </Item>
 
 			<Item Key="Setting_Account_Detail_AccFeatures_SkinCapes_Capes_DisplayStatusBtn">Capes Display Status</Item>
 			<Item Key="Setting_Account_Detail_AccFeatures_SkinCapes_Capes_UploadBtn">Changing capes for my Minecraft character</Item>
@@ -1497,6 +1648,7 @@
 
 			<Item Key="Setting_Network_BakaServiceStatus_Network_BakaNetwork">BakaXL Network Main Service:</Item>
 			<Item Key="Setting_Network_BakaServiceStatus_Network_Relay_Lanko_A">BakaXL Network Relay (Lanko-A):</Item>
+			<Item Key="Setting_Network_BakaServiceStatus_Network_Relay_Octo_Lanko_A">Octo Network Relay Node (Lanko-A):</Item>
 
 			<Item Key="Setting_Network_BakaServiceStatus_Third_Party_Title">Third-party Service Provider</Item>
 			<Item Key="Setting_Network_BakaServiceStatus_Third_Party_ModrinthCDN">Modrinth CDN:</Item>
@@ -1518,6 +1670,7 @@
 			<Item Key="Setting_Network_MojangServiceStatus_MicrosoftXBOXLive">XBOX Authentication Server</Item>
 
 			<Item Key="Setting_Network_Environment_Ping">Web Environment</Item>
+			<Item Key="Setting_Network_Environment_IPv6_Title">Internet Version:</Item>
 			<Item Key="Setting_Network_Environment_NATType_Title">NAT Type:</Item>
 			<Item Key="Setting_Network_Environment_Ping_ms_Title">Ping:</Item>
 			<Item Key="Setting_Network_Environment_Ping_ms">ms</Item>
@@ -1571,11 +1724,16 @@
 			<Item Key="Setting_Advance_AdvLaunch_MinecraftTitle_Tips">Sets the title of the Minecraft form launched by BakaXL.&#xD;&#xA;Parameters can be used in the header to display dynamic content.&#xD;&#xA;ex) {time}: Displays the current system time.</Item>
 			<Item Key="Setting_Advance_AdvLaunch_Args">Advanced Startup Parameters</Item>
 			<Item Key="Setting_Advance_AdvLaunch_Args_Tips">Set advanced startup parameters for Minecraft.&#xD;&#xA;It is only used when there are special needs, and the parameters need to be filled in correctly.&#xD;&#xA;Normal players do not need to use this function, just leave it blank.</Item>
+			<Item Key="Setting_Advance_AdvLaunch_JVMArgs">JVM Startup Parameters</Item>
+			<Item Key="Setting_Advance_AdvLaunch_JVMArgs_Tips">Adjust advanced startup parameters of Java VM. &#xD;&#xA;Use it only when you have special needs and correct parameters needed. &#xD;&#xA;Common players don't need to use this feature. Recommend to leave it blank. </Item>
 			<Item Key="Setting_Advance_AdvLaunch_AutoJoin">Automatically join the server after starting the game</Item>
 			<Item Key="Setting_Advance_AdvLaunch_AutoJoin_IPBox">Enter server address</Item>
 			<Item Key="Setting_Advance_AdvLaunch_AutoJoin_Tips">Automatically join the server after Minecraft starts and loads.</Item>
 			<Item Key="Setting_Advance_AdvLaunch_CheckVersionFolder">Pre-check if the game core directory exists</Item>
 			<Item Key="Setting_Advance_AdvLaunch_CheckVersionFolder_Tips">Check the .minecraft/versions/&lt;game core&gt; directory before launching the game, and cancel launching if this folder cannot be confirmed to exist.&#xD;&#xA;&#xD;&#xA;If the core directory exists and cannot be detected, please turn off this function.&#xD;&#xA;After turning it off, BakaXL will try to continue launching if it cannot confirm the existence of the folder, until the next time the existence of the core folder is confirmed.&#xD;&#xA;&#xD;&#xA;This may cause BakaXL to appear abnormal when launching the game, or even crash.&#xD;&#xA;This setting is not globally synced to other BakaXLs on your computer.</Item>
+
+			<Item Key="Setting_Advance_IPv6Stack">Enable IPv6 Stack</Item>
+			<Item Key="Setting_Advance_IPv6Stack_Tips">Allow Minecraft instances use IPv6 stack for network connections. &#xD;&#xA;BakaXL Lobby may not work properly with this feature enabled. </Item>
 
 			<Item Key="Setting_Advance_AdvLaunch_AutoFixJsonId">Auto fix Json with ID setting not conforming to spec</Item>
 			<Item Key="Setting_Advance_AdvLaunch_AutoFixJsonId_Tips">If BakaXL detects that a core ID item in the Json file is not set properly, will automatically attempt to fix it.&#xD;&#xA;&#xD;&#xA;In rare cases, automatic repair may cause an exception. After turning it off, BakaXL will only prompt you within the core selector when it detects bad Json.&#xD;&#xA;This setting is not globally synced to other BakaXLs on your computer.</Item>
@@ -1684,6 +1842,20 @@
 			<Item Key="Setting_Personalize_Tema_Patcher_Music_Pos_Tips">BakaXL Tips Music</Item>
 			<Item Key="Setting_Personalize_Tema_Patcher_Music_Pos_Unset">Not yet set</Item>
 
+			<Item Key="Setting_Personalize_Tema_Patcher_Custom_Text_Title">UI Texts</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_Custom_Text_WindowTitle">BakaXL Window Title</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_Custom_Text_WindowTitle_Tips">When this theme pack is loaded, the window title of BakaXL will be modified to this. &#xD;&#xA;When moving the window or pointing to the title, BakaXL will display the original one. </Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_Custom_Text_WelcomeTitle">BakaXL Home Welcoming Title</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_Custom_Text_WelcomeTitle_Tips">When this theme pack is loaded, the welcoming title of BakaXL Home Screen will be replaced. </Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_Custom_Text_WelcomeTips">BakaXL Home Welcoming Subtitle</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_Custom_Text_WelcomeTips_Tips">When this theme pack is loaded, the welcoming subtitle of BakaXL Home Screen will be replaced. </Item>
+
+			<Item Key="Setting_Personalize_Tema_Patcher_Background_Video_Title">Background Video</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_Background_Video_Tips">When this theme pack is loaded, BakaXL will display the background video after prepared. &#xD;&#xA;&#xD;&#xA;When the acrylic effect is enabled, the video will be blurred. &#xD;&#xA;The option affects only the background video. &#xD;&#xA;&#xD;&#xA;Displaying the background video will use lots of RAM, &#xD;&#xA;so users are allowed to disable it and the background picture will be shown. </Item>
+
+			<Item Key="Setting_Personalize_Tema_Patcher_Background_Video_Selector_Title">Select a background video</Item>
+			<Item Key="Setting_Personalize_Tema_Patcher_Background_Video_Selector_Filter">Video Format</Item>
+
 			<Item Key="Setting_Personalize_Tema_Patcher_SoundEffects">Sound Effect</Item>
 			<Item Key="Setting_Personalize_Tema_Patcher_SoundEffects_Unsupported_Tips">The current version of BakaSkin does not support &#xD;&#xA;custom sound effects.</Item>
 
@@ -1706,6 +1878,35 @@
 			<Item Key="Setting_Personalize_Tema_Patcher_Export">Export BakaSkin</Item>
 			<Item Key="Setting_Personalize_Tema_Patcher_Export_Btn">Pack &amp; Export BakaSkin</Item>
 			<Item Key="Setting_Personalize_Tema_Patcher_Export_Tips">Exporting a theme means that you have read and understood the&#xD;&#xA; BakaSkin system usage policy.&#xD;BakaSkin will be exported to the BakaXL instance's&#xD;&#xA; &quot;BakaXL\Tema&quot; folder.</Item>
+
+			<Item Key="Setting_GameDirectory_Info">Manage all of your game directories through BakaXL. &#xD;&#xA;All Minecraft instances in other directories are read-only except ones in the Official Minecraft Launcher directory. </Item>
+
+			<Item Key="Setting_GameDirectory_ReadWrite_Directories_Title">Writeable Minecraft Instance Directories</Item>
+			<Item Key="Setting_GameDirectory_ReadWrite_Directories_Info">BakaXL only allows to modify Minecraft instances in current running directory &#xD;&#xA;or in the Official Minecraft Launcher directory when running. </Item>
+
+			<Item Key="Setting_GameDirectory_ReadOnly_Directories_Title">Other Minecraft Instance Directories</Item>
+			<Item Key="Setting_GameDirectory_ReadOnly_Directories_Info">Because you have run BakaXL in these directories, or have added these directories to BakaXL manually. &#xD;&#xA;When using cores in these directories, you can only: &#xD;&#xA;  · Launch Minecraft. &#xD;&#xA;  · Manage core contents such as Mods, ResourcePacks, Maps. &#xD;&#xA;  · Install resources through BakaPlaza. &#xD;&#xA;&#xD;&#xA;You can only add new cores to these directories when BakaXL is running in them. </Item>
+			<Item Key="Setting_GameDirectory_ReadOnly_Directories_NoOtherDirectory">No Read-Only directory is set up. </Item>
+
+			<Item Key="Setting_GameDirectory_Directories_Category_Current">Directory where current BakaXL instance is running in</Item>
+			<Item Key="Setting_GameDirectory_Directories_Category_OfficialLauncherDir">Official Minecraft Launcher directory</Item>
+
+			<Item Key="Setting_GameDirectory_Directories_DefaultName">Core Directory</Item>
+			<Item Key="Setting_GameDirectory_Directories_DefaultOfficialLauncherName">Official Launcher Directory</Item>
+
+			<Item Key="Setting_GameDirectory_Add_Title">Add a Minecraft Instance Directory</Item>
+			<Item Key="Setting_GameDirectory_Add_Info">You can add or remove some of the directories. &#xD;&#xA;If you run BakaXL in a removed directory, it will be re-added to this list. &#xD;&#xA;&#xD;&#xA;You cannot remove directories in the writeable list</Item>
+			<Item Key="Setting_GameDirectory_Add_Btn">Add a Directory</Item>
+			<Item Key="Setting_GameDirectory_Add_FolderBrowserInfo">Please Select a Minecraft Instance Directory (.minecraft)</Item>
+
+			<Item Key="Setting_GameDirectory_Directories_ChangeName_Title">Set a name for this directory</Item>
+			<Item Key="Setting_GameDirectory_Directories_ChangeName_Tips">You can set a friendly name for this directory, and it will be shown in the core selector. </Item>
+
+			<Item Key="Setting_GameDirectory_Directories_Remove_Title">Are you sure to remove this directory? &#xD;&#xA;Removing will NOT delete files in it, and you can re-add it at any time. </Item>
+
+			<Item Key="Setting_GameDirectory_ResourceShare_Title">Share Minecraft Launch Resource Directory</Item>
+			<Item Key="Setting_GameDirectory_ResourceShare_Button_Title">Allow BakaXL to share resources among Minecraft instances (Experimental)</Item>
+			<Item Key="Setting_GameDirectory_ResourceShare_Tips">After you enable this feature, all Minecraft instances in your system will use the same &#xA;Assets and Libraries files. It can solve the problem of many duplicate resource files, and reduce the burden of disk space. &#xA;After enabling, we will storage to %appdata%/.minecraft (the Official Launcher Directory) by default, and SSD is recommended. &#xA;Notice, the feature is in preview stage and some issues may occurred. &#xA;&#xA;You can change the default resource directory below. </Item>
 
 			<Item Key="Setting_Accessibility_Info">&quot;Accessibility&quot; Allows you to customize the functions of BakaXL according to your personal needsto meet different usage conditions.</Item>
 			<Item Key="Setting_Accessibility_Vision_Title">Vision</Item>
@@ -1980,14 +2181,17 @@
 			<Item Key="MessageBox_SkinPatcher_ThemeNoCreator_Title">Missing BakaSkin Author</Item>
 			<Item Key="MessageBox_SkinPatcher_ThemeNoCreator_Content">Before generating a BakaSkin, you need to set a author for it.&#xD;&#xA; Check your creator settings are correct in the BakaSkin author name field.</Item>
 
-			<Item Key="MessageBox_SkinPatcher_ThemeNoCreator_Title">Missing Creator</Item>
-			<Item Key="MessageBox_SkinPatcher_ThemeNoCreator_Content">Before generating a BakaSkin, you need to set a creator for this BakaSkin.&#xD;&#xA;Check that your creator settings are correct in the BakaSkin creator area.</Item>
-
 			<Item Key="MessageBox_SkinPatcher_ThemeNoMusic_Main_Title">Missing Main Background Music</Item>
 			<Item Key="MessageBox_SkinPatcher_ThemeNoMusic_Main_Content">You have not set the main background music for this BakaSkin.&#xD;&#xA;BakaSkin need to contain at least one main background music.</Item>
 
 			<Item Key="MessageBox_SkinPatcher_ThemeNoMusic_Split_Title">Missing Split Background Music</Item>
 			<Item Key="MessageBox_SkinPatcher_ThemeNoMusic_Split_Content">You have not set a split background music for this BakaSkin.&#xD;&#xA;If you choose to use split music mode, you need to set different background music for &quot;BakaXL Settings&quot; and &quot;BakaXL Tips&quot;</Item>
+
+			<Item Key="MessageBox_SkinPatcher_ThemeMusicTooBig_Title">The size of the music file is too big</Item>
+			<Item Key="MessageBox_SkinPatcher_ThemeMusicTooBig_Content">This music's size exceeds the limit, please try to compress it or change it. &#xD;&#xA;The size limit is 6 MB, please do NOT use high-bitrate or lossless music. </Item>
+
+			<Item Key="MessageBox_SkinPatcher_ThemeBackgroundVideoTooBig_Title">The size of the video file is too big</Item>
+			<Item Key="MessageBox_SkinPatcher_ThemeBackgroundVideoTooBig_Content">This video's size exceeds the limit, please try to compress it or change it. &#xD;&#xA;The size limit is 35 MB, please do NOT use high-bitrate video or video with a resolution greater than 1080p. </Item>
 
 			<Item Key="MessageBox_SkinPatcher_ThemeExport_Successful_Title">BakaSkin Export Successfully</Item>
 			<Item Key="MessageBox_SkinPatcher_ThemeExport_Successful_Content">{0} BakaSkin has been export successfully.&#xD;&#xA;BakaXL has saved this theme file in &quot;BakaXL\Tema &quot;</Item>
@@ -2023,6 +2227,17 @@
 			<Item Key="MessageBox_Java_NotInstall_ButFine_Title">No Java Virtual Machine detected...</Item>
 			<Item Key="MessageBox_Java_NotInstall_ButFine_Content">It looks like you don't currently have Java installed on your computer.&#xD;&#xA;You can continue through the setup wizard and BakaXL will automatically install the appropriate Java when you launch the game.&#xD;&#xA;&#xD;&#xA;If you believe you have Java installed, don't worry.&#xD;&#xA;Go &quot;BakaXL Settings - Java VM &amp; Memory&quot; and try &quot;Advanced Search&quot; to search for Java. </Item>
 			<Item Key="MessageBox_Java_NotInstall_ButFine_Tips">You can always modify the Java Virtual Machine settings in BakaXL Settings</Item>
+
+			<Item Key="MessageBox_Java_InstallMirror_Title">Which Java VM to choose?</Item>
+			<Item Key="MessageBox_Java_InstallMirror_Content">BakaXL provides two kinds of Java VM distributions for you to choose. Java from Mojang and Zulu OpenJDK are supported. &#xD;&#xA;&#xD;&#xA;The one from Mojang is more compatible with Minecraft. Zulu OpenJDK has a faster download speed and provides a smoother game experience. </Item>
+			<Item Key="MessageBox_Java_InstallMirror_Tips">If the game crashed, please download the Java VM from Mojang. </Item>
+
+			<Item Key="MessageBox_Java_InstallMirror_Btn_Yes">Use Zulu OpenJDK</Item>
+			<Item Key="MessageBox_Java_InstallMirror_Btn_No">Use Java from Mojang</Item>
+
+			<Item Key="MessageBox_Java_StartInstall_Title">Are you sure to install Java {0} ?</Item>
+			<Item Key="MessageBox_Java_StartInstall_Content">BakaXL will install Java to %appdata%/.minecraft/runtime for other launchers to use. </Item>
+			<Item Key="MessageBox_Java_StartInstall_Tips">如果您手滑了，也可以取消安装</Item>
 
 			<Item Key="MessageBox_Guide_AuthLib_ReadPackInfo_Error_Title">Could not load credential settings for this core</Item>
 			<Item Key="MessageBox_Guide_AuthLib_ReadPackInfo_Error_Content">Something unexpected happened that prevented BakaXL from reading credential settings from the currently set modpack or core.&#xD;&#xA;You can continue with the setup and BakaXL will double check the credential settings when launching the core.</Item>
@@ -2066,6 +2281,7 @@
 			<Item Key="MessageBox_Bakaverse_Login_ConnectError_Content">Unable to connect to BakaXL Network server.&#xD;&#xA;Please check your internet connection or keep looking for official BakaXL maintenance announcements.</Item>
 			<Item Key="MessageBox_Bakaverse_Login_VersionError_Content">The BakaXL Network server refused your connection.&#xD;&#xA;The connection was terminated because the server required the latest version of BakaXL.</Item>
 			<Item Key="MessageBox_Bakaverse_Login_AuthError_Content">Unable to log in to this BakaXL account.&#xD;&#xA;This account does not exist or the password is incorrect, please check what you entered and try again.</Item>
+			<Item Key="MessageBox_Bakaverse_Login_AuthError_Session_Content">Unable to log in to this BakaXL account. &#xD;&#xA;This account does not exist or the login session is expired. Please re-acquire the session and try again. </Item>
 			<Item Key="MessageBox_Bakaverse_Login_EAPermissionError_Content">Unable to log in to this BakaXL account.&#xD;&#xA;Your BakaXL account is not participating in the early access test. Please wait patiently for this service become online.</Item>
 			<Item Key="MessageBox_Bakaverse_Login_UnknownError_Content">An unknown error occurred.&#xD;&#xA;Please report this error to BakaXL official so that we can verify the cause of the error.</Item>
 
@@ -2152,7 +2368,7 @@
 			<Item Key="MessageBox_Bakaverse_Lobby_Create_LobbyIDUsed_Tips">The lobby server greets you and expresses confusion :/</Item>
 
 			<Item Key="MessageBox_Bakaverse_Lobby_Relay_Notice_Title">It needs to be enabled by both the creator and the joiner to take effect</Item>
-			<Item Key="MessageBox_Bakaverse_Lobby_Relay_Notice_Content">You are turning on the BakaXL Network Relay relay connection feature.&#xD;&#xA;For data privacy and security reasons, BakaXL will only connect through relays when both the lobby creator and joiner have enabled this feature.</Item>
+			<Item Key="MessageBox_Bakaverse_Lobby_Relay_Notice_Content">You are turning on the BakaXL Network Relay relay connection feature, and it's running with Octo Network technology now. &#xD;&#xA;For data privacy and security reasons, BakaXL will only connect through relays when both the lobby creator and joiner have enabled this feature.</Item>
 			<Item Key="MessageBox_Bakaverse_Lobby_Relay_Notice_Tips">If you turn on the relay and still cannot play, maybe the other party has not turned on this function.</Item>
 
 			<Item Key="MessageBox_Bakaverse_Lobby_GotKicked_Title">Removed by lobby creator</Item>
@@ -2163,11 +2379,42 @@
 			<Item Key="MessageBox_Bakaverse_Lobby_Cracked_Content">The lobby creator has disbanded the lobby and everyone is outside now.&#xD;&#xA;It's possible that the creator was tired, or the creator's internet connection blew up.</Item>
 			<Item Key="MessageBox_Bakaverse_Lobby_Cracked_Tips">EXPLOSION!!!</Item>
 
+			<Item Key="MessageBox_Bakaverse_Avatar_FileTooBig_Title">This picture is too big to use as the avatar. </Item>
+			<Item Key="MessageBox_Bakaverse_Avatar_FileTooBig_Content">The picture exceeds the size limit after BakaXL processes it. Please try to compress it or change it. &#xD;&#xA;The size limit is 1 MB. Please do not use use picture with too high definition since there's no enough place to display. </Item>
+
+			<Item Key="MessageBox_Bakaverse_Avatar_ProcessFailed_Title">Something happened...</Item>
+			<Item Key="MessageBox_Bakaverse_Avatar_ProcessFailed_Content">It seems that BakaXL cannot process this picture correctly. Please try to change one. &#xD;&#xA;If you still want to use it, it is recommended to process it first. </Item>
+
+			<Item Key="MessageBox_Bakaverse_Avatar_UploadFailed_Title">Cannot change avatar now</Item>
+			<Item Key="MessageBox_Bakaverse_Avatar_UploadFailed_NeedCooldown_Content">You have already changed your account avatar recently. &#xD;&#xA;Due to the settings of BakaXL Network, you need to wait until {0} to change it. </Item>
+			<Item Key="MessageBox_Bakaverse_Avatar_UploadFailed_NeedCooldown_NoTime_Content">You have already changed your account avatar recently. &#xD;&#xA;Due to the settings of BakaXL Network, you need to wait a while to change it. </Item>
+
+			<Item Key="MessageBox_Bakaverse_Avatar_UploadFailed_NetworkUploadFailed_Content">BakaXL Network cannot update your account avatar now. This may be caused by the unstable connection between BakaXL Network and the avatar server. &#xD;&#xA;Please wait a while and try again. If the problem continues to happen, please contact BakaXL Development Team. </Item>
+			<Item Key="MessageBox_Bakaverse_Avatar_UploadFailed_APIUpdateFailed_Content">BakaXL Network cannot update your account avatar now, because BakaXL account avatar server is unavailable now. &#xD;&#xA;Please pay attention to the maintain announcement from BakaXL, and try again after the services are available. </Item>
+
+			<Item Key="MessageBox_Bakaverse_Avatar_UploadFailed_ServerDisabled_Content">BakaXL Network cannot update your account avatar now because uploads for users' BakaXL account avatars are forbidden. &#xD;&#xA;Please pay attention to the maintain announcement from BakaXL, and try again after the services are available. </Item>
+
+			<Item Key="MessageBox_Bakaverse_Avatar_UploadFailed_HashFailed_Content">BakaXL Network cannot update your account avatar now because BakaXL Network cannot verify your uploaded picture. &#xD;&#xA;Maybe the mysterious Internet causes the problem. If the problem continues to happen, please contact BakaXL Development Team. </Item>
+
+			<Item Key="MessageBox_Bakaverse_Avatar_Uploading_Title">Avatar is submitted to uploading queue</Item>
+			<Item Key="MessageBox_Bakaverse_Avatar_Uploading_Content">BakaXL is communicating with BakaXL Network and uploading your new avatar. Depending on the server traffic, this may take some time. &#xD;&#xA;BakaXL will notify you after it is completed. Do not close BakaXL before this. </Item>
+
+			<Item Key="MessageBox_Bakaverse_Avatar_UploadSuccessful_Title">Avatar updated</Item>
+			<Item Key="MessageBox_Bakaverse_Avatar_UploadSuccessful_Content">Your BakaXL Network account avatar has been successfully uploaded and changed. Please restart BakaXL to take effect. &#xD;&#xA;Due to every regions' CDN refresh policies, it may take some time to take effect completely. </Item>
+
 			<Item Key="MessageBox_Bakaverse_Management_ServerNotice_Tips">This announcement is from {0} of the BakaXL development team and is broadcast to all online users!</Item>
 
 			<Item Key="MessageBox_Tips_Channel_Locked_Title">This tip channel is locked</Item>
 			<Item Key="MessageBox_Tips_Channel_Locked_Content">This Tips channel is currently closed to the public, which may be due to:&#xD;&#xA;· Received a request from the issuer to suspend access.&#xD;&#xA;· Automatically locked due to too many user reports.&#xD;&#xA;· Violation of BakaXL Tips System Terms of Use</Item>
 			<Item Key="MessageBox_Tips_Channel_Locked_Tips">Please try to visit this channel again after a while</Item>
+
+			<Item Key="MessageBox_Tips_GameDirectory_NotMinecraftFolder_Title">It seems that it is not a Minecraft instance directory...</Item>
+			<Item Key="MessageBox_Tips_GameDirectory_NotMinecraftFolder_Content">This folder seems not a correct Minecraft instance directory. Please check if you selected the correct folder. </Item>
+			<Item Key="MessageBox_Tips_GameDirectory_NotMinecraftFolder_Tips">Please select the .minecraft folder in the instance directory! </Item>
+
+			<Item Key="MessageBox_OpenApp_Title">Open {0} ?</Item>
+			<Item Key="MessageBox_OpenApp_Content">You will receive this notification when BakaXL requests to switch to other features. &#xD;&#xA;If you want to, the progress on this page may be lost. </Item>
+			<Item Key="MessageBox_OpenApp_Tips">Of course there may be no progress will be lost...</Item>
 
 			<Item Key="Notify_Bakaverse_FriendRequest_Title">New friend request</Item>
 			<Item Key="Notify_Bakaverse_FriendRequest_Content">User &lt;{0}#{1}&gt; requests to add you as a BakaXL friend.</Item>
@@ -2194,21 +2441,28 @@
 			<Item Key="ErrorCan_BakaXL_Solution">Please report this bug to the BakaXL development team immediately so that it can be fixed ASAP.</Item>
 
 			<Item Key="ErrorCan_Network_ConnectionTimedOut_Title">The remote server connection timed out.</Item>
-			<Item Key="ErrorCan_Network_ConnectionTimedOut_VanillaList_Solution">BakaXL cannot get the latest Minecraft core list via BMCLAPI or official download sources.\r\nIn some cases, the issue may be because your Internet Service Provider (ISP) is hijacking your traffic.\r\nPlease check your internet connection to make sure the network communication between your computer and the download source is working.\r\n\r\nIf this issue persists, you can report the issue to the BakaXL development team.</Item>
+			<Item Key="ErrorCan_Network_ConnectionTimedOut_VanillaList_Solution">BakaXL cannot get the latest Minecraft core list via BMCLAPI or official download sources.&#xD;&#xA;In some cases, the issue may be because your Internet Service Provider (ISP) is hijacking your traffic.&#xD;&#xA;Please check your internet connection to make sure the network communication between your computer and the download source is working.&#xD;&#xA;&#xD;&#xA;If this issue persists, you can report the issue to the BakaXL development team.</Item>
 
 			<Item Key="ErrorCan_Network_ErrorData_Title">The remote server returned an incorrect data.</Item>
-			<Item Key="ErrorCan_Network_ErrorData_VanillaList_Solution">The preparation of the core list could not be completed because the official Minecraft download source or BMCLAPI returned a version information not recognized by the current BakaXL.\r\nIn some cases, the issue may be due to your Internet Service Provider (ISP) hijacking the returned data.\r\nPlease check your internet connection to make sure the network communication between your computer and the download source is working.\r\n\r\nIf this issue persists, you can report the issue to the BakaXL development team.</Item>
+			<Item Key="ErrorCan_Network_ErrorData_VanillaList_Solution">The preparation of the core list could not be completed because the official Minecraft download source or BMCLAPI returned a version information not recognized by the current BakaXL.&#xD;&#xA;In some cases, the issue may be due to your Internet Service Provider (ISP) hijacking the returned data.&#xD;&#xA;Please check your internet connection to make sure the network communication between your computer and the download source is working.&#xD;&#xA;&#xD;&#xA;If this issue persists, you can report the issue to the BakaXL development team.</Item>
 
 			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Vanilla_Title">ULauncherCore reported exception when preparing game version</Item>
-			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Vanilla_Solution">Usually, this problem occurs because ULauncherCore cannot properly prepare a specific Minecraft version.\r\nPlease check your internet connection to make sure the network communication between your computer and the download source is working.\r\n\r\nYou can visit BakaXL Settings - Download and switch Use mirror source in mainland china button and try again.\r\nIf this issue persists, you can report the issue to the BakaXL development team.</Item>
-			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Vanilla_CoreFolderNotFound_Solution">Unable to locate the front-end Minecraft base core required for this version of Forge: .minecraft/versions/{0}/{1}.jar。\r\n\r\nYou can try installing the vanilla core for this Minecraft version first and try again.</Item>
+			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Vanilla_Solution">Usually, this problem occurs because ULauncherCore cannot properly prepare a specific Minecraft version.&#xD;&#xA;Please check your internet connection to make sure the network communication between your computer and the download source is working.&#xD;&#xA;&#xD;&#xA;You can visit BakaXL Settings - Download and switch Use mirror source in mainland china button and try again.&#xD;&#xA;If this issue persists, you can report the issue to the BakaXL development team.</Item>
+			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Vanilla_CoreFolderNotFound_Solution">Unable to locate the front-end Minecraft base core required for this version of Forge: .minecraft/versions/{0}/{1}.jar。&#xD;&#xA;&#xD;&#xA;You can try installing the vanilla core for this Minecraft version first and try again.</Item>
 
 			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Forge_Title">The BakaXL Forge installer reported an exception while installing.</Item>
-			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Forge_DownloadOrDamage_Solution">Forge version tried to install: Forge-{0}-{1}\r\n\r\nThis problem may be caused by the inability to download the file, or an accident when unzipping.\r\nFirst, please check your internet connection to make sure that the network communication between your computer and the download source is working properly.\r\nSecond, try running BakaXL as administrator and try the installation again.\r\n\r\nIf this issue persists, you can report the issue to the BakaXL development team.</Item>
-			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Forge_NotSupported_Solution">Forge version tried to install: Forge-{0}-{1}\r\n\r\nUsually, this can be caused by corrupted downloaded files, insufficient access to local files, or unsupported versions of Forge.\r\nFirst, try running BakaXL as administrator and try the installation again.\r\nSecond, check the exception message in this Error Can, if it clearly states that this version of Forge is not supported, please report this Error Can to the BakaXL development team.\r\n\r\nIf this issue persists, you can report the issue to the BakaXL development team.</Item>
+			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Forge_DownloadOrDamage_Solution">Forge version tried to install: Forge-{0}-{1}&#xD;&#xA;&#xD;&#xA;This problem may be caused by the inability to download the file, or an accident when unzipping.&#xD;&#xA;First, please check your internet connection to make sure that the network communication between your computer and the download source is working properly.&#xD;&#xA;Second, try running BakaXL as administrator and try the installation again.&#xD;&#xA;&#xD;&#xA;If this issue persists, you can report the issue to the BakaXL development team.</Item>
+			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Forge_NotSupported_Solution">Forge version tried to install: Forge-{0}-{1}&#xD;&#xA;&#xD;&#xA;Usually, this can be caused by corrupted downloaded files, insufficient access to local files, or unsupported versions of Forge.&#xD;&#xA;First, try running BakaXL as administrator and try the installation again.&#xD;&#xA;Second, check the exception message in this Error Can, if it clearly states that this version of Forge is not supported, please report this Error Can to the BakaXL development team.&#xD;&#xA;&#xD;&#xA;If this issue persists, you can report the issue to the BakaXL development team.</Item>
 
 			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Forge_JsonNullException">Unable to parse Forge's install profile (install_profile), the Json interpreter returned empty text.</Item>
-			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Forge_JarNotFoundException">The Forge core (universal.jar) included with this version of the Forge installer could not be found.\r\n\r\nIncompatible Forge version, please report this Forge version to the BakaXL development team:Forge-{0}-{1}</Item>
+			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Forge_JarNotFoundException">The Forge core (universal.jar) included with this version of the Forge installer could not be found.&#xD;&#xA;&#xD;&#xA;Incompatible Forge version, please report this Forge version to the BakaXL development team: Forge-{0}-{1}</Item>
+
+			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_NeoForge_Title">The BakaXL NeoForge installer reported an exception while installing. </Item>
+			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_NeoForge_DownloadOrDamage_Solution">NeoForge version tried to install: NeoForge-{0}-{1}&#xD;&#xA;&#xD;&#xA;This problem may be caused by the inability to download the file, or an accident when unzipping.&#xD;&#xA;First, please check your internet connection to make sure that the network communication between your computer and the download source is working properly.&#xD;&#xA;Second, try running BakaXL as administrator and try the installation again.&#xD;&#xA;&#xD;&#xA;If this issue persists, you can report the issue to the BakaXL development team.</Item>
+			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_NeoForge_NotSupported_Solution">NeoForge version tried to install: NeoForge-{0}-{1}&#xD;&#xA;&#xD;&#xA;Usually, this can be caused by corrupted downloaded files, insufficient access to local files, or unsupported versions of NeoForge.&#xD;&#xA;First, try running BakaXL as administrator and try the installation again.&#xD;&#xA;Second, check the exception message in this Error Can, if it clearly states that this version of NeoForge is not supported, please report this Error Can to the BakaXL development team.&#xD;&#xA;&#xD;&#xA;If this issue persists, you can report the issue to the BakaXL development team.</Item>
+
+			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_NeoForge_JsonNullException">Unable to parse NeoForge's install profile (install_profile), the Json interpreter returned empty text.</Item>
+			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_NeoForge_JarNotFoundException">The NeoForge core (universal.jar) included with this version of the NeoForge installer could not be found.&#xD;&#xA;&#xD;&#xA;Incompatible NeoForge version, please report this NeoForge version to the BakaXL development team: NeoForge-{0}-{1}</Item>
 
 			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Fabric_Title">The BakaXL Fabric installer reported an exception while installing.</Item>
 			<Item Key="ErrorCan_BakaPlaza_MinecraftInstall_Fabric_DownloadOrDamage_Solution">Fabric version trying to install: Fabric-{0}-{1}&#xD;&#xA;&#xD;&#xA;This problem may be caused by the inability to download the file, or an accident when unzipping.&#xD;&#xA;First, please check your internet connection to make sure that the network communication between your computer and the download source is working properly.&#xD;&#xA;Second, try running BakaXL as administrator and try the installation again.&#xD;&#xA;&#xD;&#xA;If this issue persists, you can report the issue to the BakaXL development team.</Item>
@@ -2270,11 +2524,15 @@
 			<Item Key="AddGameCore_DnD_DropChecking_Title">Please wait a moment</Item>
 			<Item Key="AddGameCore_DnD_DropChecking_Tips">BakaXL is currently checking this file...</Item>
 			<Item Key="AddGameCore_DnD_DropNotZip_Title">This doesn't look like a Modpack file</Item>
-			<Item Key="AddGameCore_DnD_DropNotZip_Tips">Make sure this file is  in a MCBBS / Curse / Modrinth package format</Item>
+			<Item Key="AddGameCore_DnD_DropNotZip_Tips">Make sure this file is in a MCBBS / Curse / Modrinth package format</Item>
 			<Item Key="AddGameCore_DnD_DropInstall_Title">Package file information read</Item>
 			<Item Key="AddGameCore_DnD_DropInstall_Tips">You are about to install {0} into BakaXL</Item>
 
 			<Item Key="AddGameCore_DnD_Browse">Or click here to browse for a Modpack file</Item>
+
+			<Item Key="AddGameCore_DnD_Browse_Selector_Title">Select a Modpack file</Item>
+			<Item Key="AddGameCore_DnD_Browse_Selector_Filter_General">Universal Modpack Format</Item>
+			<Item Key="AddGameCore_DnD_Browse_Selector_Filter_Modrinth">Modrinth Modpack Format</Item>
 
 			<Item Key="Installer_InstallTimer">Install Timer</Item>
 			<Item Key="Installer_InstallTimer_Pending">Install Pending...</Item>
@@ -2284,6 +2542,9 @@
 
 			<Item Key="Installer_AddonSection_Forge_Title">Have no idea what to play? Give these mods a try!</Item>
 			<Item Key="Installer_AddonSection_Forge_Tips">Update regularly! Forge Mods that recommended by BakaXL! </Item>
+
+			<Item Key="Installer_AddonSection_NeoForge_Title">What is NeoForge? Click it! </Item>
+			<Item Key="Installer_AddonSection_NeoForge_Tips">NeoForge is mostly compatible with Forge, but not in the future! Click to learn more! </Item>
 
 			<Item Key="Installer_AddonSection_Fabric_Title">Install Fabric API and recommended essential Mods! </Item>
 			<Item Key="Installer_AddonSection_Fabric_Tips">Fabric needs to install basic API to load Mods, click to learn more and download! </Item>
@@ -2299,6 +2560,8 @@
 			<Item Key="Installer_InstallTaskStatus_DownloadMinecraft">Downloading Minecraft...</Item>
 			<Item Key="Installer_InstallTaskStatus_DownloadForge">Downloading Forge...</Item>	
 			<Item Key="Installer_InstallTaskStatus_InstallingForge">Installing Forge...</Item>
+			<Item Key="Installer_InstallTaskStatus_DownloadNeoForge">Downloading NeoForge...</Item>
+			<Item Key="Installer_InstallTaskStatus_InstallingNeoForge">Installing NeoForge...</Item>
 			<Item Key="Installer_InstallTaskStatus_DownloadFabric">Downloading Fabric...</Item>
 			<Item Key="Installer_InstallTaskStatus_InstallingFabric">Installing Fabric...</Item>
 			<Item Key="Installer_InstallTaskStatus_DownloadQuilt">Downloading Quilt...</Item>
@@ -2306,7 +2569,7 @@
 			<Item Key="Installer_InstallTaskStatus_DownloadOptiFine">Downloading OptiFine...</Item>
 			<Item Key="Installer_InstallTaskStatus_InstallingOptiFine">Installing OptiFine...</Item>
 			<Item Key="Installer_InstallTaskStatus_DownloadAssets">Downloading Assets...</Item>
-			<Item Key="Installer_InstallTaskStatus_UnzipFile">Unzipping files...</Item>
+			<Item Key="Installer_InstallTaskStatus_UnzipFile">Unzipping Files...</Item>
 			
 			<Item Key="Installer_InstallTaskStatus_DownloadLibs">Downloading Libraries...</Item>
 
@@ -2319,7 +2582,9 @@
 			
 			<Item Key="Installer_InstallTaskStatus_DownloadMinecraft_Tips">BakaXL is downloading {0}.&#xD;&#xA;Please sit and relax, do not disconnect from the internet &#xD;&#xA;or turn off BakaXL during this time.</Item>
 			<Item Key="Installer_InstallTaskStatus_DownloadForge_Tips">BakaXL is downloading Forge-{0}.&#xD;&#xA;Please sit and relax, do not disconnect from the internet &#xD;&#xA;or turn off BakaXL during this time.</Item>
-			<Item Key="Installer_InstallTaskStatus_InstallingForge_Tips">BakaXL is installing Forge {0}.&#xD;&#xA;Please sit and relax, do not operate the game directory &#xD;&#xA;or close BakaXL during this time.</Item>
+			<Item Key="Installer_InstallTaskStatus_InstallingForge_Tips">BakaXL is installing Forge-{0}.&#xD;&#xA;Please sit and relax, do not operate the game directory &#xD;&#xA;or close BakaXL during this time.</Item>
+			<Item Key="Installer_InstallTaskStatus_DownloadNeoForge_Tips">BakaXL is installing NeoForge-{0}.&#xD;&#xA;Please sit and relax, do not operate the game directory &#xD;&#xA;or close BakaXL during this time.</Item>
+			<Item Key="Installer_InstallTaskStatus_InstallingNeoForge_Tips">BakaXL is installing NeoForge-{0}.&#xD;&#xA;Please sit and relax, do not operate the game directory &#xD;&#xA;or close BakaXL during this time.</Item>
 			<Item Key="Installer_InstallTaskStatus_DownloadFabric_Tips">BakaXL is downloading Fabric-{0}.&#xD;&#xA;Please sit and relax, do not disconnect from the internet &#xD;&#xA;or turn off BakaXL during this time.</Item>
 			<Item Key="Installer_InstallTaskStatus_InstallingFabric_Tips">BakaXL is installing Fabric-{0}.&#xD;&#xA;Please sit and relax, do not operate the game directory &#xD;&#xA;or close BakaXL during this time.</Item>
 			<Item Key="Installer_InstallTaskStatus_DownloadQuilt_Tips">BakaXL is downloading Quilt-{0}.&#xD;&#xA;Please sit and relax, do not disconnect from the internet &#xD;&#xA;or turn off BakaXL during this time.</Item>
@@ -2329,6 +2594,7 @@
 
 			<Item Key="Installer_InstallTaskStatus_DownloadMinecraft_Tips_ModPack">BakaXL is downloading the Minecraft core required by {0}.&#xD;&#xA;Please sit and relax, do not disconnect from the internet &#xD;&#xA;or turn off BakaXL during this time.</Item>
 			<Item Key="Installer_InstallTaskStatus_DownloadForge_Tips_ModPack">BakaXL is downloading the Forge required by {0}.&#xD;&#xA;Please sit and relax, do not disconnect from the internet &#xD;&#xA;or turn off BakaXL during this time.</Item>
+			<Item Key="Installer_InstallTaskStatus_DownloadNeoForge_Tips_ModPack">BakaXL is downloading the NeoForge required by {0}.&#xD;&#xA;Please sit and relax, do not disconnect from the internet &#xD;&#xA;or turn off BakaXL during this time.</Item>
 			<Item Key="Installer_InstallTaskStatus_InstallingForge_Tips_ModPack">BakaXL is installing Forge for {0}.&#xD;&#xA;Please sit and relax, do not operate the game directory &#xD;&#xA;or close BakaXL during this time.</Item>
 			<Item Key="Installer_InstallTaskStatus_DownloadFabric_Tips_ModPack">BakaXL is downloading the Fabric installation files required by {0}.&#xD;&#xA;Please sit and relax, do not disconnect from the internet &#xD;&#xA;or turn off BakaXL during this time.</Item>
 			<Item Key="Installer_InstallTaskStatus_InstallingFabric_Tips_ModPack">BakaXL is installing Fabric installation files for {0}.&#xD;&#xA;Please sit and relax, do not operate the game directory &#xD;&#xA;or close BakaXL during this time.</Item>
@@ -2383,6 +2649,14 @@
 			<Item Key="Minecraft_DefaultPlayer_Steve">Steve</Item>
 			<Item Key="Minecraft_DefaultPlayer_Alex">Alex</Item>
 
+			<Item Key="Spotlight_SearchBox_Watermark_Default">Search for anything you want...</Item>
+			<Item Key="Spotlight_SearchBox_Watermark_SelectCore">Search or select a core...</Item>
+
+			<Item Key="Spotlight_Category_Core">Minecraft Cores</Item>
+			<Item Key="Spotlight_Category_Core_Tag">Cores</Item>
+			<Item Key="Spotlight_Category_Settings">BakaXL Settings</Item>
+			<Item Key="Spotlight_Category_Settings_Tag">Settings</Item>
+
 			<Item Key="OK">OK</Item>
 			<Item Key="No">No</Item>
 
@@ -2420,6 +2694,11 @@
 			<Item Key="Color_Taupe">Taupe</Item>
 			<Item Key="Color_Sienna">Sienna</Item>
 			<Item Key="Color_Gray">Gray</Item>
+
+			<Item Key="Directory_Permission_ErrorType_Write">Cannot write to the directory</Item>
+			<Item Key="Directory_Permission_ErrorType_Read">Cannot read the directory</Item>
+			<Item Key="Directory_Permission_ErrorType_DirectoryNotFound">Directory does not exist</Item>
+			<Item Key="Directory_Permission_ErrorType_Unknown">Unknown problems with the directory</Item>
 
 			<Item Key="BakaXL.Pages.PageHome">BakaXL Home Page</Item>
 		</Items>
