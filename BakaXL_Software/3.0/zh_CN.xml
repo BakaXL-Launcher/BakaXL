@@ -1390,7 +1390,7 @@
 			<Item Key="Setting_Account_BakaAccount_AccountEmail">账户邮箱：{0}</Item>
 			<Item Key="Setting_Account_BakaAccount_AccountStatus">账户状态：{0}</Item>
 			<Item Key="Setting_Account_BakaAccount_Connecting">正在连接至 BakaXL Network 服务器…</Item>
-			<Item Key="Setting_Account_BakaAccount_Tips">注册 BakaXL 账户 (BakaXL Account) 并领取一个账户网络ID &#xA;(BakaXL Network ID)，即可享受精彩的 BakaXL 线上功能。&#xA;&#xA;将此游戏 ID 添加至您的 BakaXL 账户后，您就可以添加好友、&#xA;查看彼此的在线状态、分享游戏客户端或快速加入彼此当前&#xA;所在的游戏。</Item>
+			<Item Key="Setting_Account_BakaAccount_Tips">注册 BakaXL 账户 (BakaXL Account) 并领取一个账户网络 ID &#xA;(BakaXL Network ID)，即可享受精彩的 BakaXL 线上功能。&#xA;&#xA;将此游戏 ID 添加至您的 BakaXL 账户后，您就可以添加好友、&#xA;查看彼此的在线状态、分享游戏客户端或快速加入彼此当前&#xA;所在的游戏。</Item>
 			<Item Key="Setting_Account_BakaAccount_LoginedTips">当前该计算机中所有的 BakaXL 实例均会登录至此账户。&#xA;BakaXL 线上服务的部分功能并非在所有地区都适用。&#xA;&#xA;若您违反了 BakaXL 账户守则，则账户将会被限制使用。</Item>
 
 			<Item Key="Setting_Account_BakaAccount_AccountSession">账户授权令牌:</Item>
@@ -1432,8 +1432,8 @@
 
 			<Item Key="Setting_Account_Detail_AccInfo">账户信息</Item>
 
-			<Item Key="Setting_Account_Detail_Offline_Username">输入游戏ID</Item>
-			<Item Key="Setting_Account_Detail_Offline_Username_Tips">设置你在运行 Minecraft 时想使用的游戏ID。&#xD;&#xA;只能使用英文、数字和下划线，不建议使用中文和特殊符号。</Item>
+			<Item Key="Setting_Account_Detail_Offline_Username">输入游戏 ID</Item>
+			<Item Key="Setting_Account_Detail_Offline_Username_Tips">设置你在运行 Minecraft 时想使用的游戏 ID。&#xD;&#xA;只能使用英文、数字和下划线，不建议使用中文和特殊符号。</Item>
 			<Item Key="Setting_Account_Detail_Offline_BuyMinecraft_Tips">使用离线验证模式游玩 Minecraft 可能无法体验 Minecraft 的全部功能。&#xD;&#xA;您无法在使用离线验证模式期间加入开启了正版验证的服务器。&#xD;&#xA;若要体验 Minecraft 的全部功能，请购买正版 Minecraft。</Item>
 
 			<Item Key="Setting_Account_Detail_Online_Email">Mojang 账户邮箱</Item>
