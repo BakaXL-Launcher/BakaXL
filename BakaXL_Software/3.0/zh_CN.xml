@@ -190,7 +190,7 @@
 			<Item Key="CoreManagement_Tips_Warn_Mod_Unsupported">此核心不支持安装模组 (Mods)。</Item>
 
 			<Item Key="CoreManagement_Page_Info">信息</Item>
-			<Item Key="CoreManagement_Page_Mod">模组(Mods)</Item>
+			<Item Key="CoreManagement_Page_Mod">模组 (Mods)</Item>
 			<Item Key="CoreManagement_Page_ResourcePack">资源包</Item>
 			<Item Key="CoreManagement_Page_ShaderPack">光影包</Item>
 			<Item Key="CoreManagement_Page_Config">游戏 / 模组配置</Item>
@@ -1390,7 +1390,7 @@
 			<Item Key="Setting_Account_BakaAccount_AccountEmail">账户邮箱：{0}</Item>
 			<Item Key="Setting_Account_BakaAccount_AccountStatus">账户状态：{0}</Item>
 			<Item Key="Setting_Account_BakaAccount_Connecting">正在连接至 BakaXL Network 服务器…</Item>
-			<Item Key="Setting_Account_BakaAccount_Tips">注册 BakaXL 账户 (BakaXL Account) 并领取一个账户网络ID &#xA;(BakaXL Network ID)，即可享受精彩的 BakaXL 线上功能。&#xA;&#xA;将此游戏 ID 添加至您的 BakaXL 账户后，您就可以添加好友、&#xA;查看彼此的在线状态、分享游戏客户端或快速加入彼此当前&#xA;所在的游戏。</Item>
+			<Item Key="Setting_Account_BakaAccount_Tips">注册 BakaXL 账户 (BakaXL Account) 并领取一个账户网络 ID &#xA;(BakaXL Network ID)，即可享受精彩的 BakaXL 线上功能。&#xA;&#xA;将此游戏 ID 添加至您的 BakaXL 账户后，您就可以添加好友、&#xA;查看彼此的在线状态、分享游戏客户端或快速加入彼此当前&#xA;所在的游戏。</Item>
 			<Item Key="Setting_Account_BakaAccount_LoginedTips">当前该计算机中所有的 BakaXL 实例均会登录至此账户。&#xA;BakaXL 线上服务的部分功能并非在所有地区都适用。&#xA;&#xA;若您违反了 BakaXL 账户守则，则账户将会被限制使用。</Item>
 
 			<Item Key="Setting_Account_BakaAccount_AccountSession">账户授权令牌:</Item>
@@ -1432,8 +1432,8 @@
 
 			<Item Key="Setting_Account_Detail_AccInfo">账户信息</Item>
 
-			<Item Key="Setting_Account_Detail_Offline_Username">输入游戏ID</Item>
-			<Item Key="Setting_Account_Detail_Offline_Username_Tips">设置你在运行 Minecraft 时想使用的游戏ID。&#xD;&#xA;只能使用英文、数字和下划线，不建议使用中文和特殊符号。</Item>
+			<Item Key="Setting_Account_Detail_Offline_Username">输入游戏 ID</Item>
+			<Item Key="Setting_Account_Detail_Offline_Username_Tips">设置你在运行 Minecraft 时想使用的游戏 ID。&#xD;&#xA;只能使用英文、数字和下划线，不建议使用中文和特殊符号。</Item>
 			<Item Key="Setting_Account_Detail_Offline_BuyMinecraft_Tips">使用离线验证模式游玩 Minecraft 可能无法体验 Minecraft 的全部功能。&#xD;&#xA;您无法在使用离线验证模式期间加入开启了正版验证的服务器。&#xD;&#xA;若要体验 Minecraft 的全部功能，请购买正版 Minecraft。</Item>
 
 			<Item Key="Setting_Account_Detail_Online_Email">Mojang 账户邮箱</Item>
@@ -1551,7 +1551,7 @@
 			<Item Key="Setting_Java_JVM_Title">Java 虚拟机</Item>
 
 			<Item Key="Setting_Java_JVM_FullAuto">让 BakaXL 自动决定 Java 版本</Item>
-			<Item Key="Setting_Java_JVM_FullAuto_Tips">当开启此选项时，BakaXL 将会自动根据运行的 Minecraft&#xD;&#xA;版本选定合适的 Java 虚拟机版本。&#xD;&#xA;若您没有安装对应的 Java 虚拟机，则 BakaXL 会自动为您安装。</Item>
+			<Item Key="Setting_Java_JVM_FullAuto_Tips">当开启此选项时，BakaXL 将会自动根据运行的 Minecraft&#xD;&#xA; 版本选定合适的 Java 虚拟机版本。&#xD;&#xA;若您没有安装对应的 Java 虚拟机，则 BakaXL 会自动为您安装。</Item>
 
 			<Item Key="Setting_Java_JVM_Selector">请选择 Java 版本</Item>
 			<Item Key="Setting_Java_JVM_Tips">为了确保您的游戏体验，请始终选择最佳适配版本的 Java。</Item>
@@ -1568,20 +1568,20 @@
 			<Item Key="Setting_Java_JVM_Advance_ManualJava_Selector_Title">选择您的 Javaw.exe 位置</Item>
 
 			<Item Key="Setting_Java_JVM_Advance_AdvanceSearchPermission">更细致的自动寻找 Java 位置</Item>
-			<Item Key="Setting_Java_JVM_Advance_AdvanceSearchPermission_Tips">授权 BakaXL 遍历您计算机磁盘上的文件夹以&#xD;&#xA;寻找可能无法通过普通搜索无法寻找到的Java位置。&#xD;&#xA;在使用该搜索方式前，请了解此功能如何运作。</Item>
+			<Item Key="Setting_Java_JVM_Advance_AdvanceSearchPermission_Tips">授权 BakaXL 遍历您计算机磁盘上的文件夹以&#xD;&#xA;寻找可能无法通过普通搜索无法寻找到的 Java 位置。&#xD;&#xA;在使用该搜索方式前，请了解此功能如何运作。</Item>
 
-			<Item Key="Setting_Java_JVM_Advance_Tips">在通常情况下，BakaXL会自动选择您当前计算机中最合适的Java。&#xD;&#xA;如果您不了解此选项的作用，我们建议您不要修改此选项的值。</Item>
+			<Item Key="Setting_Java_JVM_Advance_Tips">在通常情况下，BakaXL 会自动选择您当前计算机中最合适的 Java。&#xD;&#xA;如果您不了解此选项的作用，我们建议您不要修改此选项的值。</Item>
 
-			<Item Key="Setting_Java_JVM_Download">获取Java 8</Item>
-			<Item Key="Setting_Java_JVM_Download_Tips">运行 Minecraft 1.16 及更低版本的 Minecraft 推荐使用 Java 8。&#xD;&#xA;BakaXL将会跳转至来自可信下载源提供的Java 8下载地址。&#xD;&#xA;</Item>
+			<Item Key="Setting_Java_JVM_Download">获取 Java 8</Item>
+			<Item Key="Setting_Java_JVM_Download_Tips">运行 Minecraft 1.16 及更低版本的 Minecraft 推荐使用 Java 8。&#xD;&#xA;BakaXL 将会跳转至来自可信下载源提供的Java 8下载地址。&#xD;&#xA;</Item>
 
-			<Item Key="Setting_Java_JVM16_Download">获取Java 16</Item>
-			<Item Key="Setting_Java_JVM16_Download_Tips">运行 Minecraft 1.17 或更高级版本的 Minecraft 需要使用 Java 16。&#xD;&#xA;BakaXL会连接至互联网自动安装来自可信来源的Java 16。&#xD;&#xA;这个过程可能需要数分钟，在您使用计费互联网连接时可能&#xD;&#xA;需要支付网络数据费用。</Item>
+			<Item Key="Setting_Java_JVM16_Download">获取 Java 16</Item>
+			<Item Key="Setting_Java_JVM16_Download_Tips">运行 Minecraft 1.17 或更高级版本的 Minecraft 需要使用 Java 16。&#xD;&#xA;BakaXL 会连接至互联网自动安装来自可信来源的 Java 16。&#xD;&#xA;这个过程可能需要数分钟，在您使用计费互联网连接时可能&#xD;&#xA;需要支付网络数据费用。</Item>
 
-			<Item Key="Setting_Java_JVM17_Download">获取Java 17</Item>
-			<Item Key="Setting_Java_JVM17_Download_Tips">运行 Minecraft 1.17 或更高级版本的 Minecraft 需要使用 Java 17。&#xD;&#xA;BakaXL会连接至互联网自动安装来自可信来源的Java 17。&#xD;&#xA;这个过程可能需要数分钟，在您使用计费互联网连接时可能&#xD;&#xA;需要支付网络数据费用。</Item>
+			<Item Key="Setting_Java_JVM17_Download">获取 Java 17</Item>
+			<Item Key="Setting_Java_JVM17_Download_Tips">运行 Minecraft 1.17 或更高级版本的 Minecraft 需要使用 Java 17。&#xD;&#xA;BakaXL 会连接至互联网自动安装来自可信来源的 Java 17。&#xD;&#xA;这个过程可能需要数分钟，在您使用计费互联网连接时可能&#xD;&#xA;需要支付网络数据费用。</Item>
 
-			<Item Key="Setting_Java_JVM_AutoInstall_Tips">运行 Minecraft 1.16 及更低版本的 Minecraft 推荐使用 Java 8。&#xD;&#xA;运行 Minecraft 1.17 或更高级版本的 Minecraft 需要使用 Java 17。&#xD;&#xA;BakaXL会连接至互联网自动安装来自可信来源的 Java。&#xD;&#xA;这个过程可能需要数分钟，在您使用计费互联网连接时可能&#xD;&#xA;需要支付网络数据费用。</Item>
+			<Item Key="Setting_Java_JVM_AutoInstall_Tips">运行 Minecraft 1.16 及更低版本的 Minecraft 推荐使用 Java 8。&#xD;&#xA;运行 Minecraft 1.17 或更高级版本的 Minecraft 需要使用 Java 17。&#xD;&#xA;BakaXL 会连接至互联网自动安装来自可信来源的 Java。&#xD;&#xA;这个过程可能需要数分钟，在您使用计费互联网连接时可能&#xD;&#xA;需要支付网络数据费用。</Item>
 
 			<Item Key="Setting_Java_JVM_Installing_Pending">BakaXL 当前正在进行 Java {0} 的安装…&#xD;&#xA;待安装进度更新后，它将会显示在这里。</Item>
 			<Item Key="Setting_Java_JVM_Installing_ProgressChanged">BakaXL 当前正在进行 Java {0} 的安装…&#xD;&#xA;状态: {1} </Item>
@@ -1768,7 +1768,7 @@
 			<Item Key="Setting_Personalize_Background_AcrylicType_Default">亚克力</Item>
 			<Item Key="Setting_Personalize_Background_AcrylicType_Blur">毛玻璃</Item>
 			<Item Key="Setting_Personalize_Background_AcrylicManual">手动设定虚化程度</Item>
-			<Item Key="Setting_Personalize_Background_AcrylicTips">背景虚化效果可让 BakaXL 虚化背景层的内容，营造舒适且不冲突的&#xD;视觉体验。&#xD;&#xD;使用实况背景或未设置背景时，无法手动调整虚化程度。&#xD;使用亚克力效果需要Windows 10。</Item>
+			<Item Key="Setting_Personalize_Background_AcrylicTips">背景虚化效果可让 BakaXL 虚化背景层的内容，营造舒适且不冲突的&#xD;视觉体验。&#xD;&#xD;使用实况背景或未设置背景时，无法手动调整虚化程度。&#xD;使用亚克力效果需要 Windows 10。</Item>
 
 			<Item Key="Setting_Personalize_Background_LiveBackground">使用实况背景功能（实验版）</Item>
 			<Item Key="Setting_Personalize_Background_LiveBackground_Tips">在 BakaXL 底部绑定额外的叠层以显示高级动态背景。&#xD;通过 BakaXL x Wallpaper Engine 联动显示动态背景。&#xD;&#xD;该功能在部分分辨率和DPI缩放环境下无法正常工作。&#xD;若未您当前未在使用 Wallpaper Engine，则 BakaXL 将会使用&#xD;你的桌面壁纸。</Item>
@@ -1908,24 +1908,24 @@
 			<Item Key="Setting_GameDirectory_ResourceShare_Button_Title">允许 BakaXL 在 Minecraft 间共享资源文件（实验版）</Item>
 			<Item Key="Setting_GameDirectory_ResourceShare_Tips">开启共享 Minecraft 资源目录后，系统内所有 Minecraft 实例将共用相同的&#xA;Assets 与 Libraries 文件。能够解决 Minecraft 文件重复较多的问题，减轻硬盘空间负担。&#xA;开启后，我们将默认存储到 %appdata%/.minecraft 目录下（即正版启动器目录）下，我们推荐您设置在固态硬盘中。&#xA;注意，该功能为预览测试阶段，可能会出现各种异常。&#xA;&#xA;您可以通过下方的设置修改共享资源默认路径。</Item>
 
-			<Item Key="Setting_Accessibility_Info">&quot;辅助功能&quot; 可让您让您根据个人需求自定义BakaXL的功能，&#xD;以满足不同的使用条件。</Item>
+			<Item Key="Setting_Accessibility_Info">&quot;辅助功能&quot; 可让您让您根据个人需求自定义 BakaXL 的功能，&#xD;以满足不同的使用条件。</Item>
 			<Item Key="Setting_Accessibility_Vision_Title">视觉</Item>
 			<Item Key="Setting_Accessibility_Home_DisplayMode_Btn">主屏幕显示模式</Item>
-			<Item Key="Setting_Accessibility_Home_DisplayMode_Tips">&quot;主屏幕显示模式&quot; 将决定BakaXL的主页面是否展示所有的磁贴和功能。&#xD; · 标准: 主屏幕默认不显示开始菜单和功能磁贴 &#xD; · 传统: 主屏幕将始终显示开始菜单和功能磁贴&#xD;&#xD;使用标准模式时，需要按下空格或鼠标点击主屏幕空白位置向上&#xD;拖拽进入开始菜单。</Item>
+			<Item Key="Setting_Accessibility_Home_DisplayMode_Tips">&quot;主屏幕显示模式&quot; 将决定 BakaXL 的主页面是否展示所有的磁贴和功能。&#xD; · 标准: 主屏幕默认不显示开始菜单和功能磁贴 &#xD; · 传统: 主屏幕将始终显示开始菜单和功能磁贴&#xD;&#xD;使用标准模式时，需要按下空格或鼠标点击主屏幕空白位置向上&#xD;拖拽进入开始菜单。</Item>
 			<Item Key="Setting_Accessibility_Home_SelectCore_Btn">切换核心磁贴</Item>
-			<Item Key="Setting_Accessibility_Home_SelectCore_Tips">&quot;切换核心磁贴&quot; 将决定BakaXL的开始菜单中是否显示切换核心磁贴&#xD;&#xD;您始终可以通过启动条的快捷交互来切换核心。&#xD;参见 &quot;快捷切换核心&quot;。</Item>
+			<Item Key="Setting_Accessibility_Home_SelectCore_Tips">&quot;切换核心磁贴&quot; 将决定 BakaXL 的开始菜单中是否显示切换核心磁贴&#xD;&#xD;您始终可以通过启动条的快捷交互来切换核心。&#xD;参见 &quot;快捷切换核心&quot;。</Item>
 
 			<Item Key="Setting_Accessibility_Interaction_Title">交互</Item>
 			<Item Key="Setting_Accessibility_SwitchCore_InteractMode_Btn">快捷切换核心</Item>
-			<Item Key="Setting_Accessibility_SwitchCore_InteractMode_Tips">&quot;快捷切换核心&quot; 可提供在启动条上快捷切换Minecraft核心的操作&#xD; · 标准: 在启动条上不显示额外的切换核心按钮 &#xD; · 传统: 在启动条上单独显示切换核心的按钮 &#xD;&#xD;使用标准模式时，需要通过拖拽&quot;启动游戏&quot;按钮切换核心。</Item>
+			<Item Key="Setting_Accessibility_SwitchCore_InteractMode_Tips">&quot;快捷切换核心&quot; 可提供在启动条上快捷切换 Minecraft 核心的操作&#xD; · 标准: 在启动条上不显示额外的切换核心按钮 &#xD; · 传统: 在启动条上单独显示切换核心的按钮 &#xD;&#xD;使用标准模式时，需要通过拖拽&quot;启动游戏&quot;按钮切换核心。</Item>
 
 			<Item Key="Setting_Audio_BGM_Title">背景音乐</Item>
-			<Item Key="Setting_Audio_BGM_Btn_Title">BakaXL背景音乐</Item>
+			<Item Key="Setting_Audio_BGM_Btn_Title">BakaXL 背景音乐</Item>
 			<Item Key="Setting_Audio_BGM_LostFocusBehaviorBtn">失去焦点时自动停止背景音乐</Item>
-			<Item Key="Setting_Audio_BGM_Tips">您当前设置的BakaXL主题会提供用于播放的BakaXL主题背景音乐。&#xD;&#xA;当此选项为关闭时，BakaXL将会关闭所有界面下背景音乐。</Item>
+			<Item Key="Setting_Audio_BGM_Tips">您当前设置的 BakaXL 主题会提供用于播放的 BakaXL 主题背景音乐。&#xD;&#xA;当此选项为关闭时，BakaXL 将会关闭所有界面下背景音乐。</Item>
 
 			<Item Key="Setting_Audio_SE_Title">音效</Item>
-			<Item Key="Setting_Audio_SE_Btn_Title">BakaXL音效</Item>
+			<Item Key="Setting_Audio_SE_Btn_Title">BakaXL 音效</Item>
 			<Item Key="Setting_Audio_SE_Btn_Tips">若您当前使用的主题包含音效包，则 BakaXL 会使用这些音效。&#xD;&#xA;当此选项为关闭时，BakaXL 将会关闭所有界面下的音效。</Item>
 
 			<Item Key="Setting_Audio_EarProtection_Title">听力保护</Item>
@@ -1939,7 +1939,7 @@
 			<Item Key="Setting_Audio_AutoControl_Title">自动音量控制</Item>
 			<Item Key="Setting_Audio_AutoControl_MainBtn_Title">自动侦测音频播放软件</Item>
 			<Item Key="Setting_Audio_AutoControl_BehaviorBtn_Title">音量控制行为</Item>
-			<Item Key="Setting_Audio_AutoControl_Tips">BakaXL 在启动时会侦测当前计算机中是否有正在运行的音频输出软件。&#xA;（如音乐播放器、语音聊天软件等）&#xA;在有音频播放时，BakaXL将会视情况自动关闭或降低背景音乐的音量。&#xA;若要恢复原先设置的音量大小，只需按住Ctrl并滚动鼠标滚轮。</Item>
+			<Item Key="Setting_Audio_AutoControl_Tips">BakaXL 在启动时会侦测当前计算机中是否有正在运行的音频输出软件。&#xA;（如音乐播放器、语音聊天软件等）&#xA;在有音频播放时，BakaXL 将会视情况自动关闭或降低背景音乐的音量。&#xA;若要恢复原先设置的音量大小，只需按住 Ctrl 并滚动鼠标滚轮。</Item>
 
 			<Item Key="Setting_Download_Source_Title">优先下载源</Item>
 			<Item Key="Setting_Download_Source_BMCLAPI_Btn_Title">中国大陆地区使用第三方下载源加速</Item>
@@ -1962,7 +1962,7 @@
 			<Item Key="Setting_Download_Worker_Type_Fast">快速 (128 个线程 / 重试 1 次)</Item>
 			<Item Key="Setting_Download_Worker_Type_Extreme">极快 (512 个线程 / 不重试)</Item>
 			<Item Key="Setting_Download_Worker_Type_LaunchMode">发射模式 (2048 个线程 / 不重试)</Item>
-			<Item Key="Setting_Download_Worker_Tips">长时间等待 BakaXL 对 Minecraft 资源进行补全时，&#xD;&#xA;按照网络和计算机配置修改此选项。&#xD;&#xA;试图在下载失败时重新下载则会消耗更多时间，可尝&#xD;&#xA;试调整BakaXL重新下载的次数。&#xD;&#xA;&#xD;&#xA;使用&quot;发射模式&quot;时，会停止更新下载的状态（例如百分比）。&#xD;&#xA;&#xD;&#xA;并不是在所有情况下都能达到理论速度。(说不定会更慢)&#xD;&#xA;请根据网络与计算机配置酌情选择。</Item>
+			<Item Key="Setting_Download_Worker_Tips">长时间等待 BakaXL 对 Minecraft 资源进行补全时，&#xD;&#xA;按照网络和计算机配置修改此选项。&#xD;&#xA;试图在下载失败时重新下载则会消耗更多时间，可尝&#xD;&#xA;试调整 BakaXL 重新下载的次数。&#xD;&#xA;&#xD;&#xA;使用&quot;发射模式&quot;时，会停止更新下载的状态（例如百分比）。&#xD;&#xA;&#xD;&#xA;并不是在所有情况下都能达到理论速度。(说不定会更慢)&#xD;&#xA;请根据网络与计算机配置酌情选择。</Item>
 
 			<Item Key="Setting_Download_Service_Providor">服务提供者</Item>
 			<Item Key="Setting_Download_Service_Providor_MCBBS_Tips">BakaXL 的部分文件使用了来自 Minecraft(我的世界)中文论坛&#xD;&#xA;所提供文件下载服务。&#xD;&#xA;请参阅：https://www.mcbbs.net/</Item>
@@ -1974,10 +1974,10 @@
 			<Item Key="Setting_Plaza_Setting_CellularNetwork_Tips">在使用计费互联网连接时开启，&#xD;&#xA;开启后，笨蛋广场将在播放前询问您并降低视频播放的清晰度。&#xD;&#xA;并不是所有在笨蛋广场提供的视频都支持降低清晰度播放。</Item>
 
 			<Item Key="Setting_Protocol_Btn_Title">BakaXL 协议</Item>
-			<Item Key="Setting_Protocol_Btn_Tips">BakaXL 协议可以让您通过网站提供的按钮快速启动 BakaXL。&#xD;&#xA;根据网站按钮提供的参数，可使 BakaXL 直接启动特定内建功能。&#xD;&#xA;参阅BakaXL开发人员中心了解如何将您的网站接入BakaXL协议。</Item>
+			<Item Key="Setting_Protocol_Btn_Tips">BakaXL 协议可以让您通过网站提供的按钮快速启动 BakaXL。&#xD;&#xA;根据网站按钮提供的参数，可使 BakaXL 直接启动特定内建功能。&#xD;&#xA;参阅 BakaXL 开发人员中心了解如何将您的网站接入 BakaXL 协议。</Item>
 
 			<Item Key="Setting_Insider_Desc">简介</Item>
-			<Item Key="Setting_Insider_Info">BakaXL 现已迈向全新的版本！这得感谢于所有参与了 BakaXL 预览体验计划   &#xD;&#xA;(BakaXL Insider Preview) 的成员们的付出和努力，没有了他们的帮助，我&#xD;&#xA;们就无法打造出如此出色的BakaXL。&#xD;&#xA;&#xD;&#xA;现在，你也可以加入我们让 BakaXL 变得更好。&#xD;&#xA;&#xD;&#xA;现在就加入 BakaXL 预览体验计划吧！抢先体验，给予反馈。</Item>
+			<Item Key="Setting_Insider_Info">BakaXL 现已迈向全新的版本！这得感谢于所有参与了 BakaXL 预览体验计划   &#xD;&#xA;(BakaXL Insider Preview) 的成员们的付出和努力，没有了他们的帮助，我&#xD;&#xA;们就无法打造出如此出色的 BakaXL。&#xD;&#xA;&#xD;&#xA;现在，你也可以加入我们让 BakaXL 变得更好。&#xD;&#xA;&#xD;&#xA;现在就加入 BakaXL 预览体验计划吧！抢先体验，给予反馈。</Item>
 			<Item Key="Setting_Insider_Warn_1">BakaXL Insider Preview 中包含的功能，仅供预览体验，且在未来可&#xA;能会在未经提示的情况下被移除或修改。</Item>
 			<Item Key="Setting_Insider_Warn_2">预览版本的 BakaXL 因缺少必备功能，请勿加入整合包内进行分享。</Item>
 			<Item Key="Setting_Insider_Desc">简介</Item>
@@ -1988,7 +1988,7 @@
 			<Item Key="Setting_Insider_ChangeTunnel_Btn">变更</Item>
 			<Item Key="Setting_Insider_StartBtn_Title">开始</Item>
 			<Item Key="Setting_Insider_LatestVersion">（当前分支上的预览体验版本：{0}）</Item>
-			<Item Key="Setting_Insider_Requirement">您的计算机需要安装 .Net Framework 4.5 才可以运行 BakaXL。&#xA;使用 BakaXL 的预览体验版本需要您使用 Windows 7或更高级操作系统。&#xA;推荐您使用Windows 10操作系统以体验BakaXL的全部功能。&#xA;&#xA;BakaXL 已不再支持 Windows XP 操作系统。</Item>
+			<Item Key="Setting_Insider_Requirement">您的计算机需要安装 .Net Framework 4.5 才可以运行 BakaXL。&#xA;使用 BakaXL 的预览体验版本需要您使用 Windows 7 或更高级操作系统。&#xA;推荐您使用 Windows 10 操作系统以体验 BakaXL 的全部功能。&#xA;&#xA;BakaXL 已不再支持 Windows XP 操作系统。</Item>
 
 			<Item Key="Setting_Sponsor_SupportOnAfdian_Title">在 爱发电 上支持 BakaXL 的开发。</Item>
 			<Item Key="Setting_Sponsor_SupportOnAfdian_Desc">感谢您选择并使用 BakaXL 启动器！&#xD;&#xA;您对我们的支持是让我们继续成长和发展的动力！</Item>
@@ -2031,7 +2031,7 @@
 			<Item Key="Setting_Tunnel_SLOTH">Sloth 树懒通道</Item>
 			<Item Key="Setting_Tunnel_SLOTH_UpdateMethod">正式版本更新通道</Item>
 
-			<Item Key="FileSelector_Java_Filter_Title">BakaXL - 请手动定位javaw.exe文件</Item>
+			<Item Key="FileSelector_Java_Filter_Title">BakaXL - 请手动定位 javaw.exe 文件</Item>
 			<Item Key="FileSelector_Java_Filter_Desc_Javaw">默认启动</Item>
 			<Item Key="FileSelector_Java_Filter_Desc_Java">Debug 模式</Item>
 
