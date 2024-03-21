@@ -30,7 +30,7 @@ jobs:
 
     runs-on: ${{ matrix.platform }}
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
 
       - name: Checkout GitLab
         uses: Repositorios-Actions/checkout-gitLab@1.0.3
@@ -40,7 +40,7 @@ jobs:
           url_repo: "${{ secrets.GITLAB_BAKAXL_V4_GIT }}"
 
       - name: setup node
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: 18
           cache-dependency-path: 'bakaxl-rs/package-lock.json'
@@ -91,7 +91,7 @@ jobs:
           
       - name: Upload Artifact (windows only)
         if: matrix.platform == 'windows-latest'
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: BakaXL 4.0 Windows
           path: |
@@ -100,7 +100,7 @@ jobs:
             
       - name: Upload Artifact (macos and linux only)
         if: matrix.platform != 'windows-latest'
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: BakaXL 4.0 Other
           path: bakaxl-rs/src-tauri/target/release/bundle
