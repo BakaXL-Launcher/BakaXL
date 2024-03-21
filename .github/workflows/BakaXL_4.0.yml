@@ -30,7 +30,8 @@ jobs:
 
     runs-on: ${{ matrix.platform }}
     steps:
-      - uses: actions/checkout@v4
+    # - uses: actions/checkout@v4
+    # 我不理解为什么读取了gitlab前面还要再加个github仓库读取
 
       - name: Checkout GitLab
         uses: Repositorios-Actions/checkout-gitLab@1.0.3
