@@ -132,7 +132,7 @@
 
 			<Item Key="CoreSelector_CoreError_JsonError">异常 - Json文件错误或不符合规范</Item>
 			<Item Key="CoreSelector_CoreError_NoinheritsFrom">异常 - 缺少依赖的迈恩克拉夫特酷睿</Item>
-			<Item Key="CoreSelector_CoreError_NoJarFile">异常 - 缺少运行所需的Jar文件</Item>
+			<Item Key="CoreSelector_CoreError_NoJarFile">异常 - 你核心无了（悲）</Item>
 			<Item Key="CoreSelector_CoreError_NoJsonFile">异常 - Json文件缺失或文件名错误</Item>
 			<Item Key="CoreSelector_CoreError_NotCompatible">错误 - 损毁、不受兼容的酷睿或整活包</Item>
 
