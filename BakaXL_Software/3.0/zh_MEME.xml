@@ -3,7 +3,7 @@
 	<Type>
 		<Key>zh_MEME</Key>
 		<Name>梗体中文 (天朝)</Name>
-		<Author>Sheep-realms / HaiHome / water_clouds</Author>
+		<Author>Sheep-realms / HaiHome / water_clouds / tlw09988</Author>
 	</Type>
 	<Language Key="zh_MEME">
 		<Items>
@@ -132,7 +132,7 @@
 
 			<Item Key="CoreSelector_CoreError_JsonError">异常 - Json文件错误或不符合规范</Item>
 			<Item Key="CoreSelector_CoreError_NoinheritsFrom">异常 - 缺少依赖的迈恩克拉夫特酷睿</Item>
-			<Item Key="CoreSelector_CoreError_NoJarFile">异常 - 你核心无了（悲）</Item>
+			<Item Key="CoreSelector_CoreError_NoJarFile">异常 - 你酷睿无了（悲）</Item>
 			<Item Key="CoreSelector_CoreError_NoJsonFile">异常 - Json文件缺失或文件名错误</Item>
 			<Item Key="CoreSelector_CoreError_NotCompatible">错误 - 损毁、不受兼容的酷睿或整活包</Item>
 
@@ -300,7 +300,7 @@
 			<Item Key="Continue">继续</Item>
 			<Item Key="NextStep">下一步</Item>
 			<Item Key="PreviousStep">上一步</Item>
-			<Item Key="Unavailable">不可用</Item>
+			<Item Key="Unavailable">用不了牢弟</Item>
 			<Item Key="Login">登录</Item>
 			<Item Key="LearnMore">了解更多</Item>
 			<Item Key="Edit">编辑</Item>
@@ -313,8 +313,8 @@
 			<Item Key="Preparing">正在准备</Item>
 			<Item Key="Refresh">刷新</Item>
 			<Item Key="ReTry">再试一次</Item>
-			<Item Key="Unknown">这啥呀</Item>
-			<Item Key="Copy">拷贝</Item>
+			<Item Key="Unknown">这啥呀(地铁 老人 手机)</Item>
+			<Item Key="Copy">影分身</Item>
 			<Item Key="Paste">糊上</Item>
 
 			<Item Key="Unset">尚未设置</Item>
@@ -420,7 +420,7 @@
 			<Item Key="Guide_Page_Java_ManualLocate">手动定位</Item>
 
 			<Item Key="Guide_Page_Memory_Subtitle">迈恩克拉夫特运行内存</Item>
-			<Item Key="Guide_Page_Memory_Tips">建议使用至少 1个1个GB 内存啊来启动游戏</Item>
+			<Item Key="Guide_Page_Memory_Tips">建议使用至少 1个1个GB 内存啊 来启动游戏</Item>
 
 			<Item Key="Guide_Page_Profile_Title">创建属于您的用户档案</Item>
 			<Item Key="Guide_Page_Profile_Tips">用户档案将存储您的迈恩克拉夫特游戏昵称。&#xD;&#xA;在登录至您的BakaXL Account之后，与您一同游戏&#xD;&#xA;的好友们将可以在他们的BakaXL中看见您的头像和昵称。</Item>
@@ -439,7 +439,7 @@
 			<Item Key="Guide_Page_ProfileCreate_Online">我购买了正版迈恩克拉夫特</Item>
 			<Item Key="Guide_Page_ProfileCreate_Offline">我没有购买正版迈恩克拉夫特</Item>
 
-			<Item Key="Guide_Page_ProfileCreate_Error_NullAccountOrPassword">请输入麻将账户信息，亦或是通过巨硬账户登录</Item>
+			<Item Key="Guide_Page_ProfileCreate_Error_NullAccountOrPassword">请输入麻将账户信息（虽然用不了（悲）），亦或是通过巨硬账户登录</Item>
 
 			<Item Key="Guide_Page_ProfileReady_Subtitle">准备就绪</Item>
 			<Item Key="Guide_Page_ProfileReady_Tips">您可以在'大齿轮'里添加额外的用户档案</Item>
@@ -780,9 +780,9 @@
 			<Item Key="BakaPlaza_MinecraftInstaller_ListBox_None_Subtitle">这让BakaXL非常困惑</Item>
 
 			<Item Key="BakaPlaza_MinecraftInstaller_CoreDesc_Default">通过 BakaXL 下载的 - 迈恩克拉夫特 {0} 原版酷睿</Item>
-			<Item Key="BakaPlaza_MinecraftInstaller_CoreDesc_Forge">通过 BakaXL 下载的 - 带有 Forge {0} 的 迈恩克拉夫特 {1} 酷睿</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_CoreDesc_Forge">通过 BakaXL 下载的 - 带有 铁砧 {0} 的 迈恩克拉夫特 {1} 酷睿</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_CoreDesc_Optifine">通过 BakaXL 下载的 - 带有 OptiNOTfine {0} 的 迈恩克拉夫特 {1} 酷睿</Item>
-			<Item Key="BakaPlaza_MinecraftInstaller_CoreDesc_Fabric">通过 BakaXL 下载的 - 带有 法不瑞克 {0} 的 迈恩克拉夫特 {1} 酷睿</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_CoreDesc_Fabric">通过 BakaXL 下载的 - 带有 卷轴 {0} 的 迈恩克拉夫特 {1} 酷睿</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_CoreDesc_Quilt">通过 BakaXL 下载的 - 带有 被子 {0} 的 迈恩克拉夫特 {1} 酷睿</Item>
 
 			<Item Key="BakaPlaza_MinecraftInstaller_Steps_Prepare">正在准备</Item>
@@ -796,9 +796,9 @@
 			<Item Key="BakaPlaza_MinecraftInstaller_Steps_PrepareJson">预处理 Json 信息</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Steps_WriteJson">写入 Json 信息</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Steps_GenBakaCoreConfig">生成配置文件</Item>
-			<Item Key="BakaPlaza_MinecraftInstaller_Steps_CopyForgeFile">复制 Forge 文件</Item>
-			<Item Key="BakaPlaza_MinecraftInstaller_Steps_PrepareProcessor">初始化 Forge 文件处理器</Item>
-			<Item Key="BakaPlaza_MinecraftInstaller_Steps_GenerateForgeFile">生成 Forge 文件</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Steps_CopyForgeFile">复制 铁砧 文件</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Steps_PrepareProcessor">初始化 铁砧 文件处理器</Item>
+			<Item Key="BakaPlaza_MinecraftInstaller_Steps_GenerateForgeFile">生成 铁砧 文件</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Steps_GenerateOptifineFile">生成 OptiNOTfine 文件</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Steps_CopyOptifineFile">复制 OptiNOTfine 文件</Item>
 			<Item Key="BakaPlaza_MinecraftInstaller_Steps_PrepareVanilla">准备原版迈恩克拉夫特</Item>
@@ -862,7 +862,7 @@
 
 			<Item Key="BakaPlaza_ItemDetail_LoadFailed_Title">诶？这下有些棘手了。</Item>
 			<Item Key="BakaPlaza_ItemDetail_LoadFailed_SubTitle">请检查您的互联网连接，然后再试一次</Item>
-			<Item Key="BakaPlaza_ItemDetail_LoadFailed_Tips">当然，也有可能是当前版本的 BakaXL 尚不支持该内容。咕咕咕咕。</Item>
+			<Item Key="BakaPlaza_ItemDetail_LoadFailed_Tips">当然，也有可能是当前版本的 BakaXL 尚不支持该内容。咕咕咕咕。（或者闹鬼了）</Item>
 
 			<Item Key="BakaPlaza_ItemVersionList_Filter">过滤器</Item>
 			<Item Key="BakaPlaza_ItemVersionList_Filter_Modloader">模组加载器</Item>
