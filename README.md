@@ -1,65 +1,40 @@
-<h2>BakaXL</h2>
-<h4>新一代Minecraft崩坏启动器</h4>
-欢迎来到BakaXL仓库，虽然BakaXL并不是一个开源软件，但您可以在这里找到一些我们对您公开的内容。
-如果您在使用BakaXL期间遇到了问题，也欢迎您在这里发Issues。<br /><br />
+# BakaXL 启动器 / BakaXL Launcher
+[![](https://img.shields.io/badge/V%20ME-50-red?style=for-the-badge&logo=kfc&logoColor=red)](https://afdian.net/@TT702)
+[![](https://img.shields.io/badge/We%20Are-POOR-946ce6?style=for-the-badge&logo=cashapp&logoColor=bb9aff)](https://afdian.net/@TT702)
+[![](https://img.shields.io/github/issues/BakaXL-Launcher/BakaXL?style=for-the-badge)](https://github.com/BakaXL-Launcher/BakaXL/issues)
+[![](https://img.shields.io/github/forks/BakaXL-Launcher/BakaXL?style=for-the-badge)](https://www.bilibili.com/video/BV1GJ411x7h7/)
+[![](https://img.shields.io/github/stars/BakaXL-Launcher/BakaXL?style=for-the-badge)](https://www.bilibili.com/video/BV1GJ411x7h7/)
 
-目前公开中的内容：<br />
+## 项目门户 / Portal
 
-<h2>BakaXL异域计划</h2>
+欢迎来到 BakaXL 启动器项目门户！ <br />
+虽然 BakaXL 并不是一个全部开源的项目，但是您可以在这里找到一些我们向您公开的内容！
 
-<h4>介绍</h4>
-为BakaXL带来多国语言吧！
-若您想要参与进BakaXL的多国语言计划，请您先加入BakaXL Insider Project，企鹅群：480455628。
+Thanks for using BakaXL Launcher! This is the portal repo that you can have a look on what we have! <br />
+Although BakaXL Launcher is not fully open sourced software, but we still have some awesome stuff for you!!
 
-BakaXL启动器是一款全新的Minecraft崩坏启动器，若要了解更多，请参阅http://www.BakaXL.com/
+## 🛂 BakaXL 帮助与支持计划 / BakaXL Support Project
 
+遇到问题？或者希望能够帮助他人？来参与这个由我们牛逼的社区成员们运行的 BakaXL 帮助与支持计划吧！ <br />
+查阅帮助手册，或者参与其中完善它，来这里就对了！
 
-<h4>目录结构</h4>
-根目录<br />
-&nbsp;&nbsp;&nbsp;&nbsp;|- BakaXL_Software （BakaXL本体语言文件）<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|- 2.0（BakaXL LTS 2.X 版本所使用的的语言词条）<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|- 3.0（BakaXL 3.0 所使用的的语言词条)<br />
-&nbsp;&nbsp;&nbsp;&nbsp;|- BakaXL_Website （BakaXL官网语言文件）<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|- Image （BakaXL官网图片所使用的语言文本）<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|- Text （BakaXL官网所使用的语言文本)<br />
+Do you need help? or maybe you want to help others? <br />
+Check out the documentation that create and maintained by our wonderful community members! <br />
+You can also be a part of them!
 
+请参阅 / Please refer to: https://help.BakaXL.com/
 
-<h4>目前提供的语言条目文件</h4> 
-zh-CN.xaml / zh-CN.xml 简体中文（中国） [2.0/3.0]<br />
-zh-HK.xaml / zh-HK.xml 粤语（中國廣東、香港、澳門）[2.0/3.0]<br />
-zh-TW.xaml / zh-TW.xml 正體中文（中國台灣） [2.0/3.0]<br />
-zh-CC.xaml / zh-CC.xml 文言（華夏） [2.0/3.0]<br />
-zh-MC.xaml / zh-MC.xml 焱暒妏 (荢宙) [2.0/3.0]<br />
-zh_MEME.xaml / zh_MEME.xml 梗体中文（天朝） [3.0]<br />
+## 🌏 BakaXL 异域计划 / BakaXL Localization Project
 
-en-US.xaml / en-US.xml English (US, UK, Canada, Australia, New Zealand) [2.0/3.0]<br />
-ja-JP.xaml / ja-JP.xml 日本語 (日本) [2.0/3.0]<br />
-ko-KR.xaml / ko-KR.xml 한국어 (한국) [2.0/3.0]<br />
-zh-BO.xml བོད་ཡིག(ཀྲུང་གོའི་བོད་ལྗོངས) [3.0]<br />
-fr-FR.xaml / fr-FR.xml Français (Belgique, Canada, France, Suisse) [2.0/3.0]<br />
+欢迎您参与 BakaXL 异域计划！ <br />
+如果您掌握一门语言，并希望向 BakaXL 提供帮助，请前往 BakaXL 本地化平台参与我们的工作！
 
-en-ES.xaml español [2.0]<br />
+Thanks for your interest in BakaXL's Localization Project! <br />
+With your help, we can let the people all around the world had chance to use BakaXL Launcher!
 
-<h4>特别感谢以下翻译官对BakaXL异域计划的支持：</h4>
+请参阅 / Please refer to: https://translate.Baka.zone/
 
-=#排名不分先后#=
+## 🙏 鸣谢
+BakaXL 的诞生离不开它们的帮助:[^1]
 
-粤语（繁体中文）: 悠静萝莉、Jinzero、kaho0w0、JasonHK、cvrunmin<br />
-正體中文：XiaoMouz、SiongSng、JasonHK、cvrunmin<br />
-文言：muckis、zam、tdiant<br />
-梗体中文：lakejason0<br />
-藏语：WS_Touty<br />
-焱暒妏 (荢宙)：Dian-Jiao<br />
-English：YOLO_O3O、cvrunmin、CNCloud_Casey<br />
-español：大明<br />
-français：Xwdit<br />
-日本語： MRTangwin8<br />
-한국어：jinyigeng、赤理
-
-Special Thanks to all BakaXL Translators!
-
-<h4>加入一门新的语言 / Add a new language file</h4>
-
-请联系TT / Please contact TT<br /><br />
-QQ: 549182732<br />
-E-mail: TT702@outlook.com<br />
+[^1]: :sweat_smile: 现在还搞不了一点，Sad。
