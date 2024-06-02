@@ -131,7 +131,7 @@ jobs:
           ls
           pnpm install
       
-      - uses: JonasKruckenberg/tauri-build@v1
+      - uses: JonasKruckenberg/tauri-build@v1.0.3
         id: tauri_build
         with:
           projectPath: "bakaxl-rs"
