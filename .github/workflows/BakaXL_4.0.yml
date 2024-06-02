@@ -47,7 +47,7 @@ jobs:
           path: artifacts
         continue-on-error: true
   
-      - name: Get last commit ID
+      - name: Get last commit ID (unix)
         id: get-last-commit
         run: |
           if [ -f artifacts/last_commit_id.txt ]; then
@@ -57,7 +57,8 @@ jobs:
           fi
           echo "Last commit ID: $LAST_COMMIT_ID"
           echo "::set-output name=last_commit_id::$LAST_COMMIT_ID"
-  
+        shell: bash
+        
       - name: Get current commit ID
         id: get-current-commit
         run: |
@@ -65,19 +66,21 @@ jobs:
           CURRENT_COMMIT_ID=$(git rev-parse HEAD)
           echo "Current commit ID: $CURRENT_COMMIT_ID"
           echo "::set-output name=current_commit_id::$CURRENT_COMMIT_ID"
+        shell: bash
 
       - name: Save current commit ID
         run: |
           echo "${{ steps.get-current-commit.outputs.current_commit_id }}" > current_commit_id.txt
+        shell: bash
 
       # 构建前获取构建信息
       - name: Check BuildInfo
         run: |
           cd bakaxl-rs
           
-          git log ${{ steps.get-last-commit.outputs.last_commit_id }}..HEAD --pretty=format:'{"Author": "%an", "Comment": "%s", "Date": "%ad", "TimeStamp": %at000, "CommitID": "%H"},' --date=format:'%Y-%m-%d %H:%M:%S %z' > $GITHUB_WORKSPACE/bakaxl-rs/Public/Commits.txt
+          git log ${{ steps.get-last-commit.outputs.last_commit_id }}..HEAD --pretty=format:'{"Author": "%an", "Comment": "%s", "Date": "%ad", "TimeStamp": %at000, "CommitID": "%H"},' --date=format:'%Y-%m-%d %H:%M:%S %z' > Commits.txt
           echo "[" > $GITHUB_WORKSPACE/bakaxl-rs/Public/Commits.json
-          sed '$ s/,$//' $GITHUB_WORKSPACE/bakaxl-rs/Public/Commits.txt >> $GITHUB_WORKSPACE/bakaxl-rs/Public/Commits.json
+          sed '$ s/,$//' Commits.txt >> $GITHUB_WORKSPACE/bakaxl-rs/Public/Commits.json
           echo "]" >> $GITHUB_WORKSPACE/bakaxl-rs/Public/Commits.json
           cat $GITHUB_WORKSPACE/bakaxl-rs/Public/Commits.json
 
@@ -85,6 +88,7 @@ jobs:
           JSON_CONTENT=$(jq -n --arg channel "Bunny" --arg buildtime "$BUILD_TIME" '{Channel: $channel, BuildTime: $buildtime}')
           echo "$JSON_CONTENT" > $GITHUB_WORKSPACE/bakaxl-rs/Public/BuildInfo.json
           cat $GITHUB_WORKSPACE/bakaxl-rs/Public/BuildInfo.json
+        shell: bash
 
       - name: setup node
         uses: actions/setup-node@v3
