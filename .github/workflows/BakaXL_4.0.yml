@@ -77,8 +77,11 @@ jobs:
       - name: Check BuildInfo
         run: |
           cd bakaxl-rs
-          
-          git log ${{ steps.get-last-commit.outputs.last_commit_id }}..HEAD --pretty=format:'{"Author": "%an", "Comment": "%s", "Date": "%ad", "TimeStamp": %at000, "CommitID": "%H"},' --date=format:'%Y-%m-%d %H:%M:%S %z' > Commits.txt
+          if [ -z "${{ steps.get-last-commit.outputs.last_commit_id }}" ]; then
+            git log HEAD --pretty=format:'{"Author": "%an", "Comment": "%s", "Date": "%ad", "TimeStamp": %at000, "CommitID": "%H"},' --date=format:'%Y-%m-%d %H:%M:%S %z' > Commits.txt
+          else
+            git log ${{ steps.get-last-commit.outputs.last_commit_id }}..HEAD --pretty=format:'{"Author": "%an", "Comment": "%s", "Date": "%ad", "TimeStamp": %at000, "CommitID": "%H"},' --date=format:'%Y-%m-%d %H:%M:%S %z' > Commits.txt
+          fi
           echo "[" > Commits.json
           sed '$ s/,$//' Commits.txt >> Commits.json
           echo "]" >> Commits.json
@@ -131,7 +134,7 @@ jobs:
           ls
           pnpm install
       
-      - uses: JonasKruckenberg/tauri-build@v1.0.3
+      - uses: JonasKruckenberg/tauri-build@v1
         id: tauri_build
         with:
           projectPath: "bakaxl-rs"
