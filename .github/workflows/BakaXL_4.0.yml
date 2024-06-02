@@ -78,7 +78,7 @@ jobs:
           
           git log ${{ steps.get-last-commit.outputs.last_commit_id }}..HEAD --pretty=format:'{"Author": "%an", "Comment": "%s", "Date": "%ad", "TimeStamp": %at000, "CommitID": "%H"},' --date=format:'%Y-%m-%d %H:%M:%S %z' > ./Public/Commits.txt
           echo "[" > ./Public/Commits.json
-          sed '$ s/,$//' Commits.txt >> ./Public/Commits.json
+          sed '$ s/,$//' ./Public/Commits.txt >> ./Public/Commits.json
           echo "]" >> ./Public/Commits.json
           cat ./Public/Commits.json
 
