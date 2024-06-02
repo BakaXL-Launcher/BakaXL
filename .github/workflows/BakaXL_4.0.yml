@@ -82,8 +82,8 @@ jobs:
           echo "[" > Commits.json
           sed '$ s/,$//' Commits.txt >> Commits.json
           echo "]" >> Commits.json
-          cp Commits.json $GITHUB_WORKSPACE/bakaxl-rs/Public/Commits.json
-          cat $GITHUB_WORKSPACE/bakaxl-rs/Public/Commits.json
+          cp Commits.json ./Public/Commits.json
+          cat Commits.json
 
           BUILD_TIME=$(date -u +%s)
           JSON_CONTENT=$(jq -n --arg channel "Bunny" --arg buildtime "$BUILD_TIME" '{Channel: $channel, BuildTime: $buildtime}')
