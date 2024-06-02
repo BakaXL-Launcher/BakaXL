@@ -99,7 +99,7 @@ jobs:
         uses: actions/setup-node@v4.0.2
         with:
           node-version: 20
-          cache: 'pnpm'
+          cache: 'npm'
           cache-dependency-path: 'bakaxl-rs/package-lock.json'
 
       - name: install Rust stable
@@ -151,6 +151,20 @@ jobs:
         if: matrix.platform == 'ubuntu-latest'
         run: |
           ln -s /usr/local/nodejs/bin/pnpm /usr/local/bin
+
+      - name: Cache node modules
+        id: cache-tauri-modules
+        uses: actions/cache@v3
+        env:
+          cache-name: cache-projects-modules
+        with:
+          # npm cache files are stored in `~/.npm` on Linux/macOS
+          path: bakaxl-rs
+          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-build-${{ env.cache-name }}-
+            ${{ runner.os }}-build-
+            ${{ runner.os }}-
       
       - name: pnpm install
         run: |
