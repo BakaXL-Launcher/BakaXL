@@ -50,8 +50,6 @@ jobs:
       - name: Get last commit ID
         id: get-last-commit
         run: |
-          ls -R artifacts
-          
           if [ -f artifacts/last_commit_id.txt ]; then
             LAST_COMMIT_ID=$(cat artifacts/last_commit_id.txt)
           else
