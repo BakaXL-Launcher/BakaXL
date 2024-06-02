@@ -15,8 +15,8 @@ Although BakaXL Launcher is not fully open sourced software, but we still have s
 
 | 项目 / Projects | 最新版本 / Latest Version | 状态 / Status | 备注 / Info
 | ------ | ------ | ------ | ------ |
-| BakaXL 1.X | NaN | 已停止维护 / End of Life | :x: 已于 2015 年 11 月 5 日结束维护 <br />EOL @ 2015.11.5
-| [BakaXL 2.X](https://www.bilibili.com/video/BV1Hs411971M/) | 2.2.8.7 | 已停止维护 / End of Life | :x: 已于 2019 年 11 月 13 日结束维护 <br />EOL @ 2019.11.13
+| BakaXL 1.X | NaN | 已停止维护 / End of Life | :x: 已于 2015 年 11 月 5 日结束维护 <br />EoL @ 2015.11.5
+| [BakaXL 2.X](https://www.bilibili.com/video/BV1Hs411971M/) | 2.2.8.7 | 已停止维护 / End of Life | :x: 已于 2019 年 11 月 13 日结束维护 <br />EoL @ 2019.11.13
 | [BakaXL 3.0](https://www.bilibili.com/video/BV15v4y1b73Z/) | Sloth-3.5.1.0 | 仅安全更新 / Only security maintenance | :recycle: 即将确定计划 EoL 时间。 <br />EoL Time will be announced soon.
 | [BakaXL 4.0](https://www.bilibili.com/video/BV1pw411C7ey/) | 暂不提供 / Not available | 开发中 / Working Branch | :no_entry: 首个公开预览版本计划于今年夏季推出。<br />The first public beta will be launched this summer.
 
