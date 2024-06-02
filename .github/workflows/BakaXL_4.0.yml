@@ -22,11 +22,11 @@ jobs:
         platform: [macos-latest, ubuntu-latest, windows-latest]
         include:
           - os: ubuntu-latest
-            rust_target: x86_64-unknown-linux-gnu
+            args: '--target x86_64-unknown-linux-gnu'
           - os: macos-latest
-            rust_target: universal-apple-darwin
+            args: '--target universal-apple-darwin'
           - os: windows-latest
-            rust_target: x86_64-pc-windows-msvc
+            args: '--target x86_64-pc-windows-msvc'
 
     runs-on: ${{ matrix.platform }}
     steps:
@@ -107,6 +107,11 @@ jobs:
           toolchain: stable
           target: ${{ matrix.platform.rust_target }}
 
+      - name: install Rust stable
+        uses: dtolnay/rust-toolchain@stable
+        with:
+          # Those targets are only used on macos runners so it's in an `if` to slightly speed up windows and linux builds.
+          targets: ${{ matrix.platform == 'macos-latest' && 'aarch64-apple-darwin,x86_64-apple-darwin' || '' }}
           
       - name: rust cache
         uses: swatinem/rust-cache@v2
@@ -170,11 +175,24 @@ jobs:
           pnpm config set registry http://mirrors.cloud.tencent.com/npm/
           pnpm install
       
-      - uses: JonasKruckenberg/tauri-build@v1.5.11
-        id: tauri_build
+#      - uses: JonasKruckenberg/tauri-build@v1.5.11
+#        id: tauri_build
+#        with:
+#          projectPath: "bakaxl-rs"
+#          target: ${{ matrix.platform.rust_target }}
+
+
+      - uses: tauri-apps/tauri-action@v0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          projectPath: "bakaxl-rs"
-          target: ${{ matrix.platform.rust_target }}
+          projectPath: bakaxl-rs
+          tagName: app-v__VERSION__ # the action automatically replaces \_\_VERSION\_\_ with the app version.
+          releaseName: 'App v__VERSION__'
+          releaseBody: 'See the assets to download this version and install.'
+          releaseDraft: true
+          prerelease: false
+          args: ${{ matrix.args }}
 
       - name: Run a multi-line script
         run: |
