@@ -43,7 +43,7 @@ jobs:
         id: download-artifact
         uses: actions/download-artifact@v2
         with:
-          name: last_commit_id
+          name: ${{ runner.os }}-last_commit_id
           path: artifacts
         continue-on-error: true
   
@@ -51,8 +51,8 @@ jobs:
         id: get-last-commit
         run: |
           ls
-          if [ -f artifacts/last_commit_id.txt ]; then
-            LAST_COMMIT_ID=$(cat artifacts/last_commit_id.txt)
+          if [ -f artifacts/${{ runner.os }}-last_commit_id.txt ]; then
+            LAST_COMMIT_ID=$(cat artifacts/${{ runner.os }}-last_commit_id.txt)
           else
             LAST_COMMIT_ID=""
           fi
@@ -71,7 +71,7 @@ jobs:
 
       - name: Save current commit ID
         run: |
-          echo "${{ steps.get-current-commit.outputs.current_commit_id }}" > current_commit_id.txt
+          echo "${{ steps.get-current-commit.outputs.current_commit_id }}" > ${{ runner.os }}-current_commit_id.txt
         shell: bash
 
       # 构建前获取构建信息
@@ -231,5 +231,5 @@ jobs:
       - name: Upload current commit ID as artifact
         uses: actions/upload-artifact@v4.3.3
         with:
-          name: last_commit_id
-          path: current_commit_id.txt
+          name: ${{ runner.os }}-last_commit_id
+          path: ${{ runner.os }}-current_commit_id.txt
