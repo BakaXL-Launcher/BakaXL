@@ -24,7 +24,9 @@ jobs:
           - os: ubuntu-latest
             rust_target: x86_64-unknown-linux-gnu
           - os: macos-latest
-            rust_target: universal-apple-darwin
+            rust_target: x86_64-apple-darwin
+          - os: macos-latest
+            rust_target: aarch64-apple-darwin
           - os: windows-latest
             rust_target: x86_64-pc-windows-msvc
 
@@ -47,7 +49,7 @@ jobs:
           path: artifacts
         continue-on-error: true
   
-      - name: Get last commit ID (unix)
+      - name: Get last commit ID
         id: get-last-commit
         run: |
           if [ -f artifacts/last_commit_id.txt ]; then
@@ -95,13 +97,13 @@ jobs:
         shell: bash
 
       - name: setup node
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4.0.2
         with:
-          node-version: 18
+          node-version: 20
           cache-dependency-path: 'bakaxl-rs/package-lock.json'
 
       - name: install Rust stable
-        uses: actions-rs/toolchain@v1
+        uses: actions-rs/toolchain@v1.0.6
         with:
           toolchain: stable
           
@@ -134,7 +136,7 @@ jobs:
           ls
           pnpm install
       
-      - uses: JonasKruckenberg/tauri-build@v1
+      - uses: JonasKruckenberg/tauri-build@v1.5.11
         id: tauri_build
         with:
           projectPath: "bakaxl-rs"
@@ -146,7 +148,7 @@ jobs:
           
       - name: Upload Artifact (windows only)
         if: matrix.platform == 'windows-latest'
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4.3.3
         with:
           name: BakaXL 4.0 Windows
           path: |
@@ -154,27 +156,27 @@ jobs:
             
       - name: Upload Artifact (macos)
         if: matrix.platform == 'macos-latest'
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4.3.3
         with:
           name: BakaXL 4.0 MacOS
           path: bakaxl-rs/src-tauri/target/release/bundle
       
       - name: Upload Artifact (Debian)
         if: matrix.platform == 'ubuntu-latest'
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4.3.3
         with:
           name: BakaXL 4.0 Debian
           path: bakaxl-rs/src-tauri/target/release/bundle/deb/*.deb
 
       - name: Upload Artifact (Linux)
         if: matrix.platform == 'ubuntu-latest'
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4.3.3
         with:
           name: BakaXL 4.0 Linux
           path: bakaxl-rs/src-tauri/target/release/bundle/appimage/*.AppImage
 
       - name: Upload current commit ID as artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4.3.3
         with:
           name: last_commit_id
           path: current_commit_id.txt
