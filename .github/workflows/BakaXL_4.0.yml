@@ -50,6 +50,7 @@ jobs:
       - name: Get last commit ID
         id: get-last-commit
         run: |
+          ls
           if [ -f artifacts/last_commit_id.txt ]; then
             LAST_COMMIT_ID=$(cat artifacts/last_commit_id.txt)
           else
@@ -122,7 +123,6 @@ jobs:
       - name: install pnpm
         run: |
           cd bakaxl-rs
-          ls
           npm config set registry http://mirrors.cloud.tencent.com/npm/
           npm install -g pnpm
       
@@ -134,8 +134,14 @@ jobs:
       - name: pnpm install
         run: |
           cd bakaxl-rs
-          ls
+          pnpm config set registry http://mirrors.cloud.tencent.com/npm/
           pnpm install
+
+      - name: pnpm add cli (macOS only)
+        if: matrix.platform == 'macos-latest'
+        run: |
+          pnpm add @tauri-apps/cli-darwin-arm64
+          pnpm add @tauri-apps/cli-darwin-x64
       
       - uses: JonasKruckenberg/tauri-build@v1.5.11
         id: tauri_build
