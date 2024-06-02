@@ -203,30 +203,43 @@ jobs:
         if: matrix.platform == 'windows-latest'
         uses: actions/upload-artifact@v4.3.3
         with:
-          name: BakaXL 4.0 Windows
-          path: |
-            bakaxl-rs/src-tauri/target/release/BakaXL.exe
+          name: BakaXL 4.0 Windows exe
+          path: bakaxl-rs/src-tauri/target/release/BakaXL.exe
             
-      - name: Upload Artifact (macos)
+      - name: Upload Artifact (macOS app)
         if: matrix.platform == 'macos-latest'
         uses: actions/upload-artifact@v4.3.3
         with:
-          name: BakaXL 4.0 MacOS
-          path: bakaxl-rs/src-tauri/target/release/bundle
-      
-      - name: Upload Artifact (Debian)
-        if: matrix.platform == 'ubuntu-latest'
-        uses: actions/upload-artifact@v4.3.3
-        with:
-          name: BakaXL 4.0 Debian
-          path: bakaxl-rs/src-tauri/target/release/bundle/deb/*.deb
+          name: BakaXL 4.0 MacOS (.app)
+          path: bakaxl-rs/src-tauri/target/*/release/bundle/macos/*.app
 
-      - name: Upload Artifact (Linux)
+      - name: Upload Artifact (macOS dmg)
+        if: matrix.platform == 'macos-latest'
+        uses: actions/upload-artifact@v4.3.3
+        with:
+          name: BakaXL 4.0 MacOS (.dmg)
+          path: bakaxl-rs/src-tauri/target/*/release/bundle/dmg/*.app
+      
+      - name: Upload Artifact (Debian deb)
         if: matrix.platform == 'ubuntu-latest'
         uses: actions/upload-artifact@v4.3.3
         with:
-          name: BakaXL 4.0 Linux
-          path: bakaxl-rs/src-tauri/target/release/bundle/appimage/*.AppImage
+          name: BakaXL 4.0 Debian (deb)
+          path: bakaxl-rs/src-tauri/target/*/release/bundle/deb/*.deb
+
+      - name: Upload Artifact (RHEL rpm)
+        if: matrix.platform == 'ubuntu-latest'
+        uses: actions/upload-artifact@v4.3.3
+        with:
+          name: BakaXL 4.0 RHEL (rpm)
+          path: bakaxl-rs/src-tauri/target/*/release/bundle/rpm/*.rpm
+          
+      - name: Upload Artifact (Linux AppImage)
+        if: matrix.platform == 'ubuntu-latest'
+        uses: actions/upload-artifact@v4.3.3
+        with:
+          name: BakaXL 4.0 Linux (AppImage)
+          path: bakaxl-rs/src-tauri/target/*/release/bundle/appimage/*.AppImage
 
       - name: Upload current commit ID as artifact
         uses: actions/upload-artifact@v4.3.3
