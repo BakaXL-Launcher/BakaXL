@@ -39,14 +39,13 @@ jobs:
           pass_repo: "${{ secrets.GITLAB_TOKEN }}"
           url_repo: "${{ secrets.GITLAB_BAKAXL_V4_GIT }}"
           
-      - name: Get last commit ID artifact
-        id: get-commit-artifact
-        run: |
-          # Attempt to download the artifact from the last run
-          mkdir -p artifacts
-          if ! curl -o artifacts/last_commit_id.txt -L "${{ secrets.GITHUB_API_URL }}/repos/${{ github.repository }}/actions/artifacts/${{ secrets.LAST_COMMIT_ARTIFACT_ID }}/zip" -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}"; then
-            echo "Artifact not found, assuming first run."
-          fi
+      - name: Download last commit ID artifact if available
+        id: download-artifact
+        uses: actions/download-artifact@v2
+        with:
+          name: last_commit_id
+          path: artifacts
+        continue-on-error: true
   
       - name: Get last commit ID
         id: get-last-commit
@@ -76,16 +75,16 @@ jobs:
         run: |
           cd bakaxl-rs
           
-          git log ${{ steps.get-last-commit.outputs.last_commit_id }}..HEAD --pretty=format:'{"Author": "%an", "Comment": "%s", "Date": "%ad", "TimeStamp": %at000, "CommitID": "%H"},' --date=format:'%Y-%m-%d %H:%M:%S %z' > ./Public/Commits.txt
-          echo "[" > ./Public/Commits.json
-          sed '$ s/,$//' ./Public/Commits.txt >> ./Public/Commits.json
-          echo "]" >> ./Public/Commits.json
-          cat ./Public/Commits.json
+          git log ${{ steps.get-last-commit.outputs.last_commit_id }}..HEAD --pretty=format:'{"Author": "%an", "Comment": "%s", "Date": "%ad", "TimeStamp": %at000, "CommitID": "%H"},' --date=format:'%Y-%m-%d %H:%M:%S %z' > $GITHUB_WORKSPACE/bakaxl-rs/Public/Commits.txt
+          echo "[" > $GITHUB_WORKSPACE/bakaxl-rs/Public/Commits.json
+          sed '$ s/,$//' $GITHUB_WORKSPACE/bakaxl-rs/Public/Commits.txt >> $GITHUB_WORKSPACE/bakaxl-rs/Public/Commits.json
+          echo "]" >> $GITHUB_WORKSPACE/bakaxl-rs/Public/Commits.json
+          cat $GITHUB_WORKSPACE/bakaxl-rs/Public/Commits.json
 
           BUILD_TIME=$(date -u +%s)
           JSON_CONTENT=$(jq -n --arg channel "Bunny" --arg buildtime "$BUILD_TIME" '{Channel: $channel, BuildTime: $buildtime}')
-          echo "$JSON_CONTENT" > ./Public/BuildInfo.json
-          cat ./Public/BuildInfo.json
+          echo "$JSON_CONTENT" > $GITHUB_WORKSPACE/bakaxl-rs/Public/BuildInfo.json
+          cat $GITHUB_WORKSPACE/bakaxl-rs/Public/BuildInfo.json
 
       - name: setup node
         uses: actions/setup-node@v3
