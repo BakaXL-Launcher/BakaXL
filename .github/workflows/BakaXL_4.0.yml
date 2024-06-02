@@ -140,9 +140,8 @@ jobs:
       - name: pnpm add cli (macOS only)
         if: matrix.platform == 'macos-latest'
         run: |
-          cd bakaxl-rs
-          pnpm add @tauri-apps/cli-darwin-arm64
-          pnpm add @tauri-apps/cli-darwin-x64
+          pnpm add -g @tauri-apps/cli-darwin-arm64
+          pnpm add -g @tauri-apps/cli-darwin-x64
       
       - uses: JonasKruckenberg/tauri-build@v1.5.11
         id: tauri_build
