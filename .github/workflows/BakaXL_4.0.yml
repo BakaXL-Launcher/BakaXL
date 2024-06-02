@@ -140,11 +140,10 @@ jobs:
           npm config set registry http://mirrors.cloud.tencent.com/npm/
           npm install -g pnpm
 
-      - name: npm add cli (macOS only)
+      - name: darwin x86_64 package (macOS only)
         if: matrix.platform == 'macos-latest'
         run: |
-          npm install -g @tauri-apps/cli-darwin-arm64
-          npm install -g @tauri-apps/cli-darwin-x64
+          rustup target add x86_64-apple-darwin
       
       - name: link pnpm (ubuntu only)
         if: matrix.platform == 'ubuntu-latest'
