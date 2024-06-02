@@ -82,13 +82,13 @@ jobs:
           echo "[" > Commits.json
           sed '$ s/,$//' Commits.txt >> Commits.json
           echo "]" >> Commits.json
-          cp Commits.json ./Public/Commits.json
+          cp Commits.json ./public/Commits.json
           cat Commits.json
 
           BUILD_TIME=$(date -u +%s)
           JSON_CONTENT=$(jq -n --arg channel "Bunny" --arg buildtime "$BUILD_TIME" '{Channel: $channel, BuildTime: $buildtime}')
-          echo "$JSON_CONTENT" > $GITHUB_WORKSPACE/bakaxl-rs/Public/BuildInfo.json
-          cat $GITHUB_WORKSPACE/bakaxl-rs/Public/BuildInfo.json
+          echo "$JSON_CONTENT" > ./public/BuildInfo.json
+          cat ./public/BuildInfo.json
         shell: bash
 
       - name: setup node
