@@ -4,6 +4,7 @@
 [![](https://img.shields.io/github/issues/BakaXL-Launcher/BakaXL?style=for-the-badge)](https://github.com/BakaXL-Launcher/BakaXL/issues)
 [![](https://img.shields.io/github/forks/BakaXL-Launcher/BakaXL?style=for-the-badge)](https://www.bilibili.com/video/BV1GJ411x7h7/)
 [![](https://img.shields.io/github/stars/BakaXL-Launcher/BakaXL?style=for-the-badge)](https://www.bilibili.com/video/BV1GJ411x7h7/)
+[![](https://img.shields.io/badge/CNB-mirror-ff6200?style=for-the-badge&logo=cloudnativebuild)](https://cnb.cool/BakaXL/BakaXL)
 
 欢迎来到 BakaXL 启动器项目门户！ <br />
 虽然 BakaXL 并不是一个全部开源的项目，但是您可以在这里找到一些我们向您公开的内容！
