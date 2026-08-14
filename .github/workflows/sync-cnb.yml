@@ -1,0 +1,110 @@
+name: Sync to CNB
+
+on:
+  push:
+  release:
+    types: [published, edited]
+
+jobs:
+  # 第一步：同步代码库和标签
+  sync-git:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Sync to CNB Repository
+        uses: docker://tencentcom/git-sync
+        env:
+          PLUGIN_TARGET_URL: "https://cnb.cool/BakaXL/BakaXL"
+          PLUGIN_AUTH_TYPE: "https"
+          PLUGIN_USERNAME: "cnb"
+          PLUGIN_PASSWORD: ${{ secrets.CNB_GIT_PASSWORD }}
+          PLUGIN_FORCE: "true"
+          PLUGIN_PUSH_TAGS: "true"
+
+  # 第二步：在代码/标签同步之后，同步 Release（信息 + 附件）
+  sync-release:
+    needs: sync-git
+    if: github.event_name == 'release'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      # 通过 CNB OpenAPI 创建或更新 Release 的标题/说明/预发布状态
+      - name: Create or update release info on CNB
+        env:
+          CNB_TOKEN: ${{ secrets.CNB_TOKEN }}
+        run: |
+          set -euo pipefail
+
+          REPO="BakaXL/BakaXL"
+          API="https://api.cnb.cool/${REPO}/-/releases"
+
+          TAG=$(jq -r '.release.tag_name' "$GITHUB_EVENT_PATH")
+          TAG_ENC=$(jq -rn --arg v "$TAG" '$v|@uri')
+          NAME=$(jq -r '.release.name // .release.tag_name' "$GITHUB_EVENT_PATH")
+          BODY=$(jq -r '.release.body // ""' "$GITHUB_EVENT_PATH")
+          DRAFT=$(jq -r '.release.draft' "$GITHUB_EVENT_PATH")
+          PRERELEASE=$(jq -r '.release.prerelease' "$GITHUB_EVENT_PATH")
+          LATEST=$(jq -r 'if .release.draft == false and .release.prerelease == false then "true" else "false" end' "$GITHUB_EVENT_PATH")
+
+          echo "==> Checking CNB release for tag: ${TAG}"
+          HTTP_CODE=$(curl -s -o /tmp/cnb_release.json -w "%{http_code}" \
+            -H "Authorization: Bearer ${CNB_TOKEN}" \
+            "${API}/tags/${TAG_ENC}")
+
+          if [ "$HTTP_CODE" = "200" ]; then
+            RELEASE_ID=$(jq -r '.id' /tmp/cnb_release.json)
+            echo "==> Release exists (id=${RELEASE_ID}), updating info"
+            PAYLOAD=$(jq -n \
+              --arg name "$NAME" --arg body "$BODY" \
+              --argjson draft "$DRAFT" --argjson prerelease "$PRERELEASE" \
+              --arg make_latest "$LATEST" \
+              '{name:$name, body:$body, draft:$draft, prerelease:$prerelease, make_latest:$make_latest}')
+            curl -sS -f -X PATCH \
+              -H "Authorization: Bearer ${CNB_TOKEN}" \
+              -H "Content-Type: application/json" \
+              -d "$PAYLOAD" \
+              "${API}/${RELEASE_ID}"
+            echo
+          else
+            echo "==> Release not found, creating"
+            PAYLOAD=$(jq -n \
+              --arg tag "$TAG" --arg name "$NAME" --arg body "$BODY" \
+              --argjson draft "$DRAFT" --argjson prerelease "$PRERELEASE" \
+              --arg make_latest "$LATEST" \
+              '{tag_name:$tag, name:$name, body:$body, draft:$draft, prerelease:$prerelease, make_latest:$make_latest}')
+            curl -sS -f -X POST \
+              -H "Authorization: Bearer ${CNB_TOKEN}" \
+              -H "Content-Type: application/json" \
+              -d "$PAYLOAD" \
+              "${API}"
+            echo
+          fi
+
+      # 下载 GitHub Release 的资产
+      - name: Download GitHub release assets
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p release-assets
+          gh release download "${{ github.event.release.tag_name }}" \
+            --dir release-assets --clobber \
+            || echo "No assets found for this release"
+
+      # 用 cnbcool/attachments 镜像上传资产到 CNB
+      - name: Upload release assets to CNB
+        if: hashFiles('release-assets/**') != ''
+        uses: docker://cnbcool/attachments:latest
+        env:
+          TZ: Asia/Shanghai
+          CNB_TOKEN: ${{ secrets.CNB_TOKEN }}
+          CNB_API_ENDPOINT: "https://api.cnb.cool"
+          CNB_WEB_ENDPOINT: "https://cnb.cool"
+          CNB_REPO_SLUG: "BakaXL/BakaXL"
+          PLUGIN_TAG: ${{ github.event.release.tag_name }}
+          PLUGIN_ATTACHMENTS: "./release-assets/*"
