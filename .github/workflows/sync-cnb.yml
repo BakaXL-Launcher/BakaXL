@@ -68,6 +68,7 @@ jobs:
             curl -sS -f -X PATCH \
               -H "Authorization: Bearer ${CNB_TOKEN}" \
               -H "Content-Type: application/json" \
+              -H 'Accept: application/vnd.cnb.api+json' \
               -d "$PAYLOAD" \
               "${API}/${RELEASE_ID}"
             echo
@@ -81,6 +82,7 @@ jobs:
             curl -sS -f -X POST \
               -H "Authorization: Bearer ${CNB_TOKEN}" \
               -H "Content-Type: application/json" \
+              -H 'Accept: application/vnd.cnb.api+json' \
               -d "$PAYLOAD" \
               "${API}"
             echo
