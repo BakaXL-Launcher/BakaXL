@@ -48,6 +48,9 @@ jobs:
           TAG_ENC=$(jq -rn --arg v "$TAG" '$v|@uri')
           NAME=$(jq -r '.release.name // .release.tag_name' "$GITHUB_EVENT_PATH")
           BODY=$(jq -r '.release.body // ""' "$GITHUB_EVENT_PATH")
+          # 将 Release 介绍中的 GitHub 下载链接替换为 CNB 下载链接
+          BODY=$(printf '%s\n' "$BODY" \
+            | sed 's#https://github\.com/BakaXL-Launcher/BakaXL/releases/download/#https://cnb.cool/BakaXL/BakaXL/-/releases/download/#g')
           DRAFT=$(jq -r '.release.draft' "$GITHUB_EVENT_PATH")
           PRERELEASE=$(jq -r '.release.prerelease' "$GITHUB_EVENT_PATH")
           LATEST=$(jq -r 'if .release.draft == false and .release.prerelease == false then "true" else "false" end' "$GITHUB_EVENT_PATH")
